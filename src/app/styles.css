@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color: #182027;
+    background: #f6f2e8;
+    font-family:
+      "Avenir Next",
+      "Segoe UI",
+      sans-serif;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at top left, rgba(233, 216, 166, 0.55), transparent 30%),
+      linear-gradient(180deg, #f8f4ea 0%, #f1ece2 100%);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .app-shell {
+    @apply mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 py-6 sm:px-6 lg:px-8;
+  }
+
+  .panel {
+    @apply rounded-3xl border border-stone-200 bg-panel shadow-sm;
+  }
+
+  .panel-padding {
+    @apply p-5 sm:p-6;
+  }
+
+  .action-link {
+    @apply inline-flex items-center rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white transition hover:opacity-90;
+  }
+
+  .secondary-link {
+    @apply inline-flex items-center rounded-full border border-stone-300 px-4 py-2 text-sm font-medium text-ink transition hover:bg-stone-100;
+  }
+}

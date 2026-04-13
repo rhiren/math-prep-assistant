@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+# Generated config outputs
+vite.config.js
+vite.config.d.ts
+tailwind.config.js
+tailwind.config.d.ts

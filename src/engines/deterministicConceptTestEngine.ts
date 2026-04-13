@@ -1,0 +1,57 @@
+import type { TestSession } from "../domain/models";
+import type { ContentRepository, TestGenerationService } from "../services/contracts";
+import type { SessionRepository } from "../storage/repositories";
+import { createId } from "../utils/id";
+import type { QuestionSelectionStrategy } from "./questionSelectionStrategy";
+
+export class DeterministicConceptTestEngine implements TestGenerationService {
+  constructor(
+    private readonly contentRepository: ContentRepository,
+    private readonly sessionRepository: SessionRepository,
+    private readonly selectionStrategy: QuestionSelectionStrategy,
+  ) {}
+
+  async createConceptSession(conceptId: string, testSetId?: string): Promise<TestSession> {
+    const concept = await this.contentRepository.getConcept(conceptId);
+    if (!concept) {
+      throw new Error(`Unknown concept: ${conceptId}`);
+    }
+
+    const resolvedTestSetId =
+      testSetId ??
+      (await this.contentRepository.getTestSetsForConcept(conceptId))[0]?.id;
+
+    const questions = resolvedTestSetId
+      ? await this.contentRepository.getQuestionsForTestSet(resolvedTestSetId)
+      : [];
+
+    if (questions.length === 0) {
+      throw new Error(`No questions found for concept ${conceptId}.`);
+    }
+
+    const targetCount = Math.min(concept.testQuestionCount ?? questions.length, questions.length);
+    const selectedQuestions = this.selectionStrategy.selectQuestions(questions, {
+      concept,
+      targetCount,
+    });
+    const now = new Date().toISOString();
+
+    const session: TestSession = {
+      id: createId("session"),
+      mode: "concept",
+      courseId: concept.courseId,
+      conceptId: concept.id,
+      testSetId: resolvedTestSetId,
+      conceptIds: [concept.id],
+      questionIds: selectedQuestions.map((question) => question.id),
+      answers: {},
+      currentQuestionIndex: 0,
+      status: "in_progress",
+      createdAt: now,
+      updatedAt: now,
+    };
+
+    await this.sessionRepository.save(session);
+    return session;
+  }
+}

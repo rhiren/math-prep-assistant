@@ -1,0 +1,36 @@
+{
+  "id": "ratios-review",
+  "conceptId": "concept-ratios",
+  "title": "Review Set",
+  "description": "A short follow-up set for checking simplified ratio thinking.",
+  "questions": [
+    {
+      "id": "course-2-ratios-005",
+      "courseId": "course-2",
+      "unitId": "unit-ratios",
+      "conceptId": "concept-ratios",
+      "tags": ["ratios", "simplify"],
+      "difficulty": "medium",
+      "questionType": "short_text",
+      "answerType": "ratio",
+      "prompt": "Write 18:27 in simplest form.",
+      "correctAnswer": "2:3",
+      "explanation": "Divide both parts of 18:27 by 9.",
+      "eligibleForMixed": true
+    },
+    {
+      "id": "course-2-ratios-006",
+      "courseId": "course-2",
+      "unitId": "unit-ratios",
+      "conceptId": "concept-ratios",
+      "tags": ["ratios", "context"],
+      "difficulty": "hard",
+      "questionType": "short_text",
+      "answerType": "ratio",
+      "prompt": "A bag has 12 blue marbles and 18 green marbles. Write the ratio of blue to green in simplest form.",
+      "correctAnswer": "2:3",
+      "explanation": "Blue to green is 12:18, which simplifies by dividing both terms by 6.",
+      "eligibleForMixed": true
+    }
+  ]
+}

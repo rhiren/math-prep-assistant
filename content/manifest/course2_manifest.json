@@ -1,0 +1,74 @@
+{
+  "courses": [
+    {
+      "id": "course-2",
+      "title": "Course 2",
+      "description": "Foundational math mastery organized by concept, with a local-first test and review workflow.",
+      "order": 1,
+      "units": [
+        {
+          "id": "unit-ratios",
+          "courseId": "course-2",
+          "title": "Ratios and Proportions",
+          "description": "Reason about comparisons, unit rates, and proportional thinking.",
+          "order": 1,
+          "concepts": [
+            {
+              "id": "concept-ratios",
+              "courseId": "course-2",
+              "unitId": "unit-ratios",
+              "title": "Understanding Ratios",
+              "description": "Interpret ratio language and simplify ratios in context.",
+              "tags": ["ratios", "equivalent"],
+              "order": 1,
+              "masteryStatus": "not_started",
+              "testQuestionCount": 4
+            },
+            {
+              "id": "concept-unit-rate",
+              "courseId": "course-2",
+              "unitId": "unit-ratios",
+              "title": "Finding Unit Rates",
+              "description": "Convert multi-unit comparisons into unit rates.",
+              "tags": ["unit-rate", "division"],
+              "order": 2,
+              "masteryStatus": "not_started",
+              "testQuestionCount": 4
+            }
+          ]
+        },
+        {
+          "id": "unit-integers",
+          "courseId": "course-2",
+          "title": "Integers and Number Sense",
+          "description": "Build confidence with signed numbers and ordered values.",
+          "order": 2,
+          "concepts": [
+            {
+              "id": "concept-integer-operations",
+              "courseId": "course-2",
+              "unitId": "unit-integers",
+              "title": "Integer Operations",
+              "description": "Add, subtract, and compare integers with confidence.",
+              "tags": ["integers", "signed-numbers"],
+              "order": 1,
+              "masteryStatus": "not_started",
+              "testQuestionCount": 4
+            },
+            {
+              "id": "concept-compare-integers",
+              "courseId": "course-2",
+              "unitId": "unit-integers",
+              "title": "Comparing Integers",
+              "description": "Learn how to tell which integer is greater or less on a number line.",
+              "tags": ["integers", "comparison", "number-line"],
+              "order": 2,
+              "masteryStatus": "not_started",
+              "testQuestionCount": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ratios-core",
+  "conceptId": "concept-ratios",
+  "title": "Core Practice",
+  "description": "Build confidence with equivalent ratios and ratio language.",
+  "questions": [
+    {
+      "id": "course-2-ratios-001",
+      "courseId": "course-2",
+      "unitId": "unit-ratios",
+      "conceptId": "concept-ratios",
+      "tags": ["ratios", "simplify"],
+      "difficulty": "easy",
+      "questionType": "multiple_choice",
+      "answerType": "ratio",
+      "prompt": "Which ratio is equivalent to 6:9?",
+      "choices": [
+        { "id": "a", "label": "A", "value": "2:3" },
+        { "id": "b", "label": "B", "value": "3:2" },
+        { "id": "c", "label": "C", "value": "6:3" },
+        { "id": "d", "label": "D", "value": "9:6" }
+      ],
+      "correctAnswer": "2:3",
+      "explanation": "Divide both terms of 6:9 by 3 to get 2:3.",
+      "eligibleForMixed": true
+    },
+    {
+      "id": "course-2-ratios-002",
+      "courseId": "course-2",
+      "unitId": "unit-ratios",
+      "conceptId": "concept-ratios",
+      "tags": ["ratios", "language"],
+      "difficulty": "medium",
+      "questionType": "short_text",
+      "answerType": "ratio",
+      "prompt": "A class has 8 girls and 12 boys. Write the ratio of girls to boys in simplest form.",
+      "correctAnswer": "2:3",
+      "explanation": "The ratio 8:12 simplifies by dividing both parts by 4.",
+      "eligibleForMixed": true
+    },
+    {
+      "id": "course-2-ratios-003",
+      "courseId": "course-2",
+      "unitId": "unit-ratios",
+      "conceptId": "concept-ratios",
+      "tags": ["ratios", "comparison"],
+      "difficulty": "hard",
+      "questionType": "multiple_choice",
+      "answerType": "ratio",
+      "prompt": "A recipe uses 10 cups of flour and 4 cups of sugar. What is the ratio of sugar to flour in simplest form?",
+      "choices": [
+        { "id": "a", "label": "A", "value": "2:5" },
+        { "id": "b", "label": "B", "value": "5:2" },
+        { "id": "c", "label": "C", "value": "4:10" },
+        { "id": "d", "label": "D", "value": "10:4" }
+      ],
+      "correctAnswer": "2:5",
+      "explanation": "Sugar to flour is 4:10, which simplifies to 2:5.",
+      "eligibleForMixed": true
+    },
+    {
+      "id": "course-2-ratios-004",
+      "courseId": "course-2",
+      "unitId": "unit-ratios",
+      "conceptId": "concept-ratios",
+      "tags": ["ratios", "numeric"],
+      "difficulty": "challenge",
+      "questionType": "numeric",
+      "answerType": "number",
+      "prompt": "A ratio is equivalent to 3:4. If the first term is 15, what is the second term?",
+      "correctAnswer": "20",
+      "explanation": "Multiply both parts of 3:4 by 5 to get 15:20.",
+      "eligibleForMixed": false
+    }
+  ]
+}
