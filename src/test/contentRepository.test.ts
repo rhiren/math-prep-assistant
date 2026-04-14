@@ -8,7 +8,7 @@ import {
 
 describe("content repository", () => {
   it("builds O(1) question lookup access for loaded content", async () => {
-    const repository = createDefaultContentRepository();
+    const repository = await createDefaultContentRepository();
     const question = await repository.getQuestionById("concept-unit-rates-core-001");
     const testConcept = await repository.getConcept("concept-unit-rates");
     const tutorialConcept = await repository.getConcept("concept-compare-integers");
@@ -27,7 +27,7 @@ describe("content repository", () => {
       "concept-unit-rates-review",
     ]);
     expect(reviewQuestions).toHaveLength(20);
-    expect(tutorialContent).toBeNull();
+    expect(tutorialContent).toContain("#");
   });
 
   it("fails fast when duplicate global question ids are present", () => {

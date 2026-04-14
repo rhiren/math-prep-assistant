@@ -5,7 +5,7 @@ import { createDefaultContentRepository } from "../services/contentRepository";
 
 describe("BasicScoringEngine", () => {
   it("scores correct, incorrect, and unanswered responses with normalization", async () => {
-    const repository = createDefaultContentRepository();
+    const repository = await createDefaultContentRepository();
     const engine = new BasicScoringEngine(repository);
     const session: TestSession = {
       id: "session-1",
@@ -50,7 +50,7 @@ describe("BasicScoringEngine", () => {
   });
 
   it("marks equivalent numeric formatting as correct", async () => {
-    const repository = createDefaultContentRepository();
+    const repository = await createDefaultContentRepository();
     const engine = new BasicScoringEngine(repository);
     const session: TestSession = {
       id: "session-2",

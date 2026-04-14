@@ -14,7 +14,7 @@ import {
 
 describe("session persistence and progress", () => {
   it("stores current index and preserves multiple attempts per concept", async () => {
-    const repository = createDefaultContentRepository();
+    const repository = await createDefaultContentRepository();
     const store = new MemoryStorageService();
     const sessionRepository = new SessionRepository(store);
     const attemptRepository = new AttemptRepository(store);

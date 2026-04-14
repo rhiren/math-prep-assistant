@@ -42,8 +42,10 @@ export interface AppServices {
 
 const AppServicesContext = createContext<AppServices | null>(null);
 
-export function createAppServices(store: StorageService = new MemoryStorageService()): AppServices {
-  const contentRepository = createDefaultContentRepository();
+export async function createAppServices(
+  store: StorageService = new MemoryStorageService(),
+): Promise<AppServices> {
+  const contentRepository = await createDefaultContentRepository();
   const sessionRepository = new SessionRepository(store);
   const attemptRepository = new AttemptRepository(store);
   const progressRepository = new ProgressRepository(store);

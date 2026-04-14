@@ -7,7 +7,7 @@ import { SessionRepository } from "../storage/repositories";
 
 describe("DeterministicConceptTestEngine", () => {
   it("uses the injected selection strategy hook", async () => {
-    const repository = createDefaultContentRepository();
+    const repository = await createDefaultContentRepository();
     const sessionRepository = new SessionRepository(new MemoryStorageService());
     const selectQuestions = vi.fn((questions, _context) => questions.slice(0, 1));
     const strategy: QuestionSelectionStrategy = {
@@ -27,7 +27,7 @@ describe("DeterministicConceptTestEngine", () => {
   });
 
   it("keeps deterministic stable ordering by default", async () => {
-    const repository = createDefaultContentRepository();
+    const repository = await createDefaultContentRepository();
     const sessionRepository = new SessionRepository(new MemoryStorageService());
     const engine = new DeterministicConceptTestEngine(
       repository,

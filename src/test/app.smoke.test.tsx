@@ -15,7 +15,7 @@ describe("app smoke flow", () => {
     const router = createMemoryRouter(routes, {
       initialEntries: ["/courses"],
     });
-    const services = createAppServices(new MemoryStorageService());
+    const services = await createAppServices(new MemoryStorageService());
 
     render(
       <AppServicesProvider services={services}>

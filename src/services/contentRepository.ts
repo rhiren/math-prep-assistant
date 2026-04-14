@@ -15,21 +15,23 @@ import type {
 import { normalizeConceptId } from "../utils/conceptIds";
 import type { ContentRepository } from "./contracts";
 
-const manifestModules = import.meta.glob("../../content/manifest/*.json", {
+const bundledManifestModules = import.meta.glob("../../content/manifest/*.json", {
   eager: true,
   import: "default",
 }) as Record<string, unknown>;
 
-const testSetModules = import.meta.glob("../../content/test-sets/*.json", {
+const bundledTestSetModules = import.meta.glob("../../content/test-sets/*.json", {
   eager: true,
   import: "default",
 }) as Record<string, unknown>;
 
-const tutorialModules = import.meta.glob("../../content/tutorials/*.md", {
+const bundledTutorialModules = import.meta.glob("../../content/tutorials/*.md", {
   eager: true,
   query: "?raw",
   import: "default",
 }) as Record<string, string>;
+
+const DEFAULT_MANIFEST_PATHS = ["./content/manifest/course2_manifest.json"];
 
 function logContentValidationError(message: string, details: Record<string, unknown>): void {
   console.error(`[content] ${message}`, details);
@@ -82,6 +84,73 @@ function toMasteryStatus(value: unknown): Concept["masteryStatus"] {
 function getTutorialConceptId(tutorialPath: string): string | null {
   const fileName = tutorialPath.split("/").pop();
   return fileName?.replace(".md", "") ?? null;
+}
+
+function getPathFileName(path: string): string {
+  return path.split("/").pop() ?? path;
+}
+
+function toRuntimeContentPath(modulePath: string, folder: "manifest" | "test-sets" | "tutorials"): string {
+  return `./content/${folder}/${getPathFileName(modulePath)}`;
+}
+
+function buildBundledContentMap<T>(
+  modules: Record<string, T>,
+  folder: "manifest" | "test-sets" | "tutorials",
+): Record<string, T> {
+  return Object.fromEntries(
+    Object.entries(modules).map(([modulePath, value]) => [
+      toRuntimeContentPath(modulePath, folder),
+      value,
+    ]),
+  );
+}
+
+const bundledManifestFiles = buildBundledContentMap(bundledManifestModules, "manifest");
+const bundledTestSetFiles = buildBundledContentMap(bundledTestSetModules, "test-sets");
+const bundledTutorialFiles = buildBundledContentMap(bundledTutorialModules, "tutorials");
+
+function getBundledContentFallback<T>(path: string, type: "json" | "text"): T | null {
+  if (type === "text") {
+    return ((bundledTutorialFiles[path] ?? null) as T | null);
+  }
+
+  return (((bundledManifestFiles[path] ?? bundledTestSetFiles[path]) ?? null) as T | null);
+}
+
+async function fetchContentFile<T>(path: string, type: "json" | "text"): Promise<T | null> {
+  console.log("Loading content from:", path);
+
+  try {
+    const response = await fetch(path);
+    if (!response.ok) {
+      const fallback = getBundledContentFallback<T>(path, type);
+      if (fallback !== null) {
+        return fallback;
+      }
+
+      logContentValidationError("Failed to load content file.", {
+        path,
+        status: response.status,
+      });
+      return null;
+    }
+
+    return type === "json"
+      ? ((await response.json()) as T)
+      : ((await response.text()) as T);
+  } catch (error) {
+    const fallback = getBundledContentFallback<T>(path, type);
+    if (fallback !== null) {
+      return fallback;
+    }
+
+    logContentValidationError("Failed to fetch content file.", {
+      path,
+      error: error instanceof Error ? error.message : String(error),
+    });
+    return null;
+  }
 }
 
 function buildChoiceLabel(index: number): string {
@@ -138,21 +207,26 @@ function normalizeManifestDocument(rawManifest: unknown): CourseManifestDocument
               title: toStringValue(unit.title, `Unit ${unitIndex + 1}`),
               description: toStringValue(unit.description),
               order: toNumberValue(unit.order, unitIndex + 1),
-              concepts: rawConcepts.filter(isRecord).map((concept, conceptIndex): Concept => ({
-                id: toStringValue(concept.id, `${unitId}-concept-${conceptIndex + 1}`),
-                courseId,
-                unitId,
-                title: toStringValue(concept.title, `Concept ${conceptIndex + 1}`),
-                description: toStringValue(concept.description),
-                tags: toStringArray(concept.tags),
-                order: toNumberValue(concept.order, conceptIndex + 1),
-                masteryStatus: toMasteryStatus(concept.masteryStatus),
-                testQuestionCount:
-                  typeof concept.testQuestionCount === "number"
-                    ? concept.testQuestionCount
-                    : undefined,
-                hasTest: false,
-              })),
+              concepts: rawConcepts.filter(isRecord).map((concept, conceptIndex): Concept => {
+                const conceptRecord = concept as Record<string, unknown>;
+
+                return {
+                  ...conceptRecord,
+                  id: toStringValue(concept.id, `${unitId}-concept-${conceptIndex + 1}`),
+                  courseId,
+                  unitId,
+                  title: toStringValue(concept.title, `Concept ${conceptIndex + 1}`),
+                  description: toStringValue(concept.description),
+                  tags: toStringArray(concept.tags),
+                  order: toNumberValue(concept.order, conceptIndex + 1),
+                  masteryStatus: toMasteryStatus(concept.masteryStatus),
+                  testQuestionCount:
+                    typeof concept.testQuestionCount === "number"
+                      ? concept.testQuestionCount
+                      : undefined,
+                  hasTest: false,
+                } as Concept;
+              }),
             };
           }),
         };
@@ -499,42 +573,139 @@ export class StaticContentRepository implements ContentRepository {
   }
 }
 
-export function createDefaultContentRepository(): StaticContentRepository {
-  const manifests = Object.entries(manifestModules)
+async function loadRuntimeManifest(): Promise<CourseManifestDocument> {
+  const manifests = (
+    await Promise.all(DEFAULT_MANIFEST_PATHS.map((path) => fetchContentFile<unknown>(path, "json")))
+  ).filter((manifest): manifest is unknown => manifest !== null);
+
+  if (manifests.length === 0) {
+    throw new Error("No course manifest found in ./content/manifest.");
+  }
+
+  return normalizeManifestDocument({
+    courses: manifests.flatMap((entry) => normalizeManifestDocument(entry).courses),
+  });
+}
+
+function loadTestManifest(): CourseManifestDocument {
+  const manifests = Object.entries(bundledManifestModules)
     .sort(([leftPath], [rightPath]) => leftPath.localeCompare(rightPath))
     .map(([, manifest]) => manifest);
 
   if (manifests.length === 0) {
-    throw new Error("No course manifest found in /content/manifest.");
+    throw new Error("No course manifest found in ./content/manifest.");
   }
 
-  const tutorialsByConceptId = Object.fromEntries(
-    Object.entries(tutorialModules)
+  return normalizeManifestDocument({
+    courses: manifests.flatMap((entry) => normalizeManifestDocument(entry).courses),
+  });
+}
+
+async function loadRuntimeTutorials(
+  manifest: CourseManifestDocument,
+): Promise<Record<string, string>> {
+  const tutorialPaths = Array.from(
+    new Set(
+      manifest.courses.flatMap((course) =>
+        course.units.flatMap((unit) =>
+          unit.concepts
+            .map((concept) => (concept as unknown as Record<string, unknown>).tutorial)
+            .filter((path): path is string => typeof path === "string"),
+        ),
+      ),
+    ),
+  ).sort((left, right) => left.localeCompare(right));
+
+  const tutorials = await Promise.all(
+    tutorialPaths.map(async (path) => {
+      const content = await fetchContentFile<string>(path, "text");
+      const conceptId = getTutorialConceptId(path);
+      return content && conceptId ? ([conceptId, content] as const) : null;
+    }),
+  );
+
+  return Object.fromEntries(tutorials.filter((entry): entry is readonly [string, string] => entry !== null));
+}
+
+function loadTestTutorials(): Record<string, string> {
+  return Object.fromEntries(
+    Object.entries(bundledTutorialModules)
       .sort(([leftPath], [rightPath]) => leftPath.localeCompare(rightPath))
       .map(([path, content]) => {
-      const conceptId = path.split("/").pop()?.replace(".md", "");
-      if (!conceptId) {
-        throw new Error(`Cannot derive tutorial concept id from path ${path}`);
-      }
+        const conceptId = path.split("/").pop()?.replace(".md", "");
+        if (!conceptId) {
+          throw new Error(`Cannot derive tutorial concept id from path ${path}`);
+        }
 
-      return [conceptId, content];
+        return [conceptId, content];
       }),
   );
+}
+
+async function loadRuntimeQuestionBanks(
+  manifest: CourseManifestDocument,
+): Promise<Array<{ path: string; document: unknown }>> {
+  const testPaths = Array.from(
+    new Set(
+      manifest.courses.flatMap((course) =>
+        course.units.flatMap((unit) =>
+          unit.concepts.flatMap((concept) => {
+            const listedTests = Array.isArray((concept as unknown as Record<string, unknown>).tests)
+              ? ((concept as unknown as Record<string, unknown>).tests as unknown[])
+              : [];
+
+            return listedTests
+              .filter(isRecord)
+              .map((test) => toStringValue(test.path))
+              .filter(Boolean);
+          }),
+        ),
+      ),
+    ),
+  ).sort((left, right) => left.localeCompare(right));
+
+  const documents: Array<{ path: string; document: unknown } | null> = await Promise.all(
+    testPaths.map(async (path) => {
+      const document = await fetchContentFile<unknown>(path, "json");
+      return document !== null ? { path, document } : null;
+    }),
+  );
+
+  return documents.filter(
+    (entry): entry is { path: string; document: unknown } => entry !== null,
+  );
+}
+
+function loadTestQuestionBanks(): Array<{ path: string; document: unknown }> {
+  return Object.entries(bundledTestSetModules)
+    .sort(([leftPath], [rightPath]) => leftPath.localeCompare(rightPath))
+    .map(([path, document]) => ({
+      path: `./content/test-sets/${getPathFileName(path)}`,
+      document,
+    }));
+}
+
+export async function createDefaultContentRepository(): Promise<StaticContentRepository> {
+  const manifest = import.meta.env.MODE === "test" ? loadTestManifest() : await loadRuntimeManifest();
+  const tutorialsByConceptId =
+    import.meta.env.MODE === "test" ? loadTestTutorials() : await loadRuntimeTutorials(manifest);
+  const loadedQuestionBanks =
+    import.meta.env.MODE === "test"
+      ? loadTestQuestionBanks()
+      : await loadRuntimeQuestionBanks(manifest);
 
   const validationResult = validateManifest(
-    normalizeManifestDocument({
-      courses: manifests.flatMap((entry) => normalizeManifestDocument(entry).courses),
-    }),
+    manifest,
     tutorialsByConceptId,
-    Object.entries(testSetModules).map(([path, testSet]) => ({
-      path: `/content/test-sets/${path.split("/").pop()}`,
-      ...(isRecord(testSet) ? testSet : {}),
+    loadedQuestionBanks.map(({ path, document }) => ({
+      path,
+      ...(isRecord(document) ? document : {}),
     })),
   );
-  const manifest = validationResult.manifest;
+  const validatedManifest = validationResult.manifest;
 
   const validConceptIds = new Set(
-    manifest.courses.flatMap((course) =>
+    validatedManifest.courses.flatMap((course) =>
       course.units.flatMap((unit) => unit.concepts.map((concept) => concept.id)),
     ),
   );
@@ -547,7 +718,7 @@ export function createDefaultContentRepository(): StaticContentRepository {
   const seenQuestionIds = new Set<string>();
   let skippedTestSets = 0;
   const conceptMetaById = Object.fromEntries(
-    manifest.courses.flatMap((course) =>
+    validatedManifest.courses.flatMap((course) =>
       course.units.flatMap((unit) =>
         unit.concepts.map((concept) => [
           concept.id,
@@ -559,9 +730,9 @@ export function createDefaultContentRepository(): StaticContentRepository {
       ),
     ),
   );
-  const manifestDrivenTestSets = Object.entries(testSetModules)
-    .sort(([leftPath], [rightPath]) => leftPath.localeCompare(rightPath))
-    .flatMap(([path, rawDocument]) => {
+  const manifestDrivenTestSets = loadedQuestionBanks
+    .sort((left, right) => left.path.localeCompare(right.path))
+    .flatMap(({ path, document: rawDocument }) => {
       const document = isRecord(rawDocument) ? rawDocument : {};
       const normalizedConceptId = normalizeConceptId(toStringValue(document.conceptId));
       if (!normalizedConceptId || !validConceptIds.has(normalizedConceptId)) {
@@ -688,7 +859,7 @@ export function createDefaultContentRepository(): StaticContentRepository {
     });
 
   if (import.meta.env.MODE !== "test") {
-    const conceptCount = manifest.courses.flatMap((course) =>
+    const conceptCount = validatedManifest.courses.flatMap((course) =>
       course.units.flatMap((unit) => unit.concepts),
     ).length;
     const skippedCount = validationResult.skippedConcepts + skippedTestSets;
@@ -698,7 +869,7 @@ export function createDefaultContentRepository(): StaticContentRepository {
   }
 
   return new StaticContentRepository(
-    manifest,
+    validatedManifest,
     manifestDrivenTestSets,
     manifestDrivenTutorials,
   );
