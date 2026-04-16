@@ -3,16 +3,22 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { ScoreSummary } from "../components/ScoreSummary";
 import type { Question, TestAttempt } from "../domain/models";
 import { useAppServices } from "../state/AppServicesProvider";
+import { useTestMode } from "../state/TestModeProvider";
 import { formatDate } from "../utils/format";
 
 export function ResultsPage() {
   const { attemptId } = useParams();
   const navigate = useNavigate();
   const { contentRepository, progressService, testGenerationService } = useAppServices();
+  const { setIsTestMode } = useTestMode();
   const [attempt, setAttempt] = useState<TestAttempt | null>(null);
   const [questionsById, setQuestionsById] = useState<Record<string, Question>>({});
   const [testSetTitle, setTestSetTitle] = useState<string | null>(null);
   const [isRetrying, setIsRetrying] = useState(false);
+
+  useEffect(() => {
+    setIsTestMode(false);
+  }, [setIsTestMode]);
 
   useEffect(() => {
     if (!attemptId) {

@@ -7,6 +7,7 @@ import {
   AppServicesProvider,
   createAppServices,
 } from "../state/AppServicesProvider";
+import { TestModeProvider } from "../state/TestModeProvider";
 import { MemoryStorageService } from "../storage/memoryStorageService";
 
 describe("app smoke flow", () => {
@@ -19,14 +20,18 @@ describe("app smoke flow", () => {
 
     render(
       <AppServicesProvider services={services}>
-        <RouterProvider router={router} />
+        <TestModeProvider>
+          <RouterProvider router={router} />
+        </TestModeProvider>
       </AppServicesProvider>,
     );
 
     expect(await screen.findByText("Course 2")).toBeInTheDocument();
     await user.click(screen.getByRole("link", { name: "Open course" }));
 
-    expect(await screen.findByText("Ratios and Proportions")).toBeInTheDocument();
+    expect(
+      await screen.findByText("Ratios and Proportional Relationships"),
+    ).toBeInTheDocument();
     await user.click(screen.getAllByRole("link", { name: "Open concept" })[0]);
 
     expect(await screen.findByText("Tutorial and test sets")).toBeInTheDocument();

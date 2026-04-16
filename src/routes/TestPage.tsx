@@ -4,15 +4,24 @@ import { QuestionNav } from "../components/QuestionNav";
 import { QuestionRenderer } from "../components/QuestionRenderer";
 import type { Question, TestSession } from "../domain/models";
 import { useAppServices } from "../state/AppServicesProvider";
+import { useTestMode } from "../state/TestModeProvider";
 
 export function TestPage() {
   const { sessionId } = useParams();
   const navigate = useNavigate();
   const { contentRepository, sessionService } = useAppServices();
+  const { setIsTestMode } = useTestMode();
   const [session, setSession] = useState<TestSession | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [flaggedQuestionIds, setFlaggedQuestionIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    setIsTestMode(true);
+    return () => {
+      setIsTestMode(false);
+    };
+  }, [setIsTestMode]);
 
   useEffect(() => {
     if (!sessionId) {

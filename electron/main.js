@@ -3,8 +3,8 @@ const path = require('path');
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 1000,
-    height: 800,
+    width: 1200,
+    height: 900,
     autoHideMenuBar: true,
     backgroundColor: "#ffffff",
     title: "Math Practice",
@@ -17,6 +17,9 @@ function createWindow() {
   win.webContents.setZoomFactor(1);
   win.webContents.setVisualZoomLevelLimits(1, 1);
   win.webContents.on('will-navigate', (e) => e.preventDefault());
+  win.once('ready-to-show', () => {
+    win.setFullScreen(true);
+  });
 
   win.loadFile(path.join(__dirname, '../dist/index.html'));
 }
