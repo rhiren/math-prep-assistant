@@ -12,7 +12,6 @@ function isPlaceholderConfig(config: typeof firebaseConfig): boolean {
 }
 
 export const isFirebaseConfigured = !isPlaceholderConfig(firebaseConfig);
-
 export const firebaseApp: FirebaseApp | null = isFirebaseConfigured
   ? initializeApp(firebaseConfig)
   : null;

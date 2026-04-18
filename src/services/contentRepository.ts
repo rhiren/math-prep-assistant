@@ -148,8 +148,6 @@ function getBundledContentFallback<T>(path: string, type: "json" | "text"): T | 
 }
 
 async function fetchContentFile<T>(path: string, type: "json" | "text"): Promise<T | null> {
-  console.log("Loading content from:", path);
-
   try {
     const response = await fetch(path);
     if (!response.ok) {

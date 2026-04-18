@@ -5,7 +5,11 @@ import {
   setDoc,
   type Firestore,
 } from "firebase/firestore";
-import type { DataTransferServiceContract, ProgressService } from "./contracts";
+import type {
+  DataTransferServiceContract,
+  ProgressService,
+  SessionService,
+} from "./contracts";
 import {
   getProgressSnapshotLastModified,
   type ProgressSnapshot,
@@ -203,6 +207,38 @@ export class ProgressSyncManager {
   private setStatus(status: ProgressSyncStatus): void {
     this.status = status;
     this.listeners.forEach((listener) => listener(status));
+  }
+}
+
+export class SyncingSessionService implements SessionService {
+  constructor(
+    private readonly delegate: SessionService,
+    private readonly syncManager: ProgressSyncManager,
+  ) {}
+
+  getSession(sessionId: string) {
+    return this.delegate.getSession(sessionId);
+  }
+
+  getLatestInProgressSession() {
+    return this.delegate.getLatestInProgressSession();
+  }
+
+  async saveAnswer(
+    sessionId: string,
+    answer: Parameters<SessionService["saveAnswer"]>[1],
+  ): Promise<void> {
+    await this.delegate.saveAnswer(sessionId, answer);
+    this.syncManager.syncInBackground();
+  }
+
+  async setCurrentQuestionIndex(sessionId: string, index: number): Promise<void> {
+    await this.delegate.setCurrentQuestionIndex(sessionId, index);
+    this.syncManager.syncInBackground();
+  }
+
+  submitSession(sessionId: string) {
+    return this.delegate.submitSession(sessionId);
   }
 }
 

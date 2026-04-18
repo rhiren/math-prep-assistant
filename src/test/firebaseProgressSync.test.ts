@@ -6,12 +6,13 @@ import {
 } from "../services/dataTransferService";
 import {
   ProgressSyncManager,
+  SyncingSessionService,
   SyncingProgressService,
   type ProgressSyncClient,
 } from "../services/firebaseProgressSync";
 import { DEFAULT_STUDENT_ID } from "../services/studentProfileService";
-import type { ProgressService } from "../services/contracts";
-import type { ProgressRecord, TestAttempt } from "../domain/models";
+import type { ProgressService, SessionService } from "../services/contracts";
+import type { AnswerRecord, ProgressRecord, TestAttempt } from "../domain/models";
 import { MemoryStorageService } from "../storage/memoryStorageService";
 import { STORE_NAMES } from "../storage/repositories";
 
@@ -167,5 +168,35 @@ describe("SyncingProgressService", () => {
 
     expect(updateFromAttempt).toHaveBeenCalledWith(attempt);
     expect(client.savedSnapshots).toHaveLength(1);
+  });
+});
+
+describe("SyncingSessionService", () => {
+  it("triggers background sync when answers are saved", async () => {
+    const saveAnswer = vi.fn<SessionService["saveAnswer"]>().mockResolvedValue();
+    const delegate: SessionService = {
+      getSession: vi.fn().mockResolvedValue(null),
+      getLatestInProgressSession: vi.fn().mockResolvedValue(null),
+      saveAnswer,
+      setCurrentQuestionIndex: vi.fn().mockResolvedValue(undefined),
+      submitSession: vi.fn<SessionService["submitSession"]>(),
+    };
+
+    const syncInBackground = vi.fn();
+    const service = new SyncingSessionService(
+      delegate,
+      { syncInBackground } as unknown as ProgressSyncManager,
+    );
+
+    const answer: AnswerRecord = {
+      questionId: "question-1",
+      response: "42",
+      answeredAt: "2026-04-12T12:00:00.000Z",
+    };
+
+    await service.saveAnswer("session-1", answer);
+
+    expect(saveAnswer).toHaveBeenCalledWith("session-1", answer);
+    expect(syncInBackground).toHaveBeenCalledTimes(1);
   });
 });

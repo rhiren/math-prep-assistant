@@ -16,6 +16,7 @@ import { DataTransferService } from "../services/dataTransferService";
 import {
   FirestoreProgressSyncClient,
   ProgressSyncManager,
+  SyncingSessionService,
   type ProgressSyncStatus,
   SyncingDataTransferService,
   SyncingProgressService,
@@ -85,12 +86,15 @@ export async function createAppServices(
     ? new SyncingProgressService(localProgressService, options.progressSyncManager)
     : localProgressService;
   const scoringService = new BasicScoringEngine(contentRepository);
-  const sessionService = new LocalSessionService(
+  const localSessionService = new LocalSessionService(
     sessionRepository,
     attemptRepository,
     scoringService,
     progressService,
   );
+  const sessionService = options.progressSyncManager
+    ? new SyncingSessionService(localSessionService, options.progressSyncManager)
+    : localSessionService;
   const selectionStrategy = new StableSelectionStrategy();
   const testGenerationService = new DeterministicConceptTestEngine(
     contentRepository,
