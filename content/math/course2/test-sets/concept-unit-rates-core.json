@@ -21,17 +21,17 @@
     {
       "id": "concept-unit-rates-core-002",
       "type": "multiple_choice",
-      "questionText": "A notebook table shows 3 notebooks cost $6, 6 notebooks cost $12, and 9 notebooks cost $18. What is the cost of 1 notebook?",
+      "questionText": "A notebook table is supposed to show the same price per notebook in every row. Which row is incorrect? 1) 3 notebooks cost $6  2) 6 notebooks cost $12  3) 9 notebooks cost $18  4) 12 notebooks cost $26",
       "options": [
         "1",
         "2",
         "3",
-        "6"
+        "4"
       ],
-      "correctAnswer": "2",
+      "correctAnswer": "4",
       "difficulty": "easy",
       "answerType": "number",
-      "explanation": "Any row in the table can be used to find the unit price. For example, 12 divided by 6 equals 2, so each notebook costs 2 dollars. A likely mistake is picking 6 because it appears in the table, but 6 is the number of notebooks, not the cost of one notebook.",
+      "explanation": "The first three rows all show a unit price of 2 dollars per notebook. If 12 notebooks keep that same rate, they should cost 24 dollars, not 26. A likely mistake is checking only that the numbers get larger instead of checking the price per notebook.",
       "unit": "dollars"
     },
     {
@@ -467,18 +467,18 @@
     {
       "id": "concept-unit-rates-core-031",
       "type": "multiple_choice",
-      "questionText": "An energy drink costs $2.40 for 16 ounces. Which value is ounces per dollar, not dollars per ounce?",
+      "questionText": "A sports drink costs $2.40 for 16 ounces. Which statement is true?",
       "options": [
-        "0.12",
-        "1.5",
-        "6.67",
-        "38.4"
+        "The unit price is $6.67 per ounce",
+        "The drink gives about 6.67 ounces per dollar",
+        "The drink gives 0.15 ounces per dollar",
+        "There is not enough information"
       ],
-      "correctAnswer": "6.67",
+      "correctAnswer": "The drink gives about 6.67 ounces per dollar",
       "difficulty": "hard",
       "answerType": "decimal",
-      "explanation": "Ounces per dollar reverses the usual cost-per-ounce rate. Divide 16 by 2.40 to get about 6.67 ounces per dollar. The likely mistake is choosing 0.15, because 2.40 divided by 16 gives dollars per ounce, not ounces per dollar.",
-      "unit": "dollars"
+      "explanation": "Ounces per dollar means divide ounces by dollars: 16 divided by 2.40 is about 6.67. If you divide 2.40 by 16, you get 0.15 dollars per ounce, which is a different unit rate. The likely mistake is mixing up dollars per ounce with ounces per dollar.",
+      "unit": "ounces per dollar"
     },
     {
       "id": "concept-unit-rates-core-032",
@@ -728,17 +728,17 @@
     {
       "id": "concept-unit-rates-core-048",
       "type": "multiple_choice",
-      "questionText": "A taxi charges $7.20 for 3.6 miles. Which expression finds the cost per mile?",
+      "questionText": "Store A sells 18 ounces of granola for $4.50. Store B sells 2.5 pounds of granola for $9. Which store has the lower price per ounce?",
       "options": [
-        "7.20 + 3.6",
-        "7.20 - 3.6",
-        "7.20 / 3.6",
-        "3.6 / 7.20"
+        "Store A",
+        "Store B",
+        "Both stores have the same price per ounce",
+        "There is not enough information"
       ],
-      "correctAnswer": "7.20 / 3.6",
+      "correctAnswer": "Store B",
       "difficulty": "challenge",
       "answerType": "decimal",
-      "explanation": "Cost per mile means dollars divided by miles. So 7.20 divided by 3.6 is the correct expression. Reversing the numbers would give miles per dollar, which is a different rate."
+      "explanation": "Store A costs 4.50 divided by 18, which is 0.25 dollars per ounce. Store B sells 2.5 pounds, which is 40 ounces, so its unit price is 9 divided by 40, or 0.225 dollars per ounce. Since 0.225 is lower than 0.25, Store B is the better buy. A likely mistake is forgetting to convert pounds to ounces before comparing the prices."
     },
     {
       "id": "concept-unit-rates-core-049",

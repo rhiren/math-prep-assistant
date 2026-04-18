@@ -240,12 +240,12 @@
     {
       "id": "concept-percent-relationships-core-024",
       "type": "multiple_choice",
-      "questionText": "A table shows 100% = 80, 60% = 48, 30% = 24. Which row is incorrect?",
-      "options": ["100% = 80", "60% = 48", "30% = 24", "none of them"],
-      "correctAnswer": "none of them",
+      "questionText": "A table shows 100% = 80, 60% = 48, 30% = 26. Which row is incorrect?",
+      "options": ["100% = 80", "60% = 48", "30% = 26", "none of them"],
+      "correctAnswer": "30% = 26",
       "difficulty": "medium",
       "answerType": "number",
-      "explanation": "Thirty percent of 80 should be 0.3 times 80, which is 24. That means all the rows are actually correct, so none of them is incorrect. A common mistake is not checking the multiplication carefully.",
+      "explanation": "Thirty percent of 80 is 0.3 times 80, which equals 24, not 26. The 100% and 60% rows are correct, but the 30% row breaks the pattern. A common mistake is trusting the table just because the first two rows work.",
       "unit": "value"
     },
     {
@@ -435,12 +435,12 @@
     {
       "id": "concept-percent-relationships-core-043",
       "type": "multiple_choice",
-      "questionText": "A sign says 'Save 20% on $75.' Another says 'Save $12 on $60.' Which deal gives the greater percent discount?",
+      "questionText": "A sign says 'Save 20% on $75.' Another says 'Save $15 on $60.' Which deal gives the greater percent discount?",
       "options": ["The first deal", "The second deal", "The discounts are equal", "Not enough information"],
-      "correctAnswer": "The discounts are equal",
+      "correctAnswer": "The second deal",
       "difficulty": "hard",
       "answerType": "number",
-      "explanation": "The first deal is 20%. The second deal is 12 divided by 60, which is 20%, so the discounts are equal. A common mistake is comparing 15 dollars and 12 dollars instead of comparing the percents.",
+      "explanation": "The first deal is a 20% discount. The second deal saves 15 dollars on 60 dollars, and 15 divided by 60 equals 25%. Since 25% is greater than 20%, the second deal gives the larger percent discount. A common mistake is comparing the dollar amounts without turning both deals into percents.",
       "unit": "comparison"
     },
     {

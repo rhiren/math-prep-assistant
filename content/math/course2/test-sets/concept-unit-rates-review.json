@@ -6,17 +6,17 @@
     {
       "id": "concept-unit-rates-review-001",
       "type": "multiple_choice",
-      "questionText": "A fruit stand table shows 2 apples cost $4, 4 apples cost $8, and 6 apples cost $12. What is the cost of 1 apple?",
+      "questionText": "A fruit stand table is supposed to show the same price per apple in every row. Which row is incorrect? 1) 2 apples cost $4  2) 4 apples cost $8  3) 6 apples cost $10  4) 8 apples cost $16",
       "options": [
         "1",
         "2",
-        "4",
-        "6"
+        "3",
+        "4"
       ],
-      "correctAnswer": "2",
+      "correctAnswer": "3",
       "difficulty": "easy",
       "answerType": "number",
-      "explanation": "Use any row in the table to find the unit price. For example, 8 divided by 4 equals 2, so each apple costs 2 dollars. A likely mistake is choosing 4 because it appears in the table, but 4 is the number of apples, not the cost of one apple.",
+      "explanation": "The first, second, and fourth rows all show apples costing 2 dollars each. If 6 apples keep that same unit price, they should cost 12 dollars, not 10. A likely mistake is checking only whether the numbers get bigger instead of checking the cost for one apple.",
       "unit": "dollars"
     },
     {

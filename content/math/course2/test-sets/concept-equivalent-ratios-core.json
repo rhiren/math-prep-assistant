@@ -166,12 +166,12 @@
     {
       "id": "concept-equivalent-ratios-core-017",
       "type": "multiple_choice",
-      "questionText": "A ratio of 3:4 is used for boys to girls. Which pair shows an equivalent ratio with 49 students total? 1) 18 boys and 31 girls  2) 21 boys and 28 girls  3) 24 boys and 25 girls  4) 14 boys and 35 girls",
+      "questionText": "A ratio table starts with 3 blue flags for every 4 white flags. Which row must be wrong if the table is proportional? 1) 6 blue flags and 8 white flags  2) 9 blue flags and 12 white flags  3) 12 blue flags and 15 white flags  4) 15 blue flags and 20 white flags",
       "options": ["1", "2", "3", "4"],
-      "correctAnswer": "2",
+      "correctAnswer": "3",
       "difficulty": "medium",
       "answerType": "number",
-      "explanation": "The ratio 3:4 has 7 total parts. Forty-nine divided by 7 equals 7 students per part, so the counts are 21 and 28. A common mistake is choosing any pair that adds to 49 without checking whether it matches the ratio."
+      "explanation": "A proportional table must multiply both parts by the same scale factor. Choices 1, 2, and 4 all keep the ratio 3:4, but 12:15 simplifies to 4:5, not 3:4. A common mistake is checking only whether the numbers increase, instead of whether both parts scale by the same factor."
     },
     {
       "id": "concept-equivalent-ratios-core-018",
@@ -296,12 +296,12 @@
     {
       "id": "concept-equivalent-ratios-core-030",
       "type": "multiple_choice",
-      "questionText": "A ratio of 1 yard to 18 inches becomes what simplest ratio after changing both measurements to inches?",
-      "options": ["2", "3/2", "1/2", "18"],
-      "correctAnswer": "2",
+      "questionText": "A ratio of 1 yard to 18 inches is rewritten after converting both measures to inches. Which statement is true?",
+      "options": ["The simplified ratio is 2:1", "The simplified ratio is 3:2", "The simplified ratio is 1:2", "The ratio cannot be simplified because the original units were different"],
+      "correctAnswer": "The simplified ratio is 2:1",
       "difficulty": "medium",
       "answerType": "number",
-      "explanation": "One yard is 36 inches, so the ratio becomes 36 to 18. Simplify by dividing both numbers by 18 to get 2 to 1, so the numeric value of the ratio is 2. A common mistake is forgetting to convert the yard to inches before simplifying."
+      "explanation": "One yard is 36 inches, so the ratio becomes 36:18. Divide both numbers by 18 to simplify and you get 2:1. A common mistake is skipping the unit conversion and trying to compare 1 yard directly to 18 inches."
     },
     {
       "id": "concept-equivalent-ratios-core-031",

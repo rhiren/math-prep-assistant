@@ -434,12 +434,12 @@
     {
       "id": "concept-proportions-core-043",
       "type": "multiple_choice",
-      "questionText": "A student writes 3 inches / 12 feet = 6 inches / x feet for a scale drawing. Which statement is true? 1) The setup is correct because both ratios compare drawing to real length  2) The setup is wrong because the units must match within each ratio before solving  3) The setup is wrong only because 6 is even  4) The setup is correct only if x is 18",
-      "options": ["1", "2", "3", "4"],
-      "correctAnswer": "1",
+      "questionText": "A student writes 3 inches / 12 feet = 6 inches / x feet for a scale drawing. What is the best reason this setup can still work?",
+      "options": ["Both ratios compare drawing length to real length in the same order", "It works only because 3 and 6 are both inches", "It works only if x equals 18", "It cannot work unless every length is already in inches"],
+      "correctAnswer": "Both ratios compare drawing length to real length in the same order",
       "difficulty": "hard",
       "answerType": "number",
-      "explanation": "The setup is correct because each ratio compares drawing length to real length in the same order. You can solve it as written, although converting the real lengths to the same unit can make the work easier to check. A common mistake is reversing one ratio or thinking proportions fail just because the units are different kinds of length."
+      "explanation": "The setup can work because each ratio compares drawing length to real length in the same order. Converting the real lengths to inches can make the check easier, but the proportion still matches corresponding quantities correctly. A common mistake is thinking mixed units automatically break a proportion even when the relationship is set up consistently."
     },
     {
       "id": "concept-proportions-core-044",
