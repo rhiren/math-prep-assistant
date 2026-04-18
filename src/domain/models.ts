@@ -13,6 +13,10 @@ export type AnswerType = "ratio" | "fraction" | "decimal" | "number";
 
 export interface Course {
   id: string;
+  subjectId: string;
+  subjectTitle: string;
+  courseId: string;
+  courseTitle: string;
   title: string;
   description: string;
   order: number;
@@ -138,6 +142,10 @@ export interface ProgressRecord {
 export interface CourseManifestDocument {
   courses: Course[];
 }
+
+export type SubjectManifest = CourseManifestDocument;
+export type LearningContentIndex = ContentIndex;
+export type LearningProgressRecord = ProgressRecord;
 
 export interface QuestionBankDocument {
   id: string;

@@ -15,23 +15,21 @@ import type {
 import { normalizeConceptId } from "../utils/conceptIds";
 import type { ContentRepository } from "./contracts";
 
-const bundledManifestModules = import.meta.glob("../../public/content/manifest/*.json", {
+const bundledManifestModules = import.meta.glob("../../public/content/**/manifest/*.json", {
   eager: true,
   import: "default",
 }) as Record<string, unknown>;
 
-const bundledTestSetModules = import.meta.glob("../../public/content/test-sets/*.json", {
+const bundledTestSetModules = import.meta.glob("../../public/content/**/test-sets/*.json", {
   eager: true,
   import: "default",
 }) as Record<string, unknown>;
 
-const bundledTutorialModules = import.meta.glob("../../public/content/tutorials/*.md", {
+const bundledTutorialModules = import.meta.glob("../../public/content/**/tutorials/*.md", {
   eager: true,
   query: "?raw",
   import: "default",
 }) as Record<string, string>;
-
-const DEFAULT_MANIFEST_PATHS = ["./content/manifest/course2_manifest.json"];
 
 function logContentValidationError(message: string, details: Record<string, unknown>): void {
   console.error(`[content] ${message}`, details);
@@ -90,25 +88,56 @@ function getPathFileName(path: string): string {
   return path.split("/").pop() ?? path;
 }
 
-function toRuntimeContentPath(modulePath: string, folder: "manifest" | "test-sets" | "tutorials"): string {
-  return `./content/${folder}/${getPathFileName(modulePath)}`;
+function slugifyCourseDirectoryId(courseId: string): string {
+  return courseId.replace(/[^a-z0-9]/gi, "").toLowerCase();
 }
 
-function buildBundledContentMap<T>(
-  modules: Record<string, T>,
-  folder: "manifest" | "test-sets" | "tutorials",
-): Record<string, T> {
+function resolveCourseContentPath(path: string, subjectId: string, courseDirectoryId: string): string {
+  if (!path.startsWith("./content/")) {
+    return path;
+  }
+
+  const relativePath = path.slice("./content/".length);
+  const nestedPrefix = `${subjectId}/${courseDirectoryId}/`;
+  if (relativePath.startsWith(nestedPrefix)) {
+    return path;
+  }
+
+  if (
+    relativePath.startsWith("manifest/") ||
+    relativePath.startsWith("test-sets/") ||
+    relativePath.startsWith("tutorials/")
+  ) {
+    return `./content/${nestedPrefix}${relativePath}`;
+  }
+
+  return path;
+}
+
+function toRuntimeContentPath(modulePath: string): string {
+  const normalizedModulePath = modulePath.replace(/\\/g, "/");
+  const contentMarker = "/public/content/";
+  const markerIndex = normalizedModulePath.indexOf(contentMarker);
+  if (markerIndex >= 0) {
+    return `./content/${normalizedModulePath.slice(markerIndex + contentMarker.length)}`;
+  }
+
+  return `./content/${getPathFileName(modulePath)}`;
+}
+
+function buildBundledContentMap<T>(modules: Record<string, T>): Record<string, T> {
   return Object.fromEntries(
     Object.entries(modules).map(([modulePath, value]) => [
-      toRuntimeContentPath(modulePath, folder),
+      toRuntimeContentPath(modulePath),
       value,
     ]),
   );
 }
 
-const bundledManifestFiles = buildBundledContentMap(bundledManifestModules, "manifest");
-const bundledTestSetFiles = buildBundledContentMap(bundledTestSetModules, "test-sets");
-const bundledTutorialFiles = buildBundledContentMap(bundledTutorialModules, "tutorials");
+const bundledManifestFiles = buildBundledContentMap(bundledManifestModules);
+const bundledTestSetFiles = buildBundledContentMap(bundledTestSetModules);
+const bundledTutorialFiles = buildBundledContentMap(bundledTutorialModules);
+const DEFAULT_MANIFEST_PATHS = Object.keys(bundledManifestFiles).sort();
 
 function getBundledContentFallback<T>(path: string, type: "json" | "text"): T | null {
   if (type === "text") {
@@ -190,11 +219,22 @@ function normalizeManifestDocument(rawManifest: unknown): CourseManifestDocument
       .filter(isRecord)
       .map((course, courseIndex): Course => {
         const courseId = toStringValue(course.id, `course-${courseIndex + 1}`);
+        const subjectId = toStringValue(course.subjectId, "math");
+        const subjectTitle = toStringValue(
+          course.subjectTitle,
+          subjectId === "math" ? "Mathematics" : "Learning",
+        );
+        const courseDirectoryId = toStringValue(course.courseId, slugifyCourseDirectoryId(courseId));
+        const courseTitle = toStringValue(course.courseTitle, toStringValue(course.title, `Course ${courseIndex + 1}`));
         const rawUnits = Array.isArray(course.units) ? course.units : [];
 
         return {
           id: courseId,
-          title: toStringValue(course.title, `Course ${courseIndex + 1}`),
+          subjectId,
+          subjectTitle,
+          courseId: courseDirectoryId,
+          courseTitle,
+          title: toStringValue(course.title, courseTitle),
           description: toStringValue(course.description),
           order: toNumberValue(course.order, courseIndex + 1),
           units: rawUnits.filter(isRecord).map((unit, unitIndex): Unit => {
@@ -224,6 +264,24 @@ function normalizeManifestDocument(rawManifest: unknown): CourseManifestDocument
                     typeof concept.testQuestionCount === "number"
                       ? concept.testQuestionCount
                       : undefined,
+                  tutorial: resolveCourseContentPath(
+                    toStringValue(
+                      conceptRecord.tutorial ?? conceptRecord.tutorialPath,
+                      `./content/${subjectId}/${courseDirectoryId}/tutorials/${toStringValue(concept.id, `${unitId}-concept-${conceptIndex + 1}`)}.md`,
+                    ),
+                    subjectId,
+                    courseDirectoryId,
+                  ),
+                  tests: Array.isArray(conceptRecord.tests)
+                    ? conceptRecord.tests.filter(isRecord).map((test) => ({
+                        ...test,
+                        path: resolveCourseContentPath(
+                          toStringValue(test.path),
+                          subjectId,
+                          courseDirectoryId,
+                        ),
+                      }))
+                    : [],
                   hasTest: false,
                 } as Concept;
               }),
@@ -574,12 +632,16 @@ export class StaticContentRepository implements ContentRepository {
 }
 
 async function loadRuntimeManifest(): Promise<CourseManifestDocument> {
+  const manifestPaths =
+    DEFAULT_MANIFEST_PATHS.length > 0
+      ? DEFAULT_MANIFEST_PATHS
+      : ["./content/math/course2/manifest/course2_manifest.json"];
   const manifests = (
-    await Promise.all(DEFAULT_MANIFEST_PATHS.map((path) => fetchContentFile<unknown>(path, "json")))
+    await Promise.all(manifestPaths.map((path) => fetchContentFile<unknown>(path, "json")))
   ).filter((manifest): manifest is unknown => manifest !== null);
 
   if (manifests.length === 0) {
-    throw new Error("No course manifest found in ./content/manifest.");
+    throw new Error("No course manifest found in ./content/**/manifest.");
   }
 
   return normalizeManifestDocument({
@@ -589,16 +651,38 @@ async function loadRuntimeManifest(): Promise<CourseManifestDocument> {
 
 async function readTestContentDirectory(subdirectory: "manifest" | "test-sets" | "tutorials") {
   const fs = await import("node:fs/promises");
-  const directoryPath = `${process.cwd()}/public/content/${subdirectory}`;
-  const fileNames = (await fs.readdir(directoryPath)).sort((left, right) => left.localeCompare(right));
+  const contentRoot = `${process.cwd()}/public/content`;
 
-  return fileNames
-    .filter((fileName) => !fileName.startsWith("."))
-    .map((fileName) => ({
-      fileName,
-      path: `./content/${subdirectory}/${fileName}`,
-      absolutePath: `${directoryPath}/${fileName}`,
-    }));
+  const walk = async (directoryPath: string): Promise<string[]> => {
+    const entries = await fs.readdir(directoryPath, { withFileTypes: true });
+    const nestedEntries = await Promise.all(
+      entries
+        .filter((entry) => !entry.name.startsWith("."))
+        .map(async (entry) => {
+          const absolutePath = `${directoryPath}/${entry.name}`;
+          if (entry.isDirectory()) {
+            return walk(absolutePath);
+          }
+
+          return [absolutePath];
+        }),
+    );
+
+    return nestedEntries.flat();
+  };
+
+  const absolutePaths = (await walk(contentRoot)).sort((left, right) => left.localeCompare(right));
+
+  return absolutePaths
+    .filter((absolutePath) => absolutePath.includes(`/${subdirectory}/`))
+    .map((absolutePath) => {
+      const relativePath = absolutePath.slice(`${contentRoot}/`.length);
+      return {
+        fileName: getPathFileName(absolutePath),
+        path: `./content/${relativePath}`,
+        absolutePath,
+      };
+    });
 }
 
 async function loadTestManifest(): Promise<CourseManifestDocument> {
@@ -610,7 +694,7 @@ async function loadTestManifest(): Promise<CourseManifestDocument> {
   );
 
   if (manifests.length === 0) {
-    throw new Error("No course manifest found in ./content/manifest.");
+    throw new Error("No course manifest found in ./content/**/manifest.");
   }
 
   return normalizeManifestDocument({

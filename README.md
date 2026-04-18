@@ -1,10 +1,10 @@
-# Math Concept Mastery App
+# School Prep Assistant
 
-Local-first math practice scaffold built with React, Vite, and TypeScript.
+Local-first subject-ready practice scaffold built with React, Vite, and TypeScript.
 
 The current scaffold includes:
 - Course, unit, concept, question, session, attempt, and progress models
-- External manifest-driven content loading for Course 2 sample content
+- Subject-aware, manifest-driven content loading for current Course 2 math content
 - Deterministic concept test generation with a future hook for difficulty-based selection
 - Submit-only scoring with answer normalization
 - IndexedDB persistence for sessions, attempts, and progress
@@ -74,19 +74,22 @@ src/
 ├─ test/                 Vitest test suite
 └─ utils/                Shared helpers
 
-content/
-├─ manifest/             Course manifests
-├─ test-sets/            One or more test JSON files per concept
-└─ tutorials/            Tutorial markdown files by concept
+public/
+└─ content/
+   └─ math/
+      └─ course2/
+         ├─ manifest/    Course manifests
+         ├─ test-sets/   One or more test JSON files per concept
+         └─ tutorials/   Tutorial markdown files by concept
 ```
 
 ## Content
 
 Sample content is stored locally in:
 
-- `content/manifest/course2_manifest.json`
-- `content/test-sets/`
-- `content/tutorials/`
+- `public/content/math/course2/manifest/course2_manifest.json`
+- `public/content/math/course2/test-sets/`
+- `public/content/math/course2/tutorials/`
 
 Questions must use globally unique IDs across all test sets. Concepts automatically
 show `Coming Soon` until a matching test-set JSON file is present.
@@ -105,7 +108,7 @@ If older `localStorage` data exists from the previous scaffold version, it is mi
 
 This is an architecture scaffold, not the full product. The main implemented flow is:
 
-1. Browse Course 2
+1. Browse Math Course 2
 2. Open a concept
 3. Start a concept test
 4. Save answers locally

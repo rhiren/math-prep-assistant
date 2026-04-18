@@ -1,13 +1,13 @@
-# Math Practice User Guide
+# School Prep Assistant User Guide
 
 This guide is for:
 
 - Parents who set up and update the app
-- Students who use the app for daily math practice
+- Students who use the app for daily practice
 
 ## 1. System Overview
 
-The app is a local math practice system. It helps a student read a tutorial, take concept tests, review mistakes, and track progress over time.
+The app is a local learning system. Right now it opens directly into math practice, and it helps a student read a tutorial, take concept tests, review mistakes, and track progress over time.
 
 How it works:
 
@@ -40,7 +40,7 @@ npm install -g serve
 Expected result:
 
 - A browser window opens automatically
-- The Math Practice app appears
+- The School Prep Assistant app appears
 - The student can choose a concept and begin
 
 If the app does not open:

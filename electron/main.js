@@ -8,7 +8,7 @@ function createWindow() {
     height: 900,
     autoHideMenuBar: true,
     backgroundColor: "#ffffff",
-    title: "Math Practice",
+    title: "School Prep Assistant",
     titleBarStyle: "hiddenInset",
     webPreferences: {
       contextIsolation: true,
@@ -35,7 +35,7 @@ app.whenReady().then(() => {
         process.platform === 'win32' && decodedPath.startsWith('/')
           ? decodedPath.slice(1)
           : decodedPath;
-      const repoBaseSegment = `${path.sep}math-prep-assistant${path.sep}`;
+      const repoBaseSegment = `${path.sep}${path.basename(path.join(__dirname, '..')).toLowerCase()}${path.sep}`;
       const contentSegment = `${path.sep}content${path.sep}`;
 
       if (normalizedPath.includes(repoBaseSegment)) {

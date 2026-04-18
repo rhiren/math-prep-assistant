@@ -35,6 +35,10 @@ describe("content repository", () => {
       courses: [
         {
           id: "course-2",
+          subjectId: "math",
+          subjectTitle: "Mathematics",
+          courseId: "course2",
+          courseTitle: "Course 2",
           title: "Course 2",
           description: "desc",
           order: 1,
@@ -120,6 +124,10 @@ describe("content repository", () => {
         courses: [
           {
             id: "course-2",
+            subjectId: "math",
+            subjectTitle: "Mathematics",
+            courseId: "course2",
+            courseTitle: "Course 2",
             title: "Course 2",
             description: "desc",
             order: 1,

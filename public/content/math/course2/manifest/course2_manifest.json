@@ -2,6 +2,10 @@
   "courses": [
     {
       "id": "course-2",
+      "subjectId": "math",
+      "subjectTitle": "Mathematics",
+      "courseId": "course2",
+      "courseTitle": "Course 2",
       "title": "Course 2",
       "description": "Foundational math mastery organized by concept.",
       "order": 1,

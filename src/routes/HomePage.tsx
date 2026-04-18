@@ -47,6 +47,7 @@ export function HomePage() {
   const navigate = useNavigate();
   const { contentRepository, progressService, sessionService, testGenerationService } =
     useAppServices();
+  const [subjectTitle, setSubjectTitle] = useState("Mathematics");
   const [courseTitle, setCourseTitle] = useState("Course 2");
   const [unitTitles, setUnitTitles] = useState<Record<string, string>>({});
   const [concepts, setConcepts] = useState<Concept[]>([]);
@@ -64,6 +65,7 @@ export function HomePage() {
         return;
       }
 
+      setSubjectTitle(course.subjectTitle);
       setCourseTitle(course.title);
       setUnitTitles(
         Object.fromEntries(course.units.map((unit) => [unit.id, unit.title])),
@@ -224,7 +226,7 @@ export function HomePage() {
   return (
     <section className="space-y-6">
       <div className="panel panel-padding">
-        <h2 className="text-3xl font-semibold text-ink">Math Practice Dashboard</h2>
+        <h2 className="text-3xl font-semibold text-ink">Mathematics Dashboard</h2>
         <p className="mt-3 max-w-2xl text-sm leading-7 text-stone-600">
           Welcome back. Continue where you left off, start a new concept, and check
           your progress.
@@ -234,6 +236,47 @@ export function HomePage() {
           see what to do next.
         </p>
       </div>
+
+      <section className="panel panel-padding">
+        <h3 className="text-xl font-semibold text-ink">Subjects</h3>
+        <p className="mt-2 text-sm text-stone-600">
+          More subjects will be added over time. Mathematics is ready now.
+        </p>
+        <div className="mt-4 grid gap-4 sm:grid-cols-2">
+          <Link
+            className="rounded-2xl border border-accent/30 bg-white px-4 py-4 transition hover:border-accent hover:bg-accent/5"
+            to="/course/course-2"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <div className="text-2xl">📘</div>
+                <h4 className="mt-3 text-lg font-semibold text-ink">{subjectTitle}</h4>
+                <p className="mt-1 text-sm text-stone-600">
+                  Active subject. Continue into the current {courseTitle} flow.
+                </p>
+              </div>
+              <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700">
+                Active
+              </span>
+            </div>
+          </Link>
+
+          <div className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-4">
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <div className="text-2xl">🧪</div>
+                <h4 className="mt-3 text-lg font-semibold text-ink">Science</h4>
+                <p className="mt-1 text-sm text-stone-600">
+                  Future subject area. This section is not active yet.
+                </p>
+              </div>
+              <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-700">
+                Coming Soon
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div
         className={`grid gap-6 ${
