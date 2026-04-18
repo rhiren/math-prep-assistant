@@ -61,8 +61,8 @@ describe("session persistence and progress", () => {
     expect(firstAttempt.attemptId).not.toBe(secondAttempt.attemptId);
     expect(attempts).toHaveLength(2);
     expect(progress?.attemptCount).toBe(2);
-    expect(progress?.bestScore).toBe(78);
-    expect(progress?.latestScore).toBe(78);
+    expect(progress?.bestScore).toBe(76);
+    expect(progress?.latestScore).toBe(76);
     expect(progress?.masteryStatus).toBe("needs_review");
   });
 });

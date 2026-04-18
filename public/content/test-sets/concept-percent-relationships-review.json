@@ -129,12 +129,12 @@
     {
       "id": "concept-percent-relationships-review-013",
       "type": "multiple_choice",
-      "questionText": "A table shows 25% = 5, 50% = 10, and 100% = 20. Which row is incorrect?",
-      "options": ["25% = 5", "50% = 10", "100% = 20", "none of them"],
-      "correctAnswer": "none of them",
+      "questionText": "A table shows 25% = 5, 50% = 10, and 100% = 18. Which row is incorrect?",
+      "options": ["25% = 5", "50% = 10", "100% = 18", "none of them"],
+      "correctAnswer": "100% = 18",
       "difficulty": "medium",
       "answerType": "number",
-      "explanation": "All the rows match the same whole of 20. Twenty-five percent of 20 is 5, and 50% of 20 is 10. A common mistake is assuming a table question must have a wrong row without checking the arithmetic."
+      "explanation": "If 25% is 5, then the whole is 20. That makes 50% equal to 10, but 100% should also be 20, not 18. A common mistake is checking only one row instead of making sure every row matches the same whole."
     },
     {
       "id": "concept-percent-relationships-review-014",

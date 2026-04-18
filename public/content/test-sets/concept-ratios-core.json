@@ -470,12 +470,12 @@
     {
       "id": "concept-ratios-core-047",
       "type": "multiple_choice",
-      "questionText": "A class says the ratio of boys to girls is 2 to 3, and there are 25 students total. Which statement is true? 1) The class could have 10 boys and 15 girls  2) The class could have 12 boys and 13 girls  3) The class could have 8 boys and 17 girls  4) The class cannot have exactly that ratio with 25 students",
-      "options": ["1", "2", "3", "4"],
-      "correctAnswer": "1",
+      "questionText": "A class says the ratio of boys to girls is 2 to 3 and there are 25 students total. Which statement must be true?",
+      "options": ["10 boys and 15 girls", "12 boys and 13 girls", "The total fits exactly because 2 + 3 = 5", "The total must be a multiple of 5 to fit the ratio exactly"],
+      "correctAnswer": "The total must be a multiple of 5 to fit the ratio exactly",
       "difficulty": "challenge",
       "answerType": "number",
-      "explanation": "A ratio of 2 to 3 has 5 total parts. Since 25 is a multiple of 5, each part is 5 students. That gives 10 boys and 15 girls, so choice 1 is correct. A common mistake is thinking any total can fit any ratio without checking the number of parts first."
+      "explanation": "The ratio 2 to 3 has 5 total parts. For any total to fit that ratio exactly, the total number of students must be divisible by 5. Since 25 is divisible by 5, one possible split is 10 boys and 15 girls. A common mistake is noticing one matching split without recognizing the general rule about total parts."
     },
     {
       "id": "concept-ratios-core-048",
