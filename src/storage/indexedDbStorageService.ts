@@ -1,7 +1,10 @@
 import { openDB, type DBSchema, type IDBPDatabase } from "idb";
 import { APP_VERSION } from "../app/version";
 import type { ProgressRecord, StudentProfile, TestAttempt, TestSession } from "../domain/models";
-import { DEFAULT_STUDENT_ID } from "../services/studentProfileService";
+import {
+  DEFAULT_STUDENT_ID,
+  normalizeStudentProfile,
+} from "../services/studentProfileService";
 import { normalizeConceptId, normalizeConceptIds } from "../utils/conceptIds";
 import { getStudentScopedKey } from "./repositories";
 import type { StorageService, StoreName } from "./storageService";
@@ -164,6 +167,7 @@ export class IndexedDBStorageService implements StorageService {
   private async runMigrations(): Promise<void> {
     await this.migrateLegacyStudentScoping();
     await this.migrateLegacyConceptIds();
+    await this.migrateLegacyStudentProfiles();
     await this.ensureDefaultStudentProfile();
 
     const currentVersion = await this.getVersion();
@@ -218,15 +222,26 @@ export class IndexedDBStorageService implements StorageService {
     const latestActivity = await this.getLatestActivityTimestamp();
     await this.db.put(
       "students",
-      {
+      normalizeStudentProfile({
         studentId: DEFAULT_STUDENT_ID,
         displayName: "Student 1",
         createdAt: latestActivity,
         lastActiveAt: latestActivity,
         isActive: true,
-      },
+      }),
       DEFAULT_STUDENT_ID,
     );
+  }
+
+  private async migrateLegacyStudentProfiles(): Promise<void> {
+    const students = await this.getAll<StudentProfile>("students");
+
+    for (const student of students) {
+      const normalized = normalizeStudentProfile(student);
+      if (JSON.stringify(normalized) !== JSON.stringify(student)) {
+        await this.db.put("students", normalized, normalized.studentId);
+      }
+    }
   }
 
   private async migrateLegacyStudentScoping(): Promise<void> {

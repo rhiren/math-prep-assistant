@@ -11,10 +11,22 @@ export type SessionMode = "concept" | "mixed";
 export type SessionStatus = "in_progress" | "submitted";
 export type AnswerType = "ratio" | "fraction" | "decimal" | "number";
 
+export interface PlacementLevel {
+  instructionalGrade?: string;
+  programPathway?: string;
+}
+
+export interface PlacementProfile {
+  overall?: PlacementLevel;
+  subjects?: Record<string, PlacementLevel>;
+}
+
 export interface StudentProfile {
   studentId: string;
   displayName: string;
   gradeLevel?: string;
+  homeGrade?: string;
+  placementProfile?: PlacementProfile;
   createdAt: string;
   lastActiveAt: string;
   isActive: boolean;
@@ -26,6 +38,9 @@ export interface Course {
   subjectTitle: string;
   courseId: string;
   courseTitle: string;
+  instructionalGrades?: string[];
+  programPathways?: string[];
+  standardsFrameworks?: string[];
   title: string;
   description: string;
   order: number;
@@ -48,6 +63,9 @@ export interface Concept {
   title: string;
   description: string;
   tags: string[];
+  instructionalGrades?: string[];
+  programPathways?: string[];
+  standardsFrameworks?: string[];
   order: number;
   masteryStatus: MasteryStatus;
   testQuestionCount?: number;

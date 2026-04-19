@@ -39,6 +39,9 @@ describe("content repository", () => {
           subjectTitle: "Mathematics",
           courseId: "course2",
           courseTitle: "Course 2",
+          instructionalGrades: ["7"],
+          programPathways: ["accelerated"],
+          standardsFrameworks: ["CA-CCSS"],
           title: "Course 2",
           description: "desc",
           order: 1,
@@ -57,6 +60,9 @@ describe("content repository", () => {
                   title: "Concept 1",
                   description: "desc",
                   tags: [],
+                  instructionalGrades: ["7"],
+                  programPathways: ["accelerated"],
+                  standardsFrameworks: ["CA-CCSS"],
                   order: 1,
                   masteryStatus: "not_started",
                   hasTest: false,
@@ -68,6 +74,9 @@ describe("content repository", () => {
                   title: "Concept 2",
                   description: "desc",
                   tags: [],
+                  instructionalGrades: ["8"],
+                  programPathways: ["traditional"],
+                  standardsFrameworks: ["AP"],
                   order: 2,
                   masteryStatus: "not_started",
                   hasTest: false,
@@ -116,6 +125,12 @@ describe("content repository", () => {
         {},
       ),
     ).toThrow("Duplicate question id detected");
+
+    expect(manifest.courses[0]?.instructionalGrades).toEqual(["7"]);
+    expect(manifest.courses[0]?.programPathways).toEqual(["accelerated"]);
+    expect(manifest.courses[0]?.standardsFrameworks).toEqual(["CA-CCSS"]);
+    expect(manifest.courses[0]?.units[0]?.concepts[0]?.instructionalGrades).toEqual(["7"]);
+    expect(manifest.courses[0]?.units[0]?.concepts[0]?.standardsFrameworks).toEqual(["CA-CCSS"]);
   });
 
   it("skips invalid manifest concepts safely during validation", () => {

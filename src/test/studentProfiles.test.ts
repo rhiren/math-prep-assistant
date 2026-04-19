@@ -15,6 +15,31 @@ import {
 } from "../storage/repositories";
 
 describe("student profiles", () => {
+  it("supports home grade and accelerated instructional placement independently", async () => {
+    const store = new MemoryStorageService();
+    const studentProfileService = new LocalStudentProfileService(
+      new StudentProfileRepository(store),
+    );
+
+    const profile = await studentProfileService.createProfile("Student 2", "6", {
+      overall: {
+        instructionalGrade: "7",
+        programPathway: "accelerated",
+      },
+      subjects: {
+        math: {
+          instructionalGrade: "7",
+          programPathway: "accelerated",
+        },
+      },
+    });
+
+    expect(profile.homeGrade).toBe("6");
+    expect(profile.placementProfile?.overall?.instructionalGrade).toBe("7");
+    expect(profile.placementProfile?.overall?.programPathway).toBe("accelerated");
+    expect(profile.placementProfile?.subjects?.math?.instructionalGrade).toBe("7");
+  });
+
   it("keeps progress isolated per active student", async () => {
     const contentRepository = await createDefaultContentRepository();
     const store = new MemoryStorageService();

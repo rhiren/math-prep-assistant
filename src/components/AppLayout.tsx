@@ -18,8 +18,9 @@ export function AppLayout() {
       return;
     }
 
-    const gradeLevel = window.prompt("Grade level (optional)") ?? undefined;
-    await createStudentProfile(displayName, gradeLevel);
+    // Keep first-day setup light. Placement, pathway, and standards stay in system metadata.
+    const homeGrade = window.prompt("Home grade (optional)") ?? undefined;
+    await createStudentProfile(displayName, homeGrade);
   };
 
   return (

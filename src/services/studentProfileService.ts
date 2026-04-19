@@ -1,9 +1,73 @@
-import type { StudentProfile } from "../domain/models";
+import type { PlacementLevel, PlacementProfile, StudentProfile } from "../domain/models";
 import type { StudentProfileService } from "./contracts";
 import { createId } from "../utils/id";
 import { StudentProfileRepository } from "../storage/repositories";
 
 export const DEFAULT_STUDENT_ID = "student-1";
+
+function normalizeOptionalText(value: string | null | undefined): string | undefined {
+  const normalized = value?.trim();
+  return normalized ? normalized : undefined;
+}
+
+function normalizePlacementLevel(
+  placement: PlacementLevel | null | undefined,
+): PlacementLevel | undefined {
+  if (!placement) {
+    return undefined;
+  }
+
+  const instructionalGrade = normalizeOptionalText(placement.instructionalGrade);
+  const programPathway = normalizeOptionalText(placement.programPathway);
+
+  if (!instructionalGrade && !programPathway) {
+    return undefined;
+  }
+
+  return {
+    instructionalGrade,
+    programPathway,
+  };
+}
+
+function normalizePlacementProfile(
+  placementProfile: PlacementProfile | null | undefined,
+): PlacementProfile | undefined {
+  if (!placementProfile) {
+    return undefined;
+  }
+
+  const overall = normalizePlacementLevel(placementProfile.overall);
+  const subjects = Object.fromEntries(
+    Object.entries(placementProfile.subjects ?? {})
+      .map(([subjectId, placement]) => [normalizeOptionalText(subjectId), normalizePlacementLevel(placement)])
+      .filter(
+        (entry): entry is [string, PlacementLevel] =>
+          typeof entry[0] === "string" && typeof entry[1] !== "undefined",
+      ),
+  );
+
+  if (!overall && Object.keys(subjects).length === 0) {
+    return undefined;
+  }
+
+  return {
+    overall,
+    subjects: Object.keys(subjects).length > 0 ? subjects : undefined,
+  };
+}
+
+export function normalizeStudentProfile(profile: StudentProfile): StudentProfile {
+  const homeGrade = normalizeOptionalText(profile.homeGrade ?? profile.gradeLevel);
+
+  return {
+    ...profile,
+    displayName: normalizeOptionalText(profile.displayName) ?? profile.displayName,
+    gradeLevel: normalizeOptionalText(profile.gradeLevel),
+    homeGrade,
+    placementProfile: normalizePlacementProfile(profile.placementProfile),
+  };
+}
 
 function buildDefaultStudentProfile(): StudentProfile {
   const now = new Date().toISOString();
@@ -62,7 +126,11 @@ export class LocalStudentProfileService implements StudentProfileService {
     };
   }
 
-  async createProfile(displayName: string, gradeLevel?: string): Promise<StudentProfile> {
+  async createProfile(
+    displayName: string,
+    homeGrade?: string,
+    placementProfile?: PlacementProfile,
+  ): Promise<StudentProfile> {
     await this.ensureInitialized();
 
     const trimmedName = displayName.trim();
@@ -74,14 +142,16 @@ export class LocalStudentProfileService implements StudentProfileService {
     const profile: StudentProfile = {
       studentId: createId("student"),
       displayName: trimmedName,
-      gradeLevel: gradeLevel?.trim() ? gradeLevel.trim() : undefined,
+      homeGrade: normalizeOptionalText(homeGrade),
+      placementProfile: normalizePlacementProfile(placementProfile),
       createdAt: now,
       lastActiveAt: now,
       isActive: false,
     };
 
-    await this.repository.save(profile);
-    return profile;
+    const normalizedProfile = normalizeStudentProfile(profile);
+    await this.repository.save(normalizedProfile);
+    return normalizedProfile;
   }
 
   private async ensureInitialized(): Promise<void> {
@@ -89,7 +159,7 @@ export class LocalStudentProfileService implements StudentProfileService {
       return;
     }
 
-    const profiles = await this.repository.list();
+    const profiles = await this.normalizeStoredProfiles();
     if (profiles.length === 0) {
       await this.repository.save(buildDefaultStudentProfile());
       this.initialized = true;
@@ -109,8 +179,21 @@ export class LocalStudentProfileService implements StudentProfileService {
   }
 
   private async listSortedProfiles(): Promise<StudentProfile[]> {
-    return [...(await this.repository.list())].sort((left, right) =>
+    return [...(await this.normalizeStoredProfiles())].sort((left, right) =>
       left.createdAt.localeCompare(right.createdAt),
     );
+  }
+
+  private async normalizeStoredProfiles(): Promise<StudentProfile[]> {
+    const profiles = await this.repository.list();
+    const normalizedProfiles = profiles.map((profile) => normalizeStudentProfile(profile));
+
+    for (let index = 0; index < profiles.length; index += 1) {
+      if (JSON.stringify(profiles[index]) !== JSON.stringify(normalizedProfiles[index])) {
+        await this.repository.save(normalizedProfiles[index]);
+      }
+    }
+
+    return normalizedProfiles;
   }
 }

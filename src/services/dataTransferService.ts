@@ -1,17 +1,27 @@
 import { APP_VERSION } from "../app/version";
-import type { ProgressRecord, TestAttempt, TestSession } from "../domain/models";
+import type {
+  PlacementLevel,
+  PlacementProfile,
+  ProgressRecord,
+  TestAttempt,
+  TestSession,
+} from "../domain/models";
 import type { StudentProfileService } from "./contracts";
 import { getStudentScopedKey, STORE_NAMES } from "../storage/repositories";
 import type { StorageService } from "../storage/storageService";
 
+interface ProgressSnapshotStudentSummary {
+  studentId: string;
+  displayName: string;
+  gradeLevel?: string;
+  homeGrade?: string;
+  placementProfile?: PlacementProfile;
+}
+
 export interface ProgressSnapshot {
   appVersion: string;
   exportedAt: string;
-  student?: {
-    studentId: string;
-    displayName: string;
-    gradeLevel?: string;
-  };
+  student?: ProgressSnapshotStudentSummary;
   data: {
     sessions: TestSession[];
     attempts: TestAttempt[];
@@ -36,6 +46,42 @@ function isObject(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
 }
 
+function isOptionalString(value: unknown): value is string | undefined {
+  return typeof value === "undefined" || typeof value === "string";
+}
+
+function isPlacementLevel(value: unknown): value is PlacementLevel {
+  return (
+    isObject(value) &&
+    isOptionalString(value.instructionalGrade) &&
+    isOptionalString(value.programPathway)
+  );
+}
+
+function isPlacementProfile(value: unknown): value is PlacementProfile {
+  if (!isObject(value)) {
+    return false;
+  }
+
+  const overall = value.overall;
+  const subjects = value.subjects;
+
+  return (
+    (typeof overall === "undefined" || isPlacementLevel(overall)) &&
+    (typeof subjects === "undefined" ||
+      (isObject(subjects) && Object.values(subjects).every(isPlacementLevel)))
+  );
+}
+
+function normalizeStudentSummary(
+  student: ProgressSnapshotStudentSummary,
+): ProgressSnapshotStudentSummary {
+  return {
+    ...student,
+    homeGrade: student.homeGrade ?? student.gradeLevel,
+  };
+}
+
 function isSession(value: unknown): value is TestSession {
   return isObject(value) && typeof value.id === "string" && typeof value.status === "string";
 }
@@ -48,14 +94,14 @@ function isProgress(value: unknown): value is ProgressRecord {
   return isObject(value) && typeof value.conceptId === "string" && typeof value.courseId === "string";
 }
 
-function isStudentSummary(
-  value: unknown,
-): value is { studentId: string; displayName: string; gradeLevel?: string } {
+function isStudentSummary(value: unknown): value is ProgressSnapshotStudentSummary {
   return (
     isObject(value) &&
     typeof value.studentId === "string" &&
     typeof value.displayName === "string" &&
-    (typeof value.gradeLevel === "undefined" || typeof value.gradeLevel === "string")
+    isOptionalString(value.gradeLevel) &&
+    isOptionalString(value.homeGrade) &&
+    (typeof value.placementProfile === "undefined" || isPlacementProfile(value.placementProfile))
   );
 }
 
@@ -94,14 +140,14 @@ export function validateProgressSnapshot(value: unknown): ProgressSnapshot {
     throw new Error("Import file has invalid progress data.");
   }
 
-  return {
-    appVersion,
-    exportedAt,
-    student,
-    data: {
-      sessions,
-      attempts,
-      progress,
+    return {
+      appVersion,
+      exportedAt,
+      student: typeof student === "undefined" ? undefined : normalizeStudentSummary(student),
+      data: {
+        sessions,
+        attempts,
+        progress,
     },
   };
 }
@@ -147,6 +193,8 @@ export class DataTransferService {
         studentId: activeProfile.studentId,
         displayName: activeProfile.displayName,
         gradeLevel: activeProfile.gradeLevel,
+        homeGrade: activeProfile.homeGrade,
+        placementProfile: activeProfile.placementProfile,
       },
       data: {
         sessions: sessions.filter((session) => session.studentId === activeProfile.studentId),

@@ -288,7 +288,7 @@ export function HomePage() {
         }`}
       >
         <section className="panel panel-padding">
-          <h3 className="text-xl font-semibold text-ink">Continue Practice</h3>
+          <h3 className="text-xl font-semibold text-ink">Continue Learning</h3>
           {lastSession && resumeConcept ? (
             <div className="mt-4 rounded-2xl border border-stone-200 bg-white px-4 py-4">
               <p className="text-sm text-stone-600">You were working on</p>
@@ -326,7 +326,7 @@ export function HomePage() {
 
         {!lastSession || !resumeConcept ? (
           <section className="panel panel-padding">
-            <h3 className="text-xl font-semibold text-ink">Recommended Next Step</h3>
+            <h3 className="text-xl font-semibold text-ink">Recommended Next</h3>
             <div className="mt-4 rounded-2xl border border-stone-200 bg-white px-4 py-4">
               <p className="text-sm font-semibold text-accent">
                 {recommendedNextStep?.title ?? "Start Here"}

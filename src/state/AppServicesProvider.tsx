@@ -10,7 +10,7 @@ import { BasicScoringEngine } from "../engines/basicScoringEngine";
 import { DeterministicConceptTestEngine } from "../engines/deterministicConceptTestEngine";
 import { MixedTestEligibilityEngine } from "../engines/mixedTestEligibilityEngine";
 import { StableSelectionStrategy } from "../engines/questionSelectionStrategy";
-import type { StudentProfile } from "../domain/models";
+import type { PlacementProfile, StudentProfile } from "../domain/models";
 import { createDefaultContentRepository } from "../services/contentRepository";
 import { DataTransferService } from "../services/dataTransferService";
 import {
@@ -60,7 +60,11 @@ interface StudentProfilesContextValue {
   profiles: StudentProfile[];
   activeProfile: StudentProfile | null;
   setActiveStudent: (studentId: string) => Promise<void>;
-  createStudentProfile: (displayName: string, gradeLevel?: string) => Promise<void>;
+  createStudentProfile: (
+    displayName: string,
+    homeGrade?: string,
+    placementProfile?: PlacementProfile,
+  ) => Promise<void>;
 }
 
 const StudentProfilesContext = createContext<StudentProfilesContextValue | null>(null);
@@ -211,8 +215,16 @@ export function AppServicesProvider({
         setProfiles(await resolvedServices.studentProfileService.listProfiles());
         await resolvedServices.progressSyncManager?.initialize();
       },
-      createStudentProfile: async (displayName: string, gradeLevel?: string) => {
-        await resolvedServices.studentProfileService.createProfile(displayName, gradeLevel);
+      createStudentProfile: async (
+        displayName: string,
+        homeGrade?: string,
+        placementProfile?: PlacementProfile,
+      ) => {
+        await resolvedServices.studentProfileService.createProfile(
+          displayName,
+          homeGrade,
+          placementProfile,
+        );
         setProfiles(await resolvedServices.studentProfileService.listProfiles());
       },
     };

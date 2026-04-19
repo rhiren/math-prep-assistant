@@ -51,6 +51,14 @@ function toStringArray(value: unknown): string[] {
   return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : [];
 }
 
+function toMetadataArray(value: unknown): string[] {
+  if (typeof value === "string") {
+    return [value];
+  }
+
+  return toStringArray(value);
+}
+
 function toQuestionType(value: unknown): QuestionType {
   return value === "multiple_choice" || value === "numeric" || value === "short_text"
     ? value
@@ -232,6 +240,9 @@ function normalizeManifestDocument(rawManifest: unknown): CourseManifestDocument
           subjectTitle,
           courseId: courseDirectoryId,
           courseTitle,
+          instructionalGrades: toMetadataArray(course.instructionalGrades),
+          programPathways: toMetadataArray(course.programPathways),
+          standardsFrameworks: toMetadataArray(course.standardsFrameworks ?? course.standardsFramework),
           title: toStringValue(course.title, courseTitle),
           description: toStringValue(course.description),
           order: toNumberValue(course.order, courseIndex + 1),
@@ -256,6 +267,11 @@ function normalizeManifestDocument(rawManifest: unknown): CourseManifestDocument
                   title: toStringValue(concept.title, `Concept ${conceptIndex + 1}`),
                   description: toStringValue(concept.description),
                   tags: toStringArray(concept.tags),
+                  instructionalGrades: toMetadataArray(conceptRecord.instructionalGrades),
+                  programPathways: toMetadataArray(conceptRecord.programPathways),
+                  standardsFrameworks: toMetadataArray(
+                    conceptRecord.standardsFrameworks ?? conceptRecord.standardsFramework,
+                  ),
                   order: toNumberValue(concept.order, conceptIndex + 1),
                   masteryStatus: toMasteryStatus(concept.masteryStatus),
                   testQuestionCount:

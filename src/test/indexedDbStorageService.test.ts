@@ -2,7 +2,7 @@ import "fake-indexeddb/auto";
 import { deleteDB } from "idb";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { APP_VERSION } from "../app/version";
-import type { ProgressRecord, TestAttempt, TestSession } from "../domain/models";
+import type { ProgressRecord, StudentProfile, TestAttempt, TestSession } from "../domain/models";
 import { DEFAULT_STUDENT_ID } from "../services/studentProfileService";
 import { IndexedDBStorageService } from "../storage/indexedDbStorageService";
 import { getStudentScopedKey, STORE_NAMES } from "../storage/repositories";
@@ -247,6 +247,27 @@ describe("IndexedDBStorageService", () => {
       ),
     ).toMatchObject({
       conceptId: "concept-unit-rates",
+    });
+  });
+
+  it("normalizes legacy student gradeLevel into homeGrade without losing saved profiles", async () => {
+    storage = await IndexedDBStorageService.create();
+    await storage.set(STORE_NAMES.students, "student-legacy", {
+      studentId: "student-legacy",
+      displayName: "Student Legacy",
+      gradeLevel: "6",
+      createdAt: "2026-04-12T00:00:00.000Z",
+      lastActiveAt: "2026-04-12T00:00:00.000Z",
+      isActive: false,
+    } satisfies StudentProfile);
+    storage.close();
+
+    storage = await IndexedDBStorageService.create();
+
+    expect(await storage.get<StudentProfile>(STORE_NAMES.students, "student-legacy")).toMatchObject({
+      studentId: "student-legacy",
+      gradeLevel: "6",
+      homeGrade: "6",
     });
   });
 });

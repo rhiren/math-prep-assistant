@@ -38,6 +38,8 @@ describe("DataTransferService", () => {
       studentId: DEFAULT_STUDENT_ID,
       displayName: "Student 1",
       gradeLevel: undefined,
+      homeGrade: undefined,
+      placementProfile: undefined,
     });
     expect(snapshot.data.sessions).toEqual([session]);
     expect(snapshot.data.attempts).toEqual([]);
@@ -124,5 +126,32 @@ describe("DataTransferService", () => {
     expect(await storage.getAll<TestAttempt>(STORE_NAMES.attempts)).toEqual([attempt]);
     expect(await storage.getAll<ProgressRecord>(STORE_NAMES.progress)).toEqual([progress]);
     expect(await storage.getVersion()).toBe(APP_VERSION);
+  });
+
+  it("accepts legacy gradeLevel metadata and normalizes it to homeGrade", async () => {
+    const storage = new MemoryStorageService();
+    const service = new DataTransferService(storage);
+
+    const snapshot = await service.importProgress({
+      appVersion: APP_VERSION,
+      exportedAt: "2026-04-12T00:00:00.000Z",
+      student: {
+        studentId: DEFAULT_STUDENT_ID,
+        displayName: "Student 1",
+        gradeLevel: "6",
+      },
+      data: {
+        sessions: [],
+        attempts: [],
+        progress: [],
+      },
+    });
+
+    expect(snapshot.student).toEqual({
+      studentId: DEFAULT_STUDENT_ID,
+      displayName: "Student 1",
+      gradeLevel: "6",
+      homeGrade: "6",
+    });
   });
 });

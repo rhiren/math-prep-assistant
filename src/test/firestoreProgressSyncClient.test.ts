@@ -36,7 +36,20 @@ function buildSnapshot(): ProgressSnapshot {
     student: {
       studentId: "student-1",
       displayName: "Student 1",
+      homeGrade: "6",
       gradeLevel: undefined,
+      placementProfile: {
+        overall: {
+          instructionalGrade: "7",
+          programPathway: "accelerated",
+        },
+        subjects: {
+          math: {
+            instructionalGrade: "7",
+            programPathway: "accelerated",
+          },
+        },
+      },
     },
     data: {
       sessions: [
@@ -107,6 +120,19 @@ describe("FirestoreProgressSyncClient", () => {
           student: {
             studentId: "student-1",
             displayName: "Student 1",
+            homeGrade: "6",
+            placementProfile: {
+              overall: {
+                instructionalGrade: "7",
+                programPathway: "accelerated",
+              },
+              subjects: {
+                math: {
+                  instructionalGrade: "7",
+                  programPathway: "accelerated",
+                },
+              },
+            },
           },
         }),
         serverUpdatedAt: "__SERVER_TIMESTAMP__",

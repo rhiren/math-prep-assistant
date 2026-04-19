@@ -2,6 +2,7 @@ import type {
   AnswerRecord,
   Concept,
   Course,
+  PlacementProfile,
   ProgressRecord,
   Question,
   TestSet,
@@ -48,6 +49,8 @@ export interface DataTransferServiceContract {
       studentId: string;
       displayName: string;
       gradeLevel?: string;
+      homeGrade?: string;
+      placementProfile?: PlacementProfile;
     };
     data: {
       sessions: TestSession[];
@@ -62,6 +65,8 @@ export interface DataTransferServiceContract {
       studentId: string;
       displayName: string;
       gradeLevel?: string;
+      homeGrade?: string;
+      placementProfile?: PlacementProfile;
     };
     data: {
       sessions: TestSession[];
@@ -88,5 +93,9 @@ export interface StudentProfileService {
   getActiveProfile(): Promise<StudentProfile>;
   getActiveStudentId(): Promise<string>;
   setActiveStudent(studentId: string): Promise<StudentProfile>;
-  createProfile(displayName: string, gradeLevel?: string): Promise<StudentProfile>;
+  createProfile(
+    displayName: string,
+    homeGrade?: string,
+    placementProfile?: PlacementProfile,
+  ): Promise<StudentProfile>;
 }

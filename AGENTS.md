@@ -50,6 +50,102 @@ Do not duplicate evolving project rules across multiple files unless there is a 
 
 ---
 
+## FROZEN DOMAIN MODEL V1
+
+Preserve the current platform domain model as frozen unless it is explicitly
+revisited.
+
+### Student model
+
+Preserve the current student model structure:
+
+Student
+
+- `homeGrade`
+- `placementProfile`
+
+Placement Profile
+
+- `instructionalGrade`
+- `programPathway`
+
+Grade is NOT equivalent to content level.
+
+`homeGrade` and `instructionalGrade` are intentionally distinct and must remain
+distinct unless explicitly revisited.
+
+Do not collapse them into a single grade field.
+
+This distinction is required to preserve acceleration, summer advancement,
+MAP-style advancement, and pathway-aware progression.
+
+---
+
+### Learning hierarchy
+
+Preserve the current hierarchy:
+
+Subject
+→ Course
+→ Unit
+→ Concept
+
+Do not flatten or blur these layers.
+
+Courses remain subordinate to subjects.
+
+---
+
+### Content metadata
+
+Preserve the supported / reserved additive metadata model for content:
+
+- `instructionalGrades`
+- `programPathways`
+- `standardsFrameworks`
+
+These fields reserve room for richer placement and standards alignment without
+requiring immediate learner-facing complexity.
+
+---
+
+### Learning model direction
+
+Preserve the current and reserved learning model direction:
+
+- Progress
+- Mastery (reserved direction)
+- Continue Learning
+- Recommended Next (reserved direction)
+
+`Continue Learning` should remain the primary learner entry concept.
+
+Reserve room for `Recommended Next` without requiring a recommendation engine
+or large UX redesign.
+
+---
+
+### Simplicity guardrails
+
+Domain complexity may increase.
+Student-facing complexity must not.
+
+Preserve progressive disclosure.
+
+Do not require first-day learners to make or understand decisions about:
+
+- `homeGrade`
+- `instructionalGrade`
+- `programPathway`
+- `standardsFrameworks`
+
+Placement, pathway, and standards remain system-level structures unless
+explicitly changed later.
+
+Do not make these required learner-facing setup choices by default.
+
+---
+
 ## NON-NEGOTIABLE ARCHITECTURAL PRINCIPLES
 
 Preserve these principles in all future changes.
