@@ -131,4 +131,8 @@ export class StudentProfileRepository {
   async save(profile: StudentProfile): Promise<void> {
     await this.store.set(STORE_NAMES.students, profile.studentId, profile);
   }
+
+  async delete(studentId: string): Promise<void> {
+    await this.store.delete(STORE_NAMES.students, studentId);
+  }
 }

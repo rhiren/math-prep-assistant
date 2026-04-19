@@ -10,6 +10,8 @@ export type DifficultyLevel = "easy" | "medium" | "hard" | "challenge";
 export type SessionMode = "concept" | "mixed";
 export type SessionStatus = "in_progress" | "submitted";
 export type AnswerType = "ratio" | "fraction" | "decimal" | "number";
+export type StudentProfileType = "production" | "test";
+export type StudentFeatureFlags = Record<string, boolean>;
 
 export interface PlacementLevel {
   instructionalGrade?: string;
@@ -27,6 +29,8 @@ export interface StudentProfile {
   gradeLevel?: string;
   homeGrade?: string;
   placementProfile?: PlacementProfile;
+  profileType?: StudentProfileType;
+  featureFlags?: StudentFeatureFlags;
   createdAt: string;
   lastActiveAt: string;
   isActive: boolean;

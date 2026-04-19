@@ -63,6 +63,8 @@ Student
 
 - `homeGrade`
 - `placementProfile`
+- `profileType`
+- `featureFlags`
 
 Placement Profile
 
@@ -143,6 +145,38 @@ Placement, pathway, and standards remain system-level structures unless
 explicitly changed later.
 
 Do not make these required learner-facing setup choices by default.
+
+---
+
+### Safe release model
+
+New experimental features may be tested under test profiles before being
+enabled for production students.
+
+Preserve a lightweight release model based on:
+
+- `profileType`: `production` or `test`
+- optional per-student `featureFlags`
+
+Existing students should default safely to `production`.
+
+Do not turn this into enterprise feature-flag infrastructure unless explicitly
+requested.
+
+Keep production student experience stable by default.
+
+---
+
+### Hidden operational controls
+
+Hidden operational or admin controls may exist for platform maintenance, but
+they must remain minimal and admin-oriented.
+
+Do not turn hidden operational controls into a general user-facing settings
+system.
+
+Preserve protection for normal student flow so hidden admin tools do not create
+day-to-day learner complexity.
 
 ---
 

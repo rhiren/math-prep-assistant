@@ -3,6 +3,8 @@ import type {
   PlacementLevel,
   PlacementProfile,
   ProgressRecord,
+  StudentFeatureFlags,
+  StudentProfileType,
   TestAttempt,
   TestSession,
 } from "../domain/models";
@@ -16,6 +18,8 @@ interface ProgressSnapshotStudentSummary {
   gradeLevel?: string;
   homeGrade?: string;
   placementProfile?: PlacementProfile;
+  profileType?: StudentProfileType;
+  featureFlags?: StudentFeatureFlags;
 }
 
 export interface ProgressSnapshot {
@@ -73,12 +77,22 @@ function isPlacementProfile(value: unknown): value is PlacementProfile {
   );
 }
 
+function isFeatureFlags(value: unknown): value is StudentFeatureFlags {
+  return isObject(value) && Object.values(value).every((entry) => typeof entry === "boolean");
+}
+
+function normalizeProfileType(value: unknown): StudentProfileType {
+  return value === "test" ? "test" : "production";
+}
+
 function normalizeStudentSummary(
   student: ProgressSnapshotStudentSummary,
 ): ProgressSnapshotStudentSummary {
   return {
     ...student,
     homeGrade: student.homeGrade ?? student.gradeLevel,
+    profileType: normalizeProfileType(student.profileType),
+    featureFlags: isFeatureFlags(student.featureFlags) ? student.featureFlags : undefined,
   };
 }
 
@@ -101,7 +115,11 @@ function isStudentSummary(value: unknown): value is ProgressSnapshotStudentSumma
     typeof value.displayName === "string" &&
     isOptionalString(value.gradeLevel) &&
     isOptionalString(value.homeGrade) &&
-    (typeof value.placementProfile === "undefined" || isPlacementProfile(value.placementProfile))
+    (typeof value.placementProfile === "undefined" || isPlacementProfile(value.placementProfile)) &&
+    (typeof value.profileType === "undefined" ||
+      value.profileType === "production" ||
+      value.profileType === "test") &&
+    (typeof value.featureFlags === "undefined" || isFeatureFlags(value.featureFlags))
   );
 }
 
@@ -140,14 +158,14 @@ export function validateProgressSnapshot(value: unknown): ProgressSnapshot {
     throw new Error("Import file has invalid progress data.");
   }
 
-    return {
-      appVersion,
-      exportedAt,
-      student: typeof student === "undefined" ? undefined : normalizeStudentSummary(student),
-      data: {
-        sessions,
-        attempts,
-        progress,
+  return {
+    appVersion,
+    exportedAt,
+    student: typeof student === "undefined" ? undefined : normalizeStudentSummary(student),
+    data: {
+      sessions,
+      attempts,
+      progress,
     },
   };
 }
@@ -170,6 +188,7 @@ export class DataTransferService {
       getActiveProfile: async () => ({
         studentId: "student-1",
         displayName: "Student 1",
+        profileType: "production",
         createdAt: new Date(0).toISOString(),
         lastActiveAt: new Date(0).toISOString(),
         isActive: true,
@@ -195,6 +214,8 @@ export class DataTransferService {
         gradeLevel: activeProfile.gradeLevel,
         homeGrade: activeProfile.homeGrade,
         placementProfile: activeProfile.placementProfile,
+        profileType: activeProfile.profileType,
+        featureFlags: activeProfile.featureFlags,
       },
       data: {
         sessions: sessions.filter((session) => session.studentId === activeProfile.studentId),

@@ -268,6 +268,7 @@ describe("IndexedDBStorageService", () => {
       studentId: "student-legacy",
       gradeLevel: "6",
       homeGrade: "6",
+      profileType: "production",
     });
   });
 });

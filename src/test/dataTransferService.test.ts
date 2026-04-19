@@ -40,6 +40,8 @@ describe("DataTransferService", () => {
       gradeLevel: undefined,
       homeGrade: undefined,
       placementProfile: undefined,
+      profileType: "production",
+      featureFlags: undefined,
     });
     expect(snapshot.data.sessions).toEqual([session]);
     expect(snapshot.data.attempts).toEqual([]);
@@ -152,6 +154,36 @@ describe("DataTransferService", () => {
       displayName: "Student 1",
       gradeLevel: "6",
       homeGrade: "6",
+      profileType: "production",
+    });
+  });
+
+  it("preserves test profile release metadata in exported snapshots", async () => {
+    const storage = new MemoryStorageService();
+    const service = new DataTransferService(storage, {
+      getActiveProfile: async () => ({
+        studentId: "student-test",
+        displayName: "Test Student",
+        homeGrade: "6",
+        profileType: "test",
+        featureFlags: {
+          smartRetry: true,
+        },
+        createdAt: "2026-04-12T00:00:00.000Z",
+        lastActiveAt: "2026-04-12T00:00:00.000Z",
+        isActive: true,
+      }),
+      getActiveStudentId: async () => "student-test",
+    });
+
+    const snapshot = await service.exportProgress();
+
+    expect(snapshot.student).toMatchObject({
+      studentId: "student-test",
+      profileType: "test",
+      featureFlags: {
+        smartRetry: true,
+      },
     });
   });
 });

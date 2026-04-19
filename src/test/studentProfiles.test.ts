@@ -38,6 +38,48 @@ describe("student profiles", () => {
     expect(profile.placementProfile?.overall?.instructionalGrade).toBe("7");
     expect(profile.placementProfile?.overall?.programPathway).toBe("accelerated");
     expect(profile.placementProfile?.subjects?.math?.instructionalGrade).toBe("7");
+    expect(profile.profileType).toBe("production");
+  });
+
+  it("supports test profiles with per-student feature flags", async () => {
+    const store = new MemoryStorageService();
+    const studentProfileService = new LocalStudentProfileService(
+      new StudentProfileRepository(store),
+    );
+
+    const profile = await studentProfileService.createProfile("Test Student", "6", undefined, {
+      profileType: "test",
+      featureFlags: {
+        smartRetry: true,
+      },
+    });
+
+    expect(profile.profileType).toBe("test");
+    expect(profile.featureFlags).toEqual({ smartRetry: true });
+    expect(await studentProfileService.isFeatureEnabled(profile.studentId, "smartRetry")).toBe(true);
+    expect(await studentProfileService.isFeatureEnabled(profile.studentId, "recommendedNext")).toBe(false);
+  });
+
+  it("allows deleting test profiles without allowing production profile deletion", async () => {
+    const store = new MemoryStorageService();
+    const studentProfileService = new LocalStudentProfileService(
+      new StudentProfileRepository(store),
+      store,
+    );
+
+    const testProfile = await studentProfileService.createProfile("Test Student", "6", undefined, {
+      profileType: "test",
+    });
+
+    await expect(studentProfileService.deleteTestProfile("student-1")).rejects.toThrow(
+      "Only test student profiles can be deleted.",
+    );
+
+    await studentProfileService.deleteTestProfile(testProfile.studentId);
+
+    expect((await studentProfileService.listProfiles()).map((profile) => profile.studentId)).toEqual([
+      "student-1",
+    ]);
   });
 
   it("keeps progress isolated per active student", async () => {

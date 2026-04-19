@@ -5,10 +5,12 @@ import type {
   PlacementProfile,
   ProgressRecord,
   Question,
+  StudentFeatureFlags,
   TestSet,
   TestAttempt,
   TestSession,
   StudentProfile,
+  StudentProfileType,
 } from "../domain/models";
 
 export interface ContentRepository {
@@ -51,6 +53,8 @@ export interface DataTransferServiceContract {
       gradeLevel?: string;
       homeGrade?: string;
       placementProfile?: PlacementProfile;
+      profileType?: StudentProfileType;
+      featureFlags?: StudentFeatureFlags;
     };
     data: {
       sessions: TestSession[];
@@ -67,6 +71,8 @@ export interface DataTransferServiceContract {
       gradeLevel?: string;
       homeGrade?: string;
       placementProfile?: PlacementProfile;
+      profileType?: StudentProfileType;
+      featureFlags?: StudentFeatureFlags;
     };
     data: {
       sessions: TestSession[];
@@ -97,5 +103,11 @@ export interface StudentProfileService {
     displayName: string,
     homeGrade?: string,
     placementProfile?: PlacementProfile,
+    options?: {
+      profileType?: StudentProfileType;
+      featureFlags?: StudentFeatureFlags;
+    },
   ): Promise<StudentProfile>;
+  isFeatureEnabled(studentId: string, featureName: string): Promise<boolean>;
+  deleteTestProfile(studentId: string): Promise<void>;
 }

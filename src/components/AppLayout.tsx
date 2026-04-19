@@ -1,4 +1,6 @@
+import { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import { APP_VERSION } from "../app/version";
 import { useStudentProfiles } from "../state/AppServicesProvider";
 import { useTestMode } from "../state/TestModeProvider";
 
@@ -10,7 +12,15 @@ const navItems = [
 
 export function AppLayout() {
   const { isTestMode } = useTestMode();
-  const { activeProfile, createStudentProfile, profiles, setActiveStudent } = useStudentProfiles();
+  const {
+    activeProfile,
+    createStudentProfile,
+    deleteTestStudentProfile,
+    profiles,
+    setActiveStudent,
+  } = useStudentProfiles();
+  const [titleTapCount, setTitleTapCount] = useState(0);
+  const [isAdminOpen, setIsAdminOpen] = useState(false);
 
   const handleCreateStudent = async () => {
     const displayName = window.prompt("Add a student name");
@@ -20,8 +30,42 @@ export function AppLayout() {
 
     // Keep first-day setup light. Placement, pathway, and standards stay in system metadata.
     const homeGrade = window.prompt("Home grade (optional)") ?? undefined;
-    await createStudentProfile(displayName, homeGrade);
+    const isTestProfile = window.confirm(
+      "Create this as a test student profile for trying new features first?",
+    );
+    await createStudentProfile(displayName, homeGrade, undefined, {
+      profileType: isTestProfile ? "test" : "production",
+    });
   };
+
+  useEffect(() => {
+    if (titleTapCount === 0 || titleTapCount >= 5) {
+      return;
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      setTitleTapCount(0);
+    }, 1800);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [titleTapCount]);
+
+  useEffect(() => {
+    if (titleTapCount < 5) {
+      return;
+    }
+
+    setIsAdminOpen(true);
+    setTitleTapCount(0);
+  }, [titleTapCount]);
+
+  const handleTitleTap = () => {
+    setTitleTapCount((currentCount) => currentCount + 1);
+  };
+
+  const testProfiles = profiles.filter((profile) => profile.profileType === "test");
 
   return (
     <div className="app-shell">
@@ -29,7 +73,16 @@ export function AppLayout() {
         <header className="panel mb-6 overflow-hidden">
           <div className="panel-padding flex flex-col gap-5 border-b border-stone-200 bg-[linear-gradient(135deg,#fffdf8_0%,#fff3d6_100%)] sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-2xl">
-              <h1 className="text-3xl font-semibold text-ink">School Prep Assistant</h1>
+              <h1>
+                <button
+                  aria-label="School Prep Assistant"
+                  className="text-left text-3xl font-semibold text-ink"
+                  onClick={handleTitleTap}
+                  type="button"
+                >
+                  School Prep Assistant
+                </button>
+              </h1>
               <p className="mt-2 text-sm leading-6 text-stone-600">
                 A growing learning platform for structured subject practice, progress tracking,
                 and steady confidence-building.
@@ -87,6 +140,128 @@ export function AppLayout() {
       <main className="flex-1">
         <Outlet />
       </main>
+      {isAdminOpen ? (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-stone-950/40 p-4">
+          <div className="panel max-h-[85vh] w-full max-w-3xl overflow-auto">
+            <div className="panel-padding border-b border-stone-200">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <div className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+                    Hidden Admin
+                  </div>
+                  <h2 className="mt-2 text-2xl font-semibold text-ink">Admin Console</h2>
+                  <p className="mt-2 text-sm text-stone-600">
+                    Minimal operational controls for version visibility and test-profile maintenance.
+                  </p>
+                </div>
+                <button
+                  className="secondary-link"
+                  onClick={() => setIsAdminOpen(false)}
+                  type="button"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+            <div className="grid gap-4 p-5 sm:grid-cols-2">
+              <section className="rounded-2xl border border-stone-200 bg-white p-4">
+                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+                  Platform
+                </div>
+                <div className="mt-3 text-sm text-stone-600">App version</div>
+                <div className="mt-1 text-lg font-semibold text-ink">{APP_VERSION}</div>
+              </section>
+
+              <section className="rounded-2xl border border-stone-200 bg-white p-4">
+                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+                  Test Students
+                </div>
+                <div className="mt-3 space-y-3">
+                  {testProfiles.length === 0 ? (
+                    <p className="text-sm text-stone-600">No test student profiles available.</p>
+                  ) : (
+                    testProfiles.map((profile) => (
+                      <div
+                        className="rounded-2xl border border-stone-200 bg-stone-50 p-3"
+                        key={profile.studentId}
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <div className="font-medium text-ink">{profile.displayName}</div>
+                            <div className="mt-1 text-xs uppercase tracking-[0.16em] text-stone-500">
+                              {profile.studentId}
+                            </div>
+                            {profile.isActive ? (
+                              <div className="mt-2 text-xs font-medium text-accent">Active test profile</div>
+                            ) : null}
+                          </div>
+                          <button
+                            className="secondary-link text-red-700"
+                            onClick={() => {
+                              if (
+                                window.confirm(
+                                  `Delete test profile ${profile.displayName} and its local progress data?`,
+                                )
+                              ) {
+                                void deleteTestStudentProfile(profile.studentId);
+                              }
+                            }}
+                            type="button"
+                          >
+                            Delete test profile
+                          </button>
+                        </div>
+                      </div>
+                    ))
+                  )}
+                </div>
+              </section>
+
+              <section className="rounded-2xl border border-stone-200 bg-white p-4 sm:col-span-2">
+                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+                  Feature Flags
+                </div>
+                <div className="mt-3 space-y-3">
+                  {profiles.map((profile) => {
+                    const featureFlags = Object.entries(profile.featureFlags ?? {});
+
+                    return (
+                      <div
+                        className="rounded-2xl border border-stone-200 bg-stone-50 p-3"
+                        key={profile.studentId}
+                      >
+                        <div className="flex items-center justify-between gap-3">
+                          <div>
+                            <div className="font-medium text-ink">{profile.displayName}</div>
+                            <div className="mt-1 text-xs uppercase tracking-[0.16em] text-stone-500">
+                              {profile.profileType ?? "production"} profile
+                            </div>
+                          </div>
+                          <div className="text-xs text-stone-500">Read only</div>
+                        </div>
+                        <div className="mt-3">
+                          {featureFlags.length === 0 ? (
+                            <p className="text-sm text-stone-600">No feature flags enabled.</p>
+                          ) : (
+                            <ul className="space-y-2 text-sm text-ink">
+                              {featureFlags.map(([flagName, isEnabled]) => (
+                                <li className="flex items-center justify-between gap-3" key={flagName}>
+                                  <span>{flagName}</span>
+                                  <span className="text-stone-500">{isEnabled ? "enabled" : "disabled"}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

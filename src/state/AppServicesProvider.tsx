@@ -10,7 +10,12 @@ import { BasicScoringEngine } from "../engines/basicScoringEngine";
 import { DeterministicConceptTestEngine } from "../engines/deterministicConceptTestEngine";
 import { MixedTestEligibilityEngine } from "../engines/mixedTestEligibilityEngine";
 import { StableSelectionStrategy } from "../engines/questionSelectionStrategy";
-import type { PlacementProfile, StudentProfile } from "../domain/models";
+import type {
+  PlacementProfile,
+  StudentFeatureFlags,
+  StudentProfile,
+  StudentProfileType,
+} from "../domain/models";
 import { createDefaultContentRepository } from "../services/contentRepository";
 import { DataTransferService } from "../services/dataTransferService";
 import {
@@ -64,7 +69,12 @@ interface StudentProfilesContextValue {
     displayName: string,
     homeGrade?: string,
     placementProfile?: PlacementProfile,
+    options?: {
+      profileType?: StudentProfileType;
+      featureFlags?: StudentFeatureFlags;
+    },
   ) => Promise<void>;
+  deleteTestStudentProfile: (studentId: string) => Promise<void>;
 }
 
 const StudentProfilesContext = createContext<StudentProfilesContextValue | null>(null);
@@ -81,7 +91,7 @@ export async function createAppServices(
   const contentRepository = await createDefaultContentRepository();
   const studentProfileService =
     options.studentProfileService ??
-    new LocalStudentProfileService(new StudentProfileRepository(store));
+    new LocalStudentProfileService(new StudentProfileRepository(store), store);
   const sessionRepository = new SessionRepository(store, studentProfileService);
   const attemptRepository = new AttemptRepository(store, studentProfileService);
   const progressRepository = new ProgressRepository(store, studentProfileService);
@@ -126,13 +136,19 @@ export async function createAppServices(
 
 async function createDefaultAppServices(): Promise<AppServices> {
   const store = await IndexedDBStorageService.create();
-  const studentProfileService = new LocalStudentProfileService(new StudentProfileRepository(store));
+  const studentProfileServiceWithStorage = new LocalStudentProfileService(
+    new StudentProfileRepository(store),
+    store,
+  );
   const progressSyncManager = new ProgressSyncManager(
     new FirestoreProgressSyncClient(),
-    new DataTransferService(store, studentProfileService),
-    () => studentProfileService.getActiveStudentId(),
+    new DataTransferService(store, studentProfileServiceWithStorage),
+    () => studentProfileServiceWithStorage.getActiveStudentId(),
   );
-  const services = await createAppServices(store, { progressSyncManager, studentProfileService });
+  const services = await createAppServices(store, {
+    progressSyncManager,
+    studentProfileService: studentProfileServiceWithStorage,
+  });
   await progressSyncManager.initialize();
   return services;
 }
@@ -219,13 +235,25 @@ export function AppServicesProvider({
         displayName: string,
         homeGrade?: string,
         placementProfile?: PlacementProfile,
+        options?: {
+          profileType?: StudentProfileType;
+          featureFlags?: StudentFeatureFlags;
+        },
       ) => {
         await resolvedServices.studentProfileService.createProfile(
           displayName,
           homeGrade,
           placementProfile,
+          options,
         );
         setProfiles(await resolvedServices.studentProfileService.listProfiles());
+      },
+      deleteTestStudentProfile: async (studentId: string) => {
+        await resolvedServices.studentProfileService.deleteTestProfile(studentId);
+        const refreshedProfiles = await resolvedServices.studentProfileService.listProfiles();
+        setProfiles(refreshedProfiles);
+        setActiveProfile(await resolvedServices.studentProfileService.getActiveProfile());
+        await resolvedServices.progressSyncManager?.initialize();
       },
     };
   }, [activeProfile, profiles, resolvedServices]);

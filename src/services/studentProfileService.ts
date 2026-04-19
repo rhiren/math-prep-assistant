@@ -1,13 +1,46 @@
-import type { PlacementLevel, PlacementProfile, StudentProfile } from "../domain/models";
+import type {
+  PlacementLevel,
+  PlacementProfile,
+  StudentFeatureFlags,
+  StudentProfile,
+  StudentProfileType,
+} from "../domain/models";
 import type { StudentProfileService } from "./contracts";
 import { createId } from "../utils/id";
-import { StudentProfileRepository } from "../storage/repositories";
+import { getStudentScopedKey, STORE_NAMES, StudentProfileRepository } from "../storage/repositories";
+import type { StorageService } from "../storage/storageService";
 
 export const DEFAULT_STUDENT_ID = "student-1";
+export const DEFAULT_PROFILE_TYPE: StudentProfileType = "production";
 
 function normalizeOptionalText(value: string | null | undefined): string | undefined {
   const normalized = value?.trim();
   return normalized ? normalized : undefined;
+}
+
+function normalizeFeatureFlags(
+  featureFlags: StudentFeatureFlags | null | undefined,
+): StudentFeatureFlags | undefined {
+  if (!featureFlags) {
+    return undefined;
+  }
+
+  const normalizedFlags = Object.fromEntries(
+    Object.entries(featureFlags).filter(
+      (entry): entry is [string, boolean] =>
+        typeof entry[0] === "string" &&
+        entry[0].trim().length > 0 &&
+        typeof entry[1] === "boolean",
+    ),
+  );
+
+  return Object.keys(normalizedFlags).length > 0 ? normalizedFlags : undefined;
+}
+
+function normalizeProfileType(
+  profileType: StudentProfileType | string | null | undefined,
+): StudentProfileType {
+  return profileType === "test" ? "test" : DEFAULT_PROFILE_TYPE;
 }
 
 function normalizePlacementLevel(
@@ -66,6 +99,8 @@ export function normalizeStudentProfile(profile: StudentProfile): StudentProfile
     gradeLevel: normalizeOptionalText(profile.gradeLevel),
     homeGrade,
     placementProfile: normalizePlacementProfile(profile.placementProfile),
+    profileType: normalizeProfileType(profile.profileType),
+    featureFlags: normalizeFeatureFlags(profile.featureFlags),
   };
 }
 
@@ -77,13 +112,17 @@ function buildDefaultStudentProfile(): StudentProfile {
     createdAt: now,
     lastActiveAt: now,
     isActive: true,
+    profileType: DEFAULT_PROFILE_TYPE,
   };
 }
 
 export class LocalStudentProfileService implements StudentProfileService {
   private initialized = false;
 
-  constructor(private readonly repository: StudentProfileRepository) {}
+  constructor(
+    private readonly repository: StudentProfileRepository,
+    private readonly storage?: StorageService,
+  ) {}
 
   async listProfiles(): Promise<StudentProfile[]> {
     await this.ensureInitialized();
@@ -130,6 +169,10 @@ export class LocalStudentProfileService implements StudentProfileService {
     displayName: string,
     homeGrade?: string,
     placementProfile?: PlacementProfile,
+    options?: {
+      profileType?: StudentProfileType;
+      featureFlags?: StudentFeatureFlags;
+    },
   ): Promise<StudentProfile> {
     await this.ensureInitialized();
 
@@ -144,6 +187,8 @@ export class LocalStudentProfileService implements StudentProfileService {
       displayName: trimmedName,
       homeGrade: normalizeOptionalText(homeGrade),
       placementProfile: normalizePlacementProfile(placementProfile),
+      profileType: normalizeProfileType(options?.profileType),
+      featureFlags: normalizeFeatureFlags(options?.featureFlags),
       createdAt: now,
       lastActiveAt: now,
       isActive: false,
@@ -152,6 +197,55 @@ export class LocalStudentProfileService implements StudentProfileService {
     const normalizedProfile = normalizeStudentProfile(profile);
     await this.repository.save(normalizedProfile);
     return normalizedProfile;
+  }
+
+  async isFeatureEnabled(studentId: string, featureName: string): Promise<boolean> {
+    await this.ensureInitialized();
+
+    const normalizedFeatureName = normalizeOptionalText(featureName);
+    if (!normalizedFeatureName) {
+      return false;
+    }
+
+    const profiles = await this.listSortedProfiles();
+    const profile = profiles.find((item) => item.studentId === studentId);
+
+    return Boolean(profile?.featureFlags?.[normalizedFeatureName]);
+  }
+
+  async deleteTestProfile(studentId: string): Promise<void> {
+    await this.ensureInitialized();
+
+    if (!this.storage) {
+      throw new Error("Student profile deletion requires writable storage.");
+    }
+
+    const profiles = await this.listSortedProfiles();
+    const profile = profiles.find((item) => item.studentId === studentId);
+
+    if (!profile) {
+      throw new Error(`Unknown student profile: ${studentId}`);
+    }
+
+    if (profile.profileType !== "test") {
+      throw new Error("Only test student profiles can be deleted.");
+    }
+
+    const nextActiveProfile =
+      profile.isActive
+        ? profiles.find(
+            (item) => item.studentId !== studentId && item.profileType !== "test",
+          ) ?? profiles.find((item) => item.studentId !== studentId)
+        : null;
+
+    await this.deleteStudentScopedRecords(STORE_NAMES.sessions, studentId);
+    await this.deleteStudentScopedRecords(STORE_NAMES.attempts, studentId);
+    await this.deleteStudentScopedRecords(STORE_NAMES.progress, studentId);
+    await this.repository.delete(studentId);
+
+    if (profile.isActive && nextActiveProfile) {
+      await this.setActiveStudent(nextActiveProfile.studentId);
+    }
   }
 
   private async ensureInitialized(): Promise<void> {
@@ -195,5 +289,36 @@ export class LocalStudentProfileService implements StudentProfileService {
     }
 
     return normalizedProfiles;
+  }
+
+  private async deleteStudentScopedRecords(
+    storeName: typeof STORE_NAMES.sessions | typeof STORE_NAMES.attempts | typeof STORE_NAMES.progress,
+    studentId: string,
+  ): Promise<void> {
+    if (!this.storage) {
+      return;
+    }
+
+    const records = await this.storage.getAll<{ studentId?: string } & Record<string, unknown>>(storeName);
+    for (const record of records) {
+      if (record.studentId !== studentId) {
+        continue;
+      }
+
+      const recordId =
+        typeof record.id === "string"
+          ? record.id
+          : typeof record.attemptId === "string"
+            ? record.attemptId
+            : typeof record.conceptId === "string"
+              ? record.conceptId
+              : null;
+
+      if (!recordId) {
+        continue;
+      }
+
+      await this.storage.delete(storeName, getStudentScopedKey(studentId, recordId));
+    }
   }
 }
