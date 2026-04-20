@@ -1,7 +1,10 @@
 import {
+  collectionGroup,
   deleteField,
+  deleteDoc,
   doc,
   getDoc,
+  getDocs,
   serverTimestamp,
   setDoc,
   type Firestore,
@@ -10,13 +13,16 @@ import type {
   DataTransferServiceContract,
   ProgressService,
   SessionService,
+  StudentProfileService,
 } from "./contracts";
 import {
   getProgressSnapshotLastModified,
   type ProgressSnapshot,
   validateProgressSnapshot,
 } from "./dataTransferService";
+import type { StudentProfile } from "../domain/models";
 import { db } from "./firebase";
+import { normalizeStudentProfile } from "./studentProfileService";
 
 const LEGACY_PROGRESS_SYNC_USER_ID = "daughter-1";
 
@@ -29,10 +35,29 @@ export interface CloudProgressDocument {
   snapshot: ProgressSnapshot;
 }
 
+export interface CloudStudentProfileDocument {
+  studentId: string;
+  displayName: string;
+  createdAt: string;
+  lastActiveAt: string;
+  homeGrade?: string;
+  gradeLevel?: string;
+  placementProfile?: StudentProfile["placementProfile"];
+  profileType?: StudentProfile["profileType"];
+  featureFlags?: StudentProfile["featureFlags"];
+}
+
 export interface ProgressSyncClient {
   isReady(): boolean;
   saveProgressToCloud(studentId: string, progressData: ProgressSnapshot): Promise<void>;
   loadProgressFromCloud(studentId: string): Promise<CloudProgressDocument | null>;
+}
+
+export interface StudentProfileSyncClient {
+  isReady(): boolean;
+  listProfilesFromCloud(): Promise<StudentProfile[]>;
+  saveProfileToCloud(profile: StudentProfile): Promise<void>;
+  deleteProfileFromCloud(studentId: string): Promise<void>;
 }
 
 type ProgressSyncListener = (status: ProgressSyncStatus) => void;
@@ -87,6 +112,67 @@ function sanitizeProgressSnapshotForCloud<T>(value: T): T {
   ) as T;
 }
 
+function isCloudStudentProfileDocument(value: unknown): value is CloudStudentProfileDocument {
+  if (typeof value !== "object" || value === null) {
+    return false;
+  }
+
+  const candidate = value as Record<string, unknown>;
+  return (
+    typeof candidate.studentId === "string" &&
+    typeof candidate.displayName === "string" &&
+    typeof candidate.createdAt === "string" &&
+    typeof candidate.lastActiveAt === "string"
+  );
+}
+
+function parseCloudStudentProfileDocument(value: unknown): StudentProfile | null {
+  if (!isCloudStudentProfileDocument(value)) {
+    return null;
+  }
+
+  return normalizeStudentProfile({
+    ...value,
+    isActive: false,
+  });
+}
+
+function buildCloudStudentProfileDocument(profile: StudentProfile): CloudStudentProfileDocument {
+  return {
+    studentId: profile.studentId,
+    displayName: profile.displayName,
+    createdAt: profile.createdAt,
+    lastActiveAt: profile.lastActiveAt,
+    gradeLevel: profile.gradeLevel,
+    homeGrade: profile.homeGrade,
+    placementProfile: profile.placementProfile,
+    profileType: profile.profileType,
+    featureFlags: profile.featureFlags,
+  };
+}
+
+function buildStudentProfileFromProgressFallback(
+  value: unknown,
+): StudentProfile | null {
+  const progressDocument = parseCloudProgressDocument(value);
+  if (!progressDocument?.snapshot.student) {
+    return null;
+  }
+
+  return normalizeStudentProfile({
+    studentId: progressDocument.snapshot.student.studentId,
+    displayName: progressDocument.snapshot.student.displayName,
+    gradeLevel: progressDocument.snapshot.student.gradeLevel,
+    homeGrade: progressDocument.snapshot.student.homeGrade,
+    placementProfile: progressDocument.snapshot.student.placementProfile,
+    profileType: progressDocument.snapshot.student.profileType,
+    featureFlags: progressDocument.snapshot.student.featureFlags,
+    createdAt: progressDocument.syncedAt,
+    lastActiveAt: progressDocument.lastModified,
+    isActive: false,
+  });
+}
+
 export class FirestoreProgressSyncClient implements ProgressSyncClient {
   constructor(private readonly firestore: Firestore | null = db) {}
 
@@ -138,6 +224,81 @@ export class FirestoreProgressSyncClient implements ProgressSyncClient {
     }
 
     return parseCloudProgressDocument(legacySnapshot.data());
+  }
+}
+
+export class FirestoreStudentProfileSyncClient implements StudentProfileSyncClient {
+  constructor(private readonly firestore: Firestore | null = db) {}
+
+  isReady(): boolean {
+    return this.firestore !== null;
+  }
+
+  async listProfilesFromCloud(): Promise<StudentProfile[]> {
+    if (!this.firestore) {
+      throw new Error("Firebase sync is not configured.");
+    }
+
+    const profilesById = new Map<string, StudentProfile>();
+    const [profileSnapshot, progressSnapshot] = await Promise.all([
+      getDocs(collectionGroup(this.firestore, "profile")),
+      getDocs(collectionGroup(this.firestore, "progress")),
+    ]);
+
+    for (const documentSnapshot of profileSnapshot.docs) {
+      const profile = parseCloudStudentProfileDocument(documentSnapshot.data());
+      if (!profile) {
+        continue;
+      }
+
+      profilesById.set(profile.studentId, profile);
+    }
+
+    for (const documentSnapshot of progressSnapshot.docs) {
+      const profile = buildStudentProfileFromProgressFallback(documentSnapshot.data());
+      if (!profile) {
+        continue;
+      }
+
+      const existingProfile = profilesById.get(profile.studentId);
+      if (
+        !existingProfile ||
+        Date.parse(profile.lastActiveAt) > Date.parse(existingProfile.lastActiveAt)
+      ) {
+        profilesById.set(profile.studentId, profile);
+      }
+    }
+
+    return [...profilesById.values()].sort((left, right) =>
+      left.createdAt.localeCompare(right.createdAt),
+    );
+  }
+
+  async saveProfileToCloud(profile: StudentProfile): Promise<void> {
+    if (!this.firestore) {
+      throw new Error("Firebase sync is not configured.");
+    }
+
+    await setDoc(
+      doc(this.firestore, "students", profile.studentId, "profile", "current"),
+      {
+        ...sanitizeProgressSnapshotForCloud(buildCloudStudentProfileDocument(profile)),
+        syncedAt: new Date().toISOString(),
+        serverUpdatedAt: serverTimestamp(),
+      },
+      { merge: true },
+    );
+  }
+
+  async deleteProfileFromCloud(studentId: string): Promise<void> {
+    if (!this.firestore) {
+      throw new Error("Firebase sync is not configured.");
+    }
+
+    await Promise.all([
+      deleteDoc(doc(this.firestore, "students", studentId, "profile", "current")),
+      deleteDoc(doc(this.firestore, "students", studentId, "progress", "current")),
+    ]);
   }
 }
 
@@ -298,5 +459,182 @@ export class SyncingDataTransferService implements DataTransferServiceContract {
     const snapshot = await this.delegate.importProgress(value);
     this.syncManager.syncInBackground();
     return snapshot;
+  }
+}
+
+export class SyncingStudentProfileService implements StudentProfileService {
+  private mergedCloudProfiles = false;
+  private queuedSync: Promise<void> = Promise.resolve();
+
+  constructor(
+    private readonly delegate: StudentProfileService & {
+      upsertProfileFromCloud(profile: StudentProfile): Promise<StudentProfile>;
+    },
+    private readonly syncClient: StudentProfileSyncClient,
+  ) {}
+
+  async listProfiles(): Promise<StudentProfile[]> {
+    await this.ensureCloudProfilesMerged();
+    return this.delegate.listProfiles();
+  }
+
+  async getActiveProfile(): Promise<StudentProfile> {
+    await this.ensureCloudProfilesMerged();
+    return this.delegate.getActiveProfile();
+  }
+
+  async getActiveStudentId(): Promise<string> {
+    return (await this.getActiveProfile()).studentId;
+  }
+
+  async setActiveStudent(studentId: string): Promise<StudentProfile> {
+    await this.ensureCloudProfilesMerged();
+    const profile = await this.delegate.setActiveStudent(studentId);
+    this.queueProfileSync(profile);
+    return profile;
+  }
+
+  async createProfile(
+    displayName: string,
+    homeGrade?: string,
+    placementProfile?: StudentProfile["placementProfile"],
+    options?: {
+      profileType?: StudentProfile["profileType"];
+      featureFlags?: StudentProfile["featureFlags"];
+    },
+  ): Promise<StudentProfile> {
+    await this.ensureCloudProfilesMerged();
+    const profile = await this.delegate.createProfile(
+      displayName,
+      homeGrade,
+      placementProfile,
+      options,
+    );
+    this.queueProfileSync(profile);
+    return profile;
+  }
+
+  async isFeatureEnabled(studentId: string, featureName: string): Promise<boolean> {
+    await this.ensureCloudProfilesMerged();
+    return this.delegate.isFeatureEnabled(studentId, featureName);
+  }
+
+  async convertProfileToTest(studentId: string): Promise<StudentProfile> {
+    await this.ensureCloudProfilesMerged();
+    const profile = await this.delegate.convertProfileToTest(studentId);
+    this.queueProfileSync(profile);
+    return profile;
+  }
+
+  async setTestProfileFeatureFlag(
+    studentId: string,
+    featureName: string,
+    enabled: boolean,
+  ): Promise<StudentProfile> {
+    await this.ensureCloudProfilesMerged();
+    const profile = await this.delegate.setTestProfileFeatureFlag(studentId, featureName, enabled);
+    this.queueProfileSync(profile);
+    return profile;
+  }
+
+  async deleteTestProfile(studentId: string): Promise<void> {
+    await this.ensureCloudProfilesMerged();
+    await this.delegate.deleteTestProfile(studentId);
+    this.queueDeleteProfile(studentId);
+  }
+
+  waitForIdle(): Promise<void> {
+    return this.queuedSync.catch(() => undefined);
+  }
+
+  private async ensureCloudProfilesMerged(): Promise<void> {
+    if (this.mergedCloudProfiles || !this.syncClient.isReady()) {
+      this.mergedCloudProfiles = true;
+      return;
+    }
+
+    try {
+      const localProfiles = await this.delegate.listProfiles();
+      const cloudProfiles = await this.syncClient.listProfilesFromCloud();
+      const localProfilesById = new Map(localProfiles.map((profile) => [profile.studentId, profile]));
+
+      await this.mergeCloudProfilesIntoLocal(localProfilesById, cloudProfiles);
+      await this.syncProfilesNow(await this.delegate.listProfiles());
+    } catch {
+      // Keep local-first behavior if Firebase is unavailable.
+    } finally {
+      this.mergedCloudProfiles = true;
+    }
+  }
+
+  private async mergeCloudProfilesIntoLocal(
+    localProfilesById: Map<string, StudentProfile>,
+    cloudProfiles: StudentProfile[],
+  ): Promise<void> {
+    for (const cloudProfile of cloudProfiles) {
+      const localProfile = localProfilesById.get(cloudProfile.studentId);
+      if (!localProfile) {
+        const importedProfile = await this.delegate.upsertProfileFromCloud({
+          ...cloudProfile,
+          isActive: false,
+        });
+        localProfilesById.set(importedProfile.studentId, importedProfile);
+        continue;
+      }
+
+      const localTimestamp = Date.parse(localProfile.lastActiveAt);
+      const cloudTimestamp = Date.parse(cloudProfile.lastActiveAt);
+      const shouldPreferCloud =
+        cloudTimestamp > localTimestamp ||
+        (cloudTimestamp === localTimestamp &&
+          JSON.stringify(buildCloudStudentProfileDocument(cloudProfile)).length >
+            JSON.stringify(buildCloudStudentProfileDocument(localProfile)).length);
+
+      if (!shouldPreferCloud) {
+        continue;
+      }
+
+      const mergedProfile = await this.delegate.upsertProfileFromCloud({
+        ...cloudProfile,
+        isActive: localProfile.isActive,
+      });
+      localProfilesById.set(mergedProfile.studentId, mergedProfile);
+    }
+  }
+
+  private async syncProfilesNow(profiles: StudentProfile[]): Promise<void> {
+    if (!this.syncClient.isReady()) {
+      return;
+    }
+
+    for (const profile of profiles) {
+      await this.syncClient.saveProfileToCloud(profile);
+    }
+  }
+
+  private queueProfileSync(profile: StudentProfile): void {
+    if (!this.syncClient.isReady()) {
+      return;
+    }
+
+    this.queuedSync = this.queuedSync
+      .catch(() => undefined)
+      .then(async () => {
+        await this.syncClient.saveProfileToCloud(profile);
+      })
+      .catch(() => undefined);
+  }
+
+  private queueDeleteProfile(studentId: string): void {
+    if (!this.syncClient.isReady()) {
+      return;
+    }
+
+    this.queuedSync = this.queuedSync
+      .catch(() => undefined)
+      .then(async () => {
+        await this.syncClient.deleteProfileFromCloud(studentId);
+      })
+      .catch(() => undefined);
   }
 }

@@ -20,11 +20,13 @@ import { createDefaultContentRepository } from "../services/contentRepository";
 import { DataTransferService } from "../services/dataTransferService";
 import {
   FirestoreProgressSyncClient,
+  FirestoreStudentProfileSyncClient,
   ProgressSyncManager,
   SyncingSessionService,
   type ProgressSyncStatus,
   SyncingDataTransferService,
   SyncingProgressService,
+  SyncingStudentProfileService,
 } from "../services/firebaseProgressSync";
 import { LocalProgressService } from "../services/progressService";
 import { LocalSessionService } from "../services/sessionService";
@@ -138,9 +140,13 @@ export async function createAppServices(
 
 async function createDefaultAppServices(): Promise<AppServices> {
   const store = await IndexedDBStorageService.create();
-  const studentProfileServiceWithStorage = new LocalStudentProfileService(
+  const localStudentProfileService = new LocalStudentProfileService(
     new StudentProfileRepository(store),
     store,
+  );
+  const studentProfileServiceWithStorage = new SyncingStudentProfileService(
+    localStudentProfileService,
+    new FirestoreStudentProfileSyncClient(),
   );
   const progressSyncManager = new ProgressSyncManager(
     new FirestoreProgressSyncClient(),

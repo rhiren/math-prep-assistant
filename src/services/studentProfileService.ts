@@ -229,6 +229,7 @@ export class LocalStudentProfileService implements StudentProfileService {
 
     const updatedProfile = normalizeStudentProfile({
       ...profile,
+      lastActiveAt: new Date().toISOString(),
       profileType: "test",
     });
     await this.repository.save(updatedProfile);
@@ -264,10 +265,25 @@ export class LocalStudentProfileService implements StudentProfileService {
     };
     const updatedProfile = normalizeStudentProfile({
       ...profile,
+      lastActiveAt: new Date().toISOString(),
       featureFlags: nextFeatureFlags,
     });
     await this.repository.save(updatedProfile);
     return updatedProfile;
+  }
+
+  async upsertProfileFromCloud(profile: StudentProfile): Promise<StudentProfile> {
+    await this.ensureInitialized();
+
+    const existingProfile = (await this.listSortedProfiles()).find(
+      (item) => item.studentId === profile.studentId,
+    );
+    const normalizedProfile = normalizeStudentProfile({
+      ...profile,
+      isActive: existingProfile?.isActive ?? profile.isActive,
+    });
+    await this.repository.save(normalizedProfile);
+    return normalizedProfile;
   }
 
   async deleteTestProfile(studentId: string): Promise<void> {

@@ -1,8 +1,9 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { BasicScoringEngine } from "../engines/basicScoringEngine";
 import { DeterministicConceptTestEngine } from "../engines/deterministicConceptTestEngine";
 import { StableSelectionStrategy } from "../engines/questionSelectionStrategy";
 import { createDefaultContentRepository } from "../services/contentRepository";
+import { SyncingStudentProfileService } from "../services/firebaseProgressSync";
 import { LocalProgressService } from "../services/progressService";
 import { LocalSessionService } from "../services/sessionService";
 import { LocalStudentProfileService } from "../services/studentProfileService";
@@ -122,6 +123,48 @@ describe("student profiles", () => {
 
     expect(updatedProfile.featureFlags).toEqual({ smartRetry: true });
     expect(await studentProfileService.isFeatureEnabled(testProfile.studentId, "smartRetry")).toBe(true);
+  });
+
+  it("restores synced student profiles on a new device while preserving local active selection", async () => {
+    const store = new MemoryStorageService();
+    const localStudentProfileService = new LocalStudentProfileService(
+      new StudentProfileRepository(store),
+      store,
+    );
+    const syncClient = {
+      isReady: () => true,
+      listProfilesFromCloud: vi.fn().mockResolvedValue([
+        {
+          studentId: "student-remote",
+          displayName: "Daughter",
+          homeGrade: "6",
+          createdAt: "2026-04-19T18:00:00.000Z",
+          lastActiveAt: "2026-04-19T18:15:00.000Z",
+          isActive: false,
+          profileType: "production",
+        },
+      ]),
+      saveProfileToCloud: vi.fn().mockResolvedValue(undefined),
+      deleteProfileFromCloud: vi.fn().mockResolvedValue(undefined),
+    };
+    const studentProfileService = new SyncingStudentProfileService(
+      localStudentProfileService,
+      syncClient,
+    );
+
+    const profiles = await studentProfileService.listProfiles();
+
+    expect(profiles.map((profile) => profile.studentId)).toEqual(
+      expect.arrayContaining(["student-1", "student-remote"]),
+    );
+    expect(profiles.find((profile) => profile.studentId === "student-remote")).toEqual(
+      expect.objectContaining({
+        displayName: "Daughter",
+        homeGrade: "6",
+        isActive: false,
+      }),
+    );
+    expect((await studentProfileService.getActiveProfile()).studentId).toBe("student-1");
   });
 
   it("keeps progress isolated per active student", async () => {
