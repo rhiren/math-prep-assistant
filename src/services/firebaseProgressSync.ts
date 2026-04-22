@@ -25,6 +25,7 @@ import { db } from "./firebase";
 import { normalizeStudentProfile } from "./studentProfileService";
 
 const LEGACY_PROGRESS_SYNC_USER_ID = "daughter-1";
+const STUDENT_ROSTER_SYNC_PATH = ["sync", "student_roster"] as const;
 
 export type ProgressSyncStatus = "offline" | "syncing" | "synced";
 
@@ -45,6 +46,11 @@ export interface CloudStudentProfileDocument {
   placementProfile?: StudentProfile["placementProfile"];
   profileType?: StudentProfile["profileType"];
   featureFlags?: StudentProfile["featureFlags"];
+}
+
+export interface CloudStudentRosterDocument {
+  profiles: CloudStudentProfileDocument[];
+  syncedAt: string;
 }
 
 export interface ProgressSyncClient {
@@ -151,6 +157,30 @@ function buildCloudStudentProfileDocument(profile: StudentProfile): CloudStudent
   };
 }
 
+function isCloudStudentRosterDocument(value: unknown): value is CloudStudentRosterDocument {
+  if (typeof value !== "object" || value === null) {
+    return false;
+  }
+
+  const candidate = value as Record<string, unknown>;
+  return (
+    Array.isArray(candidate.profiles) &&
+    typeof candidate.syncedAt === "string" &&
+    candidate.profiles.every((profile) => isCloudStudentProfileDocument(profile))
+  );
+}
+
+function parseCloudStudentRosterDocument(value: unknown): StudentProfile[] {
+  if (!isCloudStudentRosterDocument(value)) {
+    return [];
+  }
+
+  return value.profiles
+    .map((profile) => parseCloudStudentProfileDocument(profile))
+    .filter((profile): profile is StudentProfile => profile !== null)
+    .sort((left, right) => left.createdAt.localeCompare(right.createdAt));
+}
+
 function buildStudentProfileFromProgressFallback(
   value: unknown,
 ): StudentProfile | null {
@@ -239,39 +269,16 @@ export class FirestoreStudentProfileSyncClient implements StudentProfileSyncClie
       throw new Error("Firebase sync is not configured.");
     }
 
-    const profilesById = new Map<string, StudentProfile>();
-    const [profileSnapshot, progressSnapshot] = await Promise.all([
-      getDocs(collectionGroup(this.firestore, "profile")),
-      getDocs(collectionGroup(this.firestore, "progress")),
-    ]);
-
-    for (const documentSnapshot of profileSnapshot.docs) {
-      const profile = parseCloudStudentProfileDocument(documentSnapshot.data());
-      if (!profile) {
-        continue;
+    try {
+      const rosterProfiles = await this.loadProfilesFromRoster();
+      if (rosterProfiles.length > 0) {
+        return rosterProfiles;
       }
-
-      profilesById.set(profile.studentId, profile);
+    } catch {
+      // Fall through to legacy discovery so source devices can still republish local profiles.
     }
 
-    for (const documentSnapshot of progressSnapshot.docs) {
-      const profile = buildStudentProfileFromProgressFallback(documentSnapshot.data());
-      if (!profile) {
-        continue;
-      }
-
-      const existingProfile = profilesById.get(profile.studentId);
-      if (
-        !existingProfile ||
-        Date.parse(profile.lastActiveAt) > Date.parse(existingProfile.lastActiveAt)
-      ) {
-        profilesById.set(profile.studentId, profile);
-      }
-    }
-
-    return [...profilesById.values()].sort((left, right) =>
-      left.createdAt.localeCompare(right.createdAt),
-    );
+    return this.loadProfilesFromLegacyDiscovery();
   }
 
   async saveProfileToCloud(profile: StudentProfile): Promise<void> {
@@ -279,6 +286,7 @@ export class FirestoreStudentProfileSyncClient implements StudentProfileSyncClie
       throw new Error("Firebase sync is not configured.");
     }
 
+    await this.saveProfileToRoster(profile);
     await setDoc(
       doc(this.firestore, "students", profile.studentId, "profile", "current"),
       {
@@ -295,10 +303,113 @@ export class FirestoreStudentProfileSyncClient implements StudentProfileSyncClie
       throw new Error("Firebase sync is not configured.");
     }
 
+    await this.removeProfileFromRoster(studentId);
     await Promise.all([
       deleteDoc(doc(this.firestore, "students", studentId, "profile", "current")),
       deleteDoc(doc(this.firestore, "students", studentId, "progress", "current")),
     ]);
+  }
+
+  private async loadProfilesFromRoster(): Promise<StudentProfile[]> {
+    if (!this.firestore) {
+      return [];
+    }
+
+    const rosterSnapshot = await getDoc(doc(this.firestore, ...STUDENT_ROSTER_SYNC_PATH));
+    if (!rosterSnapshot.exists()) {
+      return [];
+    }
+
+    return parseCloudStudentRosterDocument(rosterSnapshot.data());
+  }
+
+  private async loadProfilesFromLegacyDiscovery(): Promise<StudentProfile[]> {
+    if (!this.firestore) {
+      return [];
+    }
+
+    try {
+      const profilesById = new Map<string, StudentProfile>();
+      const [profileSnapshot, progressSnapshot] = await Promise.all([
+        getDocs(collectionGroup(this.firestore, "profile")),
+        getDocs(collectionGroup(this.firestore, "progress")),
+      ]);
+
+      for (const documentSnapshot of profileSnapshot.docs) {
+        const profile = parseCloudStudentProfileDocument(documentSnapshot.data());
+        if (!profile) {
+          continue;
+        }
+
+        profilesById.set(profile.studentId, profile);
+      }
+
+      for (const documentSnapshot of progressSnapshot.docs) {
+        const profile = buildStudentProfileFromProgressFallback(documentSnapshot.data());
+        if (!profile) {
+          continue;
+        }
+
+        const existingProfile = profilesById.get(profile.studentId);
+        if (
+          !existingProfile ||
+          Date.parse(profile.lastActiveAt) > Date.parse(existingProfile.lastActiveAt)
+        ) {
+          profilesById.set(profile.studentId, profile);
+        }
+      }
+
+      return [...profilesById.values()].sort((left, right) =>
+        left.createdAt.localeCompare(right.createdAt),
+      );
+    } catch {
+      return [];
+    }
+  }
+
+  private async saveProfileToRoster(profile: StudentProfile): Promise<void> {
+    if (!this.firestore) {
+      return;
+    }
+
+    const existingProfiles = await this.loadProfilesFromRoster();
+    const profilesById = new Map(
+      existingProfiles.map((existingProfile) => [
+        existingProfile.studentId,
+        buildCloudStudentProfileDocument(existingProfile),
+      ]),
+    );
+    profilesById.set(profile.studentId, buildCloudStudentProfileDocument(profile));
+
+    await setDoc(
+      doc(this.firestore, ...STUDENT_ROSTER_SYNC_PATH),
+      sanitizeProgressSnapshotForCloud({
+        profiles: [...profilesById.values()].sort((left, right) =>
+          left.createdAt.localeCompare(right.createdAt),
+        ),
+        syncedAt: new Date().toISOString(),
+        serverUpdatedAt: serverTimestamp(),
+      }),
+    );
+  }
+
+  private async removeProfileFromRoster(studentId: string): Promise<void> {
+    if (!this.firestore) {
+      return;
+    }
+
+    const existingProfiles = await this.loadProfilesFromRoster();
+
+    await setDoc(
+      doc(this.firestore, ...STUDENT_ROSTER_SYNC_PATH),
+      sanitizeProgressSnapshotForCloud({
+        profiles: existingProfiles
+          .filter((profile) => profile.studentId !== studentId)
+          .map((profile) => buildCloudStudentProfileDocument(profile)),
+        syncedAt: new Date().toISOString(),
+        serverUpdatedAt: serverTimestamp(),
+      }),
+    );
   }
 }
 

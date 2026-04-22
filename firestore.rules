@@ -5,6 +5,10 @@ service cloud.firestore {
     // Current no-auth architecture stores only per-student sync documents in Firestore.
     // Allow those specific documents for any generated studentId so profiles and progress
     // can sync across devices without hardcoded student ids.
+    match /sync/{documentId} {
+      allow read, write: if documentId == "student_roster";
+    }
+
     match /students/{studentId}/progress/{documentId} {
       allow read, write: if documentId == "current";
     }

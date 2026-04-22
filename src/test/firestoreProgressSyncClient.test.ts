@@ -161,25 +161,23 @@ describe("FirestoreProgressSyncClient", () => {
     expect(writtenSnapshot.data.sessions[0]).not.toHaveProperty("testSetId");
   });
 
-  it("lists synced student profiles from dedicated profile documents", async () => {
-    getDocsMock
-      .mockResolvedValueOnce({
-        docs: [
+  it("lists synced student profiles from the shared roster document", async () => {
+    getDocMock.mockResolvedValue({
+      exists: () => true,
+      data: () => ({
+        profiles: [
           {
-            data: () => ({
-              studentId: "student-2",
-              displayName: "Daughter",
-              createdAt: "2026-04-19T18:00:00.000Z",
-              lastActiveAt: "2026-04-19T18:30:00.000Z",
-              homeGrade: "6",
-              profileType: "production",
-            }),
+            studentId: "student-2",
+            displayName: "Daughter",
+            createdAt: "2026-04-19T18:00:00.000Z",
+            lastActiveAt: "2026-04-19T18:30:00.000Z",
+            homeGrade: "6",
+            profileType: "production",
           },
         ],
-      })
-      .mockResolvedValueOnce({
-        docs: [],
-      });
+        syncedAt: "2026-04-19T18:31:00.000Z",
+      }),
+    });
 
     const client = new FirestoreStudentProfileSyncClient({} as never);
     await expect(client.listProfilesFromCloud()).resolves.toEqual([
@@ -192,7 +190,10 @@ describe("FirestoreProgressSyncClient", () => {
     ]);
   });
 
-  it("falls back to progress snapshot student summaries when no profile docs exist yet", async () => {
+  it("falls back to legacy profile discovery when no roster doc exists yet", async () => {
+    getDocMock.mockResolvedValue({
+      exists: () => false,
+    });
     getDocsMock
       .mockResolvedValueOnce({
         docs: [],
@@ -229,7 +230,36 @@ describe("FirestoreProgressSyncClient", () => {
     ]);
   });
 
-  it("writes and deletes synced student profile documents", async () => {
+  it("returns an empty profile list when cloud profile discovery is denied", async () => {
+    getDocMock.mockRejectedValue(new Error("permission-denied"));
+    getDocsMock.mockRejectedValue(new Error("permission-denied"));
+
+    const client = new FirestoreStudentProfileSyncClient({} as never);
+    await expect(client.listProfilesFromCloud()).resolves.toEqual([]);
+  });
+
+  it("writes and deletes synced student profile documents plus the shared roster", async () => {
+    getDocMock
+      .mockResolvedValueOnce({
+        exists: () => false,
+      })
+      .mockResolvedValueOnce({
+        exists: () => true,
+        data: () => ({
+          profiles: [
+            {
+              studentId: "student-2",
+              displayName: "Daughter",
+              homeGrade: "6",
+              createdAt: "2026-04-19T18:00:00.000Z",
+              lastActiveAt: "2026-04-19T18:30:00.000Z",
+              profileType: "production",
+            },
+          ],
+          syncedAt: "2026-04-19T18:31:00.000Z",
+        }),
+      });
+
     const client = new FirestoreStudentProfileSyncClient({} as never);
 
     await client.saveProfileToCloud({
@@ -242,7 +272,23 @@ describe("FirestoreProgressSyncClient", () => {
       profileType: "production",
     });
 
-    expect(setDocMock).toHaveBeenCalledWith(
+    expect(setDocMock).toHaveBeenNthCalledWith(
+      1,
+      { path: "sync/student_roster" },
+      expect.objectContaining({
+        profiles: [
+          expect.objectContaining({
+            studentId: "student-2",
+            displayName: "Daughter",
+            homeGrade: "6",
+          }),
+        ],
+        serverUpdatedAt: "__SERVER_TIMESTAMP__",
+      }),
+    );
+
+    expect(setDocMock).toHaveBeenNthCalledWith(
+      2,
       { path: "students/student-2/profile/current" },
       expect.objectContaining({
         studentId: "student-2",
@@ -254,6 +300,15 @@ describe("FirestoreProgressSyncClient", () => {
     );
 
     await client.deleteProfileFromCloud("student-2");
+
+    expect(setDocMock).toHaveBeenNthCalledWith(
+      3,
+      { path: "sync/student_roster" },
+      expect.objectContaining({
+        profiles: [],
+        serverUpdatedAt: "__SERVER_TIMESTAMP__",
+      }),
+    );
 
     expect(deleteDocMock).toHaveBeenCalledTimes(2);
     expect(deleteDocMock).toHaveBeenCalledWith({ path: "students/student-2/profile/current" });
