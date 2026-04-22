@@ -291,9 +291,9 @@ export function AppServicesProvider({
       activeProfile,
       setActiveStudent: async (studentId: string) => {
         const profile = await resolvedServices.studentProfileService.setActiveStudent(studentId);
+        await resolvedServices.progressSyncManager?.initialize();
         setActiveProfile(profile);
         setProfiles(await resolvedServices.studentProfileService.listProfiles());
-        await resolvedServices.progressSyncManager?.initialize();
       },
       createStudentProfile: async (
         displayName: string,

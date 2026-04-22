@@ -34,6 +34,7 @@ This file is the authoritative project constitution.
 For significant changes, also read:
 
 - [docs/math_prep_assistant_chat_context.md](/Users/hiren/projects/school-prep-assistant/docs/math_prep_assistant_chat_context.md)
+- [docs/future_feature_backlog.md](/Users/hiren/projects/school-prep-assistant/docs/future_feature_backlog.md) for captured future ideas that are not yet active implementation work
 
 Use the files this way:
 
@@ -220,6 +221,8 @@ Direction is:
 - active student
 - student-scoped progress
 - student-scoped Firebase sync
+- cross-device student profile recovery
+- cross-device resume of in-progress student work
 
 Do not reintroduce hardcoded single-user identity.
 
@@ -228,6 +231,14 @@ Do not hardcode:
 `daughter-1`
 
 Identity must be parameterized through active student selection.
+
+Student identity must remain stable across local IndexedDB and Firebase via
+`studentId`.
+
+Do not regress to device-local-only student discovery.
+
+Preserve the ability for a student profile created on one device to be recovered
+on another device through the Firebase sync layer.
 
 ---
 
@@ -299,6 +310,13 @@ Preserve:
 - `lastModified` conflict resolution
 - background sync
 - safe behavior if Firebase unavailable
+- student profile sync as a recovery layer for cross-device use
+- shared student roster / profile discovery support for cross-device recovery
+- recovery of in-progress sessions across devices when cloud state is newer
+
+When changing student switching or startup hydration behavior, preserve the
+expectation that cloud progress hydration should complete before the learner
+experience implies that no resumable work exists for the active student.
 
 ---
 
