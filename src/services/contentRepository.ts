@@ -35,6 +35,18 @@ function logContentValidationError(message: string, details: Record<string, unkn
   console.error(`[content] ${message}`, details);
 }
 
+export function hasMatchingMultipleChoiceCorrectAnswer(
+  question: Pick<Question, "questionType" | "choices" | "correctAnswer">,
+): boolean {
+  if (question.questionType !== "multiple_choice") {
+    return true;
+  }
+
+  const correctAnswer = question.correctAnswer.trim();
+  const choiceValues = question.choices?.map((choice) => choice.value.trim()) ?? [];
+  return correctAnswer !== "" && choiceValues.includes(correctAnswer);
+}
+
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
 }
@@ -925,7 +937,7 @@ export async function createDefaultContentRepository(): Promise<StaticContentRep
         const optionValues = Array.isArray(rawQuestion.options)
           ? rawQuestion.options.filter((option): option is string => typeof option === "string")
           : [];
-        normalizedQuestions.push({
+        const normalizedQuestion: Question = {
           id: questionId,
           courseId: location.courseId,
           unitId: location.unitId,
@@ -943,7 +955,23 @@ export async function createDefaultContentRepository(): Promise<StaticContentRep
             typeof rawQuestion.eligibleForMixed === "boolean"
               ? rawQuestion.eligibleForMixed
               : true,
-        });
+        };
+
+        if (!hasMatchingMultipleChoiceCorrectAnswer(normalizedQuestion)) {
+          skippedTestSets += 1;
+          logContentValidationError(
+            "Skipping test set with multiple-choice correct answer missing from options.",
+            {
+              path,
+              testSetId,
+              questionId,
+              correctAnswer: normalizedQuestion.correctAnswer,
+            },
+          );
+          return [];
+        }
+
+        normalizedQuestions.push(normalizedQuestion);
       }
 
       for (const question of normalizedQuestions) {

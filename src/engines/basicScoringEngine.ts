@@ -7,12 +7,12 @@ import type {
 } from "../domain/models";
 import type { ContentRepository, ScoringService } from "../services/contracts";
 import { createId } from "../utils/id";
-import { compareAnswers } from "../utils/answerNormalization";
+import { compareQuestionAnswer } from "../utils/answerNormalization";
 
 function toScoredResult(question: Question, answer?: AnswerRecord): ScoredQuestionResult {
   const submittedAnswer = answer?.response?.trim() ? answer.response : null;
   const comparison = answer
-    ? compareAnswers(answer.response, question.correctAnswer, question.answerType)
+    ? compareQuestionAnswer(question, answer.response)
     : {
         isCorrect: false,
         normalizedSubmitted: "",

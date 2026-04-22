@@ -22,6 +22,21 @@ export interface AnswerComparison {
   feedbackTip: string | null;
 }
 
+function buildExactMatchComparison(
+  submittedValue: string,
+  correctValue: string,
+): AnswerComparison {
+  const normalizedSubmitted = submittedValue.trim();
+  const normalizedCorrect = correctValue.trim();
+
+  return {
+    isCorrect: normalizedSubmitted !== "" && normalizedSubmitted === normalizedCorrect,
+    normalizedSubmitted,
+    normalizedCorrect,
+    feedbackTip: null,
+  };
+}
+
 export function normalizeAnswer(
   value: string,
   answerType: AnswerType,
@@ -109,6 +124,11 @@ export function compareAnswers(
   correctValue: string,
   answerType: AnswerType,
 ): AnswerComparison {
+  const exactMatchComparison = buildExactMatchComparison(submittedValue, correctValue);
+  if (exactMatchComparison.isCorrect) {
+    return exactMatchComparison;
+  }
+
   const correct = normalizeAnswer(correctValue, answerType);
   if (!correct) {
     return {
@@ -147,6 +167,19 @@ export function compareAnswers(
     normalizedCorrect: correct.canonical,
     feedbackTip: null,
   };
+}
+
+export function compareQuestionAnswer(
+  question: Pick<Question, "answerType" | "correctAnswer" | "questionType">,
+  submittedValue: string,
+): AnswerComparison {
+  const exactMatchComparison = buildExactMatchComparison(submittedValue, question.correctAnswer);
+
+  if (exactMatchComparison.isCorrect) {
+    return exactMatchComparison;
+  }
+
+  return compareAnswers(submittedValue, question.correctAnswer, question.answerType);
 }
 
 export function isRatioQuestion(question: Question): boolean {

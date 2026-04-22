@@ -3,6 +3,7 @@ import type { CourseManifestDocument, QuestionBankDocument } from "../domain/mod
 import {
   buildContentIndex,
   createDefaultContentRepository,
+  hasMatchingMultipleChoiceCorrectAnswer,
   validateManifest,
 } from "../services/contentRepository";
 
@@ -190,5 +191,29 @@ describe("content repository", () => {
       "concept-ratios",
     ]);
     expect(validation.skippedConcepts).toBe(1);
+  });
+
+  it("requires multiple-choice correct answers to match one of the option values", () => {
+    expect(
+      hasMatchingMultipleChoiceCorrectAnswer({
+        questionType: "multiple_choice",
+        correctAnswer: "Store B",
+        choices: [
+          { id: "a", label: "A", value: "Store A" },
+          { id: "b", label: "B", value: "Store B" },
+        ],
+      }),
+    ).toBe(true);
+
+    expect(
+      hasMatchingMultipleChoiceCorrectAnswer({
+        questionType: "multiple_choice",
+        correctAnswer: "Store C",
+        choices: [
+          { id: "a", label: "A", value: "Store A" },
+          { id: "b", label: "B", value: "Store B" },
+        ],
+      }),
+    ).toBe(false);
   });
 });

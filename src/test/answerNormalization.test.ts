@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   compareAnswers,
+  compareQuestionAnswer,
   normalizeAnswer,
   usesFractionRatioNotation,
 } from "../utils/answerNormalization";
@@ -54,5 +55,19 @@ describe("normalizeAnswer", () => {
     const fractionComparison = compareAnswers("6/8", "3/4", "fraction");
     expect(fractionComparison.isCorrect).toBe(true);
     expect(fractionComparison.feedbackTip).toContain("simplified form is 3/4");
+  });
+
+  it("accepts exact literal matches even when the authored answer type is numeric", () => {
+    const comparison = compareQuestionAnswer(
+      {
+        questionType: "multiple_choice",
+        answerType: "number",
+        correctAnswer: "Divide 14 by 7",
+      },
+      "Divide 14 by 7",
+    );
+
+    expect(comparison.isCorrect).toBe(true);
+    expect(comparison.feedbackTip).toBeNull();
   });
 });
