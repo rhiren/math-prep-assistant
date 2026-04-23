@@ -4,6 +4,7 @@ import {
   buildContentIndex,
   createDefaultContentRepository,
   hasMatchingMultipleChoiceCorrectAnswer,
+  hasValidMultipleChoiceChoices,
   validateManifest,
 } from "../services/contentRepository";
 
@@ -211,6 +212,45 @@ describe("content repository", () => {
         correctAnswer: "Store C",
         choices: [
           { id: "a", label: "A", value: "Store A" },
+          { id: "b", label: "B", value: "Store B" },
+        ],
+      }),
+    ).toBe(false);
+  });
+
+  it("requires multiple-choice questions to have at least two unique non-empty option values", () => {
+    expect(
+      hasValidMultipleChoiceChoices({
+        questionType: "multiple_choice",
+        choices: [
+          { id: "a", label: "A", value: "Store A" },
+          { id: "b", label: "B", value: "Store B" },
+        ],
+      }),
+    ).toBe(true);
+
+    expect(
+      hasValidMultipleChoiceChoices({
+        questionType: "multiple_choice",
+        choices: [{ id: "a", label: "A", value: "Store A" }],
+      }),
+    ).toBe(false);
+
+    expect(
+      hasValidMultipleChoiceChoices({
+        questionType: "multiple_choice",
+        choices: [
+          { id: "a", label: "A", value: "Store A" },
+          { id: "b", label: "B", value: "Store A" },
+        ],
+      }),
+    ).toBe(false);
+
+    expect(
+      hasValidMultipleChoiceChoices({
+        questionType: "multiple_choice",
+        choices: [
+          { id: "a", label: "A", value: " " },
           { id: "b", label: "B", value: "Store B" },
         ],
       }),

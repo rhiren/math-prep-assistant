@@ -47,6 +47,23 @@ export function hasMatchingMultipleChoiceCorrectAnswer(
   return correctAnswer !== "" && choiceValues.includes(correctAnswer);
 }
 
+export function hasValidMultipleChoiceChoices(
+  question: Pick<Question, "questionType" | "choices">,
+): boolean {
+  if (question.questionType !== "multiple_choice") {
+    return true;
+  }
+
+  const normalizedChoiceValues =
+    question.choices?.map((choice) => choice.value.trim()).filter((value) => value !== "") ?? [];
+
+  if (normalizedChoiceValues.length < 2) {
+    return false;
+  }
+
+  return new Set(normalizedChoiceValues).size === normalizedChoiceValues.length;
+}
+
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
 }
@@ -966,6 +983,22 @@ export async function createDefaultContentRepository(): Promise<StaticContentRep
               testSetId,
               questionId,
               correctAnswer: normalizedQuestion.correctAnswer,
+            },
+          );
+          return [];
+        }
+
+        if (!hasValidMultipleChoiceChoices(normalizedQuestion)) {
+          skippedTestSets += 1;
+          logContentValidationError(
+            "Skipping test set with invalid multiple-choice options.",
+            {
+              path,
+              testSetId,
+              questionId,
+              choiceCount: normalizedQuestion.choices?.length ?? 0,
+              choiceValues:
+                normalizedQuestion.choices?.map((choice) => choice.value.trim()) ?? [],
             },
           );
           return [];
