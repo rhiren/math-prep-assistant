@@ -59,6 +59,10 @@ describe("session persistence and progress", () => {
     const progress = await progressService.getConceptProgress("concept-unit-rates");
 
     expect(firstAttempt.attemptId).not.toBe(secondAttempt.attemptId);
+    expect(firstAttempt.durationSignal?.startedAt).toBe(firstSession.createdAt);
+    expect(typeof firstAttempt.durationSignal?.durationMs).toBe("number");
+    expect(secondAttempt.durationSignal?.startedAt).toBe(secondSession.createdAt);
+    expect(typeof secondAttempt.durationSignal?.durationMs).toBe("number");
     expect(attempts).toHaveLength(2);
     expect(progress?.attemptCount).toBe(2);
     expect(progress?.bestScore).toBe(100);

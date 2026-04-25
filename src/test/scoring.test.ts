@@ -1,10 +1,14 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { BasicScoringEngine } from "../engines/basicScoringEngine";
 import type { TestSession } from "../domain/models";
 import { createDefaultContentRepository } from "../services/contentRepository";
 import { DEFAULT_STUDENT_ID } from "../services/studentProfileService";
 
 describe("BasicScoringEngine", () => {
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
   it("scores correct, incorrect, and unanswered responses with normalization", async () => {
     const repository = await createDefaultContentRepository();
     const engine = new BasicScoringEngine(repository);
@@ -143,5 +147,70 @@ describe("BasicScoringEngine", () => {
     expect(attempt.summary.incorrectCount).toBe(0);
     expect(attempt.summary.percentage).toBe(100);
     expect(attempt.results.every((result) => result.isCorrect)).toBe(true);
+  });
+
+  it("captures hidden duration metadata at submit time", async () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-04-24T16:05:30.000Z"));
+
+    const repository = await createDefaultContentRepository();
+    const engine = new BasicScoringEngine(repository);
+    const session: TestSession = {
+      id: "session-4",
+      studentId: DEFAULT_STUDENT_ID,
+      mode: "concept",
+      courseId: "course-2",
+      conceptId: "concept-unit-rates",
+      conceptIds: ["concept-unit-rates"],
+      questionIds: ["concept-unit-rates-core-001"],
+      answers: {
+        "concept-unit-rates-core-001": {
+          questionId: "concept-unit-rates-core-001",
+          response: "8",
+          answeredAt: "2026-04-24T16:03:00.000Z",
+        },
+      },
+      currentQuestionIndex: 0,
+      status: "in_progress",
+      createdAt: "2026-04-24T16:00:00.000Z",
+      updatedAt: "2026-04-24T16:03:00.000Z",
+    };
+
+    const attempt = await engine.scoreSession(session);
+
+    expect(attempt.durationSignal).toEqual({
+      startedAt: "2026-04-24T16:00:00.000Z",
+      durationMs: 330000,
+    });
+    expect(attempt.submittedAt).toBe("2026-04-24T16:05:30.000Z");
+  });
+
+  it("clamps hidden duration metadata to zero when submit time is not after start time", async () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-04-24T16:00:00.000Z"));
+
+    const repository = await createDefaultContentRepository();
+    const engine = new BasicScoringEngine(repository);
+    const session: TestSession = {
+      id: "session-5",
+      studentId: DEFAULT_STUDENT_ID,
+      mode: "concept",
+      courseId: "course-2",
+      conceptId: "concept-unit-rates",
+      conceptIds: ["concept-unit-rates"],
+      questionIds: ["concept-unit-rates-core-001"],
+      answers: {},
+      currentQuestionIndex: 0,
+      status: "in_progress",
+      createdAt: "2026-04-24T16:00:30.000Z",
+      updatedAt: "2026-04-24T16:00:30.000Z",
+    };
+
+    const attempt = await engine.scoreSession(session);
+
+    expect(attempt.durationSignal).toEqual({
+      startedAt: "2026-04-24T16:00:30.000Z",
+      durationMs: 0,
+    });
   });
 });

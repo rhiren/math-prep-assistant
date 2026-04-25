@@ -1,4 +1,5 @@
 import type {
+  AttemptDurationSignal,
   AnswerRecord,
   Question,
   ScoredQuestionResult,
@@ -29,10 +30,28 @@ function toScoredResult(question: Question, answer?: AnswerRecord): ScoredQuesti
   };
 }
 
+function toAttemptDurationSignal(
+  session: TestSession,
+  submittedAt: string,
+): AttemptDurationSignal | undefined {
+  const startedAtMs = Date.parse(session.createdAt);
+  const submittedAtMs = Date.parse(submittedAt);
+
+  if (!Number.isFinite(startedAtMs) || !Number.isFinite(submittedAtMs)) {
+    return undefined;
+  }
+
+  return {
+    startedAt: session.createdAt,
+    durationMs: Math.max(0, submittedAtMs - startedAtMs),
+  };
+}
+
 export class BasicScoringEngine implements ScoringService {
   constructor(private readonly contentRepository: ContentRepository) {}
 
   async scoreSession(session: TestSession): Promise<TestAttempt> {
+    const submittedAt = new Date().toISOString();
     const results: ScoredQuestionResult[] = [];
 
     for (const questionId of session.questionIds) {
@@ -61,6 +80,7 @@ export class BasicScoringEngine implements ScoringService {
       questionIds: session.questionIds,
       answers: session.answers,
       smartRetry: session.smartRetry,
+      durationSignal: toAttemptDurationSignal(session, submittedAt),
       results,
       summary: {
         totalQuestions,
@@ -69,7 +89,7 @@ export class BasicScoringEngine implements ScoringService {
         unansweredCount,
         percentage,
       },
-      submittedAt: new Date().toISOString(),
+      submittedAt,
     };
   }
 }

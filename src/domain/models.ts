@@ -135,6 +135,11 @@ export interface ScoreSummary {
   percentage: number;
 }
 
+export interface AttemptDurationSignal {
+  startedAt: string;
+  durationMs: number;
+}
+
 export interface TestSession {
   id: string;
   studentId: string;
@@ -164,6 +169,7 @@ export interface TestAttempt {
   questionIds: string[];
   answers: Record<string, AnswerRecord>;
   smartRetry?: SmartRetryMetadata;
+  durationSignal?: AttemptDurationSignal;
   results: ScoredQuestionResult[];
   summary: ScoreSummary;
   submittedAt: string;

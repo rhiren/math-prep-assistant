@@ -1,6 +1,6 @@
 # Future Feature Backlog
 
-Last updated: 2026-04-22
+Last updated: 2026-04-24
 
 ## Purpose
 
@@ -82,7 +82,10 @@ For each new idea, capture:
   - need to decide whether reports remain local-first, exportable, synced, or some
     combination of those
 - `Status`
-  Idea captured only. Not yet designed or implemented.
+  Phase 2A implemented. Hidden admin now includes a weekly parent report for the
+  active student, grouped by subject and using local-first progress plus the
+  hidden duration signal. See [reporting_feature_plan.md](/Users/hiren/projects/school-prep-assistant/docs/reporting_feature_plan.md)
+  for remaining polish work.
 
 ### 2. Hidden Test Duration Signal
 
@@ -110,7 +113,9 @@ For each new idea, capture:
   - pauses, interruptions, and device switching can distort the number
   - may need an "active work time" heuristic rather than simple wall-clock duration
 - `Status`
-  Idea captured only. Not yet designed or implemented.
+  Phase 1A implemented. Submit-time hidden duration capture is now in place on
+  `TestAttempt`. See [reporting_feature_plan.md](/Users/hiren/projects/school-prep-assistant/docs/reporting_feature_plan.md).
+  Remaining work: use this signal inside the weekly parent report.
 
 ## Notes
 

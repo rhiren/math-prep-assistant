@@ -2,10 +2,13 @@ import { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { APP_VERSION } from "../app/version";
 import {
+  useAppServices,
   useRemoteDiagnostics,
   useStudentProfiles,
   useSyncDiagnostics,
 } from "../state/AppServicesProvider";
+import type { WeeklyParentReport } from "../services/weeklyParentReport";
+import { buildWeeklyParentReport } from "../services/weeklyParentReport";
 import { useTestMode } from "../state/TestModeProvider";
 
 const navItems = [
@@ -15,6 +18,7 @@ const navItems = [
 ];
 
 export function AppLayout() {
+  const { contentRepository, dataTransferService } = useAppServices();
   const { isTestMode } = useTestMode();
   const syncDiagnostics = useSyncDiagnostics();
   const remoteDiagnostics = useRemoteDiagnostics();
@@ -29,6 +33,8 @@ export function AppLayout() {
   } = useStudentProfiles();
   const [titleTapCount, setTitleTapCount] = useState(0);
   const [isAdminOpen, setIsAdminOpen] = useState(false);
+  const [weeklyReport, setWeeklyReport] = useState<WeeklyParentReport | null>(null);
+  const [isWeeklyReportLoading, setIsWeeklyReportLoading] = useState(false);
 
   const handleCreateStudent = async () => {
     const displayName = window.prompt("Add a student name");
@@ -69,8 +75,54 @@ export function AppLayout() {
     setTitleTapCount(0);
   }, [titleTapCount]);
 
+  useEffect(() => {
+    if (!isAdminOpen || !activeProfile) {
+      return;
+    }
+
+    let isMounted = true;
+    setIsWeeklyReportLoading(true);
+
+    void Promise.all([
+      dataTransferService.exportProgress(),
+      contentRepository.listCourses(),
+    ]).then(([snapshot, courses]) => {
+      if (!isMounted) {
+        return;
+      }
+
+      setWeeklyReport(buildWeeklyParentReport(activeProfile, snapshot, courses));
+      setIsWeeklyReportLoading(false);
+    }).catch(() => {
+      if (!isMounted) {
+        return;
+      }
+
+      setWeeklyReport(null);
+      setIsWeeklyReportLoading(false);
+    });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [
+    activeProfile,
+    contentRepository,
+    dataTransferService,
+    isAdminOpen,
+  ]);
+
   const handleTitleTap = () => {
     setTitleTapCount((currentCount) => currentCount + 1);
+  };
+
+  const formatDuration = (durationMs: number | null) => {
+    if (durationMs === null) {
+      return "—";
+    }
+
+    const totalMinutes = Math.max(1, Math.round(durationMs / (1000 * 60)));
+    return `${totalMinutes} min`;
   };
 
   const testProfiles = profiles.filter((profile) => profile.profileType === "test");
@@ -221,6 +273,148 @@ export function AppLayout() {
                         </div>
                       </div>
                     ))
+                  )}
+                </div>
+              </section>
+
+              <section className="rounded-2xl border border-stone-200 bg-white p-4 sm:col-span-2">
+                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+                  Weekly Parent Report
+                </div>
+                <div className="mt-3 space-y-3">
+                  {isWeeklyReportLoading ? (
+                    <p className="text-sm text-stone-600">Loading weekly report...</p>
+                  ) : weeklyReport && weeklyReport.subjects.length > 0 ? (
+                    <>
+                      <div className="rounded-2xl border border-stone-200 bg-stone-50 p-3">
+                        <div className="text-sm font-medium text-ink">
+                          {weeklyReport.studentDisplayName}
+                        </div>
+                        <p className="mt-1 text-sm text-stone-600">
+                          Reviewing the last 7 days of completed attempts and in-progress work.
+                        </p>
+                      </div>
+                      {weeklyReport.subjects.map((subject) => (
+                        <div
+                          className="rounded-2xl border border-stone-200 bg-stone-50 p-4"
+                          key={subject.subjectId}
+                        >
+                          <div className="flex flex-wrap items-start justify-between gap-4">
+                            <div>
+                              <h3 className="text-lg font-semibold text-ink">{subject.subjectTitle}</h3>
+                              <p className="mt-1 text-sm text-stone-600">
+                                {subject.completedAttempts} completed attempt(s),{" "}
+                                {subject.conceptsPracticed} concept(s) practiced,{" "}
+                                {subject.inProgressSessionCount} in-progress session(s).
+                              </p>
+                            </div>
+                            <div className="grid gap-2 text-sm text-stone-600 sm:grid-cols-3">
+                              <div>
+                                <div className="font-semibold text-ink">Average score</div>
+                                <div>{subject.averageScore ?? "—"}%</div>
+                              </div>
+                              <div>
+                                <div className="font-semibold text-ink">Average time</div>
+                                <div>{formatDuration(subject.averageDurationMs)}</div>
+                              </div>
+                              <div>
+                                <div className="font-semibold text-ink">Smart Retry</div>
+                                <div>{subject.smartRetryCount}</div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="mt-4 grid gap-4 lg:grid-cols-2">
+                            <div className="rounded-2xl border border-stone-200 bg-white p-3">
+                              <div className="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500">
+                                Strongest Concepts
+                              </div>
+                              <div className="mt-3 space-y-3">
+                                {subject.strongestConcepts.length === 0 ? (
+                                  <p className="text-sm text-stone-600">
+                                    No strong concept signal yet this week.
+                                  </p>
+                                ) : (
+                                  subject.strongestConcepts.map((concept) => (
+                                    <div key={concept.conceptId}>
+                                      <div className="font-medium text-ink">{concept.conceptTitle}</div>
+                                      <p className="mt-1 text-sm text-stone-600">{concept.explanation}</p>
+                                    </div>
+                                  ))
+                                )}
+                              </div>
+                            </div>
+
+                            <div className="rounded-2xl border border-stone-200 bg-white p-3">
+                              <div className="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500">
+                                Concepts Needing Support
+                              </div>
+                              <div className="mt-3 space-y-3">
+                                {subject.conceptsNeedingSupport.length === 0 ? (
+                                  <p className="text-sm text-stone-600">
+                                    Nothing looks urgent right now.
+                                  </p>
+                                ) : (
+                                  subject.conceptsNeedingSupport.map((concept) => (
+                                    <div key={concept.conceptId}>
+                                      <div className="font-medium text-ink">{concept.conceptTitle}</div>
+                                      <p className="mt-1 text-sm text-stone-600">{concept.explanation}</p>
+                                    </div>
+                                  ))
+                                )}
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-3">
+                            <div className="text-xs font-semibold uppercase tracking-[0.16em] text-stone-500">
+                              Recent Concept Signals
+                            </div>
+                            <div className="mt-3 space-y-3">
+                              {subject.conceptSummaries.length === 0 ? (
+                                <p className="text-sm text-stone-600">
+                                  No completed concept attempts this week yet.
+                                </p>
+                              ) : (
+                                subject.conceptSummaries.map((concept) => (
+                                  <div
+                                    className="flex flex-wrap items-start justify-between gap-3"
+                                    key={concept.conceptId}
+                                  >
+                                    <div className="max-w-2xl">
+                                      <div className="font-medium text-ink">{concept.conceptTitle}</div>
+                                      <p className="mt-1 text-sm text-stone-600">{concept.explanation}</p>
+                                    </div>
+                                    <div className="grid gap-2 text-sm text-stone-600 sm:grid-cols-4 sm:text-right">
+                                      <div>
+                                        <div className="font-semibold text-ink">Latest</div>
+                                        <div>{concept.latestScore ?? "—"}%</div>
+                                      </div>
+                                      <div>
+                                        <div className="font-semibold text-ink">Best</div>
+                                        <div>{concept.bestScore ?? "—"}%</div>
+                                      </div>
+                                      <div>
+                                        <div className="font-semibold text-ink">Attempts</div>
+                                        <div>{concept.attemptsThisWeek}</div>
+                                      </div>
+                                      <div>
+                                        <div className="font-semibold text-ink">Avg time</div>
+                                        <div>{formatDuration(concept.averageDurationMs)}</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </>
+                  ) : (
+                    <p className="text-sm text-stone-600">
+                      No weekly activity has been captured for this student yet.
+                    </p>
                   )}
                 </div>
               </section>

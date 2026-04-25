@@ -47,6 +47,7 @@ describe("admin console", () => {
 
     expect(await screen.findByText("Admin Console")).toBeInTheDocument();
     expect(screen.getByText(APP_VERSION)).toBeInTheDocument();
+    expect(screen.getByText("Weekly Parent Report")).toBeInTheDocument();
     expect(screen.getByText("Remote Diagnostics")).toBeInTheDocument();
     expect(screen.getByText("Sync Diagnostics")).toBeInTheDocument();
     expect(screen.getAllByText("student-1").length).toBeGreaterThan(0);
@@ -180,5 +181,45 @@ describe("admin console", () => {
 
     expect(await screen.findByText("Cloud student roster read failed.")).toBeInTheDocument();
     expect(screen.getByText(/permission-denied/)).toBeInTheDocument();
+  });
+
+  it("shows a weekly parent report for the active student in hidden admin", async () => {
+    const user = userEvent.setup();
+    const router = createMemoryRouter(routes, {
+      initialEntries: ["/"],
+    });
+    const services = await createAppServices(new MemoryStorageService());
+    const profile = await services.studentProfileService.createProfile("Kashish", "6");
+    await services.studentProfileService.setActiveStudent(profile.studentId);
+
+    const session = await services.testGenerationService.createConceptSession("concept-unit-rates");
+    const question = await services.contentRepository.getQuestionById(session.questionIds[0] ?? "");
+    if (!question) {
+      throw new Error("Expected concept question for weekly report test.");
+    }
+
+    await services.sessionService.saveAnswer(session.id, {
+      questionId: question.id,
+      response: question.correctAnswer,
+      answeredAt: "2026-04-24T10:02:00.000Z",
+    });
+    await services.sessionService.submitSession(session.id);
+
+    render(
+      <AppServicesProvider services={services}>
+        <TestModeProvider>
+          <RouterProvider router={router} />
+        </TestModeProvider>
+      </AppServicesProvider>,
+    );
+
+    const titleButton = await screen.findByRole("button", { name: "School Prep Assistant" });
+    for (let count = 0; count < 5; count += 1) {
+      await user.click(titleButton);
+    }
+
+    expect(await screen.findByText("Reviewing the last 7 days of completed attempts and in-progress work.")).toBeInTheDocument();
+    expect(screen.getAllByText("Mathematics").length).toBeGreaterThan(0);
+    expect(screen.getByText("Recent Concept Signals")).toBeInTheDocument();
   });
 });
