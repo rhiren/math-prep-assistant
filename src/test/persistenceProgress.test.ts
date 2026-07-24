@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { BasicScoringEngine } from "../engines/basicScoringEngine";
 import { DeterministicConceptTestEngine } from "../engines/deterministicConceptTestEngine";
 import { StableSelectionStrategy } from "../engines/questionSelectionStrategy";
@@ -15,6 +15,9 @@ import {
 
 describe("session persistence and progress", () => {
   it("stores current index and preserves multiple attempts per concept", async () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-04-12T12:00:00.000Z"));
+
     const repository = await createDefaultContentRepository();
     const store = new MemoryStorageService();
     const sessionRepository = new SessionRepository(store);
@@ -49,6 +52,7 @@ describe("session persistence and progress", () => {
     expect((await sessionService.getSession(firstSession.id))?.currentQuestionIndex).toBe(2);
 
     const firstAttempt = await sessionService.submitSession(firstSession.id);
+    vi.advanceTimersByTime(1_000);
     const secondSession = await generator.createConceptSession("concept-unit-rates");
     const questions = await repository.getQuestionsForConcept("concept-unit-rates");
     for (const question of questions) {
@@ -73,6 +77,7 @@ describe("session persistence and progress", () => {
     expect(progress?.bestScore).toBe(100);
     expect(progress?.latestScore).toBe(100);
     expect(progress?.masteryStatus).toBe("mastered");
+    vi.useRealTimers();
   });
 
   it("ignores empty stale in-progress sessions when choosing what to resume", async () => {

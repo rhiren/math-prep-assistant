@@ -196,9 +196,13 @@ Standards: `8.SP.1–4`
 Build Unit 1 in sequence. These concepts establish the number sense needed for
 radicals, scientific notation, equations, geometry, and later Algebra I work.
 
-The first active pack is:
+The current learner-ready packs are:
 
 - Rational and Irrational Numbers
+- Repeating Decimals as Fractions
+- Square Roots and Perfect Squares
+- Cube Roots and Perfect Cubes
+- Approximate Irrational Numbers
 
 ### Phase 2 — Linear Equation Foundation
 

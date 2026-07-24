@@ -225,22 +225,46 @@ describe("content repository", () => {
     }
   });
 
-  it("loads Course 3 with its first complete concept pack", async () => {
+  it("loads Course 3 with its first five complete concept packs", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");
-    const concept = await repository.getConcept("concept-rational-irrational-numbers");
-    const tutorial = await repository.getTutorialContent(
-      "concept-rational-irrational-numbers",
-    );
-    const testSets = await repository.getTestSetsForConcept(
-      "concept-rational-irrational-numbers",
-    );
-    const coreQuestions = await repository.getQuestionsForTestSet(
-      "course3-rational-irrational-numbers-core",
-    );
-    const reviewQuestions = await repository.getQuestionsForTestSet(
-      "course3-rational-irrational-numbers-review",
-    );
+    const conceptPacks = [
+      {
+        conceptId: "concept-rational-irrational-numbers",
+        standard: "8.NS.1",
+        tutorialHeading: "# Rational and Irrational Numbers",
+        coreTestId: "course3-rational-irrational-numbers-core",
+        reviewTestId: "course3-rational-irrational-numbers-review",
+      },
+      {
+        conceptId: "concept-repeating-decimals-fractions",
+        standard: "8.NS.1",
+        tutorialHeading: "# Repeating Decimals as Fractions",
+        coreTestId: "course3-repeating-decimals-fractions-core",
+        reviewTestId: "course3-repeating-decimals-fractions-review",
+      },
+      {
+        conceptId: "concept-square-roots-perfect-squares",
+        standard: "8.EE.2",
+        tutorialHeading: "# Square Roots and Perfect Squares",
+        coreTestId: "course3-square-roots-perfect-squares-core",
+        reviewTestId: "course3-square-roots-perfect-squares-review",
+      },
+      {
+        conceptId: "concept-cube-roots-perfect-cubes",
+        standard: "8.EE.2",
+        tutorialHeading: "# Cube Roots and Perfect Cubes",
+        coreTestId: "course3-cube-roots-perfect-cubes-core",
+        reviewTestId: "course3-cube-roots-perfect-cubes-review",
+      },
+      {
+        conceptId: "concept-approximate-irrational-numbers",
+        standard: "8.NS.2",
+        tutorialHeading: "# Approximate Irrational Numbers",
+        coreTestId: "course3-approximate-irrational-numbers-core",
+        reviewTestId: "course3-approximate-irrational-numbers-review",
+      },
+    ];
 
     expect(course?.subjectId).toBe("math");
     expect(course?.courseTitle).toBe("Course 3");
@@ -248,28 +272,47 @@ describe("content repository", () => {
     expect(course?.programPathways).toEqual(["accelerated"]);
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
     expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
-    expect(concept?.hasTest).toBe(true);
-    expect(concept?.standardsFrameworks).toEqual(["8.NS.1"]);
-    expect(tutorial).toContain("# Rational and Irrational Numbers");
-    expect(testSets.map((testSet) => testSet.id)).toEqual([
-      "course3-rational-irrational-numbers-core",
-      "course3-rational-irrational-numbers-review",
-    ]);
+    expect(course?.units[0]?.concepts).toHaveLength(5);
 
-    expect(coreQuestions).toHaveLength(50);
-    expect(coreQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(10);
-    expect(coreQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(25);
-    expect(coreQuestions.filter((question) => question.difficulty === "challenge")).toHaveLength(15);
-    expect(reviewQuestions).toHaveLength(20);
-    expect(reviewQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(8);
-    expect(reviewQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(12);
+    for (const pack of conceptPacks) {
+      const concept = await repository.getConcept(pack.conceptId);
+      const tutorial = await repository.getTutorialContent(pack.conceptId);
+      const testSets = await repository.getTestSetsForConcept(pack.conceptId);
+      const coreQuestions = await repository.getQuestionsForTestSet(pack.coreTestId);
+      const reviewQuestions = await repository.getQuestionsForTestSet(pack.reviewTestId);
 
-    for (const question of [...coreQuestions, ...reviewQuestions]) {
-      expect(question.questionType).toBe("multiple_choice");
-      expect(question.choices).toHaveLength(4);
-      expect(question.choices?.map((choice) => choice.value)).toContain(
-        question.correctAnswer,
-      );
+      expect(concept?.hasTest).toBe(true);
+      expect(concept?.standardsFrameworks).toEqual([pack.standard]);
+      expect(tutorial).toContain(pack.tutorialHeading);
+      expect(testSets.map((testSet) => testSet.id)).toEqual([
+        pack.coreTestId,
+        pack.reviewTestId,
+      ]);
+      expect(coreQuestions).toHaveLength(50);
+      expect(
+        coreQuestions.filter((question) => question.difficulty === "scaffold"),
+      ).toHaveLength(10);
+      expect(
+        coreQuestions.filter((question) => question.difficulty === "standard"),
+      ).toHaveLength(25);
+      expect(
+        coreQuestions.filter((question) => question.difficulty === "challenge"),
+      ).toHaveLength(15);
+      expect(reviewQuestions).toHaveLength(20);
+      expect(
+        reviewQuestions.filter((question) => question.difficulty === "scaffold"),
+      ).toHaveLength(8);
+      expect(
+        reviewQuestions.filter((question) => question.difficulty === "standard"),
+      ).toHaveLength(12);
+
+      for (const question of [...coreQuestions, ...reviewQuestions]) {
+        expect(question.questionType).toBe("multiple_choice");
+        expect(question.choices).toHaveLength(4);
+        expect(question.choices?.map((choice) => choice.value)).toContain(
+          question.correctAnswer,
+        );
+      }
     }
   });
 

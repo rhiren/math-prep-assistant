@@ -288,9 +288,13 @@ time:
 4. scoring / answer-key validation passes
 5. concept enters the active Course 3 manifest
 
-The first Course 3 concept pack is:
+The current Course 3 learner-ready sequence is:
 
 - `Rational and Irrational Numbers`
+- `Repeating Decimals as Fractions`
+- `Square Roots and Perfect Squares`
+- `Cube Roots and Perfect Cubes`
+- `Approximate Irrational Numbers`
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.

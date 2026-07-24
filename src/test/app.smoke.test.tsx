@@ -52,4 +52,35 @@ describe("app smoke flow", () => {
     expect(screen.getByText("Concept Test Session")).toBeInTheDocument();
     confirmSpy.mockRestore();
   });
+
+  it("renders structured Course 3 tutorial content for learners", async () => {
+    const router = createMemoryRouter(routes, {
+      initialEntries: ["/concept/concept-square-roots-perfect-squares/tutorial"],
+    });
+    const services = await createAppServices(new MemoryStorageService());
+
+    render(
+      <AppServicesProvider services={services}>
+        <TestModeProvider>
+          <RouterProvider router={router} />
+        </TestModeProvider>
+      </AppServicesProvider>,
+    );
+
+    expect(
+      await screen.findByRole("heading", {
+        level: 3,
+        name: "Square Roots and Perfect Squares",
+      }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", {
+        level: 4,
+        name: "Perfect squares to know",
+      }),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("table")).toBeInTheDocument();
+    expect(screen.getByRole("columnheader", { name: "Number" })).toBeInTheDocument();
+    expect(screen.getByText("7² = 49")).toBeInTheDocument();
+  });
 });
