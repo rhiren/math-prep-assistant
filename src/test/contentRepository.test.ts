@@ -225,7 +225,7 @@ describe("content repository", () => {
     }
   });
 
-  it("loads Course 3 with its first five complete concept packs", async () => {
+  it("loads Course 3 with its first six complete concept packs", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");
     const conceptPacks = [
@@ -264,6 +264,13 @@ describe("content repository", () => {
         coreTestId: "course3-approximate-irrational-numbers-core",
         reviewTestId: "course3-approximate-irrational-numbers-review",
       },
+      {
+        conceptId: "concept-compare-order-real-numbers",
+        standard: "8.NS.2",
+        tutorialHeading: "# Compare and Order Real Numbers",
+        coreTestId: "course3-compare-order-real-numbers-core",
+        reviewTestId: "course3-compare-order-real-numbers-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -272,7 +279,7 @@ describe("content repository", () => {
     expect(course?.programPathways).toEqual(["accelerated"]);
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
     expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
-    expect(course?.units[0]?.concepts).toHaveLength(5);
+    expect(course?.units[0]?.concepts).toHaveLength(6);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

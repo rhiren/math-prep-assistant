@@ -295,6 +295,7 @@ The current Course 3 learner-ready sequence is:
 - `Square Roots and Perfect Squares`
 - `Cube Roots and Perfect Cubes`
 - `Approximate Irrational Numbers`
+- `Compare and Order Real Numbers`
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.

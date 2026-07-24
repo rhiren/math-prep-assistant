@@ -203,6 +203,7 @@ The current learner-ready packs are:
 - Square Roots and Perfect Squares
 - Cube Roots and Perfect Cubes
 - Approximate Irrational Numbers
+- Compare and Order Real Numbers
 
 ### Phase 2 — Linear Equation Foundation
 

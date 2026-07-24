@@ -294,6 +294,60 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-compare-order-real-numbers",
+              "title": "Compare and Order Real Numbers",
+              "description": "Compare and order rational and irrational values using exact simplification, benchmarks, approximations, and number-line reasoning.",
+              "tags": [
+                "real-numbers",
+                "ordering",
+                "number-line"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.NS.2"
+              ],
+              "order": 6,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-compare-order-real-numbers.md",
+              "tests": [
+                {
+                  "id": "course3-compare-order-real-numbers-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-compare-order-real-numbers-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-compare-order-real-numbers-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-compare-order-real-numbers-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }
