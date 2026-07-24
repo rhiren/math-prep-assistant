@@ -27,7 +27,7 @@ describe("app smoke flow", () => {
     );
 
     expect(await screen.findByText("Mathematics")).toBeInTheDocument();
-    expect(screen.getByText("Current course: Course 2")).toBeInTheDocument();
+    expect(screen.getByText("2 courses available")).toBeInTheDocument();
     await user.click(screen.getByRole("link", { name: "Open Course 2" }));
 
     expect(

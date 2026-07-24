@@ -225,6 +225,54 @@ describe("content repository", () => {
     }
   });
 
+  it("loads Course 3 with its first complete concept pack", async () => {
+    const repository = await createDefaultContentRepository();
+    const course = await repository.getCourse("course-3");
+    const concept = await repository.getConcept("concept-rational-irrational-numbers");
+    const tutorial = await repository.getTutorialContent(
+      "concept-rational-irrational-numbers",
+    );
+    const testSets = await repository.getTestSetsForConcept(
+      "concept-rational-irrational-numbers",
+    );
+    const coreQuestions = await repository.getQuestionsForTestSet(
+      "course3-rational-irrational-numbers-core",
+    );
+    const reviewQuestions = await repository.getQuestionsForTestSet(
+      "course3-rational-irrational-numbers-review",
+    );
+
+    expect(course?.subjectId).toBe("math");
+    expect(course?.courseTitle).toBe("Course 3");
+    expect(course?.instructionalGrades).toEqual(["8"]);
+    expect(course?.programPathways).toEqual(["accelerated"]);
+    expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
+    expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
+    expect(concept?.hasTest).toBe(true);
+    expect(concept?.standardsFrameworks).toEqual(["8.NS.1"]);
+    expect(tutorial).toContain("# Rational and Irrational Numbers");
+    expect(testSets.map((testSet) => testSet.id)).toEqual([
+      "course3-rational-irrational-numbers-core",
+      "course3-rational-irrational-numbers-review",
+    ]);
+
+    expect(coreQuestions).toHaveLength(50);
+    expect(coreQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(10);
+    expect(coreQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(25);
+    expect(coreQuestions.filter((question) => question.difficulty === "challenge")).toHaveLength(15);
+    expect(reviewQuestions).toHaveLength(20);
+    expect(reviewQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(8);
+    expect(reviewQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(12);
+
+    for (const question of [...coreQuestions, ...reviewQuestions]) {
+      expect(question.questionType).toBe("multiple_choice");
+      expect(question.choices).toHaveLength(4);
+      expect(question.choices?.map((choice) => choice.value)).toContain(
+        question.correctAnswer,
+      );
+    }
+  });
+
   it("fails fast when duplicate global question ids are present", () => {
     const manifest: CourseManifestDocument = {
       courses: [

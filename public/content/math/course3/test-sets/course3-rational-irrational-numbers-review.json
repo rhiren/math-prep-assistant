@@ -1,0 +1,329 @@
+{
+  "testId": "course3-rational-irrational-numbers-review",
+  "conceptId": "concept-rational-irrational-numbers",
+  "type": "review",
+  "title": "Rational and Irrational Numbers Review",
+  "description": "Reinforce the essential differences among fractions, terminating and repeating decimals, perfect-square roots, and irrational numbers.",
+  "questions": [
+    {
+      "id": "course3-rational-irrational-numbers-review-001",
+      "type": "multiple_choice",
+      "questionText": "Which number is rational?",
+      "options": [
+        "5/8",
+        "π",
+        "√7",
+        "0.1010010001..."
+      ],
+      "correctAnswer": "5/8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "The fraction 5/8 is a ratio of two integers."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-002",
+      "type": "multiple_choice",
+      "questionText": "Which number is irrational?",
+      "options": [
+        "√13",
+        "√16",
+        "0.75",
+        "-9"
+      ],
+      "correctAnswer": "√13",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "Since 13 is not a perfect square, √13 is irrational."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-003",
+      "type": "multiple_choice",
+      "questionText": "Why is 0.6 rational?",
+      "options": [
+        "It terminates and equals 3/5",
+        "It is less than 1",
+        "It has one decimal digit",
+        "Every positive number is rational"
+      ],
+      "correctAnswer": "It terminates and equals 3/5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual", "computation"],
+      "explanation": "0.6 = 6/10 = 3/5, so it is rational."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-004",
+      "type": "multiple_choice",
+      "questionText": "Why is 0.181818... rational?",
+      "options": [
+        "The block 18 repeats",
+        "It never ends",
+        "It begins with zero",
+        "18 is an even number"
+      ],
+      "correctAnswer": "The block 18 repeats",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "A decimal with a fixed repeating block can be converted to a fraction."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-005",
+      "type": "multiple_choice",
+      "questionText": "Simplify and classify √25.",
+      "options": [
+        "Rational, because it equals 5",
+        "Irrational, because it contains a radical",
+        "Irrational, because 25 is odd",
+        "Not real"
+      ],
+      "correctAnswer": "Rational, because it equals 5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["computation"],
+      "explanation": "25 is a perfect square, so √25 = 5."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-006",
+      "type": "multiple_choice",
+      "questionText": "Which exact value is irrational?",
+      "options": [
+        "π",
+        "3.14",
+        "314/100",
+        "3"
+      ],
+      "correctAnswer": "π",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "π is irrational. The other choices are terminating decimals, fractions, or integers."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-007",
+      "type": "multiple_choice",
+      "questionText": "Which statement about integers is true?",
+      "options": [
+        "Every integer is rational",
+        "No negative integer is rational",
+        "Only zero is rational",
+        "Every integer is irrational"
+      ],
+      "correctAnswer": "Every integer is rational",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "Any integer n can be written as n/1."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-008",
+      "type": "multiple_choice",
+      "questionText": "Classify √10.",
+      "options": [
+        "Irrational, because 10 is not a perfect square",
+        "Rational, because 10 is an integer",
+        "Rational, because every square root is rational",
+        "Not real, because 10 is positive"
+      ],
+      "correctAnswer": "Irrational, because 10 is not a perfect square",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "The square root of a positive non-perfect-square integer is irrational."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-009",
+      "type": "multiple_choice",
+      "questionText": "Which list contains only rational numbers?",
+      "options": [
+        "2/3, -4, 0.2",
+        "π, -4, 0.2",
+        "√3, 2/3, -4",
+        "√7, π, 0.2"
+      ],
+      "correctAnswer": "2/3, -4, 0.2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "A fraction, an integer, and a terminating decimal are all rational."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-010",
+      "type": "multiple_choice",
+      "questionText": "Which list contains only irrational numbers?",
+      "options": [
+        "√2, √3, π",
+        "√4, √3, π",
+        "0.5, √3, π",
+        "1/7, √2, π"
+      ],
+      "correctAnswer": "√2, √3, π",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "Both radicals come from non-perfect squares, and π is irrational."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-011",
+      "type": "multiple_choice",
+      "questionText": "Classify -√100.",
+      "options": [
+        "Rational, because it equals -10",
+        "Irrational, because it is negative",
+        "Irrational, because it contains a radical",
+        "Not real"
+      ],
+      "correctAnswer": "Rational, because it equals -10",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["computation", "reasoning"],
+      "explanation": "√100 = 10, so -√100 = -10, a rational integer."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-012",
+      "type": "multiple_choice",
+      "questionText": "Which decimal is irrational?",
+      "options": [
+        "0.1001000100001...",
+        "0.121212...",
+        "0.125",
+        "0.777..."
+      ],
+      "correctAnswer": "0.1001000100001...",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "The number of zeros changes, so there is no fixed repeating block. The other decimals terminate or repeat."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-013",
+      "type": "multiple_choice",
+      "questionText": "Which fraction is equal to 0.45?",
+      "options": [
+        "9/20",
+        "4/5",
+        "45/10",
+        "1/45"
+      ],
+      "correctAnswer": "9/20",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["computation"],
+      "explanation": "0.45 = 45/100 = 9/20."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-014",
+      "type": "multiple_choice",
+      "questionText": "A square has area 36 square units. How is its side length classified?",
+      "options": [
+        "Rational, because √36 = 6",
+        "Irrational, because side lengths use square roots",
+        "Irrational, because 36 is even",
+        "Not real"
+      ],
+      "correctAnswer": "Rational, because √36 = 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "computation"],
+      "explanation": "The side length is √36 = 6, a rational number."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-015",
+      "type": "multiple_choice",
+      "questionText": "A square has area 30 square units. How is its exact side length classified?",
+      "options": [
+        "Irrational, because 30 is not a perfect square",
+        "Rational, because 30 is an integer",
+        "Rational, because every length is rational",
+        "Not real"
+      ],
+      "correctAnswer": "Irrational, because 30 is not a perfect square",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "The side length is √30. It is real and irrational because 30 is not a perfect square."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-016",
+      "type": "multiple_choice",
+      "questionText": "Which number is a rational approximation, not the exact irrational value?",
+      "options": [
+        "1.414 used for √2",
+        "√2",
+        "π",
+        "√5"
+      ],
+      "correctAnswer": "1.414 used for √2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "The terminating decimal 1.414 is rational and approximates the exact irrational value √2."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-017",
+      "type": "multiple_choice",
+      "questionText": "Simplify and classify √9 + 2.",
+      "options": [
+        "Rational, because it equals 5",
+        "Irrational, because it contains a radical",
+        "Irrational, because it is a sum",
+        "Not real"
+      ],
+      "correctAnswer": "Rational, because it equals 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["computation", "reasoning"],
+      "explanation": "√9 + 2 = 3 + 2 = 5."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-018",
+      "type": "multiple_choice",
+      "questionText": "Classify 4 + √3.",
+      "options": [
+        "Irrational",
+        "Rational integer",
+        "Rational fraction",
+        "Not real"
+      ],
+      "correctAnswer": "Irrational",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "Adding rational 4 to irrational √3 gives an irrational result."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-019",
+      "type": "multiple_choice",
+      "questionText": "Which number lies between 5 and 6 and is irrational?",
+      "options": [
+        "√30",
+        "√25",
+        "√36",
+        "11/2"
+      ],
+      "correctAnswer": "√30",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "Since 25 < 30 < 36, 5 < √30 < 6. Because 30 is not a perfect square, √30 is irrational."
+    },
+    {
+      "id": "course3-rational-irrational-numbers-review-020",
+      "type": "multiple_choice",
+      "questionText": "What is the most reliable test for deciding whether a real number is rational?",
+      "options": [
+        "Determine whether its exact value can be written as a/b for integers a and nonzero b",
+        "Check whether the number is positive",
+        "Count how many symbols appear in the expression",
+        "Check whether its decimal has at least four digits"
+      ],
+      "correctAnswer": "Determine whether its exact value can be written as a/b for integers a and nonzero b",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual", "reasoning"],
+      "explanation": "Being expressible as a ratio of two integers is the definition of a rational number."
+    }
+  ]
+}

@@ -19,7 +19,7 @@ import { useTestMode } from "../state/TestModeProvider";
 
 const navItems = [
   { to: "/", label: "Home" },
-  { to: "/subjects", label: "Subjects" },
+  { to: "/subjects", label: "Courses" },
   { to: "/progress", label: "Progress" },
 ];
 

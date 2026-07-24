@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MasteryBadge } from "../components/MasteryBadge";
-import type { Concept, ProgressRecord } from "../domain/models";
+import type { Course, ProgressRecord } from "../domain/models";
 import {
   useAppServices,
   useProgressSyncStatus,
@@ -42,7 +42,7 @@ export function ProgressPage() {
     useAppServices();
   const { activeProfile } = useStudentProfiles();
   const syncStatus = useProgressSyncStatus();
-  const [concepts, setConcepts] = useState<Concept[]>([]);
+  const [courses, setCourses] = useState<Course[]>([]);
   const [progress, setProgress] = useState<Record<string, ProgressRecord>>({});
   const [eligibility, setEligibility] = useState<{ unlocked: boolean; conceptIds: string[] }>({
     unlocked: false,
@@ -52,7 +52,7 @@ export function ProgressPage() {
   const [lastBackupAt, setLastBackupAt] = useState<string | null>(null);
 
   useEffect(() => {
-    contentRepository.getCourseConcepts("course-2").then(setConcepts);
+    contentRepository.listCourses().then(setCourses);
     progressService.getProgress().then((records) => {
       setProgress(
         Object.fromEntries(records.map((record) => [record.conceptId, record])),
@@ -145,7 +145,7 @@ export function ProgressPage() {
           </p>
         </div>
         <Link className="secondary-link" to="/subjects">
-          Back to subjects
+          Back to courses
         </Link>
       </div>
 
@@ -198,43 +198,57 @@ export function ProgressPage() {
         </div>
       </article>
 
-      <div className="space-y-4">
-        {concepts.map((concept) => {
-          const record = progress[concept.id];
-
-          return (
-            <article
-              key={concept.id}
-              className="panel panel-padding flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between"
-            >
+      <div className="space-y-6">
+        {[...courses]
+          .sort((left, right) => left.order - right.order || left.title.localeCompare(right.title))
+          .map((course) => (
+            <section className="space-y-4" key={course.id}>
               <div>
-                <div className="flex flex-wrap items-center gap-3">
-                  <h3 className="text-lg font-semibold text-ink">{concept.title}</h3>
-                  <MasteryBadge status={record?.masteryStatus ?? concept.masteryStatus} />
-                </div>
-                <p className="mt-2 text-sm leading-6 text-stone-600">{concept.description}</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+                  {course.subjectTitle}
+                </p>
+                <h3 className="text-xl font-semibold text-ink">{course.title}</h3>
               </div>
-              <div className="grid gap-2 text-sm text-stone-600 sm:grid-cols-4 sm:text-right">
-                <div>
-                  <div className="font-semibold text-ink">Attempts</div>
-                  <div>{record?.attemptCount ?? 0}</div>
-                </div>
-                <div>
-                  <div className="font-semibold text-ink">Latest</div>
-                  <div>{record?.latestScore ?? "—"}%</div>
-                </div>
-                <div>
-                  <div className="font-semibold text-ink">Best</div>
-                  <div>{record?.bestScore ?? "—"}%</div>
-                </div>
-                <div>
-                  <div className="font-semibold text-ink">Last attempt</div>
-                  <div>{formatDate(record?.lastAttemptedAt ?? null)}</div>
-                </div>
-              </div>
-            </article>
-          );
-        })}
+              {course.units.flatMap((unit) => unit.concepts).map((concept) => {
+                const record = progress[concept.id];
+
+                return (
+                  <article
+                    key={concept.id}
+                    className="panel panel-padding flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between"
+                  >
+                    <div>
+                      <div className="flex flex-wrap items-center gap-3">
+                        <h4 className="text-lg font-semibold text-ink">{concept.title}</h4>
+                        <MasteryBadge status={record?.masteryStatus ?? concept.masteryStatus} />
+                      </div>
+                      <p className="mt-2 text-sm leading-6 text-stone-600">
+                        {concept.description}
+                      </p>
+                    </div>
+                    <div className="grid gap-2 text-sm text-stone-600 sm:grid-cols-4 sm:text-right">
+                      <div>
+                        <div className="font-semibold text-ink">Attempts</div>
+                        <div>{record?.attemptCount ?? 0}</div>
+                      </div>
+                      <div>
+                        <div className="font-semibold text-ink">Latest</div>
+                        <div>{record?.latestScore ?? "—"}%</div>
+                      </div>
+                      <div>
+                        <div className="font-semibold text-ink">Best</div>
+                        <div>{record?.bestScore ?? "—"}%</div>
+                      </div>
+                      <div>
+                        <div className="font-semibold text-ink">Last attempt</div>
+                        <div>{formatDate(record?.lastAttemptedAt ?? null)}</div>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })}
+            </section>
+          ))}
       </div>
     </section>
   );

@@ -81,6 +81,7 @@ export function HomePage() {
   const { activeProfile } = useStudentProfiles();
   const [subjectTitle, setSubjectTitle] = useState("Mathematics");
   const [courseTitle, setCourseTitle] = useState("Course 2");
+  const [course3, setCourse3] = useState<{ id: string; title: string } | null>(null);
   const [scienceCourse, setScienceCourse] = useState<{ id: string; title: string } | null>(null);
   const [unitTitles, setUnitTitles] = useState<Record<string, string>>({});
   const [concepts, setConcepts] = useState<Concept[]>([]);
@@ -106,8 +107,9 @@ export function HomePage() {
     let isMounted = true;
 
     void (async () => {
-      const [course, science, loadedConcepts, records, session, smartRetryEnabled] = await Promise.all([
+      const [course, nextMathCourse, science, loadedConcepts, records, session, smartRetryEnabled] = await Promise.all([
         contentRepository.getCourse("course-2"),
+        contentRepository.getCourse("course-3"),
         contentRepository.getCourse("course-6-science"),
         contentRepository.getCourseConcepts("course-2"),
         progressService.getProgress(),
@@ -128,6 +130,9 @@ export function HomePage() {
           Object.fromEntries(course.units.map((unit) => [unit.id, unit.title])),
         );
       }
+      setCourse3(
+        nextMathCourse ? { id: nextMathCourse.id, title: nextMathCourse.title } : null,
+      );
       setScienceCourse(science ? { id: science.id, title: science.title } : null);
 
       setConcepts(loadedConcepts);
@@ -433,17 +438,16 @@ export function HomePage() {
         </p>
         <p className="mt-3 text-sm text-stone-600">
           Mathematics stays as the primary day-to-day path, with additional
-          subjects available through the Subjects flow as they are added.
+          subjects available through Courses as they are added.
         </p>
       </div>
 
       <section className="panel panel-padding">
-        <h3 className="text-xl font-semibold text-ink">Subjects</h3>
+        <h3 className="text-xl font-semibold text-ink">Quick course access</h3>
         <p className="mt-2 text-sm text-stone-600">
-          Mathematics is active now, and other subjects can be opened here when
-          their first course is ready.
+          Choose the course you want, or open Courses for the full subject-organized view.
         </p>
-        <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        <div className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           <Link
             className="rounded-2xl border border-accent/30 bg-white px-4 py-4 transition hover:border-accent hover:bg-accent/5"
             to="/course/course-2"
@@ -451,13 +455,35 @@ export function HomePage() {
             <div className="flex items-start justify-between gap-3">
               <div>
                 <div className="text-2xl">📘</div>
-                <h4 className="mt-3 text-lg font-semibold text-ink">{subjectTitle}</h4>
+                <h4 className="mt-3 text-lg font-semibold text-ink">
+                  {subjectTitle} · {courseTitle}
+                </h4>
                 <p className="mt-1 text-sm text-stone-600">
-                  Active subject. Continue into the current {courseTitle} learning flow.
+                  Continue the established Course 2 learning path.
                 </p>
               </div>
               <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700">
                 Active
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            className="rounded-2xl border border-violet-200 bg-violet-50/50 px-4 py-4 transition hover:border-violet-400 hover:bg-violet-50"
+            to={course3 ? `/course/${course3.id}` : "/subjects"}
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <div className="text-2xl">📐</div>
+                <h4 className="mt-3 text-lg font-semibold text-ink">
+                  Mathematics · {course3?.title ?? "Course 3"}
+                </h4>
+                <p className="mt-1 text-sm text-stone-600">
+                  Accelerated Grade 7 path into Grade 8 mathematics.
+                </p>
+              </div>
+              <span className="rounded-full bg-violet-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-violet-700">
+                New
               </span>
             </div>
           </Link>
@@ -472,7 +498,7 @@ export function HomePage() {
                 <h4 className="mt-3 text-lg font-semibold text-ink">Science</h4>
                 <p className="mt-1 text-sm text-stone-600">
                   {scienceCourse
-                    ? `${scienceCourse.title} is now available inside the Subjects flow.`
+                    ? `${scienceCourse.title} is available in the Courses view.`
                     : "This subject will appear here when the first science course is ready."}
                 </p>
               </div>

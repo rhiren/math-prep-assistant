@@ -5,7 +5,7 @@
 This is a personalized learning platform currently focused on:
 
 - Math (active)
-- Science (planned)
+- Science (active)
 
 Current subject structure:
 
@@ -20,6 +20,8 @@ Current active content:
 
 - Math
 - Course 2
+- Course 3 (accelerated Grade 7 placement into Grade 8 instructional content)
+- Grade 6 Science
 
 Project name:
 
@@ -36,6 +38,7 @@ For significant changes, also read:
 - [docs/math_prep_assistant_chat_context.md](/Users/hiren/projects/school-prep-assistant/docs/math_prep_assistant_chat_context.md)
 - [docs/future_feature_backlog.md](/Users/hiren/projects/school-prep-assistant/docs/future_feature_backlog.md) for captured future ideas that are not yet active implementation work
 - [docs/course2_concept_rollout_plan.md](/Users/hiren/projects/school-prep-assistant/docs/course2_concept_rollout_plan.md) when work touches `Coming soon` Course 2 concepts or concept-pack rollout sequencing
+- [docs/course3_concept_rollout_plan.md](/Users/hiren/projects/school-prep-assistant/docs/course3_concept_rollout_plan.md) when work touches Course 3 concepts or rollout sequencing
 
 Use the files this way:
 
@@ -47,7 +50,8 @@ Before making significant changes:
 1. Read this file first.
 2. Read the history doc if the work touches architecture, storage, sync, content structure, routing, deployment, or migrations.
 3. Read the concept rollout plan if the work unlocks or expands Course 2 concepts.
-4. If a request conflicts with this constitution, call that out before changing code.
+4. Read the Course 3 rollout plan if the work unlocks or expands Course 3 concepts.
+5. If a request conflicts with this constitution, call that out before changing code.
 
 Do not duplicate evolving project rules across multiple files unless there is a strong reason.
 
@@ -267,6 +271,29 @@ For future concept unlocks, prefer:
 - concept-specific scoring regressions
 - known-correct answer spot checks
 - preserving the current learner flow and labels
+
+### Course 3 rollout discipline
+
+Course 3 is an accelerated Grade 7 placement into Grade 8 instructional
+content. Preserve the distinction between the student's `homeGrade` and the
+course's Grade 8 `instructionalGrades` metadata.
+
+Do not mass-enable the full Course 3 roadmap. Follow
+`docs/course3_concept_rollout_plan.md` and add concepts one complete pack at a
+time:
+
+1. tutorial exists
+2. core test exists
+3. review test exists
+4. scoring / answer-key validation passes
+5. concept enters the active Course 3 manifest
+
+The first Course 3 concept pack is:
+
+- `Rational and Irrational Numbers`
+
+Course navigation should remain subject-aware so Mathematics can contain
+multiple courses without presenting each course as a separate subject.
 
 ---
 

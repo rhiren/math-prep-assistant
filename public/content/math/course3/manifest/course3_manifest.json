@@ -1,0 +1,87 @@
+{
+  "courses": [
+    {
+      "id": "course-3",
+      "subjectId": "math",
+      "subjectTitle": "Mathematics",
+      "courseId": "course3",
+      "courseTitle": "Course 3",
+      "instructionalGrades": [
+        "8"
+      ],
+      "programPathways": [
+        "accelerated"
+      ],
+      "standardsFrameworks": [
+        "CA-CCSSM"
+      ],
+      "title": "Course 3",
+      "description": "Accelerated middle-school mathematics focused on real numbers, linear relationships, functions, geometry, and bivariate data.",
+      "order": 2,
+      "units": [
+        {
+          "id": "course3-unit-real-numbers-exponents",
+          "title": "Real Numbers and Exponents",
+          "description": "Build a strong foundation with rational and irrational numbers before moving into radicals, exponents, and scientific notation.",
+          "order": 1,
+          "concepts": [
+            {
+              "id": "concept-rational-irrational-numbers",
+              "title": "Rational and Irrational Numbers",
+              "description": "Classify real numbers by recognizing fractions, terminating and repeating decimals, square roots, and nonrepeating decimals.",
+              "tags": [
+                "real-numbers",
+                "rational-numbers",
+                "irrational-numbers"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.NS.1"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-rational-irrational-numbers.md",
+              "tests": [
+                {
+                  "id": "course3-rational-irrational-numbers-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-rational-irrational-numbers-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-rational-irrational-numbers-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-rational-irrational-numbers-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
