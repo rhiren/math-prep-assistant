@@ -35,10 +35,10 @@ This file is the authoritative project constitution.
 
 For significant changes, also read:
 
-- [docs/math_prep_assistant_chat_context.md](/Users/hiren/projects/school-prep-assistant/docs/math_prep_assistant_chat_context.md)
-- [docs/future_feature_backlog.md](/Users/hiren/projects/school-prep-assistant/docs/future_feature_backlog.md) for captured future ideas that are not yet active implementation work
-- [docs/course2_concept_rollout_plan.md](/Users/hiren/projects/school-prep-assistant/docs/course2_concept_rollout_plan.md) when work touches `Coming soon` Course 2 concepts or concept-pack rollout sequencing
-- [docs/course3_concept_rollout_plan.md](/Users/hiren/projects/school-prep-assistant/docs/course3_concept_rollout_plan.md) when work touches Course 3 concepts or rollout sequencing
+- [docs/math_prep_assistant_chat_context.md](/Users/hiren/Documents/github/school-prep-assistant/docs/math_prep_assistant_chat_context.md)
+- [docs/future_feature_backlog.md](/Users/hiren/Documents/github/school-prep-assistant/docs/future_feature_backlog.md) for captured future ideas that are not yet active implementation work
+- [docs/course2_concept_rollout_plan.md](/Users/hiren/Documents/github/school-prep-assistant/docs/course2_concept_rollout_plan.md) when work touches `Coming soon` Course 2 concepts or concept-pack rollout sequencing
+- [docs/course3_concept_rollout_plan.md](/Users/hiren/Documents/github/school-prep-assistant/docs/course3_concept_rollout_plan.md) when work touches Course 3 concepts or rollout sequencing
 
 Use the files this way:
 

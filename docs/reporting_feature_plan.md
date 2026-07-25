@@ -7,7 +7,7 @@ Last updated: 2026-04-24
 Build a parent-facing weekly reporting feature without increasing student-facing
 complexity.
 
-This plan preserves the project constitution in [AGENTS.md](/Users/hiren/projects/school-prep-assistant/AGENTS.md):
+This plan preserves the project constitution in [AGENTS.md](/Users/hiren/Documents/github/school-prep-assistant/AGENTS.md):
 
 - local-first architecture
 - Firebase as sync layer, not cloud-only source of truth

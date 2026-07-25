@@ -1,12 +1,12 @@
 # Math-Prep-Assistant Chat Context
 
-Last updated: 2026-04-18
+Last updated: 2026-07-24
 
 ## Purpose
 
 This file captures the main Codex chat context for the project originally developed as `Math-Prep-Assistant` and later renamed to `school-prep-assistant`.
 
-Current constitutional guidance for future changes is preserved separately in [AGENTS.md](/Users/hiren/projects/school-prep-assistant/AGENTS.md). This document should be treated as historical and operational context, while `AGENTS.md` is the authoritative guardrail for future changes.
+Current constitutional guidance for future changes is preserved separately in [AGENTS.md](/Users/hiren/Documents/github/school-prep-assistant/AGENTS.md). This document should be treated as historical and operational context, while `AGENTS.md` is the authoritative guardrail for future changes.
 
 For significant future work, read `AGENTS.md` first and then use this document for historical rationale, prior decisions, migration context, and current-state handoff notes.
 
@@ -20,7 +20,7 @@ Related capture session:
 
 - Original repo/folder name: `Math-Prep-Assistant`
 - Current repo/folder name: `school-prep-assistant`
-- Current local path: `/Users/hiren/projects/school-prep-assistant`
+- Current local path: `/Users/hiren/Documents/github/school-prep-assistant`
 - Current remote: `https://github.com/rhiren/school-prep-assistant`
 
 ## Core Product Intent
@@ -184,28 +184,191 @@ Recent meaningful commits in current `master` history:
 - `9142441` Configure Firebase project defaults
 - `dcc006f` Add multi-student profile support
 
-## Current Codebase State
+## Current Independent-Session Handoff — 2026-07-24
 
-As of this capture:
+This section is the current operational handoff. It supersedes any older
+`Current Codebase State`, uncommitted-change, placeholder-config, or next-step
+notes later in the historical record.
 
-- `README.md` already reflects `School Prep Assistant`.
-- The repo folder and GitHub remote have already been renamed to `school-prep-assistant`.
-- The app keeps the old IndexedDB database name intentionally so existing saved progress is preserved.
-- Some older historical notes refer to the removed `Math-App/` bundle and `Start Math Practice.command`.
+### Repository state
 
-## Current Uncommitted Change
+- Branch: `master`
+- Remote: `https://github.com/rhiren/school-prep-assistant`
+- Latest pushed implementation commit:
+  `e5b5308 Add real number comparison practice`
+- Previous Course 3 milestone:
+  `531cdce Expand Course 3 real number foundations`
+- `origin/master` matched local `master` after those commits were pushed.
+- The Vite base path is already `/school-prep-assistant/`; the older rename
+  follow-up is complete.
+- The GitHub Pages publication status of the two commits above was not verified
+  in the final Course 3 session. Pushing `master` is not the same as running
+  `npm run deploy`, which publishes `dist` through `gh-pages`.
 
-There is one live uncommitted change in the working tree:
+### Active product and content
 
-- [vite.config.ts](/Users/hiren/projects/school-prep-assistant/vite.config.ts)
+The app now actively supports:
 
-Diff summary:
-- Vite base path changed from `/math-prep-assistant/` to `/school-prep-assistant/`
+- Mathematics Course 2
+- Mathematics Course 3
+- Grade 6 Science
 
-Reason:
-- this was the final rename sweep so GitHub Pages aligns with the renamed repository
+The platform remains:
 
-This change was validated in the prior chat with `npm run build`, but it is not committed in the current git status yet.
+- React + Vite + TypeScript
+- manifest-driven with content under `public/content`
+- local-first with IndexedDB as the resilience layer
+- optionally synchronized through Firebase/Firestore
+- multi-student and student-scoped
+- subject-aware and GitHub Pages compatible through `HashRouter`
+
+Firebase now has a real default project configuration for
+`school-prep-assistant` with optional Vite environment overrides. It remains a
+best-effort sync layer; local storage is still foundational and the app must
+continue working when remote sync is unavailable.
+
+### Course 3 current state
+
+Course 3 is for an accelerated Grade 7 learner working at Grade 8
+instructional level. Do not collapse `homeGrade` and `instructionalGrade`.
+
+The six learner-ready Unit 1 concepts are:
+
+1. Rational and Irrational Numbers
+2. Repeating Decimals as Fractions
+3. Square Roots and Perfect Squares
+4. Cube Roots and Perfect Cubes
+5. Approximate Irrational Numbers
+6. Compare and Order Real Numbers
+
+Course 3 currently contains:
+
+- 6 active concepts
+- 12 assessment files
+- 420 assessment questions
+- 50 core questions per concept
+- 20 review questions per concept
+
+Core difficulty distribution is:
+
+- 10 scaffold
+- 25 standard
+- 15 challenge
+
+Review difficulty distribution is:
+
+- 8 scaffold
+- 12 standard
+
+The current active manifest is:
+
+`public/content/math/course3/manifest/course3_manifest.json`
+
+The complete course sequence and release order are in:
+
+`docs/course3_concept_rollout_plan.md`
+
+### Recent learner-facing UI work
+
+Course navigation groups courses beneath their subject and currently presents
+the six Course 3 concepts in a clean three-column, two-row card grid at the
+desktop viewport used for verification.
+
+The tutorial renderer in `src/routes/ConceptTutorialPage.tsx` now safely
+supports the Markdown structures used by the new lessons:
+
+- headings
+- paragraphs
+- bold text
+- inline code / math notation
+- blockquotes
+- bulleted and numbered lists with wrapped lines
+- tables
+
+It renders React elements rather than injecting raw HTML.
+
+No broader UI redesign is currently required for the next concept pack.
+
+### Current validation baseline
+
+At commit `e5b5308`, the following passed:
+
+- 18 Vitest files
+- 100 automated tests
+- `npm run build`
+- Course 3 JSON parsing
+- globally unique Course 3 question IDs
+- exact authored multiple-choice answer identity
+- unique option checks
+- known-correct mathematical spot checks
+- browser verification of the Course 3 grid, concept page, tutorial, and
+  assessment counts
+
+The most recent Course 3 audit found 420 questions and 420 unique IDs.
+
+Existing non-blocking warnings include:
+
+- Vite externalizing `node:fs/promises` for browser compatibility in the
+  content repository's environment-specific loader path
+- a production bundle-size warning above 500 kB
+- expected development logs for Course 2 manifest concepts whose learner-ready
+  assets have not yet been built
+
+Do not treat those warnings as authorization for a broad rewrite.
+
+### Exact next task
+
+The next Course 3 concept is:
+
+`Integer Exponents`
+
+It is Unit 1 concept 7 and aligns to `8.EE.1`.
+
+Build it as one complete concept pack:
+
+1. Create
+   `public/content/math/course3/tutorials/concept-integer-exponents.md`.
+2. Create
+   `public/content/math/course3/test-sets/course3-integer-exponents-core.json`
+   with 50 questions and the established `10 / 25 / 15` difficulty split.
+3. Create
+   `public/content/math/course3/test-sets/course3-integer-exponents-review.json`
+   with 20 questions and the established `8 / 12` difficulty split.
+4. Validate exact multiple-choice answer identity, four unique options,
+   globally unique IDs, explanations, and known-correct paths.
+5. Only after the tutorial and both banks are complete, add
+   `concept-integer-exponents` to the active Course 3 manifest at order 7.
+6. Update the current learner-ready lists in `AGENTS.md` and
+   `docs/course3_concept_rollout_plan.md`.
+7. Extend the Course 3 pack loop in `src/test/contentRepository.test.ts`.
+8. Run the focused content test, full `npm test`, `npm run build`, and browser
+   verification.
+
+Content emphasis should include:
+
+- exponent notation and repeated multiplication
+- product of powers
+- quotient of powers
+- power of a power
+- power of a product and quotient
+- signs and parentheses
+- explaining why exponent rules work
+- misconception analysis
+
+Do not move into zero or negative exponents yet; those are the following
+concept pack.
+
+### Independent-session startup checklist
+
+1. Read `AGENTS.md` completely.
+2. Read this current handoff section.
+3. Read `docs/course3_concept_rollout_plan.md`.
+4. Run `git status --short` and confirm what, if anything, changed after this
+   documentation refresh.
+5. Preserve progress, routing, content loading, sync behavior, and the
+   manifest-driven structure.
+6. Build only the next complete pack; do not mass-enable later roadmap
+   concepts.
 
 ## Known Deliberate Non-Changes
 
@@ -217,22 +380,33 @@ These were explicitly left alone on purpose:
 
 ## Known Caveats Mentioned In Chat
 
-- Firebase config is still placeholder-based until real values are inserted.
 - Electron verification in this environment had some headless/macOS limitations, so web validation was stronger than GUI-window validation.
 - Some older content-loader warnings about missing tutorials were noted in the chat at various points; they did not block the main web build validations mentioned in those turns.
 
 ## Useful Future Follow-Ups
 
-Likely next steps implied by the prior chat:
+Current useful follow-ups:
 
-- commit the final `vite.config.ts` rename change
-- keep local launcher and distribution guidance aligned with `dist/` + `public/content/`
-- verify GitHub Pages after the new base path is committed and deployed
-- add real Firebase project credentials if cloud sync should become active
-- continue expanding subjects later without disturbing current math/course flow
+- build `Integer Exponents` as the next complete Course 3 concept pack
+- verify or run the GitHub Pages deployment after new `master` content commits
+- keep local launcher and distribution guidance aligned with `dist/` and
+  `public/content`
+- continue Course 2 readiness work only through its dedicated rollout plan
+- continue expanding subjects without disturbing current math, progress, or
+  sync behavior
 
 ## Short Context Summary For A New Chat
 
 If you need a compact prompt for future work, this is the essence:
 
-`school-prep-assistant` started as `Math-Prep-Assistant`, a local-first Course 2 math mastery app built in React/Vite/TypeScript. It now supports IndexedDB persistence, deterministic concept testing, richer answer normalization, student-friendly test/results/dashboard UX, GitHub Pages deployment, optional Firebase sync, multi-subject-ready content structure, and multi-student profiles. The current repo path and remote are already renamed to `school-prep-assistant`. Preserve saved-progress compatibility and avoid broad rewrites.
+`school-prep-assistant` is a local-first React/Vite/TypeScript learning platform
+with IndexedDB persistence, deterministic concept tests, exact
+multiple-choice scoring, student-friendly tutorials and practice, optional
+Firebase sync, multi-student profiles, subject-aware course navigation, and
+GitHub Pages support. Active content includes Math Course 2, Math Course 3, and
+Grade 6 Science. Course 3 is an accelerated Grade 7 placement into Grade 8
+instructional content and has six learner-ready Unit 1 concepts with 420
+validated questions. The latest pushed implementation commit is `e5b5308`.
+The next pack is `Integer Exponents` (`8.EE.1`), followed separately by `Zero
+and Negative Exponents`. Preserve saved-progress compatibility, local-first
+behavior, the frozen domain model, and the phased manifest release discipline.

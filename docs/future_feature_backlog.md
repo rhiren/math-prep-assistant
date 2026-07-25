@@ -15,7 +15,7 @@ Use it to:
 
 This is a backlog, not a promise.
 
-Any future implementation should still follow [AGENTS.md](/Users/hiren/projects/school-prep-assistant/AGENTS.md),
+Any future implementation should still follow [AGENTS.md](/Users/hiren/Documents/github/school-prep-assistant/AGENTS.md),
 especially:
 
 - local-first architecture
@@ -67,7 +67,7 @@ For each new idea, capture:
   - later units should not crowd out the immediate need to finish the active
     ratios/proportions journey
 - `Status`
-  Active planning. See [course2_concept_rollout_plan.md](/Users/hiren/projects/school-prep-assistant/docs/course2_concept_rollout_plan.md).
+  Active planning. See [course2_concept_rollout_plan.md](/Users/hiren/Documents/github/school-prep-assistant/docs/course2_concept_rollout_plan.md).
 
 ### 1. Weekly Parent Progress Report
 
@@ -116,7 +116,7 @@ For each new idea, capture:
   Phase 2A implemented. Hidden admin now includes a weekly parent report for the
   active student, grouped by subject and using local-first progress plus the
   hidden duration signal. A daily parent summary for today's work is also now
-  available in hidden admin. See [reporting_feature_plan.md](/Users/hiren/projects/school-prep-assistant/docs/reporting_feature_plan.md)
+  available in hidden admin. See [reporting_feature_plan.md](/Users/hiren/Documents/github/school-prep-assistant/docs/reporting_feature_plan.md)
   for remaining polish work.
 
 ### 2. Hidden Test Duration Signal
@@ -146,7 +146,7 @@ For each new idea, capture:
   - may need an "active work time" heuristic rather than simple wall-clock duration
 - `Status`
   Phase 1A implemented. Submit-time hidden duration capture is now in place on
-  `TestAttempt`. See [reporting_feature_plan.md](/Users/hiren/projects/school-prep-assistant/docs/reporting_feature_plan.md).
+  `TestAttempt`. See [reporting_feature_plan.md](/Users/hiren/Documents/github/school-prep-assistant/docs/reporting_feature_plan.md).
   Remaining work: use this signal inside the weekly parent report.
 
 ## Notes
