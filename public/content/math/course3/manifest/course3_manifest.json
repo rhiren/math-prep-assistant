@@ -348,6 +348,60 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-integer-exponents",
+              "title": "Integer Exponents",
+              "description": "Interpret powers and use positive-integer exponent laws to simplify numerical and algebraic expressions with clear reasoning.",
+              "tags": [
+                "exponents",
+                "powers",
+                "expressions"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.1"
+              ],
+              "order": 7,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-integer-exponents.md",
+              "tests": [
+                {
+                  "id": "course3-integer-exponents-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-integer-exponents-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-integer-exponents-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-integer-exponents-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }

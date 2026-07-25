@@ -204,6 +204,7 @@ The current learner-ready packs are:
 - Cube Roots and Perfect Cubes
 - Approximate Irrational Numbers
 - Compare and Order Real Numbers
+- Integer Exponents
 
 ### Phase 2 — Linear Equation Foundation
 
