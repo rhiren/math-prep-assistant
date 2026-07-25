@@ -66,20 +66,20 @@ The fraction test is the final test:
 
 ## 6. Common Mistakes
 
-- **Thinking every square root is irrational.**  
+- **Thinking every square root is irrational.**
   `√64` equals `8`, so it is rational.
 
-- **Thinking every long decimal is irrational.**  
+- **Thinking every long decimal is irrational.**
   A decimal such as `0.121212...` repeats, so it is rational.
 
-- **Classifying an expression before simplifying it.**  
+- **Classifying an expression before simplifying it.**
   The expression `√9 + √2` contains one rational part and one irrational part,
   but its total value is irrational.
 
-- **Assuming `π` means `3.14` exactly.**  
+- **Assuming `π` means `3.14` exactly.**
   `3.14` is a rational approximation. The exact value `π` is irrational.
 
-- **Forgetting that integers are fractions.**  
+- **Forgetting that integers are fractions.**
   The integer `5` can be written as `5/1`.
 
 ## 7. Examples

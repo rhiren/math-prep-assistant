@@ -78,6 +78,330 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-repeating-decimals-fractions",
+              "title": "Repeating Decimals as Fractions",
+              "description": "Use place value and algebra to convert repeating decimals into exact fractions and explain why the method works.",
+              "tags": [
+                "real-numbers",
+                "repeating-decimals",
+                "fractions"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.NS.1"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-repeating-decimals-fractions.md",
+              "tests": [
+                {
+                  "id": "course3-repeating-decimals-fractions-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-repeating-decimals-fractions-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-repeating-decimals-fractions-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-repeating-decimals-fractions-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-square-roots-perfect-squares",
+              "title": "Square Roots and Perfect Squares",
+              "description": "Recognize perfect squares, evaluate principal square roots, and connect square roots with equations and square area.",
+              "tags": [
+                "real-numbers",
+                "square-roots",
+                "perfect-squares"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.2"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-square-roots-perfect-squares.md",
+              "tests": [
+                {
+                  "id": "course3-square-roots-perfect-squares-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-square-roots-perfect-squares-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-square-roots-perfect-squares-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-square-roots-perfect-squares-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-cube-roots-perfect-cubes",
+              "title": "Cube Roots and Perfect Cubes",
+              "description": "Recognize perfect cubes, evaluate positive and negative cube roots, and connect cube roots with equations and volume.",
+              "tags": [
+                "real-numbers",
+                "cube-roots",
+                "perfect-cubes"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.2"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-cube-roots-perfect-cubes.md",
+              "tests": [
+                {
+                  "id": "course3-cube-roots-perfect-cubes-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-cube-roots-perfect-cubes-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-cube-roots-perfect-cubes-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-cube-roots-perfect-cubes-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-approximate-irrational-numbers",
+              "title": "Approximate Irrational Numbers",
+              "description": "Locate irrational numbers between rational benchmarks, approximate them to a requested precision, and compare or apply their values.",
+              "tags": [
+                "real-numbers",
+                "irrational-numbers",
+                "estimation"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.NS.2"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-approximate-irrational-numbers.md",
+              "tests": [
+                {
+                  "id": "course3-approximate-irrational-numbers-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-approximate-irrational-numbers-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-approximate-irrational-numbers-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-approximate-irrational-numbers-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-compare-order-real-numbers",
+              "title": "Compare and Order Real Numbers",
+              "description": "Compare and order rational and irrational values using exact simplification, benchmarks, approximations, and number-line reasoning.",
+              "tags": [
+                "real-numbers",
+                "ordering",
+                "number-line"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.NS.2"
+              ],
+              "order": 6,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-compare-order-real-numbers.md",
+              "tests": [
+                {
+                  "id": "course3-compare-order-real-numbers-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-compare-order-real-numbers-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-compare-order-real-numbers-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-compare-order-real-numbers-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-integer-exponents",
+              "title": "Integer Exponents",
+              "description": "Interpret powers and use positive-integer exponent laws to simplify numerical and algebraic expressions with clear reasoning.",
+              "tags": [
+                "exponents",
+                "powers",
+                "expressions"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.1"
+              ],
+              "order": 7,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-integer-exponents.md",
+              "tests": [
+                {
+                  "id": "course3-integer-exponents-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-integer-exponents-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-integer-exponents-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-integer-exponents-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }
