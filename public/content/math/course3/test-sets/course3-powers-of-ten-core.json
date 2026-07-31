@@ -1,0 +1,948 @@
+{
+  "testId": "course3-powers-of-ten-core",
+  "conceptId": "concept-powers-of-ten",
+  "type": "concept",
+  "title": "Powers of Ten Core Test",
+  "description": "Use powers of ten to represent, compare, and scale large and small quantities.",
+  "questions": [
+    {
+      "id": "course3-powers-of-ten-core-001",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10¹.",
+      "options": [
+        "10",
+        "1",
+        "0.1",
+        "12"
+      ],
+      "correctAnswer": "10",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10¹ is 1 followed by 1 zero."
+    },
+    {
+      "id": "course3-powers-of-ten-core-002",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10².",
+      "options": [
+        "100",
+        "20",
+        "10",
+        "0.01"
+      ],
+      "correctAnswer": "100",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10² is 1 followed by 2 zeros."
+    },
+    {
+      "id": "course3-powers-of-ten-core-003",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10³.",
+      "options": [
+        "1,000",
+        "30",
+        "100",
+        "0.001"
+      ],
+      "correctAnswer": "1,000",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10³ is 1 followed by 3 zeros."
+    },
+    {
+      "id": "course3-powers-of-ten-core-004",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁴.",
+      "options": [
+        "10,000",
+        "40",
+        "1000",
+        "0.0001"
+      ],
+      "correctAnswer": "10,000",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10⁴ is 1 followed by 4 zeros."
+    },
+    {
+      "id": "course3-powers-of-ten-core-005",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁵.",
+      "options": [
+        "100,000",
+        "50",
+        "10000",
+        "0.00001"
+      ],
+      "correctAnswer": "100,000",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10⁵ is 1 followed by 5 zeros."
+    },
+    {
+      "id": "course3-powers-of-ten-core-006",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁻¹.",
+      "options": [
+        "0.1",
+        "10",
+        "100",
+        "-0.1"
+      ],
+      "correctAnswer": "0.1",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10⁻¹ equals 1 divided by 10¹, so the decimal moves left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-007",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁻².",
+      "options": [
+        "0.01",
+        "10",
+        "100",
+        "-0.01"
+      ],
+      "correctAnswer": "0.01",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10⁻² equals 1 divided by 10², so the decimal moves left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-008",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁻³.",
+      "options": [
+        "0.001",
+        "10",
+        "100",
+        "-0.001"
+      ],
+      "correctAnswer": "0.001",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10⁻³ equals 1 divided by 10³, so the decimal moves left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-009",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁻⁴.",
+      "options": [
+        "0.0001",
+        "10",
+        "100",
+        "-0.0001"
+      ],
+      "correctAnswer": "0.0001",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10⁻⁴ equals 1 divided by 10⁴, so the decimal moves left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-010",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁻⁵.",
+      "options": [
+        "0.00001",
+        "10",
+        "100",
+        "-0.00001"
+      ],
+      "correctAnswer": "0.00001",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "10⁻⁵ equals 1 divided by 10⁵, so the decimal moves left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-011",
+      "type": "multiple_choice",
+      "questionText": "Write 100,000 as a power of 10.",
+      "options": [
+        "10⁵",
+        "10⁴",
+        "10⁶",
+        "5¹⁰"
+      ],
+      "correctAnswer": "10⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "100,000 has five zeros, so it is 10⁵."
+    },
+    {
+      "id": "course3-powers-of-ten-core-012",
+      "type": "multiple_choice",
+      "questionText": "Write 0.0001 as a power of 10.",
+      "options": [
+        "10⁻⁴",
+        "10⁴",
+        "10⁻³",
+        "4⁻¹⁰"
+      ],
+      "correctAnswer": "10⁻⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "0.0001 is one ten-thousandth, which is 10⁻⁴."
+    },
+    {
+      "id": "course3-powers-of-ten-core-013",
+      "type": "multiple_choice",
+      "questionText": "Multiply: 10³ × 10⁵.",
+      "options": [
+        "10⁸",
+        "10¹⁵",
+        "10²",
+        "100⁸"
+      ],
+      "correctAnswer": "10⁸",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Same base multiplication adds exponents: 3 + 5 = 8."
+    },
+    {
+      "id": "course3-powers-of-ten-core-014",
+      "type": "multiple_choice",
+      "questionText": "Divide: 10⁷ ÷ 10².",
+      "options": [
+        "10⁵",
+        "10⁹",
+        "10³",
+        "5¹⁰"
+      ],
+      "correctAnswer": "10⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Same base division subtracts exponents: 7 - 2 = 5."
+    },
+    {
+      "id": "course3-powers-of-ten-core-015",
+      "type": "multiple_choice",
+      "questionText": "Simplify (10²)³.",
+      "options": [
+        "10⁶",
+        "10⁵",
+        "10⁸",
+        "100³"
+      ],
+      "correctAnswer": "10⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "A power of a power multiplies exponents: 2 × 3 = 6."
+    },
+    {
+      "id": "course3-powers-of-ten-core-016",
+      "type": "multiple_choice",
+      "questionText": "Which is larger: 10⁶ or 10⁴?",
+      "options": [
+        "10⁶",
+        "10⁴",
+        "They are equal",
+        "10²"
+      ],
+      "correctAnswer": "10⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "For positive powers of ten, the larger exponent gives the larger value."
+    },
+    {
+      "id": "course3-powers-of-ten-core-017",
+      "type": "multiple_choice",
+      "questionText": "Which is larger: 10⁻² or 10⁻⁵?",
+      "options": [
+        "10⁻²",
+        "10⁻⁵",
+        "They are equal",
+        "10⁻⁷"
+      ],
+      "correctAnswer": "10⁻²",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Among negative powers of ten, -2 is closer to zero, so 10⁻² is larger."
+    },
+    {
+      "id": "course3-powers-of-ten-core-018",
+      "type": "multiple_choice",
+      "questionText": "A value is divided by 10³. Which power of ten was it multiplied by?",
+      "options": [
+        "10⁻³",
+        "10³",
+        "10⁰",
+        "3⁻¹⁰"
+      ],
+      "correctAnswer": "10⁻³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Dividing by 10³ is the same as multiplying by 10⁻³."
+    },
+    {
+      "id": "course3-powers-of-ten-core-019",
+      "type": "multiple_choice",
+      "questionText": "A decimal point moves 4 places right. Which power of ten was used as a multiplier?",
+      "options": [
+        "10⁴",
+        "10⁻⁴",
+        "10³",
+        "4¹⁰"
+      ],
+      "correctAnswer": "10⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiplying by 10⁴ moves the decimal four places right."
+    },
+    {
+      "id": "course3-powers-of-ten-core-020",
+      "type": "multiple_choice",
+      "questionText": "A decimal point moves 3 places left. Which power of ten was used as a multiplier?",
+      "options": [
+        "10⁻³",
+        "10³",
+        "10⁻²",
+        "3¹⁰"
+      ],
+      "correctAnswer": "10⁻³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiplying by 10⁻³ moves the decimal three places left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-021",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 3.4 × 10².",
+      "options": [
+        "340",
+        "34",
+        "3,400",
+        "0.034"
+      ],
+      "correctAnswer": "340",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiplying by 10² moves the decimal two places right."
+    },
+    {
+      "id": "course3-powers-of-ten-core-022",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 8.2 × 10⁻¹.",
+      "options": [
+        "0.82",
+        "82",
+        "8.2",
+        "0.082"
+      ],
+      "correctAnswer": "0.82",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiplying by 10⁻¹ moves the decimal one place left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-023",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 0.56 × 10³.",
+      "options": [
+        "560",
+        "56",
+        "5,600",
+        "0.00056"
+      ],
+      "correctAnswer": "560",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal three places right."
+    },
+    {
+      "id": "course3-powers-of-ten-core-024",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 720 ÷ 10².",
+      "options": [
+        "7.2",
+        "72",
+        "0.72",
+        "7200"
+      ],
+      "correctAnswer": "7.2",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Dividing by 100 moves the decimal two places left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-025",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 0.004 × 10⁵.",
+      "options": [
+        "400",
+        "40",
+        "4,000",
+        "0.00000004"
+      ],
+      "correctAnswer": "400",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal five places right."
+    },
+    {
+      "id": "course3-powers-of-ten-core-026",
+      "type": "multiple_choice",
+      "questionText": "Simplify 10⁻² × 10⁶.",
+      "options": [
+        "10⁴",
+        "10⁻¹²",
+        "10⁸",
+        "10³"
+      ],
+      "correctAnswer": "10⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Add exponents: -2 + 6 = 4."
+    },
+    {
+      "id": "course3-powers-of-ten-core-027",
+      "type": "multiple_choice",
+      "questionText": "Simplify 10³ ÷ 10⁷.",
+      "options": [
+        "10⁻⁴",
+        "10⁴",
+        "10¹⁰",
+        "10⁻¹⁰"
+      ],
+      "correctAnswer": "10⁻⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Subtract exponents: 3 - 7 = -4."
+    },
+    {
+      "id": "course3-powers-of-ten-core-028",
+      "type": "multiple_choice",
+      "questionText": "Which expression equals 0.000001?",
+      "options": [
+        "10⁻⁶",
+        "10⁶",
+        "10⁻⁵",
+        "6⁻¹⁰"
+      ],
+      "correctAnswer": "10⁻⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "One millionth is 10⁻⁶."
+    },
+    {
+      "id": "course3-powers-of-ten-core-029",
+      "type": "multiple_choice",
+      "questionText": "Which expression equals 10,000,000?",
+      "options": [
+        "10⁷",
+        "10⁶",
+        "10⁸",
+        "7¹⁰"
+      ],
+      "correctAnswer": "10⁷",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "There are seven zeros, so the value is 10⁷."
+    },
+    {
+      "id": "course3-powers-of-ten-core-030",
+      "type": "multiple_choice",
+      "questionText": "How many times larger is 10⁹ than 10⁶?",
+      "options": [
+        "10³",
+        "10¹⁵",
+        "10⁻³",
+        "3"
+      ],
+      "correctAnswer": "10³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The ratio is 10⁹ ÷ 10⁶ = 10³."
+    },
+    {
+      "id": "course3-powers-of-ten-core-031",
+      "type": "multiple_choice",
+      "questionText": "How many times smaller is 10⁻⁵ than 10⁻²?",
+      "options": [
+        "10³ times smaller",
+        "10³ times larger",
+        "10⁷ times smaller",
+        "3 times smaller"
+      ],
+      "correctAnswer": "10³ times smaller",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "10⁻² ÷ 10⁻⁵ = 10³, so 10⁻⁵ is 1000 times smaller."
+    },
+    {
+      "id": "course3-powers-of-ten-core-032",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 45 × 10⁻².",
+      "options": [
+        "0.45",
+        "4.5",
+        "4500",
+        "0.045"
+      ],
+      "correctAnswer": "0.45",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal two places left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-033",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 0.009 × 10⁴.",
+      "options": [
+        "90",
+        "9",
+        "900",
+        "0.0000009"
+      ],
+      "correctAnswer": "90",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal four places right."
+    },
+    {
+      "id": "course3-powers-of-ten-core-034",
+      "type": "multiple_choice",
+      "questionText": "Which power of 10 changes meters to millimeters?",
+      "options": [
+        "10³",
+        "10⁻³",
+        "10²",
+        "10⁻²"
+      ],
+      "correctAnswer": "10³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "There are 1000 millimeters in a meter, so multiply by 10³."
+    },
+    {
+      "id": "course3-powers-of-ten-core-035",
+      "type": "multiple_choice",
+      "questionText": "Which power of 10 changes millimeters to meters?",
+      "options": [
+        "10⁻³",
+        "10³",
+        "10⁻²",
+        "10²"
+      ],
+      "correctAnswer": "10⁻³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "A millimeter is one-thousandth of a meter, so multiply by 10⁻³."
+    },
+    {
+      "id": "course3-powers-of-ten-core-036",
+      "type": "multiple_choice",
+      "questionText": "Evaluate (2.5 × 10³)(4 × 10²).",
+      "options": [
+        "1,000,000",
+        "10,000,000",
+        "100,000",
+        "10,000"
+      ],
+      "correctAnswer": "1,000,000",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "2.5 × 4 = 10 and 10³ × 10² = 10⁵, so 10 × 10⁵ = 10⁶ = 1,000,000."
+    },
+    {
+      "id": "course3-powers-of-ten-core-037",
+      "type": "multiple_choice",
+      "questionText": "Simplify (10⁻³)² × 10⁸.",
+      "options": [
+        "10²",
+        "10¹⁴",
+        "10⁻¹",
+        "10⁵"
+      ],
+      "correctAnswer": "10²",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "(10⁻³)² = 10⁻⁶, and -6 + 8 = 2."
+    },
+    {
+      "id": "course3-powers-of-ten-core-038",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 6.7 × 10⁻⁴.",
+      "options": [
+        "0.00067",
+        "0.0067",
+        "67,000",
+        "0.000067"
+      ],
+      "correctAnswer": "0.00067",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal four places left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-039",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 0.00052 × 10⁶.",
+      "options": [
+        "520",
+        "52",
+        "5,200",
+        "0.00000000052"
+      ],
+      "correctAnswer": "520",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal six places right."
+    },
+    {
+      "id": "course3-powers-of-ten-core-040",
+      "type": "multiple_choice",
+      "questionText": "Which is greatest?",
+      "options": [
+        "10²",
+        "10⁻¹",
+        "10⁰",
+        "10⁻³"
+      ],
+      "correctAnswer": "10²",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "10² = 100, which is greater than 1 and the negative powers."
+    },
+    {
+      "id": "course3-powers-of-ten-core-041",
+      "type": "multiple_choice",
+      "questionText": "Order from least to greatest: 10⁻¹, 10⁻⁴, 10².",
+      "options": [
+        "10⁻⁴, 10⁻¹, 10²",
+        "10², 10⁻¹, 10⁻⁴",
+        "10⁻¹, 10⁻⁴, 10²",
+        "10⁻⁴, 10², 10⁻¹"
+      ],
+      "correctAnswer": "10⁻⁴, 10⁻¹, 10²",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "More negative powers are smaller; positive powers are larger than 1."
+    },
+    {
+      "id": "course3-powers-of-ten-core-042",
+      "type": "multiple_choice",
+      "questionText": "A number is multiplied by 10⁻⁵ and then by 10². What is the net multiplier?",
+      "options": [
+        "10⁻³",
+        "10⁻⁷",
+        "10³",
+        "10⁷"
+      ],
+      "correctAnswer": "10⁻³",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Add the exponents: -5 + 2 = -3."
+    },
+    {
+      "id": "course3-powers-of-ten-core-043",
+      "type": "multiple_choice",
+      "questionText": "A bacterium is 0.000003 m long. Write its length using a power-of-ten factor with 3.",
+      "options": [
+        "3 × 10⁻⁶",
+        "3 × 10⁶",
+        "0.3 × 10⁻⁵",
+        "30 × 10⁻⁶"
+      ],
+      "correctAnswer": "3 × 10⁻⁶",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "0.000003 is 3 millionths, or 3 × 10⁻⁶."
+    },
+    {
+      "id": "course3-powers-of-ten-core-044",
+      "type": "multiple_choice",
+      "questionText": "A distance is 42,000,000 m. Write it using a power-of-ten factor with 42.",
+      "options": [
+        "42 × 10⁶",
+        "42 × 10⁻⁶",
+        "4.2 × 10⁶",
+        "420 × 10⁵"
+      ],
+      "correctAnswer": "42 × 10⁶",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "42,000,000 is 42 million, or 42 × 10⁶."
+    },
+    {
+      "id": "course3-powers-of-ten-core-045",
+      "type": "multiple_choice",
+      "questionText": "How many times larger is 10⁴ than 10⁻²?",
+      "options": [
+        "10⁶",
+        "10²",
+        "10⁻⁶",
+        "10⁸"
+      ],
+      "correctAnswer": "10⁶",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The ratio is 10⁴ ÷ 10⁻² = 10⁶."
+    },
+    {
+      "id": "course3-powers-of-ten-core-046",
+      "type": "multiple_choice",
+      "questionText": "Simplify 10⁻⁸ ÷ 10⁻³.",
+      "options": [
+        "10⁻⁵",
+        "10⁵",
+        "10⁻¹¹",
+        "10¹¹"
+      ],
+      "correctAnswer": "10⁻⁵",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Subtract exponents: -8 - (-3) = -5."
+    },
+    {
+      "id": "course3-powers-of-ten-core-047",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 3,200 ÷ 10⁻².",
+      "options": [
+        "320,000",
+        "32",
+        "3.2",
+        "32,000"
+      ],
+      "correctAnswer": "320,000",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Dividing by 10⁻² is multiplying by 10²."
+    },
+    {
+      "id": "course3-powers-of-ten-core-048",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 0.45 ÷ 10³.",
+      "options": [
+        "0.00045",
+        "0.0045",
+        "450",
+        "45,000"
+      ],
+      "correctAnswer": "0.00045",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Dividing by 10³ moves the decimal three places left."
+    },
+    {
+      "id": "course3-powers-of-ten-core-049",
+      "type": "multiple_choice",
+      "questionText": "Which expression has the same value as 10⁻⁶?",
+      "options": [
+        "10² ÷ 10⁸",
+        "10⁸ ÷ 10²",
+        "10⁻² ÷ 10⁻⁸",
+        "10³ × 10³"
+      ],
+      "correctAnswer": "10² ÷ 10⁸",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "10² ÷ 10⁸ = 10⁻⁶."
+    },
+    {
+      "id": "course3-powers-of-ten-core-050",
+      "type": "multiple_choice",
+      "questionText": "A computer file is multiplied from 10⁵ bytes to 10⁸ bytes. By what factor did it grow?",
+      "options": [
+        "10³",
+        "10¹³",
+        "10⁻³",
+        "3"
+      ],
+      "correctAnswer": "10³",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "The growth factor is 10⁸ ÷ 10⁵ = 10³."
+    }
+  ]
+}

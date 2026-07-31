@@ -402,6 +402,282 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-zero-negative-exponents",
+              "title": "Zero and Negative Exponents",
+              "description": "Extend exponent rules to zero and negative exponents, rewrite expressions with positive exponents, and explain reciprocal reasoning.",
+              "tags": [
+                "exponents",
+                "zero-exponents",
+                "negative-exponents"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.1"
+              ],
+              "order": 8,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-zero-negative-exponents.md",
+              "tests": [
+                {
+                  "id": "course3-zero-negative-exponents-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-zero-negative-exponents-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-zero-negative-exponents-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-zero-negative-exponents-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-powers-of-ten",
+              "title": "Powers of Ten",
+              "description": "Use powers of ten to represent, compare, and scale large and small quantities by reasoning about place value.",
+              "tags": [
+                "powers-of-ten",
+                "place-value",
+                "exponents"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.3"
+              ],
+              "order": 9,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-powers-of-ten.md",
+              "tests": [
+                {
+                  "id": "course3-powers-of-ten-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-powers-of-ten-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-powers-of-ten-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-powers-of-ten-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-scientific-notation",
+              "title": "Scientific Notation",
+              "description": "Write, interpret, compare, and convert very large and very small quantities using scientific notation.",
+              "tags": [
+                "scientific-notation",
+                "powers-of-ten",
+                "place-value"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.3"
+              ],
+              "order": 10,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-scientific-notation.md",
+              "tests": [
+                {
+                  "id": "course3-scientific-notation-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-scientific-notation-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-scientific-notation-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-scientific-notation-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-operations-with-scientific-notation",
+              "title": "Operations with Scientific Notation",
+              "description": "Multiply, divide, add, subtract, estimate, and interpret quantities written in scientific notation.",
+              "tags": [
+                "scientific-notation",
+                "operations",
+                "exponents"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.4"
+              ],
+              "order": 11,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-operations-with-scientific-notation.md",
+              "tests": [
+                {
+                  "id": "course3-operations-with-scientific-notation-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-operations-with-scientific-notation-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-operations-with-scientific-notation-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-operations-with-scientific-notation-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-unit-1-mixed-review",
+              "title": "Unit 1 Mixed Review",
+              "description": "Review real numbers, radicals, exponent rules, powers of ten, and scientific notation across the full Unit 1 progression.",
+              "tags": [
+                "real-numbers",
+                "exponents",
+                "scientific-notation",
+                "review"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.NS.1",
+                "8.NS.2",
+                "8.EE.1",
+                "8.EE.2",
+                "8.EE.3",
+                "8.EE.4"
+              ],
+              "order": 12,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-unit-1-mixed-review.md",
+              "tests": [
+                {
+                  "id": "course3-unit-1-mixed-review-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-unit-1-mixed-review-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-unit-1-mixed-review-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-unit-1-mixed-review-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }

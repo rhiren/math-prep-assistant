@@ -1,6 +1,6 @@
 # Math Course 3 Concept Rollout Plan
 
-Last updated: 2026-07-24
+Last updated: 2026-07-31
 
 ## Purpose
 
@@ -205,6 +205,13 @@ The current learner-ready packs are:
 - Approximate Irrational Numbers
 - Compare and Order Real Numbers
 - Integer Exponents
+- Zero and Negative Exponents
+- Powers of Ten
+- Scientific Notation
+- Operations with Scientific Notation
+- Unit 1 Mixed Review
+
+Unit 1 is complete. The next Course 3 rollout work begins with Unit 2.
 
 ### Phase 2 — Linear Equation Foundation
 

@@ -1,0 +1,389 @@
+{
+  "testId": "course3-powers-of-ten-review",
+  "conceptId": "concept-powers-of-ten",
+  "type": "review",
+  "title": "Powers of Ten Review Test",
+  "description": "Review the essential ideas for powers of ten.",
+  "questions": [
+    {
+      "id": "course3-powers-of-ten-review-001",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10³.",
+      "options": [
+        "1,000",
+        "100",
+        "10,000",
+        "0.001"
+      ],
+      "correctAnswer": "1,000",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "10³ is 1 followed by 3 zeros."
+    },
+    {
+      "id": "course3-powers-of-ten-review-002",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 10⁻².",
+      "options": [
+        "0.01",
+        "100",
+        "0.1",
+        "-100"
+      ],
+      "correctAnswer": "0.01",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "10⁻² = 1/100."
+    },
+    {
+      "id": "course3-powers-of-ten-review-003",
+      "type": "multiple_choice",
+      "questionText": "Write 1,000,000 as a power of 10.",
+      "options": [
+        "10⁶",
+        "10⁵",
+        "10⁷",
+        "6¹⁰"
+      ],
+      "correctAnswer": "10⁶",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "There are six zeros."
+    },
+    {
+      "id": "course3-powers-of-ten-review-004",
+      "type": "multiple_choice",
+      "questionText": "Write 0.001 as a power of 10.",
+      "options": [
+        "10⁻³",
+        "10³",
+        "10⁻²",
+        "3⁻¹⁰"
+      ],
+      "correctAnswer": "10⁻³",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "0.001 is one thousandth."
+    },
+    {
+      "id": "course3-powers-of-ten-review-005",
+      "type": "multiple_choice",
+      "questionText": "Simplify 10² × 10⁵.",
+      "options": [
+        "10⁷",
+        "10¹⁰",
+        "10³",
+        "100⁷"
+      ],
+      "correctAnswer": "10⁷",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Add exponents."
+    },
+    {
+      "id": "course3-powers-of-ten-review-006",
+      "type": "multiple_choice",
+      "questionText": "Simplify 10⁶ ÷ 10⁴.",
+      "options": [
+        "10²",
+        "10¹⁰",
+        "10⁻²",
+        "2¹⁰"
+      ],
+      "correctAnswer": "10²",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Subtract exponents."
+    },
+    {
+      "id": "course3-powers-of-ten-review-007",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 4.5 × 10².",
+      "options": [
+        "450",
+        "45",
+        "4,500",
+        "0.045"
+      ],
+      "correctAnswer": "450",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal two places right."
+    },
+    {
+      "id": "course3-powers-of-ten-review-008",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 7.8 × 10⁻¹.",
+      "options": [
+        "0.78",
+        "78",
+        "7.8",
+        "0.078"
+      ],
+      "correctAnswer": "0.78",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal one place left."
+    },
+    {
+      "id": "course3-powers-of-ten-review-009",
+      "type": "multiple_choice",
+      "questionText": "Which is greater: 10⁻¹ or 10⁻³?",
+      "options": [
+        "10⁻¹",
+        "10⁻³",
+        "They are equal",
+        "10⁻⁴"
+      ],
+      "correctAnswer": "10⁻¹",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "One tenth is greater than one thousandth."
+    },
+    {
+      "id": "course3-powers-of-ten-review-010",
+      "type": "multiple_choice",
+      "questionText": "A decimal moves 5 places left. Which multiplier was used?",
+      "options": [
+        "10⁻⁵",
+        "10⁵",
+        "10⁻⁴",
+        "5¹⁰"
+      ],
+      "correctAnswer": "10⁻⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Negative powers move the decimal left."
+    },
+    {
+      "id": "course3-powers-of-ten-review-011",
+      "type": "multiple_choice",
+      "questionText": "A decimal moves 2 places right. Which multiplier was used?",
+      "options": [
+        "10²",
+        "10⁻²",
+        "10³",
+        "2¹⁰"
+      ],
+      "correctAnswer": "10²",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Positive powers move the decimal right."
+    },
+    {
+      "id": "course3-powers-of-ten-review-012",
+      "type": "multiple_choice",
+      "questionText": "Simplify 10⁻³ × 10⁷.",
+      "options": [
+        "10⁴",
+        "10⁻²¹",
+        "10¹⁰",
+        "10⁻⁴"
+      ],
+      "correctAnswer": "10⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Add exponents: -3 + 7 = 4."
+    },
+    {
+      "id": "course3-powers-of-ten-review-013",
+      "type": "multiple_choice",
+      "questionText": "Simplify 10² ÷ 10⁶.",
+      "options": [
+        "10⁻⁴",
+        "10⁴",
+        "10⁸",
+        "10⁻⁸"
+      ],
+      "correctAnswer": "10⁻⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Subtract exponents: 2 - 6 = -4."
+    },
+    {
+      "id": "course3-powers-of-ten-review-014",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 0.006 × 10⁴.",
+      "options": [
+        "60",
+        "6",
+        "600",
+        "0.0000006"
+      ],
+      "correctAnswer": "60",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal four places right."
+    },
+    {
+      "id": "course3-powers-of-ten-review-015",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 52 ÷ 10³.",
+      "options": [
+        "0.052",
+        "0.52",
+        "5,200",
+        "0.0052"
+      ],
+      "correctAnswer": "0.052",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal three places left."
+    },
+    {
+      "id": "course3-powers-of-ten-review-016",
+      "type": "multiple_choice",
+      "questionText": "How many times larger is 10⁵ than 10²?",
+      "options": [
+        "10³",
+        "10⁷",
+        "10⁻³",
+        "3"
+      ],
+      "correctAnswer": "10³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The ratio is 10⁵ ÷ 10²."
+    },
+    {
+      "id": "course3-powers-of-ten-review-017",
+      "type": "multiple_choice",
+      "questionText": "Order from least to greatest: 10⁻², 10¹, 10⁻⁴.",
+      "options": [
+        "10⁻⁴, 10⁻², 10¹",
+        "10¹, 10⁻², 10⁻⁴",
+        "10⁻², 10⁻⁴, 10¹",
+        "10⁻⁴, 10¹, 10⁻²"
+      ],
+      "correctAnswer": "10⁻⁴, 10⁻², 10¹",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The most negative exponent is smallest."
+    },
+    {
+      "id": "course3-powers-of-ten-review-018",
+      "type": "multiple_choice",
+      "questionText": "Evaluate (10⁻²)².",
+      "options": [
+        "10⁻⁴",
+        "10⁴",
+        "10⁰",
+        "10⁻²"
+      ],
+      "correctAnswer": "10⁻⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiply exponents: -2 × 2 = -4."
+    },
+    {
+      "id": "course3-powers-of-ten-review-019",
+      "type": "multiple_choice",
+      "questionText": "Which equals 0.00000001?",
+      "options": [
+        "10⁻⁸",
+        "10⁸",
+        "10⁻⁷",
+        "8⁻¹⁰"
+      ],
+      "correctAnswer": "10⁻⁸",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "It is one hundred-millionth."
+    },
+    {
+      "id": "course3-powers-of-ten-review-020",
+      "type": "multiple_choice",
+      "questionText": "Which equals 100,000,000?",
+      "options": [
+        "10⁸",
+        "10⁷",
+        "10⁹",
+        "8¹⁰"
+      ],
+      "correctAnswer": "10⁸",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "There are eight zeros."
+    }
+  ]
+}

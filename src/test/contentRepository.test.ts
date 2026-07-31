@@ -225,58 +225,93 @@ describe("content repository", () => {
     }
   });
 
-  it("loads Course 3 with its first seven complete concept packs", async () => {
+  it("loads Course 3 with its complete Unit 1 concept packs", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");
     const conceptPacks = [
       {
         conceptId: "concept-rational-irrational-numbers",
-        standard: "8.NS.1",
+        standards: ["8.NS.1"],
         tutorialHeading: "# Rational and Irrational Numbers",
         coreTestId: "course3-rational-irrational-numbers-core",
         reviewTestId: "course3-rational-irrational-numbers-review",
       },
       {
         conceptId: "concept-repeating-decimals-fractions",
-        standard: "8.NS.1",
+        standards: ["8.NS.1"],
         tutorialHeading: "# Repeating Decimals as Fractions",
         coreTestId: "course3-repeating-decimals-fractions-core",
         reviewTestId: "course3-repeating-decimals-fractions-review",
       },
       {
         conceptId: "concept-square-roots-perfect-squares",
-        standard: "8.EE.2",
+        standards: ["8.EE.2"],
         tutorialHeading: "# Square Roots and Perfect Squares",
         coreTestId: "course3-square-roots-perfect-squares-core",
         reviewTestId: "course3-square-roots-perfect-squares-review",
       },
       {
         conceptId: "concept-cube-roots-perfect-cubes",
-        standard: "8.EE.2",
+        standards: ["8.EE.2"],
         tutorialHeading: "# Cube Roots and Perfect Cubes",
         coreTestId: "course3-cube-roots-perfect-cubes-core",
         reviewTestId: "course3-cube-roots-perfect-cubes-review",
       },
       {
         conceptId: "concept-approximate-irrational-numbers",
-        standard: "8.NS.2",
+        standards: ["8.NS.2"],
         tutorialHeading: "# Approximate Irrational Numbers",
         coreTestId: "course3-approximate-irrational-numbers-core",
         reviewTestId: "course3-approximate-irrational-numbers-review",
       },
       {
         conceptId: "concept-compare-order-real-numbers",
-        standard: "8.NS.2",
+        standards: ["8.NS.2"],
         tutorialHeading: "# Compare and Order Real Numbers",
         coreTestId: "course3-compare-order-real-numbers-core",
         reviewTestId: "course3-compare-order-real-numbers-review",
       },
       {
         conceptId: "concept-integer-exponents",
-        standard: "8.EE.1",
+        standards: ["8.EE.1"],
         tutorialHeading: "# Integer Exponents",
         coreTestId: "course3-integer-exponents-core",
         reviewTestId: "course3-integer-exponents-review",
+      },
+      {
+        conceptId: "concept-zero-negative-exponents",
+        standards: ["8.EE.1"],
+        tutorialHeading: "# Zero and Negative Exponents",
+        coreTestId: "course3-zero-negative-exponents-core",
+        reviewTestId: "course3-zero-negative-exponents-review",
+      },
+      {
+        conceptId: "concept-powers-of-ten",
+        standards: ["8.EE.3"],
+        tutorialHeading: "# Powers of Ten",
+        coreTestId: "course3-powers-of-ten-core",
+        reviewTestId: "course3-powers-of-ten-review",
+      },
+      {
+        conceptId: "concept-scientific-notation",
+        standards: ["8.EE.3"],
+        tutorialHeading: "# Scientific Notation",
+        coreTestId: "course3-scientific-notation-core",
+        reviewTestId: "course3-scientific-notation-review",
+      },
+      {
+        conceptId: "concept-operations-with-scientific-notation",
+        standards: ["8.EE.4"],
+        tutorialHeading: "# Operations with Scientific Notation",
+        coreTestId: "course3-operations-with-scientific-notation-core",
+        reviewTestId: "course3-operations-with-scientific-notation-review",
+      },
+      {
+        conceptId: "concept-unit-1-mixed-review",
+        standards: ["8.NS.1", "8.NS.2", "8.EE.1", "8.EE.2", "8.EE.3", "8.EE.4"],
+        tutorialHeading: "# Unit 1 Mixed Review",
+        coreTestId: "course3-unit-1-mixed-review-core",
+        reviewTestId: "course3-unit-1-mixed-review-review",
       },
     ];
 
@@ -286,7 +321,7 @@ describe("content repository", () => {
     expect(course?.programPathways).toEqual(["accelerated"]);
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
     expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
-    expect(course?.units[0]?.concepts).toHaveLength(7);
+    expect(course?.units[0]?.concepts).toHaveLength(12);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);
@@ -296,7 +331,7 @@ describe("content repository", () => {
       const reviewQuestions = await repository.getQuestionsForTestSet(pack.reviewTestId);
 
       expect(concept?.hasTest).toBe(true);
-      expect(concept?.standardsFrameworks).toEqual([pack.standard]);
+      expect(concept?.standardsFrameworks).toEqual(pack.standards);
       expect(tutorial).toContain(pack.tutorialHeading);
       expect(testSets.map((testSet) => testSet.id)).toEqual([
         pack.coreTestId,

@@ -1,0 +1,389 @@
+{
+  "testId": "course3-operations-with-scientific-notation-review",
+  "conceptId": "concept-operations-with-scientific-notation",
+  "type": "review",
+  "title": "Operations with Scientific Notation Review Test",
+  "description": "Review the essential ideas for operations with scientific notation.",
+  "questions": [
+    {
+      "id": "course3-operations-with-scientific-notation-review-001",
+      "type": "multiple_choice",
+      "questionText": "Multiply: (2 × 10³)(3 × 10⁴).",
+      "options": [
+        "6 × 10⁷",
+        "6 × 10¹²",
+        "5 × 10⁷",
+        "6 × 10⁻¹"
+      ],
+      "correctAnswer": "6 × 10⁷",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiply coefficients and add exponents."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-002",
+      "type": "multiple_choice",
+      "questionText": "Multiply: (4 × 10⁵)(2 × 10²).",
+      "options": [
+        "8 × 10⁷",
+        "8 × 10¹⁰",
+        "6 × 10⁷",
+        "8 × 10³"
+      ],
+      "correctAnswer": "8 × 10⁷",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "4 × 2 = 8 and 5 + 2 = 7."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-003",
+      "type": "multiple_choice",
+      "questionText": "Divide: (6 × 10⁵) ÷ (2 × 10²).",
+      "options": [
+        "3 × 10³",
+        "3 × 10⁷",
+        "4 × 10³",
+        "3 × 10²"
+      ],
+      "correctAnswer": "3 × 10³",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Divide coefficients and subtract exponents."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-004",
+      "type": "multiple_choice",
+      "questionText": "Divide: (8 × 10⁶) ÷ (4 × 10²).",
+      "options": [
+        "2 × 10⁴",
+        "2 × 10⁸",
+        "4 × 10⁴",
+        "2 × 10³"
+      ],
+      "correctAnswer": "2 × 10⁴",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "8 ÷ 4 = 2 and 6 - 2 = 4."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-005",
+      "type": "multiple_choice",
+      "questionText": "Add: 3 × 10⁴ + 2 × 10⁴.",
+      "options": [
+        "5 × 10⁴",
+        "5 × 10⁸",
+        "6 × 10⁴",
+        "1 × 10⁴"
+      ],
+      "correctAnswer": "5 × 10⁴",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The powers of ten match, so add coefficients."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-006",
+      "type": "multiple_choice",
+      "questionText": "Subtract: 9 × 10⁵ - 4 × 10⁵.",
+      "options": [
+        "5 × 10⁵",
+        "5 × 10⁰",
+        "13 × 10⁵",
+        "5 × 10¹⁰"
+      ],
+      "correctAnswer": "5 × 10⁵",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The powers of ten match, so subtract coefficients."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-007",
+      "type": "multiple_choice",
+      "questionText": "Which operation requires matching powers of ten first?",
+      "options": [
+        "Addition",
+        "Multiplication",
+        "Division",
+        "Raising a power"
+      ],
+      "correctAnswer": "Addition",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "For addition and subtraction, values must use the same power of ten."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-008",
+      "type": "multiple_choice",
+      "questionText": "Multiply: (5 × 10⁻³)(2 × 10⁴).",
+      "options": [
+        "1 × 10²",
+        "10 × 10¹",
+        "7 × 10¹",
+        "1 × 10⁻¹²"
+      ],
+      "correctAnswer": "1 × 10²",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "5 × 2 = 10 and -3 + 4 = 1, so 10 × 10¹ = 1 × 10²."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-009",
+      "type": "multiple_choice",
+      "questionText": "Multiply: (3.2 × 10⁴)(2 × 10³).",
+      "options": [
+        "6.4 × 10⁷",
+        "6.4 × 10¹²",
+        "5.2 × 10⁷",
+        "6.4 × 10¹"
+      ],
+      "correctAnswer": "6.4 × 10⁷",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiply coefficients and add exponents."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-010",
+      "type": "multiple_choice",
+      "questionText": "Multiply: (7.5 × 10⁻²)(4 × 10⁵).",
+      "options": [
+        "3 × 10⁴",
+        "30 × 10³",
+        "3 × 10⁻¹⁰",
+        "11.5 × 10³"
+      ],
+      "correctAnswer": "3 × 10⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "7.5 × 4 = 30 and -2 + 5 = 3; normalize to 3 × 10⁴."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-011",
+      "type": "multiple_choice",
+      "questionText": "Divide: (9.6 × 10⁸) ÷ (3.2 × 10²).",
+      "options": [
+        "3 × 10⁶",
+        "3 × 10¹⁰",
+        "6.4 × 10⁶",
+        "3 × 10⁴"
+      ],
+      "correctAnswer": "3 × 10⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "9.6 ÷ 3.2 = 3 and 8 - 2 = 6."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-012",
+      "type": "multiple_choice",
+      "questionText": "Divide: (4.5 × 10⁻³) ÷ (1.5 × 10⁴).",
+      "options": [
+        "3 × 10⁻⁷",
+        "3 × 10¹",
+        "3 × 10⁻¹²",
+        "6 × 10⁻⁷"
+      ],
+      "correctAnswer": "3 × 10⁻⁷",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "4.5 ÷ 1.5 = 3 and -3 - 4 = -7."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-013",
+      "type": "multiple_choice",
+      "questionText": "Add: 2.4 × 10⁶ + 3.1 × 10⁶.",
+      "options": [
+        "5.5 × 10⁶",
+        "5.5 × 10¹²",
+        "0.7 × 10⁶",
+        "5.5 × 10⁰"
+      ],
+      "correctAnswer": "5.5 × 10⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The powers match, so add coefficients."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-014",
+      "type": "multiple_choice",
+      "questionText": "Subtract: 8.7 × 10⁻⁴ - 2.2 × 10⁻⁴.",
+      "options": [
+        "6.5 × 10⁻⁴",
+        "6.5 × 10⁰",
+        "10.9 × 10⁻⁴",
+        "6.5 × 10⁻⁸"
+      ],
+      "correctAnswer": "6.5 × 10⁻⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The powers match, so subtract coefficients."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-015",
+      "type": "multiple_choice",
+      "questionText": "Add: 3 × 10⁵ + 4 × 10⁴.",
+      "options": [
+        "3.4 × 10⁵",
+        "7 × 10⁹",
+        "7 × 10⁵",
+        "3.04 × 10⁵"
+      ],
+      "correctAnswer": "3.4 × 10⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Rewrite 4 × 10⁴ as 0.4 × 10⁵, then add."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-016",
+      "type": "multiple_choice",
+      "questionText": "Subtract: 6 × 10³ - 2 × 10².",
+      "options": [
+        "5.8 × 10³",
+        "4 × 10¹",
+        "4 × 10³",
+        "5.98 × 10³"
+      ],
+      "correctAnswer": "5.8 × 10³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Rewrite 2 × 10² as 0.2 × 10³, then subtract."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-017",
+      "type": "multiple_choice",
+      "questionText": "A distance is 2.5 × 10⁸ m and another is 4 × 10⁷ m. What is the total?",
+      "options": [
+        "2.9 × 10⁸ m",
+        "6.5 × 10¹⁵ m",
+        "6.5 × 10⁸ m",
+        "2.54 × 10⁸ m"
+      ],
+      "correctAnswer": "2.9 × 10⁸ m",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Rewrite 4 × 10⁷ as 0.4 × 10⁸."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-018",
+      "type": "multiple_choice",
+      "questionText": "A mass is 7.2 × 10⁻⁶ g and 1.2 × 10⁻⁶ g is removed. What remains?",
+      "options": [
+        "6 × 10⁻⁶ g",
+        "6 × 10⁰ g",
+        "8.4 × 10⁻⁶ g",
+        "6 × 10⁻¹² g"
+      ],
+      "correctAnswer": "6 × 10⁻⁶ g",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The powers match, so subtract coefficients."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-019",
+      "type": "multiple_choice",
+      "questionText": "Estimate (6.1 × 10⁷)(1.9 × 10³).",
+      "options": [
+        "about 1.2 × 10¹¹",
+        "about 8 × 10⁴",
+        "about 1.2 × 10¹⁰",
+        "about 12 × 10²¹"
+      ],
+      "correctAnswer": "about 1.2 × 10¹¹",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "6.1 × 1.9 is about 12, and 10⁷ × 10³ = 10¹⁰; normalize to 1.2 × 10¹¹."
+    },
+    {
+      "id": "course3-operations-with-scientific-notation-review-020",
+      "type": "multiple_choice",
+      "questionText": "Estimate (8.2 × 10⁵) ÷ (4.1 × 10²).",
+      "options": [
+        "about 2 × 10³",
+        "about 2 × 10⁷",
+        "about 4 × 10³",
+        "about 12 × 10⁷"
+      ],
+      "correctAnswer": "about 2 × 10³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "8.2 ÷ 4.1 is about 2, and 10⁵ ÷ 10² = 10³."
+    }
+  ]
+}

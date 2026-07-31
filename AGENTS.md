@@ -297,6 +297,11 @@ The current Course 3 learner-ready sequence is:
 - `Approximate Irrational Numbers`
 - `Compare and Order Real Numbers`
 - `Integer Exponents`
+- `Zero and Negative Exponents`
+- `Powers of Ten`
+- `Scientific Notation`
+- `Operations with Scientific Notation`
+- `Unit 1 Mixed Review`
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.
