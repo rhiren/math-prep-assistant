@@ -1,0 +1,959 @@
+{
+  "testId": "course3-scientific-notation-core",
+  "conceptId": "concept-scientific-notation",
+  "type": "concept",
+  "title": "Scientific Notation Core Test",
+  "description": "Write, interpret, compare, and convert numbers in scientific notation.",
+  "questions": [
+    {
+      "id": "course3-scientific-notation-core-001",
+      "type": "multiple_choice",
+      "questionText": "Which number is written in proper scientific notation?",
+      "options": [
+        "4.2 × 10⁵",
+        "42 × 10⁴",
+        "0.42 × 10⁶",
+        "420 × 10³"
+      ],
+      "correctAnswer": "4.2 × 10⁵",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "The coefficient must be at least 1 and less than 10."
+    },
+    {
+      "id": "course3-scientific-notation-core-002",
+      "type": "multiple_choice",
+      "questionText": "Write 6,000 in scientific notation.",
+      "options": [
+        "6 × 10³",
+        "60 × 10²",
+        "0.6 × 10⁴",
+        "6 × 10⁻³"
+      ],
+      "correctAnswer": "6 × 10³",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "Move the decimal 3 places left to make 6."
+    },
+    {
+      "id": "course3-scientific-notation-core-003",
+      "type": "multiple_choice",
+      "questionText": "Write 45,000 in scientific notation.",
+      "options": [
+        "4.5 × 10⁴",
+        "45 × 10³",
+        "0.45 × 10⁵",
+        "4.5 × 10⁻⁴"
+      ],
+      "correctAnswer": "4.5 × 10⁴",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "The coefficient is 4.5 and the decimal moved 4 places."
+    },
+    {
+      "id": "course3-scientific-notation-core-004",
+      "type": "multiple_choice",
+      "questionText": "Write 0.007 in scientific notation.",
+      "options": [
+        "7 × 10⁻³",
+        "7 × 10³",
+        "0.7 × 10⁻²",
+        "70 × 10⁻⁴"
+      ],
+      "correctAnswer": "7 × 10⁻³",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "Move the decimal 3 places right to make 7, so the exponent is -3."
+    },
+    {
+      "id": "course3-scientific-notation-core-005",
+      "type": "multiple_choice",
+      "questionText": "Write 0.00082 in scientific notation.",
+      "options": [
+        "8.2 × 10⁻⁴",
+        "82 × 10⁻⁵",
+        "8.2 × 10⁴",
+        "0.82 × 10⁻³"
+      ],
+      "correctAnswer": "8.2 × 10⁻⁴",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "Move the decimal 4 places right to make 8.2."
+    },
+    {
+      "id": "course3-scientific-notation-core-006",
+      "type": "multiple_choice",
+      "questionText": "Convert 3.1 × 10⁴ to standard form.",
+      "options": [
+        "31,000",
+        "3,100",
+        "310,000",
+        "0.00031"
+      ],
+      "correctAnswer": "31,000",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "Move the decimal 4 places right."
+    },
+    {
+      "id": "course3-scientific-notation-core-007",
+      "type": "multiple_choice",
+      "questionText": "Convert 5.6 × 10⁻³ to standard form.",
+      "options": [
+        "0.0056",
+        "0.056",
+        "5,600",
+        "0.00056"
+      ],
+      "correctAnswer": "0.0056",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "Move the decimal 3 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-008",
+      "type": "multiple_choice",
+      "questionText": "In 7.4 × 10⁶, what is the coefficient?",
+      "options": [
+        "7.4",
+        "10",
+        "6",
+        "74"
+      ],
+      "correctAnswer": "7.4",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "The coefficient is the number multiplied by the power of ten."
+    },
+    {
+      "id": "course3-scientific-notation-core-009",
+      "type": "multiple_choice",
+      "questionText": "In 2.9 × 10⁻⁵, what does the negative exponent indicate?",
+      "options": [
+        "The number is less than 1",
+        "The number is negative",
+        "The coefficient is invalid",
+        "The number equals zero"
+      ],
+      "correctAnswer": "The number is less than 1",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "Negative powers of ten move the decimal left, creating a small positive value."
+    },
+    {
+      "id": "course3-scientific-notation-core-010",
+      "type": "multiple_choice",
+      "questionText": "Which coefficient is valid in scientific notation?",
+      "options": [
+        "8.03",
+        "0.803",
+        "80.3",
+        "10.3"
+      ],
+      "correctAnswer": "8.03",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "computation"
+      ],
+      "explanation": "A valid coefficient is at least 1 and less than 10."
+    },
+    {
+      "id": "course3-scientific-notation-core-011",
+      "type": "multiple_choice",
+      "questionText": "Write 380,000,000 in scientific notation.",
+      "options": [
+        "3.8 × 10⁸",
+        "38 × 10⁷",
+        "3.8 × 10⁻⁸",
+        "0.38 × 10⁹"
+      ],
+      "correctAnswer": "3.8 × 10⁸",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 8 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-012",
+      "type": "multiple_choice",
+      "questionText": "Write 0.00000064 in scientific notation.",
+      "options": [
+        "6.4 × 10⁻⁷",
+        "64 × 10⁻⁸",
+        "6.4 × 10⁷",
+        "0.64 × 10⁻⁶"
+      ],
+      "correctAnswer": "6.4 × 10⁻⁷",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 7 places right."
+    },
+    {
+      "id": "course3-scientific-notation-core-013",
+      "type": "multiple_choice",
+      "questionText": "Convert 9.12 × 10⁵ to standard form.",
+      "options": [
+        "912,000",
+        "91,200",
+        "9,120,000",
+        "0.0000912"
+      ],
+      "correctAnswer": "912,000",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 5 places right."
+    },
+    {
+      "id": "course3-scientific-notation-core-014",
+      "type": "multiple_choice",
+      "questionText": "Convert 1.25 × 10⁻⁴ to standard form.",
+      "options": [
+        "0.000125",
+        "0.00125",
+        "12,500",
+        "0.0000125"
+      ],
+      "correctAnswer": "0.000125",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 4 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-015",
+      "type": "multiple_choice",
+      "questionText": "Which is greater: 6 × 10⁴ or 9 × 10³?",
+      "options": [
+        "6 × 10⁴",
+        "9 × 10³",
+        "They are equal",
+        "Cannot compare"
+      ],
+      "correctAnswer": "6 × 10⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "6 × 10⁴ = 60,000 and 9 × 10³ = 9,000."
+    },
+    {
+      "id": "course3-scientific-notation-core-016",
+      "type": "multiple_choice",
+      "questionText": "Which is smaller: 2.5 × 10⁻³ or 4 × 10⁻⁴?",
+      "options": [
+        "4 × 10⁻⁴",
+        "2.5 × 10⁻³",
+        "They are equal",
+        "2.5 × 10³"
+      ],
+      "correctAnswer": "4 × 10⁻⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "0.0004 is smaller than 0.0025."
+    },
+    {
+      "id": "course3-scientific-notation-core-017",
+      "type": "multiple_choice",
+      "questionText": "Write 72 × 10⁵ in proper scientific notation.",
+      "options": [
+        "7.2 × 10⁶",
+        "72 × 10⁵",
+        "7.2 × 10⁵",
+        "0.72 × 10⁷"
+      ],
+      "correctAnswer": "7.2 × 10⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move 72 to 7.2, increasing the exponent by 1."
+    },
+    {
+      "id": "course3-scientific-notation-core-018",
+      "type": "multiple_choice",
+      "questionText": "Write 0.38 × 10⁻⁶ in proper scientific notation.",
+      "options": [
+        "3.8 × 10⁻⁷",
+        "3.8 × 10⁻⁶",
+        "38 × 10⁻⁸",
+        "0.38 × 10⁻⁶"
+      ],
+      "correctAnswer": "3.8 × 10⁻⁷",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move 0.38 to 3.8, decreasing the exponent by 1."
+    },
+    {
+      "id": "course3-scientific-notation-core-019",
+      "type": "multiple_choice",
+      "questionText": "A cell is 0.000012 m wide. Write this in scientific notation.",
+      "options": [
+        "1.2 × 10⁻⁵ m",
+        "12 × 10⁻⁶ m",
+        "1.2 × 10⁵ m",
+        "0.12 × 10⁻⁴ m"
+      ],
+      "correctAnswer": "1.2 × 10⁻⁵ m",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 5 places right to make 1.2."
+    },
+    {
+      "id": "course3-scientific-notation-core-020",
+      "type": "multiple_choice",
+      "questionText": "A planet is 149,600,000 km from the Sun. Write this in scientific notation.",
+      "options": [
+        "1.496 × 10⁸ km",
+        "14.96 × 10⁷ km",
+        "1.496 × 10⁻⁸ km",
+        "0.1496 × 10⁹ km"
+      ],
+      "correctAnswer": "1.496 × 10⁸ km",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The coefficient is 1.496 and the decimal moved 8 places."
+    },
+    {
+      "id": "course3-scientific-notation-core-021",
+      "type": "multiple_choice",
+      "questionText": "Which number equals 4.08 × 10⁻²?",
+      "options": [
+        "0.0408",
+        "0.408",
+        "408",
+        "0.00408"
+      ],
+      "correctAnswer": "0.0408",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 2 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-022",
+      "type": "multiple_choice",
+      "questionText": "Which number equals 7.03 × 10⁶?",
+      "options": [
+        "7,030,000",
+        "703,000",
+        "70,300,000",
+        "0.00000703"
+      ],
+      "correctAnswer": "7,030,000",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 6 places right."
+    },
+    {
+      "id": "course3-scientific-notation-core-023",
+      "type": "multiple_choice",
+      "questionText": "Write 0.0105 in scientific notation.",
+      "options": [
+        "1.05 × 10⁻²",
+        "10.5 × 10⁻³",
+        "1.05 × 10²",
+        "0.105 × 10⁻¹"
+      ],
+      "correctAnswer": "1.05 × 10⁻²",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 2 places right to make 1.05."
+    },
+    {
+      "id": "course3-scientific-notation-core-024",
+      "type": "multiple_choice",
+      "questionText": "Write 999,000 in scientific notation.",
+      "options": [
+        "9.99 × 10⁵",
+        "99.9 × 10⁴",
+        "9.99 × 10⁻⁵",
+        "0.999 × 10⁶"
+      ],
+      "correctAnswer": "9.99 × 10⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 5 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-025",
+      "type": "multiple_choice",
+      "questionText": "Which has the larger coefficient?",
+      "options": [
+        "8.1 × 10³",
+        "3.2 × 10⁶",
+        "They have equal coefficients",
+        "Cannot tell"
+      ],
+      "correctAnswer": "8.1 × 10³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The coefficient 8.1 is larger than 3.2, even though the full number may be smaller."
+    },
+    {
+      "id": "course3-scientific-notation-core-026",
+      "type": "multiple_choice",
+      "questionText": "Which number is not in proper scientific notation?",
+      "options": [
+        "12.4 × 10⁵",
+        "1.24 × 10⁶",
+        "9.9 × 10⁻³",
+        "6 × 10⁰"
+      ],
+      "correctAnswer": "12.4 × 10⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "12.4 is not less than 10."
+    },
+    {
+      "id": "course3-scientific-notation-core-027",
+      "type": "multiple_choice",
+      "questionText": "Write 5.02 million in scientific notation.",
+      "options": [
+        "5.02 × 10⁶",
+        "5.02 × 10⁵",
+        "50.2 × 10⁵",
+        "5.02 × 10⁻⁶"
+      ],
+      "correctAnswer": "5.02 × 10⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "A million is 10⁶."
+    },
+    {
+      "id": "course3-scientific-notation-core-028",
+      "type": "multiple_choice",
+      "questionText": "Write 3.4 thousandths in scientific notation.",
+      "options": [
+        "3.4 × 10⁻³",
+        "3.4 × 10³",
+        "34 × 10⁻⁴",
+        "0.34 × 10⁻²"
+      ],
+      "correctAnswer": "3.4 × 10⁻³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "A thousandth is 10⁻³."
+    },
+    {
+      "id": "course3-scientific-notation-core-029",
+      "type": "multiple_choice",
+      "questionText": "Compare 1.2 × 10⁵ and 1.2 × 10³.",
+      "options": [
+        "1.2 × 10⁵ is greater",
+        "1.2 × 10³ is greater",
+        "They are equal",
+        "The coefficients decide"
+      ],
+      "correctAnswer": "1.2 × 10⁵ is greater",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "The coefficients match, so compare exponents."
+    },
+    {
+      "id": "course3-scientific-notation-core-030",
+      "type": "multiple_choice",
+      "questionText": "Compare 8 × 10⁻⁶ and 2 × 10⁻⁵.",
+      "options": [
+        "2 × 10⁻⁵ is greater",
+        "8 × 10⁻⁶ is greater",
+        "They are equal",
+        "Cannot compare"
+      ],
+      "correctAnswer": "2 × 10⁻⁵ is greater",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "2 × 10⁻⁵ = 0.00002, which is greater than 0.000008."
+    },
+    {
+      "id": "course3-scientific-notation-core-031",
+      "type": "multiple_choice",
+      "questionText": "Write 0.0000000009 in scientific notation.",
+      "options": [
+        "9 × 10⁻¹⁰",
+        "9 × 10¹⁰",
+        "0.9 × 10⁻⁹",
+        "90 × 10⁻¹¹"
+      ],
+      "correctAnswer": "9 × 10⁻¹⁰",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 10 places right."
+    },
+    {
+      "id": "course3-scientific-notation-core-032",
+      "type": "multiple_choice",
+      "questionText": "Write 12,300,000,000 in scientific notation.",
+      "options": [
+        "1.23 × 10¹⁰",
+        "12.3 × 10⁹",
+        "1.23 × 10⁻¹⁰",
+        "0.123 × 10¹¹"
+      ],
+      "correctAnswer": "1.23 × 10¹⁰",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 10 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-033",
+      "type": "multiple_choice",
+      "questionText": "Which standard form matches 6.75 × 10⁻⁵?",
+      "options": [
+        "0.0000675",
+        "0.000675",
+        "675,000",
+        "0.00000675"
+      ],
+      "correctAnswer": "0.0000675",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 5 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-034",
+      "type": "multiple_choice",
+      "questionText": "Which scientific notation matches 450 × 10⁻⁸?",
+      "options": [
+        "4.5 × 10⁻⁶",
+        "45 × 10⁻⁷",
+        "4.5 × 10⁻⁸",
+        "0.45 × 10⁻⁵"
+      ],
+      "correctAnswer": "4.5 × 10⁻⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "450 becomes 4.5, so the exponent increases by 2: -8 + 2 = -6."
+    },
+    {
+      "id": "course3-scientific-notation-core-035",
+      "type": "multiple_choice",
+      "questionText": "A dust particle has mass 0.00000032 g. Write this in scientific notation.",
+      "options": [
+        "3.2 × 10⁻⁷ g",
+        "32 × 10⁻⁸ g",
+        "3.2 × 10⁷ g",
+        "0.32 × 10⁻⁶ g"
+      ],
+      "correctAnswer": "3.2 × 10⁻⁷ g",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 7 places right."
+    },
+    {
+      "id": "course3-scientific-notation-core-036",
+      "type": "multiple_choice",
+      "questionText": "Order least to greatest: 3 × 10⁻⁴, 8 × 10⁻⁵, 1.2 × 10⁻³.",
+      "options": [
+        "8 × 10⁻⁵, 3 × 10⁻⁴, 1.2 × 10⁻³",
+        "1.2 × 10⁻³, 3 × 10⁻⁴, 8 × 10⁻⁵",
+        "3 × 10⁻⁴, 8 × 10⁻⁵, 1.2 × 10⁻³",
+        "8 × 10⁻⁵, 1.2 × 10⁻³, 3 × 10⁻⁴"
+      ],
+      "correctAnswer": "8 × 10⁻⁵, 3 × 10⁻⁴, 1.2 × 10⁻³",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "Convert or compare decimal sizes: 0.00008 < 0.0003 < 0.0012."
+    },
+    {
+      "id": "course3-scientific-notation-core-037",
+      "type": "multiple_choice",
+      "questionText": "Order greatest to least: 4.5 × 10⁷, 9.1 × 10⁶, 1.2 × 10⁸.",
+      "options": [
+        "1.2 × 10⁸, 4.5 × 10⁷, 9.1 × 10⁶",
+        "4.5 × 10⁷, 9.1 × 10⁶, 1.2 × 10⁸",
+        "9.1 × 10⁶, 4.5 × 10⁷, 1.2 × 10⁸",
+        "1.2 × 10⁸, 9.1 × 10⁶, 4.5 × 10⁷"
+      ],
+      "correctAnswer": "1.2 × 10⁸, 4.5 × 10⁷, 9.1 × 10⁶",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "Compare exponents first; then coefficients if needed."
+    },
+    {
+      "id": "course3-scientific-notation-core-038",
+      "type": "multiple_choice",
+      "questionText": "A student writes 0.00045 as 45 × 10⁻⁵. What is proper scientific notation?",
+      "options": [
+        "4.5 × 10⁻⁴",
+        "45 × 10⁻⁵",
+        "4.5 × 10⁻⁵",
+        "0.45 × 10⁻³"
+      ],
+      "correctAnswer": "4.5 × 10⁻⁴",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "The coefficient must be between 1 and 10."
+    },
+    {
+      "id": "course3-scientific-notation-core-039",
+      "type": "multiple_choice",
+      "questionText": "A number is 2.3 × 10⁴. Another is 23 × 10³. What is true?",
+      "options": [
+        "They are equal",
+        "2.3 × 10⁴ is greater",
+        "23 × 10³ is greater",
+        "Neither is valid"
+      ],
+      "correctAnswer": "They are equal",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "23 × 10³ = 2.3 × 10⁴."
+    },
+    {
+      "id": "course3-scientific-notation-core-040",
+      "type": "multiple_choice",
+      "questionText": "Which number is closest to 10⁻³?",
+      "options": [
+        "9.8 × 10⁻⁴",
+        "1.2 × 10⁻²",
+        "4.5 × 10⁻⁵",
+        "8.1 × 10⁻¹"
+      ],
+      "correctAnswer": "9.8 × 10⁻⁴",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "9.8 × 10⁻⁴ = 0.00098, very close to 0.001."
+    },
+    {
+      "id": "course3-scientific-notation-core-041",
+      "type": "multiple_choice",
+      "questionText": "Which is the best estimate for 0.000000298 in scientific notation?",
+      "options": [
+        "3 × 10⁻⁷",
+        "3 × 10⁷",
+        "2.98 × 10⁻⁶",
+        "0.3 × 10⁻⁷"
+      ],
+      "correctAnswer": "3 × 10⁻⁷",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "The exact form is 2.98 × 10⁻⁷, which rounds to 3 × 10⁻⁷."
+    },
+    {
+      "id": "course3-scientific-notation-core-042",
+      "type": "multiple_choice",
+      "questionText": "The diameter of a strand is 1.7 × 10⁻⁵ m. Which standard form is correct?",
+      "options": [
+        "0.000017 m",
+        "0.00017 m",
+        "170,000 m",
+        "0.0000017 m"
+      ],
+      "correctAnswer": "0.000017 m",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 5 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-043",
+      "type": "multiple_choice",
+      "questionText": "The population is 8.04 × 10⁶. Which standard form is correct?",
+      "options": [
+        "8,040,000",
+        "804,000",
+        "80,400,000",
+        "0.00000804"
+      ],
+      "correctAnswer": "8,040,000",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 6 places right."
+    },
+    {
+      "id": "course3-scientific-notation-core-044",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 0.0063 × 10⁸ in proper scientific notation?",
+      "options": [
+        "6.3 × 10⁵",
+        "6.3 × 10⁶",
+        "0.63 × 10⁶",
+        "63 × 10⁴"
+      ],
+      "correctAnswer": "6.3 × 10⁵",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "0.0063 = 6.3 × 10⁻³, and -3 + 8 = 5."
+    },
+    {
+      "id": "course3-scientific-notation-core-045",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 720 × 10⁻⁶ in proper scientific notation?",
+      "options": [
+        "7.2 × 10⁻⁴",
+        "72 × 10⁻⁵",
+        "7.2 × 10⁻⁶",
+        "0.72 × 10⁻³"
+      ],
+      "correctAnswer": "7.2 × 10⁻⁴",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "720 = 7.2 × 10², and 2 + (-6) = -4."
+    },
+    {
+      "id": "course3-scientific-notation-core-046",
+      "type": "multiple_choice",
+      "questionText": "A measurement is 4.8 × 10⁻³ km. How many kilometers is that in decimal form?",
+      "options": [
+        "0.0048 km",
+        "0.048 km",
+        "4,800 km",
+        "0.00048 km"
+      ],
+      "correctAnswer": "0.0048 km",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "Move the decimal 3 places left."
+    },
+    {
+      "id": "course3-scientific-notation-core-047",
+      "type": "multiple_choice",
+      "questionText": "A measurement is 3.25 × 10⁹ bytes. Which description matches it?",
+      "options": [
+        "3.25 billion bytes",
+        "3.25 million bytes",
+        "0.00000000325 bytes",
+        "32.5 billion bytes"
+      ],
+      "correctAnswer": "3.25 billion bytes",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "10⁹ is one billion."
+    },
+    {
+      "id": "course3-scientific-notation-core-048",
+      "type": "multiple_choice",
+      "questionText": "Which is less than 5 × 10⁻⁶?",
+      "options": [
+        "4.9 × 10⁻⁶",
+        "5.1 × 10⁻⁶",
+        "1 × 10⁻⁵",
+        "5 × 10⁻⁵"
+      ],
+      "correctAnswer": "4.9 × 10⁻⁶",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "With the same exponent, compare coefficients."
+    },
+    {
+      "id": "course3-scientific-notation-core-049",
+      "type": "multiple_choice",
+      "questionText": "Which is greater than 5 × 10⁶?",
+      "options": [
+        "5.1 × 10⁶",
+        "4.9 × 10⁶",
+        "1 × 10⁵",
+        "5 × 10⁵"
+      ],
+      "correctAnswer": "5.1 × 10⁶",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "With the same exponent, compare coefficients."
+    },
+    {
+      "id": "course3-scientific-notation-core-050",
+      "type": "multiple_choice",
+      "questionText": "Write 0.000120 in scientific notation.",
+      "options": [
+        "1.20 × 10⁻⁴",
+        "1.20 × 10⁴",
+        "12.0 × 10⁻⁵",
+        "0.120 × 10⁻³"
+      ],
+      "correctAnswer": "1.20 × 10⁻⁴",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "Trailing zeros after a decimal can show precision; the coefficient is 1.20."
+    }
+  ]
+}
