@@ -304,6 +304,7 @@ The current Course 3 learner-ready sequence is:
 - `Unit 1 Mixed Review`
 - `Review Equivalent Expressions`
 - `Solve Multi-Step Equations`
+- `Equations with the Distributive Property`
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.
