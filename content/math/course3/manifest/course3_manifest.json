@@ -848,6 +848,60 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-equations-variables-both-sides",
+              "title": "Equations with Variables on Both Sides",
+              "description": "Solve one-variable equations by moving variable terms, moving constants, distributing when needed, and checking solutions.",
+              "tags": [
+                "linear-equations",
+                "variables-on-both-sides",
+                "multi-step-equations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-variables-both-sides.md",
+              "tests": [
+                {
+                  "id": "course3-equations-variables-both-sides-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-variables-both-sides-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-variables-both-sides-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-variables-both-sides-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }
