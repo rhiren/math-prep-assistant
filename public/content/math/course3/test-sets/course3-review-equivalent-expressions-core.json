@@ -1,0 +1,925 @@
+{
+  "testId": "course3-review-equivalent-expressions-core",
+  "conceptId": "concept-review-equivalent-expressions",
+  "type": "concept",
+  "title": "Review Equivalent Expressions Core Test",
+  "description": "Review combining like terms, distribution, factoring, and equivalent-expression reasoning before solving linear equations.",
+  "questions": [
+    {
+      "id": "course3-review-equivalent-expressions-core-001",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to x + x + x?",
+      "options": [
+        "3x",
+        "x³",
+        "x + 3",
+        "3 + x"
+      ],
+      "correctAnswer": "3x",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "The expression has three equal groups of x, so it combines to 3x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-002",
+      "type": "multiple_choice",
+      "questionText": "Simplify 4a + 2a.",
+      "options": [
+        "6a",
+        "8a",
+        "6a²",
+        "2a"
+      ],
+      "correctAnswer": "6a",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Like terms have the same variable part. Add the coefficients: 4 + 2 = 6."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-003",
+      "type": "multiple_choice",
+      "questionText": "Simplify 7y - 3y.",
+      "options": [
+        "4y",
+        "10y",
+        "4",
+        "4y²"
+      ],
+      "correctAnswer": "4y",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Both terms are y-terms, so subtract the coefficients: 7 - 3 = 4."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-004",
+      "type": "multiple_choice",
+      "questionText": "Simplify 5m + 2 + 3m.",
+      "options": [
+        "8m + 2",
+        "10m",
+        "8m + 5",
+        "5m + 5"
+      ],
+      "correctAnswer": "8m + 2",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Combine the m-terms and keep the constant separate: 5m + 3m + 2 = 8m + 2."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-005",
+      "type": "multiple_choice",
+      "questionText": "Use the distributive property: 3(x + 4).",
+      "options": [
+        "3x + 12",
+        "3x + 4",
+        "x + 12",
+        "7x"
+      ],
+      "correctAnswer": "3x + 12",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Multiply 3 by each term inside the parentheses: 3x + 12."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-006",
+      "type": "multiple_choice",
+      "questionText": "Use the distributive property: 5(y - 2).",
+      "options": [
+        "5y - 10",
+        "5y - 2",
+        "y - 10",
+        "5y + 10"
+      ],
+      "correctAnswer": "5y - 10",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The 5 multiplies both y and -2, so the result is 5y - 10."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-007",
+      "type": "multiple_choice",
+      "questionText": "Factor 6x + 12.",
+      "options": [
+        "6(x + 2)",
+        "6(x + 12)",
+        "x(6 + 12)",
+        "12(x + 6)"
+      ],
+      "correctAnswer": "6(x + 2)",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Both terms share a factor of 6. Dividing each term by 6 leaves x + 2."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-008",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 2n + 8?",
+      "options": [
+        "2(n + 4)",
+        "2(n + 8)",
+        "n(2 + 8)",
+        "4(n + 2)"
+      ],
+      "correctAnswer": "2(n + 4)",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Distributing 2 through 2(n + 4) gives 2n + 8."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-009",
+      "type": "multiple_choice",
+      "questionText": "Simplify 9p - p.",
+      "options": [
+        "8p",
+        "9",
+        "10p",
+        "8p²"
+      ],
+      "correctAnswer": "8p",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The term p means 1p, so 9p - 1p = 8p."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-010",
+      "type": "multiple_choice",
+      "questionText": "Which pair is equivalent?",
+      "options": [
+        "4(x + 3) and 4x + 12",
+        "4(x + 3) and 4x + 3",
+        "x + 4 and 4x",
+        "3x + 4x and 12x"
+      ],
+      "correctAnswer": "4(x + 3) and 4x + 12",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Distributing 4 gives 4x + 12, so the pair is equivalent for every x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-011",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3x + 5 + 2x + 7.",
+      "options": [
+        "5x + 12",
+        "5x + 35",
+        "6x + 12",
+        "5x + 2"
+      ],
+      "correctAnswer": "5x + 12",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Combine like terms: 3x + 2x = 5x and 5 + 7 = 12."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-012",
+      "type": "multiple_choice",
+      "questionText": "Simplify 8a - 3 + 2a + 9.",
+      "options": [
+        "10a + 6",
+        "10a - 12",
+        "6a + 6",
+        "10a + 12"
+      ],
+      "correctAnswer": "10a + 6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The variable terms make 10a, and the constants make 6."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-013",
+      "type": "multiple_choice",
+      "questionText": "Simplify 6y - 4 - 2y + 11.",
+      "options": [
+        "4y + 7",
+        "8y + 7",
+        "4y - 15",
+        "4y + 15"
+      ],
+      "correctAnswer": "4y + 7",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Combine 6y - 2y = 4y and -4 + 11 = 7."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-014",
+      "type": "multiple_choice",
+      "questionText": "Simplify 4(2x + 3).",
+      "options": [
+        "8x + 12",
+        "8x + 3",
+        "6x + 12",
+        "8x + 7"
+      ],
+      "correctAnswer": "8x + 12",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Distribute 4 to both terms: 4(2x) + 4(3) = 8x + 12."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-015",
+      "type": "multiple_choice",
+      "questionText": "Simplify -2(x - 5).",
+      "options": [
+        "-2x + 10",
+        "-2x - 10",
+        "2x + 10",
+        "-2x - 5"
+      ],
+      "correctAnswer": "-2x + 10",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Multiply -2 by x and by -5. The product of two negatives is positive 10."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-016",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3(2a - 4) + a.",
+      "options": [
+        "7a - 12",
+        "6a - 12",
+        "7a - 4",
+        "7a + 12"
+      ],
+      "correctAnswer": "7a - 12",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "computation"
+      ],
+      "explanation": "First distribute to get 6a - 12, then combine with +a to get 7a - 12."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-017",
+      "type": "multiple_choice",
+      "questionText": "Simplify 5(b + 2) - 3b.",
+      "options": [
+        "2b + 10",
+        "8b + 10",
+        "2b + 2",
+        "5b - 6"
+      ],
+      "correctAnswer": "2b + 10",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "computation"
+      ],
+      "explanation": "Distribute first: 5b + 10 - 3b. Then combine b-terms."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-018",
+      "type": "multiple_choice",
+      "questionText": "Simplify 2(3x + 1) + 4(x - 5).",
+      "options": [
+        "10x - 18",
+        "10x - 4",
+        "14x - 18",
+        "6x - 18"
+      ],
+      "correctAnswer": "10x - 18",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "computation"
+      ],
+      "explanation": "Distribute both products: 6x + 2 + 4x - 20 = 10x - 18."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-019",
+      "type": "multiple_choice",
+      "questionText": "Simplify 7m - 2(3m - 4).",
+      "options": [
+        "m + 8",
+        "m - 8",
+        "13m + 8",
+        "4m - 8"
+      ],
+      "correctAnswer": "m + 8",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "reasoning"
+      ],
+      "explanation": "Subtracting 2(3m - 4) gives 7m - 6m + 8, which is m + 8."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-020",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 12x + 18?",
+      "options": [
+        "6(2x + 3)",
+        "6(2x + 18)",
+        "3(4x + 18)",
+        "12(x + 18)"
+      ],
+      "correctAnswer": "6(2x + 3)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The greatest common factor is 6. Factoring gives 6(2x + 3)."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-021",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 15a - 10?",
+      "options": [
+        "5(3a - 2)",
+        "5(3a + 2)",
+        "10(15a - 1)",
+        "3(5a - 10)"
+      ],
+      "correctAnswer": "5(3a - 2)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Both terms share a factor of 5, and distributing 5 gives 15a - 10."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-022",
+      "type": "multiple_choice",
+      "questionText": "Which is equivalent to 4x + 4y?",
+      "options": [
+        "4(x + y)",
+        "8xy",
+        "4(xy)",
+        "x(4 + y)"
+      ],
+      "correctAnswer": "4(x + y)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Both terms share a factor of 4, so 4 can be factored out."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-023",
+      "type": "multiple_choice",
+      "questionText": "Evaluate both expressions at x = 3. Which pair is equivalent?",
+      "options": [
+        "2(x + 5) and 2x + 10",
+        "2x + 5 and 7x",
+        "x² + 3 and 3x + 3",
+        "5x - 2 and 2x + 5"
+      ],
+      "correctAnswer": "2(x + 5) and 2x + 10",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The first pair both equal 16 when x = 3, and they are structurally equivalent by distribution."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-024",
+      "type": "multiple_choice",
+      "questionText": "A student says 3(x + 2) = 3x + 2. What is the correction?",
+      "options": [
+        "3(x + 2) = 3x + 6",
+        "3(x + 2) = 5x",
+        "3(x + 2) = x + 6",
+        "3(x + 2) = 6x"
+      ],
+      "correctAnswer": "3(x + 2) = 3x + 6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The 3 must multiply every term inside the parentheses, including 2."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-025",
+      "type": "multiple_choice",
+      "questionText": "A student says 5x + 2x = 7x². What is the correction?",
+      "options": [
+        "5x + 2x = 7x",
+        "5x + 2x = 10x",
+        "5x + 2x = 7",
+        "5x + 2x = x⁷"
+      ],
+      "correctAnswer": "5x + 2x = 7x",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Combining like terms adds coefficients; it does not change the exponent on x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-026",
+      "type": "multiple_choice",
+      "questionText": "Simplify 1/2x + 3/2x.",
+      "options": [
+        "2x",
+        "4/2x²",
+        "2x²",
+        "4x"
+      ],
+      "correctAnswer": "2x",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The coefficients add to 4/2 = 2, so the result is 2x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-027",
+      "type": "multiple_choice",
+      "questionText": "Simplify 0.4p + 0.6p - p.",
+      "options": [
+        "0",
+        "p",
+        "1p",
+        "0.2p"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The coefficients add to 0.4 + 0.6 - 1 = 0, so the expression is 0."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-028",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3(x - 2) - (x + 5).",
+      "options": [
+        "2x - 11",
+        "2x + 3",
+        "4x - 11",
+        "2x - 1"
+      ],
+      "correctAnswer": "2x - 11",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "reasoning"
+      ],
+      "explanation": "Distribute and subtract the whole second group: 3x - 6 - x - 5 = 2x - 11."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-029",
+      "type": "multiple_choice",
+      "questionText": "Simplify -4(2y + 1) + 3y.",
+      "options": [
+        "-5y - 4",
+        "-5y + 4",
+        "-11y - 4",
+        "-8y + 3"
+      ],
+      "correctAnswer": "-5y - 4",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "computation"
+      ],
+      "explanation": "Distribute -4 to get -8y - 4, then add 3y to get -5y - 4."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-030",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 9 - 3(x + 2)?",
+      "options": [
+        "3 - 3x",
+        "6 - 3x",
+        "9 - 3x + 2",
+        "12 - 3x"
+      ],
+      "correctAnswer": "3 - 3x",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Distribute -3 through the group: 9 - 3x - 6 = 3 - 3x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-031",
+      "type": "multiple_choice",
+      "questionText": "Simplify 2a + 3b + 4a - b.",
+      "options": [
+        "6a + 2b",
+        "6ab + 2",
+        "6a + 4b",
+        "9a + 2b"
+      ],
+      "correctAnswer": "6a + 2b",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Combine a-terms and b-terms separately: 2a + 4a = 6a and 3b - b = 2b."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-032",
+      "type": "multiple_choice",
+      "questionText": "Which expression represents the perimeter of a rectangle with sides x + 3 and 2x?",
+      "options": [
+        "6x + 6",
+        "3x + 3",
+        "2x² + 6x",
+        "6x + 3"
+      ],
+      "correctAnswer": "6x + 6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "multi-step"
+      ],
+      "explanation": "Perimeter is 2(x + 3) + 2(2x) = 2x + 6 + 4x = 6x + 6."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-033",
+      "type": "multiple_choice",
+      "questionText": "Which expression represents the area of a rectangle with side lengths 4 and x + 6?",
+      "options": [
+        "4x + 24",
+        "4x + 6",
+        "x + 24",
+        "10x"
+      ],
+      "correctAnswer": "4x + 24",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "Area is length times width: 4(x + 6) = 4x + 24."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-034",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3(2x - 1) - 2(x + 4).",
+      "options": [
+        "4x - 11",
+        "4x + 5",
+        "8x - 11",
+        "4x - 5"
+      ],
+      "correctAnswer": "4x - 11",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Distribute both parts: 6x - 3 - 2x - 8 = 4x - 11."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-035",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 2(5n - 3) + 4?",
+      "options": [
+        "10n - 2",
+        "10n - 10",
+        "7n + 1",
+        "10n + 2"
+      ],
+      "correctAnswer": "10n - 2",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "2(5n - 3) + 4 = 10n - 6 + 4 = 10n - 2."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-036",
+      "type": "multiple_choice",
+      "questionText": "Simplify 4(x + 2y) - 3(2x - y).",
+      "options": [
+        "-2x + 11y",
+        "-2x + 5y",
+        "10x + 5y",
+        "2x + 11y"
+      ],
+      "correctAnswer": "-2x + 11y",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "reasoning"
+      ],
+      "explanation": "Distribute both groups: 4x + 8y - 6x + 3y = -2x + 11y."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-037",
+      "type": "multiple_choice",
+      "questionText": "Simplify 1/3(6x - 9) + 2x.",
+      "options": [
+        "4x - 3",
+        "2x - 3",
+        "4x - 9",
+        "8x - 3"
+      ],
+      "correctAnswer": "4x - 3",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "One third of 6x - 9 is 2x - 3, then adding 2x gives 4x - 3."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-038",
+      "type": "multiple_choice",
+      "questionText": "Simplify 0.5(8a - 6) - 1.5a.",
+      "options": [
+        "2.5a - 3",
+        "2.5a - 6",
+        "5.5a - 3",
+        "4a - 7.5a"
+      ],
+      "correctAnswer": "2.5a - 3",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Half of 8a - 6 is 4a - 3, then 4a - 1.5a = 2.5a."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-039",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to -3(2x - 5) + 4(x - 1)?",
+      "options": [
+        "-2x + 11",
+        "-2x - 19",
+        "10x + 11",
+        "-2x + 19"
+      ],
+      "correctAnswer": "-2x + 11",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "reasoning"
+      ],
+      "explanation": "Distribute: -6x + 15 + 4x - 4 = -2x + 11."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-040",
+      "type": "multiple_choice",
+      "questionText": "A student simplifies 2(3x + 4) - x as 2(2x + 4). Which expression is correct?",
+      "options": [
+        "5x + 8",
+        "4x + 8",
+        "6x + 8",
+        "5x + 4"
+      ],
+      "correctAnswer": "5x + 8",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Distribute first: 6x + 8 - x = 5x + 8."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-041",
+      "type": "multiple_choice",
+      "questionText": "Which expression is always equivalent to 3(2x + y) - 2(x - y)?",
+      "options": [
+        "4x + 5y",
+        "4x + y",
+        "8x + y",
+        "4x - y"
+      ],
+      "correctAnswer": "4x + 5y",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Distribute and combine: 6x + 3y - 2x + 2y = 4x + 5y."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-042",
+      "type": "multiple_choice",
+      "questionText": "Factor 18x - 24y using the greatest common factor.",
+      "options": [
+        "6(3x - 4y)",
+        "6(3x + 4y)",
+        "3(6x - 24y)",
+        "2(9x - 24y)"
+      ],
+      "correctAnswer": "6(3x - 4y)",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The greatest common factor of 18 and 24 is 6; dividing each term by 6 gives 3x - 4y."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-043",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 8x + 20 and shows the greatest common factor?",
+      "options": [
+        "4(2x + 5)",
+        "2(4x + 10)",
+        "8(x + 20)",
+        "10(x + 2)"
+      ],
+      "correctAnswer": "4(2x + 5)",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Although 2 can be factored out, 4 is the greatest common factor of 8 and 20."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-044",
+      "type": "multiple_choice",
+      "questionText": "Simplify 5 - 2(3x - 4) + x.",
+      "options": [
+        "13 - 5x",
+        "9 - 5x",
+        "13 - 7x",
+        "-3 - 5x"
+      ],
+      "correctAnswer": "13 - 5x",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "reasoning"
+      ],
+      "explanation": "Distribute -2 to get -6x + 8, then 5 + 8 + x - 6x = 13 - 5x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-045",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3a - [2a - (a + 4)].",
+      "options": [
+        "2a + 4",
+        "0",
+        "4a - 4",
+        "2a - 4"
+      ],
+      "correctAnswer": "2a + 4",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step",
+        "reasoning"
+      ],
+      "explanation": "Inside brackets, 2a - (a + 4) = a - 4. Then 3a - (a - 4) = 2a + 4."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-046",
+      "type": "multiple_choice",
+      "questionText": "Which expression has the same value as 2x + 3 when x = -2 but is not always equivalent?",
+      "options": [
+        "x² - 5",
+        "3 + 2x",
+        "2(x + 1.5)",
+        "4x - 2x + 3"
+      ],
+      "correctAnswer": "x² - 5",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "At x = -2, both expressions equal -1, but x² - 5 is not equivalent for every x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-047",
+      "type": "multiple_choice",
+      "questionText": "Which test best proves two expressions are equivalent?",
+      "options": [
+        "Show one can be transformed into the other using valid properties",
+        "Check one value only",
+        "See if they have the same number of terms",
+        "Compare only the constants"
+      ],
+      "correctAnswer": "Show one can be transformed into the other using valid properties",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "One matching input is not enough; equivalent expressions must match for every allowed value."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-048",
+      "type": "multiple_choice",
+      "questionText": "A rectangle has side lengths 3x - 2 and x + 5. Which expression gives its perimeter?",
+      "options": [
+        "8x + 6",
+        "4x + 3",
+        "3x² + 13x - 10",
+        "8x - 14"
+      ],
+      "correctAnswer": "8x + 6",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "Perimeter is 2(3x - 2) + 2(x + 5) = 6x - 4 + 2x + 10 = 8x + 6."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-049",
+      "type": "multiple_choice",
+      "questionText": "The expression 12x + 8 represents total cost in cents. Which factored form shows 4 equal groups?",
+      "options": [
+        "4(3x + 2)",
+        "2(6x + 4)",
+        "8(12x + 1)",
+        "4(3x + 8)"
+      ],
+      "correctAnswer": "4(3x + 2)",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "explanation": "Factoring out 4 gives 4(3x + 2), which shows four equal groups of 3x + 2."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-core-050",
+      "type": "multiple_choice",
+      "questionText": "Simplify 2(3x - y) + 5(2y - x).",
+      "options": [
+        "x + 8y",
+        "11x + 3y",
+        "x - 8y",
+        "6x + 10y"
+      ],
+      "correctAnswer": "x + 8y",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Distribute both products: 6x - 2y + 10y - 5x = x + 8y."
+    }
+  ]
+}

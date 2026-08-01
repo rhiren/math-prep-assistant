@@ -211,12 +211,20 @@ The current learner-ready packs are:
 - Operations with Scientific Notation
 - Unit 1 Mixed Review
 
-Unit 1 is complete. The next Course 3 rollout work begins with Unit 2.
+Unit 1 is complete.
 
 ### Phase 2 — Linear Equation Foundation
 
 Build Unit 2 before formal slope and systems work. Preserve explicit reasoning
 about equivalent equations instead of teaching only mechanical steps.
+
+The current learner-ready Unit 2 packs are:
+
+- Review Equivalent Expressions
+
+The next Course 3 rollout work is:
+
+- Solve Multi-Step Equations
 
 ### Phase 3 — Lines, Slope, and Systems
 

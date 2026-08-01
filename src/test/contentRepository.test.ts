@@ -225,7 +225,7 @@ describe("content repository", () => {
     }
   });
 
-  it("loads Course 3 with its complete Unit 1 concept packs", async () => {
+  it("loads Course 3 with complete Unit 1 and the first Unit 2 concept pack", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");
     const conceptPacks = [
@@ -313,6 +313,13 @@ describe("content repository", () => {
         coreTestId: "course3-unit-1-mixed-review-core",
         reviewTestId: "course3-unit-1-mixed-review-review",
       },
+      {
+        conceptId: "concept-review-equivalent-expressions",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# Review Equivalent Expressions",
+        coreTestId: "course3-review-equivalent-expressions-core",
+        reviewTestId: "course3-review-equivalent-expressions-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -322,6 +329,8 @@ describe("content repository", () => {
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
     expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
     expect(course?.units[0]?.concepts).toHaveLength(12);
+    expect(course?.units[1]?.id).toBe("course3-unit-linear-equations");
+    expect(course?.units[1]?.concepts).toHaveLength(1);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

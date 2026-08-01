@@ -302,6 +302,7 @@ The current Course 3 learner-ready sequence is:
 - `Scientific Notation`
 - `Operations with Scientific Notation`
 - `Unit 1 Mixed Review`
+- `Review Equivalent Expressions`
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.
