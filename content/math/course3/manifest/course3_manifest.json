@@ -794,6 +794,60 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-equations-distributive-property",
+              "title": "Equations with the Distributive Property",
+              "description": "Solve one-variable equations that require distributing, handling negative factors, combining like terms, and checking in the original equation.",
+              "tags": [
+                "linear-equations",
+                "distributive-property",
+                "multi-step-equations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-distributive-property.md",
+              "tests": [
+                {
+                  "id": "course3-equations-distributive-property-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-distributive-property-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-distributive-property-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-distributive-property-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }
