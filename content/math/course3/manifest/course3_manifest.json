@@ -740,6 +740,60 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-solve-multi-step-equations",
+              "title": "Solve Multi-Step Equations",
+              "description": "Solve one-variable equations that require simplifying, inverse operations, negative coefficients, fractions, decimals, and solution checks.",
+              "tags": [
+                "linear-equations",
+                "multi-step-equations",
+                "inverse-operations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-multi-step-equations.md",
+              "tests": [
+                {
+                  "id": "course3-solve-multi-step-equations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-multi-step-equations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-multi-step-equations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-multi-step-equations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }
