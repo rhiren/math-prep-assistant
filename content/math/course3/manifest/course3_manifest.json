@@ -680,6 +680,68 @@
               ]
             }
           ]
+        },
+        {
+          "id": "course3-unit-linear-equations",
+          "title": "Linear Equations in One Variable",
+          "description": "Build from equivalent expressions into multi-step linear equations, special solution cases, and equation modeling.",
+          "order": 2,
+          "concepts": [
+            {
+              "id": "concept-review-equivalent-expressions",
+              "title": "Review Equivalent Expressions",
+              "description": "Review combining like terms, distribution, factoring, and equivalent-expression reasoning before solving linear equations.",
+              "tags": [
+                "expressions",
+                "equivalent-expressions",
+                "distributive-property"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-review-equivalent-expressions.md",
+              "tests": [
+                {
+                  "id": "course3-review-equivalent-expressions-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-review-equivalent-expressions-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-review-equivalent-expressions-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-review-equivalent-expressions-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }

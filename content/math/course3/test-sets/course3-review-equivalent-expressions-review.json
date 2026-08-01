@@ -1,0 +1,369 @@
+{
+  "testId": "course3-review-equivalent-expressions-review",
+  "conceptId": "concept-review-equivalent-expressions",
+  "type": "review",
+  "title": "Review Equivalent Expressions Review Test",
+  "description": "Reinforce the essential equivalent-expression skills used in linear equations.",
+  "questions": [
+    {
+      "id": "course3-review-equivalent-expressions-review-001",
+      "type": "multiple_choice",
+      "questionText": "Simplify 2x + 5x.",
+      "options": [
+        "7x",
+        "10x",
+        "7x²",
+        "3x"
+      ],
+      "correctAnswer": "7x",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Add the coefficients of like terms: 2 + 5 = 7."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-002",
+      "type": "multiple_choice",
+      "questionText": "Simplify 9a - 4a.",
+      "options": [
+        "5a",
+        "13a",
+        "5",
+        "5a²"
+      ],
+      "correctAnswer": "5a",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Both terms have the same variable part, so subtract the coefficients."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-003",
+      "type": "multiple_choice",
+      "questionText": "Use the distributive property: 2(x + 6).",
+      "options": [
+        "2x + 12",
+        "2x + 6",
+        "x + 12",
+        "8x"
+      ],
+      "correctAnswer": "2x + 12",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The 2 multiplies both x and 6."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-004",
+      "type": "multiple_choice",
+      "questionText": "Use the distributive property: 4(y - 3).",
+      "options": [
+        "4y - 12",
+        "4y - 3",
+        "y - 12",
+        "4y + 12"
+      ],
+      "correctAnswer": "4y - 12",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The 4 multiplies y and -3."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-005",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3m + 2 + m.",
+      "options": [
+        "4m + 2",
+        "3m + 3",
+        "4m + 3",
+        "6m"
+      ],
+      "correctAnswer": "4m + 2",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The m term is 1m, so 3m + m = 4m."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-006",
+      "type": "multiple_choice",
+      "questionText": "Which is equivalent to 5x + 10?",
+      "options": [
+        "5(x + 2)",
+        "5(x + 10)",
+        "10(x + 5)",
+        "x(5 + 10)"
+      ],
+      "correctAnswer": "5(x + 2)",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Distributing 5 through 5(x + 2) gives 5x + 10."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-007",
+      "type": "multiple_choice",
+      "questionText": "Simplify 6p - p.",
+      "options": [
+        "5p",
+        "6",
+        "7p",
+        "5p²"
+      ],
+      "correctAnswer": "5p",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 1p from 6p."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-008",
+      "type": "multiple_choice",
+      "questionText": "Which pair is equivalent?",
+      "options": [
+        "3(a + 4) and 3a + 12",
+        "3(a + 4) and 3a + 4",
+        "a + 3 and 3a",
+        "4a + 3a and 12a"
+      ],
+      "correctAnswer": "3(a + 4) and 3a + 12",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Distribution changes 3(a + 4) into 3a + 12."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-009",
+      "type": "multiple_choice",
+      "questionText": "Simplify 2x + 3 + 4x + 1.",
+      "options": [
+        "6x + 4",
+        "6x + 3",
+        "9x + 1",
+        "6x + 12"
+      ],
+      "correctAnswer": "6x + 4",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Combine variable terms and constants separately."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-010",
+      "type": "multiple_choice",
+      "questionText": "Simplify 5a - 2 + 3a + 9.",
+      "options": [
+        "8a + 7",
+        "8a - 11",
+        "2a + 7",
+        "8a + 11"
+      ],
+      "correctAnswer": "8a + 7",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "5a + 3a = 8a and -2 + 9 = 7."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-011",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3(2x + 5).",
+      "options": [
+        "6x + 15",
+        "6x + 5",
+        "5x + 15",
+        "6x + 8"
+      ],
+      "correctAnswer": "6x + 15",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Multiply each term inside by 3."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-012",
+      "type": "multiple_choice",
+      "questionText": "Simplify -2(y + 4).",
+      "options": [
+        "-2y - 8",
+        "-2y + 8",
+        "2y - 8",
+        "-2y + 4"
+      ],
+      "correctAnswer": "-2y - 8",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The negative coefficient multiplies both terms."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-013",
+      "type": "multiple_choice",
+      "questionText": "Simplify 4(x + 1) + 2x.",
+      "options": [
+        "6x + 4",
+        "6x + 1",
+        "4x + 6",
+        "8x"
+      ],
+      "correctAnswer": "6x + 4",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Distribute first, then combine like terms."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-014",
+      "type": "multiple_choice",
+      "questionText": "Simplify 7n - 3(n - 2).",
+      "options": [
+        "4n + 6",
+        "4n - 6",
+        "10n + 6",
+        "4n + 2"
+      ],
+      "correctAnswer": "4n + 6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Subtracting 3(n - 2) gives 7n - 3n + 6."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-015",
+      "type": "multiple_choice",
+      "questionText": "Factor 10x + 15.",
+      "options": [
+        "5(2x + 3)",
+        "5(2x + 15)",
+        "10(x + 15)",
+        "3(10x + 5)"
+      ],
+      "correctAnswer": "5(2x + 3)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The greatest common factor of 10 and 15 is 5."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-016",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 6x + 6y?",
+      "options": [
+        "6(x + y)",
+        "12xy",
+        "6xy",
+        "x(6 + y)"
+      ],
+      "correctAnswer": "6(x + y)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Both terms share a factor of 6."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-017",
+      "type": "multiple_choice",
+      "questionText": "A student writes 4(x + 1) = 4x + 1. What is the correction?",
+      "options": [
+        "4(x + 1) = 4x + 4",
+        "4(x + 1) = 5x",
+        "4(x + 1) = x + 4",
+        "4(x + 1) = 4x"
+      ],
+      "correctAnswer": "4(x + 1) = 4x + 4",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The 4 must multiply every term inside the parentheses."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-018",
+      "type": "multiple_choice",
+      "questionText": "Simplify 2(3x - 4) - x.",
+      "options": [
+        "5x - 8",
+        "5x + 8",
+        "6x - 4",
+        "7x - 8"
+      ],
+      "correctAnswer": "5x - 8",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Distribute to get 6x - 8, then subtract x."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-019",
+      "type": "multiple_choice",
+      "questionText": "Which expression is equivalent to 8x + 12?",
+      "options": [
+        "4(2x + 3)",
+        "2(4x + 12)",
+        "8(x + 12)",
+        "3(8x + 4)"
+      ],
+      "correctAnswer": "4(2x + 3)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Factoring out the greatest common factor 4 gives 4(2x + 3)."
+    },
+    {
+      "id": "course3-review-equivalent-expressions-review-020",
+      "type": "multiple_choice",
+      "questionText": "Which statement is true about equivalent expressions?",
+      "options": [
+        "They have the same value for every allowed value of the variable",
+        "They only match when x = 1",
+        "They must look identical",
+        "They cannot use parentheses"
+      ],
+      "correctAnswer": "They have the same value for every allowed value of the variable",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Equivalent expressions may look different, but they always produce the same value."
+    }
+  ]
+}
