@@ -223,10 +223,11 @@ The current learner-ready Unit 2 packs are:
 - Review Equivalent Expressions
 - Solve Multi-Step Equations
 - Equations with the Distributive Property
+- Equations with Variables on Both Sides
 
 The next Course 3 rollout work is:
 
-- Equations with Variables on Both Sides
+- Equations with Rational Coefficients
 
 ### Phase 3 — Lines, Slope, and Systems
 

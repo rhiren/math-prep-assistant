@@ -305,6 +305,7 @@ The current Course 3 learner-ready sequence is:
 - `Review Equivalent Expressions`
 - `Solve Multi-Step Equations`
 - `Equations with the Distributive Property`
+- `Equations with Variables on Both Sides`
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.

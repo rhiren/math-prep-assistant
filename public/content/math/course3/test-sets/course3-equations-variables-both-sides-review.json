@@ -1,0 +1,369 @@
+{
+  "testId": "course3-equations-variables-both-sides-review",
+  "conceptId": "concept-equations-variables-both-sides",
+  "type": "review",
+  "title": "Equations with Variables on Both Sides Review Test",
+  "description": "Review the essential steps for solving one-variable equations with variable terms on both sides.",
+  "questions": [
+    {
+      "id": "course3-equations-variables-both-sides-review-001",
+      "type": "multiple_choice",
+      "questionText": "Solve 3x + 2 = x + 10.",
+      "options": [
+        "x = 4",
+        "x = 6",
+        "x = 8",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract x to get 2x + 2 = 10."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-002",
+      "type": "multiple_choice",
+      "questionText": "Solve 4x + 1 = 2x + 9.",
+      "options": [
+        "x = 4",
+        "x = 5",
+        "x = 8",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 2x to get 2x + 1 = 9."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-003",
+      "type": "multiple_choice",
+      "questionText": "Solve 5x - 3 = 2x + 12.",
+      "options": [
+        "x = 5",
+        "x = 3",
+        "x = 15",
+        "x = 4"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 2x and add 3 to get 3x = 15."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-004",
+      "type": "multiple_choice",
+      "questionText": "Solve 6x + 4 = 3x + 19.",
+      "options": [
+        "x = 5",
+        "x = 7",
+        "x = 15",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 3x, then subtract 4."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-005",
+      "type": "multiple_choice",
+      "questionText": "Which first step helps solve 7x + 2 = 4x + 17?",
+      "options": [
+        "Subtract 4x from both sides",
+        "Add 4x to both sides",
+        "Divide by 7",
+        "Subtract 17 from only the right side"
+      ],
+      "correctAnswer": "Subtract 4x from both sides",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Move variable terms to one side first."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-006",
+      "type": "multiple_choice",
+      "questionText": "After subtracting x from 5x + 6 = x + 22, what remains?",
+      "options": [
+        "4x + 6 = 22",
+        "6x + 6 = 22",
+        "5x + 6 = 22",
+        "4x = 16"
+      ],
+      "correctAnswer": "4x + 6 = 22",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Subtract x from both sides."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-007",
+      "type": "multiple_choice",
+      "questionText": "Solve 8x - 1 = 5x + 14.",
+      "options": [
+        "x = 5",
+        "x = 3",
+        "x = 13",
+        "x = 7"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 5x and add 1 to get 3x = 15."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-008",
+      "type": "multiple_choice",
+      "questionText": "Solve 2x + 9 = x + 16.",
+      "options": [
+        "x = 7",
+        "x = 5",
+        "x = 25",
+        "x = 9"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract x to get x + 9 = 16."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-009",
+      "type": "multiple_choice",
+      "questionText": "Solve 9x + 5 = 3x + 41.",
+      "options": [
+        "x = 6",
+        "x = 8",
+        "x = 36",
+        "x = 4"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 3x and subtract 5 to get 6x = 36."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-010",
+      "type": "multiple_choice",
+      "questionText": "Solve 7x - 8 = 2x + 17.",
+      "options": [
+        "x = 5",
+        "x = 7",
+        "x = 25",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 2x and add 8 to get 5x = 25."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-011",
+      "type": "multiple_choice",
+      "questionText": "Solve 3x + 20 = 8x - 5.",
+      "options": [
+        "x = 5",
+        "x = -5",
+        "x = 3",
+        "x = 25"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Subtract 3x and add 5 to get 25 = 5x."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-012",
+      "type": "multiple_choice",
+      "questionText": "Solve 2x - 9 = 6x + 7.",
+      "options": [
+        "x = -4",
+        "x = 4",
+        "x = -2",
+        "x = 16"
+      ],
+      "correctAnswer": "x = -4",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Subtract 2x to get -9 = 4x + 7."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-013",
+      "type": "multiple_choice",
+      "questionText": "Solve 2(x + 3) = x + 14.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 4",
+        "x = 10"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Distribute to get 2x + 6 = x + 14."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-014",
+      "type": "multiple_choice",
+      "questionText": "Solve 3(x - 2) = x + 8.",
+      "options": [
+        "x = 7",
+        "x = 5",
+        "x = 3",
+        "x = 10"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "3x - 6 = x + 8, so 2x = 14."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-015",
+      "type": "multiple_choice",
+      "questionText": "Solve 4x - (x + 5) = 16.",
+      "options": [
+        "x = 7",
+        "x = 5",
+        "x = 3",
+        "x = 9"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "4x - x - 5 = 16, so 3x - 5 = 16."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-016",
+      "type": "multiple_choice",
+      "questionText": "Which value checks 4x + 9 = x + 24?",
+      "options": [
+        "x = 5",
+        "x = 7",
+        "x = 3",
+        "x = 9"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Both sides equal 29 when x = 5."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-017",
+      "type": "multiple_choice",
+      "questionText": "A plan costs 2x + 12 and another costs x + 20. When are they equal?",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 32",
+        "x = 10"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "Solve 2x + 12 = x + 20."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-018",
+      "type": "multiple_choice",
+      "questionText": "Solve -x + 10 = 2x - 5.",
+      "options": [
+        "x = 5",
+        "x = -5",
+        "x = 15",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Add x and add 5 to get 15 = 3x."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-019",
+      "type": "multiple_choice",
+      "questionText": "Solve 5(x + 1) = 2x + 20.",
+      "options": [
+        "x = 5",
+        "x = 7",
+        "x = 15",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "5x + 5 = 2x + 20, so 3x = 15."
+    },
+    {
+      "id": "course3-equations-variables-both-sides-review-020",
+      "type": "multiple_choice",
+      "questionText": "Which equation has solution x = 6?",
+      "options": [
+        "5x + 2 = 2x + 20",
+        "5x + 2 = 2x + 14",
+        "3x + 8 = x + 12",
+        "x + 6 = 2x + 1"
+      ],
+      "correctAnswer": "5x + 2 = 2x + 20",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Substitute 6: both sides equal 32."
+    }
+  ]
+}

@@ -225,7 +225,7 @@ describe("content repository", () => {
     }
   });
 
-  it("loads Course 3 with complete Unit 1 and the first three Unit 2 concept packs", async () => {
+  it("loads Course 3 with complete Unit 1 and the first four Unit 2 concept packs", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");
     const conceptPacks = [
@@ -334,6 +334,13 @@ describe("content repository", () => {
         coreTestId: "course3-equations-distributive-property-core",
         reviewTestId: "course3-equations-distributive-property-review",
       },
+      {
+        conceptId: "concept-equations-variables-both-sides",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# Equations with Variables on Both Sides",
+        coreTestId: "course3-equations-variables-both-sides-core",
+        reviewTestId: "course3-equations-variables-both-sides-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -344,7 +351,7 @@ describe("content repository", () => {
     expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
     expect(course?.units[0]?.concepts).toHaveLength(12);
     expect(course?.units[1]?.id).toBe("course3-unit-linear-equations");
-    expect(course?.units[1]?.concepts).toHaveLength(3);
+    expect(course?.units[1]?.concepts).toHaveLength(4);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);
