@@ -1,0 +1,369 @@
+{
+  "testId": "course3-solve-multi-step-equations-review",
+  "conceptId": "concept-solve-multi-step-equations",
+  "type": "review",
+  "title": "Solve Multi-Step Equations Review Test",
+  "description": "Review the essential steps for solving multi-step one-variable equations.",
+  "questions": [
+    {
+      "id": "course3-solve-multi-step-equations-review-001",
+      "type": "multiple_choice",
+      "questionText": "Solve 2x + 5 = 13.",
+      "options": [
+        "x = 4",
+        "x = 9",
+        "x = 6",
+        "x = 8"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 5, then divide by 2."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-002",
+      "type": "multiple_choice",
+      "questionText": "Solve 3x - 6 = 12.",
+      "options": [
+        "x = 6",
+        "x = 2",
+        "x = 18",
+        "x = 4"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Add 6 to get 3x = 18, then divide by 3."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-003",
+      "type": "multiple_choice",
+      "questionText": "Solve x/2 + 7 = 10.",
+      "options": [
+        "x = 6",
+        "x = 3",
+        "x = 17",
+        "x = 20"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 7 to get x/2 = 3, then multiply by 2."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-004",
+      "type": "multiple_choice",
+      "questionText": "Solve 4x + 1 = 17.",
+      "options": [
+        "x = 4",
+        "x = 16",
+        "x = 5",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 1, then divide by 4."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-005",
+      "type": "multiple_choice",
+      "questionText": "Solve 5x - 10 = 15.",
+      "options": [
+        "x = 5",
+        "x = 1",
+        "x = 25",
+        "x = 3"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Add 10 to get 5x = 25, then divide by 5."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-006",
+      "type": "multiple_choice",
+      "questionText": "Solve x/4 - 1 = 5.",
+      "options": [
+        "x = 24",
+        "x = 16",
+        "x = 6",
+        "x = 4"
+      ],
+      "correctAnswer": "x = 24",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Add 1 to get x/4 = 6, then multiply by 4."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-007",
+      "type": "multiple_choice",
+      "questionText": "Which first step is best for 6x - 8 = 28?",
+      "options": [
+        "Add 8 to both sides",
+        "Subtract 8 from both sides",
+        "Divide both sides by 6",
+        "Add 6 to both sides"
+      ],
+      "correctAnswer": "Add 8 to both sides",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Undo the subtraction by adding 8 to both sides."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-008",
+      "type": "multiple_choice",
+      "questionText": "Solve 9 + x/3 = 14.",
+      "options": [
+        "x = 15",
+        "x = 5",
+        "x = 23",
+        "x = 42"
+      ],
+      "correctAnswer": "x = 15",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 9 to get x/3 = 5, then multiply by 3."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-009",
+      "type": "multiple_choice",
+      "questionText": "Solve 2x + 3x + 2 = 27.",
+      "options": [
+        "x = 5",
+        "x = 25",
+        "x = 6",
+        "x = 7"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Combine like terms first: 5x + 2 = 27."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-010",
+      "type": "multiple_choice",
+      "questionText": "Solve 8x - 5x + 4 = 19.",
+      "options": [
+        "x = 5",
+        "x = 15",
+        "x = 3",
+        "x = 23"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Combine 8x - 5x to get 3x + 4 = 19."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-011",
+      "type": "multiple_choice",
+      "questionText": "Solve -3x + 2 = 20.",
+      "options": [
+        "x = -6",
+        "x = 6",
+        "x = -18",
+        "x = 22"
+      ],
+      "correctAnswer": "x = -6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 2 to get -3x = 18, then divide by -3."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-012",
+      "type": "multiple_choice",
+      "questionText": "Solve -2x - 7 = 9.",
+      "options": [
+        "x = -8",
+        "x = 8",
+        "x = -1",
+        "x = -16"
+      ],
+      "correctAnswer": "x = -8",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Add 7 to get -2x = 16, then divide by -2."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-013",
+      "type": "multiple_choice",
+      "questionText": "Solve 0.5x + 1 = 6.",
+      "options": [
+        "x = 10",
+        "x = 5",
+        "x = 14",
+        "x = 2.5"
+      ],
+      "correctAnswer": "x = 10",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract 1 to get 0.5x = 5, then divide by 0.5."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-014",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/5x - 1 = 5.",
+      "options": [
+        "x = 10",
+        "x = 6",
+        "x = 15",
+        "x = 4"
+      ],
+      "correctAnswer": "x = 10",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Add 1 to get 3/5x = 6, then multiply by 5/3."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-015",
+      "type": "multiple_choice",
+      "questionText": "A number times 6, then increased by 4, equals 34. What is the number?",
+      "options": [
+        "5",
+        "6",
+        "30",
+        "4"
+      ],
+      "correctAnswer": "5",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "Solve 6x + 4 = 34."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-016",
+      "type": "multiple_choice",
+      "questionText": "A subscription costs $9 plus $3 per month. The total is $36. How many months?",
+      "options": [
+        "9",
+        "12",
+        "27",
+        "6"
+      ],
+      "correctAnswer": "9",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "Solve 3m + 9 = 36."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-017",
+      "type": "multiple_choice",
+      "questionText": "Which value checks 7x - 2 = 40?",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 42",
+        "x = 5"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "7(6) - 2 = 42 - 2 = 40."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-018",
+      "type": "multiple_choice",
+      "questionText": "Solve 20 = 4x - 8.",
+      "options": [
+        "x = 7",
+        "x = 3",
+        "x = 28",
+        "x = 5"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Add 8 to both sides to get 28 = 4x, then divide by 4."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-019",
+      "type": "multiple_choice",
+      "questionText": "Solve 5x + 7 - 2x = 25.",
+      "options": [
+        "x = 6",
+        "x = 9",
+        "x = 18",
+        "x = 4"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "multi-step"
+      ],
+      "explanation": "Combine variable terms to get 3x + 7 = 25."
+    },
+    {
+      "id": "course3-solve-multi-step-equations-review-020",
+      "type": "multiple_choice",
+      "questionText": "Which equation has solution x = 8?",
+      "options": [
+        "2x + 3 = 19",
+        "2x + 3 = 11",
+        "3x - 8 = 8",
+        "x/2 + 8 = 8"
+      ],
+      "correctAnswer": "2x + 3 = 19",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Substitute 8: 2(8) + 3 = 19."
+    }
+  ]
+}

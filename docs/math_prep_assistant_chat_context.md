@@ -247,12 +247,13 @@ The twelve learner-ready Unit 1 concepts are:
 The learner-ready Unit 2 concepts are:
 
 1. Review Equivalent Expressions
+2. Solve Multi-Step Equations
 
 Course 3 currently contains:
 
-- 13 active concepts
-- 26 assessment files
-- 910 assessment questions
+- 14 active concepts
+- 28 assessment files
+- 980 assessment questions
 - 50 core questions per concept
 - 20 review questions per concept
 
@@ -297,7 +298,7 @@ No broader UI redesign is currently required for the next Course 3 unit.
 
 ### Current validation baseline
 
-For the current Course 3 Unit 1 working tree, the following passed:
+For the current Course 3 working tree, the following passed:
 
 - 18 Vitest files
 - 100 automated tests
@@ -310,7 +311,7 @@ For the current Course 3 Unit 1 working tree, the following passed:
 - browser verification of the Course 3 grid, concept page, tutorial, and
   assessment counts
 
-The most recent Course 3 audit found 910 questions and 910 unique IDs.
+The most recent Course 3 audit found 980 questions and 980 unique IDs.
 
 Existing non-blocking warnings include:
 
@@ -326,7 +327,7 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 The next Course 3 rollout task is Unit 2:
 
-`Solve Multi-Step Equations`
+`Equations with the Distributive Property`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,
@@ -362,8 +363,8 @@ These were explicitly left alone on purpose:
 
 Current useful follow-ups:
 
-- build `Solve Multi-Step Equations` as the next complete Course 3 concept
-  pack
+- build `Equations with the Distributive Property` as the next complete Course 3
+  concept pack
 - verify or run the GitHub Pages deployment after new `master` content commits
 - keep local launcher and distribution guidance aligned with `dist/` and
   `public/content`
@@ -381,8 +382,9 @@ multiple-choice scoring, student-friendly tutorials and practice, optional
 Firebase sync, multi-student profiles, subject-aware course navigation, and
 GitHub Pages support. Active content includes Math Course 2, Math Course 3, and
 Grade 6 Science. Course 3 is an accelerated Grade 7 placement into Grade 8
-instructional content and has twelve learner-ready Unit 1 concepts plus the
-first learner-ready Unit 2 concept, with 910 validated questions. Unit 1 is
-complete and Unit 2 has begun. The next pack is `Solve Multi-Step Equations`.
+instructional content and has twelve learner-ready Unit 1 concepts plus two
+learner-ready Unit 2 concepts, with 980 validated questions. Unit 1 is
+complete and Unit 2 has begun. The next pack is
+`Equations with the Distributive Property`.
 Preserve saved-progress compatibility, local-first
 behavior, the frozen domain model, and the phased manifest release discipline.

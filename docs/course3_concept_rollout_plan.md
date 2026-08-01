@@ -221,10 +221,11 @@ about equivalent equations instead of teaching only mechanical steps.
 The current learner-ready Unit 2 packs are:
 
 - Review Equivalent Expressions
+- Solve Multi-Step Equations
 
 The next Course 3 rollout work is:
 
-- Solve Multi-Step Equations
+- Equations with the Distributive Property
 
 ### Phase 3 — Lines, Slope, and Systems
 
