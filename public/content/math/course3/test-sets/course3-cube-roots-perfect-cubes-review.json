@@ -11,9 +11,9 @@
       "questionText": "What is 2³?",
       "options": [
         "8",
+        "9",
         "6",
-        "4",
-        "9"
+        "4"
       ],
       "correctAnswer": "8",
       "difficulty": "scaffold",
@@ -29,9 +29,9 @@
       "questionText": "What is ∛8?",
       "options": [
         "4",
-        "2",
         "-2",
-        "8"
+        "8",
+        "2"
       ],
       "correctAnswer": "2",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛64?",
       "options": [
-        "8",
-        "16",
         "2",
-        "4"
+        "4",
+        "8",
+        "16"
       ],
       "correctAnswer": "4",
       "difficulty": "scaffold",
@@ -101,9 +101,9 @@
       "questionText": "Which expression means 5 cubed?",
       "options": [
         "5 × 3",
-        "5 × 5 × 5",
         "5 + 5 + 5",
-        "3 × 3 × 3"
+        "3 × 3 × 3",
+        "5 × 5 × 5"
       ],
       "correctAnswer": "5 × 5 × 5",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "A cube has volume 125 in³. What is its edge length?",
       "options": [
-        "25 in",
         "15 in",
         "5 in",
-        "125 in"
+        "125 in",
+        "25 in"
       ],
       "correctAnswer": "5 in",
       "difficulty": "scaffold",
@@ -138,8 +138,8 @@
       "options": [
         "1",
         "8",
-        "64",
-        "40"
+        "40",
+        "64"
       ],
       "correctAnswer": "40",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛216?",
       "options": [
-        "6",
-        "18",
         "36",
-        "72"
+        "72",
+        "18",
+        "6"
       ],
       "correctAnswer": "6",
       "difficulty": "standard",
@@ -174,8 +174,8 @@
       "options": [
         "3 and 4",
         "4 and 5",
-        "5 and 6",
-        "9 and 10"
+        "9 and 10",
+        "5 and 6"
       ],
       "correctAnswer": "4 and 5",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Solve x³ = 512.",
       "options": [
+        "x = 16",
         "x = 8 or x = -8",
         "x = 64",
-        "x = 8",
-        "x = 16"
+        "x = 8"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(8/27)?",
       "options": [
-        "8/3",
+        "2/3",
         "2/27",
         "3/2",
-        "2/3"
+        "8/3"
       ],
       "correctAnswer": "2/3",
       "difficulty": "standard",
@@ -245,8 +245,8 @@
       "questionText": "Which comparison is true?",
       "options": [
         "∛65 < 4",
-        "∛65 > 4",
         "∛65 = 4",
+        "∛65 > 4",
         "∛65 is not real"
       ],
       "correctAnswer": "∛65 > 4",
@@ -263,9 +263,9 @@
       "questionText": "A cube has edge length 6 cm. What is its volume?",
       "options": [
         "36 cm³",
-        "18 cm³",
         "216 cm³",
-        "108 cm³"
+        "108 cm³",
+        "18 cm³"
       ],
       "correctAnswer": "216 cm³",
       "difficulty": "standard",
@@ -280,9 +280,9 @@
       "type": "multiple_choice",
       "questionText": "Why is ∛(-64) real?",
       "options": [
-        "4³ = -64",
         "Every square root is real",
         "Negative signs disappear when cubed",
+        "4³ = -64",
         "(-4)³ = -64"
       ],
       "correctAnswer": "(-4)³ = -64",
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "Which integer is closest to ∛210?",
       "options": [
-        "6",
-        "5",
         "7",
-        "4"
+        "4",
+        "6",
+        "5"
       ],
       "correctAnswer": "6",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "If ∛n = 7, what is n?",
       "options": [
-        "49",
         "343",
         "21",
-        "7"
+        "7",
+        "49"
       ],
       "correctAnswer": "343",
       "difficulty": "standard",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement is true?",
       "options": [
-        "∛(x³) = |x| for every real x",
         "Every cube root is positive",
+        "Negative numbers have no real cube roots",
         "∛(x³) = x for every real x",
-        "Negative numbers have no real cube roots"
+        "∛(x³) = |x| for every real x"
       ],
       "correctAnswer": "∛(x³) = x for every real x",
       "difficulty": "standard",
@@ -353,9 +353,9 @@
       "questionText": "A student writes ∛343 = 49 because 343 ÷ 7 = 49. What is the correction?",
       "options": [
         "∛343 = 3 because it is a cube root",
+        "∛343 = 7 because 7 × 7 × 7 = 343",
         "∛343 = 49 because division is correct",
-        "∛343 is not an integer",
-        "∛343 = 7 because 7 × 7 × 7 = 343"
+        "∛343 is not an integer"
       ],
       "correctAnswer": "∛343 = 7 because 7 × 7 × 7 = 343",
       "difficulty": "standard",

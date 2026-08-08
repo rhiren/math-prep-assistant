@@ -11,9 +11,9 @@
       "questionText": "A proportional relationship includes the point (2, 4) and the origin. Which equation represents its graph?",
       "options": [
         "y = 2x",
+        "y = 2x + 2",
         "y = 4x",
-        "y = 1/2x",
-        "y = 2x + 2"
+        "y = 1/2x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "scaffold",
@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, 9) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 9x",
-        "y = 3x",
         "y = 1/3x",
-        "y = 3x + 3"
+        "y = 3x",
+        "y = 3x + 3",
+        "y = 9x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "scaffold",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 2) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 4x",
-        "y = 2x",
         "y = 1/2x",
-        "y = 1/2x + 4"
+        "y = 1/2x + 4",
+        "y = 2x",
+        "y = 4x"
       ],
       "correctAnswer": "y = 1/2x",
       "difficulty": "scaffold",
@@ -72,8 +72,8 @@
       "options": [
         "y = 5x",
         "y = 10/3x",
-        "y = 3/2x",
-        "y = 2/3x"
+        "y = 2/3x",
+        "y = 3/2x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "scaffold",
@@ -90,10 +90,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, 9/2) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 3/4x",
         "y = 6x",
         "y = 9/2x",
-        "y = 4/3x"
+        "y = 4/3x",
+        "y = 3/4x"
       ],
       "correctAnswer": "y = 3/4x",
       "difficulty": "scaffold",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, 5) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 2x",
         "y = 5/2x",
-        "y = 5x",
-        "y = 2/5x"
+        "y = 2/5x",
+        "y = 2x",
+        "y = 5x"
       ],
       "correctAnswer": "y = 5/2x",
       "difficulty": "scaffold",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, -6) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 3x",
-        "y = -6x",
         "y = -2x",
-        "y = -1/2x"
+        "y = -1/2x",
+        "y = -6x",
+        "y = 3x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "scaffold",
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, -6) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 4x",
-        "y = -6x",
         "y = -2/3x",
-        "y = -3/2x"
+        "y = 4x",
+        "y = -3/2x",
+        "y = -6x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, 4) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 4/5x",
-        "y = 5x",
         "y = 4x",
-        "y = 5/4x"
+        "y = 4/5x",
+        "y = 5/4x",
+        "y = 5x"
       ],
       "correctAnswer": "y = 4/5x",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, 10) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 6x",
         "y = 5/3x",
-        "y = 10x",
-        "y = 3/5x"
+        "y = 3/5x",
+        "y = 6x",
+        "y = 10x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "scaffold",
@@ -210,8 +210,8 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, -1) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 2x",
         "y = -1x",
+        "y = 2x",
         "y = -1/2x",
         "y = -2x"
       ],
@@ -230,10 +230,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, 21/4) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 3x",
-        "y = 21/4x",
         "y = 4/7x",
-        "y = 7/4x"
+        "y = 21/4x",
+        "y = 7/4x",
+        "y = 3x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "standard",
@@ -250,10 +250,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 0) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 0",
+        "y = x",
         "y = 4x",
         "y = -x",
-        "y = x"
+        "y = 0"
       ],
       "correctAnswer": "y = 0",
       "difficulty": "standard",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, 6) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 5/6x",
         "y = 5x",
         "y = 6/5x",
-        "y = 6x",
-        "y = 5/6x"
+        "y = 6x"
       ],
       "correctAnswer": "y = 6/5x",
       "difficulty": "standard",
@@ -290,10 +290,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, 12) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 6x",
-        "y = 12x",
+        "y = 1/2x",
         "y = 2x",
-        "y = 1/2x"
+        "y = 6x",
+        "y = 12x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "standard",
@@ -310,10 +310,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, 6) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 3x",
         "y = 2x",
         "y = 6x",
-        "y = 1/3x",
-        "y = 3x"
+        "y = 1/3x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "standard",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, 3/2) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 1/2x",
-        "y = 3x",
+        "y = 2x",
         "y = 3/2x",
-        "y = 2x"
+        "y = 1/2x",
+        "y = 3x"
       ],
       "correctAnswer": "y = 1/2x",
       "difficulty": "standard",
@@ -350,10 +350,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 8/3) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 4x",
-        "y = 2/3x",
+        "y = 3/2x",
         "y = 8/3x",
-        "y = 3/2x"
+        "y = 4x",
+        "y = 2/3x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "standard",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, 15/4) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 5x",
-        "y = 15/4x",
+        "y = 4/3x",
         "y = 3/4x",
-        "y = 4/3x"
+        "y = 5x",
+        "y = 15/4x"
       ],
       "correctAnswer": "y = 3/4x",
       "difficulty": "standard",
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, 15) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 6x",
-        "y = 15x",
         "y = 2/5x",
-        "y = 5/2x"
+        "y = 5/2x",
+        "y = 6x",
+        "y = 15x"
       ],
       "correctAnswer": "y = 5/2x",
       "difficulty": "standard",
@@ -410,10 +410,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, -4) and the origin. Which equation represents its graph?",
       "options": [
-        "y = -2x",
-        "y = 2x",
         "y = -4x",
-        "y = -1/2x"
+        "y = -1/2x",
+        "y = 2x",
+        "y = -2x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "standard",
@@ -430,10 +430,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, -9/2) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 3x",
-        "y = -3/2x",
+        "y = -2/3x",
         "y = -9/2x",
-        "y = -2/3x"
+        "y = 3x",
+        "y = -3/2x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "standard",
@@ -450,9 +450,9 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 16/5) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 4/5x",
         "y = 4x",
         "y = 16/5x",
-        "y = 4/5x",
         "y = 5/4x"
       ],
       "correctAnswer": "y = 4/5x",
@@ -471,9 +471,9 @@
       "questionText": "A proportional relationship includes the point (5, 25/3) and the origin. Which equation represents its graph?",
       "options": [
         "y = 5x",
-        "y = 25/3x",
         "y = 3/5x",
-        "y = 5/3x"
+        "y = 5/3x",
+        "y = 25/3x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "standard",
@@ -490,10 +490,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, -3) and the origin. Which equation represents its graph?",
       "options": [
-        "y = -1/2x",
+        "y = -2x",
         "y = 6x",
         "y = -3x",
-        "y = -2x"
+        "y = -1/2x"
       ],
       "correctAnswer": "y = -1/2x",
       "difficulty": "standard",
@@ -510,10 +510,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, 7/2) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 2x",
         "y = 7/4x",
         "y = 7/2x",
-        "y = 4/7x"
+        "y = 4/7x",
+        "y = 2x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "standard",
@@ -530,9 +530,9 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, 0) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 0",
         "y = 3x",
         "y = -x",
-        "y = 0",
         "y = x"
       ],
       "correctAnswer": "y = 0",
@@ -570,10 +570,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, 10) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 2x",
+        "y = 1/2x",
         "y = 5x",
         "y = 10x",
-        "y = 1/2x"
+        "y = 2x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "standard",
@@ -590,10 +590,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, 18) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 6x",
-        "y = 3x",
         "y = 18x",
-        "y = 1/3x"
+        "y = 3x",
+        "y = 1/3x",
+        "y = 6x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "standard",
@@ -610,10 +610,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, 1) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 1/2x + 2",
         "y = 2x",
         "y = 1x",
-        "y = 1/2x",
-        "y = 1/2x + 2"
+        "y = 1/2x"
       ],
       "correctAnswer": "y = 1/2x",
       "difficulty": "standard",
@@ -630,10 +630,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, 2) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 3x",
-        "y = 2x",
         "y = 3/2x",
-        "y = 2/3x"
+        "y = 3x",
+        "y = 2/3x",
+        "y = 2x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "standard",
@@ -650,8 +650,8 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 3) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 3/4x",
         "y = 4x",
+        "y = 3/4x",
         "y = 3x",
         "y = 4/3x"
       ],
@@ -670,10 +670,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, 25/2) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 2/5x",
         "y = 5x",
         "y = 5/2x",
-        "y = 25/2x",
-        "y = 2/5x"
+        "y = 25/2x"
       ],
       "correctAnswer": "y = 5/2x",
       "difficulty": "standard",
@@ -690,10 +690,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, -12) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 6x",
-        "y = -12x",
         "y = -2x",
-        "y = -1/2x"
+        "y = -1/2x",
+        "y = 6x",
+        "y = -12x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "standard",
@@ -711,9 +711,9 @@
       "questionText": "A proportional relationship includes the point (2, -3) and the origin. Which equation represents its graph?",
       "options": [
         "y = 2x",
+        "y = -3/2x",
         "y = -3x",
-        "y = -2/3x",
-        "y = -3/2x"
+        "y = -2/3x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "challenge",
@@ -750,10 +750,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 20/3) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 4x",
+        "y = 3/5x",
         "y = 5/3x",
-        "y = 20/3x",
-        "y = 3/5x"
+        "y = 4x",
+        "y = 20/3x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "challenge",
@@ -770,9 +770,9 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, -5/2) and the origin. Which equation represents its graph?",
       "options": [
+        "y = -1/2x",
         "y = 5x",
         "y = -5/2x",
-        "y = -1/2x",
         "y = -2x"
       ],
       "correctAnswer": "y = -1/2x",
@@ -791,9 +791,9 @@
       "questionText": "A proportional relationship includes the point (6, 21/2) and the origin. Which equation represents its graph?",
       "options": [
         "y = 6x",
+        "y = 7/4x",
         "y = 21/2x",
-        "y = 4/7x",
-        "y = 7/4x"
+        "y = 4/7x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "challenge",
@@ -810,9 +810,9 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, 0) and the origin. Which equation represents its graph?",
       "options": [
+        "y = -x",
         "y = 0",
         "y = 2x",
-        "y = -x",
         "y = x"
       ],
       "correctAnswer": "y = 0",
@@ -830,10 +830,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (3, 18/5) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 5/6x",
         "y = 3x",
         "y = 6/5x",
-        "y = 18/5x",
-        "y = 5/6x"
+        "y = 18/5x"
       ],
       "correctAnswer": "y = 6/5x",
       "difficulty": "challenge",
@@ -850,10 +850,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 8) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 4x",
+        "y = 1/2x",
         "y = 8x",
         "y = 2x",
-        "y = 1/2x"
+        "y = 4x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "challenge",
@@ -870,10 +870,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, 15) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 3x",
         "y = 5x",
         "y = 15x",
-        "y = 1/3x",
-        "y = 3x"
+        "y = 1/3x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "challenge",
@@ -890,10 +890,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, 3) and the origin. Which equation represents its graph?",
       "options": [
+        "y = 2x",
         "y = 1/2x",
         "y = 6x",
-        "y = 3x",
-        "y = 2x"
+        "y = 3x"
       ],
       "correctAnswer": "y = 1/2x",
       "difficulty": "challenge",
@@ -910,10 +910,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (2, 4/3) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 2x",
+        "y = 3/2x",
         "y = 2/3x",
         "y = 4/3x",
-        "y = 3/2x"
+        "y = 2x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "challenge",
@@ -932,8 +932,8 @@
       "options": [
         "y = 3x",
         "y = 9/4x",
-        "y = 3/4x",
-        "y = 4/3x"
+        "y = 4/3x",
+        "y = 3/4x"
       ],
       "correctAnswer": "y = 3/4x",
       "difficulty": "challenge",
@@ -950,9 +950,9 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (4, 10) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 4x",
-        "y = 10x",
         "y = 2/5x",
+        "y = 10x",
+        "y = 4x",
         "y = 5/2x"
       ],
       "correctAnswer": "y = 5/2x",
@@ -970,10 +970,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (5, -10) and the origin. Which equation represents its graph?",
       "options": [
-        "y = -2x",
-        "y = 5x",
+        "y = -1/2x",
         "y = -10x",
-        "y = -1/2x"
+        "y = -2x",
+        "y = 5x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "challenge",
@@ -990,10 +990,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the point (6, -9) and the origin. Which equation represents its graph?",
       "options": [
-        "y = 6x",
-        "y = -3/2x",
+        "y = -2/3x",
         "y = -9x",
-        "y = -2/3x"
+        "y = 6x",
+        "y = -3/2x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "challenge",

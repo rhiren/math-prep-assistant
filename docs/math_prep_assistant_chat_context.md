@@ -319,12 +319,14 @@ No broader UI redesign is currently required for the next Course 3 unit.
 For the current Course 3 working tree, the following passed:
 
 - 18 Vitest files
-- 101 automated tests
+- 103 automated tests
 - `npm run build`
 - Course 3 JSON parsing
 - globally unique Course 3 question IDs
 - exact authored multiple-choice answer identity
 - balanced Course 3 multiple-choice correct-answer positions
+- unpredictable Course 3 multiple-choice correct-answer position sequencing
+- Course 3 template-variety quality gate for new banks
 - unique option checks
 - known-correct mathematical spot checks
 - browser verification of the Course 3 grid, concept page, tutorial, and
@@ -334,8 +336,18 @@ The most recent Course 3 audit found 2030 questions and 2030 unique IDs.
 An answer-position audit found that the old Course 3 banks had 1119 of 1120
 correct answers in option A. Course 3 answer choices were rebalanced so core
 banks use a 13/13/12/12 A/B/C/D split and review banks use a 5/5/5/5 split.
-The content repository test suite now includes a Course 3 answer-position
-regression guard.
+A later learner-feedback audit found that balanced banks still followed an
+A/B/C/D/A/B/C/D answer-position sequence. Course 3 answer choices were
+reshuffled again while preserving authored correct-answer values, explanations,
+question IDs, and global answer-position balance. The content repository test
+suite now includes Course 3 answer-position balance, answer-sequence, and
+template-variety regression guards.
+
+Several already-published Course 3 banks remain explicit template-variety debt
+because they rely too heavily on one normalized question form. That debt is
+tracked in `COURSE3_TEMPLATE_VARIETY_DEBT_TEST_SET_IDS` inside
+`src/test/contentRepository.test.ts`. Future Course 3 banks should pass the
+template-variety gate instead of expanding that debt list.
 
 Existing non-blocking warnings include:
 
@@ -357,7 +369,8 @@ Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,
 50-question core bank, 20-question review bank, validation, then manifest
 unlock. Keep the answer-position balance guard green for every new Course 3
-test set.
+test set, and keep the answer-sequence and template-variety guards green
+without adding new quality-debt exceptions.
 
 ### Independent-session startup checklist
 

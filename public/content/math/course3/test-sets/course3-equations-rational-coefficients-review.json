@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 1/2x + 3 = 1/4x + 9/2.",
       "options": [
-        "x = 6",
         "x = 7",
-        "x = 5",
-        "x = -6"
+        "x = -6",
+        "x = 6",
+        "x = 5"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "scaffold",
@@ -29,10 +29,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2/3x + 5/2 = -2/5x + 331/30.",
       "options": [
-        "x = 9",
         "x = 8",
+        "x = -8",
         "x = 7",
-        "x = -8"
+        "x = 9"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "scaffold",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3/4x + 1/4 = 5/12x - 7/12.",
       "options": [
-        "x = -3/2",
         "x = -7/2",
-        "x = -5/2",
-        "x = 5/2"
+        "x = 5/2",
+        "x = -3/2",
+        "x = -5/2"
       ],
       "correctAnswer": "x = -5/2",
       "difficulty": "scaffold",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5/6x - 5 = -1/6x - 8.",
       "options": [
-        "x = -2",
         "x = -4",
-        "x = 3",
-        "x = -3"
+        "x = -2",
+        "x = -3",
+        "x = 3"
       ],
       "correctAnswer": "x = -3",
       "difficulty": "scaffold",
@@ -86,10 +86,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -1/3x + 3 = 3/10x + 41/20.",
       "options": [
+        "x = -3/2",
         "x = 3/2",
         "x = 5/2",
-        "x = 1/2",
-        "x = -3/2"
+        "x = 1/2"
       ],
       "correctAnswer": "x = 3/2",
       "difficulty": "scaffold",
@@ -107,8 +107,8 @@
       "options": [
         "x = 5",
         "x = 4",
-        "x = 3",
-        "x = -4"
+        "x = -4",
+        "x = 3"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -124,10 +124,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -3/2x + 1/4 = 1/3x - 151/12.",
       "options": [
-        "x = 8",
-        "x = 6",
         "x = 7",
-        "x = -7"
+        "x = -7",
+        "x = 6",
+        "x = 8"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -143,8 +143,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 7/10x - 5 = -1/2x + 1/5.",
       "options": [
-        "x = 16/3",
         "x = 10/3",
+        "x = 16/3",
         "x = -13/3",
         "x = 13/3"
       ],
@@ -162,9 +162,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 1/2x + 3 = 1/4x + 17/4.",
       "options": [
-        "x = 5",
-        "x = 6",
         "x = 4",
+        "x = 6",
+        "x = 5",
         "x = -5"
       ],
       "correctAnswer": "x = 5",
@@ -182,9 +182,9 @@
       "questionText": "Solve 2/3x + 5/2 = -2/5x + 251/30.",
       "options": [
         "x = 13/2",
+        "x = -11/2",
         "x = 11/2",
-        "x = 9/2",
-        "x = -11/2"
+        "x = 9/2"
       ],
       "correctAnswer": "x = 11/2",
       "difficulty": "standard",
@@ -201,9 +201,9 @@
       "questionText": "Solve 3/4x + 1/4 = 5/12x + 13/4.",
       "options": [
         "x = 10",
-        "x = 8",
         "x = 9",
-        "x = -9"
+        "x = -9",
+        "x = 8"
       ],
       "correctAnswer": "x = 9",
       "difficulty": "standard",
@@ -219,8 +219,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 5/6x - 5 = -1/6x - 9.",
       "options": [
-        "x = -3",
         "x = -5",
+        "x = -3",
         "x = 4",
         "x = -4"
       ],
@@ -238,10 +238,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -1/3x + 3 = 3/10x - 4/5.",
       "options": [
-        "x = 6",
-        "x = 7",
         "x = 5",
-        "x = -6"
+        "x = 7",
+        "x = -6",
+        "x = 6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4/5x + 5/2 = 1/5x + 73/10.",
       "options": [
-        "x = 9",
         "x = 8",
-        "x = 7",
-        "x = -8"
+        "x = 9",
+        "x = -8",
+        "x = 7"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Solve -3/2x + 1/4 = 1/3x + 29/6.",
       "options": [
-        "x = -3/2",
-        "x = -7/2",
         "x = -5/2",
+        "x = -7/2",
+        "x = -3/2",
         "x = 5/2"
       ],
       "correctAnswer": "x = -5/2",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 7/10x - 5 = -1/2x - 43/5.",
       "options": [
-        "x = -2",
         "x = -4",
-        "x = 3",
-        "x = -3"
+        "x = -2",
+        "x = -3",
+        "x = 3"
       ],
       "correctAnswer": "x = -3",
       "difficulty": "standard",
@@ -315,9 +315,9 @@
       "questionText": "Solve 1/2x + 3 = 1/4x + 27/8.",
       "options": [
         "x = 3/2",
-        "x = 5/2",
+        "x = -3/2",
         "x = 1/2",
-        "x = -3/2"
+        "x = 5/2"
       ],
       "correctAnswer": "x = 3/2",
       "difficulty": "standard",
@@ -333,9 +333,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2/3x + 5/2 = -2/5x + 203/30.",
       "options": [
-        "x = 5",
-        "x = 4",
         "x = 3",
+        "x = 4",
+        "x = 5",
         "x = -4"
       ],
       "correctAnswer": "x = 4",
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 3/4x + 1/4 = 5/12x + 31/12.",
       "options": [
-        "x = 8",
         "x = 6",
         "x = 7",
+        "x = 8",
         "x = -7"
       ],
       "correctAnswer": "x = 7",
@@ -371,8 +371,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 5/6x - 5 = -1/6x - 2/3.",
       "options": [
-        "x = 16/3",
         "x = 10/3",
+        "x = 16/3",
         "x = -13/3",
         "x = 13/3"
       ],

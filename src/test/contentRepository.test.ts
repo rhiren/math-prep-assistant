@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import type { CourseManifestDocument, QuestionBankDocument } from "../domain/models";
+import type { CourseManifestDocument, Question, QuestionBankDocument } from "../domain/models";
 import {
   buildContentIndex,
   hasConsistentMultipleChoiceScoring,
@@ -8,6 +8,92 @@ import {
   hasValidMultipleChoiceChoices,
   validateManifest,
 } from "../services/contentRepository";
+
+const COURSE3_TEMPLATE_VARIETY_DEBT_TEST_SET_IDS = new Set([
+  "course3-compare-order-real-numbers-core",
+  "course3-compare-order-real-numbers-review",
+  "course3-compare-rates-of-change-core",
+  "course3-compare-rates-of-change-review",
+  "course3-equations-distributive-property-review",
+  "course3-equations-rational-coefficients-core",
+  "course3-equations-rational-coefficients-review",
+  "course3-equations-solution-types-core",
+  "course3-equations-solution-types-review",
+  "course3-equations-y-equals-mx-core",
+  "course3-equations-y-equals-mx-review",
+  "course3-find-slope-from-graphs-core",
+  "course3-find-slope-from-graphs-review",
+  "course3-find-slope-tables-points-core",
+  "course3-find-slope-tables-points-review",
+  "course3-proportional-relationships-as-lines-core",
+  "course3-proportional-relationships-as-lines-review",
+  "course3-similar-triangles-constant-slope-core",
+  "course3-similar-triangles-constant-slope-review",
+  "course3-understand-slope-rate-change-core",
+  "course3-understand-slope-rate-change-review",
+  "course3-unit-2-mixed-review-review",
+]);
+
+function getCorrectAnswerIndex(question: Question) {
+  return question.choices?.findIndex((choice) => choice.value === question.correctAnswer) ?? -1;
+}
+
+function getLongestSequentialAnswerCycle(answerIndexes: number[]) {
+  let longest = 0;
+
+  for (let start = 0; start < answerIndexes.length; start += 1) {
+    let length = 1;
+
+    for (let index = start + 1; index < answerIndexes.length; index += 1) {
+      if (answerIndexes[index] !== ((answerIndexes[index - 1] ?? -1) + 1) % 4) {
+        break;
+      }
+
+      length += 1;
+    }
+
+    longest = Math.max(longest, length);
+  }
+
+  return longest;
+}
+
+function getLongestSameAnswerRun(answerIndexes: number[]) {
+  let longest = 0;
+  let current = 0;
+  let previous = -1;
+
+  for (const answerIndex of answerIndexes) {
+    current = answerIndex === previous ? current + 1 : 1;
+    previous = answerIndex;
+    longest = Math.max(longest, current);
+  }
+
+  return longest;
+}
+
+function normalizeQuestionTemplate(prompt: string) {
+  return prompt
+    .replace(/-?\d+(?:\/\d+)?(?:\.\d+)?/g, "#")
+    .replace(/\([^)]*\)/g, "(#)")
+    .replace(/\b[A-Z]\b/g, "X")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getTemplateStats(questions: Question[]) {
+  const templates = new Map<string, number>();
+
+  for (const question of questions) {
+    const template = normalizeQuestionTemplate(question.prompt);
+    templates.set(template, (templates.get(template) ?? 0) + 1);
+  }
+
+  return {
+    uniqueTemplateCount: templates.size,
+    largestTemplateCount: Math.max(...templates.values()),
+  };
+}
 
 describe("content repository", () => {
   it("builds O(1) question lookup access for loaded content", async () => {
@@ -517,6 +603,87 @@ describe("content repository", () => {
           expect(Math.min(...counts)).toBeGreaterThanOrEqual(12);
         } else if (total === 20) {
           expect(counts).toEqual([5, 5, 5, 5]);
+        }
+      }
+    }
+  });
+
+  it("keeps Course 3 multiple-choice answer positions unpredictable within each test set", async () => {
+    const repository = await createDefaultContentRepository();
+    const course = await repository.getCourse("course-3");
+    const concepts = course?.units.flatMap((unit) => unit.concepts) ?? [];
+
+    for (const concept of concepts) {
+      const testSets = await repository.getTestSetsForConcept(concept.id);
+
+      for (const testSet of testSets) {
+        const questions = await repository.getQuestionsForTestSet(testSet.id);
+        const answerIndexes = questions
+          .filter((question) => question.questionType === "multiple_choice")
+          .map(getCorrectAnswerIndex);
+
+        expect(answerIndexes, `${testSet.id} has invalid correct-answer options`).not.toContain(-1);
+        expect(
+          getLongestSequentialAnswerCycle(answerIndexes),
+          `${testSet.id} has a predictable A/B/C/D answer cycle`,
+        ).toBeLessThanOrEqual(3);
+        expect(
+          getLongestSameAnswerRun(answerIndexes),
+          `${testSet.id} repeats the same answer position too many times in a row`,
+        ).toBeLessThanOrEqual(2);
+
+        for (let start = 0; start <= answerIndexes.length - 8; start += 1) {
+          const windowCounts = [0, 0, 0, 0];
+
+          for (const answerIndex of answerIndexes.slice(start, start + 8)) {
+            windowCounts[answerIndex] += 1;
+          }
+
+          expect(
+            Math.max(...windowCounts),
+            `${testSet.id} overuses one answer position in questions ${start + 1}-${start + 8}`,
+          ).toBeLessThanOrEqual(4);
+        }
+      }
+    }
+  });
+
+  it("blocks new Course 3 banks with overly repetitive question templates", async () => {
+    const repository = await createDefaultContentRepository();
+    const course = await repository.getCourse("course-3");
+    const concepts = course?.units.flatMap((unit) => unit.concepts) ?? [];
+
+    for (const concept of concepts) {
+      const testSets = await repository.getTestSetsForConcept(concept.id);
+
+      for (const testSet of testSets) {
+        if (COURSE3_TEMPLATE_VARIETY_DEBT_TEST_SET_IDS.has(testSet.id)) {
+          continue;
+        }
+
+        const questions = await repository.getQuestionsForTestSet(testSet.id);
+        const { uniqueTemplateCount, largestTemplateCount } = getTemplateStats(questions);
+        const requiredTemplateCount = questions.length >= 50 ? 8 : 5;
+        const maxTemplateShare = questions.length >= 50 ? 0.35 : 0.45;
+
+        expect(
+          uniqueTemplateCount,
+          `${testSet.id} needs more question-form variety`,
+        ).toBeGreaterThanOrEqual(requiredTemplateCount);
+        expect(
+          largestTemplateCount / questions.length,
+          `${testSet.id} repeats one question form too often`,
+        ).toBeLessThanOrEqual(maxTemplateShare);
+
+        const challengeQuestions = questions.filter(
+          (question) => question.difficulty === "challenge",
+        );
+
+        if (challengeQuestions.length > 0) {
+          expect(
+            getTemplateStats(challengeQuestions).uniqueTemplateCount,
+            `${testSet.id} challenge questions need varied reasoning forms`,
+          ).toBeGreaterThanOrEqual(3);
         }
       }
     }

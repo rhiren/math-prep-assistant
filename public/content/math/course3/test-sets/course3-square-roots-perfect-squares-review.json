@@ -11,8 +11,8 @@
       "questionText": "What is 6²?",
       "options": [
         "36",
-        "12",
         "18",
+        "12",
         "30"
       ],
       "correctAnswer": "36",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "What is √25?",
       "options": [
-        "-5",
-        "5",
         "12.5",
-        "10"
+        "10",
+        "-5",
+        "5"
       ],
       "correctAnswer": "5",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is a perfect square?",
       "options": [
-        "90",
+        "120",
         "110",
         "100",
-        "120"
+        "90"
       ],
       "correctAnswer": "100",
       "difficulty": "scaffold",
@@ -65,8 +65,8 @@
       "questionText": "What is √64?",
       "options": [
         "6",
-        "16",
         "32",
+        "16",
         "8"
       ],
       "correctAnswer": "8",
@@ -84,8 +84,8 @@
       "options": [
         "1",
         "0",
-        "-1",
-        "Undefined"
+        "Undefined",
+        "-1"
       ],
       "correctAnswer": "1",
       "difficulty": "scaffold",
@@ -100,9 +100,9 @@
       "type": "multiple_choice",
       "questionText": "What is -√81?",
       "options": [
+        "-40.5",
         "9",
         "-9",
-        "-40.5",
         "Not real"
       ],
       "correctAnswer": "-9",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 49 ft². What is its side length?",
       "options": [
-        "14 ft",
-        "24.5 ft",
         "7 ft",
-        "49 ft"
+        "24.5 ft",
+        "49 ft",
+        "14 ft"
       ],
       "correctAnswer": "7 ft",
       "difficulty": "scaffold",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Which is not a perfect square?",
       "options": [
-        "16",
-        "25",
         "36",
-        "40"
+        "25",
+        "40",
+        "16"
       ],
       "correctAnswer": "40",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "What is √256?",
       "options": [
-        "16",
         "14",
-        "18",
-        "128"
+        "16",
+        "128",
+        "18"
       ],
       "correctAnswer": "16",
       "difficulty": "standard",
@@ -174,8 +174,8 @@
       "options": [
         "6 and 7",
         "7 and 8",
-        "8 and 9",
-        "5 and 6"
+        "5 and 6",
+        "8 and 9"
       ],
       "correctAnswer": "7 and 8",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Solve x² = 36.",
       "options": [
-        "x = 6 only",
         "x = 18 or x = -18",
-        "x = 6 or x = -6",
-        "x = 3 or x = -3"
+        "x = 3 or x = -3",
+        "x = 6 only",
+        "x = 6 or x = -6"
       ],
       "correctAnswer": "x = 6 or x = -6",
       "difficulty": "standard",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "What is (-9)²?",
       "options": [
-        "-81",
         "18",
-        "-18",
-        "81"
+        "81",
+        "-81",
+        "-18"
       ],
       "correctAnswer": "81",
       "difficulty": "standard",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "What is √(36/49)?",
       "options": [
-        "6/7",
         "36/7",
         "6/49",
-        "7/6"
+        "7/6",
+        "6/7"
       ],
       "correctAnswer": "6/7",
       "difficulty": "standard",
@@ -244,10 +244,10 @@
       "type": "multiple_choice",
       "questionText": "What is √0.49?",
       "options": [
-        "0.49",
-        "0.7",
         "0.07",
-        "7"
+        "0.7",
+        "7",
+        "0.49"
       ],
       "correctAnswer": "0.7",
       "difficulty": "standard",
@@ -262,8 +262,8 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√101 < 10",
         "√101 = 10",
+        "√101 < 10",
         "√101 > 10",
         "√101 is not real"
       ],
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "A square patio has side length 12 m. What is its area?",
       "options": [
-        "48 m²",
+        "144 m²",
         "24 m²",
-        "120 m²",
-        "144 m²"
+        "48 m²",
+        "120 m²"
       ],
       "correctAnswer": "144 m²",
       "difficulty": "standard",
@@ -300,8 +300,8 @@
       "options": [
         "√100 = 10; ±10 are the solutions to x² = 100",
         "√100 = -10 only",
-        "√100 = 50",
-        "The student's statement is always correct"
+        "The student's statement is always correct",
+        "√100 = 50"
       ],
       "correctAnswer": "√100 = 10; ±10 are the solutions to x² = 100",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "Which integer is closest to √80?",
       "options": [
-        "8",
-        "9",
         "10",
-        "7"
+        "7",
+        "9",
+        "8"
       ],
       "correctAnswer": "9",
       "difficulty": "standard",
@@ -334,9 +334,9 @@
       "type": "multiple_choice",
       "questionText": "What value of n makes √n = 14?",
       "options": [
-        "28",
         "144",
         "196",
+        "28",
         "14"
       ],
       "correctAnswer": "196",
@@ -353,8 +353,8 @@
       "questionText": "Why is √75 not an integer?",
       "options": [
         "75 is odd",
-        "All roots greater than 10 are decimals",
         "75 cannot be divided by 3",
+        "All roots greater than 10 are decimals",
         "75 lies between consecutive perfect squares 64 and 81"
       ],
       "correctAnswer": "75 lies between consecutive perfect squares 64 and 81",

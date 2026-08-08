@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3x + 4 = x + 12.",
       "options": [
-        "x = 4",
         "x = 8",
+        "x = 2",
         "x = 6",
-        "x = 2"
+        "x = 4"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5x + 2 = 2x + 17.",
       "options": [
+        "x = 7",
         "x = 3",
-        "x = 5",
         "x = 15",
-        "x = 7"
+        "x = 5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x - 1 = x + 11.",
       "options": [
-        "x = 3",
-        "x = 12",
         "x = 4",
-        "x = 5"
+        "x = 12",
+        "x = 5",
+        "x = 3"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -65,9 +65,9 @@
       "questionText": "Solve 6x + 3 = 3x + 18.",
       "options": [
         "x = 7",
-        "x = 15",
         "x = 3",
-        "x = 5"
+        "x = 5",
+        "x = 15"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 7x - 2 = 4x + 13.",
       "options": [
-        "x = 5",
         "x = 3",
-        "x = 11",
-        "x = 7"
+        "x = 5",
+        "x = 7",
+        "x = 11"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -100,10 +100,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 8x + 1 = 5x + 16.",
       "options": [
-        "x = 3",
         "x = 5",
         "x = 17",
-        "x = 6"
+        "x = 6",
+        "x = 3"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Which first step is helpful for 5x + 6 = 2x + 21?",
       "options": [
-        "Subtract 6x from both sides",
         "Divide both sides by 5",
         "Subtract 2x from both sides",
-        "Add 2x to both sides"
+        "Add 2x to both sides",
+        "Subtract 6x from both sides"
       ],
       "correctAnswer": "Subtract 2x from both sides",
       "difficulty": "scaffold",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation results from subtracting x from both sides of 4x + 9 = x + 24?",
       "options": [
-        "5x + 9 = 24",
         "4x + 9 = 24",
+        "3x + 9 = 24",
         "3x = 15",
-        "3x + 9 = 24"
+        "5x + 9 = 24"
       ],
       "correctAnswer": "3x + 9 = 24",
       "difficulty": "scaffold",
@@ -154,9 +154,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2x + 10 = x + 18.",
       "options": [
-        "x = 8",
         "x = 4",
         "x = 28",
+        "x = 8",
         "x = 10"
       ],
       "correctAnswer": "x = 8",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 9x - 5 = 6x + 10.",
       "options": [
-        "x = 3",
-        "x = 5",
         "x = 15",
-        "x = 7"
+        "x = 7",
+        "x = 3",
+        "x = 5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 10x + 7 = 4x + 37.",
       "options": [
-        "x = 6",
         "x = 30",
         "x = 5",
-        "x = 4"
+        "x = 4",
+        "x = 6"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -209,8 +209,8 @@
       "questionText": "Solve 11x - 9 = 5x + 27.",
       "options": [
         "x = 3",
-        "x = 36",
         "x = 9",
+        "x = 36",
         "x = 6"
       ],
       "correctAnswer": "x = 6",
@@ -244,10 +244,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3x + 14 = 7x - 6.",
       "options": [
-        "x = -5",
-        "x = 5",
         "x = 2",
-        "x = 8"
+        "x = -5",
+        "x = 8",
+        "x = 5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x - 20 = 9x + 5.",
       "options": [
-        "x = 5",
         "x = -3",
+        "x = 25",
         "x = -5",
-        "x = 25"
+        "x = 5"
       ],
       "correctAnswer": "x = -5",
       "difficulty": "standard",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 8x + 12 = 2x - 18.",
       "options": [
-        "x = 5",
         "x = -3",
+        "x = -5",
         "x = -30",
-        "x = -5"
+        "x = 5"
       ],
       "correctAnswer": "x = -5",
       "difficulty": "standard",
@@ -300,8 +300,8 @@
       "options": [
         "x = 6",
         "x = 4",
-        "x = 24",
-        "x = 3"
+        "x = 3",
+        "x = 24"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 9x + 4 = 3x + 40.",
       "options": [
+        "x = 5",
         "x = 8",
-        "x = 6",
         "x = 36",
-        "x = 5"
+        "x = 6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 12x - 8 = 4x + 56.",
       "options": [
-        "x = 6",
-        "x = 64",
         "x = 8",
-        "x = 7"
+        "x = 6",
+        "x = 7",
+        "x = 64"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 15x + 10 = 5x - 40.",
       "options": [
+        "x = -5",
         "x = 5",
         "x = -3",
-        "x = -50",
-        "x = -5"
+        "x = -50"
       ],
       "correctAnswer": "x = -5",
       "difficulty": "standard",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x + 3 = 2(x + 9).",
       "options": [
-        "x = 15/2",
         "x = 6",
-        "x = 9",
-        "x = 3"
+        "x = 15/2",
+        "x = 3",
+        "x = 9"
       ],
       "correctAnswer": "x = 15/2",
       "difficulty": "standard",
@@ -388,10 +388,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(x + 4) = x + 22.",
       "options": [
-        "x = 7",
-        "x = 5",
         "x = 10",
-        "x = 4"
+        "x = 4",
+        "x = 7",
+        "x = 5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -406,9 +406,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x - 5) = x + 3.",
       "options": [
+        "x = 13",
         "x = 7",
         "x = -13",
-        "x = 13",
         "x = 8"
       ],
       "correctAnswer": "x = 13",
@@ -425,9 +425,9 @@
       "questionText": "Solve 5(x + 1) = 2x + 20.",
       "options": [
         "x = 3",
-        "x = 15",
         "x = 7",
-        "x = 5"
+        "x = 5",
+        "x = 15"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -443,9 +443,9 @@
       "questionText": "Solve 4(x - 2) = x + 10.",
       "options": [
         "x = 6",
-        "x = 4",
         "x = 18",
-        "x = 8"
+        "x = 8",
+        "x = 4"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -460,9 +460,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x + 8) = 5x + 1.",
       "options": [
+        "x = 15",
         "x = -5",
         "x = 5",
-        "x = 15",
         "x = 7"
       ],
       "correctAnswer": "x = 5",
@@ -496,9 +496,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 6x - 2(x + 3) = 18.",
       "options": [
+        "x = 8",
         "x = 4",
         "x = 3",
-        "x = 8",
         "x = 6"
       ],
       "correctAnswer": "x = 6",
@@ -514,10 +514,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 9x - 3(x - 2) = 42.",
       "options": [
-        "x = 6",
-        "x = 8",
         "x = 4",
-        "x = 10"
+        "x = 6",
+        "x = 10",
+        "x = 8"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -532,10 +532,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 7x + 2(x - 4) = 37.",
       "options": [
-        "x = 7",
         "x = 5",
         "x = 3",
-        "x = 9"
+        "x = 9",
+        "x = 7"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -550,10 +550,10 @@
       "type": "multiple_choice",
       "questionText": "A student subtracts only 3 from 4x + 3 = x + 18 and gets 4x = x + 18. What is wrong?",
       "options": [
-        "They must divide by 4 first",
         "They should add x to both sides",
-        "They must subtract 3 from both sides",
-        "They should subtract 18 from only the right side"
+        "They should subtract 18 from only the right side",
+        "They must divide by 4 first",
+        "They must subtract 3 from both sides"
       ],
       "correctAnswer": "They must subtract 3 from both sides",
       "difficulty": "standard",
@@ -569,10 +569,10 @@
       "type": "multiple_choice",
       "questionText": "Which value checks 5x + 3 = 2x + 18?",
       "options": [
+        "x = 5",
         "x = 7",
-        "x = 3",
         "x = 15",
-        "x = 5"
+        "x = 3"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -587,9 +587,9 @@
       "type": "multiple_choice",
       "questionText": "Which value checks 7x - 4 = 3x + 16?",
       "options": [
+        "x = 7",
         "x = 5",
         "x = 3",
-        "x = 7",
         "x = 20"
       ],
       "correctAnswer": "x = 5",
@@ -605,10 +605,10 @@
       "type": "multiple_choice",
       "questionText": "A number gives the same result in 6x + 2 and 3x + 17. What is the number?",
       "options": [
-        "3",
         "5",
         "15",
-        "7"
+        "7",
+        "3"
       ],
       "correctAnswer": "5",
       "difficulty": "standard",
@@ -624,9 +624,9 @@
       "questionText": "Two plans cost 4x + 12 and x + 42 dollars. For what x are they equal?",
       "options": [
         "8",
-        "30",
+        "12",
         "10",
-        "12"
+        "30"
       ],
       "correctAnswer": "10",
       "difficulty": "standard",
@@ -642,9 +642,9 @@
       "questionText": "Solve -2x + 9 = 4x - 21.",
       "options": [
         "x = -5",
+        "x = 5",
         "x = 3",
-        "x = -3",
-        "x = 5"
+        "x = -3"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "challenge",
@@ -659,10 +659,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -3x - 7 = 2x + 18.",
       "options": [
-        "x = -5",
-        "x = 5",
         "x = -11/5",
-        "x = 25"
+        "x = 25",
+        "x = -5",
+        "x = 5"
       ],
       "correctAnswer": "x = -5",
       "difficulty": "challenge",
@@ -679,8 +679,8 @@
       "options": [
         "x = 7",
         "x = 9",
-        "x = 5",
-        "x = 3"
+        "x = 3",
+        "x = 5"
       ],
       "correctAnswer": "x = 9",
       "difficulty": "challenge",
@@ -696,9 +696,9 @@
       "questionText": "Solve 5(x + 2) - 3x = x + 17.",
       "options": [
         "x = 5",
-        "x = 9",
         "x = 7",
-        "x = 3"
+        "x = 3",
+        "x = 9"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -715,8 +715,8 @@
       "options": [
         "x = 4",
         "x = 24",
-        "x = 8",
-        "x = 6"
+        "x = 6",
+        "x = 8"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "challenge",
@@ -731,10 +731,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 8x - 2(3x + 5) = x + 15.",
       "options": [
-        "x = 25",
         "x = 5",
-        "x = -25",
-        "x = 15"
+        "x = 15",
+        "x = 25",
+        "x = -25"
       ],
       "correctAnswer": "x = 25",
       "difficulty": "challenge",
@@ -749,10 +749,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 10 - 3(x - 2) = 2x - 9.",
       "options": [
-        "x = -5",
         "x = 5",
         "x = 6",
-        "x = 7"
+        "x = 7",
+        "x = -5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "challenge",
@@ -768,10 +768,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x - (x + 8) = 2x + 5.",
       "options": [
-        "x = 5",
         "x = -13",
-        "x = 13",
-        "x = 8"
+        "x = 8",
+        "x = 5",
+        "x = 13"
       ],
       "correctAnswer": "x = 13",
       "difficulty": "challenge",
@@ -806,8 +806,8 @@
       "options": [
         "5",
         "7",
-        "15",
-        "3"
+        "3",
+        "15"
       ],
       "correctAnswer": "5",
       "difficulty": "challenge",
@@ -823,9 +823,9 @@
       "questionText": "Two students write equivalent costs: 3x + 24 and 7x + 4. For what x are the costs equal?",
       "options": [
         "7",
+        "4",
         "5",
-        "20",
-        "4"
+        "20"
       ],
       "correctAnswer": "5",
       "difficulty": "challenge",
@@ -840,10 +840,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has solution x = -4?",
       "options": [
-        "3x + 8 = x + 4",
         "5x - 2 = x + 10",
         "3x + 8 = x",
-        "2x + 5 = x + 1"
+        "2x + 5 = x + 1",
+        "3x + 8 = x + 4"
       ],
       "correctAnswer": "3x + 8 = x",
       "difficulty": "challenge",
@@ -858,9 +858,9 @@
       "type": "multiple_choice",
       "questionText": "A student claims x = 3 solves 8x + 1 = 5x + 16. What does checking show?",
       "options": [
-        "It works because both sides equal 25",
-        "It fails because 8 + 1 = 9",
         "It works because 5(3) + 16 = 31",
+        "It fails because 8 + 1 = 9",
+        "It works because both sides equal 25",
         "It fails because 8(3) + 1 = 25 and 5(3) + 16 = 31"
       ],
       "correctAnswer": "It fails because 8(3) + 1 = 25 and 5(3) + 16 = 31",
@@ -876,10 +876,10 @@
       "type": "multiple_choice",
       "questionText": "Which step correctly starts solving 3(2x + 5) = 4x + 23?",
       "options": [
-        "6x + 15 = 4x + 23",
-        "6x + 5 = 4x + 23",
         "3x + 15 = 4x + 23",
-        "6x + 15 = 7x + 23"
+        "6x + 15 = 7x + 23",
+        "6x + 15 = 4x + 23",
+        "6x + 5 = 4x + 23"
       ],
       "correctAnswer": "6x + 15 = 4x + 23",
       "difficulty": "challenge",
@@ -894,10 +894,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(5x - 1) - 3x = 4x + 20.",
       "options": [
-        "x = 6",
+        "x = 8",
         "x = 22/3",
-        "x = 11",
-        "x = 8"
+        "x = 6",
+        "x = 11"
       ],
       "correctAnswer": "x = 22/3",
       "difficulty": "challenge",

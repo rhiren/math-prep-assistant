@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "Does x = 5 solve 4x + 3 = 2x + 13?",
       "options": [
+        "No, the right side is 13.",
         "Yes, both sides equal 23.",
         "No, the left side is 20.",
-        "No, the right side is 13.",
         "Yes, both sides equal 18."
       ],
       "correctAnswer": "Yes, both sides equal 23.",
@@ -30,9 +30,9 @@
       "questionText": "Does x = -2 solve 3x - 4 = x - 8?",
       "options": [
         "No, both sides equal 10.",
-        "Yes, both sides equal -10.",
         "No, only the left side is -10.",
-        "Yes, both sides equal -6."
+        "Yes, both sides equal -6.",
+        "Yes, both sides equal -10."
       ],
       "correctAnswer": "Yes, both sides equal -10.",
       "difficulty": "scaffold",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 2(x + 3) = 18 by writing 2x + 3 = 18. What is the first mistake?",
       "options": [
-        "They should subtract 18 first.",
+        "There is no mistake.",
         "They divided by 2 too early.",
-        "They did not distribute 2 to both terms.",
-        "There is no mistake."
+        "They should subtract 18 first.",
+        "They did not distribute 2 to both terms."
       ],
       "correctAnswer": "They did not distribute 2 to both terms.",
       "difficulty": "scaffold",
@@ -68,9 +68,9 @@
       "questionText": "A student solves 5x + 7 = 2x + 19 by subtracting 2x to get 3x + 7 = 19. Is this step valid?",
       "options": [
         "No, variable terms cannot move sides.",
-        "No, the result should be 7x + 7 = 19.",
         "No, they should divide by 3 first.",
-        "Yes, subtracting 2x from both sides keeps the equation equivalent."
+        "Yes, subtracting 2x from both sides keeps the equation equivalent.",
+        "No, the result should be 7x + 7 = 19."
       ],
       "correctAnswer": "Yes, subtracting 2x from both sides keeps the equation equivalent.",
       "difficulty": "scaffold",
@@ -86,10 +86,10 @@
       "type": "multiple_choice",
       "questionText": "Which check proves x = 4 solves 3x + 1 = x + 9?",
       "options": [
-        "3(4) + 1 = 13 and 4 + 9 = 13",
+        "3(9) + 1 = 28 and 4 + 9 = 13",
         "3(4) + 1 = 12 and 4 + 9 = 13",
-        "3 + 4 + 1 = 8 and 4 + 9 = 13",
-        "3(9) + 1 = 28 and 4 + 9 = 13"
+        "3(4) + 1 = 13 and 4 + 9 = 13",
+        "3 + 4 + 1 = 8 and 4 + 9 = 13"
       ],
       "correctAnswer": "3(4) + 1 = 13 and 4 + 9 = 13",
       "difficulty": "scaffold",
@@ -105,9 +105,9 @@
       "type": "multiple_choice",
       "questionText": "A student changes 1/2x = 6 to x = 6/2. What should they do instead?",
       "options": [
-        "Divide both sides by 2 to get x = 3.",
         "Multiply both sides by 2 to get x = 12.",
         "Subtract 1/2 from both sides.",
+        "Divide both sides by 2 to get x = 3.",
         "The step is already correct."
       ],
       "correctAnswer": "Multiply both sides by 2 to get x = 12.",
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Which statement best explains why x = 3 does not solve 8x + 1 = 5x + 16?",
       "options": [
+        "The left side is 25 and the right side is 31.",
         "The left side is 24 and the right side is 15.",
         "Both sides equal 25.",
-        "The left side is 25 and the right side is 31.",
         "Both sides equal 31."
       ],
       "correctAnswer": "The left side is 25 and the right side is 31.",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 4x - 6 = 2x + 8 and gets 2x - 6 = 8. What property justifies that step?",
       "options": [
-        "Dividing both sides by 2 preserves equality.",
-        "Adding 6 to both sides preserves equality.",
         "The distributive property preserves equality.",
-        "Subtracting 2x from both sides preserves equality."
+        "Adding 6 to both sides preserves equality.",
+        "Subtracting 2x from both sides preserves equality.",
+        "Dividing both sides by 2 preserves equality."
       ],
       "correctAnswer": "Subtracting 2x from both sides preserves equality.",
       "difficulty": "scaffold",
@@ -162,10 +162,10 @@
       "type": "multiple_choice",
       "questionText": "Does x = 5 solve 4x + 3 = 2x + 13?",
       "options": [
+        "Yes, both sides equal 18.",
         "Yes, both sides equal 23.",
         "No, the left side is 20.",
-        "No, the right side is 13.",
-        "Yes, both sides equal 18."
+        "No, the right side is 13."
       ],
       "correctAnswer": "Yes, both sides equal 23.",
       "difficulty": "standard",
@@ -181,10 +181,10 @@
       "type": "multiple_choice",
       "questionText": "Does x = -2 solve 3x - 4 = x - 8?",
       "options": [
-        "No, both sides equal 10.",
         "Yes, both sides equal -10.",
+        "Yes, both sides equal -6.",
         "No, only the left side is -10.",
-        "Yes, both sides equal -6."
+        "No, both sides equal 10."
       ],
       "correctAnswer": "Yes, both sides equal -10.",
       "difficulty": "standard",
@@ -200,10 +200,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 2(x + 3) = 18 by writing 2x + 3 = 18. What is the first mistake?",
       "options": [
-        "They should subtract 18 first.",
+        "There is no mistake.",
         "They divided by 2 too early.",
-        "They did not distribute 2 to both terms.",
-        "There is no mistake."
+        "They should subtract 18 first.",
+        "They did not distribute 2 to both terms."
       ],
       "correctAnswer": "They did not distribute 2 to both terms.",
       "difficulty": "standard",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 5x + 7 = 2x + 19 by subtracting 2x to get 3x + 7 = 19. Is this step valid?",
       "options": [
-        "No, variable terms cannot move sides.",
         "No, the result should be 7x + 7 = 19.",
-        "No, they should divide by 3 first.",
-        "Yes, subtracting 2x from both sides keeps the equation equivalent."
+        "No, variable terms cannot move sides.",
+        "Yes, subtracting 2x from both sides keeps the equation equivalent.",
+        "No, they should divide by 3 first."
       ],
       "correctAnswer": "Yes, subtracting 2x from both sides keeps the equation equivalent.",
       "difficulty": "standard",
@@ -238,10 +238,10 @@
       "type": "multiple_choice",
       "questionText": "Which check proves x = 4 solves 3x + 1 = x + 9?",
       "options": [
-        "3(4) + 1 = 13 and 4 + 9 = 13",
+        "3(9) + 1 = 28 and 4 + 9 = 13",
         "3(4) + 1 = 12 and 4 + 9 = 13",
         "3 + 4 + 1 = 8 and 4 + 9 = 13",
-        "3(9) + 1 = 28 and 4 + 9 = 13"
+        "3(4) + 1 = 13 and 4 + 9 = 13"
       ],
       "correctAnswer": "3(4) + 1 = 13 and 4 + 9 = 13",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "A student changes 1/2x = 6 to x = 6/2. What should they do instead?",
       "options": [
-        "Divide both sides by 2 to get x = 3.",
-        "Multiply both sides by 2 to get x = 12.",
+        "The step is already correct.",
         "Subtract 1/2 from both sides.",
-        "The step is already correct."
+        "Multiply both sides by 2 to get x = 12.",
+        "Divide both sides by 2 to get x = 3."
       ],
       "correctAnswer": "Multiply both sides by 2 to get x = 12.",
       "difficulty": "standard",
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Which statement best explains why x = 3 does not solve 8x + 1 = 5x + 16?",
       "options": [
-        "The left side is 24 and the right side is 15.",
         "Both sides equal 25.",
         "The left side is 25 and the right side is 31.",
+        "The left side is 24 and the right side is 15.",
         "Both sides equal 31."
       ],
       "correctAnswer": "The left side is 25 and the right side is 31.",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 4x - 6 = 2x + 8 and gets 2x - 6 = 8. What property justifies that step?",
       "options": [
-        "Dividing both sides by 2 preserves equality.",
+        "Subtracting 2x from both sides preserves equality.",
         "Adding 6 to both sides preserves equality.",
-        "The distributive property preserves equality.",
-        "Subtracting 2x from both sides preserves equality."
+        "Dividing both sides by 2 preserves equality.",
+        "The distributive property preserves equality."
       ],
       "correctAnswer": "Subtracting 2x from both sides preserves equality.",
       "difficulty": "standard",
@@ -314,10 +314,10 @@
       "type": "multiple_choice",
       "questionText": "Does x = 5 solve 4x + 3 = 2x + 13?",
       "options": [
+        "Yes, both sides equal 18.",
         "Yes, both sides equal 23.",
         "No, the left side is 20.",
-        "No, the right side is 13.",
-        "Yes, both sides equal 18."
+        "No, the right side is 13."
       ],
       "correctAnswer": "Yes, both sides equal 23.",
       "difficulty": "standard",
@@ -334,9 +334,9 @@
       "questionText": "Does x = -2 solve 3x - 4 = x - 8?",
       "options": [
         "No, both sides equal 10.",
-        "Yes, both sides equal -10.",
         "No, only the left side is -10.",
-        "Yes, both sides equal -6."
+        "Yes, both sides equal -6.",
+        "Yes, both sides equal -10."
       ],
       "correctAnswer": "Yes, both sides equal -10.",
       "difficulty": "standard",
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "A student solves 2(x + 3) = 18 by writing 2x + 3 = 18. What is the first mistake?",
       "options": [
-        "They should subtract 18 first.",
-        "They divided by 2 too early.",
         "They did not distribute 2 to both terms.",
+        "They divided by 2 too early.",
+        "They should subtract 18 first.",
         "There is no mistake."
       ],
       "correctAnswer": "They did not distribute 2 to both terms.",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 5x + 7 = 2x + 19 by subtracting 2x to get 3x + 7 = 19. Is this step valid?",
       "options": [
-        "No, variable terms cannot move sides.",
-        "No, the result should be 7x + 7 = 19.",
         "No, they should divide by 3 first.",
-        "Yes, subtracting 2x from both sides keeps the equation equivalent."
+        "Yes, subtracting 2x from both sides keeps the equation equivalent.",
+        "No, variable terms cannot move sides.",
+        "No, the result should be 7x + 7 = 19."
       ],
       "correctAnswer": "Yes, subtracting 2x from both sides keeps the equation equivalent.",
       "difficulty": "standard",

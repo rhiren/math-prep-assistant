@@ -250,7 +250,16 @@ The next Course 3 rollout work is Unit 3:
 Course 3 multiple-choice answer positions should remain balanced within each
 active test set so learners cannot infer the correct option from repeated
 placement. Current Course 3 core banks target a 13/13/12/12 split across
-A/B/C/D, and review banks target 5/5/5/5.
+A/B/C/D, and review banks target 5/5/5/5. Correct-answer positions must also
+avoid predictable local sequences such as A/B/C/D/A/B/C/D and long repeated
+answer-position runs.
+
+Course 3 test banks must vary question forms enough that practice does not feel
+like one template with changed numbers. The automated content quality gate now
+checks normalized question-template variety, maximum single-template share, and
+challenge-question reasoning variety. Some already-published banks are tracked
+as explicit template-variety debt in the test suite; do not add new banks to
+that list as a substitute for authoring varied questions.
 
 ### Phase 3 — Lines, Slope, and Systems
 
@@ -287,6 +296,8 @@ Before a Course 3 concept enters the manifest:
 - distractors represent realistic misconceptions
 - explanations state why the correct answer works
 - difficulty distribution is intentional
+- answer-position sequence checks pass, not just total answer-position balance
+- question-template variety checks pass unless reducing documented legacy debt
 - known-correct answer paths are spot-checked
 - repository-wide content validation passes
 

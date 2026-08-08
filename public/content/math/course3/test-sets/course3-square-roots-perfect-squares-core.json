@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "What is 7²?",
       "options": [
-        "49",
-        "14",
+        "42",
         "21",
-        "42"
+        "49",
+        "14"
       ],
       "correctAnswer": "49",
       "difficulty": "scaffold",
@@ -28,9 +28,9 @@
       "type": "multiple_choice",
       "questionText": "What is √49?",
       "options": [
-        "-7",
-        "7",
         "24.5",
+        "7",
+        "-7",
         "14"
       ],
       "correctAnswer": "7",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is a perfect square?",
       "options": [
-        "48",
-        "72",
         "64",
-        "80"
+        "80",
+        "48",
+        "72"
       ],
       "correctAnswer": "64",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "What is √121?",
       "options": [
-        "12",
-        "10",
         "60.5",
-        "11"
+        "11",
+        "12",
+        "10"
       ],
       "correctAnswer": "11",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Which multiplication verifies that √81 = 9?",
       "options": [
-        "9 × 9 = 81",
         "9 + 9 = 18",
+        "8 × 10 = 80",
         "81 ÷ 2 = 40.5",
-        "8 × 10 = 80"
+        "9 × 9 = 81"
       ],
       "correctAnswer": "9 × 9 = 81",
       "difficulty": "scaffold",
@@ -101,9 +101,9 @@
       "questionText": "What is √0?",
       "options": [
         "1",
-        "0",
         "Undefined",
-        "-1"
+        "-1",
+        "0"
       ],
       "correctAnswer": "0",
       "difficulty": "scaffold",
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "What is -√36?",
       "options": [
-        "6",
         "-18",
         "-6",
+        "6",
         "Not real"
       ],
       "correctAnswer": "-6",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "What is the principal square root of 144?",
       "options": [
-        "-12",
         "±12",
-        "72",
-        "12"
+        "12",
+        "-12",
+        "72"
       ],
       "correctAnswer": "12",
       "difficulty": "scaffold",
@@ -155,10 +155,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is not a perfect square?",
       "options": [
-        "50",
+        "49",
         "25",
-        "36",
-        "49"
+        "50",
+        "36"
       ],
       "correctAnswer": "50",
       "difficulty": "scaffold",
@@ -173,10 +173,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 100 cm². What is its side length?",
       "options": [
-        "25 cm",
         "10 cm",
+        "100 cm",
         "50 cm",
-        "100 cm"
+        "25 cm"
       ],
       "correctAnswer": "10 cm",
       "difficulty": "scaffold",
@@ -192,9 +192,9 @@
       "questionText": "What is √169?",
       "options": [
         "14",
+        "84.5",
         "12",
-        "13",
-        "84.5"
+        "13"
       ],
       "correctAnswer": "13",
       "difficulty": "standard",
@@ -209,8 +209,8 @@
       "type": "multiple_choice",
       "questionText": "What is √196?",
       "options": [
-        "13",
         "16",
+        "13",
         "98",
         "14"
       ],
@@ -227,9 +227,9 @@
       "type": "multiple_choice",
       "questionText": "What is √225?",
       "options": [
+        "12",
         "15",
         "25",
-        "12",
         "112.5"
       ],
       "correctAnswer": "15",
@@ -245,9 +245,9 @@
       "type": "multiple_choice",
       "questionText": "What is √400?",
       "options": [
-        "40",
-        "20",
         "200",
+        "20",
+        "40",
         "10"
       ],
       "correctAnswer": "20",
@@ -263,10 +263,10 @@
       "type": "multiple_choice",
       "questionText": "Between which consecutive integers does √70 lie?",
       "options": [
-        "7 and 8",
+        "6 and 7",
         "9 and 10",
-        "8 and 9",
-        "6 and 7"
+        "7 and 8",
+        "8 and 9"
       ],
       "correctAnswer": "8 and 9",
       "difficulty": "standard",
@@ -281,10 +281,10 @@
       "type": "multiple_choice",
       "questionText": "Between which consecutive integers does √115 lie?",
       "options": [
-        "9 and 10",
-        "11 and 12",
         "12 and 13",
-        "10 and 11"
+        "9 and 10",
+        "10 and 11",
+        "11 and 12"
       ],
       "correctAnswer": "10 and 11",
       "difficulty": "standard",
@@ -299,9 +299,9 @@
       "type": "multiple_choice",
       "questionText": "Which statement correctly compares √82 and 9?",
       "options": [
+        "√82 < 9",
         "√82 > 9",
         "√82 = 9",
-        "√82 < 9",
         "They cannot be compared"
       ],
       "correctAnswer": "√82 > 9",
@@ -318,9 +318,9 @@
       "questionText": "Which statement correctly compares √63 and 8?",
       "options": [
         "√63 > 8",
+        "√63 is not real",
         "√63 < 8",
-        "√63 = 8",
-        "√63 is not real"
+        "√63 = 8"
       ],
       "correctAnswer": "√63 < 8",
       "difficulty": "standard",
@@ -335,9 +335,9 @@
       "type": "multiple_choice",
       "questionText": "Solve x² = 64 over the real numbers.",
       "options": [
-        "x = 8 only",
-        "x = 32 or x = -32",
         "x = 8 or x = -8",
+        "x = 32 or x = -32",
+        "x = 8 only",
         "x = 4 or x = -4"
       ],
       "correctAnswer": "x = 8 or x = -8",
@@ -354,10 +354,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement explains why √64 = 8 but x² = 64 has two solutions?",
       "options": [
-        "A radical can never contain a negative number",
         "Equations always have two solutions",
-        "The symbol √ means both positive and negative",
-        "The radical symbol names the nonnegative principal root, while the equation asks for every value whose square is 64"
+        "The radical symbol names the nonnegative principal root, while the equation asks for every value whose square is 64",
+        "A radical can never contain a negative number",
+        "The symbol √ means both positive and negative"
       ],
       "correctAnswer": "The radical symbol names the nonnegative principal root, while the equation asks for every value whose square is 64",
       "difficulty": "standard",
@@ -373,8 +373,8 @@
       "questionText": "What is (-12)²?",
       "options": [
         "144",
-        "-144",
         "24",
+        "-144",
         "-24"
       ],
       "correctAnswer": "144",
@@ -391,9 +391,9 @@
       "questionText": "What is -12² using the usual order of operations?",
       "options": [
         "144",
-        "-144",
+        "24",
         "-24",
-        "24"
+        "-144"
       ],
       "correctAnswer": "-144",
       "difficulty": "standard",
@@ -409,10 +409,10 @@
       "type": "multiple_choice",
       "questionText": "What is √(49/64)?",
       "options": [
-        "49/8",
-        "7/64",
         "7/8",
-        "8/7"
+        "8/7",
+        "7/64",
+        "49/8"
       ],
       "correctAnswer": "7/8",
       "difficulty": "standard",
@@ -427,9 +427,9 @@
       "type": "multiple_choice",
       "questionText": "What is √(81/100)?",
       "options": [
-        "81/10",
         "9/100",
         "0.81",
+        "81/10",
         "9/10"
       ],
       "correctAnswer": "9/10",
@@ -446,8 +446,8 @@
       "questionText": "What is √0.81?",
       "options": [
         "0.9",
-        "0.81",
         "0.09",
+        "0.81",
         "9"
       ],
       "correctAnswer": "0.9",
@@ -464,8 +464,8 @@
       "questionText": "What is √2.25?",
       "options": [
         "1.25",
-        "1.5",
         "2.5",
+        "1.5",
         "0.15"
       ],
       "correctAnswer": "1.5",
@@ -482,9 +482,9 @@
       "questionText": "A square garden has area 324 m². What is the length of one side?",
       "options": [
         "81 m",
-        "162 m",
+        "36 m",
         "18 m",
-        "36 m"
+        "162 m"
       ],
       "correctAnswer": "18 m",
       "difficulty": "standard",
@@ -500,9 +500,9 @@
       "questionText": "A square tile has side length 13 cm. What is its area?",
       "options": [
         "52 cm²",
-        "26 cm²",
+        "169 cm²",
         "156 cm²",
-        "169 cm²"
+        "26 cm²"
       ],
       "correctAnswer": "169 cm²",
       "difficulty": "standard",
@@ -517,10 +517,10 @@
       "type": "multiple_choice",
       "questionText": "Which integer is closest to √35?",
       "options": [
-        "6",
         "5",
+        "4",
         "7",
-        "4"
+        "6"
       ],
       "correctAnswer": "6",
       "difficulty": "standard",
@@ -535,10 +535,10 @@
       "type": "multiple_choice",
       "questionText": "Which integer is closest to √130?",
       "options": [
-        "12",
         "11",
-        "10",
-        "13"
+        "12",
+        "13",
+        "10"
       ],
       "correctAnswer": "11",
       "difficulty": "standard",
@@ -553,8 +553,8 @@
       "type": "multiple_choice",
       "questionText": "Which expression is not equal to 9?",
       "options": [
-        "√81",
         "3²",
+        "√81",
         "√72",
         "√(9 × 9)"
       ],
@@ -571,10 +571,10 @@
       "type": "multiple_choice",
       "questionText": "A student claims √(9 + 16) = √9 + √16. What shows the claim is false?",
       "options": [
-        "√25 = 25, but 3 + 4 = 7",
         "Both sides equal 7",
         "Square roots cannot be added",
-        "√25 = 5, but 3 + 4 = 7"
+        "√25 = 5, but 3 + 4 = 7",
+        "√25 = 25, but 3 + 4 = 7"
       ],
       "correctAnswer": "√25 = 5, but 3 + 4 = 7",
       "difficulty": "standard",
@@ -590,9 +590,9 @@
       "questionText": "Which list contains only perfect squares?",
       "options": [
         "1, 16, 81, 196",
-        "4, 18, 64, 100",
+        "0, 36, 72, 144",
         "9, 25, 50, 121",
-        "0, 36, 72, 144"
+        "4, 18, 64, 100"
       ],
       "correctAnswer": "1, 16, 81, 196",
       "difficulty": "standard",
@@ -607,9 +607,9 @@
       "type": "multiple_choice",
       "questionText": "What is √(16 × 25)?",
       "options": [
-        "40",
-        "20",
         "200",
+        "20",
+        "40",
         "10"
       ],
       "correctAnswer": "20",
@@ -625,10 +625,10 @@
       "type": "multiple_choice",
       "questionText": "If √n = 17, what is n?",
       "options": [
-        "34",
         "144",
+        "17",
         "289",
-        "17"
+        "34"
       ],
       "correctAnswer": "289",
       "difficulty": "standard",
@@ -643,10 +643,10 @@
       "type": "multiple_choice",
       "questionText": "A square has perimeter 60 cm. What is its area?",
       "options": [
-        "900 cm²",
         "120 cm²",
         "15 cm²",
-        "225 cm²"
+        "225 cm²",
+        "900 cm²"
       ],
       "correctAnswer": "225 cm²",
       "difficulty": "challenge",
@@ -664,8 +664,8 @@
       "options": [
         "4 cm",
         "80 cm",
-        "8 cm",
-        "10 cm"
+        "10 cm",
+        "8 cm"
       ],
       "correctAnswer": "4 cm",
       "difficulty": "challenge",
@@ -681,10 +681,10 @@
       "type": "multiple_choice",
       "questionText": "Which value lies between 12 and 13?",
       "options": [
-        "√144",
+        "√175",
         "√150",
         "√169",
-        "√175"
+        "√144"
       ],
       "correctAnswer": "√150",
       "difficulty": "challenge",
@@ -699,10 +699,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement about √200 is true?",
       "options": [
-        "13 < √200 < 14",
-        "15 < √200 < 16",
         "14 < √200 < 15",
-        "√200 = 100"
+        "13 < √200 < 14",
+        "√200 = 100",
+        "15 < √200 < 16"
       ],
       "correctAnswer": "14 < √200 < 15",
       "difficulty": "challenge",
@@ -717,8 +717,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x² = 196 over the real numbers.",
       "options": [
-        "x = 49 or x = -49",
         "x = 14 only",
+        "x = 49 or x = -49",
         "x = 7 only",
         "x = 7 or x = -7"
       ],
@@ -735,8 +735,8 @@
       "type": "multiple_choice",
       "questionText": "Solve (x - 2)² = 81 over the real numbers.",
       "options": [
-        "x = 11 or x = -7",
         "x = 9 or x = -9",
+        "x = 11 or x = -7",
         "x = 83 or x = -79",
         "x = 11 only"
       ],
@@ -755,9 +755,9 @@
       "questionText": "Which value of k makes 100 < k² < 144 for positive integer k?",
       "options": [
         "10",
+        "13",
         "11",
-        "12",
-        "13"
+        "12"
       ],
       "correctAnswer": "11",
       "difficulty": "challenge",
@@ -772,10 +772,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area between 180 cm² and 220 cm². Which integer side length is possible?",
       "options": [
-        "15 cm",
-        "13 cm",
         "14 cm",
-        "16 cm"
+        "13 cm",
+        "16 cm",
+        "15 cm"
       ],
       "correctAnswer": "14 cm",
       "difficulty": "challenge",
@@ -791,10 +791,10 @@
       "type": "multiple_choice",
       "questionText": "Which is greater, √90 or √80, and why?",
       "options": [
-        "√80, because 80 has fewer tens",
         "They are equal because both lie between 8 and 10",
-        "They cannot be compared without decimals",
-        "√90, because 90 > 80 and square root preserves order for nonnegative numbers"
+        "√90, because 90 > 80 and square root preserves order for nonnegative numbers",
+        "√80, because 80 has fewer tens",
+        "They cannot be compared without decimals"
       ],
       "correctAnswer": "√90, because 90 > 80 and square root preserves order for nonnegative numbers",
       "difficulty": "challenge",
@@ -811,8 +811,8 @@
       "options": [
         "1.2",
         "12",
-        "0.12",
-        "14.4"
+        "14.4",
+        "0.12"
       ],
       "correctAnswer": "1.2",
       "difficulty": "challenge",
@@ -827,10 +827,10 @@
       "type": "multiple_choice",
       "questionText": "A square image has area 6.25 in². What is its side length?",
       "options": [
-        "3.125 in",
         "2.5 in",
         "6.25 in",
-        "1.25 in"
+        "1.25 in",
+        "3.125 in"
       ],
       "correctAnswer": "2.5 in",
       "difficulty": "challenge",
@@ -845,10 +845,10 @@
       "type": "multiple_choice",
       "questionText": "If a and b are positive and a² = b, which expression equals a?",
       "options": [
-        "b²",
         "2b",
-        "√b",
-        "-√b"
+        "b²",
+        "-√b",
+        "√b"
       ],
       "correctAnswer": "√b",
       "difficulty": "challenge",
@@ -864,8 +864,8 @@
       "questionText": "Which statement is always true for a nonnegative real number n?",
       "options": [
         "√(n²) = -n",
-        "√n = n/2",
         "√(n + 1) = √n + 1",
+        "√n = n/2",
         "(√n)² = n"
       ],
       "correctAnswer": "(√n)² = n",
@@ -881,10 +881,10 @@
       "type": "multiple_choice",
       "questionText": "Without calculating a decimal, which perfect square is closest to 90?",
       "options": [
-        "81",
         "100",
-        "64",
-        "121"
+        "121",
+        "81",
+        "64"
       ],
       "correctAnswer": "81",
       "difficulty": "challenge",
@@ -899,10 +899,10 @@
       "type": "multiple_choice",
       "questionText": "A student says √(-25) = -5. What is the correct response in the real number system?",
       "options": [
-        "√(-25) = 5",
-        "√(-25) is not a real number",
+        "√(-25) = 0",
         "√(-25) = -5 because (-5)² = -25",
-        "√(-25) = 0"
+        "√(-25) = 5",
+        "√(-25) is not a real number"
       ],
       "correctAnswer": "√(-25) is not a real number",
       "difficulty": "challenge",

@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is rational?",
       "options": [
-        "0.75",
         "√2",
+        "0.1010010001...",
         "π",
-        "0.1010010001..."
+        "0.75"
       ],
       "correctAnswer": "0.75",
       "difficulty": "scaffold",
@@ -29,10 +29,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is irrational?",
       "options": [
-        "3/4",
-        "√7",
+        "0.6",
         "-2",
-        "0.6"
+        "√7",
+        "3/4"
       ],
       "correctAnswer": "√7",
       "difficulty": "scaffold",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.333... to a fraction.",
       "options": [
-        "3/10",
-        "33/100",
         "1/3",
-        "1/9"
+        "1/9",
+        "33/100",
+        "3/10"
       ],
       "correctAnswer": "1/3",
       "difficulty": "scaffold",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate √81.",
       "options": [
-        "-9",
+        "9",
         "40.5",
-        "8",
-        "9"
+        "-9",
+        "8"
       ],
       "correctAnswer": "9",
       "difficulty": "scaffold",
@@ -86,9 +86,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate ∛(-64).",
       "options": [
+        "-8",
         "-4",
         "4",
-        "-8",
         "8"
       ],
       "correctAnswer": "-4",
@@ -105,10 +105,10 @@
       "type": "multiple_choice",
       "questionText": "Between which integers is √30?",
       "options": [
-        "4 and 5",
         "5 and 6",
-        "6 and 7",
-        "14 and 15"
+        "4 and 5",
+        "14 and 15",
+        "6 and 7"
       ],
       "correctAnswer": "5 and 6",
       "difficulty": "scaffold",
@@ -124,10 +124,10 @@
       "type": "multiple_choice",
       "questionText": "Which is greatest?",
       "options": [
-        "7",
-        "6.9",
         "√50",
-        "√36"
+        "√36",
+        "6.9",
+        "7"
       ],
       "correctAnswer": "√50",
       "difficulty": "scaffold",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 2⁴.",
       "options": [
-        "8",
         "6",
         "24",
-        "16"
+        "16",
+        "8"
       ],
       "correctAnswer": "16",
       "difficulty": "scaffold",
@@ -162,10 +162,10 @@
       "type": "multiple_choice",
       "questionText": "Classify √49.",
       "options": [
-        "rational",
-        "irrational",
         "neither rational nor irrational",
-        "only an integer, not rational"
+        "irrational",
+        "only an integer, not rational",
+        "rational"
       ],
       "correctAnswer": "rational",
       "difficulty": "standard",
@@ -182,9 +182,9 @@
       "questionText": "Classify √45.",
       "options": [
         "rational",
-        "irrational",
+        "terminating decimal",
         "integer",
-        "terminating decimal"
+        "irrational"
       ],
       "correctAnswer": "irrational",
       "difficulty": "standard",
@@ -200,9 +200,9 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.272727... to a fraction.",
       "options": [
-        "27/100",
         "27/99",
         "3/11",
+        "27/100",
         "2/7"
       ],
       "correctAnswer": "3/11",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.41666... to a fraction.",
       "options": [
-        "41/100",
         "25/60",
-        "4/15",
-        "5/12"
+        "5/12",
+        "41/100",
+        "4/15"
       ],
       "correctAnswer": "5/12",
       "difficulty": "standard",
@@ -239,9 +239,9 @@
       "questionText": "Evaluate √144 + ∛27.",
       "options": [
         "15",
-        "17",
         "12",
-        "9"
+        "9",
+        "17"
       ],
       "correctAnswer": "15",
       "difficulty": "standard",
@@ -276,8 +276,8 @@
       "type": "multiple_choice",
       "questionText": "Order least to greatest: √5, 2.3, 11/5.",
       "options": [
-        "√5, 11/5, 2.3",
         "2.3, √5, 11/5",
+        "√5, 11/5, 2.3",
         "11/5, √5, 2.3",
         "11/5, 2.3, √5"
       ],
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify x³ × x⁵.",
       "options": [
-        "x¹⁵",
         "x²",
+        "x⁸",
         "2x⁸",
-        "x⁸"
+        "x¹⁵"
       ],
       "correctAnswer": "x⁸",
       "difficulty": "standard",
@@ -314,10 +314,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2x²)³.",
       "options": [
-        "8x⁶",
-        "6x⁶",
+        "2x⁶",
         "8x⁵",
-        "2x⁶"
+        "6x⁶",
+        "8x⁶"
       ],
       "correctAnswer": "8x⁶",
       "difficulty": "standard",
@@ -333,9 +333,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify x² ÷ x⁶ for x ≠ 0.",
       "options": [
+        "x⁸",
         "x⁴",
         "1/x⁴",
-        "x⁸",
         "0"
       ],
       "correctAnswer": "1/x⁴",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3a⁻²b.",
       "options": [
-        "3a²b",
         "3a²/b",
+        "b/3a²",
         "3b/a²",
-        "b/3a²"
+        "3a²b"
       ],
       "correctAnswer": "3b/a²",
       "difficulty": "standard",
@@ -371,9 +371,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻³.",
       "options": [
-        "1000",
         "0.01",
         "-1000",
+        "1000",
         "0.001"
       ],
       "correctAnswer": "0.001",

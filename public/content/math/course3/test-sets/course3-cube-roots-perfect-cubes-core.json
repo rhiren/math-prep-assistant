@@ -11,9 +11,9 @@
       "questionText": "What is 3³?",
       "options": [
         "27",
+        "18",
         "9",
-        "6",
-        "18"
+        "6"
       ],
       "correctAnswer": "27",
       "difficulty": "scaffold",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛27?",
       "options": [
-        "9",
-        "3",
+        "13.5",
         "-3",
-        "13.5"
+        "3",
+        "9"
       ],
       "correctAnswer": "3",
       "difficulty": "scaffold",
@@ -46,9 +46,9 @@
       "type": "multiple_choice",
       "questionText": "Which number is a perfect cube?",
       "options": [
-        "48",
-        "72",
         "64",
+        "72",
+        "48",
         "96"
       ],
       "correctAnswer": "64",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛125?",
       "options": [
-        "25",
-        "15",
         "4",
-        "5"
+        "5",
+        "25",
+        "15"
       ],
       "correctAnswer": "5",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(-8)?",
       "options": [
-        "-2",
         "2",
+        "Not real",
         "-4",
-        "Not real"
+        "-2"
       ],
       "correctAnswer": "-2",
       "difficulty": "scaffold",
@@ -101,8 +101,8 @@
       "questionText": "What is ∛0?",
       "options": [
         "1",
-        "0",
         "Undefined",
+        "0",
         "-1"
       ],
       "correctAnswer": "0",
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Which multiplication verifies ∛216 = 6?",
       "options": [
-        "6 × 3 = 18",
         "6 × 6 = 36",
         "6 × 6 × 6 = 216",
+        "6 × 3 = 18",
         "216 ÷ 2 = 108"
       ],
       "correctAnswer": "6 × 6 × 6 = 216",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "What is (-4)³?",
       "options": [
+        "-64",
         "64",
-        "-12",
         "12",
-        "-64"
+        "-12"
       ],
       "correctAnswer": "-64",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is not a perfect cube?",
       "options": [
-        "50",
-        "8",
+        "125",
         "27",
-        "125"
+        "50",
+        "8"
       ],
       "correctAnswer": "50",
       "difficulty": "scaffold",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "A cube has volume 64 cm³. What is its edge length?",
       "options": [
-        "8 cm",
-        "4 cm",
+        "32 cm",
         "16 cm",
-        "32 cm"
+        "4 cm",
+        "8 cm"
       ],
       "correctAnswer": "4 cm",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛343?",
       "options": [
-        "6",
-        "8",
         "7",
-        "49"
+        "6",
+        "49",
+        "8"
       ],
       "correctAnswer": "7",
       "difficulty": "standard",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛512?",
       "options": [
-        "7",
+        "8",
         "9",
-        "64",
-        "8"
+        "7",
+        "64"
       ],
       "correctAnswer": "8",
       "difficulty": "standard",
@@ -226,8 +226,8 @@
       "type": "multiple_choice",
       "questionText": "What is ∛729?",
       "options": [
-        "9",
         "8",
+        "9",
         "10",
         "81"
       ],
@@ -244,10 +244,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛1000?",
       "options": [
-        "100",
         "10",
+        "5",
         "20",
-        "5"
+        "100"
       ],
       "correctAnswer": "10",
       "difficulty": "standard",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(-125)?",
       "options": [
-        "5",
-        "-25",
+        "Not real",
         "-5",
-        "Not real"
+        "5",
+        "-25"
       ],
       "correctAnswer": "-5",
       "difficulty": "standard",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(-1000)?",
       "options": [
-        "10",
         "-100",
-        "Not real",
-        "-10"
+        "-10",
+        "10",
+        "Not real"
       ],
       "correctAnswer": "-10",
       "difficulty": "standard",
@@ -299,9 +299,9 @@
       "questionText": "Between which consecutive integers does ∛90 lie?",
       "options": [
         "4 and 5",
-        "3 and 4",
+        "8 and 9",
         "5 and 6",
-        "8 and 9"
+        "3 and 4"
       ],
       "correctAnswer": "4 and 5",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "Between which consecutive integers does ∛200 lie?",
       "options": [
+        "7 and 8",
         "4 and 5",
         "5 and 6",
-        "6 and 7",
-        "7 and 8"
+        "6 and 7"
       ],
       "correctAnswer": "5 and 6",
       "difficulty": "standard",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "Between which consecutive integers does ∛(-100) lie?",
       "options": [
-        "-4 and -3",
         "4 and 5",
-        "-5 and -4",
-        "-6 and -5"
+        "-4 and -3",
+        "-6 and -5",
+        "-5 and -4"
       ],
       "correctAnswer": "-5 and -4",
       "difficulty": "standard",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement correctly compares ∛70 and 4?",
       "options": [
-        "∛70 < 4",
-        "∛70 = 4",
         "∛70 is not real",
-        "∛70 > 4"
+        "∛70 < 4",
+        "∛70 > 4",
+        "∛70 = 4"
       ],
       "correctAnswer": "∛70 > 4",
       "difficulty": "standard",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement correctly compares ∛120 and 5?",
       "options": [
-        "∛120 < 5",
-        "∛120 > 5",
+        "They cannot be compared",
         "∛120 = 5",
-        "They cannot be compared"
+        "∛120 > 5",
+        "∛120 < 5"
       ],
       "correctAnswer": "∛120 < 5",
       "difficulty": "standard",
@@ -388,8 +388,8 @@
       "type": "multiple_choice",
       "questionText": "Solve x³ = 216 over the real numbers.",
       "options": [
-        "x = 6 or x = -6",
         "x = 6",
+        "x = 6 or x = -6",
         "x = 72",
         "x = 18"
       ],
@@ -406,9 +406,9 @@
       "type": "multiple_choice",
       "questionText": "Solve x³ = -343 over the real numbers.",
       "options": [
-        "x = 7",
-        "x = -7 or x = 7",
         "x = -7",
+        "x = -7 or x = 7",
+        "x = 7",
         "x = -49"
       ],
       "correctAnswer": "x = -7",
@@ -424,9 +424,9 @@
       "type": "multiple_choice",
       "questionText": "Why does x³ = 64 have one real solution while x² = 64 has two?",
       "options": [
-        "Cube equations never have solutions",
-        "Square roots are always negative",
         "64 is both a square and a cube",
+        "Square roots are always negative",
+        "Cube equations never have solutions",
         "Positive and negative numbers have different cubes, but opposite numbers have the same square"
       ],
       "correctAnswer": "Positive and negative numbers have different cubes, but opposite numbers have the same square",
@@ -442,10 +442,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(27/64)?",
       "options": [
-        "3/4",
-        "27/4",
+        "4/3",
         "3/64",
-        "4/3"
+        "27/4",
+        "3/4"
       ],
       "correctAnswer": "3/4",
       "difficulty": "standard",
@@ -460,9 +460,9 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(125/216)?",
       "options": [
+        "5/216",
         "25/36",
         "5/6",
-        "5/216",
         "6/5"
       ],
       "correctAnswer": "5/6",
@@ -478,10 +478,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛0.008?",
       "options": [
+        "2",
         "0.02",
-        "0.8",
         "0.2",
-        "2"
+        "0.8"
       ],
       "correctAnswer": "0.2",
       "difficulty": "standard",
@@ -496,10 +496,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛0.125?",
       "options": [
-        "0.25",
         "1.25",
-        "5",
-        "0.5"
+        "0.5",
+        "0.25",
+        "5"
       ],
       "correctAnswer": "0.5",
       "difficulty": "standard",
@@ -514,10 +514,10 @@
       "type": "multiple_choice",
       "questionText": "A cube has volume 216 m³. What is its edge length?",
       "options": [
+        "18 m",
         "6 m",
         "36 m",
-        "72 m",
-        "18 m"
+        "72 m"
       ],
       "correctAnswer": "6 m",
       "difficulty": "standard",
@@ -532,10 +532,10 @@
       "type": "multiple_choice",
       "questionText": "A cube has edge length 7 cm. What is its volume?",
       "options": [
-        "49 cm³",
-        "343 cm³",
+        "147 cm³",
         "21 cm³",
-        "147 cm³"
+        "49 cm³",
+        "343 cm³"
       ],
       "correctAnswer": "343 cm³",
       "difficulty": "standard",
@@ -551,9 +551,9 @@
       "questionText": "Which integer is closest to ∛30?",
       "options": [
         "4",
-        "2",
         "3",
-        "5"
+        "5",
+        "2"
       ],
       "correctAnswer": "3",
       "difficulty": "standard",
@@ -568,10 +568,10 @@
       "type": "multiple_choice",
       "questionText": "Which integer is closest to ∛500?",
       "options": [
-        "7",
-        "9",
         "6",
-        "8"
+        "7",
+        "8",
+        "9"
       ],
       "correctAnswer": "8",
       "difficulty": "standard",
@@ -586,9 +586,9 @@
       "type": "multiple_choice",
       "questionText": "Which list contains only perfect cubes?",
       "options": [
-        "1, 8, 64, 216",
-        "8, 27, 81, 125",
         "0, 16, 64, 125",
+        "8, 27, 81, 125",
+        "1, 8, 64, 216",
         "1, 27, 100, 343"
       ],
       "correctAnswer": "1, 8, 64, 216",
@@ -605,9 +605,9 @@
       "questionText": "A student says 4³ = 4 × 3 = 12. What is the correction?",
       "options": [
         "4³ = 4 + 4 + 4 = 12",
-        "4³ = 4 × 4 × 4 = 64",
         "4³ = 3 × 3 × 3 = 27",
-        "4³ = 4 × 4 = 16"
+        "4³ = 4 × 4 = 16",
+        "4³ = 4 × 4 × 4 = 64"
       ],
       "correctAnswer": "4³ = 4 × 4 × 4 = 64",
       "difficulty": "standard",
@@ -622,10 +622,10 @@
       "type": "multiple_choice",
       "questionText": "If ∛n = 11, what is n?",
       "options": [
-        "121",
-        "33",
+        "11",
         "1331",
-        "11"
+        "33",
+        "121"
       ],
       "correctAnswer": "1331",
       "difficulty": "standard",
@@ -641,8 +641,8 @@
       "questionText": "A cube's edge length doubles from 3 cm to 6 cm. By what factor does its volume change?",
       "options": [
         "2",
-        "4",
         "6",
+        "4",
         "8"
       ],
       "correctAnswer": "8",
@@ -659,10 +659,10 @@
       "type": "multiple_choice",
       "questionText": "A cube's volume increases from 125 cm³ to 1000 cm³. By what factor does its edge length change?",
       "options": [
-        "2",
+        "5",
         "8",
         "4",
-        "5"
+        "2"
       ],
       "correctAnswer": "2",
       "difficulty": "challenge",
@@ -680,8 +680,8 @@
       "options": [
         "∛216",
         "∛300",
-        "∛343",
-        "∛400"
+        "∛400",
+        "∛343"
       ],
       "correctAnswer": "∛300",
       "difficulty": "challenge",
@@ -696,10 +696,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement about ∛600 is true?",
       "options": [
-        "7 < ∛600 < 8",
         "9 < ∛600 < 10",
-        "8 < ∛600 < 9",
-        "∛600 = 200"
+        "7 < ∛600 < 8",
+        "∛600 = 200",
+        "8 < ∛600 < 9"
       ],
       "correctAnswer": "8 < ∛600 < 9",
       "difficulty": "challenge",
@@ -714,10 +714,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 8x³ = 1728.",
       "options": [
-        "x = 216",
         "x = 12",
+        "x = 6",
         "x = 3",
-        "x = 6"
+        "x = 216"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "challenge",
@@ -732,10 +732,10 @@
       "type": "multiple_choice",
       "questionText": "Solve (x + 1)³ = 125.",
       "options": [
-        "x = 4",
-        "x = 5",
+        "x = 124",
         "x = -6",
-        "x = 124"
+        "x = 4",
+        "x = 5"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "challenge",
@@ -750,10 +750,10 @@
       "type": "multiple_choice",
       "questionText": "Which integer k satisfies 216 < k³ < 512?",
       "options": [
-        "6",
         "7",
-        "8",
-        "9"
+        "9",
+        "6",
+        "8"
       ],
       "correctAnswer": "7",
       "difficulty": "challenge",
@@ -768,10 +768,10 @@
       "type": "multiple_choice",
       "questionText": "Which is greater, ∛50 or ∛40, and why?",
       "options": [
+        "They cannot be compared without decimals",
         "∛40, because 40 is closer to a perfect cube",
         "They are equal because both lie between 3 and 4",
-        "∛50, because 50 > 40 and cube root preserves order",
-        "They cannot be compared without decimals"
+        "∛50, because 50 > 40 and cube root preserves order"
       ],
       "correctAnswer": "∛50, because 50 > 40 and cube root preserves order",
       "difficulty": "challenge",
@@ -786,9 +786,9 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(0.001 × 216)?",
       "options": [
+        "2.16",
         "6",
         "0.06",
-        "2.16",
         "0.6"
       ],
       "correctAnswer": "0.6",
@@ -805,9 +805,9 @@
       "questionText": "A cube-shaped container has volume 15.625 ft³. What is its edge length?",
       "options": [
         "2.5 ft",
-        "3.125 ft",
+        "1.25 ft",
         "5 ft",
-        "1.25 ft"
+        "3.125 ft"
       ],
       "correctAnswer": "2.5 ft",
       "difficulty": "challenge",
@@ -822,8 +822,8 @@
       "type": "multiple_choice",
       "questionText": "If a³ = b for real numbers a and b, which expression equals a?",
       "options": [
-        "b³",
         "∛b",
+        "b³",
         "3b",
         "-∛b"
       ],
@@ -840,10 +840,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement is always true for a real number n?",
       "options": [
-        "∛(n³) = |n|",
-        "∛n = n/3",
+        "∛(n + 1) = ∛n + 1",
         "∛(n³) = n",
-        "∛(n + 1) = ∛n + 1"
+        "∛(n³) = |n|",
+        "∛n = n/3"
       ],
       "correctAnswer": "∛(n³) = n",
       "difficulty": "challenge",
@@ -858,10 +858,10 @@
       "type": "multiple_choice",
       "questionText": "Without calculating a decimal, which perfect cube is closest to 350?",
       "options": [
-        "216",
-        "512",
         "125",
-        "343"
+        "216",
+        "343",
+        "512"
       ],
       "correctAnswer": "343",
       "difficulty": "challenge",
@@ -877,9 +877,9 @@
       "questionText": "A rectangular prism measures 4 cm by 8 cm by 16 cm. A cube has the same volume. What is the cube's edge length?",
       "options": [
         "8 cm",
+        "12 cm",
         "4 cm",
-        "16 cm",
-        "12 cm"
+        "16 cm"
       ],
       "correctAnswer": "8 cm",
       "difficulty": "challenge",
