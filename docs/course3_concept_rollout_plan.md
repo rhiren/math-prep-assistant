@@ -233,9 +233,19 @@ The current learner-ready Unit 2 packs are:
 
 Unit 2 is complete.
 
-The next Course 3 rollout work is Unit 3:
+The current learner-ready Unit 3 packs are:
 
 - Proportional Relationships as Lines
+- Understand Slope as Rate of Change
+- Find Slope from Graphs
+- Find Slope from Tables and Points
+- Compare Rates of Change
+- Similar Triangles and Constant Slope
+- Equations in the Form `y = mx`
+
+The next Course 3 rollout work is Unit 3:
+
+- Understand the `y`-Intercept
 
 Course 3 multiple-choice answer positions should remain balanced within each
 active test set so learners cannot infer the correct option from repeated

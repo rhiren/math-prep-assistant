@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-proportional-relationships-as-lines-core",
+  "conceptId": "concept-proportional-relationships-as-lines",
+  "type": "concept",
+  "title": "Proportional Relationships as Lines Core Test",
+  "description": "Connect proportional relationships to lines through the origin and equations of the form y = mx.",
+  "questions": [
+    {
+      "id": "course3-proportional-relationships-as-lines-core-001",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, 4) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = 4x",
+        "y = 1/2x",
+        "y = 2x + 2"
+      ],
+      "correctAnswer": "y = 2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-002",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 9) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 9x",
+        "y = 3x",
+        "y = 1/3x",
+        "y = 3x + 3"
+      ],
+      "correctAnswer": "y = 3x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-003",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = 2x",
+        "y = 1/2x",
+        "y = 1/2x + 4"
+      ],
+      "correctAnswer": "y = 1/2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-004",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 10/3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 5x",
+        "y = 10/3x",
+        "y = 3/2x",
+        "y = 2/3x"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-005",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, 9/2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3/4x",
+        "y = 6x",
+        "y = 9/2x",
+        "y = 4/3x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-006",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, 5) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = 5/2x",
+        "y = 5x",
+        "y = 2/5x"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-007",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, -6) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3x",
+        "y = -6x",
+        "y = -2x",
+        "y = -1/2x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-008",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, -6) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = -6x",
+        "y = -2/3x",
+        "y = -3/2x"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-009",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 4) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4/5x",
+        "y = 5x",
+        "y = 4x",
+        "y = 5/4x"
+      ],
+      "correctAnswer": "y = 4/5x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-010",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, 10) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 6x",
+        "y = 5/3x",
+        "y = 10x",
+        "y = 3/5x"
+      ],
+      "correctAnswer": "y = 5/3x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-011",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, -1) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = -1x",
+        "y = -1/2x",
+        "y = -2x"
+      ],
+      "correctAnswer": "y = -1/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-012",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 21/4) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3x",
+        "y = 21/4x",
+        "y = 4/7x",
+        "y = 7/4x"
+      ],
+      "correctAnswer": "y = 7/4x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-013",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 0) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 0",
+        "y = 4x",
+        "y = -x",
+        "y = x"
+      ],
+      "correctAnswer": "y = 0",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-014",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 6) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 5x",
+        "y = 6/5x",
+        "y = 6x",
+        "y = 5/6x"
+      ],
+      "correctAnswer": "y = 6/5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-015",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, 12) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 6x",
+        "y = 12x",
+        "y = 2x",
+        "y = 1/2x"
+      ],
+      "correctAnswer": "y = 2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-016",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, 6) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = 6x",
+        "y = 1/3x",
+        "y = 3x"
+      ],
+      "correctAnswer": "y = 3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-017",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 3/2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 1/2x",
+        "y = 3x",
+        "y = 3/2x",
+        "y = 2x"
+      ],
+      "correctAnswer": "y = 1/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-018",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 8/3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = 2/3x",
+        "y = 8/3x",
+        "y = 3/2x"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-019",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 15/4) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 5x",
+        "y = 15/4x",
+        "y = 3/4x",
+        "y = 4/3x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-020",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, 15) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 6x",
+        "y = 15x",
+        "y = 2/5x",
+        "y = 5/2x"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-021",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, -4) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = -2x",
+        "y = 2x",
+        "y = -4x",
+        "y = -1/2x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-022",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, -9/2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3x",
+        "y = -3/2x",
+        "y = -9/2x",
+        "y = -2/3x"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-023",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 16/5) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = 16/5x",
+        "y = 4/5x",
+        "y = 5/4x"
+      ],
+      "correctAnswer": "y = 4/5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-024",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 25/3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 5x",
+        "y = 25/3x",
+        "y = 3/5x",
+        "y = 5/3x"
+      ],
+      "correctAnswer": "y = 5/3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-025",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, -3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = -1/2x",
+        "y = 6x",
+        "y = -3x",
+        "y = -2x"
+      ],
+      "correctAnswer": "y = -1/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-026",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, 7/2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = 7/4x",
+        "y = 7/2x",
+        "y = 4/7x"
+      ],
+      "correctAnswer": "y = 7/4x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-027",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 0) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3x",
+        "y = -x",
+        "y = 0",
+        "y = x"
+      ],
+      "correctAnswer": "y = 0",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-028",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 24/5) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = 24/5x",
+        "y = 5/6x",
+        "y = 6/5x"
+      ],
+      "correctAnswer": "y = 6/5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-029",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 10) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = 5x",
+        "y = 10x",
+        "y = 1/2x"
+      ],
+      "correctAnswer": "y = 2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-030",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, 18) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 6x",
+        "y = 3x",
+        "y = 18x",
+        "y = 1/3x"
+      ],
+      "correctAnswer": "y = 3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-031",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, 1) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = 1x",
+        "y = 1/2x",
+        "y = 1/2x + 2"
+      ],
+      "correctAnswer": "y = 1/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-032",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3x",
+        "y = 2x",
+        "y = 3/2x",
+        "y = 2/3x"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-033",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3/4x",
+        "y = 4x",
+        "y = 3x",
+        "y = 4/3x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-034",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 25/2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 5x",
+        "y = 5/2x",
+        "y = 25/2x",
+        "y = 2/5x"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-035",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, -12) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 6x",
+        "y = -12x",
+        "y = -2x",
+        "y = -1/2x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-036",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, -3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = -3x",
+        "y = -2/3x",
+        "y = -3/2x"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-037",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 12/5) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4/5x",
+        "y = 3x",
+        "y = 12/5x",
+        "y = 5/4x"
+      ],
+      "correctAnswer": "y = 4/5x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-038",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 20/3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = 5/3x",
+        "y = 20/3x",
+        "y = 3/5x"
+      ],
+      "correctAnswer": "y = 5/3x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-039",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, -5/2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 5x",
+        "y = -5/2x",
+        "y = -1/2x",
+        "y = -2x"
+      ],
+      "correctAnswer": "y = -1/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-040",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, 21/2) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 6x",
+        "y = 21/2x",
+        "y = 4/7x",
+        "y = 7/4x"
+      ],
+      "correctAnswer": "y = 7/4x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-041",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, 0) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 0",
+        "y = 2x",
+        "y = -x",
+        "y = x"
+      ],
+      "correctAnswer": "y = 0",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-042",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 18/5) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3x",
+        "y = 6/5x",
+        "y = 18/5x",
+        "y = 5/6x"
+      ],
+      "correctAnswer": "y = 6/5x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-043",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 8) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = 8x",
+        "y = 2x",
+        "y = 1/2x"
+      ],
+      "correctAnswer": "y = 2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-044",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, 15) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 5x",
+        "y = 15x",
+        "y = 1/3x",
+        "y = 3x"
+      ],
+      "correctAnswer": "y = 3x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-045",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, 3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 1/2x",
+        "y = 6x",
+        "y = 3x",
+        "y = 2x"
+      ],
+      "correctAnswer": "y = 1/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-046",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (2, 4/3) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 2x",
+        "y = 2/3x",
+        "y = 4/3x",
+        "y = 3/2x"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-047",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (3, 9/4) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 3x",
+        "y = 9/4x",
+        "y = 3/4x",
+        "y = 4/3x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-048",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (4, 10) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 4x",
+        "y = 10x",
+        "y = 2/5x",
+        "y = 5/2x"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-049",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (5, -10) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = -2x",
+        "y = 5x",
+        "y = -10x",
+        "y = -1/2x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    },
+    {
+      "id": "course3-proportional-relationships-as-lines-core-050",
+      "type": "multiple_choice",
+      "questionText": "A proportional relationship includes the point (6, -9) and the origin. Which equation represents its graph?",
+      "options": [
+        "y = 6x",
+        "y = -3/2x",
+        "y = -9x",
+        "y = -2/3x"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "A proportional relationship graphs as a line through the origin, and its equation has the form y = mx where m = y/x."
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "testId": "course3-find-slope-tables-points-core",
+  "conceptId": "concept-find-slope-tables-points",
+  "type": "concept",
+  "title": "Find Slope from Tables and Points Core Test",
+  "description": "Calculate slope from tables and coordinate pairs using change in y over change in x.",
+  "questions": [
+    {
+      "id": "course3-find-slope-tables-points-core-001",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, -1), (1, -3), and (2, -5). What is the slope?",
+      "options": [
+        "slope = -2",
+        "slope = -1/2",
+        "slope = 2",
+        "slope = -1"
+      ],
+      "correctAnswer": "slope = -2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-002",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 0), (3, -3), and (5, -6). What is the slope?",
+      "options": [
+        "slope = -2/3",
+        "slope = -3/2",
+        "slope = 3/2",
+        "slope = -1/2"
+      ],
+      "correctAnswer": "slope = -3/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-003",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 1), (7, 5), and (12, 9). What is the slope?",
+      "options": [
+        "slope = 5/4",
+        "slope = -4/5",
+        "slope = 4/5",
+        "slope = 9/5"
+      ],
+      "correctAnswer": "slope = 4/5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-004",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 2), (3, 7), and (6, 12). What is the slope?",
+      "options": [
+        "slope = 3/5",
+        "slope = -5/3",
+        "slope = 8/3",
+        "slope = 5/3"
+      ],
+      "correctAnswer": "slope = 5/3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-005",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 3), (3, 2), and (5, 1). What is the slope?",
+      "options": [
+        "slope = -1/2",
+        "slope = -2",
+        "slope = 1/2",
+        "slope = -3/2"
+      ],
+      "correctAnswer": "slope = -1/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-006",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, -1), (6, 6), and (10, 13). What is the slope?",
+      "options": [
+        "slope = 4/7",
+        "slope = 7/4",
+        "slope = -7/4",
+        "slope = 11/4"
+      ],
+      "correctAnswer": "slope = 7/4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-007",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 0), (1, 0), and (2, 0). What is the slope?",
+      "options": [
+        "slope = 1",
+        "slope = -1",
+        "slope = 0",
+        "slope = 2"
+      ],
+      "correctAnswer": "slope = 0",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-008",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 1), (6, 7), and (11, 13). What is the slope?",
+      "options": [
+        "slope = 5/6",
+        "slope = -6/5",
+        "slope = 11/5",
+        "slope = 6/5"
+      ],
+      "correctAnswer": "slope = 6/5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-009",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 2), (3, 4), and (4, 6). What is the slope?",
+      "options": [
+        "slope = 2",
+        "slope = 1/2",
+        "slope = -2",
+        "slope = 3"
+      ],
+      "correctAnswer": "slope = 2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-010",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 3), (1, 6), and (2, 9). What is the slope?",
+      "options": [
+        "slope = 1/3",
+        "slope = 3",
+        "slope = -3",
+        "slope = 4"
+      ],
+      "correctAnswer": "slope = 3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-011",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, -1), (3, 0), and (5, 1). What is the slope?",
+      "options": [
+        "slope = 2",
+        "slope = -1/2",
+        "slope = 1/2",
+        "slope = 3/2"
+      ],
+      "correctAnswer": "slope = 1/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-012",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 0), (5, 2), and (8, 4). What is the slope?",
+      "options": [
+        "slope = 3/2",
+        "slope = -2/3",
+        "slope = 5/3",
+        "slope = 2/3"
+      ],
+      "correctAnswer": "slope = 2/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-013",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 1), (4, 4), and (8, 7). What is the slope?",
+      "options": [
+        "slope = 3/4",
+        "slope = 4/3",
+        "slope = -3/4",
+        "slope = 7/4"
+      ],
+      "correctAnswer": "slope = 3/4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-014",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 2), (3, 7), and (5, 12). What is the slope?",
+      "options": [
+        "slope = 2/5",
+        "slope = 5/2",
+        "slope = -5/2",
+        "slope = 7/2"
+      ],
+      "correctAnswer": "slope = 5/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-015",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 3), (3, 1), and (4, -1). What is the slope?",
+      "options": [
+        "slope = -1/2",
+        "slope = 2",
+        "slope = -2",
+        "slope = -1"
+      ],
+      "correctAnswer": "slope = -2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-016",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, -1), (2, -4), and (4, -7). What is the slope?",
+      "options": [
+        "slope = -2/3",
+        "slope = 3/2",
+        "slope = -1/2",
+        "slope = -3/2"
+      ],
+      "correctAnswer": "slope = -3/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-017",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 0), (6, 4), and (11, 8). What is the slope?",
+      "options": [
+        "slope = 4/5",
+        "slope = 5/4",
+        "slope = -4/5",
+        "slope = 9/5"
+      ],
+      "correctAnswer": "slope = 4/5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-018",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 1), (5, 6), and (8, 11). What is the slope?",
+      "options": [
+        "slope = 3/5",
+        "slope = 5/3",
+        "slope = -5/3",
+        "slope = 8/3"
+      ],
+      "correctAnswer": "slope = 5/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-019",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 2), (2, 1), and (4, 0). What is the slope?",
+      "options": [
+        "slope = -2",
+        "slope = 1/2",
+        "slope = -1/2",
+        "slope = -3/2"
+      ],
+      "correctAnswer": "slope = -1/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-020",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 3), (5, 10), and (9, 17). What is the slope?",
+      "options": [
+        "slope = 4/7",
+        "slope = -7/4",
+        "slope = 11/4",
+        "slope = 7/4"
+      ],
+      "correctAnswer": "slope = 7/4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-021",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, -1), (3, -1), and (4, -1). What is the slope?",
+      "options": [
+        "slope = 0",
+        "slope = 1",
+        "slope = -1",
+        "slope = 2"
+      ],
+      "correctAnswer": "slope = 0",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-022",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 0), (5, 6), and (10, 12). What is the slope?",
+      "options": [
+        "slope = 5/6",
+        "slope = 6/5",
+        "slope = -6/5",
+        "slope = 11/5"
+      ],
+      "correctAnswer": "slope = 6/5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-023",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 1), (2, 3), and (3, 5). What is the slope?",
+      "options": [
+        "slope = 1/2",
+        "slope = -2",
+        "slope = 2",
+        "slope = 3"
+      ],
+      "correctAnswer": "slope = 2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-024",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 2), (3, 5), and (4, 8). What is the slope?",
+      "options": [
+        "slope = 1/3",
+        "slope = -3",
+        "slope = 4",
+        "slope = 3"
+      ],
+      "correctAnswer": "slope = 3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-025",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 3), (2, 4), and (4, 5). What is the slope?",
+      "options": [
+        "slope = 1/2",
+        "slope = 2",
+        "slope = -1/2",
+        "slope = 3/2"
+      ],
+      "correctAnswer": "slope = 1/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-026",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, -1), (4, 1), and (7, 3). What is the slope?",
+      "options": [
+        "slope = 3/2",
+        "slope = 2/3",
+        "slope = -2/3",
+        "slope = 5/3"
+      ],
+      "correctAnswer": "slope = 2/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-027",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 0), (6, 3), and (10, 6). What is the slope?",
+      "options": [
+        "slope = 4/3",
+        "slope = -3/4",
+        "slope = 3/4",
+        "slope = 7/4"
+      ],
+      "correctAnswer": "slope = 3/4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-028",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 1), (2, 6), and (4, 11). What is the slope?",
+      "options": [
+        "slope = 2/5",
+        "slope = -5/2",
+        "slope = 7/2",
+        "slope = 5/2"
+      ],
+      "correctAnswer": "slope = 5/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-029",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 2), (2, 0), and (3, -2). What is the slope?",
+      "options": [
+        "slope = -2",
+        "slope = -1/2",
+        "slope = 2",
+        "slope = -1"
+      ],
+      "correctAnswer": "slope = -2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-030",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 3), (4, 0), and (6, -3). What is the slope?",
+      "options": [
+        "slope = -2/3",
+        "slope = -3/2",
+        "slope = 3/2",
+        "slope = -1/2"
+      ],
+      "correctAnswer": "slope = -3/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-031",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, -1), (5, 3), and (10, 7). What is the slope?",
+      "options": [
+        "slope = 5/4",
+        "slope = -4/5",
+        "slope = 4/5",
+        "slope = 9/5"
+      ],
+      "correctAnswer": "slope = 4/5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-032",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 0), (4, 5), and (7, 10). What is the slope?",
+      "options": [
+        "slope = 3/5",
+        "slope = -5/3",
+        "slope = 8/3",
+        "slope = 5/3"
+      ],
+      "correctAnswer": "slope = 5/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-033",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 1), (4, 0), and (6, -1). What is the slope?",
+      "options": [
+        "slope = -1/2",
+        "slope = -2",
+        "slope = 1/2",
+        "slope = -3/2"
+      ],
+      "correctAnswer": "slope = -1/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-034",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 2), (4, 9), and (8, 16). What is the slope?",
+      "options": [
+        "slope = 4/7",
+        "slope = 7/4",
+        "slope = -7/4",
+        "slope = 11/4"
+      ],
+      "correctAnswer": "slope = 7/4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-035",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 3), (2, 3), and (3, 3). What is the slope?",
+      "options": [
+        "slope = 1",
+        "slope = -1",
+        "slope = 0",
+        "slope = 2"
+      ],
+      "correctAnswer": "slope = 0",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-036",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, -1), (7, 5), and (12, 11). What is the slope?",
+      "options": [
+        "slope = 5/6",
+        "slope = -6/5",
+        "slope = 11/5",
+        "slope = 6/5"
+      ],
+      "correctAnswer": "slope = 6/5",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-037",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 0), (1, 2), and (2, 4). What is the slope?",
+      "options": [
+        "slope = 2",
+        "slope = 1/2",
+        "slope = -2",
+        "slope = 3"
+      ],
+      "correctAnswer": "slope = 2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-038",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 1), (2, 4), and (3, 7). What is the slope?",
+      "options": [
+        "slope = 1/3",
+        "slope = 3",
+        "slope = -3",
+        "slope = 4"
+      ],
+      "correctAnswer": "slope = 3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-039",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 2), (4, 3), and (6, 4). What is the slope?",
+      "options": [
+        "slope = 2",
+        "slope = -1/2",
+        "slope = 1/2",
+        "slope = 3/2"
+      ],
+      "correctAnswer": "slope = 1/2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-040",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 3), (3, 5), and (6, 7). What is the slope?",
+      "options": [
+        "slope = 3/2",
+        "slope = -2/3",
+        "slope = 5/3",
+        "slope = 2/3"
+      ],
+      "correctAnswer": "slope = 2/3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-041",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, -1), (5, 2), and (9, 5). What is the slope?",
+      "options": [
+        "slope = 3/4",
+        "slope = 4/3",
+        "slope = -3/4",
+        "slope = 7/4"
+      ],
+      "correctAnswer": "slope = 3/4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-042",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 0), (4, 5), and (6, 10). What is the slope?",
+      "options": [
+        "slope = 2/5",
+        "slope = 5/2",
+        "slope = -5/2",
+        "slope = 7/2"
+      ],
+      "correctAnswer": "slope = 5/2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-043",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 1), (1, -1), and (2, -3). What is the slope?",
+      "options": [
+        "slope = -1/2",
+        "slope = 2",
+        "slope = -2",
+        "slope = -1"
+      ],
+      "correctAnswer": "slope = -2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-044",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 2), (3, -1), and (5, -4). What is the slope?",
+      "options": [
+        "slope = -2/3",
+        "slope = 3/2",
+        "slope = -1/2",
+        "slope = -3/2"
+      ],
+      "correctAnswer": "slope = -3/2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-045",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 3), (7, 7), and (12, 11). What is the slope?",
+      "options": [
+        "slope = 4/5",
+        "slope = 5/4",
+        "slope = -4/5",
+        "slope = 9/5"
+      ],
+      "correctAnswer": "slope = 4/5",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-046",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, -1), (3, 4), and (6, 9). What is the slope?",
+      "options": [
+        "slope = 3/5",
+        "slope = 5/3",
+        "slope = -5/3",
+        "slope = 8/3"
+      ],
+      "correctAnswer": "slope = 5/3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-047",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 0), (3, -1), and (5, -2). What is the slope?",
+      "options": [
+        "slope = -2",
+        "slope = 1/2",
+        "slope = -1/2",
+        "slope = -3/2"
+      ],
+      "correctAnswer": "slope = -1/2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-048",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (2, 1), (6, 8), and (10, 15). What is the slope?",
+      "options": [
+        "slope = 4/7",
+        "slope = -7/4",
+        "slope = 11/4",
+        "slope = 7/4"
+      ],
+      "correctAnswer": "slope = 7/4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-049",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (0, 2), (1, 2), and (2, 2). What is the slope?",
+      "options": [
+        "slope = 0",
+        "slope = 1",
+        "slope = -1",
+        "slope = 2"
+      ],
+      "correctAnswer": "slope = 0",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    },
+    {
+      "id": "course3-find-slope-tables-points-core-050",
+      "type": "multiple_choice",
+      "questionText": "The table shows points (1, 3), (6, 9), and (11, 15). What is the slope?",
+      "options": [
+        "slope = 5/6",
+        "slope = 6/5",
+        "slope = -6/5",
+        "slope = 11/5"
+      ],
+      "correctAnswer": "slope = 6/5",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Choose any two rows and divide the change in y by the change in x."
+    }
+  ]
+}

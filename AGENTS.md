@@ -312,6 +312,13 @@ The current Course 3 learner-ready sequence is:
 - `Linear Equation Word Problems`
 - `Check and Explain Equation Solutions`
 - `Unit 2 Mixed Review`
+- `Proportional Relationships as Lines`
+- `Understand Slope as Rate of Change`
+- `Find Slope from Graphs`
+- `Find Slope from Tables and Points`
+- `Compare Rates of Change`
+- `Similar Triangles and Constant Slope`
+- `Equations in the Form y = mx`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in

@@ -383,6 +383,55 @@ describe("content repository", () => {
         coreTestId: "course3-unit-2-mixed-review-core",
         reviewTestId: "course3-unit-2-mixed-review-review",
       },
+      {
+        conceptId: "concept-proportional-relationships-as-lines",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Proportional Relationships as Lines",
+        coreTestId: "course3-proportional-relationships-as-lines-core",
+        reviewTestId: "course3-proportional-relationships-as-lines-review",
+      },
+      {
+        conceptId: "concept-understand-slope-rate-change",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Understand Slope as Rate of Change",
+        coreTestId: "course3-understand-slope-rate-change-core",
+        reviewTestId: "course3-understand-slope-rate-change-review",
+      },
+      {
+        conceptId: "concept-find-slope-from-graphs",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Find Slope from Graphs",
+        coreTestId: "course3-find-slope-from-graphs-core",
+        reviewTestId: "course3-find-slope-from-graphs-review",
+      },
+      {
+        conceptId: "concept-find-slope-tables-points",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Find Slope from Tables and Points",
+        coreTestId: "course3-find-slope-tables-points-core",
+        reviewTestId: "course3-find-slope-tables-points-review",
+      },
+      {
+        conceptId: "concept-compare-rates-of-change",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Compare Rates of Change",
+        coreTestId: "course3-compare-rates-of-change-core",
+        reviewTestId: "course3-compare-rates-of-change-review",
+      },
+      {
+        conceptId: "concept-similar-triangles-constant-slope",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Similar Triangles and Constant Slope",
+        coreTestId: "course3-similar-triangles-constant-slope-core",
+        reviewTestId: "course3-similar-triangles-constant-slope-review",
+      },
+      {
+        conceptId: "concept-equations-y-equals-mx",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Equations in the Form y = mx",
+        coreTestId: "course3-equations-y-equals-mx-core",
+        reviewTestId: "course3-equations-y-equals-mx-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -394,6 +443,8 @@ describe("content repository", () => {
     expect(course?.units[0]?.concepts).toHaveLength(12);
     expect(course?.units[1]?.id).toBe("course3-unit-linear-equations");
     expect(course?.units[1]?.concepts).toHaveLength(10);
+    expect(course?.units[2]?.id).toBe("course3-unit-lines-slope-linear-equations");
+    expect(course?.units[2]?.concepts).toHaveLength(7);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);
