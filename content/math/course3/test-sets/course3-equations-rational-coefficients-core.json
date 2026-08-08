@@ -1,0 +1,959 @@
+{
+  "testId": "course3-equations-rational-coefficients-core",
+  "conceptId": "concept-equations-rational-coefficients",
+  "type": "concept",
+  "title": "Equations with Rational Coefficients Core Test",
+  "description": "Solve one-variable equations with fraction and decimal coefficients by clearing denominators, combining terms, and checking solutions.",
+  "questions": [
+    {
+      "id": "course3-equations-rational-coefficients-core-001",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 9/2.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = -6"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-002",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 331/30.",
+      "options": [
+        "x = 9",
+        "x = 8",
+        "x = 7",
+        "x = -8"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-003",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x - 7/12.",
+      "options": [
+        "x = -3/2",
+        "x = -7/2",
+        "x = -5/2",
+        "x = 5/2"
+      ],
+      "correctAnswer": "x = -5/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-004",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 8.",
+      "options": [
+        "x = -2",
+        "x = -4",
+        "x = 3",
+        "x = -3"
+      ],
+      "correctAnswer": "x = -3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-005",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x + 41/20.",
+      "options": [
+        "x = 3/2",
+        "x = 5/2",
+        "x = 1/2",
+        "x = -3/2"
+      ],
+      "correctAnswer": "x = 3/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-006",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 49/10.",
+      "options": [
+        "x = 5",
+        "x = 4",
+        "x = 3",
+        "x = -4"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-007",
+      "type": "multiple_choice",
+      "questionText": "Solve -3/2x + 1/4 = 1/3x - 151/12.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 7",
+        "x = -7"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-008",
+      "type": "multiple_choice",
+      "questionText": "Solve 7/10x - 5 = -1/2x + 1/5.",
+      "options": [
+        "x = 16/3",
+        "x = 10/3",
+        "x = -13/3",
+        "x = 13/3"
+      ],
+      "correctAnswer": "x = 13/3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-009",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 17/4.",
+      "options": [
+        "x = 5",
+        "x = 6",
+        "x = 4",
+        "x = -5"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-010",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 251/30.",
+      "options": [
+        "x = 13/2",
+        "x = 11/2",
+        "x = 9/2",
+        "x = -11/2"
+      ],
+      "correctAnswer": "x = 11/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-011",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x + 13/4.",
+      "options": [
+        "x = 10",
+        "x = 8",
+        "x = 9",
+        "x = -9"
+      ],
+      "correctAnswer": "x = 9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-012",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 9.",
+      "options": [
+        "x = -3",
+        "x = -5",
+        "x = 4",
+        "x = -4"
+      ],
+      "correctAnswer": "x = -4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-013",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x - 4/5.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = -6"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-014",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 73/10.",
+      "options": [
+        "x = 9",
+        "x = 8",
+        "x = 7",
+        "x = -8"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-015",
+      "type": "multiple_choice",
+      "questionText": "Solve -3/2x + 1/4 = 1/3x + 29/6.",
+      "options": [
+        "x = -3/2",
+        "x = -7/2",
+        "x = -5/2",
+        "x = 5/2"
+      ],
+      "correctAnswer": "x = -5/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-016",
+      "type": "multiple_choice",
+      "questionText": "Solve 7/10x - 5 = -1/2x - 43/5.",
+      "options": [
+        "x = -2",
+        "x = -4",
+        "x = 3",
+        "x = -3"
+      ],
+      "correctAnswer": "x = -3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-017",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 27/8.",
+      "options": [
+        "x = 3/2",
+        "x = 5/2",
+        "x = 1/2",
+        "x = -3/2"
+      ],
+      "correctAnswer": "x = 3/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-018",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 203/30.",
+      "options": [
+        "x = 5",
+        "x = 4",
+        "x = 3",
+        "x = -4"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-019",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x + 31/12.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 7",
+        "x = -7"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-020",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 2/3.",
+      "options": [
+        "x = 16/3",
+        "x = 10/3",
+        "x = -13/3",
+        "x = 13/3"
+      ],
+      "correctAnswer": "x = 13/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-021",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x - 1/6.",
+      "options": [
+        "x = 5",
+        "x = 6",
+        "x = 4",
+        "x = -5"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-022",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 29/5.",
+      "options": [
+        "x = 13/2",
+        "x = 11/2",
+        "x = 9/2",
+        "x = -11/2"
+      ],
+      "correctAnswer": "x = 11/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-023",
+      "type": "multiple_choice",
+      "questionText": "Solve -3/2x + 1/4 = 1/3x - 65/4.",
+      "options": [
+        "x = 10",
+        "x = 8",
+        "x = 9",
+        "x = -9"
+      ],
+      "correctAnswer": "x = 9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-024",
+      "type": "multiple_choice",
+      "questionText": "Solve 7/10x - 5 = -1/2x - 49/5.",
+      "options": [
+        "x = -3",
+        "x = -5",
+        "x = 4",
+        "x = -4"
+      ],
+      "correctAnswer": "x = -4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-025",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 9/2.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = -6"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-026",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 331/30.",
+      "options": [
+        "x = 9",
+        "x = 8",
+        "x = 7",
+        "x = -8"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-027",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x - 7/12.",
+      "options": [
+        "x = -3/2",
+        "x = -7/2",
+        "x = -5/2",
+        "x = 5/2"
+      ],
+      "correctAnswer": "x = -5/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-028",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 8.",
+      "options": [
+        "x = -2",
+        "x = -4",
+        "x = 3",
+        "x = -3"
+      ],
+      "correctAnswer": "x = -3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-029",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x + 41/20.",
+      "options": [
+        "x = 3/2",
+        "x = 5/2",
+        "x = 1/2",
+        "x = -3/2"
+      ],
+      "correctAnswer": "x = 3/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-030",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 49/10.",
+      "options": [
+        "x = 5",
+        "x = 4",
+        "x = 3",
+        "x = -4"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-031",
+      "type": "multiple_choice",
+      "questionText": "Solve -3/2x + 1/4 = 1/3x - 151/12.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 7",
+        "x = -7"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-032",
+      "type": "multiple_choice",
+      "questionText": "Solve 7/10x - 5 = -1/2x + 1/5.",
+      "options": [
+        "x = 16/3",
+        "x = 10/3",
+        "x = -13/3",
+        "x = 13/3"
+      ],
+      "correctAnswer": "x = 13/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-033",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 17/4.",
+      "options": [
+        "x = 5",
+        "x = 6",
+        "x = 4",
+        "x = -5"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-034",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 251/30.",
+      "options": [
+        "x = 13/2",
+        "x = 11/2",
+        "x = 9/2",
+        "x = -11/2"
+      ],
+      "correctAnswer": "x = 11/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-035",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x + 13/4.",
+      "options": [
+        "x = 10",
+        "x = 8",
+        "x = 9",
+        "x = -9"
+      ],
+      "correctAnswer": "x = 9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-036",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 9.",
+      "options": [
+        "x = -3",
+        "x = -5",
+        "x = 4",
+        "x = -4"
+      ],
+      "correctAnswer": "x = -4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-037",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x - 4/5.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = -6"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-038",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 73/10.",
+      "options": [
+        "x = 9",
+        "x = 8",
+        "x = 7",
+        "x = -8"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-039",
+      "type": "multiple_choice",
+      "questionText": "Solve -3/2x + 1/4 = 1/3x + 29/6.",
+      "options": [
+        "x = -3/2",
+        "x = -7/2",
+        "x = -5/2",
+        "x = 5/2"
+      ],
+      "correctAnswer": "x = -5/2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-040",
+      "type": "multiple_choice",
+      "questionText": "Solve 7/10x - 5 = -1/2x - 43/5.",
+      "options": [
+        "x = -2",
+        "x = -4",
+        "x = 3",
+        "x = -3"
+      ],
+      "correctAnswer": "x = -3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-041",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 27/8.",
+      "options": [
+        "x = 3/2",
+        "x = 5/2",
+        "x = 1/2",
+        "x = -3/2"
+      ],
+      "correctAnswer": "x = 3/2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-042",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 203/30.",
+      "options": [
+        "x = 5",
+        "x = 4",
+        "x = 3",
+        "x = -4"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-043",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x + 31/12.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 7",
+        "x = -7"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-044",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 2/3.",
+      "options": [
+        "x = 16/3",
+        "x = 10/3",
+        "x = -13/3",
+        "x = 13/3"
+      ],
+      "correctAnswer": "x = 13/3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-045",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x - 1/6.",
+      "options": [
+        "x = 5",
+        "x = 6",
+        "x = 4",
+        "x = -5"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-046",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 29/5.",
+      "options": [
+        "x = 13/2",
+        "x = 11/2",
+        "x = 9/2",
+        "x = -11/2"
+      ],
+      "correctAnswer": "x = 11/2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-047",
+      "type": "multiple_choice",
+      "questionText": "Solve -3/2x + 1/4 = 1/3x - 65/4.",
+      "options": [
+        "x = 10",
+        "x = 8",
+        "x = 9",
+        "x = -9"
+      ],
+      "correctAnswer": "x = 9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-048",
+      "type": "multiple_choice",
+      "questionText": "Solve 7/10x - 5 = -1/2x - 49/5.",
+      "options": [
+        "x = -3",
+        "x = -5",
+        "x = 4",
+        "x = -4"
+      ],
+      "correctAnswer": "x = -4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-049",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 9/2.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = -6"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-equations-rational-coefficients-core-050",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 331/30.",
+      "options": [
+        "x = 9",
+        "x = 8",
+        "x = 7",
+        "x = -8"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    }
+  ]
+}

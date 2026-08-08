@@ -1,0 +1,389 @@
+{
+  "testId": "course3-check-explain-equation-solutions-review",
+  "conceptId": "concept-check-explain-equation-solutions",
+  "type": "review",
+  "title": "Check and Explain Equation Solutions Review Test",
+  "description": "Check proposed solutions in original equations and explain whether solving steps preserve equality.",
+  "questions": [
+    {
+      "id": "course3-check-explain-equation-solutions-review-001",
+      "type": "multiple_choice",
+      "questionText": "Does x = 5 solve 4x + 3 = 2x + 13?",
+      "options": [
+        "Yes, both sides equal 23.",
+        "No, the left side is 20.",
+        "No, the right side is 13.",
+        "Yes, both sides equal 18."
+      ],
+      "correctAnswer": "Yes, both sides equal 23.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-002",
+      "type": "multiple_choice",
+      "questionText": "Does x = -2 solve 3x - 4 = x - 8?",
+      "options": [
+        "No, both sides equal 10.",
+        "Yes, both sides equal -10.",
+        "No, only the left side is -10.",
+        "Yes, both sides equal -6."
+      ],
+      "correctAnswer": "Yes, both sides equal -10.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-003",
+      "type": "multiple_choice",
+      "questionText": "A student solves 2(x + 3) = 18 by writing 2x + 3 = 18. What is the first mistake?",
+      "options": [
+        "They should subtract 18 first.",
+        "They divided by 2 too early.",
+        "They did not distribute 2 to both terms.",
+        "There is no mistake."
+      ],
+      "correctAnswer": "They did not distribute 2 to both terms.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-004",
+      "type": "multiple_choice",
+      "questionText": "A student solves 5x + 7 = 2x + 19 by subtracting 2x to get 3x + 7 = 19. Is this step valid?",
+      "options": [
+        "No, variable terms cannot move sides.",
+        "No, the result should be 7x + 7 = 19.",
+        "No, they should divide by 3 first.",
+        "Yes, subtracting 2x from both sides keeps the equation equivalent."
+      ],
+      "correctAnswer": "Yes, subtracting 2x from both sides keeps the equation equivalent.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-005",
+      "type": "multiple_choice",
+      "questionText": "Which check proves x = 4 solves 3x + 1 = x + 9?",
+      "options": [
+        "3(4) + 1 = 13 and 4 + 9 = 13",
+        "3(4) + 1 = 12 and 4 + 9 = 13",
+        "3 + 4 + 1 = 8 and 4 + 9 = 13",
+        "3(9) + 1 = 28 and 4 + 9 = 13"
+      ],
+      "correctAnswer": "3(4) + 1 = 13 and 4 + 9 = 13",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-006",
+      "type": "multiple_choice",
+      "questionText": "A student changes 1/2x = 6 to x = 6/2. What should they do instead?",
+      "options": [
+        "Divide both sides by 2 to get x = 3.",
+        "Multiply both sides by 2 to get x = 12.",
+        "Subtract 1/2 from both sides.",
+        "The step is already correct."
+      ],
+      "correctAnswer": "Multiply both sides by 2 to get x = 12.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-007",
+      "type": "multiple_choice",
+      "questionText": "Which statement best explains why x = 3 does not solve 8x + 1 = 5x + 16?",
+      "options": [
+        "The left side is 24 and the right side is 15.",
+        "Both sides equal 25.",
+        "The left side is 25 and the right side is 31.",
+        "Both sides equal 31."
+      ],
+      "correctAnswer": "The left side is 25 and the right side is 31.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-008",
+      "type": "multiple_choice",
+      "questionText": "A student solves 4x - 6 = 2x + 8 and gets 2x - 6 = 8. What property justifies that step?",
+      "options": [
+        "Dividing both sides by 2 preserves equality.",
+        "Adding 6 to both sides preserves equality.",
+        "The distributive property preserves equality.",
+        "Subtracting 2x from both sides preserves equality."
+      ],
+      "correctAnswer": "Subtracting 2x from both sides preserves equality.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-009",
+      "type": "multiple_choice",
+      "questionText": "Does x = 5 solve 4x + 3 = 2x + 13?",
+      "options": [
+        "Yes, both sides equal 23.",
+        "No, the left side is 20.",
+        "No, the right side is 13.",
+        "Yes, both sides equal 18."
+      ],
+      "correctAnswer": "Yes, both sides equal 23.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-010",
+      "type": "multiple_choice",
+      "questionText": "Does x = -2 solve 3x - 4 = x - 8?",
+      "options": [
+        "No, both sides equal 10.",
+        "Yes, both sides equal -10.",
+        "No, only the left side is -10.",
+        "Yes, both sides equal -6."
+      ],
+      "correctAnswer": "Yes, both sides equal -10.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-011",
+      "type": "multiple_choice",
+      "questionText": "A student solves 2(x + 3) = 18 by writing 2x + 3 = 18. What is the first mistake?",
+      "options": [
+        "They should subtract 18 first.",
+        "They divided by 2 too early.",
+        "They did not distribute 2 to both terms.",
+        "There is no mistake."
+      ],
+      "correctAnswer": "They did not distribute 2 to both terms.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-012",
+      "type": "multiple_choice",
+      "questionText": "A student solves 5x + 7 = 2x + 19 by subtracting 2x to get 3x + 7 = 19. Is this step valid?",
+      "options": [
+        "No, variable terms cannot move sides.",
+        "No, the result should be 7x + 7 = 19.",
+        "No, they should divide by 3 first.",
+        "Yes, subtracting 2x from both sides keeps the equation equivalent."
+      ],
+      "correctAnswer": "Yes, subtracting 2x from both sides keeps the equation equivalent.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-013",
+      "type": "multiple_choice",
+      "questionText": "Which check proves x = 4 solves 3x + 1 = x + 9?",
+      "options": [
+        "3(4) + 1 = 13 and 4 + 9 = 13",
+        "3(4) + 1 = 12 and 4 + 9 = 13",
+        "3 + 4 + 1 = 8 and 4 + 9 = 13",
+        "3(9) + 1 = 28 and 4 + 9 = 13"
+      ],
+      "correctAnswer": "3(4) + 1 = 13 and 4 + 9 = 13",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-014",
+      "type": "multiple_choice",
+      "questionText": "A student changes 1/2x = 6 to x = 6/2. What should they do instead?",
+      "options": [
+        "Divide both sides by 2 to get x = 3.",
+        "Multiply both sides by 2 to get x = 12.",
+        "Subtract 1/2 from both sides.",
+        "The step is already correct."
+      ],
+      "correctAnswer": "Multiply both sides by 2 to get x = 12.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-015",
+      "type": "multiple_choice",
+      "questionText": "Which statement best explains why x = 3 does not solve 8x + 1 = 5x + 16?",
+      "options": [
+        "The left side is 24 and the right side is 15.",
+        "Both sides equal 25.",
+        "The left side is 25 and the right side is 31.",
+        "Both sides equal 31."
+      ],
+      "correctAnswer": "The left side is 25 and the right side is 31.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-016",
+      "type": "multiple_choice",
+      "questionText": "A student solves 4x - 6 = 2x + 8 and gets 2x - 6 = 8. What property justifies that step?",
+      "options": [
+        "Dividing both sides by 2 preserves equality.",
+        "Adding 6 to both sides preserves equality.",
+        "The distributive property preserves equality.",
+        "Subtracting 2x from both sides preserves equality."
+      ],
+      "correctAnswer": "Subtracting 2x from both sides preserves equality.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-017",
+      "type": "multiple_choice",
+      "questionText": "Does x = 5 solve 4x + 3 = 2x + 13?",
+      "options": [
+        "Yes, both sides equal 23.",
+        "No, the left side is 20.",
+        "No, the right side is 13.",
+        "Yes, both sides equal 18."
+      ],
+      "correctAnswer": "Yes, both sides equal 23.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-018",
+      "type": "multiple_choice",
+      "questionText": "Does x = -2 solve 3x - 4 = x - 8?",
+      "options": [
+        "No, both sides equal 10.",
+        "Yes, both sides equal -10.",
+        "No, only the left side is -10.",
+        "Yes, both sides equal -6."
+      ],
+      "correctAnswer": "Yes, both sides equal -10.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-019",
+      "type": "multiple_choice",
+      "questionText": "A student solves 2(x + 3) = 18 by writing 2x + 3 = 18. What is the first mistake?",
+      "options": [
+        "They should subtract 18 first.",
+        "They divided by 2 too early.",
+        "They did not distribute 2 to both terms.",
+        "There is no mistake."
+      ],
+      "correctAnswer": "They did not distribute 2 to both terms.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    },
+    {
+      "id": "course3-check-explain-equation-solutions-review-020",
+      "type": "multiple_choice",
+      "questionText": "A student solves 5x + 7 = 2x + 19 by subtracting 2x to get 3x + 7 = 19. Is this step valid?",
+      "options": [
+        "No, variable terms cannot move sides.",
+        "No, the result should be 7x + 7 = 19.",
+        "No, they should divide by 3 first.",
+        "Yes, subtracting 2x from both sides keeps the equation equivalent."
+      ],
+      "correctAnswer": "Yes, subtracting 2x from both sides keeps the equation equivalent.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "conceptual"
+      ],
+      "explanation": "A solution must make the original equation true, and every solving step must preserve equality."
+    }
+  ]
+}

@@ -29,8 +29,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 2⁻².",
       "options": [
-        "1/4",
         "4",
+        "1/4",
         "-4",
         "1/2"
       ],
@@ -48,9 +48,9 @@
       "type": "multiple_choice",
       "questionText": "Rewrite y⁻⁵ with a positive exponent.",
       "options": [
-        "1/y⁵",
         "y⁵",
         "-y⁵",
+        "1/y⁵",
         "1/5y"
       ],
       "correctAnswer": "1/y⁵",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Rewrite 1/a⁻³ with a positive exponent.",
       "options": [
-        "a³",
         "1/a³",
         "-a³",
-        "3a"
+        "3a",
+        "a³"
       ],
       "correctAnswer": "a³",
       "difficulty": "scaffold",
@@ -105,8 +105,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify x² ÷ x⁵ for x ≠ 0.",
       "options": [
-        "1/x³",
         "x³",
+        "1/x³",
         "x⁷",
         "0"
       ],
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3m⁻².",
       "options": [
-        "3/m²",
         "3m²",
         "1/3m²",
+        "3/m²",
         "-3m²"
       ],
       "correctAnswer": "3/m²",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (1/3)⁻².",
       "options": [
-        "9",
         "1/9",
         "-9",
-        "6"
+        "6",
+        "9"
       ],
       "correctAnswer": "9",
       "difficulty": "scaffold",
@@ -181,8 +181,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2x⁻¹)².",
       "options": [
-        "4/x²",
         "2/x²",
+        "4/x²",
         "4x²",
         "1/4x²"
       ],
@@ -200,9 +200,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (x⁻³)(x⁷).",
       "options": [
-        "x⁴",
         "1/x⁴",
         "x¹⁰",
+        "x⁴",
         "x⁻²¹"
       ],
       "correctAnswer": "x⁴",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify y⁻⁶ ÷ y⁻².",
       "options": [
-        "1/y⁴",
         "y⁴",
         "y⁻⁸",
-        "y⁸"
+        "y⁸",
+        "1/y⁴"
       ],
       "correctAnswer": "1/y⁴",
       "difficulty": "standard",
@@ -257,8 +257,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (-2)⁻³.",
       "options": [
-        "-1/8",
         "1/8",
+        "-1/8",
         "-8",
         "8"
       ],
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 12p⁰q⁻¹.",
       "options": [
-        "12/q",
         "12q",
         "q/12",
+        "12/q",
         "0"
       ],
       "correctAnswer": "12/q",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "A student writes 5⁰ = 0. What is the correction?",
       "options": [
-        "5⁰ = 1",
         "5⁰ = 5",
         "5⁰ = 25",
-        "5⁰ = 1/5"
+        "5⁰ = 1/5",
+        "5⁰ = 1"
       ],
       "correctAnswer": "5⁰ = 1",
       "difficulty": "standard",
@@ -333,8 +333,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify (3/x)⁻¹.",
       "options": [
-        "x/3",
         "3/x",
+        "x/3",
         "-3/x",
         "1/3x"
       ],
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify x⁻²y⁻³ with positive exponents.",
       "options": [
-        "1/(x²y³)",
         "x²y³",
         "y³/x²",
+        "1/(x²y³)",
         "x²/y³"
       ],
       "correctAnswer": "1/(x²y³)",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement is true for nonzero x?",
       "options": [
-        "x⁻¹ = 1/x",
         "x⁻¹ = -x",
         "x⁻¹ = 0",
-        "x⁻¹ = x"
+        "x⁻¹ = x",
+        "x⁻¹ = 1/x"
       ],
       "correctAnswer": "x⁻¹ = 1/x",
       "difficulty": "standard",

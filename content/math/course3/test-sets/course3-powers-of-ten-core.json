@@ -28,8 +28,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10².",
       "options": [
-        "100",
         "20",
+        "100",
         "10",
         "0.01"
       ],
@@ -46,9 +46,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10³.",
       "options": [
-        "1,000",
         "30",
         "100",
+        "1,000",
         "0.001"
       ],
       "correctAnswer": "1,000",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁴.",
       "options": [
-        "10,000",
         "40",
         "1000",
-        "0.0001"
+        "0.0001",
+        "10,000"
       ],
       "correctAnswer": "10,000",
       "difficulty": "scaffold",
@@ -100,8 +100,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻¹.",
       "options": [
-        "0.1",
         "10",
+        "0.1",
         "100",
         "-0.1"
       ],
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻².",
       "options": [
-        "0.01",
         "10",
         "100",
+        "0.01",
         "-0.01"
       ],
       "correctAnswer": "0.01",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻³.",
       "options": [
-        "0.001",
         "10",
         "100",
-        "-0.001"
+        "-0.001",
+        "0.001"
       ],
       "correctAnswer": "0.001",
       "difficulty": "scaffold",
@@ -172,8 +172,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻⁵.",
       "options": [
-        "0.00001",
         "10",
+        "0.00001",
         "100",
         "-0.00001"
       ],
@@ -190,9 +190,9 @@
       "type": "multiple_choice",
       "questionText": "Write 100,000 as a power of 10.",
       "options": [
-        "10⁵",
         "10⁴",
         "10⁶",
+        "10⁵",
         "5¹⁰"
       ],
       "correctAnswer": "10⁵",
@@ -209,10 +209,10 @@
       "type": "multiple_choice",
       "questionText": "Write 0.0001 as a power of 10.",
       "options": [
-        "10⁻⁴",
         "10⁴",
         "10⁻³",
-        "4⁻¹⁰"
+        "4⁻¹⁰",
+        "10⁻⁴"
       ],
       "correctAnswer": "10⁻⁴",
       "difficulty": "standard",
@@ -247,8 +247,8 @@
       "type": "multiple_choice",
       "questionText": "Divide: 10⁷ ÷ 10².",
       "options": [
-        "10⁵",
         "10⁹",
+        "10⁵",
         "10³",
         "5¹⁰"
       ],
@@ -266,9 +266,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (10²)³.",
       "options": [
-        "10⁶",
         "10⁵",
         "10⁸",
+        "10⁶",
         "100³"
       ],
       "correctAnswer": "10⁶",
@@ -285,10 +285,10 @@
       "type": "multiple_choice",
       "questionText": "Which is larger: 10⁶ or 10⁴?",
       "options": [
-        "10⁶",
         "10⁴",
         "They are equal",
-        "10²"
+        "10²",
+        "10⁶"
       ],
       "correctAnswer": "10⁶",
       "difficulty": "standard",
@@ -323,8 +323,8 @@
       "type": "multiple_choice",
       "questionText": "A value is divided by 10³. Which power of ten was it multiplied by?",
       "options": [
-        "10⁻³",
         "10³",
+        "10⁻³",
         "10⁰",
         "3⁻¹⁰"
       ],
@@ -342,9 +342,9 @@
       "type": "multiple_choice",
       "questionText": "A decimal point moves 4 places right. Which power of ten was used as a multiplier?",
       "options": [
-        "10⁴",
         "10⁻⁴",
         "10³",
+        "10⁴",
         "4¹⁰"
       ],
       "correctAnswer": "10⁴",
@@ -361,10 +361,10 @@
       "type": "multiple_choice",
       "questionText": "A decimal point moves 3 places left. Which power of ten was used as a multiplier?",
       "options": [
-        "10⁻³",
         "10³",
         "10⁻²",
-        "3¹⁰"
+        "3¹⁰",
+        "10⁻³"
       ],
       "correctAnswer": "10⁻³",
       "difficulty": "standard",
@@ -399,8 +399,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 8.2 × 10⁻¹.",
       "options": [
-        "0.82",
         "82",
+        "0.82",
         "8.2",
         "0.082"
       ],
@@ -418,9 +418,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 0.56 × 10³.",
       "options": [
-        "560",
         "56",
         "5,600",
+        "560",
         "0.00056"
       ],
       "correctAnswer": "560",
@@ -437,10 +437,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 720 ÷ 10².",
       "options": [
-        "7.2",
         "72",
         "0.72",
-        "7200"
+        "7200",
+        "7.2"
       ],
       "correctAnswer": "7.2",
       "difficulty": "standard",
@@ -475,8 +475,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10⁻² × 10⁶.",
       "options": [
-        "10⁴",
         "10⁻¹²",
+        "10⁴",
         "10⁸",
         "10³"
       ],
@@ -494,9 +494,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10³ ÷ 10⁷.",
       "options": [
-        "10⁻⁴",
         "10⁴",
         "10¹⁰",
+        "10⁻⁴",
         "10⁻¹⁰"
       ],
       "correctAnswer": "10⁻⁴",
@@ -513,10 +513,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression equals 0.000001?",
       "options": [
-        "10⁻⁶",
         "10⁶",
         "10⁻⁵",
-        "6⁻¹⁰"
+        "6⁻¹⁰",
+        "10⁻⁶"
       ],
       "correctAnswer": "10⁻⁶",
       "difficulty": "standard",
@@ -551,8 +551,8 @@
       "type": "multiple_choice",
       "questionText": "How many times larger is 10⁹ than 10⁶?",
       "options": [
-        "10³",
         "10¹⁵",
+        "10³",
         "10⁻³",
         "3"
       ],
@@ -570,9 +570,9 @@
       "type": "multiple_choice",
       "questionText": "How many times smaller is 10⁻⁵ than 10⁻²?",
       "options": [
-        "10³ times smaller",
         "10³ times larger",
         "10⁷ times smaller",
+        "10³ times smaller",
         "3 times smaller"
       ],
       "correctAnswer": "10³ times smaller",
@@ -589,10 +589,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 45 × 10⁻².",
       "options": [
-        "0.45",
         "4.5",
         "4500",
-        "0.045"
+        "0.045",
+        "0.45"
       ],
       "correctAnswer": "0.45",
       "difficulty": "standard",
@@ -627,8 +627,8 @@
       "type": "multiple_choice",
       "questionText": "Which power of 10 changes meters to millimeters?",
       "options": [
-        "10³",
         "10⁻³",
+        "10³",
         "10²",
         "10⁻²"
       ],
@@ -646,9 +646,9 @@
       "type": "multiple_choice",
       "questionText": "Which power of 10 changes millimeters to meters?",
       "options": [
-        "10⁻³",
         "10³",
         "10⁻²",
+        "10⁻³",
         "10²"
       ],
       "correctAnswer": "10⁻³",
@@ -665,10 +665,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (2.5 × 10³)(4 × 10²).",
       "options": [
-        "1,000,000",
         "10,000,000",
         "100,000",
-        "10,000"
+        "10,000",
+        "1,000,000"
       ],
       "correctAnswer": "1,000,000",
       "difficulty": "challenge",
@@ -703,8 +703,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 6.7 × 10⁻⁴.",
       "options": [
-        "0.00067",
         "0.0067",
+        "0.00067",
         "67,000",
         "0.000067"
       ],
@@ -722,9 +722,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 0.00052 × 10⁶.",
       "options": [
-        "520",
         "52",
         "5,200",
+        "520",
         "0.00000000052"
       ],
       "correctAnswer": "520",
@@ -741,10 +741,10 @@
       "type": "multiple_choice",
       "questionText": "Which is greatest?",
       "options": [
-        "10²",
         "10⁻¹",
         "10⁰",
-        "10⁻³"
+        "10⁻³",
+        "10²"
       ],
       "correctAnswer": "10²",
       "difficulty": "challenge",
@@ -779,8 +779,8 @@
       "type": "multiple_choice",
       "questionText": "A number is multiplied by 10⁻⁵ and then by 10². What is the net multiplier?",
       "options": [
-        "10⁻³",
         "10⁻⁷",
+        "10⁻³",
         "10³",
         "10⁷"
       ],
@@ -798,9 +798,9 @@
       "type": "multiple_choice",
       "questionText": "A bacterium is 0.000003 m long. Write its length using a power-of-ten factor with 3.",
       "options": [
-        "3 × 10⁻⁶",
         "3 × 10⁶",
         "0.3 × 10⁻⁵",
+        "3 × 10⁻⁶",
         "30 × 10⁻⁶"
       ],
       "correctAnswer": "3 × 10⁻⁶",
@@ -817,10 +817,10 @@
       "type": "multiple_choice",
       "questionText": "A distance is 42,000,000 m. Write it using a power-of-ten factor with 42.",
       "options": [
-        "42 × 10⁶",
         "42 × 10⁻⁶",
         "4.2 × 10⁶",
-        "420 × 10⁵"
+        "420 × 10⁵",
+        "42 × 10⁶"
       ],
       "correctAnswer": "42 × 10⁶",
       "difficulty": "challenge",
@@ -855,8 +855,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10⁻⁸ ÷ 10⁻³.",
       "options": [
-        "10⁻⁵",
         "10⁵",
+        "10⁻⁵",
         "10⁻¹¹",
         "10¹¹"
       ],
@@ -874,9 +874,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 3,200 ÷ 10⁻².",
       "options": [
-        "320,000",
         "32",
         "3.2",
+        "320,000",
         "32,000"
       ],
       "correctAnswer": "320,000",
@@ -893,10 +893,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 0.45 ÷ 10³.",
       "options": [
-        "0.00045",
         "0.0045",
         "450",
-        "45,000"
+        "45,000",
+        "0.00045"
       ],
       "correctAnswer": "0.00045",
       "difficulty": "challenge",
@@ -931,8 +931,8 @@
       "type": "multiple_choice",
       "questionText": "A computer file is multiplied from 10⁵ bytes to 10⁸ bytes. By what factor did it grow?",
       "options": [
-        "10³",
         "10¹³",
+        "10³",
         "10⁻³",
         "3"
       ],

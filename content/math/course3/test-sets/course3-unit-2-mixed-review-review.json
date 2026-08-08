@@ -1,0 +1,389 @@
+{
+  "testId": "course3-unit-2-mixed-review-review",
+  "conceptId": "concept-unit-2-mixed-review",
+  "type": "review",
+  "title": "Unit 2 Mixed Review Review Test",
+  "description": "Review equivalent expressions, multi-step equations, distributive property equations, rational coefficients, solution types, modeling, and checking solutions.",
+  "questions": [
+    {
+      "id": "course3-unit-2-mixed-review-review-001",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 9/2.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = -6"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-002",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 331/30.",
+      "options": [
+        "x = 9",
+        "x = 8",
+        "x = 7",
+        "x = -8"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-003",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x - 7/12.",
+      "options": [
+        "x = -3/2",
+        "x = -7/2",
+        "x = -5/2",
+        "x = 5/2"
+      ],
+      "correctAnswer": "x = -5/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-004",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 8.",
+      "options": [
+        "x = -2",
+        "x = -4",
+        "x = 3",
+        "x = -3"
+      ],
+      "correctAnswer": "x = -3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-005",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x + 41/20.",
+      "options": [
+        "x = 3/2",
+        "x = 5/2",
+        "x = 1/2",
+        "x = -3/2"
+      ],
+      "correctAnswer": "x = 3/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-006",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 49/10.",
+      "options": [
+        "x = 5",
+        "x = 4",
+        "x = 3",
+        "x = -4"
+      ],
+      "correctAnswer": "x = 4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-007",
+      "type": "multiple_choice",
+      "questionText": "Solve -3/2x + 1/4 = 1/3x - 151/12.",
+      "options": [
+        "x = 8",
+        "x = 6",
+        "x = 7",
+        "x = -7"
+      ],
+      "correctAnswer": "x = 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-008",
+      "type": "multiple_choice",
+      "questionText": "Solve 7/10x - 5 = -1/2x + 1/5.",
+      "options": [
+        "x = 16/3",
+        "x = 10/3",
+        "x = -13/3",
+        "x = 13/3"
+      ],
+      "correctAnswer": "x = 13/3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-009",
+      "type": "multiple_choice",
+      "questionText": "Solve 1/2x + 3 = 1/4x + 17/4.",
+      "options": [
+        "x = 5",
+        "x = 6",
+        "x = 4",
+        "x = -5"
+      ],
+      "correctAnswer": "x = 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-010",
+      "type": "multiple_choice",
+      "questionText": "Solve 2/3x + 5/2 = -2/5x + 251/30.",
+      "options": [
+        "x = 13/2",
+        "x = 11/2",
+        "x = 9/2",
+        "x = -11/2"
+      ],
+      "correctAnswer": "x = 11/2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-011",
+      "type": "multiple_choice",
+      "questionText": "Solve 3/4x + 1/4 = 5/12x + 13/4.",
+      "options": [
+        "x = 10",
+        "x = 8",
+        "x = 9",
+        "x = -9"
+      ],
+      "correctAnswer": "x = 9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-012",
+      "type": "multiple_choice",
+      "questionText": "Solve 5/6x - 5 = -1/6x - 9.",
+      "options": [
+        "x = -3",
+        "x = -5",
+        "x = 4",
+        "x = -4"
+      ],
+      "correctAnswer": "x = -4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-013",
+      "type": "multiple_choice",
+      "questionText": "Solve -1/3x + 3 = 3/10x - 4/5.",
+      "options": [
+        "x = 6",
+        "x = 7",
+        "x = 5",
+        "x = -6"
+      ],
+      "correctAnswer": "x = 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-014",
+      "type": "multiple_choice",
+      "questionText": "Solve 4/5x + 5/2 = 1/5x + 73/10.",
+      "options": [
+        "x = 9",
+        "x = 8",
+        "x = 7",
+        "x = -8"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "multi-step"
+      ],
+      "explanation": "Clear fractions or decimals carefully, then use inverse operations and check in the original equation."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-015",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "one solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-016",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-017",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "infinitely many solutions",
+        "one solution",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-018",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-019",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-review-020",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "cannot be determined",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    }
+  ]
+}

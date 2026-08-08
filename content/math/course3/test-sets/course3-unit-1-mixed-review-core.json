@@ -29,8 +29,8 @@
       "type": "multiple_choice",
       "questionText": "Which number is irrational?",
       "options": [
-        "√7",
         "3/4",
+        "√7",
         "-2",
         "0.6"
       ],
@@ -48,9 +48,9 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.333... to a fraction.",
       "options": [
-        "1/3",
         "3/10",
         "33/100",
+        "1/3",
         "1/9"
       ],
       "correctAnswer": "1/3",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate √81.",
       "options": [
-        "9",
         "-9",
         "40.5",
-        "8"
+        "8",
+        "9"
       ],
       "correctAnswer": "9",
       "difficulty": "scaffold",
@@ -105,8 +105,8 @@
       "type": "multiple_choice",
       "questionText": "Between which integers is √30?",
       "options": [
-        "5 and 6",
         "4 and 5",
+        "5 and 6",
         "6 and 7",
         "14 and 15"
       ],
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Which is greatest?",
       "options": [
-        "√50",
         "7",
         "6.9",
+        "√50",
         "√36"
       ],
       "correctAnswer": "√50",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 2⁴.",
       "options": [
-        "16",
         "8",
         "6",
-        "24"
+        "24",
+        "16"
       ],
       "correctAnswer": "16",
       "difficulty": "scaffold",
@@ -181,8 +181,8 @@
       "type": "multiple_choice",
       "questionText": "Write 0.0006 in scientific notation.",
       "options": [
-        "6 × 10⁻⁴",
         "6 × 10⁴",
+        "6 × 10⁻⁴",
         "0.6 × 10⁻³",
         "60 × 10⁻⁵"
       ],
@@ -200,9 +200,9 @@
       "type": "multiple_choice",
       "questionText": "Classify √49.",
       "options": [
-        "rational",
         "irrational",
         "neither rational nor irrational",
+        "rational",
         "only an integer, not rational"
       ],
       "correctAnswer": "rational",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Classify √45.",
       "options": [
-        "irrational",
         "rational",
         "integer",
-        "terminating decimal"
+        "terminating decimal",
+        "irrational"
       ],
       "correctAnswer": "irrational",
       "difficulty": "standard",
@@ -257,8 +257,8 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.41666... to a fraction.",
       "options": [
-        "5/12",
         "41/100",
+        "5/12",
         "25/60",
         "4/15"
       ],
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate √144 + ∛27.",
       "options": [
-        "15",
         "17",
         "12",
+        "15",
         "9"
       ],
       "correctAnswer": "15",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √70 to the nearest whole number.",
       "options": [
-        "8",
         "7",
         "9",
-        "35"
+        "35",
+        "8"
       ],
       "correctAnswer": "8",
       "difficulty": "standard",
@@ -333,8 +333,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify x³ × x⁵.",
       "options": [
-        "x⁸",
         "x¹⁵",
+        "x⁸",
         "x²",
         "2x⁸"
       ],
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2x²)³.",
       "options": [
-        "8x⁶",
         "6x⁶",
         "8x⁵",
+        "8x⁶",
         "2x⁶"
       ],
       "correctAnswer": "8x⁶",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify x² ÷ x⁶ for x ≠ 0.",
       "options": [
-        "1/x⁴",
         "x⁴",
         "x⁸",
-        "0"
+        "0",
+        "1/x⁴"
       ],
       "correctAnswer": "1/x⁴",
       "difficulty": "standard",
@@ -409,8 +409,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻³.",
       "options": [
-        "0.001",
         "1000",
+        "0.001",
         "0.01",
         "-1000"
       ],
@@ -428,9 +428,9 @@
       "type": "multiple_choice",
       "questionText": "Write 8,200,000 in scientific notation.",
       "options": [
-        "8.2 × 10⁶",
         "82 × 10⁵",
         "8.2 × 10⁻⁶",
+        "8.2 × 10⁶",
         "0.82 × 10⁷"
       ],
       "correctAnswer": "8.2 × 10⁶",
@@ -447,10 +447,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 4.7 × 10⁻⁵ to standard form.",
       "options": [
-        "0.000047",
         "0.00047",
         "470,000",
-        "0.0000047"
+        "0.0000047",
+        "0.000047"
       ],
       "correctAnswer": "0.000047",
       "difficulty": "standard",
@@ -485,8 +485,8 @@
       "type": "multiple_choice",
       "questionText": "Divide: (8 × 10⁶) ÷ (2 × 10²).",
       "options": [
-        "4 × 10⁴",
         "4 × 10⁸",
+        "4 × 10⁴",
         "6 × 10⁴",
         "4 × 10³"
       ],
@@ -504,9 +504,9 @@
       "type": "multiple_choice",
       "questionText": "Add: 5 × 10³ + 2 × 10².",
       "options": [
-        "5.2 × 10³",
         "7 × 10⁵",
         "7 × 10³",
+        "5.2 × 10³",
         "5.02 × 10³"
       ],
       "correctAnswer": "5.2 × 10³",
@@ -523,10 +523,10 @@
       "type": "multiple_choice",
       "questionText": "Which is larger: 3 × 10⁻⁴ or 2 × 10⁻³?",
       "options": [
-        "2 × 10⁻³",
         "3 × 10⁻⁴",
         "They are equal",
-        "Cannot compare"
+        "Cannot compare",
+        "2 × 10⁻³"
       ],
       "correctAnswer": "2 × 10⁻³",
       "difficulty": "standard",
@@ -561,8 +561,8 @@
       "type": "multiple_choice",
       "questionText": "A cube has volume 125 cubic inches. What is its edge length?",
       "options": [
-        "5 inches",
         "25 inches",
+        "5 inches",
         "15 inches",
         "4 inches"
       ],
@@ -580,9 +580,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (x⁻¹y²)³.",
       "options": [
-        "y⁶/x³",
         "x³y⁶",
         "y⁵/x³",
+        "y⁶/x³",
         "1/x³y⁶"
       ],
       "correctAnswer": "y⁶/x³",
@@ -599,10 +599,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement about 10⁻⁶ is true?",
       "options": [
-        "It is one millionth",
         "It is one million",
         "It is negative",
-        "It equals 0"
+        "It equals 0",
+        "It is one millionth"
       ],
       "correctAnswer": "It is one millionth",
       "difficulty": "standard",
@@ -637,8 +637,8 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 6.2 × 10⁵ - 1.2 × 10⁵.",
       "options": [
-        "5 × 10⁵",
         "5 × 10⁰",
+        "5 × 10⁵",
         "7.4 × 10⁵",
         "5 × 10¹⁰"
       ],
@@ -656,9 +656,9 @@
       "type": "multiple_choice",
       "questionText": "Estimate (4.9 × 10⁷)(2.1 × 10²).",
       "options": [
-        "about 1 × 10¹⁰",
         "about 1 × 10⁵",
         "about 7 × 10⁹",
+        "about 1 × 10¹⁰",
         "about 10 × 10¹⁴"
       ],
       "correctAnswer": "about 1 × 10¹⁰",
@@ -675,10 +675,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is rational?",
       "options": [
-        "√196 - 14",
         "√2 + 1",
         "π - 3",
-        "√50"
+        "√50",
+        "√196 - 14"
       ],
       "correctAnswer": "√196 - 14",
       "difficulty": "challenge",
@@ -713,8 +713,8 @@
       "type": "multiple_choice",
       "questionText": "Order least to greatest: 2.45, √6, 12/5, 2.4 repeating.",
       "options": [
-        "12/5, 2.4 repeating, √6, 2.45",
         "12/5, √6, 2.4 repeating, 2.45",
+        "12/5, 2.4 repeating, √6, 2.45",
         "√6, 12/5, 2.4 repeating, 2.45",
         "2.45, √6, 2.4 repeating, 12/5"
       ],
@@ -732,9 +732,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify ((2x⁻²y)³)/(4xy⁻¹).",
       "options": [
-        "2y⁴/x⁷",
         "2x⁷/y⁴",
         "4y⁴/x⁷",
+        "2y⁴/x⁷",
         "2y²/x⁵"
       ],
       "correctAnswer": "2y⁴/x⁷",
@@ -751,10 +751,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (10⁻²)³ × 10⁸.",
       "options": [
-        "10²",
         "10¹⁴",
         "10⁻⁶",
-        "10⁵"
+        "10⁵",
+        "10²"
       ],
       "correctAnswer": "10²",
       "difficulty": "challenge",
@@ -789,8 +789,8 @@
       "type": "multiple_choice",
       "questionText": "A number is 7.2 × 10⁻⁵. Another is 9 × 10⁻⁶. What is their sum?",
       "options": [
-        "8.1 × 10⁻⁵",
         "16.2 × 10⁻¹¹",
+        "8.1 × 10⁻⁵",
         "7.29 × 10⁻⁵",
         "8.1 × 10⁻¹¹"
       ],
@@ -808,9 +808,9 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has side lengths √18 and √8. What is its area?",
       "options": [
-        "12",
         "√26",
         "26",
+        "12",
         "6"
       ],
       "correctAnswer": "12",
@@ -827,10 +827,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression equals 0.00072 in scientific notation?",
       "options": [
-        "7.2 × 10⁻⁴",
         "72 × 10⁻⁵",
         "7.2 × 10⁴",
-        "0.72 × 10⁻³"
+        "0.72 × 10⁻³",
+        "7.2 × 10⁻⁴"
       ],
       "correctAnswer": "7.2 × 10⁻⁴",
       "difficulty": "challenge",
@@ -865,8 +865,8 @@
       "type": "multiple_choice",
       "questionText": "Which is the best reason that 0.101001000100001... is irrational?",
       "options": [
-        "It does not terminate or repeat",
         "It is a decimal",
+        "It does not terminate or repeat",
         "It is less than 1",
         "It has zeros"
       ],
@@ -884,9 +884,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (3x²)⁰ + 2⁻³ for x ≠ 0.",
       "options": [
-        "9/8",
         "1/8",
         "1",
+        "9/8",
         "3/8"
       ],
       "correctAnswer": "9/8",
@@ -903,10 +903,10 @@
       "type": "multiple_choice",
       "questionText": "The mass of one particle is 4 × 10⁻¹² g. What is the mass of 3 × 10⁵ particles?",
       "options": [
-        "1.2 × 10⁻⁶ g",
         "12 × 10⁻⁷ g",
         "1.2 × 10⁻¹⁷ g",
-        "7 × 10⁻⁷ g"
+        "7 × 10⁻⁷ g",
+        "1.2 × 10⁻⁶ g"
       ],
       "correctAnswer": "1.2 × 10⁻⁶ g",
       "difficulty": "challenge",
@@ -941,8 +941,8 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "3.1 × 10⁻⁴ < √0.01",
         "3.1 × 10⁻⁴ > √0.01",
+        "3.1 × 10⁻⁴ < √0.01",
         "They are equal",
         "√0.01 is irrational"
       ],

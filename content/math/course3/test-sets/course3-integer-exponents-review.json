@@ -5,25 +5,366 @@
   "title": "Integer Exponents Review",
   "description": "Review exponent notation, positive-integer exponent laws, signs, coefficients, and essential algebraic simplification.",
   "questions": [
-    {"id":"course3-integer-exponents-review-001","type":"multiple_choice","questionText":"In 6⁴, which number is the exponent?","options":["4","6","24","1,296"],"correctAnswer":"4","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"The exponent is the small raised number. It tells how many factors of 6 are used."},
-    {"id":"course3-integer-exponents-review-002","type":"multiple_choice","questionText":"Evaluate 4³.","options":["64","12","16","81"],"correctAnswer":"64","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"4³ = 4 × 4 × 4 = 64."},
-    {"id":"course3-integer-exponents-review-003","type":"multiple_choice","questionText":"Evaluate (-3)².","options":["9","-9","6","-6"],"correctAnswer":"9","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"(-3)(-3) = 9."},
-    {"id":"course3-integer-exponents-review-004","type":"multiple_choice","questionText":"Evaluate -3².","options":["-9","9","-6","6"],"correctAnswer":"-9","difficulty":"scaffold","answerType":"number","skillTags":["reasoning"],"explanation":"The exponent applies before the outside negative sign: -3² = -(3²) = -9."},
-    {"id":"course3-integer-exponents-review-005","type":"multiple_choice","questionText":"Which repeated multiplication represents y⁴?","options":["y × y × y × y","4 × y","y + y + y + y","y × 4 × 4 × 4"],"correctAnswer":"y × y × y × y","difficulty":"scaffold","answerType":"text","skillTags":["conceptual"],"explanation":"An exponent of 4 means y is used as a factor four times."},
-    {"id":"course3-integer-exponents-review-006","type":"multiple_choice","questionText":"Simplify a² × a³.","options":["a⁵","a⁶","a¹","2a⁵"],"correctAnswer":"a⁵","difficulty":"scaffold","answerType":"text","skillTags":["computation"],"explanation":"Add the exponents on the common base: 2 + 3 = 5."},
-    {"id":"course3-integer-exponents-review-007","type":"multiple_choice","questionText":"For b ≠ 0, simplify b⁶ ÷ b².","options":["b⁴","b⁸","b³","4b"],"correctAnswer":"b⁴","difficulty":"scaffold","answerType":"text","skillTags":["computation"],"explanation":"Subtract the exponents: 6 - 2 = 4."},
-    {"id":"course3-integer-exponents-review-008","type":"multiple_choice","questionText":"Simplify (c²)³.","options":["c⁶","c⁵","c⁸","3c²"],"correctAnswer":"c⁶","difficulty":"scaffold","answerType":"text","skillTags":["computation"],"explanation":"Multiply the exponents in a power of a power: 2 × 3 = 6."},
-    {"id":"course3-integer-exponents-review-009","type":"multiple_choice","questionText":"Simplify (2x)².","options":["4x²","2x²","4x","2x⁴"],"correctAnswer":"4x²","difficulty":"standard","answerType":"text","skillTags":["computation"],"explanation":"Square both factors: 2²x² = 4x²."},
-    {"id":"course3-integer-exponents-review-010","type":"multiple_choice","questionText":"Simplify (mn)³.","options":["m³n³","mn³","m³n","3mn"],"correctAnswer":"m³n³","difficulty":"standard","answerType":"text","skillTags":["computation"],"explanation":"The exponent applies to both factors: (mn)³ = m³n³."},
-    {"id":"course3-integer-exponents-review-011","type":"multiple_choice","questionText":"Simplify 3x⁴ × 2x².","options":["6x⁶","5x⁶","6x⁸","6x²"],"correctAnswer":"6x⁶","difficulty":"standard","answerType":"text","skillTags":["computation"],"explanation":"Multiply coefficients to get 6 and add the exponents: 4 + 2 = 6."},
-    {"id":"course3-integer-exponents-review-012","type":"multiple_choice","questionText":"For a ≠ 0, simplify 12a⁵ ÷ 4a².","options":["3a³","8a³","3a⁷","3a²"],"correctAnswer":"3a³","difficulty":"standard","answerType":"text","skillTags":["computation"],"explanation":"12 ÷ 4 = 3 and a⁵ ÷ a² = a³."},
-    {"id":"course3-integer-exponents-review-013","type":"multiple_choice","questionText":"Simplify (3p²)².","options":["9p⁴","6p⁴","9p²","3p⁴"],"correctAnswer":"9p⁴","difficulty":"standard","answerType":"text","skillTags":["computation"],"explanation":"Square the coefficient and multiply the variable exponents: 3²(p²)² = 9p⁴."},
-    {"id":"course3-integer-exponents-review-014","type":"multiple_choice","questionText":"Simplify (a³b²)².","options":["a⁶b⁴","a⁵b⁴","a⁶b²","a⁹b⁴"],"correctAnswer":"a⁶b⁴","difficulty":"standard","answerType":"text","skillTags":["computation"],"explanation":"Multiply both inside exponents by 2: a⁶b⁴."},
-    {"id":"course3-integer-exponents-review-015","type":"multiple_choice","questionText":"Find n if x⁴ × xⁿ = x¹¹.","options":["7","15","44","3"],"correctAnswer":"7","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"The product rule gives 4 + n = 11, so n = 7."},
-    {"id":"course3-integer-exponents-review-016","type":"multiple_choice","questionText":"In 3² × 3³ = 3ⁿ, what is n?","options":["5","6","8","9"],"correctAnswer":"5","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"For a product with the same base, add the exponents: 2 + 3 = 5."},
-    {"id":"course3-integer-exponents-review-017","type":"multiple_choice","questionText":"Evaluate (2³)².","options":["64","32","16","12"],"correctAnswer":"64","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"(2³)² = 2⁶ = 64."},
-    {"id":"course3-integer-exponents-review-018","type":"multiple_choice","questionText":"A rectangle has side lengths 2x³ and 5x². Which expression represents its area?","options":["10x⁵","7x⁵","10x⁶","10x"],"correctAnswer":"10x⁵","difficulty":"standard","answerType":"text","skillTags":["application"],"explanation":"Multiply the coefficients and add the x exponents: (2 × 5)x³⁺² = 10x⁵."},
-    {"id":"course3-integer-exponents-review-019","type":"multiple_choice","questionText":"A student writes x² × x³ = x⁶. Which statement is correct?","options":["The exponents should be added, giving x⁵","The work is correct because 2 × 3 = 6","The bases should be added, giving 2x⁵","Only the larger exponent should remain, giving x³"],"correctAnswer":"The exponents should be added, giving x⁵","difficulty":"standard","answerType":"text","skillTags":["conceptual","reasoning"],"explanation":"Multiplying like bases joins all factors, so the exponents add: 2 + 3 = 5."},
-    {"id":"course3-integer-exponents-review-020","type":"multiple_choice","questionText":"For x ≠ 0, simplify (x⁵ ÷ x²)³.","options":["x⁹","x⁶","x¹⁵","x²¹"],"correctAnswer":"x⁹","difficulty":"standard","answerType":"text","skillTags":["computation"],"explanation":"Inside the parentheses, x⁵ ÷ x² = x³. Then (x³)³ = x⁹."}
+    {
+      "id": "course3-integer-exponents-review-001",
+      "type": "multiple_choice",
+      "questionText": "In 6⁴, which number is the exponent?",
+      "options": [
+        "4",
+        "6",
+        "24",
+        "1,296"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "The exponent is the small raised number. It tells how many factors of 6 are used."
+    },
+    {
+      "id": "course3-integer-exponents-review-002",
+      "type": "multiple_choice",
+      "questionText": "Evaluate 4³.",
+      "options": [
+        "12",
+        "64",
+        "16",
+        "81"
+      ],
+      "correctAnswer": "64",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "4³ = 4 × 4 × 4 = 64."
+    },
+    {
+      "id": "course3-integer-exponents-review-003",
+      "type": "multiple_choice",
+      "questionText": "Evaluate (-3)².",
+      "options": [
+        "-9",
+        "6",
+        "9",
+        "-6"
+      ],
+      "correctAnswer": "9",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "(-3)(-3) = 9."
+    },
+    {
+      "id": "course3-integer-exponents-review-004",
+      "type": "multiple_choice",
+      "questionText": "Evaluate -3².",
+      "options": [
+        "9",
+        "-6",
+        "6",
+        "-9"
+      ],
+      "correctAnswer": "-9",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The exponent applies before the outside negative sign: -3² = -(3²) = -9."
+    },
+    {
+      "id": "course3-integer-exponents-review-005",
+      "type": "multiple_choice",
+      "questionText": "Which repeated multiplication represents y⁴?",
+      "options": [
+        "y × y × y × y",
+        "4 × y",
+        "y + y + y + y",
+        "y × 4 × 4 × 4"
+      ],
+      "correctAnswer": "y × y × y × y",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "An exponent of 4 means y is used as a factor four times."
+    },
+    {
+      "id": "course3-integer-exponents-review-006",
+      "type": "multiple_choice",
+      "questionText": "Simplify a² × a³.",
+      "options": [
+        "a⁶",
+        "a⁵",
+        "a¹",
+        "2a⁵"
+      ],
+      "correctAnswer": "a⁵",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Add the exponents on the common base: 2 + 3 = 5."
+    },
+    {
+      "id": "course3-integer-exponents-review-007",
+      "type": "multiple_choice",
+      "questionText": "For b ≠ 0, simplify b⁶ ÷ b².",
+      "options": [
+        "b⁸",
+        "b³",
+        "b⁴",
+        "4b"
+      ],
+      "correctAnswer": "b⁴",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Subtract the exponents: 6 - 2 = 4."
+    },
+    {
+      "id": "course3-integer-exponents-review-008",
+      "type": "multiple_choice",
+      "questionText": "Simplify (c²)³.",
+      "options": [
+        "c⁵",
+        "c⁸",
+        "3c²",
+        "c⁶"
+      ],
+      "correctAnswer": "c⁶",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Multiply the exponents in a power of a power: 2 × 3 = 6."
+    },
+    {
+      "id": "course3-integer-exponents-review-009",
+      "type": "multiple_choice",
+      "questionText": "Simplify (2x)².",
+      "options": [
+        "4x²",
+        "2x²",
+        "4x",
+        "2x⁴"
+      ],
+      "correctAnswer": "4x²",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Square both factors: 2²x² = 4x²."
+    },
+    {
+      "id": "course3-integer-exponents-review-010",
+      "type": "multiple_choice",
+      "questionText": "Simplify (mn)³.",
+      "options": [
+        "mn³",
+        "m³n³",
+        "m³n",
+        "3mn"
+      ],
+      "correctAnswer": "m³n³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The exponent applies to both factors: (mn)³ = m³n³."
+    },
+    {
+      "id": "course3-integer-exponents-review-011",
+      "type": "multiple_choice",
+      "questionText": "Simplify 3x⁴ × 2x².",
+      "options": [
+        "5x⁶",
+        "6x⁸",
+        "6x⁶",
+        "6x²"
+      ],
+      "correctAnswer": "6x⁶",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Multiply coefficients to get 6 and add the exponents: 4 + 2 = 6."
+    },
+    {
+      "id": "course3-integer-exponents-review-012",
+      "type": "multiple_choice",
+      "questionText": "For a ≠ 0, simplify 12a⁵ ÷ 4a².",
+      "options": [
+        "8a³",
+        "3a⁷",
+        "3a²",
+        "3a³"
+      ],
+      "correctAnswer": "3a³",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "12 ÷ 4 = 3 and a⁵ ÷ a² = a³."
+    },
+    {
+      "id": "course3-integer-exponents-review-013",
+      "type": "multiple_choice",
+      "questionText": "Simplify (3p²)².",
+      "options": [
+        "9p⁴",
+        "6p⁴",
+        "9p²",
+        "3p⁴"
+      ],
+      "correctAnswer": "9p⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Square the coefficient and multiply the variable exponents: 3²(p²)² = 9p⁴."
+    },
+    {
+      "id": "course3-integer-exponents-review-014",
+      "type": "multiple_choice",
+      "questionText": "Simplify (a³b²)².",
+      "options": [
+        "a⁵b⁴",
+        "a⁶b⁴",
+        "a⁶b²",
+        "a⁹b⁴"
+      ],
+      "correctAnswer": "a⁶b⁴",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Multiply both inside exponents by 2: a⁶b⁴."
+    },
+    {
+      "id": "course3-integer-exponents-review-015",
+      "type": "multiple_choice",
+      "questionText": "Find n if x⁴ × xⁿ = x¹¹.",
+      "options": [
+        "15",
+        "44",
+        "7",
+        "3"
+      ],
+      "correctAnswer": "7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The product rule gives 4 + n = 11, so n = 7."
+    },
+    {
+      "id": "course3-integer-exponents-review-016",
+      "type": "multiple_choice",
+      "questionText": "In 3² × 3³ = 3ⁿ, what is n?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "correctAnswer": "5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "For a product with the same base, add the exponents: 2 + 3 = 5."
+    },
+    {
+      "id": "course3-integer-exponents-review-017",
+      "type": "multiple_choice",
+      "questionText": "Evaluate (2³)².",
+      "options": [
+        "64",
+        "32",
+        "16",
+        "12"
+      ],
+      "correctAnswer": "64",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "(2³)² = 2⁶ = 64."
+    },
+    {
+      "id": "course3-integer-exponents-review-018",
+      "type": "multiple_choice",
+      "questionText": "A rectangle has side lengths 2x³ and 5x². Which expression represents its area?",
+      "options": [
+        "7x⁵",
+        "10x⁵",
+        "10x⁶",
+        "10x"
+      ],
+      "correctAnswer": "10x⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "Multiply the coefficients and add the x exponents: (2 × 5)x³⁺² = 10x⁵."
+    },
+    {
+      "id": "course3-integer-exponents-review-019",
+      "type": "multiple_choice",
+      "questionText": "A student writes x² × x³ = x⁶. Which statement is correct?",
+      "options": [
+        "The work is correct because 2 × 3 = 6",
+        "The bases should be added, giving 2x⁵",
+        "The exponents should be added, giving x⁵",
+        "Only the larger exponent should remain, giving x³"
+      ],
+      "correctAnswer": "The exponents should be added, giving x⁵",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Multiplying like bases joins all factors, so the exponents add: 2 + 3 = 5."
+    },
+    {
+      "id": "course3-integer-exponents-review-020",
+      "type": "multiple_choice",
+      "questionText": "For x ≠ 0, simplify (x⁵ ÷ x²)³.",
+      "options": [
+        "x⁶",
+        "x¹⁵",
+        "x²¹",
+        "x⁹"
+      ],
+      "correctAnswer": "x⁹",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Inside the parentheses, x⁵ ÷ x² = x³. Then (x³)³ = x⁹."
+    }
   ]
 }

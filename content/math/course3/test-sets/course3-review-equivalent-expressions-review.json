@@ -28,8 +28,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 9a - 4a.",
       "options": [
-        "5a",
         "13a",
+        "5a",
         "5",
         "5a²"
       ],
@@ -46,9 +46,9 @@
       "type": "multiple_choice",
       "questionText": "Use the distributive property: 2(x + 6).",
       "options": [
-        "2x + 12",
         "2x + 6",
         "x + 12",
+        "2x + 12",
         "8x"
       ],
       "correctAnswer": "2x + 12",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Use the distributive property: 4(y - 3).",
       "options": [
-        "4y - 12",
         "4y - 3",
         "y - 12",
-        "4y + 12"
+        "4y + 12",
+        "4y - 12"
       ],
       "correctAnswer": "4y - 12",
       "difficulty": "scaffold",
@@ -100,8 +100,8 @@
       "type": "multiple_choice",
       "questionText": "Which is equivalent to 5x + 10?",
       "options": [
-        "5(x + 2)",
         "5(x + 10)",
+        "5(x + 2)",
         "10(x + 5)",
         "x(5 + 10)"
       ],
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 6p - p.",
       "options": [
-        "5p",
         "6",
         "7p",
+        "5p",
         "5p²"
       ],
       "correctAnswer": "5p",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Which pair is equivalent?",
       "options": [
-        "3(a + 4) and 3a + 12",
         "3(a + 4) and 3a + 4",
         "a + 3 and 3a",
-        "4a + 3a and 12a"
+        "4a + 3a and 12a",
+        "3(a + 4) and 3a + 12"
       ],
       "correctAnswer": "3(a + 4) and 3a + 12",
       "difficulty": "scaffold",
@@ -172,8 +172,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 5a - 2 + 3a + 9.",
       "options": [
-        "8a + 7",
         "8a - 11",
+        "8a + 7",
         "2a + 7",
         "8a + 11"
       ],
@@ -190,9 +190,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3(2x + 5).",
       "options": [
-        "6x + 15",
         "6x + 5",
         "5x + 15",
+        "6x + 15",
         "6x + 8"
       ],
       "correctAnswer": "6x + 15",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify -2(y + 4).",
       "options": [
-        "-2y - 8",
         "-2y + 8",
         "2y - 8",
-        "-2y + 4"
+        "-2y + 4",
+        "-2y - 8"
       ],
       "correctAnswer": "-2y - 8",
       "difficulty": "standard",
@@ -244,8 +244,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 7n - 3(n - 2).",
       "options": [
-        "4n + 6",
         "4n - 6",
+        "4n + 6",
         "10n + 6",
         "4n + 2"
       ],
@@ -262,9 +262,9 @@
       "type": "multiple_choice",
       "questionText": "Factor 10x + 15.",
       "options": [
-        "5(2x + 3)",
         "5(2x + 15)",
         "10(x + 15)",
+        "5(2x + 3)",
         "3(10x + 5)"
       ],
       "correctAnswer": "5(2x + 3)",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 6x + 6y?",
       "options": [
-        "6(x + y)",
         "12xy",
         "6xy",
-        "x(6 + y)"
+        "x(6 + y)",
+        "6(x + y)"
       ],
       "correctAnswer": "6(x + y)",
       "difficulty": "standard",
@@ -316,8 +316,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 2(3x - 4) - x.",
       "options": [
-        "5x - 8",
         "5x + 8",
+        "5x - 8",
         "6x - 4",
         "7x - 8"
       ],
@@ -334,9 +334,9 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 8x + 12?",
       "options": [
-        "4(2x + 3)",
         "2(4x + 12)",
         "8(x + 12)",
+        "4(2x + 3)",
         "3(8x + 4)"
       ],
       "correctAnswer": "4(2x + 3)",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement is true about equivalent expressions?",
       "options": [
-        "They have the same value for every allowed value of the variable",
         "They only match when x = 1",
         "They must look identical",
-        "They cannot use parentheses"
+        "They cannot use parentheses",
+        "They have the same value for every allowed value of the variable"
       ],
       "correctAnswer": "They have the same value for every allowed value of the variable",
       "difficulty": "standard",
