@@ -266,12 +266,15 @@ The learner-ready Unit 3 concepts are:
 5. Compare Rates of Change
 6. Similar Triangles and Constant Slope
 7. Equations in the Form `y = mx`
+8. Understand the `y`-Intercept
+9. Equations in the Form `y = mx + b`
+10. Graph Linear Equations
 
 Course 3 currently contains:
 
-- 29 active concepts
-- 58 assessment files
-- 2030 assessment questions
+- 32 active concepts
+- 64 assessment files
+- 2240 assessment questions
 - 50 core questions per concept
 - 20 review questions per concept
 
@@ -332,7 +335,7 @@ For the current Course 3 working tree, the following passed:
 - browser verification of the Course 3 grid, concept page, tutorial, and
   assessment counts
 
-The most recent Course 3 audit found 2030 questions and 2030 unique IDs.
+The most recent Course 3 audit found 2240 questions and 2240 unique IDs.
 An answer-position audit found that the old Course 3 banks had 1119 of 1120
 correct answers in option A. Course 3 answer choices were rebalanced so core
 banks use a 13/13/12/12 A/B/C/D split and review banks use a 5/5/5/5 split.
@@ -349,9 +352,10 @@ tracked in `COURSE3_TEMPLATE_VARIETY_DEBT_TEST_SET_IDS` inside
 `src/test/contentRepository.test.ts`. Future Course 3 banks should pass the
 template-variety gate instead of expanding that debt list.
 
-The first seven Unit 3 assessment packs were regenerated after the quality gate
-was added. They now pass the answer-sequence and template-variety gates without
-exceptions, with 8-13 normalized question templates per regenerated bank.
+The first ten Unit 3 assessment packs were regenerated or authored after the
+quality gate was added. They now pass the answer-sequence and template-variety
+gates without exceptions, with strong normalized question-template variety per
+bank.
 
 Existing non-blocking warnings include:
 
@@ -367,7 +371,7 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 The next Course 3 rollout task is Unit 3:
 
-`Understand the y-Intercept`
+`Write Linear Equations from Representations`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,
@@ -405,7 +409,7 @@ These were explicitly left alone on purpose:
 
 Current useful follow-ups:
 
-- build `Understand the y-Intercept` as the next complete Course 3
+- build `Write Linear Equations from Representations` as the next complete Course 3
   concept pack
 - verify or run the GitHub Pages deployment after new `master` content commits
 - keep local launcher and distribution guidance aligned with `dist/` and
@@ -425,8 +429,8 @@ Firebase sync, multi-student profiles, subject-aware course navigation, and
 GitHub Pages support. Active content includes Math Course 2, Math Course 3, and
 Grade 6 Science. Course 3 is an accelerated Grade 7 placement into Grade 8
 instructional content and has twelve learner-ready Unit 1 concepts, ten
-learner-ready Unit 2 concepts, and seven learner-ready Unit 3 concepts, with
-2030 validated questions. Units 1 and 2 are complete, and Unit 3 has begun.
-The next pack is `Understand the y-Intercept`.
+learner-ready Unit 2 concepts, and ten learner-ready Unit 3 concepts, with
+2240 validated questions. Units 1 and 2 are complete, and Unit 3 is in
+progress. The next pack is `Write Linear Equations from Representations`.
 Preserve saved-progress compatibility, local-first
 behavior, the frozen domain model, and the phased manifest release discipline.

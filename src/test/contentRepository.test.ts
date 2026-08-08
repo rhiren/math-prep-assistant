@@ -504,6 +504,27 @@ describe("content repository", () => {
         coreTestId: "course3-equations-y-equals-mx-core",
         reviewTestId: "course3-equations-y-equals-mx-review",
       },
+      {
+        conceptId: "concept-understand-y-intercept",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Understand the y-Intercept",
+        coreTestId: "course3-understand-y-intercept-core",
+        reviewTestId: "course3-understand-y-intercept-review",
+      },
+      {
+        conceptId: "concept-equations-y-equals-mx-plus-b",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Equations in the Form y = mx + b",
+        coreTestId: "course3-equations-y-equals-mx-plus-b-core",
+        reviewTestId: "course3-equations-y-equals-mx-plus-b-review",
+      },
+      {
+        conceptId: "concept-graph-linear-equations",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Graph Linear Equations",
+        coreTestId: "course3-graph-linear-equations-core",
+        reviewTestId: "course3-graph-linear-equations-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -516,7 +537,7 @@ describe("content repository", () => {
     expect(course?.units[1]?.id).toBe("course3-unit-linear-equations");
     expect(course?.units[1]?.concepts).toHaveLength(10);
     expect(course?.units[2]?.id).toBe("course3-unit-lines-slope-linear-equations");
-    expect(course?.units[2]?.concepts).toHaveLength(7);
+    expect(course?.units[2]?.concepts).toHaveLength(10);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

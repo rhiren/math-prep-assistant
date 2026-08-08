@@ -1611,6 +1611,168 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-understand-y-intercept",
+              "title": "Understand the y-Intercept",
+              "description": "Interpret the y-intercept as the starting value and the point where a line crosses the y-axis.",
+              "tags": [
+                "linear-equations",
+                "y-intercept",
+                "graphs"
+              ],
+              "skillTags": [
+                "conceptual",
+                "graph",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 8,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-understand-y-intercept.md",
+              "tests": [
+                {
+                  "id": "course3-understand-y-intercept-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-understand-y-intercept-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-understand-y-intercept-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-understand-y-intercept-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-y-equals-mx-plus-b",
+              "title": "Equations in the Form y = mx + b",
+              "description": "Write and interpret linear equations using slope and y-intercept.",
+              "tags": [
+                "linear-equations",
+                "slope",
+                "y-intercept"
+              ],
+              "skillTags": [
+                "computation",
+                "conceptual",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 9,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-y-equals-mx-plus-b.md",
+              "tests": [
+                {
+                  "id": "course3-equations-y-equals-mx-plus-b-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-plus-b-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-y-equals-mx-plus-b-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-plus-b-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-graph-linear-equations",
+              "title": "Graph Linear Equations",
+              "description": "Graph lines by plotting the y-intercept and using slope as rise over run.",
+              "tags": [
+                "linear-equations",
+                "graphs",
+                "slope"
+              ],
+              "skillTags": [
+                "graph",
+                "visual",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 10,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-graph-linear-equations.md",
+              "tests": [
+                {
+                  "id": "course3-graph-linear-equations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-graph-linear-equations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-graph-linear-equations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-graph-linear-equations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }

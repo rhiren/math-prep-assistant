@@ -242,10 +242,13 @@ The current learner-ready Unit 3 packs are:
 - Compare Rates of Change
 - Similar Triangles and Constant Slope
 - Equations in the Form `y = mx`
+- Understand the `y`-Intercept
+- Equations in the Form `y = mx + b`
+- Graph Linear Equations
 
 The next Course 3 rollout work is Unit 3:
 
-- Understand the `y`-Intercept
+- Write Linear Equations from Representations
 
 Course 3 multiple-choice answer positions should remain balanced within each
 active test set so learners cannot infer the correct option from repeated
@@ -261,8 +264,8 @@ challenge-question reasoning variety. Some already-published banks are tracked
 as explicit template-variety debt in the test suite; do not add new banks to
 that list as a substitute for authoring varied questions.
 
-The first seven learner-ready Unit 3 packs have been regenerated under this
-gate and should remain off the template-variety debt list.
+The first ten learner-ready Unit 3 packs have been regenerated or authored
+under this gate and should remain off the template-variety debt list.
 
 ### Phase 3 — Lines, Slope, and Systems
 

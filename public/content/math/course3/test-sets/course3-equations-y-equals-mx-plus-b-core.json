@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-equations-y-equals-mx-plus-b-core",
+  "conceptId": "concept-equations-y-equals-mx-plus-b",
+  "type": "concept",
+  "title": "Equations in the Form y = mx + b Core Test",
+  "description": "Write and interpret linear equations using slope and y-intercept.",
+  "questions": [
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-001",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 2 and y-intercept -4. Which equation represents it?",
+      "options": [
+        "y = 2x - 4",
+        "y = 1/2x - 4",
+        "y = -2x - 4",
+        "y = 2x + 4"
+      ],
+      "correctAnswer": "y = 2x - 4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-002",
+      "type": "multiple_choice",
+      "questionText": "Which equation in the form y = mx + b has m = -2/3 and b = 1?",
+      "options": [
+        "y = -3/2x + 1",
+        "y = 2/3x + 1",
+        "y = -2/3x - 1",
+        "y = -2/3x + 1"
+      ],
+      "correctAnswer": "y = -2/3x + 1",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-003",
+      "type": "multiple_choice",
+      "questionText": "A graph starts at 7 on the y-axis and changes by 2/5 for each 1 unit right. Which equation matches?",
+      "options": [
+        "y = 2/5x + 7",
+        "y = -2/5x + 7",
+        "y = 2/5x - 7",
+        "y = 5/2x + 7"
+      ],
+      "correctAnswer": "y = 2/5x + 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-004",
+      "type": "multiple_choice",
+      "questionText": "A linear table has y-intercept 4 and includes the point (4, -8/5). Which equation fits?",
+      "options": [
+        "y = -5/7x + 4",
+        "y = 7/5x + 4",
+        "y = -7/5x + 4",
+        "y = -7/5x - 4"
+      ],
+      "correctAnswer": "y = -7/5x + 4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-005",
+      "type": "multiple_choice",
+      "questionText": "A plant is 2 cm tall at week 0 and changes by 2 cm each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = 1/2x + 2",
+        "y = -2x + 2",
+        "y = 2x - 2",
+        "y = 2x + 2"
+      ],
+      "correctAnswer": "y = 2x + 2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-006",
+      "type": "multiple_choice",
+      "questionText": "A student writes y = mx + b. For slope -2/3 and starting value -3, what equation should they write?",
+      "options": [
+        "y = 2/3x - 3",
+        "y = -2/3x + 3",
+        "y = -2/3x - 3",
+        "y = -3/2x - 3"
+      ],
+      "correctAnswer": "y = -2/3x - 3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-007",
+      "type": "multiple_choice",
+      "questionText": "The line crosses the y-axis at -7 and has slope 2/5. Which rule gives y from x?",
+      "options": [
+        "y = 2/5x - 7",
+        "y = 5/2x - 7",
+        "y = 2/5x + 7",
+        "y = -2/5x - 7"
+      ],
+      "correctAnswer": "y = 2/5x - 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-008",
+      "type": "multiple_choice",
+      "questionText": "Which equation contains (0, -8) and has rate of change -7/5?",
+      "options": [
+        "y = 7/5x - 8",
+        "y = -7/5x - 8",
+        "y = -7/5x + 8",
+        "y = -5/7x - 8"
+      ],
+      "correctAnswer": "y = -7/5x - 8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-009",
+      "type": "multiple_choice",
+      "questionText": "A line has constant change 2 and output -9 when input is 0. Which equation models it?",
+      "options": [
+        "y = 2x - 9",
+        "y = 1/2x - 9",
+        "y = 2x + 9",
+        "y = -2x - 9"
+      ],
+      "correctAnswer": "y = 2x - 9",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-010",
+      "type": "multiple_choice",
+      "questionText": "A line has slope -2/3 and y-intercept -2. Which equation represents it?",
+      "options": [
+        "y = -3/2x - 2",
+        "y = -2/3x - 2",
+        "y = 2/3x - 2",
+        "y = -2/3x + 2"
+      ],
+      "correctAnswer": "y = -2/3x - 2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-011",
+      "type": "multiple_choice",
+      "questionText": "Which equation in the form y = mx + b has m = 2/5 and b = -4?",
+      "options": [
+        "y = 2/5x - 4",
+        "y = 2/5x + 4",
+        "y = 5/2x - 4",
+        "y = -2/5x - 4"
+      ],
+      "correctAnswer": "y = 2/5x - 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-012",
+      "type": "multiple_choice",
+      "questionText": "A graph starts at 1 on the y-axis and changes by -7/5 for each 1 unit right. Which equation matches?",
+      "options": [
+        "y = -5/7x + 1",
+        "y = -7/5x + 1",
+        "y = -7/5x - 1",
+        "y = 7/5x + 1"
+      ],
+      "correctAnswer": "y = -7/5x + 1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-013",
+      "type": "multiple_choice",
+      "questionText": "A linear table has y-intercept 7 and includes the point (-1, 5). Which equation fits?",
+      "options": [
+        "y = -2x + 7",
+        "y = 2x - 7",
+        "y = 2x + 7",
+        "y = 1/2x + 7"
+      ],
+      "correctAnswer": "y = 2x + 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-014",
+      "type": "multiple_choice",
+      "questionText": "A plant is 4 cm tall at week 0 and changes by -2/3 cm each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = 2/3x + 4",
+        "y = -2/3x + 4",
+        "y = -3/2x + 4",
+        "y = -2/3x - 4"
+      ],
+      "correctAnswer": "y = -2/3x + 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-015",
+      "type": "multiple_choice",
+      "questionText": "A student writes y = mx + b. For slope 2/5 and starting value 2, what equation should they write?",
+      "options": [
+        "y = 2/5x + 2",
+        "y = 5/2x + 2",
+        "y = -2/5x + 2",
+        "y = 2/5x - 2"
+      ],
+      "correctAnswer": "y = 2/5x + 2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-016",
+      "type": "multiple_choice",
+      "questionText": "The line crosses the y-axis at -3 and has slope -7/5. Which rule gives y from x?",
+      "options": [
+        "y = -7/5x + 3",
+        "y = -5/7x - 3",
+        "y = 7/5x - 3",
+        "y = -7/5x - 3"
+      ],
+      "correctAnswer": "y = -7/5x - 3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-017",
+      "type": "multiple_choice",
+      "questionText": "Which equation contains (0, -7) and has rate of change 2?",
+      "options": [
+        "y = 2x - 7",
+        "y = 1/2x - 7",
+        "y = 2x + 7",
+        "y = -2x - 7"
+      ],
+      "correctAnswer": "y = 2x - 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-018",
+      "type": "multiple_choice",
+      "questionText": "A line has constant change -2/3 and output -8 when input is 0. Which equation models it?",
+      "options": [
+        "y = -2/3x + 8",
+        "y = -3/2x - 8",
+        "y = 2/3x - 8",
+        "y = -2/3x - 8"
+      ],
+      "correctAnswer": "y = -2/3x - 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-019",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 2/5 and y-intercept -9. Which equation represents it?",
+      "options": [
+        "y = -2/5x - 9",
+        "y = 2/5x - 9",
+        "y = 2/5x + 9",
+        "y = 5/2x - 9"
+      ],
+      "correctAnswer": "y = 2/5x - 9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-020",
+      "type": "multiple_choice",
+      "questionText": "Which equation in the form y = mx + b has m = -7/5 and b = -2?",
+      "options": [
+        "y = -7/5x + 2",
+        "y = -7/5x - 2",
+        "y = -5/7x - 2",
+        "y = 7/5x - 2"
+      ],
+      "correctAnswer": "y = -7/5x - 2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-021",
+      "type": "multiple_choice",
+      "questionText": "A graph starts at -4 on the y-axis and changes by 2 for each 1 unit right. Which equation matches?",
+      "options": [
+        "y = 1/2x - 4",
+        "y = -2x - 4",
+        "y = 2x - 4",
+        "y = 2x + 4"
+      ],
+      "correctAnswer": "y = 2x - 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-022",
+      "type": "multiple_choice",
+      "questionText": "A linear table has y-intercept 1 and includes the point (1, 1/3). Which equation fits?",
+      "options": [
+        "y = 2/3x + 1",
+        "y = -2/3x - 1",
+        "y = -2/3x + 1",
+        "y = -3/2x + 1"
+      ],
+      "correctAnswer": "y = -2/3x + 1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-023",
+      "type": "multiple_choice",
+      "questionText": "A plant is 7 cm tall at week 0 and changes by 2/5 cm each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = 5/2x + 7",
+        "y = 2/5x - 7",
+        "y = -2/5x + 7",
+        "y = 2/5x + 7"
+      ],
+      "correctAnswer": "y = 2/5x + 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-024",
+      "type": "multiple_choice",
+      "questionText": "A student writes y = mx + b. For slope -7/5 and starting value 4, what equation should they write?",
+      "options": [
+        "y = -5/7x + 4",
+        "y = -7/5x + 4",
+        "y = -7/5x - 4",
+        "y = 7/5x + 4"
+      ],
+      "correctAnswer": "y = -7/5x + 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-025",
+      "type": "multiple_choice",
+      "questionText": "The line crosses the y-axis at 2 and has slope 2. Which rule gives y from x?",
+      "options": [
+        "y = 2x - 2",
+        "y = 1/2x + 2",
+        "y = -2x + 2",
+        "y = 2x + 2"
+      ],
+      "correctAnswer": "y = 2x + 2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-026",
+      "type": "multiple_choice",
+      "questionText": "Which equation contains (0, -3) and has rate of change -2/3?",
+      "options": [
+        "y = -2/3x - 3",
+        "y = 2/3x - 3",
+        "y = -3/2x - 3",
+        "y = -2/3x + 3"
+      ],
+      "correctAnswer": "y = -2/3x - 3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-027",
+      "type": "multiple_choice",
+      "questionText": "A line has constant change 2/5 and output -7 when input is 0. Which equation models it?",
+      "options": [
+        "y = -2/5x - 7",
+        "y = 2/5x - 7",
+        "y = 2/5x + 7",
+        "y = 5/2x - 7"
+      ],
+      "correctAnswer": "y = 2/5x - 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-028",
+      "type": "multiple_choice",
+      "questionText": "A line has slope -7/5 and y-intercept -8. Which equation represents it?",
+      "options": [
+        "y = -5/7x - 8",
+        "y = -7/5x - 8",
+        "y = 7/5x - 8",
+        "y = -7/5x + 8"
+      ],
+      "correctAnswer": "y = -7/5x - 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-029",
+      "type": "multiple_choice",
+      "questionText": "Which equation in the form y = mx + b has m = 2 and b = -9?",
+      "options": [
+        "y = -2x - 9",
+        "y = 2x + 9",
+        "y = 1/2x - 9",
+        "y = 2x - 9"
+      ],
+      "correctAnswer": "y = 2x - 9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-030",
+      "type": "multiple_choice",
+      "questionText": "A graph starts at -2 on the y-axis and changes by -2/3 for each 1 unit right. Which equation matches?",
+      "options": [
+        "y = -3/2x - 2",
+        "y = -2/3x - 2",
+        "y = 2/3x - 2",
+        "y = -2/3x + 2"
+      ],
+      "correctAnswer": "y = -2/3x - 2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-031",
+      "type": "multiple_choice",
+      "questionText": "A linear table has y-intercept -4 and includes the point (3, -14/5). Which equation fits?",
+      "options": [
+        "y = 2/5x + 4",
+        "y = 5/2x - 4",
+        "y = 2/5x - 4",
+        "y = -2/5x - 4"
+      ],
+      "correctAnswer": "y = 2/5x - 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-032",
+      "type": "multiple_choice",
+      "questionText": "A plant is 1 cm tall at week 0 and changes by -7/5 cm each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = 7/5x + 1",
+        "y = -7/5x - 1",
+        "y = -7/5x + 1",
+        "y = -5/7x + 1"
+      ],
+      "correctAnswer": "y = -7/5x + 1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-033",
+      "type": "multiple_choice",
+      "questionText": "A student writes y = mx + b. For slope 2 and starting value 7, what equation should they write?",
+      "options": [
+        "y = 2x + 7",
+        "y = -2x + 7",
+        "y = 1/2x + 7",
+        "y = 2x - 7"
+      ],
+      "correctAnswer": "y = 2x + 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-034",
+      "type": "multiple_choice",
+      "questionText": "The line crosses the y-axis at 4 and has slope -2/3. Which rule gives y from x?",
+      "options": [
+        "y = 2/3x + 4",
+        "y = -3/2x + 4",
+        "y = -2/3x - 4",
+        "y = -2/3x + 4"
+      ],
+      "correctAnswer": "y = -2/3x + 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-035",
+      "type": "multiple_choice",
+      "questionText": "Which equation contains (0, 2) and has rate of change 2/5?",
+      "options": [
+        "y = 5/2x + 2",
+        "y = 2/5x + 2",
+        "y = -2/5x + 2",
+        "y = 2/5x - 2"
+      ],
+      "correctAnswer": "y = 2/5x + 2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-036",
+      "type": "multiple_choice",
+      "questionText": "A line has constant change -7/5 and output -3 when input is 0. Which equation models it?",
+      "options": [
+        "y = -7/5x + 3",
+        "y = -5/7x - 3",
+        "y = -7/5x - 3",
+        "y = 7/5x - 3"
+      ],
+      "correctAnswer": "y = -7/5x - 3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-037",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 2 and y-intercept -7. Which equation represents it?",
+      "options": [
+        "y = 2x - 7",
+        "y = -2x - 7",
+        "y = 2x + 7",
+        "y = 1/2x - 7"
+      ],
+      "correctAnswer": "y = 2x - 7",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-038",
+      "type": "multiple_choice",
+      "questionText": "Which equation in the form y = mx + b has m = -2/3 and b = -8?",
+      "options": [
+        "y = -2/3x - 8",
+        "y = 2/3x - 8",
+        "y = -2/3x + 8",
+        "y = -3/2x - 8"
+      ],
+      "correctAnswer": "y = -2/3x - 8",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-039",
+      "type": "multiple_choice",
+      "questionText": "A graph starts at -9 on the y-axis and changes by 2/5 for each 1 unit right. Which equation matches?",
+      "options": [
+        "y = -2/5x - 9",
+        "y = 5/2x - 9",
+        "y = 2/5x + 9",
+        "y = 2/5x - 9"
+      ],
+      "correctAnswer": "y = 2/5x - 9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-040",
+      "type": "multiple_choice",
+      "questionText": "A linear table has y-intercept -2 and includes the point (5, -9). Which equation fits?",
+      "options": [
+        "y = -5/7x - 2",
+        "y = 7/5x - 2",
+        "y = -7/5x - 2",
+        "y = -7/5x + 2"
+      ],
+      "correctAnswer": "y = -7/5x - 2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-041",
+      "type": "multiple_choice",
+      "questionText": "A plant is -4 cm tall at week 0 and changes by 2 cm each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = 1/2x - 4",
+        "y = -2x - 4",
+        "y = 2x - 4",
+        "y = 2x + 4"
+      ],
+      "correctAnswer": "y = 2x - 4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-042",
+      "type": "multiple_choice",
+      "questionText": "A student writes y = mx + b. For slope -2/3 and starting value 1, what equation should they write?",
+      "options": [
+        "y = 2/3x + 1",
+        "y = -2/3x - 1",
+        "y = -3/2x + 1",
+        "y = -2/3x + 1"
+      ],
+      "correctAnswer": "y = -2/3x + 1",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-043",
+      "type": "multiple_choice",
+      "questionText": "The line crosses the y-axis at 7 and has slope 2/5. Which rule gives y from x?",
+      "options": [
+        "y = -2/5x + 7",
+        "y = 2/5x + 7",
+        "y = 2/5x - 7",
+        "y = 5/2x + 7"
+      ],
+      "correctAnswer": "y = 2/5x + 7",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-044",
+      "type": "multiple_choice",
+      "questionText": "Which equation contains (0, 4) and has rate of change -7/5?",
+      "options": [
+        "y = -5/7x + 4",
+        "y = -7/5x + 4",
+        "y = -7/5x - 4",
+        "y = 7/5x + 4"
+      ],
+      "correctAnswer": "y = -7/5x + 4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-045",
+      "type": "multiple_choice",
+      "questionText": "A line has constant change 2 and output 2 when input is 0. Which equation models it?",
+      "options": [
+        "y = 2x + 2",
+        "y = 1/2x + 2",
+        "y = -2x + 2",
+        "y = 2x - 2"
+      ],
+      "correctAnswer": "y = 2x + 2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-046",
+      "type": "multiple_choice",
+      "questionText": "A line has slope -2/3 and y-intercept -3. Which equation represents it?",
+      "options": [
+        "y = -3/2x - 3",
+        "y = 2/3x - 3",
+        "y = -2/3x + 3",
+        "y = -2/3x - 3"
+      ],
+      "correctAnswer": "y = -2/3x - 3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-047",
+      "type": "multiple_choice",
+      "questionText": "Which equation in the form y = mx + b has m = 2/5 and b = -7?",
+      "options": [
+        "y = 2/5x - 7",
+        "y = -2/5x - 7",
+        "y = 2/5x + 7",
+        "y = 5/2x - 7"
+      ],
+      "correctAnswer": "y = 2/5x - 7",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-048",
+      "type": "multiple_choice",
+      "questionText": "A graph starts at -8 on the y-axis and changes by -7/5 for each 1 unit right. Which equation matches?",
+      "options": [
+        "y = -7/5x + 8",
+        "y = 7/5x - 8",
+        "y = -5/7x - 8",
+        "y = -7/5x - 8"
+      ],
+      "correctAnswer": "y = -7/5x - 8",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-049",
+      "type": "multiple_choice",
+      "questionText": "A linear table has y-intercept -9 and includes the point (-2, -13). Which equation fits?",
+      "options": [
+        "y = -2x - 9",
+        "y = 2x + 9",
+        "y = 2x - 9",
+        "y = 1/2x - 9"
+      ],
+      "correctAnswer": "y = 2x - 9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-plus-b-core-050",
+      "type": "multiple_choice",
+      "questionText": "A plant is -2 cm tall at week 0 and changes by -2/3 cm each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = -3/2x - 2",
+        "y = 2/3x - 2",
+        "y = -2/3x - 2",
+        "y = -2/3x + 2"
+      ],
+      "correctAnswer": "y = -2/3x - 2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "application"
+      ],
+      "explanation": "In y = mx + b, m is the slope and b is the y-intercept or starting value."
+    }
+  ]
+}

@@ -319,6 +319,9 @@ The current Course 3 learner-ready sequence is:
 - `Compare Rates of Change`
 - `Similar Triangles and Constant Slope`
 - `Equations in the Form y = mx`
+- `Understand the y-Intercept`
+- `Equations in the Form y = mx + b`
+- `Graph Linear Equations`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in

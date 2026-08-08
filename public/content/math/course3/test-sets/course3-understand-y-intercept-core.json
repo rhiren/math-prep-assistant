@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-understand-y-intercept-core",
+  "conceptId": "concept-understand-y-intercept",
+  "type": "concept",
+  "title": "Understand the y-Intercept Core Test",
+  "description": "Interpret the y-intercept as the starting value and the point where a line crosses the y-axis.",
+  "questions": [
+    {
+      "id": "course3-understand-y-intercept-core-001",
+      "type": "multiple_choice",
+      "questionText": "A line crosses the y-axis at (0, 3). What is the y-intercept?",
+      "options": [
+        "-3",
+        "3",
+        "4",
+        "2"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-002",
+      "type": "multiple_choice",
+      "questionText": "In the equation y = 3/2x - 2, what is the y-intercept?",
+      "options": [
+        "-3",
+        "-1",
+        "2",
+        "-2"
+      ],
+      "correctAnswer": "-2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-003",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes (0, 5) and (3, 11/4). What is the y-intercept?",
+      "options": [
+        "4",
+        "-5",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-004",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 2/5 and passes through (0, -4). What is b in y = mx + b?",
+      "options": [
+        "4",
+        "-3",
+        "-5",
+        "-4"
+      ],
+      "correctAnswer": "-4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-005",
+      "type": "multiple_choice",
+      "questionText": "The graph of a line meets the y-axis at y = 0. Which value is the y-intercept?",
+      "options": [
+        "3/5",
+        "0",
+        "-1",
+        "1"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-006",
+      "type": "multiple_choice",
+      "questionText": "A linear context starts with 1 points before any rounds are played. What is the y-intercept of the graph?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "-1"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-007",
+      "type": "multiple_choice",
+      "questionText": "A student identifies the y-intercept by setting x = 0. For y = x - 6, what value should they get?",
+      "options": [
+        "-6",
+        "-7",
+        "6",
+        "-5"
+      ],
+      "correctAnswer": "-6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-008",
+      "type": "multiple_choice",
+      "questionText": "The ordered pair (0, 7) is on a line. What does its y-coordinate represent?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "-7"
+      ],
+      "correctAnswer": "7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-009",
+      "type": "multiple_choice",
+      "questionText": "A line goes through (0, -1); another point is (3, -3). What is the starting value?",
+      "options": [
+        "-2",
+        "0",
+        "1",
+        "-1"
+      ],
+      "correctAnswer": "-1",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-010",
+      "type": "multiple_choice",
+      "questionText": "A line crosses the y-axis at (0, 4). What is the y-intercept?",
+      "options": [
+        "-4",
+        "4",
+        "5",
+        "3"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-011",
+      "type": "multiple_choice",
+      "questionText": "In the equation y = -5, what is the y-intercept?",
+      "options": [
+        "5",
+        "-4",
+        "-6",
+        "-5"
+      ],
+      "correctAnswer": "-5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-012",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes (0, 2) and (-2, -3/2). What is the y-intercept?",
+      "options": [
+        "2",
+        "1",
+        "-2",
+        "3"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-013",
+      "type": "multiple_choice",
+      "questionText": "A line has slope -3/2 and passes through (0, 6). What is b in y = mx + b?",
+      "options": [
+        "5",
+        "-6",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-014",
+      "type": "multiple_choice",
+      "questionText": "The graph of a line meets the y-axis at y = -3. Which value is the y-intercept?",
+      "options": [
+        "-4",
+        "-3",
+        "-2",
+        "3"
+      ],
+      "correctAnswer": "-3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-015",
+      "type": "multiple_choice",
+      "questionText": "A linear context starts with 8 points before any rounds are played. What is the y-intercept of the graph?",
+      "options": [
+        "-8",
+        "9",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-016",
+      "type": "multiple_choice",
+      "questionText": "A student identifies the y-intercept by setting x = 0. For y = 4/3x - 7, what value should they get?",
+      "options": [
+        "-6",
+        "-7",
+        "7",
+        "-8"
+      ],
+      "correctAnswer": "-7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-017",
+      "type": "multiple_choice",
+      "questionText": "The ordered pair (0, 9) is on a line. What does its y-coordinate represent?",
+      "options": [
+        "8",
+        "-9",
+        "10",
+        "9"
+      ],
+      "correctAnswer": "9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-018",
+      "type": "multiple_choice",
+      "questionText": "A line goes through (0, -8); another point is (-2, -14/3). What is the starting value?",
+      "options": [
+        "-8",
+        "-7",
+        "-9",
+        "8"
+      ],
+      "correctAnswer": "-8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-019",
+      "type": "multiple_choice",
+      "questionText": "A line crosses the y-axis at (0, 10). What is the y-intercept?",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "-10"
+      ],
+      "correctAnswer": "10",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-020",
+      "type": "multiple_choice",
+      "questionText": "In the equation y = 6/5x - 9, what is the y-intercept?",
+      "options": [
+        "-10",
+        "-9",
+        "-8",
+        "9"
+      ],
+      "correctAnswer": "-9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-021",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes (0, 3) and (3, 0). What is the y-intercept?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "-3"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-022",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 3/2 and passes through (0, -2). What is b in y = mx + b?",
+      "options": [
+        "-1",
+        "-2",
+        "2",
+        "-3"
+      ],
+      "correctAnswer": "-2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-023",
+      "type": "multiple_choice",
+      "questionText": "The graph of a line meets the y-axis at y = 5. Which value is the y-intercept?",
+      "options": [
+        "5",
+        "6",
+        "-5",
+        "4"
+      ],
+      "correctAnswer": "5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-024",
+      "type": "multiple_choice",
+      "questionText": "A linear context starts with -4 points before any rounds are played. What is the y-intercept of the graph?",
+      "options": [
+        "-3",
+        "4",
+        "-5",
+        "-4"
+      ],
+      "correctAnswer": "-4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-025",
+      "type": "multiple_choice",
+      "questionText": "A student identifies the y-intercept by setting x = 0. For y = 3/5x, what value should they get?",
+      "options": [
+        "3/5",
+        "-1",
+        "0",
+        "1"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-026",
+      "type": "multiple_choice",
+      "questionText": "The ordered pair (0, 1) is on a line. What does its y-coordinate represent?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "2"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-027",
+      "type": "multiple_choice",
+      "questionText": "A line goes through (0, -6); another point is (3, -3). What is the starting value?",
+      "options": [
+        "-5",
+        "6",
+        "-7",
+        "-6"
+      ],
+      "correctAnswer": "-6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-028",
+      "type": "multiple_choice",
+      "questionText": "A line crosses the y-axis at (0, 7). What is the y-intercept?",
+      "options": [
+        "7",
+        "8",
+        "-7",
+        "6"
+      ],
+      "correctAnswer": "7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-029",
+      "type": "multiple_choice",
+      "questionText": "In the equation y = -2/3x - 1, what is the y-intercept?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "-2"
+      ],
+      "correctAnswer": "-1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-030",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes (0, 4) and (-2, -1). What is the y-intercept?",
+      "options": [
+        "-4",
+        "4",
+        "3",
+        "5"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-031",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 0 and passes through (0, -5). What is b in y = mx + b?",
+      "options": [
+        "-5",
+        "-6",
+        "-4",
+        "5"
+      ],
+      "correctAnswer": "-5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-032",
+      "type": "multiple_choice",
+      "questionText": "The graph of a line meets the y-axis at y = 2. Which value is the y-intercept?",
+      "options": [
+        "3",
+        "-2",
+        "1",
+        "2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-033",
+      "type": "multiple_choice",
+      "questionText": "A linear context starts with 6 points before any rounds are played. What is the y-intercept of the graph?",
+      "options": [
+        "5",
+        "-6",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-034",
+      "type": "multiple_choice",
+      "questionText": "A student identifies the y-intercept by setting x = 0. For y = 2x - 3, what value should they get?",
+      "options": [
+        "-3",
+        "-4",
+        "3",
+        "-2"
+      ],
+      "correctAnswer": "-3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-035",
+      "type": "multiple_choice",
+      "questionText": "The ordered pair (0, 8) is on a line. What does its y-coordinate represent?",
+      "options": [
+        "7",
+        "9",
+        "8",
+        "-8"
+      ],
+      "correctAnswer": "8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-036",
+      "type": "multiple_choice",
+      "questionText": "A line goes through (0, -7); another point is (-2, -29/3). What is the starting value?",
+      "options": [
+        "7",
+        "-6",
+        "-8",
+        "-7"
+      ],
+      "correctAnswer": "-7",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-037",
+      "type": "multiple_choice",
+      "questionText": "A line crosses the y-axis at (0, 9). What is the y-intercept?",
+      "options": [
+        "9",
+        "10",
+        "-9",
+        "8"
+      ],
+      "correctAnswer": "9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-038",
+      "type": "multiple_choice",
+      "questionText": "In the equation y = -5/3x - 8, what is the y-intercept?",
+      "options": [
+        "8",
+        "-7",
+        "-9",
+        "-8"
+      ],
+      "correctAnswer": "-8",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-039",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes (0, 10) and (3, 29/5). What is the y-intercept?",
+      "options": [
+        "11",
+        "10",
+        "-10",
+        "9"
+      ],
+      "correctAnswer": "10",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-040",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 6/5 and passes through (0, -9). What is b in y = mx + b?",
+      "options": [
+        "-10",
+        "-8",
+        "-9",
+        "9"
+      ],
+      "correctAnswer": "-9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-041",
+      "type": "multiple_choice",
+      "questionText": "The graph of a line meets the y-axis at y = 3. Which value is the y-intercept?",
+      "options": [
+        "-3",
+        "3",
+        "2",
+        "4"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-042",
+      "type": "multiple_choice",
+      "questionText": "A linear context starts with -2 points before any rounds are played. What is the y-intercept of the graph?",
+      "options": [
+        "-2",
+        "-3",
+        "2",
+        "-1"
+      ],
+      "correctAnswer": "-2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-043",
+      "type": "multiple_choice",
+      "questionText": "A student identifies the y-intercept by setting x = 0. For y = -3/4x + 5, what value should they get?",
+      "options": [
+        "6",
+        "-5",
+        "5",
+        "4"
+      ],
+      "correctAnswer": "5",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-044",
+      "type": "multiple_choice",
+      "questionText": "The ordered pair (0, -4) is on a line. What does its y-coordinate represent?",
+      "options": [
+        "-3",
+        "-4",
+        "-5",
+        "4"
+      ],
+      "correctAnswer": "-4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-045",
+      "type": "multiple_choice",
+      "questionText": "A line goes through (0, 0); another point is (3, 9/5). What is the starting value?",
+      "options": [
+        "3/5",
+        "-1",
+        "0",
+        "1"
+      ],
+      "correctAnswer": "0",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-046",
+      "type": "multiple_choice",
+      "questionText": "A line crosses the y-axis at (0, 1). What is the y-intercept?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-047",
+      "type": "multiple_choice",
+      "questionText": "In the equation y = x - 6, what is the y-intercept?",
+      "options": [
+        "-5",
+        "6",
+        "-7",
+        "-6"
+      ],
+      "correctAnswer": "-6",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-048",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes (0, 7) and (-2, 6). What is the y-intercept?",
+      "options": [
+        "7",
+        "8",
+        "-7",
+        "6"
+      ],
+      "correctAnswer": "7",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-049",
+      "type": "multiple_choice",
+      "questionText": "A line has slope -2/3 and passes through (0, -1). What is b in y = mx + b?",
+      "options": [
+        "-2",
+        "0",
+        "-1",
+        "1"
+      ],
+      "correctAnswer": "-1",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    },
+    {
+      "id": "course3-understand-y-intercept-core-050",
+      "type": "multiple_choice",
+      "questionText": "The graph of a line meets the y-axis at y = 4. Which value is the y-intercept?",
+      "options": [
+        "-4",
+        "4",
+        "3",
+        "5"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "graph",
+        "reasoning"
+      ],
+      "explanation": "The y-intercept is the y-value where x = 0. In y = mx + b, it is b."
+    }
+  ]
+}
