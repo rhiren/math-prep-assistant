@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
         "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate",
+        "The rates cannot be compared",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "scaffold",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
+        "The rates cannot be compared",
         "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "Plan B has the greater rate",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "scaffold",
@@ -71,9 +71,9 @@
       "questionText": "Plan A changes by 6 units for every 8 steps. Plan B changes by 8 units for every 10 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
+        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The rates cannot be compared"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "scaffold",
@@ -92,8 +92,8 @@
       "options": [
         "Plan A has the greater rate",
         "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "scaffold",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
       "options": [
+        "The rates cannot be compared",
         "Plan A has the greater rate",
         "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "The rates are equal"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "scaffold",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by -6 units for every 4 steps. Plan B changes by 14 units for every 8 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
         "The rates are equal",
-        "Plan B has the greater rate",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan A has the greater rate",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "scaffold",
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
         "The rates are equal",
         "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "Plan A has the greater rate",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 10 units for every 6 steps. Plan B changes by 12 units for every 10 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "Plan A has the greater rate",
+        "The rates cannot be compared",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by -2 units for every 4 steps. Plan B changes by 4 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
         "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "scaffold",
@@ -211,9 +211,9 @@
       "questionText": "Plan A changes by 14 units for every 8 steps. Plan B changes by 6 units for every 2 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
-        "The rates are equal",
+        "The rates cannot be compared",
         "Plan B has the greater rate",
-        "The rates cannot be compared"
+        "The rates are equal"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -231,8 +231,8 @@
       "questionText": "Plan A changes by 0 units for every 2 steps. Plan B changes by 2 units for every 4 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
-        "The rates are equal",
         "The rates cannot be compared",
+        "The rates are equal",
         "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
@@ -250,8 +250,8 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 12 units for every 10 steps. Plan B changes by 4 units for every 6 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
         "Plan B has the greater rate",
+        "Plan A has the greater rate",
         "The rates are equal",
         "The rates cannot be compared"
       ],
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 4 units for every 2 steps. Plan B changes by 6 units for every 8 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
         "Plan A has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -290,10 +290,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 6 units for every 2 steps. Plan B changes by 10 units for every 4 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
         "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "The rates are equal",
+        "The rates cannot be compared",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -311,9 +311,9 @@
       "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
       "options": [
         "Plan B has the greater rate",
-        "The rates are equal",
         "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "Plan A has the greater rate",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
         "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -352,8 +352,8 @@
       "options": [
         "Plan A has the greater rate",
         "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -372,8 +372,8 @@
       "options": [
         "Plan B has the greater rate",
         "The rates are equal",
-        "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
       "options": [
+        "Plan B has the greater rate",
         "Plan A has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The rates cannot be compared"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -412,8 +412,8 @@
       "options": [
         "Plan B has the greater rate",
         "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -430,10 +430,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "Plan A has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "Plan A has the greater rate",
+        "The rates cannot be compared",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -450,10 +450,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 10 units for every 6 steps. Plan B changes by 12 units for every 10 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
         "The rates are equal",
         "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -471,9 +471,9 @@
       "questionText": "Plan A changes by -2 units for every 4 steps. Plan B changes by 4 units for every 2 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
-        "The rates are equal",
         "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "Plan B has the greater rate",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -490,10 +490,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 14 units for every 8 steps. Plan B changes by 6 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
         "Plan A has the greater rate",
+        "The rates cannot be compared",
         "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -510,10 +510,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 0 units for every 2 steps. Plan B changes by 2 units for every 4 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan B has the greater rate",
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -531,8 +531,8 @@
       "questionText": "Plan A changes by 12 units for every 10 steps. Plan B changes by 4 units for every 6 steps. Which statement is true?",
       "options": [
         "Plan B has the greater rate",
-        "The rates are equal",
         "Plan A has the greater rate",
+        "The rates are equal",
         "The rates cannot be compared"
       ],
       "correctAnswer": "Plan A has the greater rate",
@@ -550,10 +550,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 4 units for every 2 steps. Plan B changes by 6 units for every 8 steps. Which statement is true?",
       "options": [
+        "Plan A has the greater rate",
         "Plan B has the greater rate",
-        "The rates are equal",
         "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -570,10 +570,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 6 units for every 2 steps. Plan B changes by 10 units for every 4 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan A has the greater rate",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -590,10 +590,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "Plan A has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan B has the greater rate",
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -611,9 +611,9 @@
       "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
       "options": [
         "Plan B has the greater rate",
-        "The rates are equal",
         "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -632,8 +632,8 @@
       "options": [
         "Plan A has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "Plan B has the greater rate",
+        "The rates cannot be compared"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -650,10 +650,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 10 units for every 4 steps. Plan B changes by 10 units for every 6 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "Plan A has the greater rate",
+        "The rates cannot be compared",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "standard",
@@ -671,9 +671,9 @@
       "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
-        "Plan B has the greater rate",
+        "The rates cannot be compared",
         "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -691,9 +691,9 @@
       "questionText": "Plan A changes by -6 units for every 4 steps. Plan B changes by 14 units for every 8 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
+        "The rates cannot be compared",
         "The rates are equal",
-        "Plan B has the greater rate",
-        "The rates cannot be compared"
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "standard",
@@ -710,10 +710,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
+        "Plan A has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "Plan B has the greater rate",
+        "The rates cannot be compared"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",
@@ -730,10 +730,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 10 units for every 6 steps. Plan B changes by 12 units for every 10 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan B has the greater rate",
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",
@@ -751,9 +751,9 @@
       "questionText": "Plan A changes by -2 units for every 4 steps. Plan B changes by 4 units for every 2 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
-        "Plan B has the greater rate",
+        "The rates cannot be compared",
         "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "challenge",
@@ -791,9 +791,9 @@
       "questionText": "Plan A changes by 0 units for every 2 steps. Plan B changes by 2 units for every 4 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
+        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The rates cannot be compared"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "challenge",
@@ -810,10 +810,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 12 units for every 10 steps. Plan B changes by 4 units for every 6 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
         "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan A has the greater rate",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",
@@ -830,10 +830,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 4 units for every 2 steps. Plan B changes by 6 units for every 8 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
         "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate",
+        "The rates cannot be compared",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",
@@ -850,10 +850,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 6 units for every 2 steps. Plan B changes by 10 units for every 4 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
         "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "The rates are equal",
+        "The rates cannot be compared",
+        "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",
@@ -870,10 +870,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "Plan A has the greater rate",
+        "Plan B has the greater rate",
+        "The rates cannot be compared"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",
@@ -890,9 +890,9 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
         "Plan B has the greater rate",
         "The rates are equal",
+        "Plan A has the greater rate",
         "The rates cannot be compared"
       ],
       "correctAnswer": "Plan A has the greater rate",
@@ -912,8 +912,8 @@
       "options": [
         "Plan A has the greater rate",
         "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "The rates are equal"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "challenge",
@@ -930,10 +930,10 @@
       "type": "multiple_choice",
       "questionText": "Plan A changes by 10 units for every 4 steps. Plan B changes by 10 units for every 6 steps. Which statement is true?",
       "options": [
+        "The rates cannot be compared",
         "Plan B has the greater rate",
         "The rates are equal",
-        "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",
@@ -951,8 +951,8 @@
       "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
       "options": [
         "Plan A has the greater rate",
-        "The rates are equal",
         "The rates cannot be compared",
+        "The rates are equal",
         "Plan B has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
@@ -971,9 +971,9 @@
       "questionText": "Plan A changes by -6 units for every 4 steps. Plan B changes by 14 units for every 8 steps. Which statement is true?",
       "options": [
         "Plan B has the greater rate",
-        "Plan A has the greater rate",
         "The rates are equal",
-        "The rates cannot be compared"
+        "The rates cannot be compared",
+        "Plan A has the greater rate"
       ],
       "correctAnswer": "Plan B has the greater rate",
       "difficulty": "challenge",
@@ -991,9 +991,9 @@
       "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
       "options": [
         "Plan B has the greater rate",
+        "The rates cannot be compared",
         "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "The rates are equal"
       ],
       "correctAnswer": "Plan A has the greater rate",
       "difficulty": "challenge",

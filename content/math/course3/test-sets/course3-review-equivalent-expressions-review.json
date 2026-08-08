@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 9a - 4a.",
       "options": [
-        "13a",
         "5a",
-        "5",
-        "5a²"
+        "13a",
+        "5a²",
+        "5"
       ],
       "correctAnswer": "5a",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Use the distributive property: 2(x + 6).",
       "options": [
-        "2x + 6",
-        "x + 12",
+        "8x",
         "2x + 12",
-        "8x"
+        "2x + 6",
+        "x + 12"
       ],
       "correctAnswer": "2x + 12",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Use the distributive property: 4(y - 3).",
       "options": [
+        "4y - 12",
         "4y - 3",
         "y - 12",
-        "4y + 12",
-        "4y - 12"
+        "4y + 12"
       ],
       "correctAnswer": "4y - 12",
       "difficulty": "scaffold",
@@ -84,8 +84,8 @@
       "options": [
         "4m + 2",
         "3m + 3",
-        "4m + 3",
-        "6m"
+        "6m",
+        "4m + 3"
       ],
       "correctAnswer": "4m + 2",
       "difficulty": "scaffold",
@@ -102,8 +102,8 @@
       "options": [
         "5(x + 10)",
         "5(x + 2)",
-        "10(x + 5)",
-        "x(5 + 10)"
+        "x(5 + 10)",
+        "10(x + 5)"
       ],
       "correctAnswer": "5(x + 2)",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 6p - p.",
       "options": [
-        "6",
         "7p",
-        "5p",
-        "5p²"
+        "5p²",
+        "6",
+        "5p"
       ],
       "correctAnswer": "5p",
       "difficulty": "scaffold",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Which pair is equivalent?",
       "options": [
-        "3(a + 4) and 3a + 4",
         "a + 3 and 3a",
         "4a + 3a and 12a",
-        "3(a + 4) and 3a + 12"
+        "3(a + 4) and 3a + 12",
+        "3(a + 4) and 3a + 4"
       ],
       "correctAnswer": "3(a + 4) and 3a + 12",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 2x + 3 + 4x + 1.",
       "options": [
-        "6x + 4",
-        "6x + 3",
         "9x + 1",
-        "6x + 12"
+        "6x + 4",
+        "6x + 12",
+        "6x + 3"
       ],
       "correctAnswer": "6x + 4",
       "difficulty": "standard",
@@ -173,9 +173,9 @@
       "questionText": "Simplify 5a - 2 + 3a + 9.",
       "options": [
         "8a - 11",
-        "8a + 7",
         "2a + 7",
-        "8a + 11"
+        "8a + 11",
+        "8a + 7"
       ],
       "correctAnswer": "8a + 7",
       "difficulty": "standard",
@@ -191,8 +191,8 @@
       "questionText": "Simplify 3(2x + 5).",
       "options": [
         "6x + 5",
-        "5x + 15",
         "6x + 15",
+        "5x + 15",
         "6x + 8"
       ],
       "correctAnswer": "6x + 15",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify -2(y + 4).",
       "options": [
-        "-2y + 8",
         "2y - 8",
         "-2y + 4",
-        "-2y - 8"
+        "-2y - 8",
+        "-2y + 8"
       ],
       "correctAnswer": "-2y - 8",
       "difficulty": "standard",
@@ -227,9 +227,9 @@
       "questionText": "Simplify 4(x + 1) + 2x.",
       "options": [
         "6x + 4",
+        "8x",
         "6x + 1",
-        "4x + 6",
-        "8x"
+        "4x + 6"
       ],
       "correctAnswer": "6x + 4",
       "difficulty": "standard",
@@ -245,9 +245,9 @@
       "questionText": "Simplify 7n - 3(n - 2).",
       "options": [
         "4n - 6",
-        "4n + 6",
+        "4n + 2",
         "10n + 6",
-        "4n + 2"
+        "4n + 6"
       ],
       "correctAnswer": "4n + 6",
       "difficulty": "standard",
@@ -280,8 +280,8 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 6x + 6y?",
       "options": [
-        "12xy",
         "6xy",
+        "12xy",
         "x(6 + y)",
         "6(x + y)"
       ],
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "A student writes 4(x + 1) = 4x + 1. What is the correction?",
       "options": [
-        "4(x + 1) = 4x + 4",
-        "4(x + 1) = 5x",
         "4(x + 1) = x + 4",
-        "4(x + 1) = 4x"
+        "4(x + 1) = 4x + 4",
+        "4(x + 1) = 4x",
+        "4(x + 1) = 5x"
       ],
       "correctAnswer": "4(x + 1) = 4x + 4",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 2(3x - 4) - x.",
       "options": [
-        "5x + 8",
-        "5x - 8",
         "6x - 4",
-        "7x - 8"
+        "7x - 8",
+        "5x - 8",
+        "5x + 8"
       ],
       "correctAnswer": "5x - 8",
       "difficulty": "standard",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 8x + 12?",
       "options": [
-        "2(4x + 12)",
         "8(x + 12)",
+        "3(8x + 4)",
         "4(2x + 3)",
-        "3(8x + 4)"
+        "2(4x + 12)"
       ],
       "correctAnswer": "4(2x + 3)",
       "difficulty": "standard",
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Which statement is true about equivalent expressions?",
       "options": [
-        "They only match when x = 1",
         "They must look identical",
         "They cannot use parentheses",
+        "They only match when x = 1",
         "They have the same value for every allowed value of the variable"
       ],
       "correctAnswer": "They have the same value for every allowed value of the variable",

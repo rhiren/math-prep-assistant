@@ -12,8 +12,8 @@
       "options": [
         "y = 2/3x",
         "y = 3/2x",
-        "y = 1x",
-        "y = 2/3x + 1"
+        "y = 2/3x + 1",
+        "y = 1x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "scaffold",
@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (2, 3/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 4/3x",
-        "y = 3/4x",
         "y = 2x",
-        "y = 3/2x"
+        "y = 4/3x",
+        "y = 3/2x",
+        "y = 3/4x"
       ],
       "correctAnswer": "y = 3/4x",
       "difficulty": "scaffold",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (3, 15/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 2/5x",
         "y = 3x",
         "y = 5/2x",
-        "y = 15/2x"
+        "y = 15/2x",
+        "y = 2/5x"
       ],
       "correctAnswer": "y = 5/2x",
       "difficulty": "scaffold",
@@ -70,10 +70,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (4, -8). Which equation has the form y = mx for this line?",
       "options": [
+        "y = -2x",
         "y = -1/2x",
-        "y = 4x",
         "y = -8x",
-        "y = -2x"
+        "y = 4x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "scaffold",
@@ -90,9 +90,9 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (5, -15/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -3/2x",
         "y = -2/3x",
         "y = 5x",
+        "y = -3/2x",
         "y = -15/2x"
       ],
       "correctAnswer": "y = -3/2x",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (6, 24/5). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 5/4x",
-        "y = 4/5x",
         "y = 6x",
-        "y = 24/5x"
+        "y = 4/5x",
+        "y = 24/5x",
+        "y = 5/4x"
       ],
       "correctAnswer": "y = 4/5x",
       "difficulty": "scaffold",
@@ -131,9 +131,9 @@
       "questionText": "A line goes through the origin and the point (1, 5/3). Which equation has the form y = mx for this line?",
       "options": [
         "y = 3/5x",
-        "y = 1x",
+        "y = 5/3x + 1",
         "y = 5/3x",
-        "y = 5/3x + 1"
+        "y = 1x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "scaffold",
@@ -152,8 +152,8 @@
       "options": [
         "y = -2x",
         "y = 2x",
-        "y = -1x",
-        "y = -1/2x"
+        "y = -1/2x",
+        "y = -1x"
       ],
       "correctAnswer": "y = -1/2x",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (3, 21/4). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 7/4x",
-        "y = 4/7x",
         "y = 3x",
-        "y = 21/4x"
+        "y = 4/7x",
+        "y = 21/4x",
+        "y = 7/4x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "scaffold",
@@ -191,9 +191,9 @@
       "questionText": "A line goes through the origin and the point (4, 0). Which equation has the form y = mx for this line?",
       "options": [
         "y = x",
+        "y = -x",
         "y = 0",
-        "y = 4x",
-        "y = -x"
+        "y = 4x"
       ],
       "correctAnswer": "y = 0",
       "difficulty": "scaffold",
@@ -210,10 +210,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (5, 6). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 5/6x",
-        "y = 5x",
         "y = 6/5x",
-        "y = 6x"
+        "y = 5x",
+        "y = 6x",
+        "y = 5/6x"
       ],
       "correctAnswer": "y = 6/5x",
       "difficulty": "standard",
@@ -231,9 +231,9 @@
       "questionText": "A line goes through the origin and the point (6, 12). Which equation has the form y = mx for this line?",
       "options": [
         "y = 1/2x",
+        "y = 2x",
         "y = 6x",
-        "y = 12x",
-        "y = 2x"
+        "y = 12x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "standard",
@@ -250,10 +250,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (1, 3). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 3x",
         "y = 1/3x",
         "y = 1x",
-        "y = 3x + 1"
+        "y = 3x + 1",
+        "y = 3x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "standard",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (2, 1). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 2x",
-        "y = 1/2x",
         "y = 1x",
-        "y = 1/2x + 2"
+        "y = 1/2x + 2",
+        "y = 1/2x",
+        "y = 2x"
       ],
       "correctAnswer": "y = 1/2x",
       "difficulty": "standard",
@@ -290,10 +290,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (3, 2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 3/2x",
-        "y = 3x",
         "y = 2/3x",
-        "y = 2x"
+        "y = 3x",
+        "y = 2x",
+        "y = 3/2x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "standard",
@@ -311,9 +311,9 @@
       "questionText": "A line goes through the origin and the point (4, 3). Which equation has the form y = mx for this line?",
       "options": [
         "y = 4/3x",
+        "y = 3/4x",
         "y = 4x",
-        "y = 3x",
-        "y = 3/4x"
+        "y = 3x"
       ],
       "correctAnswer": "y = 3/4x",
       "difficulty": "standard",
@@ -332,8 +332,8 @@
       "options": [
         "y = 5/2x",
         "y = 2/5x",
-        "y = 5x",
-        "y = 25/2x"
+        "y = 25/2x",
+        "y = 5x"
       ],
       "correctAnswer": "y = 5/2x",
       "difficulty": "standard",
@@ -350,10 +350,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (6, -12). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -1/2x",
-        "y = -2x",
         "y = 6x",
-        "y = -12x"
+        "y = -12x",
+        "y = -2x",
+        "y = -1/2x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "standard",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (1, -3/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -2/3x",
         "y = 1x",
-        "y = -3/2x",
-        "y = -3/2x + 1"
+        "y = -2/3x",
+        "y = -3/2x + 1",
+        "y = -3/2x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "standard",
@@ -392,8 +392,8 @@
       "options": [
         "y = 5/4x",
         "y = 2x",
-        "y = 8/5x",
-        "y = 4/5x"
+        "y = 4/5x",
+        "y = 8/5x"
       ],
       "correctAnswer": "y = 4/5x",
       "difficulty": "standard",
@@ -411,9 +411,9 @@
       "questionText": "A line goes through the origin and the point (3, 5). Which equation has the form y = mx for this line?",
       "options": [
         "y = 5/3x",
-        "y = 3/5x",
         "y = 3x",
-        "y = 5x"
+        "y = 5x",
+        "y = 3/5x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "standard",
@@ -430,10 +430,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (4, -2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -2x",
-        "y = -1/2x",
         "y = 4x",
-        "y = -1/2x + 4"
+        "y = -1/2x",
+        "y = -1/2x + 4",
+        "y = -2x"
       ],
       "correctAnswer": "y = -1/2x",
       "difficulty": "standard",
@@ -450,10 +450,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (5, 35/4). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 4/7x",
-        "y = 5x",
         "y = 7/4x",
-        "y = 35/4x"
+        "y = 4/7x",
+        "y = 35/4x",
+        "y = 5x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "standard",
@@ -490,9 +490,9 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (1, 6/5). Which equation has the form y = mx for this line?",
       "options": [
+        "y = 1x",
         "y = 6/5x",
         "y = 5/6x",
-        "y = 1x",
         "y = 6/5x + 1"
       ],
       "correctAnswer": "y = 6/5x",
@@ -510,10 +510,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (2, 4). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 1/2x",
-        "y = 2x",
         "y = 4x",
-        "y = 2x + 2"
+        "y = 2x",
+        "y = 2x + 2",
+        "y = 1/2x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "standard",
@@ -530,10 +530,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (3, 9). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 1/3x",
         "y = 9x",
+        "y = 3x + 3",
         "y = 3x",
-        "y = 3x + 3"
+        "y = 1/3x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "standard",
@@ -550,10 +550,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (4, 2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 2x",
         "y = 4x",
+        "y = 1/2x",
         "y = 1/2x + 4",
-        "y = 1/2x"
+        "y = 2x"
       ],
       "correctAnswer": "y = 1/2x",
       "difficulty": "standard",
@@ -570,10 +570,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (5, 10/3). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 2/3x",
+        "y = 10/3x",
         "y = 3/2x",
         "y = 5x",
-        "y = 10/3x"
+        "y = 2/3x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "standard",
@@ -590,10 +590,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (6, 9/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 4/3x",
-        "y = 3/4x",
         "y = 6x",
-        "y = 9/2x"
+        "y = 9/2x",
+        "y = 4/3x",
+        "y = 3/4x"
       ],
       "correctAnswer": "y = 3/4x",
       "difficulty": "standard",
@@ -610,9 +610,9 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (1, 5/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 2/5x",
-        "y = 1x",
         "y = 5/2x",
+        "y = 1x",
+        "y = 2/5x",
         "y = 5/2x + 1"
       ],
       "correctAnswer": "y = 5/2x",
@@ -630,10 +630,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (2, -4). Which equation has the form y = mx for this line?",
       "options": [
+        "y = -2x",
         "y = -1/2x",
         "y = 2x",
-        "y = -4x",
-        "y = -2x"
+        "y = -4x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "standard",
@@ -650,10 +650,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (3, -9/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -3/2x",
         "y = -2/3x",
-        "y = 3x",
-        "y = -9/2x"
+        "y = -9/2x",
+        "y = -3/2x",
+        "y = 3x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "standard",
@@ -670,10 +670,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (4, 16/5). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 5/4x",
-        "y = 4/5x",
         "y = 4x",
-        "y = 16/5x"
+        "y = 5/4x",
+        "y = 16/5x",
+        "y = 4/5x"
       ],
       "correctAnswer": "y = 4/5x",
       "difficulty": "standard",
@@ -692,8 +692,8 @@
       "options": [
         "y = 3/5x",
         "y = 5x",
-        "y = 5/3x",
-        "y = 25/3x"
+        "y = 25/3x",
+        "y = 5/3x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "standard",
@@ -711,9 +711,9 @@
       "questionText": "A line goes through the origin and the point (6, -3). Which equation has the form y = mx for this line?",
       "options": [
         "y = -2x",
-        "y = 6x",
+        "y = -1/2x",
         "y = -3x",
-        "y = -1/2x"
+        "y = 6x"
       ],
       "correctAnswer": "y = -1/2x",
       "difficulty": "challenge",
@@ -730,10 +730,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (1, 7/4). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 7/4x",
         "y = 4/7x",
-        "y = 1x",
-        "y = 7/4x + 1"
+        "y = 7/4x",
+        "y = 7/4x + 1",
+        "y = 1x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "challenge",
@@ -751,9 +751,9 @@
       "questionText": "A line goes through the origin and the point (2, 0). Which equation has the form y = mx for this line?",
       "options": [
         "y = x",
+        "y = -x",
         "y = 0",
-        "y = 2x",
-        "y = -x"
+        "y = 2x"
       ],
       "correctAnswer": "y = 0",
       "difficulty": "challenge",
@@ -770,10 +770,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (3, 18/5). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 5/6x",
         "y = 3x",
         "y = 6/5x",
-        "y = 18/5x"
+        "y = 18/5x",
+        "y = 5/6x"
       ],
       "correctAnswer": "y = 6/5x",
       "difficulty": "challenge",
@@ -791,9 +791,9 @@
       "questionText": "A line goes through the origin and the point (4, 8). Which equation has the form y = mx for this line?",
       "options": [
         "y = 1/2x",
+        "y = 2x",
         "y = 4x",
-        "y = 8x",
-        "y = 2x"
+        "y = 8x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "challenge",
@@ -810,9 +810,9 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (5, 15). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 3x",
-        "y = 1/3x",
         "y = 5x",
+        "y = 1/3x",
+        "y = 3x",
         "y = 15x"
       ],
       "correctAnswer": "y = 3x",
@@ -830,10 +830,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (6, 3). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 2x",
         "y = 1/2x",
+        "y = 3x",
         "y = 6x",
-        "y = 3x"
+        "y = 2x"
       ],
       "correctAnswer": "y = 1/2x",
       "difficulty": "challenge",
@@ -850,10 +850,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (1, 2/3). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 3/2x",
-        "y = 1x",
         "y = 2/3x",
-        "y = 2/3x + 1"
+        "y = 3/2x",
+        "y = 2/3x + 1",
+        "y = 1x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "challenge",
@@ -871,8 +871,8 @@
       "questionText": "A line goes through the origin and the point (2, 3/2). Which equation has the form y = mx for this line?",
       "options": [
         "y = 4/3x",
-        "y = 2x",
         "y = 3/2x",
+        "y = 2x",
         "y = 3/4x"
       ],
       "correctAnswer": "y = 3/4x",
@@ -890,9 +890,9 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (3, 15/2). Which equation has the form y = mx for this line?",
       "options": [
+        "y = 3x",
         "y = 5/2x",
         "y = 2/5x",
-        "y = 3x",
         "y = 15/2x"
       ],
       "correctAnswer": "y = 5/2x",
@@ -910,10 +910,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (4, -8). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -1/2x",
         "y = -2x",
         "y = 4x",
-        "y = -8x"
+        "y = -8x",
+        "y = -1/2x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "challenge",
@@ -930,10 +930,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (5, -15/2). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -2/3x",
-        "y = 5x",
         "y = -3/2x",
-        "y = -15/2x"
+        "y = -2/3x",
+        "y = -15/2x",
+        "y = 5x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "challenge",
@@ -950,10 +950,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (6, 24/5). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 5/4x",
         "y = 6x",
         "y = 24/5x",
-        "y = 4/5x"
+        "y = 4/5x",
+        "y = 5/4x"
       ],
       "correctAnswer": "y = 4/5x",
       "difficulty": "challenge",
@@ -970,10 +970,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (1, 5/3). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 5/3x",
-        "y = 3/5x",
         "y = 1x",
-        "y = 5/3x + 1"
+        "y = 5/3x + 1",
+        "y = 3/5x",
+        "y = 5/3x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "challenge",
@@ -990,10 +990,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (2, -1). Which equation has the form y = mx for this line?",
       "options": [
-        "y = -2x",
-        "y = -1/2x",
         "y = 2x",
-        "y = -1x"
+        "y = -2x",
+        "y = -1x",
+        "y = -1/2x"
       ],
       "correctAnswer": "y = -1/2x",
       "difficulty": "challenge",

@@ -11,9 +11,9 @@
       "questionText": "A line has one slope triangle with rise 3 and run 2, and a larger slope triangle with rise 6 and run 4. What does this show?",
       "options": [
         "The slopes are equal because the rise/run ratios are equivalent",
-        "The larger triangle has slope 7/4",
+        "Only the smaller triangle can be used to find slope",
         "The slope changes because the triangle is larger",
-        "Only the smaller triangle can be used to find slope"
+        "The larger triangle has slope 7/4"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "scaffold",
@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 2 and run 3, and a larger slope triangle with rise 4 and run 6. What does this show?",
       "options": [
-        "The larger triangle has slope 5/6",
+        "Only the smaller triangle can be used to find slope",
         "The slopes are equal because the rise/run ratios are equivalent",
         "The slope changes because the triangle is larger",
-        "Only the smaller triangle can be used to find slope"
+        "The larger triangle has slope 5/6"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "scaffold",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 5 and run 4, and a larger slope triangle with rise 10 and run 8. What does this show?",
       "options": [
-        "The larger triangle has slope 11/8",
-        "The slope changes because the triangle is larger",
         "The slopes are equal because the rise/run ratios are equivalent",
-        "Only the smaller triangle can be used to find slope"
+        "Only the smaller triangle can be used to find slope",
+        "The larger triangle has slope 11/8",
+        "The slope changes because the triangle is larger"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "scaffold",
@@ -70,10 +70,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 3 and run 5, and a larger slope triangle with rise 6 and run 10. What does this show?",
       "options": [
-        "The larger triangle has slope 7/10",
-        "The slope changes because the triangle is larger",
+        "The slopes are equal because the rise/run ratios are equivalent",
         "Only the smaller triangle can be used to find slope",
-        "The slopes are equal because the rise/run ratios are equivalent"
+        "The slope changes because the triangle is larger",
+        "The larger triangle has slope 7/10"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "scaffold",
@@ -90,10 +90,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -2 and run 3, and a larger slope triangle with rise -4 and run 6. What does this show?",
       "options": [
-        "The slopes are equal because the rise/run ratios are equivalent",
-        "The larger triangle has slope -1/2",
+        "Only the smaller triangle can be used to find slope",
         "The slope changes because the triangle is larger",
-        "Only the smaller triangle can be used to find slope"
+        "The slopes are equal because the rise/run ratios are equivalent",
+        "The larger triangle has slope -1/2"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "scaffold",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -3 and run 4, and a larger slope triangle with rise -6 and run 8. What does this show?",
       "options": [
+        "Only the smaller triangle can be used to find slope",
         "The larger triangle has slope -5/8",
-        "The slopes are equal because the rise/run ratios are equivalent",
         "The slope changes because the triangle is larger",
-        "Only the smaller triangle can be used to find slope"
+        "The slopes are equal because the rise/run ratios are equivalent"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "scaffold",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 3 and run 2, and a larger slope triangle with rise 6 and run 4. What does this show?",
       "options": [
-        "The larger triangle has slope 7/4",
-        "The slope changes because the triangle is larger",
+        "Only the smaller triangle can be used to find slope",
         "The slopes are equal because the rise/run ratios are equivalent",
-        "Only the smaller triangle can be used to find slope"
+        "The larger triangle has slope 7/4",
+        "The slope changes because the triangle is larger"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "scaffold",
@@ -150,9 +150,9 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 2 and run 3, and a larger slope triangle with rise 4 and run 6. What does this show?",
       "options": [
-        "The larger triangle has slope 5/6",
-        "The slope changes because the triangle is larger",
         "Only the smaller triangle can be used to find slope",
+        "The slope changes because the triangle is larger",
+        "The larger triangle has slope 5/6",
         "The slopes are equal because the rise/run ratios are equivalent"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 5 and run 4, and a larger slope triangle with rise 10 and run 8. What does this show?",
       "options": [
-        "The slopes are equal because the rise/run ratios are equivalent",
+        "Only the smaller triangle can be used to find slope",
         "The larger triangle has slope 11/8",
         "The slope changes because the triangle is larger",
-        "Only the smaller triangle can be used to find slope"
+        "The slopes are equal because the rise/run ratios are equivalent"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 3 and run 5, and a larger slope triangle with rise 6 and run 10. What does this show?",
       "options": [
-        "The larger triangle has slope 7/10",
+        "Only the smaller triangle can be used to find slope",
         "The slopes are equal because the rise/run ratios are equivalent",
-        "The slope changes because the triangle is larger",
-        "Only the smaller triangle can be used to find slope"
+        "The larger triangle has slope 7/10",
+        "The slope changes because the triangle is larger"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "standard",
@@ -210,10 +210,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -2 and run 3, and a larger slope triangle with rise -4 and run 6. What does this show?",
       "options": [
+        "Only the smaller triangle can be used to find slope",
         "The larger triangle has slope -1/2",
         "The slope changes because the triangle is larger",
-        "The slopes are equal because the rise/run ratios are equivalent",
-        "Only the smaller triangle can be used to find slope"
+        "The slopes are equal because the rise/run ratios are equivalent"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "standard",
@@ -230,10 +230,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -3 and run 4, and a larger slope triangle with rise -6 and run 8. What does this show?",
       "options": [
-        "The larger triangle has slope -5/8",
-        "The slope changes because the triangle is larger",
         "Only the smaller triangle can be used to find slope",
-        "The slopes are equal because the rise/run ratios are equivalent"
+        "The slope changes because the triangle is larger",
+        "The slopes are equal because the rise/run ratios are equivalent",
+        "The larger triangle has slope -5/8"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "standard",
@@ -250,8 +250,8 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 3 and run 2, and a larger slope triangle with rise 6 and run 4. What does this show?",
       "options": [
-        "The slopes are equal because the rise/run ratios are equivalent",
         "The larger triangle has slope 7/4",
+        "The slopes are equal because the rise/run ratios are equivalent",
         "The slope changes because the triangle is larger",
         "Only the smaller triangle can be used to find slope"
       ],
@@ -270,9 +270,9 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 2 and run 3, and a larger slope triangle with rise 4 and run 6. What does this show?",
       "options": [
+        "The slope changes because the triangle is larger",
         "The larger triangle has slope 5/6",
         "The slopes are equal because the rise/run ratios are equivalent",
-        "The slope changes because the triangle is larger",
         "Only the smaller triangle can be used to find slope"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
@@ -290,10 +290,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 5 and run 4, and a larger slope triangle with rise 10 and run 8. What does this show?",
       "options": [
+        "Only the smaller triangle can be used to find slope",
         "The larger triangle has slope 11/8",
-        "The slope changes because the triangle is larger",
         "The slopes are equal because the rise/run ratios are equivalent",
-        "Only the smaller triangle can be used to find slope"
+        "The slope changes because the triangle is larger"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "standard",
@@ -311,8 +311,8 @@
       "questionText": "A line has one slope triangle with rise 3 and run 5, and a larger slope triangle with rise 6 and run 10. What does this show?",
       "options": [
         "The larger triangle has slope 7/10",
-        "The slope changes because the triangle is larger",
         "Only the smaller triangle can be used to find slope",
+        "The slope changes because the triangle is larger",
         "The slopes are equal because the rise/run ratios are equivalent"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -2 and run 3, and a larger slope triangle with rise -4 and run 6. What does this show?",
       "options": [
+        "Only the smaller triangle can be used to find slope",
         "The slopes are equal because the rise/run ratios are equivalent",
-        "The larger triangle has slope -1/2",
         "The slope changes because the triangle is larger",
-        "Only the smaller triangle can be used to find slope"
+        "The larger triangle has slope -1/2"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "standard",
@@ -350,8 +350,8 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -3 and run 4, and a larger slope triangle with rise -6 and run 8. What does this show?",
       "options": [
-        "The larger triangle has slope -5/8",
         "The slopes are equal because the rise/run ratios are equivalent",
+        "The larger triangle has slope -5/8",
         "The slope changes because the triangle is larger",
         "Only the smaller triangle can be used to find slope"
       ],
@@ -370,9 +370,9 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 3 and run 2, and a larger slope triangle with rise 6 and run 4. What does this show?",
       "options": [
-        "The larger triangle has slope 7/4",
-        "The slope changes because the triangle is larger",
         "The slopes are equal because the rise/run ratios are equivalent",
+        "The slope changes because the triangle is larger",
+        "The larger triangle has slope 7/4",
         "Only the smaller triangle can be used to find slope"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 2 and run 3, and a larger slope triangle with rise 4 and run 6. What does this show?",
       "options": [
-        "The larger triangle has slope 5/6",
-        "The slope changes because the triangle is larger",
         "Only the smaller triangle can be used to find slope",
-        "The slopes are equal because the rise/run ratios are equivalent"
+        "The slope changes because the triangle is larger",
+        "The slopes are equal because the rise/run ratios are equivalent",
+        "The larger triangle has slope 5/6"
       ],
       "correctAnswer": "The slopes are equal because the rise/run ratios are equivalent",
       "difficulty": "standard",

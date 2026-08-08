@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x + 3) = 14.",
       "options": [
-        "x = 4",
+        "x = 3",
         "x = 7",
-        "x = 10",
-        "x = 3"
+        "x = 4",
+        "x = 10"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(x - 2) = 15.",
       "options": [
-        "x = 5",
-        "x = 7",
+        "x = 17",
         "x = 3",
-        "x = 17"
+        "x = 5",
+        "x = 7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -47,8 +47,8 @@
       "questionText": "Solve 4(x + 1) = 24.",
       "options": [
         "x = 6",
-        "x = 7",
         "x = 5",
+        "x = 7",
         "x = 20"
       ],
       "correctAnswer": "x = 5",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5(x - 1) = 30.",
       "options": [
-        "x = 6",
-        "x = 5",
+        "x = 7",
         "x = 31",
-        "x = 7"
+        "x = 6",
+        "x = 5"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x + 8) = 30.",
       "options": [
-        "x = 7",
-        "x = 15",
+        "x = 6",
         "x = 22",
-        "x = 6"
+        "x = 15",
+        "x = 7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Which is the correct first simplification of 3(x + 5) = 27?",
       "options": [
-        "3x + 5 = 27",
-        "x + 15 = 27",
         "3x + 15 = 27",
+        "x + 15 = 27",
+        "3x + 5 = 27",
         "8x = 27"
       ],
       "correctAnswer": "3x + 15 = 27",
@@ -136,9 +136,9 @@
       "type": "multiple_choice",
       "questionText": "Which is the correct first simplification of 4(x - 2) = 20?",
       "options": [
-        "4x - 2 = 20",
-        "x - 8 = 20",
         "2x = 20",
+        "x - 8 = 20",
+        "4x - 2 = 20",
         "4x - 8 = 20"
       ],
       "correctAnswer": "4x - 8 = 20",
@@ -154,9 +154,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(x + 1) = 12.",
       "options": [
+        "x = 9",
         "x = 3",
         "x = 4",
-        "x = 9",
         "x = 2"
       ],
       "correctAnswer": "x = 3",
@@ -174,8 +174,8 @@
       "options": [
         "x = 5",
         "x = 7",
-        "x = 3",
-        "x = 37"
+        "x = 37",
+        "x = 3"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x + 5) + 4 = 24.",
       "options": [
-        "x = 7",
-        "x = 10",
         "x = 5",
-        "x = 3"
+        "x = 3",
+        "x = 7",
+        "x = 10"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -209,9 +209,9 @@
       "questionText": "Solve 3(x - 4) + 6 = 21.",
       "options": [
         "x = 5",
+        "x = 9",
         "x = 7",
-        "x = 3",
-        "x = 9"
+        "x = 3"
       ],
       "correctAnswer": "x = 9",
       "difficulty": "standard",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4(x + 2) - 5 = 31.",
       "options": [
-        "x = 7",
-        "x = 9",
+        "x = 8",
         "x = 6",
-        "x = 8"
+        "x = 9",
+        "x = 7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -244,10 +244,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5(x - 3) + 10 = 30.",
       "options": [
-        "x = 5",
         "x = 7",
-        "x = 8",
-        "x = 4"
+        "x = 4",
+        "x = 5",
+        "x = 8"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -262,9 +262,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 6(x + 1) - 2 = 34.",
       "options": [
-        "x = 6",
-        "x = 7",
         "x = 5",
+        "x = 7",
+        "x = 6",
         "x = 4"
       ],
       "correctAnswer": "x = 5",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x + 3) + x = 18.",
       "options": [
-        "x = 6",
-        "x = 5",
         "x = 12",
-        "x = 4"
+        "x = 5",
+        "x = 4",
+        "x = 6"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "standard",
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(x - 2) + 2x = 24.",
       "options": [
-        "x = 6",
         "x = 5",
-        "x = 8",
-        "x = 4"
+        "x = 6",
+        "x = 4",
+        "x = 8"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4(x + 1) - x = 19.",
       "options": [
-        "x = 3",
-        "x = 5",
+        "x = 15",
         "x = 7",
-        "x = 15"
+        "x = 3",
+        "x = 5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5(x - 2) - 2x = 14.",
       "options": [
-        "x = 6",
+        "x = 10",
         "x = 4",
         "x = 8",
-        "x = 10"
+        "x = 6"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(3x + 4) = 26.",
       "options": [
-        "x = 6",
-        "x = 9",
         "x = 4",
-        "x = 3"
+        "x = 9",
+        "x = 3",
+        "x = 6"
       ],
       "correctAnswer": "x = 3",
       "difficulty": "standard",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(3x + 4) = 32.",
       "options": [
-        "x = 4",
-        "x = 8",
         "x = 6",
-        "x = 12"
+        "x = 8",
+        "x = 12",
+        "x = 4"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "standard",
@@ -388,10 +388,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(2x - 1) = 33.",
       "options": [
-        "x = 5",
-        "x = 6",
         "x = 11",
-        "x = 15"
+        "x = 5",
+        "x = 15",
+        "x = 6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -406,10 +406,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4(2x + 3) = 44.",
       "options": [
-        "x = 5",
-        "x = 8",
         "x = 4",
-        "x = 11"
+        "x = 5",
+        "x = 11",
+        "x = 8"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "standard",
@@ -424,10 +424,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(4x - 5) = 46.",
       "options": [
-        "x = 6",
+        "x = 7",
         "x = 9",
-        "x = 4",
-        "x = 7"
+        "x = 6",
+        "x = 4"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -442,9 +442,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(3x + 2) = 60.",
       "options": [
-        "x = 6",
-        "x = 8",
         "x = 18",
+        "x = 8",
+        "x = 6",
         "x = 5"
       ],
       "correctAnswer": "x = 6",
@@ -460,10 +460,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -2(x + 5) = -24.",
       "options": [
+        "x = 2",
         "x = -7",
-        "x = 7",
         "x = 12",
-        "x = 2"
+        "x = 7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -479,9 +479,9 @@
       "questionText": "Solve -3(x - 4) = -15.",
       "options": [
         "x = -1",
-        "x = 5",
         "x = 9",
-        "x = 1"
+        "x = 1",
+        "x = 5"
       ],
       "correctAnswer": "x = 9",
       "difficulty": "standard",
@@ -496,10 +496,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -4(x + 2) = -36.",
       "options": [
-        "x = 11",
+        "x = 7",
         "x = -7",
-        "x = 9",
-        "x = 7"
+        "x = 11",
+        "x = 9"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -514,10 +514,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 20 - 2(x + 3) = 8.",
       "options": [
-        "x = 3",
+        "x = -3",
         "x = 6",
         "x = 9",
-        "x = -3"
+        "x = 3"
       ],
       "correctAnswer": "x = 3",
       "difficulty": "standard",
@@ -532,10 +532,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 30 - 3(x - 2) = 18.",
       "options": [
-        "x = 4",
         "x = 6",
-        "x = 8",
-        "x = -6"
+        "x = 4",
+        "x = -6",
+        "x = 8"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -550,10 +550,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x - (x + 6) = 18.",
       "options": [
+        "x = 4",
         "x = 6",
-        "x = 12",
         "x = 8",
-        "x = 4"
+        "x = 12"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -568,10 +568,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5x - (2x - 4) = 25.",
       "options": [
-        "x = 3",
         "x = 9",
-        "x = 5",
-        "x = 7"
+        "x = 3",
+        "x = 7",
+        "x = 5"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -587,9 +587,9 @@
       "questionText": "A rectangle has width x + 2 and length 3. Its area is 27. Solve 3(x + 2) = 27.",
       "options": [
         "x = 7",
-        "x = 9",
+        "x = 6",
         "x = 5",
-        "x = 6"
+        "x = 9"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -604,10 +604,10 @@
       "type": "multiple_choice",
       "questionText": "A class buys 4 packs with x pencils and 3 extra pencils in each pack. There are 44 pencils. Solve 4(x + 3) = 44.",
       "options": [
-        "x = 11",
+        "x = 5",
         "x = 8",
         "x = 7",
-        "x = 5"
+        "x = 11"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -622,10 +622,10 @@
       "type": "multiple_choice",
       "questionText": "Which value checks 2(x + 6) = 26?",
       "options": [
-        "x = 13",
-        "x = 10",
         "x = 7",
-        "x = 5"
+        "x = 13",
+        "x = 5",
+        "x = 10"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -640,9 +640,9 @@
       "type": "multiple_choice",
       "questionText": "A student simplifies -3(x + 4) as -3x + 12. What is the correction?",
       "options": [
+        "-3(x + 4) = -7x",
         "-3(x + 4) = -3x + 4",
         "-3(x + 4) = x - 12",
-        "-3(x + 4) = -7x",
         "-3(x + 4) = -3x - 12"
       ],
       "correctAnswer": "-3(x + 4) = -3x - 12",
@@ -660,8 +660,8 @@
       "questionText": "Solve -2(3x - 5) + 4 = -28.",
       "options": [
         "x = 7",
-        "x = -7",
         "x = 3",
+        "x = -7",
         "x = 5"
       ],
       "correctAnswer": "x = 7",
@@ -677,10 +677,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(2x + 5) - 4x = 29.",
       "options": [
-        "x = 5",
-        "x = 7",
+        "x = 11",
         "x = 2",
-        "x = 11"
+        "x = 5",
+        "x = 7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -695,10 +695,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5(2x - 1) - 3x = 44.",
       "options": [
-        "x = 5",
-        "x = 49",
+        "x = 6",
         "x = 7",
-        "x = 6"
+        "x = 49",
+        "x = 5"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -713,10 +713,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4(3x + 2) - 5x = 43.",
       "options": [
-        "x = 7",
-        "x = 3",
         "x = 11",
-        "x = 5"
+        "x = 7",
+        "x = 5",
+        "x = 3"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "challenge",
@@ -731,10 +731,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(5x - 3) + 4x = 50.",
       "options": [
-        "x = 4",
-        "x = 5",
         "x = 8",
-        "x = 3"
+        "x = 4",
+        "x = 3",
+        "x = 5"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "challenge",
@@ -767,8 +767,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 18 - 3(2x - 4) = -6.",
       "options": [
-        "x = 4",
         "x = -6",
+        "x = 4",
         "x = 6",
         "x = 8"
       ],
@@ -785,10 +785,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 6x - 2(x + 5) = 18.",
       "options": [
-        "x = 2",
         "x = 5",
-        "x = 4",
-        "x = 7"
+        "x = 2",
+        "x = 7",
+        "x = 4"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -803,10 +803,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 9x - 3(2x - 1) = 24.",
       "options": [
+        "x = 5",
         "x = 7",
         "x = 9",
-        "x = 3",
-        "x = 5"
+        "x = 3"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -821,10 +821,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has area 52 and one side length 4. The other side is 2x + 1. Solve 4(2x + 1) = 52.",
       "options": [
-        "x = 5",
-        "x = 6",
+        "x = 7",
         "x = 12",
-        "x = 7"
+        "x = 6",
+        "x = 5"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "challenge",
@@ -840,8 +840,8 @@
       "questionText": "A phone plan charges $10 plus $3 for each of x apps, then applies a double-family plan. The bill is $56. Solve 2(3x + 10) = 56.",
       "options": [
         "x = 8",
-        "x = 12",
         "x = 6",
+        "x = 12",
         "x = 4"
       ],
       "correctAnswer": "x = 6",
@@ -857,10 +857,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has solution x = 4?",
       "options": [
-        "3(x + 2) = 12",
-        "2(x + 5) = 22",
+        "3(x + 2) = 18",
         "4(x - 1) = 8",
-        "3(x + 2) = 18"
+        "2(x + 5) = 22",
+        "3(x + 2) = 12"
       ],
       "correctAnswer": "3(x + 2) = 18",
       "difficulty": "challenge",
@@ -875,10 +875,10 @@
       "type": "multiple_choice",
       "questionText": "Which step correctly simplifies 12 - 4(x - 3) = 8?",
       "options": [
-        "12 - 4x + 12 = 8",
         "12 - 4x - 3 = 8",
         "12 - 4x + 3 = 8",
-        "8x - 12 = 8"
+        "8x - 12 = 8",
+        "12 - 4x + 12 = 8"
       ],
       "correctAnswer": "12 - 4x + 12 = 8",
       "difficulty": "challenge",
@@ -893,10 +893,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 2(x + 7) = 30 and gets x = 8. What does checking show?",
       "options": [
-        "The answer fails because 2(8 + 7) = 22",
-        "The answer works because 2(8 + 7) = 30",
+        "The answer works because 2(8) + 7 = 23",
         "The answer fails because 8 + 7 = 30",
-        "The answer works because 2(8) + 7 = 23"
+        "The answer works because 2(8 + 7) = 30",
+        "The answer fails because 2(8 + 7) = 22"
       ],
       "correctAnswer": "The answer works because 2(8 + 7) = 30",
       "difficulty": "challenge",

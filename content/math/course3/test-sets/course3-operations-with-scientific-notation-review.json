@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (2 × 10³)(3 × 10⁴).",
       "options": [
-        "6 × 10⁷",
+        "6 × 10⁻¹",
         "6 × 10¹²",
-        "5 × 10⁷",
-        "6 × 10⁻¹"
+        "6 × 10⁷",
+        "5 × 10⁷"
       ],
       "correctAnswer": "6 × 10⁷",
       "difficulty": "scaffold",
@@ -29,9 +29,9 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (4 × 10⁵)(2 × 10²).",
       "options": [
-        "8 × 10¹⁰",
-        "8 × 10⁷",
         "6 × 10⁷",
+        "8 × 10⁷",
+        "8 × 10¹⁰",
         "8 × 10³"
       ],
       "correctAnswer": "8 × 10⁷",
@@ -49,8 +49,8 @@
       "questionText": "Divide: (6 × 10⁵) ÷ (2 × 10²).",
       "options": [
         "3 × 10⁷",
-        "4 × 10³",
         "3 × 10³",
+        "4 × 10³",
         "3 × 10²"
       ],
       "correctAnswer": "3 × 10³",
@@ -67,9 +67,9 @@
       "type": "multiple_choice",
       "questionText": "Divide: (8 × 10⁶) ÷ (4 × 10²).",
       "options": [
-        "2 × 10⁸",
-        "4 × 10⁴",
         "2 × 10³",
+        "4 × 10⁴",
+        "2 × 10⁸",
         "2 × 10⁴"
       ],
       "correctAnswer": "2 × 10⁴",
@@ -86,10 +86,10 @@
       "type": "multiple_choice",
       "questionText": "Add: 3 × 10⁴ + 2 × 10⁴.",
       "options": [
-        "5 × 10⁴",
-        "5 × 10⁸",
         "6 × 10⁴",
-        "1 × 10⁴"
+        "1 × 10⁴",
+        "5 × 10⁴",
+        "5 × 10⁸"
       ],
       "correctAnswer": "5 × 10⁴",
       "difficulty": "scaffold",
@@ -105,10 +105,10 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 9 × 10⁵ - 4 × 10⁵.",
       "options": [
-        "5 × 10⁰",
         "5 × 10⁵",
-        "13 × 10⁵",
-        "5 × 10¹⁰"
+        "5 × 10¹⁰",
+        "5 × 10⁰",
+        "13 × 10⁵"
       ],
       "correctAnswer": "5 × 10⁵",
       "difficulty": "scaffold",
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Which operation requires matching powers of ten first?",
       "options": [
+        "Addition",
         "Multiplication",
         "Division",
-        "Addition",
         "Raising a power"
       ],
       "correctAnswer": "Addition",
@@ -145,8 +145,8 @@
       "options": [
         "10 × 10¹",
         "7 × 10¹",
-        "1 × 10⁻¹²",
-        "1 × 10²"
+        "1 × 10²",
+        "1 × 10⁻¹²"
       ],
       "correctAnswer": "1 × 10²",
       "difficulty": "scaffold",
@@ -162,10 +162,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (3.2 × 10⁴)(2 × 10³).",
       "options": [
-        "6.4 × 10⁷",
-        "6.4 × 10¹²",
+        "6.4 × 10¹",
         "5.2 × 10⁷",
-        "6.4 × 10¹"
+        "6.4 × 10¹²",
+        "6.4 × 10⁷"
       ],
       "correctAnswer": "6.4 × 10⁷",
       "difficulty": "standard",
@@ -181,10 +181,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (7.5 × 10⁻²)(4 × 10⁵).",
       "options": [
-        "30 × 10³",
         "3 × 10⁴",
-        "3 × 10⁻¹⁰",
-        "11.5 × 10³"
+        "11.5 × 10³",
+        "30 × 10³",
+        "3 × 10⁻¹⁰"
       ],
       "correctAnswer": "3 × 10⁴",
       "difficulty": "standard",
@@ -200,10 +200,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (9.6 × 10⁸) ÷ (3.2 × 10²).",
       "options": [
-        "3 × 10¹⁰",
         "6.4 × 10⁶",
-        "3 × 10⁶",
-        "3 × 10⁴"
+        "3 × 10⁴",
+        "3 × 10¹⁰",
+        "3 × 10⁶"
       ],
       "correctAnswer": "3 × 10⁶",
       "difficulty": "standard",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (4.5 × 10⁻³) ÷ (1.5 × 10⁴).",
       "options": [
-        "3 × 10¹",
-        "3 × 10⁻¹²",
         "6 × 10⁻⁷",
-        "3 × 10⁻⁷"
+        "3 × 10⁻¹²",
+        "3 × 10⁻⁷",
+        "3 × 10¹"
       ],
       "correctAnswer": "3 × 10⁻⁷",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 8.7 × 10⁻⁴ - 2.2 × 10⁻⁴.",
       "options": [
-        "6.5 × 10⁰",
+        "6.5 × 10⁻⁸",
         "6.5 × 10⁻⁴",
-        "10.9 × 10⁻⁴",
-        "6.5 × 10⁻⁸"
+        "6.5 × 10⁰",
+        "10.9 × 10⁻⁴"
       ],
       "correctAnswer": "6.5 × 10⁻⁴",
       "difficulty": "standard",
@@ -276,10 +276,10 @@
       "type": "multiple_choice",
       "questionText": "Add: 3 × 10⁵ + 4 × 10⁴.",
       "options": [
-        "7 × 10⁹",
         "7 × 10⁵",
-        "3.4 × 10⁵",
-        "3.04 × 10⁵"
+        "3.04 × 10⁵",
+        "7 × 10⁹",
+        "3.4 × 10⁵"
       ],
       "correctAnswer": "3.4 × 10⁵",
       "difficulty": "standard",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 6 × 10³ - 2 × 10².",
       "options": [
+        "5.8 × 10³",
         "4 × 10¹",
         "4 × 10³",
-        "5.98 × 10³",
-        "5.8 × 10³"
+        "5.98 × 10³"
       ],
       "correctAnswer": "5.8 × 10³",
       "difficulty": "standard",
@@ -314,8 +314,8 @@
       "type": "multiple_choice",
       "questionText": "A distance is 2.5 × 10⁸ m and another is 4 × 10⁷ m. What is the total?",
       "options": [
-        "2.9 × 10⁸ m",
         "6.5 × 10¹⁵ m",
+        "2.9 × 10⁸ m",
         "6.5 × 10⁸ m",
         "2.54 × 10⁸ m"
       ],
@@ -333,10 +333,10 @@
       "type": "multiple_choice",
       "questionText": "A mass is 7.2 × 10⁻⁶ g and 1.2 × 10⁻⁶ g is removed. What remains?",
       "options": [
-        "6 × 10⁰ g",
-        "6 × 10⁻⁶ g",
         "8.4 × 10⁻⁶ g",
-        "6 × 10⁻¹² g"
+        "6 × 10⁻⁶ g",
+        "6 × 10⁻¹² g",
+        "6 × 10⁰ g"
       ],
       "correctAnswer": "6 × 10⁻⁶ g",
       "difficulty": "standard",
@@ -371,9 +371,9 @@
       "type": "multiple_choice",
       "questionText": "Estimate (8.2 × 10⁵) ÷ (4.1 × 10²).",
       "options": [
-        "about 2 × 10⁷",
         "about 4 × 10³",
         "about 12 × 10⁷",
+        "about 2 × 10⁷",
         "about 2 × 10³"
       ],
       "correctAnswer": "about 2 × 10³",

@@ -10,8 +10,8 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (2 × 10³)(3 × 10⁴).",
       "options": [
-        "6 × 10⁷",
         "6 × 10¹²",
+        "6 × 10⁷",
         "5 × 10⁷",
         "6 × 10⁻¹"
       ],
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (4 × 10⁵)(2 × 10²).",
       "options": [
+        "8 × 10³",
         "8 × 10¹⁰",
-        "8 × 10⁷",
         "6 × 10⁷",
-        "8 × 10³"
+        "8 × 10⁷"
       ],
       "correctAnswer": "8 × 10⁷",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (6 × 10⁵) ÷ (2 × 10²).",
       "options": [
+        "3 × 10²",
         "3 × 10⁷",
         "4 × 10³",
-        "3 × 10³",
-        "3 × 10²"
+        "3 × 10³"
       ],
       "correctAnswer": "3 × 10³",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (8 × 10⁶) ÷ (4 × 10²).",
       "options": [
-        "2 × 10⁸",
-        "4 × 10⁴",
+        "2 × 10⁴",
         "2 × 10³",
-        "2 × 10⁴"
+        "2 × 10⁸",
+        "4 × 10⁴"
       ],
       "correctAnswer": "2 × 10⁴",
       "difficulty": "scaffold",
@@ -83,9 +83,9 @@
       "questionText": "Add: 3 × 10⁴ + 2 × 10⁴.",
       "options": [
         "5 × 10⁴",
-        "5 × 10⁸",
+        "1 × 10⁴",
         "6 × 10⁴",
-        "1 × 10⁴"
+        "5 × 10⁸"
       ],
       "correctAnswer": "5 × 10⁴",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Which operation requires matching powers of ten first?",
       "options": [
-        "Multiplication",
-        "Division",
         "Addition",
-        "Raising a power"
+        "Raising a power",
+        "Multiplication",
+        "Division"
       ],
       "correctAnswer": "Addition",
       "difficulty": "scaffold",
@@ -136,9 +136,9 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (5 × 10⁻³)(2 × 10⁴).",
       "options": [
+        "1 × 10⁻¹²",
         "10 × 10¹",
         "7 × 10¹",
-        "1 × 10⁻¹²",
         "1 × 10²"
       ],
       "correctAnswer": "1 × 10²",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (3 × 10⁻²) ÷ (6 × 10⁻⁵).",
       "options": [
-        "5 × 10²",
-        "0.5 × 10³",
         "5 × 10⁻⁷",
-        "2 × 10³"
+        "2 × 10³",
+        "0.5 × 10³",
+        "5 × 10²"
       ],
       "correctAnswer": "5 × 10²",
       "difficulty": "scaffold",
@@ -172,8 +172,8 @@
       "type": "multiple_choice",
       "questionText": "Add: 4.2 × 10³ + 1.8 × 10³.",
       "options": [
-        "6 × 10⁶",
         "6 × 10³",
+        "6 × 10⁶",
         "2.4 × 10³",
         "6 × 10⁰"
       ],
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (3.2 × 10⁴)(2 × 10³).",
       "options": [
-        "6.4 × 10¹²",
+        "6.4 × 10¹",
         "5.2 × 10⁷",
         "6.4 × 10⁷",
-        "6.4 × 10¹"
+        "6.4 × 10¹²"
       ],
       "correctAnswer": "6.4 × 10⁷",
       "difficulty": "standard",
@@ -209,10 +209,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (7.5 × 10⁻²)(4 × 10⁵).",
       "options": [
-        "30 × 10³",
-        "3 × 10⁻¹⁰",
         "11.5 × 10³",
-        "3 × 10⁴"
+        "3 × 10⁴",
+        "30 × 10³",
+        "3 × 10⁻¹⁰"
       ],
       "correctAnswer": "3 × 10⁴",
       "difficulty": "standard",
@@ -228,9 +228,9 @@
       "type": "multiple_choice",
       "questionText": "Divide: (9.6 × 10⁸) ÷ (3.2 × 10²).",
       "options": [
+        "6.4 × 10⁶",
         "3 × 10⁶",
         "3 × 10¹⁰",
-        "6.4 × 10⁶",
         "3 × 10⁴"
       ],
       "correctAnswer": "3 × 10⁶",
@@ -247,8 +247,8 @@
       "type": "multiple_choice",
       "questionText": "Divide: (4.5 × 10⁻³) ÷ (1.5 × 10⁴).",
       "options": [
-        "3 × 10¹",
         "3 × 10⁻⁷",
+        "3 × 10¹",
         "3 × 10⁻¹²",
         "6 × 10⁻⁷"
       ],
@@ -285,9 +285,9 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 8.7 × 10⁻⁴ - 2.2 × 10⁻⁴.",
       "options": [
+        "6.5 × 10⁻⁸",
         "6.5 × 10⁰",
         "10.9 × 10⁻⁴",
-        "6.5 × 10⁻⁸",
         "6.5 × 10⁻⁴"
       ],
       "correctAnswer": "6.5 × 10⁻⁴",
@@ -304,10 +304,10 @@
       "type": "multiple_choice",
       "questionText": "Add: 3 × 10⁵ + 4 × 10⁴.",
       "options": [
-        "3.4 × 10⁵",
+        "3.04 × 10⁵",
         "7 × 10⁹",
         "7 × 10⁵",
-        "3.04 × 10⁵"
+        "3.4 × 10⁵"
       ],
       "correctAnswer": "3.4 × 10⁵",
       "difficulty": "standard",
@@ -323,10 +323,10 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 6 × 10³ - 2 × 10².",
       "options": [
-        "4 × 10¹",
+        "5.98 × 10³",
         "5.8 × 10³",
         "4 × 10³",
-        "5.98 × 10³"
+        "4 × 10¹"
       ],
       "correctAnswer": "5.8 × 10³",
       "difficulty": "standard",
@@ -342,10 +342,10 @@
       "type": "multiple_choice",
       "questionText": "A distance is 2.5 × 10⁸ m and another is 4 × 10⁷ m. What is the total?",
       "options": [
-        "6.5 × 10¹⁵ m",
-        "6.5 × 10⁸ m",
         "2.9 × 10⁸ m",
-        "2.54 × 10⁸ m"
+        "2.54 × 10⁸ m",
+        "6.5 × 10¹⁵ m",
+        "6.5 × 10⁸ m"
       ],
       "correctAnswer": "2.9 × 10⁸ m",
       "difficulty": "standard",
@@ -361,10 +361,10 @@
       "type": "multiple_choice",
       "questionText": "A mass is 7.2 × 10⁻⁶ g and 1.2 × 10⁻⁶ g is removed. What remains?",
       "options": [
-        "6 × 10⁰ g",
         "8.4 × 10⁻⁶ g",
-        "6 × 10⁻¹² g",
-        "6 × 10⁻⁶ g"
+        "6 × 10⁻⁶ g",
+        "6 × 10⁰ g",
+        "6 × 10⁻¹² g"
       ],
       "correctAnswer": "6 × 10⁻⁶ g",
       "difficulty": "standard",
@@ -381,9 +381,9 @@
       "questionText": "Estimate (6.1 × 10⁷)(1.9 × 10³).",
       "options": [
         "about 1.2 × 10¹¹",
+        "about 12 × 10²¹",
         "about 8 × 10⁴",
-        "about 1.2 × 10¹⁰",
-        "about 12 × 10²¹"
+        "about 1.2 × 10¹⁰"
       ],
       "correctAnswer": "about 1.2 × 10¹¹",
       "difficulty": "standard",
@@ -399,10 +399,10 @@
       "type": "multiple_choice",
       "questionText": "Estimate (8.2 × 10⁵) ÷ (4.1 × 10²).",
       "options": [
-        "about 2 × 10⁷",
+        "about 12 × 10⁷",
         "about 2 × 10³",
         "about 4 × 10³",
-        "about 12 × 10⁷"
+        "about 2 × 10⁷"
       ],
       "correctAnswer": "about 2 × 10³",
       "difficulty": "standard",
@@ -418,10 +418,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression equals 12 × 10⁶ in proper scientific notation?",
       "options": [
-        "12 × 10⁶",
-        "1.2 × 10⁶",
         "1.2 × 10⁷",
-        "0.12 × 10⁸"
+        "0.12 × 10⁸",
+        "1.2 × 10⁶",
+        "12 × 10⁶"
       ],
       "correctAnswer": "1.2 × 10⁷",
       "difficulty": "standard",
@@ -437,8 +437,8 @@
       "type": "multiple_choice",
       "questionText": "Which expression equals 0.45 × 10⁻³ in proper scientific notation?",
       "options": [
-        "4.5 × 10⁻³",
         "45 × 10⁻⁵",
+        "4.5 × 10⁻³",
         "0.45 × 10⁻³",
         "4.5 × 10⁻⁴"
       ],
@@ -456,10 +456,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (1.2 × 10⁻⁵)(3 × 10⁻²).",
       "options": [
-        "3.6 × 10⁻⁷",
+        "3.6 × 10³",
         "3.6 × 10⁻¹⁰",
-        "4.2 × 10⁻⁷",
-        "3.6 × 10³"
+        "3.6 × 10⁻⁷",
+        "4.2 × 10⁻⁷"
       ],
       "correctAnswer": "3.6 × 10⁻⁷",
       "difficulty": "standard",
@@ -475,10 +475,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (7.2 × 10³) ÷ (9 × 10⁻²).",
       "options": [
-        "0.8 × 10⁵",
         "8 × 10⁴",
-        "8 × 10¹",
-        "1.8 × 10⁵"
+        "1.8 × 10⁵",
+        "0.8 × 10⁵",
+        "8 × 10¹"
       ],
       "correctAnswer": "8 × 10⁴",
       "difficulty": "standard",
@@ -494,10 +494,10 @@
       "type": "multiple_choice",
       "questionText": "Add: 5.6 × 10⁻³ + 3.2 × 10⁻⁴.",
       "options": [
-        "8.8 × 10⁻⁷",
+        "5.632 × 10⁻³",
         "8.8 × 10⁻³",
         "5.92 × 10⁻³",
-        "5.632 × 10⁻³"
+        "8.8 × 10⁻⁷"
       ],
       "correctAnswer": "5.92 × 10⁻³",
       "difficulty": "standard",
@@ -513,10 +513,10 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 4.1 × 10⁷ - 6 × 10⁶.",
       "options": [
-        "3.5 × 10¹",
-        "4.04 × 10⁷",
+        "3.5 × 10⁷",
         "10.1 × 10⁶",
-        "3.5 × 10⁷"
+        "3.5 × 10¹",
+        "4.04 × 10⁷"
       ],
       "correctAnswer": "3.5 × 10⁷",
       "difficulty": "standard",
@@ -532,10 +532,10 @@
       "type": "multiple_choice",
       "questionText": "A microscope magnifies by 2 × 10³ and then by 3 × 10². What is the total factor?",
       "options": [
+        "6 × 10¹",
         "6 × 10⁵",
-        "5 × 10⁵",
         "6 × 10⁶",
-        "6 × 10¹"
+        "5 × 10⁵"
       ],
       "correctAnswer": "6 × 10⁵",
       "difficulty": "standard",
@@ -570,10 +570,10 @@
       "type": "multiple_choice",
       "questionText": "Which operation was used if exponents were added?",
       "options": [
-        "Addition",
+        "Comparing",
         "Subtraction",
         "Multiplication",
-        "Comparing"
+        "Addition"
       ],
       "correctAnswer": "Multiplication",
       "difficulty": "standard",
@@ -589,10 +589,10 @@
       "type": "multiple_choice",
       "questionText": "Which operation was used if exponents were subtracted?",
       "options": [
-        "Addition",
-        "Multiplication",
+        "Division",
         "Rounding",
-        "Division"
+        "Addition",
+        "Multiplication"
       ],
       "correctAnswer": "Division",
       "difficulty": "standard",
@@ -609,9 +609,9 @@
       "questionText": "Why rewrite 4 × 10⁵ as 0.4 × 10⁶ before adding to 3 × 10⁶?",
       "options": [
         "The powers of ten must match",
+        "The answer must be smaller",
         "The coefficients must be whole numbers",
-        "The exponents must be added",
-        "The answer must be smaller"
+        "The exponents must be added"
       ],
       "correctAnswer": "The powers of ten must match",
       "difficulty": "standard",
@@ -627,10 +627,10 @@
       "type": "multiple_choice",
       "questionText": "Compute: (2.4 × 10⁶) ÷ (6 × 10⁻²).",
       "options": [
-        "4 × 10⁴",
-        "4 × 10⁷",
+        "8.4 × 10⁴",
         "0.4 × 10⁸",
-        "8.4 × 10⁴"
+        "4 × 10⁷",
+        "4 × 10⁴"
       ],
       "correctAnswer": "4 × 10⁷",
       "difficulty": "standard",
@@ -647,9 +647,9 @@
       "questionText": "Compute: (5 × 10⁻⁴)(8 × 10⁻³).",
       "options": [
         "40 × 10⁻⁷",
-        "4 × 10⁻¹²",
+        "13 × 10⁻⁷",
         "4 × 10⁻⁶",
-        "13 × 10⁻⁷"
+        "4 × 10⁻¹²"
       ],
       "correctAnswer": "4 × 10⁻⁶",
       "difficulty": "standard",
@@ -665,10 +665,10 @@
       "type": "multiple_choice",
       "questionText": "A virus has mass 2.5 × 10⁻¹⁸ kg. What is the mass of 4 × 10⁶ viruses?",
       "options": [
-        "10 × 10⁻¹² kg",
-        "1 × 10⁻²⁴ kg",
         "6.5 × 10⁻¹² kg",
-        "1 × 10⁻¹¹ kg"
+        "1 × 10⁻¹¹ kg",
+        "10 × 10⁻¹² kg",
+        "1 × 10⁻²⁴ kg"
       ],
       "correctAnswer": "1 × 10⁻¹¹ kg",
       "difficulty": "challenge",
@@ -684,10 +684,10 @@
       "type": "multiple_choice",
       "questionText": "A file is 7.2 × 10⁸ bytes. It is compressed to 3 × 10⁻¹ of its size. What is the new size?",
       "options": [
-        "2.16 × 10⁸ bytes",
-        "21.6 × 10⁷ bytes",
         "1.04 × 10⁸ bytes",
-        "2.16 × 10⁻⁸ bytes"
+        "21.6 × 10⁷ bytes",
+        "2.16 × 10⁻⁸ bytes",
+        "2.16 × 10⁸ bytes"
       ],
       "correctAnswer": "2.16 × 10⁸ bytes",
       "difficulty": "challenge",
@@ -703,10 +703,10 @@
       "type": "multiple_choice",
       "questionText": "The product of two measurements is (4.5 × 10³)(2.0 × 10⁻⁷). What is it?",
       "options": [
+        "9 × 10⁴",
         "9 × 10⁻¹⁰",
         "9 × 10⁻⁴",
-        "6.5 × 10⁻⁴",
-        "9 × 10⁴"
+        "6.5 × 10⁻⁴"
       ],
       "correctAnswer": "9 × 10⁻⁴",
       "difficulty": "challenge",
@@ -724,8 +724,8 @@
       "options": [
         "0.8 × 10⁻⁷",
         "8 × 10⁻³",
-        "8 × 10⁻⁸",
-        "1.6 × 10⁻⁷"
+        "1.6 × 10⁻⁷",
+        "8 × 10⁻⁸"
       ],
       "correctAnswer": "8 × 10⁻⁸",
       "difficulty": "challenge",
@@ -741,10 +741,10 @@
       "type": "multiple_choice",
       "questionText": "Add: 9.5 × 10⁵ + 8 × 10⁴.",
       "options": [
-        "17.5 × 10⁹",
         "10.3 × 10⁵",
-        "9.58 × 10⁵",
-        "1.03 × 10⁶"
+        "17.5 × 10⁹",
+        "1.03 × 10⁶",
+        "9.58 × 10⁵"
       ],
       "correctAnswer": "1.03 × 10⁶",
       "difficulty": "challenge",
@@ -760,10 +760,10 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 1.2 × 10⁻³ - 7 × 10⁻⁵.",
       "options": [
+        "5 × 10⁻⁸",
         "1.13 × 10⁻³",
         "0.5 × 10⁻²",
-        "1.27 × 10⁻³",
-        "5 × 10⁻⁸"
+        "1.27 × 10⁻³"
       ],
       "correctAnswer": "1.13 × 10⁻³",
       "difficulty": "challenge",
@@ -779,10 +779,10 @@
       "type": "multiple_choice",
       "questionText": "A student multiplies (3 × 10⁴)(2 × 10⁵) and gets 6 × 10²⁰. What is the error?",
       "options": [
-        "The coefficients should be added",
-        "The exponents should be added, not multiplied",
+        "The powers must match first",
         "The answer should be negative",
-        "The powers must match first"
+        "The coefficients should be added",
+        "The exponents should be added, not multiplied"
       ],
       "correctAnswer": "The exponents should be added, not multiplied",
       "difficulty": "challenge",
@@ -798,10 +798,10 @@
       "type": "multiple_choice",
       "questionText": "A student adds 2 × 10³ + 5 × 10⁴ and gets 7 × 10⁷. What is the error?",
       "options": [
-        "The coefficients should be multiplied",
         "The exponents should be subtracted",
-        "The powers must match before adding",
-        "The larger number should be ignored"
+        "The coefficients should be multiplied",
+        "The larger number should be ignored",
+        "The powers must match before adding"
       ],
       "correctAnswer": "The powers must match before adding",
       "difficulty": "challenge",
@@ -817,10 +817,10 @@
       "type": "multiple_choice",
       "questionText": "Compute: (3.6 × 10⁸)(5 × 10⁻⁴) ÷ (9 × 10²).",
       "options": [
-        "2 × 10¹⁰",
-        "2 × 10⁶",
         "8.6 × 10²",
-        "2 × 10²"
+        "2 × 10²",
+        "2 × 10¹⁰",
+        "2 × 10⁶"
       ],
       "correctAnswer": "2 × 10²",
       "difficulty": "challenge",
@@ -836,10 +836,10 @@
       "type": "multiple_choice",
       "questionText": "Compute: (8.1 × 10⁻⁶) ÷ (2.7 × 10⁻³) × 10⁴.",
       "options": [
+        "5.4 × 10¹",
         "3 × 10¹",
-        "3 × 10⁻⁷",
         "3 × 10⁻³",
-        "5.4 × 10¹"
+        "3 × 10⁻⁷"
       ],
       "correctAnswer": "3 × 10¹",
       "difficulty": "challenge",
@@ -855,8 +855,8 @@
       "type": "multiple_choice",
       "questionText": "Which is closest to (4.9 × 10⁶)(2.1 × 10⁻³)?",
       "options": [
-        "1 × 10³",
         "1 × 10⁴",
+        "1 × 10³",
         "1 × 10¹⁰",
         "7 × 10³"
       ],
@@ -874,8 +874,8 @@
       "type": "multiple_choice",
       "questionText": "Which is closest to (7.8 × 10⁻⁵) ÷ (2.0 × 10²)?",
       "options": [
-        "4 × 10⁻³",
         "1.6 × 10⁻²",
+        "4 × 10⁻³",
         "4 × 10⁻⁷",
         "4 × 10⁷"
       ],
@@ -894,8 +894,8 @@
       "questionText": "A population grows from 2 × 10⁶ to 8 × 10⁷. By what factor did it grow?",
       "options": [
         "4 × 10¹³",
-        "6 × 10¹",
         "4 × 10⁻¹",
+        "6 × 10¹",
         "4 × 10¹"
       ],
       "correctAnswer": "4 × 10¹",
@@ -912,10 +912,10 @@
       "type": "multiple_choice",
       "questionText": "A measurement 5 × 10⁻² is divided into 2.5 × 10³ equal parts. What is each part?",
       "options": [
-        "2 × 10⁻⁵",
-        "2 × 10¹",
+        "7.5 × 10¹",
         "2.5 × 10⁻⁵",
-        "7.5 × 10¹"
+        "2 × 10⁻⁵",
+        "2 × 10¹"
       ],
       "correctAnswer": "2 × 10⁻⁵",
       "difficulty": "challenge",
@@ -931,10 +931,10 @@
       "type": "multiple_choice",
       "questionText": "Which result is in proper scientific notation?",
       "options": [
-        "72 × 10⁻⁵",
-        "7.2 × 10⁻⁴",
+        "720 × 10⁻⁶",
         "0.72 × 10⁻³",
-        "720 × 10⁻⁶"
+        "7.2 × 10⁻⁴",
+        "72 × 10⁻⁵"
       ],
       "correctAnswer": "7.2 × 10⁻⁴",
       "difficulty": "challenge",

@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "A club charges a $10 sign-up fee plus $4 for each meeting. The total cost is $34. How many meetings are included?",
       "options": [
-        "x = 6",
-        "x = 8",
         "x = 4",
+        "x = 8",
+        "x = 6",
         "x = -6"
       ],
       "correctAnswer": "x = 6",
@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $24 and saves $6 each week. Omar has $10 and saves $8 each week. After how many weeks will they have the same amount?",
       "options": [
-        "x = 9",
         "x = 7",
+        "x = -7",
         "x = 5",
-        "x = -7"
+        "x = 9"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -51,9 +51,9 @@
       "questionText": "A rectangle has width x and length x + 5. Its perimeter is 42. What is x?",
       "options": [
         "x = 10",
-        "x = 6",
+        "x = -8",
         "x = 8",
-        "x = -8"
+        "x = 6"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "scaffold",
@@ -70,10 +70,10 @@
       "type": "multiple_choice",
       "questionText": "Three friends split a bill after using a $9 coupon. Each pays $9. What was the original bill?",
       "options": [
-        "x = 38",
         "x = 34",
-        "x = -36",
-        "x = 36"
+        "x = 36",
+        "x = 38",
+        "x = -36"
       ],
       "correctAnswer": "x = 36",
       "difficulty": "scaffold",
@@ -90,9 +90,9 @@
       "type": "multiple_choice",
       "questionText": "A subscription costs $18 to start plus $7 each month. The total is $88. How many months were paid for?",
       "options": [
+        "x = 8",
         "x = 10",
         "x = 12",
-        "x = 8",
         "x = -10"
       ],
       "correctAnswer": "x = 10",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "A teacher buys 5 equal packs of pencils plus 4 extra pencils, for 64 pencils total. How many pencils are in each pack?",
       "options": [
-        "x = 14",
-        "x = 12",
+        "x = -12",
         "x = 10",
-        "x = -12"
+        "x = 14",
+        "x = 12"
       ],
       "correctAnswer": "x = 12",
       "difficulty": "scaffold",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "A number is multiplied by 4, then 11 is subtracted. The result is 49. What is the number?",
       "options": [
-        "x = 17",
-        "x = 13",
         "x = 15",
-        "x = -15"
+        "x = -15",
+        "x = 17",
+        "x = 13"
       ],
       "correctAnswer": "x = 15",
       "difficulty": "scaffold",
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "A delivery costs $6 plus $3 per mile. The total is $60. How many miles was the delivery?",
       "options": [
-        "x = 20",
         "x = 16",
-        "x = -18",
-        "x = 18"
+        "x = 20",
+        "x = 18",
+        "x = -18"
       ],
       "correctAnswer": "x = 18",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A club charges a $11 sign-up fee plus $5 for each meeting. The total cost is $111. How many meetings are included?",
       "options": [
+        "x = -20",
         "x = 20",
-        "x = 22",
         "x = 18",
-        "x = -20"
+        "x = 22"
       ],
       "correctAnswer": "x = 20",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $24 and saves $6 each week. Omar has $10 and saves $8 each week. After how many weeks will they have the same amount?",
       "options": [
-        "x = 9",
-        "x = 7",
+        "x = -7",
         "x = 5",
-        "x = -7"
+        "x = 9",
+        "x = 7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -210,8 +210,8 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has width x and length x + 5. Its perimeter is 34. What is x?",
       "options": [
-        "x = 8",
         "x = 4",
+        "x = 8",
         "x = 6",
         "x = -6"
       ],
@@ -230,10 +230,10 @@
       "type": "multiple_choice",
       "questionText": "Three friends split a bill after using a $9 coupon. Each pays $7. What was the original bill?",
       "options": [
-        "x = 32",
-        "x = 28",
         "x = -30",
-        "x = 30"
+        "x = 30",
+        "x = 32",
+        "x = 28"
       ],
       "correctAnswer": "x = 30",
       "difficulty": "standard",
@@ -252,8 +252,8 @@
       "options": [
         "x = 8",
         "x = 10",
-        "x = 6",
-        "x = -8"
+        "x = -8",
+        "x = 6"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "A teacher buys 5 equal packs of pencils plus 4 extra pencils, for 49 pencils total. How many pencils are in each pack?",
       "options": [
-        "x = 11",
-        "x = 9",
         "x = 7",
-        "x = -9"
+        "x = -9",
+        "x = 11",
+        "x = 9"
       ],
       "correctAnswer": "x = 9",
       "difficulty": "standard",
@@ -290,10 +290,10 @@
       "type": "multiple_choice",
       "questionText": "A number is multiplied by 4, then 11 is subtracted. The result is 29. What is the number?",
       "options": [
-        "x = 12",
         "x = 8",
-        "x = 10",
-        "x = -10"
+        "x = 12",
+        "x = -10",
+        "x = 10"
       ],
       "correctAnswer": "x = 10",
       "difficulty": "standard",
@@ -311,9 +311,9 @@
       "questionText": "A delivery costs $6 plus $3 per mile. The total is $42. How many miles was the delivery?",
       "options": [
         "x = 14",
-        "x = 10",
+        "x = 12",
         "x = -12",
-        "x = 12"
+        "x = 10"
       ],
       "correctAnswer": "x = 12",
       "difficulty": "standard",
@@ -331,9 +331,9 @@
       "questionText": "A club charges a $12 sign-up fee plus $6 for each meeting. The total cost is $102. How many meetings are included?",
       "options": [
         "x = 15",
-        "x = 17",
+        "x = -15",
         "x = 13",
-        "x = -15"
+        "x = 17"
       ],
       "correctAnswer": "x = 15",
       "difficulty": "standard",
@@ -350,9 +350,9 @@
       "type": "multiple_choice",
       "questionText": "Lina has $24 and saves $6 each week. Omar has $10 and saves $8 each week. After how many weeks will they have the same amount?",
       "options": [
-        "x = 9",
         "x = 7",
         "x = 5",
+        "x = 9",
         "x = -7"
       ],
       "correctAnswer": "x = 7",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has width x and length x + 5. Its perimeter is 90. What is x?",
       "options": [
+        "x = -20",
         "x = 22",
         "x = 18",
-        "x = 20",
-        "x = -20"
+        "x = 20"
       ],
       "correctAnswer": "x = 20",
       "difficulty": "standard",
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "Three friends split a bill after using a $9 coupon. Each pays $25. What was the original bill?",
       "options": [
-        "x = 86",
-        "x = 82",
         "x = -84",
-        "x = 84"
+        "x = 86",
+        "x = 84",
+        "x = 82"
       ],
       "correctAnswer": "x = 84",
       "difficulty": "standard",
