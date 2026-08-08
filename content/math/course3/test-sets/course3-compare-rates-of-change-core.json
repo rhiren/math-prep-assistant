@@ -3,1007 +3,1007 @@
   "conceptId": "concept-compare-rates-of-change",
   "type": "concept",
   "title": "Compare Rates of Change Core Test",
-  "description": "Compare rates of change across proportional relationships, tables, graphs, and contexts.",
+  "description": "Compare slopes and rates of change across graphs, tables, equations, and contexts.",
   "questions": [
     {
       "id": "course3-compare-rates-of-change-core-001",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 2 steps. Plan B changes by 10 units for every 4 steps. Which statement is true?",
+      "questionText": "Plan A changes by 6 units for every 8 steps. Plan B changes by -9 units for every 6 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "Only the run should be compared"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-002",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
+      "questionText": "Compare two slopes: A has rise -6 and run 3; B has rise -4 and run 8. Which is greater?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan A has the greater rate of change",
+        "Only the total change in y should be compared",
+        "Plan B has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-003",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
+      "questionText": "A table for Plan A has rate 4/5. Plan B changes -25 units over 20 steps. Which rate is larger?",
       "options": [
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates are equal"
+        "Plan A has the greater rate of change",
+        "The plan with the larger input value must have the greater rate",
+        "Plan B has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-004",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 8 steps. Plan B changes by 8 units for every 10 steps. Which statement is true?",
+      "questionText": "Plan A is represented by y = -1/2x. Plan B has rate 1. Which plan changes faster?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger output change must have the greater rate",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-005",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 10 units for every 4 steps. Plan B changes by 10 units for every 6 steps. Which statement is true?",
+      "questionText": "A graph for Plan A rises 0 over a run of 2. A graph for Plan B rises -15 over a run of 6. Which slope is greater?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "Only the run should be compared",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-006",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
+      "questionText": "Two proportional relationships are being compared. A: 15 input gives 18 output. B: 16 input gives 36 output. Which has the greater constant of proportionality?",
       "options": [
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates are equal"
+        "Only the total change in y should be compared",
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-007",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -6 units for every 4 steps. Plan B changes by 14 units for every 8 steps. Which statement is true?",
+      "questionText": "Which plan is steeper: Plan A with slope 1, or Plan B with slope -3?",
       "options": [
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "Plan B has the greater rate"
+        "The two rates are equal",
+        "The plan with the larger input value must have the greater rate",
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-008",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
+      "questionText": "A student compares 40/15 with 14/4. Which conclusion about the rates is correct?",
       "options": [
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "Plan B has the greater rate"
+        "Plan B has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger output change must have the greater rate",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-009",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 10 units for every 6 steps. Plan B changes by 12 units for every 10 steps. Which statement is true?",
+      "questionText": "Plan A changes by 6 units for every 10 steps. Plan B changes by -12 units for every 15 steps. Which statement is true?",
       "options": [
-        "The rates are equal",
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The two rates are equal",
+        "Only the run should be compared",
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-010",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -2 units for every 4 steps. Plan B changes by 4 units for every 2 steps. Which statement is true?",
+      "questionText": "Compare two slopes: A has rise 27 and run 12; B has rise 24 and run 28. Which is greater?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "The two rates are equal",
+        "Plan A has the greater rate of change",
+        "Only the total change in y should be compared",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-011",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 14 units for every 8 steps. Plan B changes by 6 units for every 2 steps. Which statement is true?",
+      "questionText": "A table for Plan A has rate 4. Plan B changes -5 units over 15 steps. Which rate is larger?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "Plan B has the greater rate",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "The plan with the larger input value must have the greater rate",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-012",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 0 units for every 2 steps. Plan B changes by 2 units for every 4 steps. Which statement is true?",
+      "questionText": "Plan A is represented by y = 5/6x. Plan B has rate 7/5. Which plan changes faster?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal",
-        "Plan B has the greater rate"
+        "Plan A has the greater rate of change",
+        "The plan with the larger output change must have the greater rate",
+        "Plan B has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-013",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 12 units for every 10 steps. Plan B changes by 4 units for every 6 steps. Which statement is true?",
+      "questionText": "A graph for Plan A rises 14 over a run of 4. A graph for Plan B rises -33 over a run of 9. Which slope is greater?",
       "options": [
-        "Plan B has the greater rate",
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate of change",
+        "The two rates are equal",
+        "Only the run should be compared",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-014",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 4 units for every 2 steps. Plan B changes by 6 units for every 8 steps. Which statement is true?",
+      "questionText": "Two proportional relationships are being compared. A: 15 input gives 6 output. B: 16 input gives 20 output. Which has the greater constant of proportionality?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The two rates are equal",
+        "Plan B has the greater rate of change",
+        "Only the total change in y should be compared",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-015",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 2 steps. Plan B changes by 10 units for every 4 steps. Which statement is true?",
+      "questionText": "Which plan is steeper: Plan A with slope 11/6, or Plan B with slope -7/6?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger input value must have the greater rate",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-016",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
+      "questionText": "A student compares 30/35 with 2/4. Which conclusion about the rates is correct?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "The plan with the larger output change must have the greater rate",
+        "Plan A has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-017",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
+      "questionText": "Plan A changes by 20 units for every 6 steps. Plan B changes by 15 units for every 6 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change",
+        "The two rates are equal",
+        "Only the run should be compared"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-018",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 8 steps. Plan B changes by 8 units for every 10 steps. Which statement is true?",
+      "questionText": "Compare two slopes: A has rise 9 and run 6; B has rise 16 and run 20. Which is greater?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "Only the total change in y should be compared",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-019",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 10 units for every 4 steps. Plan B changes by 10 units for every 6 steps. Which statement is true?",
+      "questionText": "A table for Plan A has rate 7/5. Plan B changes 35 units over 20 steps. Which rate is larger?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger input value must have the greater rate"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-020",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
+      "questionText": "Plan A is represented by y = 12/5x. Plan B has rate 6/5. Which plan changes faster?",
       "options": [
-        "Plan B has the greater rate",
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger output change must have the greater rate"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-021",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -6 units for every 4 steps. Plan B changes by 14 units for every 8 steps. Which statement is true?",
+      "questionText": "A graph for Plan A rises 2 over a run of 8. A graph for Plan B rises -3 over a run of 3. Which slope is greater?",
       "options": [
-        "Plan B has the greater rate",
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "Only the run should be compared",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-022",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
+      "questionText": "Two proportional relationships are being compared. A: 12 input gives 15 output. B: 20 input gives 12 output. Which has the greater constant of proportionality?",
       "options": [
-        "The rates are equal",
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The two rates are equal",
+        "Plan A has the greater rate of change",
+        "Only the total change in y should be compared",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-023",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 10 units for every 6 steps. Plan B changes by 12 units for every 10 steps. Which statement is true?",
+      "questionText": "Which plan is steeper: Plan A with slope 9/5, or Plan B with slope -7/3?",
       "options": [
-        "The rates are equal",
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The two rates are equal",
+        "The plan with the larger input value must have the greater rate",
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-024",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -2 units for every 4 steps. Plan B changes by 4 units for every 2 steps. Which statement is true?",
+      "questionText": "A student compares 10/5 with 10/12. Which conclusion about the rates is correct?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "Plan B has the greater rate",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "The plan with the larger output change must have the greater rate",
+        "Plan A has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-025",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 14 units for every 8 steps. Plan B changes by 6 units for every 2 steps. Which statement is true?",
+      "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -24 units for every 9 steps. Which statement is true?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal",
-        "Plan B has the greater rate"
+        "Plan B has the greater rate of change",
+        "Only the run should be compared",
+        "The two rates are equal",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-026",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 0 units for every 2 steps. Plan B changes by 2 units for every 4 steps. Which statement is true?",
+      "questionText": "Compare two slopes: A has rise 9 and run 12; B has rise 44 and run 24. Which is greater?",
       "options": [
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate",
-        "Plan A has the greater rate"
+        "The two rates are equal",
+        "Plan B has the greater rate of change",
+        "Only the total change in y should be compared",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-027",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 12 units for every 10 steps. Plan B changes by 4 units for every 6 steps. Which statement is true?",
+      "questionText": "A table for Plan A has rate -2. Plan B changes -35 units over 20 steps. Which rate is larger?",
       "options": [
-        "Plan B has the greater rate",
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger input value must have the greater rate"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-028",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 4 units for every 2 steps. Plan B changes by 6 units for every 8 steps. Which statement is true?",
+      "questionText": "Plan A is represented by y = 4/5x. Plan B has rate 3/2. Which plan changes faster?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan A has the greater rate of change",
+        "The plan with the larger output change must have the greater rate",
+        "The two rates are equal",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-029",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 2 steps. Plan B changes by 10 units for every 4 steps. Which statement is true?",
+      "questionText": "A graph for Plan A rises -2 over a run of 4. A graph for Plan B rises -27 over a run of 12. Which slope is greater?",
       "options": [
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "Plan B has the greater rate"
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "Only the run should be compared",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-030",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
+      "questionText": "Two proportional relationships are being compared. A: 3 input gives 0 output. B: 16 input gives 4 output. Which has the greater constant of proportionality?",
       "options": [
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate",
-        "Plan A has the greater rate"
+        "The two rates are equal",
+        "Only the total change in y should be compared",
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-031",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
+      "questionText": "Which plan is steeper: Plan A with slope 6/5, or Plan B with slope -2/3?",
       "options": [
-        "Plan B has the greater rate",
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "The plan with the larger input value must have the greater rate",
+        "The two rates are equal",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-032",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 8 steps. Plan B changes by 8 units for every 10 steps. Which statement is true?",
+      "questionText": "A student compares 5/5 with 4/2. Which conclusion about the rates is correct?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "Plan B has the greater rate",
-        "The rates cannot be compared"
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger output change must have the greater rate",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-033",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 10 units for every 4 steps. Plan B changes by 10 units for every 6 steps. Which statement is true?",
+      "questionText": "Plan A changes by 16 units for every 6 steps. Plan B changes by 6 units for every 9 steps. Which statement is true?",
       "options": [
-        "The rates are equal",
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "The two rates are equal",
+        "Only the run should be compared",
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-034",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
+      "questionText": "Compare two slopes: A has rise 9 and run 15; B has rise -8 and run 4. Which is greater?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal",
-        "Plan B has the greater rate"
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "Only the total change in y should be compared",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-035",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -6 units for every 4 steps. Plan B changes by 14 units for every 8 steps. Which statement is true?",
+      "questionText": "A table for Plan A has rate 9/4. Plan B changes 25 units over 15 steps. Which rate is larger?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal",
-        "Plan B has the greater rate"
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change",
+        "The plan with the larger input value must have the greater rate",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-036",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
+      "questionText": "Plan A is represented by y = 4x. Plan B has rate 0. Which plan changes faster?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "Plan B has the greater rate",
-        "The rates cannot be compared"
+        "The two rates are equal",
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "The plan with the larger output change must have the greater rate"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-037",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 10 units for every 6 steps. Plan B changes by 12 units for every 10 steps. Which statement is true?",
+      "questionText": "A graph for Plan A rises 10 over a run of 12. A graph for Plan B rises -12 over a run of 9. Which slope is greater?",
       "options": [
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate",
-        "Plan A has the greater rate"
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "Only the run should be compared",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-038",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -2 units for every 4 steps. Plan B changes by 4 units for every 2 steps. Which statement is true?",
+      "questionText": "Two proportional relationships are being compared. A: 6 input gives 21 output. B: 12 input gives 32 output. Which has the greater constant of proportionality?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal",
-        "Plan B has the greater rate"
+        "Plan B has the greater rate of change",
+        "Only the total change in y should be compared",
+        "Plan A has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-039",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 14 units for every 8 steps. Plan B changes by 6 units for every 2 steps. Which statement is true?",
+      "questionText": "Which plan is steeper: Plan A with slope 2/5, or Plan B with slope -2/5?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "Plan B has the greater rate",
-        "The rates cannot be compared"
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger input value must have the greater rate"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-040",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 0 units for every 2 steps. Plan B changes by 2 units for every 4 steps. Which statement is true?",
+      "questionText": "A student compares 55/30 with 8/2. Which conclusion about the rates is correct?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared"
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger output change must have the greater rate"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-041",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 12 units for every 10 steps. Plan B changes by 4 units for every 6 steps. Which statement is true?",
+      "questionText": "Plan A changes by 12 units for every 14 steps. Plan B changes by -18 units for every 15 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "The rates are equal"
+        "Plan B has the greater rate of change",
+        "Only the run should be compared",
+        "The two rates are equal",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-042",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 4 units for every 2 steps. Plan B changes by 6 units for every 8 steps. Which statement is true?",
+      "questionText": "Compare two slopes: A has rise 30 and run 9; B has rise 8 and run 20. Which is greater?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change",
+        "Only the total change in y should be compared",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-043",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 2 steps. Plan B changes by 10 units for every 4 steps. Which statement is true?",
+      "questionText": "A table for Plan A has rate 3/2. Plan B changes -45 units over 10 steps. Which rate is larger?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan B has the greater rate"
+        "Plan A has the greater rate of change",
+        "The two rates are equal",
+        "The plan with the larger input value must have the greater rate",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-044",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 2 units for every 4 steps. Plan B changes by -4 units for every 2 steps. Which statement is true?",
+      "questionText": "Plan A is represented by y = 7/5x. Plan B has rate 10/3. Which plan changes faster?",
       "options": [
-        "The rates are equal",
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates cannot be compared"
+        "The two rates are equal",
+        "Plan A has the greater rate of change",
+        "Plan B has the greater rate of change",
+        "The plan with the larger output change must have the greater rate"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-045",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 4 units for every 6 steps. Plan B changes by -6 units for every 4 steps. Which statement is true?",
+      "questionText": "A graph for Plan A rises 24 over a run of 10. A graph for Plan B rises -15 over a run of 9. Which slope is greater?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "Plan A has the greater rate",
-        "The rates cannot be compared"
+        "Plan B has the greater rate of change",
+        "The two rates are equal",
+        "Only the run should be compared",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-046",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 6 units for every 8 steps. Plan B changes by 8 units for every 10 steps. Which statement is true?",
+      "questionText": "Two proportional relationships are being compared. A: 12 input gives 3 output. B: 20 input gives 48 output. Which has the greater constant of proportionality?",
       "options": [
-        "Plan A has the greater rate",
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal"
+        "Plan A has the greater rate of change",
+        "Only the total change in y should be compared",
+        "The two rates are equal",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-047",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 10 units for every 4 steps. Plan B changes by 10 units for every 6 steps. Which statement is true?",
+      "questionText": "Which plan is steeper: Plan A with slope 5/4, or Plan B with slope -3/5?",
       "options": [
-        "The rates cannot be compared",
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "Plan A has the greater rate"
+        "The plan with the larger input value must have the greater rate",
+        "Plan B has the greater rate of change",
+        "Plan A has the greater rate of change",
+        "The two rates are equal"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan A has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-048",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -4 units for every 2 steps. Plan B changes by -2 units for every 4 steps. Which statement is true?",
+      "questionText": "A student compares 45/25 with 20/10. Which conclusion about the rates is correct?",
       "options": [
-        "Plan A has the greater rate",
-        "The rates cannot be compared",
-        "The rates are equal",
-        "Plan B has the greater rate"
+        "Plan A has the greater rate of change",
+        "The plan with the larger output change must have the greater rate",
+        "The two rates are equal",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-049",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by -6 units for every 4 steps. Plan B changes by 14 units for every 8 steps. Which statement is true?",
+      "questionText": "Plan A changes by 4 units for every 2 steps. Plan B changes by 9 units for every 3 steps. Which statement is true?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates are equal",
-        "The rates cannot be compared",
-        "Plan A has the greater rate"
+        "The two rates are equal",
+        "Plan B has the greater rate of change",
+        "Only the run should be compared",
+        "Plan A has the greater rate of change"
       ],
-      "correctAnswer": "Plan B has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     },
     {
       "id": "course3-compare-rates-of-change-core-050",
       "type": "multiple_choice",
-      "questionText": "Plan A changes by 8 units for every 10 steps. Plan B changes by 0 units for every 2 steps. Which statement is true?",
+      "questionText": "Compare two slopes: A has rise 3 and run 6; B has rise 12 and run 16. Which is greater?",
       "options": [
-        "Plan B has the greater rate",
-        "The rates cannot be compared",
-        "Plan A has the greater rate",
-        "The rates are equal"
+        "Plan A has the greater rate of change",
+        "Only the total change in y should be compared",
+        "The two rates are equal",
+        "Plan B has the greater rate of change"
       ],
-      "correctAnswer": "Plan A has the greater rate",
+      "correctAnswer": "Plan B has the greater rate of change",
       "difficulty": "challenge",
       "answerType": "number",
       "skillTags": [
+        "application",
         "reasoning",
-        "computation",
-        "application"
+        "computation"
       ],
-      "explanation": "Compare each unit rate by dividing output change by input change."
+      "explanation": "Compare rates by writing both as change in y divided by change in x, then compare the simplified values."
     }
   ]
 }
