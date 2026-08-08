@@ -8,382 +8,402 @@
     {
       "id": "course3-find-slope-from-graphs-review-001",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (0, -2) and (4, 1). What is the slope?",
+      "questionText": "On a coordinate graph, a line passes through (-6, -20) and (-4, -14). What is the slope?",
       "options": [
-        "slope = 3/4",
-        "slope = 7/4",
+        "slope = 3",
+        "slope = 4",
+        "slope = 1/3",
+        "slope = -3"
+      ],
+      "correctAnswer": "slope = 3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-002",
+      "type": "multiple_choice",
+      "questionText": "A graphed line contains the points (-4, -4) and (8, 5). What is rise over run?",
+      "options": [
         "slope = 4/3",
-        "slope = -3/4"
+        "slope = -3/4",
+        "slope = 3/4",
+        "slope = 7/4"
       ],
       "correctAnswer": "slope = 3/4",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-002",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (1, -1) and (5, 9). What is the slope?",
-      "options": [
-        "slope = 2/5",
-        "slope = 5/2",
-        "slope = -5/2",
-        "slope = 7/2"
-      ],
-      "correctAnswer": "slope = 5/2",
-      "difficulty": "scaffold",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
       "id": "course3-find-slope-from-graphs-review-003",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (2, 0) and (3, -2). What is the slope?",
+      "questionText": "From (-3, 9/2) to (5, -15/2), what is the slope of the line?",
       "options": [
-        "slope = -1/2",
-        "slope = 2",
-        "slope = -2",
-        "slope = -1"
-      ],
-      "correctAnswer": "slope = -2",
-      "difficulty": "scaffold",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-004",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (3, 1) and (7, -5). What is the slope?",
-      "options": [
+        "slope = -2/3",
         "slope = -3/2",
-        "slope = -1/2",
         "slope = 3/2",
-        "slope = -2/3"
+        "slope = -1/2"
       ],
       "correctAnswer": "slope = -3/2",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
-      "id": "course3-find-slope-from-graphs-review-005",
+      "id": "course3-find-slope-from-graphs-review-004",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (4, -2) and (9, 2). What is the slope?",
+      "questionText": "A student marks two points on a line: (-2, 2) and (8, -3). Which slope is correct?",
       "options": [
-        "slope = 9/5",
-        "slope = 5/4",
-        "slope = 4/5",
-        "slope = -4/5"
-      ],
-      "correctAnswer": "slope = 4/5",
-      "difficulty": "scaffold",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-006",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (0, -1) and (6, 9). What is the slope?",
-      "options": [
-        "slope = 5/3",
-        "slope = 8/3",
-        "slope = 3/5",
-        "slope = -5/3"
-      ],
-      "correctAnswer": "slope = 5/3",
-      "difficulty": "scaffold",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-007",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (1, 0) and (3, -1). What is the slope?",
-      "options": [
+        "slope = -3/2",
         "slope = -1/2",
-        "slope = -2",
         "slope = 1/2",
-        "slope = -3/2"
+        "slope = -2"
       ],
       "correctAnswer": "slope = -1/2",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
-      "id": "course3-find-slope-from-graphs-review-008",
+      "id": "course3-find-slope-from-graphs-review-005",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (2, 1) and (10, 15). What is the slope?",
+      "questionText": "The run between two graph points is 24; the rise is -30. What is the slope?",
       "options": [
-        "slope = 11/4",
-        "slope = -7/4",
-        "slope = 4/7",
-        "slope = 7/4"
+        "slope = -1/4",
+        "slope = -4/5",
+        "slope = 5/4",
+        "slope = -5/4"
       ],
-      "correctAnswer": "slope = 7/4",
+      "correctAnswer": "slope = -5/4",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-006",
+      "type": "multiple_choice",
+      "questionText": "A line falls or rises from (0, -1) to (2, 1). Which value is change in y over change in x?",
+      "options": [
+        "slope = 1",
+        "slope = 0",
+        "slope = -1",
+        "slope = 2"
+      ],
+      "correctAnswer": "slope = 1",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-007",
+      "type": "multiple_choice",
+      "questionText": "Which slope matches a line passing through (1, -5/2) and (7, -35/2) on the graph?",
+      "options": [
+        "slope = -2/5",
+        "slope = 5/2",
+        "slope = -3/2",
+        "slope = -5/2"
+      ],
+      "correctAnswer": "slope = -5/2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-008",
+      "type": "multiple_choice",
+      "questionText": "Find the constant steepness of the graphed line through (-6, -25/2) and (10, 47/2).",
+      "options": [
+        "slope = 13/4",
+        "slope = 9/4",
+        "slope = -9/4",
+        "slope = 4/9"
+      ],
+      "correctAnswer": "slope = 9/4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
       "id": "course3-find-slope-from-graphs-review-009",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (3, -2) and (4, -2). What is the slope?",
+      "questionText": "On a coordinate graph, a line passes through (-4, 10) and (1, -5). What is the slope?",
       "options": [
-        "slope = -1",
-        "slope = 0",
-        "slope = 2",
-        "slope = 1"
+        "slope = -3",
+        "slope = 3",
+        "slope = -2",
+        "slope = -1/3"
       ],
-      "correctAnswer": "slope = 0",
+      "correctAnswer": "slope = -3",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
       "id": "course3-find-slope-from-graphs-review-010",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (4, -1) and (14, 11). What is the slope?",
+      "questionText": "A graphed line contains the points (-3, -23/2) and (9, 61/2). What is rise over run?",
       "options": [
-        "slope = 11/5",
-        "slope = 6/5",
-        "slope = 5/6",
-        "slope = -6/5"
+        "slope = 9/2",
+        "slope = 2/7",
+        "slope = -7/2",
+        "slope = 7/2"
       ],
-      "correctAnswer": "slope = 6/5",
+      "correctAnswer": "slope = 7/2",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
       "id": "course3-find-slope-from-graphs-review-011",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (0, 0) and (1, 2). What is the slope?",
+      "questionText": "From (-2, 8/5) to (8, -32/5), what is the slope of the line?",
       "options": [
-        "slope = 3",
-        "slope = 1/2",
-        "slope = -2",
-        "slope = 2"
+        "slope = -4/5",
+        "slope = 1/5",
+        "slope = -5/4",
+        "slope = 4/5"
       ],
-      "correctAnswer": "slope = 2",
+      "correctAnswer": "slope = -4/5",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
       "id": "course3-find-slope-from-graphs-review-012",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (1, 1) and (3, 7). What is the slope?",
+      "questionText": "A student marks two points on a line: (-1, 1/7) and (20, 127/7). Which slope is correct?",
       "options": [
-        "slope = -3",
-        "slope = 4",
-        "slope = 3",
-        "slope = 1/3"
+        "slope = -6/7",
+        "slope = 13/7",
+        "slope = 6/7",
+        "slope = 7/6"
       ],
-      "correctAnswer": "slope = 3",
+      "correctAnswer": "slope = 6/7",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
       "id": "course3-find-slope-from-graphs-review-013",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (2, -2) and (4, -1). What is the slope?",
+      "questionText": "The run between two graph points is 12; the rise is -4. What is the slope?",
       "options": [
-        "slope = 3/2",
+        "slope = -1/3",
+        "slope = 2/3",
+        "slope = 1/3",
+        "slope = -3"
+      ],
+      "correctAnswer": "slope = -1/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-014",
+      "type": "multiple_choice",
+      "questionText": "A line falls or rises from (1, 2/5) to (26, 177/5). Which value is change in y over change in x?",
+      "options": [
+        "slope = 12/5",
+        "slope = 5/7",
+        "slope = -7/5",
+        "slope = 7/5"
+      ],
+      "correctAnswer": "slope = 7/5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-015",
+      "type": "multiple_choice",
+      "questionText": "Which slope matches a line passing through (-6, 22) and (12, -44) on the graph?",
+      "options": [
+        "slope = 11/3",
+        "slope = -8/3",
+        "slope = -11/3",
+        "slope = -3/11"
+      ],
+      "correctAnswer": "slope = -11/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-016",
+      "type": "multiple_choice",
+      "questionText": "Find the constant steepness of the graphed line through (-4, -4) and (4, 6).",
+      "options": [
+        "slope = 9/4",
+        "slope = -5/4",
+        "slope = 5/4",
+        "slope = 4/5"
+      ],
+      "correctAnswer": "slope = 5/4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-017",
+      "type": "multiple_choice",
+      "questionText": "On a coordinate graph, a line passes through (-3, 3/2) and (15, -39/2). What is the slope?",
+      "options": [
+        "slope = -6/7",
+        "slope = -7/6",
+        "slope = 7/6",
+        "slope = -1/6"
+      ],
+      "correctAnswer": "slope = -7/6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "graph",
+        "computation",
+        "visual"
+      ],
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
+    },
+    {
+      "id": "course3-find-slope-from-graphs-review-018",
+      "type": "multiple_choice",
+      "questionText": "A graphed line contains the points (-2, -2) and (6, 2). What is rise over run?",
+      "options": [
         "slope = -1/2",
-        "slope = 2",
-        "slope = 1/2"
+        "slope = 3/2",
+        "slope = 1/2",
+        "slope = 2"
       ],
       "correctAnswer": "slope = 1/2",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
-      "id": "course3-find-slope-from-graphs-review-014",
+      "id": "course3-find-slope-from-graphs-review-019",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (3, -1) and (9, 3). What is the slope?",
+      "questionText": "From (-1, -5/2) to (9, 45/2), what is the slope of the line?",
       "options": [
-        "slope = 5/3",
-        "slope = 3/2",
-        "slope = -2/3",
-        "slope = 2/3"
-      ],
-      "correctAnswer": "slope = 2/3",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-015",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (4, 0) and (8, 3). What is the slope?",
-      "options": [
-        "slope = -3/4",
-        "slope = 3/4",
-        "slope = 7/4",
-        "slope = 4/3"
-      ],
-      "correctAnswer": "slope = 3/4",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-016",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (0, 1) and (4, 11). What is the slope?",
-      "options": [
-        "slope = 5/2",
         "slope = 7/2",
         "slope = -5/2",
-        "slope = 2/5"
+        "slope = 2/5",
+        "slope = 5/2"
       ],
       "correctAnswer": "slope = 5/2",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     },
     {
-      "id": "course3-find-slope-from-graphs-review-017",
+      "id": "course3-find-slope-from-graphs-review-020",
       "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (1, -2) and (2, -4). What is the slope?",
+      "questionText": "A student marks two points on a line: (0, 1) and (30, 25). Which slope is correct?",
       "options": [
-        "slope = -1/2",
-        "slope = 2",
-        "slope = -1",
-        "slope = -2"
-      ],
-      "correctAnswer": "slope = -2",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-018",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (2, -1) and (6, -7). What is the slope?",
-      "options": [
-        "slope = 3/2",
-        "slope = -3/2",
-        "slope = -1/2",
-        "slope = -2/3"
-      ],
-      "correctAnswer": "slope = -3/2",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-019",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (3, 0) and (8, 4). What is the slope?",
-      "options": [
-        "slope = 9/5",
-        "slope = -4/5",
+        "slope = 5/4",
         "slope = 4/5",
-        "slope = 5/4"
+        "slope = -4/5",
+        "slope = 9/5"
       ],
       "correctAnswer": "slope = 4/5",
       "difficulty": "standard",
       "answerType": "number",
       "skillTags": [
         "graph",
-        "computation"
+        "computation",
+        "visual"
       ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
-    },
-    {
-      "id": "course3-find-slope-from-graphs-review-020",
-      "type": "multiple_choice",
-      "questionText": "On a coordinate graph, a line passes through (4, 1) and (10, 11). What is the slope?",
-      "options": [
-        "slope = 3/5",
-        "slope = -5/3",
-        "slope = 5/3",
-        "slope = 8/3"
-      ],
-      "correctAnswer": "slope = 5/3",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "graph",
-        "computation"
-      ],
-      "explanation": "Use rise over run: slope = change in y divided by change in x."
+      "explanation": "Use slope = change in y divided by change in x between the two graph points."
     }
   ]
 }

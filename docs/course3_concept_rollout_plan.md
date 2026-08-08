@@ -261,6 +261,9 @@ challenge-question reasoning variety. Some already-published banks are tracked
 as explicit template-variety debt in the test suite; do not add new banks to
 that list as a substitute for authoring varied questions.
 
+The first seven learner-ready Unit 3 packs have been regenerated under this
+gate and should remain off the template-variety debt list.
+
 ### Phase 3 — Lines, Slope, and Systems
 
 Build Units 3 and 4 as a connected sequence:

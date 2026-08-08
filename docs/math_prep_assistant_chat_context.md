@@ -349,6 +349,10 @@ tracked in `COURSE3_TEMPLATE_VARIETY_DEBT_TEST_SET_IDS` inside
 `src/test/contentRepository.test.ts`. Future Course 3 banks should pass the
 template-variety gate instead of expanding that debt list.
 
+The first seven Unit 3 assessment packs were regenerated after the quality gate
+was added. They now pass the answer-sequence and template-variety gates without
+exceptions, with 8-13 normalized question templates per regenerated bank.
+
 Existing non-blocking warnings include:
 
 - Vite externalizing `node:fs/promises` for browser compatibility in the
