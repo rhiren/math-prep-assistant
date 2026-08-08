@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-understand-slope-rate-change-core",
+  "conceptId": "concept-understand-slope-rate-change",
+  "type": "concept",
+  "title": "Understand Slope as Rate of Change Core Test",
+  "description": "Interpret slope as a constant rate of change in tables, graphs, equations, and contexts.",
+  "questions": [
+    {
+      "id": "course3-understand-slope-rate-change-core-001",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 2 miles while x changes by 4 hours. What is the rate of change?",
+      "options": [
+        "1/2 miles per hour",
+        "2 miles per hour",
+        "-1/2 miles per hour",
+        "3/2 miles per hour"
+      ],
+      "correctAnswer": "1/2 miles per hour",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-002",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 6 dollars while x changes by 9 tickets. What is the rate of change?",
+      "options": [
+        "3/2 dollars per ticket",
+        "2/3 dollars per ticket",
+        "-2/3 dollars per ticket",
+        "5/3 dollars per ticket"
+      ],
+      "correctAnswer": "2/3 dollars per ticket",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-003",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 12 pages while x changes by 16 minutes. What is the rate of change?",
+      "options": [
+        "4/3 pages per minute",
+        "-3/4 pages per minute",
+        "3/4 pages per minute",
+        "7/4 pages per minute"
+      ],
+      "correctAnswer": "3/4 pages per minute",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-004",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 10 cups while x changes by 4 batches. What is the rate of change?",
+      "options": [
+        "2/5 cups per batch",
+        "-5/2 cups per batch",
+        "7/2 cups per batch",
+        "5/2 cups per batch"
+      ],
+      "correctAnswer": "5/2 cups per batch",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-005",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -6 miles while x changes by 3 hours. What is the rate of change?",
+      "options": [
+        "-2 miles per hour",
+        "-1/2 miles per hour",
+        "2 miles per hour",
+        "-1 mile per hour"
+      ],
+      "correctAnswer": "-2 miles per hour",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-006",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -12 dollars while x changes by 8 tickets. What is the rate of change?",
+      "options": [
+        "-2/3 dollars per ticket",
+        "-3/2 dollars per ticket",
+        "3/2 dollars per ticket",
+        "-1/2 dollars per ticket"
+      ],
+      "correctAnswer": "-3/2 dollars per ticket",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-007",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 8 pages while x changes by 10 minutes. What is the rate of change?",
+      "options": [
+        "5/4 pages per minute",
+        "-4/5 pages per minute",
+        "4/5 pages per minute",
+        "9/5 pages per minute"
+      ],
+      "correctAnswer": "4/5 pages per minute",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-008",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 15 cups while x changes by 9 batches. What is the rate of change?",
+      "options": [
+        "3/5 cups per batch",
+        "-5/3 cups per batch",
+        "8/3 cups per batch",
+        "5/3 cups per batch"
+      ],
+      "correctAnswer": "5/3 cups per batch",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-009",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -4 miles while x changes by 8 hours. What is the rate of change?",
+      "options": [
+        "-1/2 miles per hour",
+        "-2 miles per hour",
+        "1/2 miles per hour",
+        "-3/2 miles per hour"
+      ],
+      "correctAnswer": "-1/2 miles per hour",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-010",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 14 dollars while x changes by 8 tickets. What is the rate of change?",
+      "options": [
+        "4/7 dollars per ticket",
+        "7/4 dollars per ticket",
+        "-7/4 dollars per ticket",
+        "11/4 dollars per ticket"
+      ],
+      "correctAnswer": "7/4 dollars per ticket",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-011",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 0 pages while x changes by 3 minutes. What is the rate of change?",
+      "options": [
+        "1 page per minute",
+        "-1 page per minute",
+        "0 pages per minute",
+        "The rate cannot be determined from the information given"
+      ],
+      "correctAnswer": "0 pages per minute",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-012",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 24 cups while x changes by 20 batches. What is the rate of change?",
+      "options": [
+        "5/6 cups per batch",
+        "-6/5 cups per batch",
+        "11/5 cups per batch",
+        "6/5 cups per batch"
+      ],
+      "correctAnswer": "6/5 cups per batch",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-013",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 4 miles while x changes by 2 hours. What is the rate of change?",
+      "options": [
+        "2 miles per hour",
+        "1/2 miles per hour",
+        "-2 miles per hour",
+        "3 miles per hour"
+      ],
+      "correctAnswer": "2 miles per hour",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-014",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 9 dollars while x changes by 3 tickets. What is the rate of change?",
+      "options": [
+        "1/3 dollars per ticket",
+        "3 dollars per ticket",
+        "-3 dollars per ticket",
+        "4 dollars per ticket"
+      ],
+      "correctAnswer": "3 dollars per ticket",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-015",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 4 pages while x changes by 8 minutes. What is the rate of change?",
+      "options": [
+        "2 pages per minute",
+        "-1/2 pages per minute",
+        "1/2 pages per minute",
+        "3/2 pages per minute"
+      ],
+      "correctAnswer": "1/2 pages per minute",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-016",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 4 cups while x changes by 6 batches. What is the rate of change?",
+      "options": [
+        "3/2 cups per batch",
+        "-2/3 cups per batch",
+        "5/3 cups per batch",
+        "2/3 cups per batch"
+      ],
+      "correctAnswer": "2/3 cups per batch",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-017",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 9 miles while x changes by 12 hours. What is the rate of change?",
+      "options": [
+        "3/4 miles per hour",
+        "4/3 miles per hour",
+        "-3/4 miles per hour",
+        "7/4 miles per hour"
+      ],
+      "correctAnswer": "3/4 miles per hour",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-018",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 20 dollars while x changes by 8 tickets. What is the rate of change?",
+      "options": [
+        "2/5 dollars per ticket",
+        "5/2 dollars per ticket",
+        "-5/2 dollars per ticket",
+        "7/2 dollars per ticket"
+      ],
+      "correctAnswer": "5/2 dollars per ticket",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-019",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -4 pages while x changes by 2 minutes. What is the rate of change?",
+      "options": [
+        "-1/2 pages per minute",
+        "2 pages per minute",
+        "-2 pages per minute",
+        "-1 page per minute"
+      ],
+      "correctAnswer": "-2 pages per minute",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-020",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -9 cups while x changes by 6 batches. What is the rate of change?",
+      "options": [
+        "-2/3 cups per batch",
+        "3/2 cups per batch",
+        "-1/2 cups per batch",
+        "-3/2 cups per batch"
+      ],
+      "correctAnswer": "-3/2 cups per batch",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-021",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 16 miles while x changes by 20 hours. What is the rate of change?",
+      "options": [
+        "4/5 miles per hour",
+        "5/4 miles per hour",
+        "-4/5 miles per hour",
+        "9/5 miles per hour"
+      ],
+      "correctAnswer": "4/5 miles per hour",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-022",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 10 dollars while x changes by 6 tickets. What is the rate of change?",
+      "options": [
+        "3/5 dollars per ticket",
+        "5/3 dollars per ticket",
+        "-5/3 dollars per ticket",
+        "8/3 dollars per ticket"
+      ],
+      "correctAnswer": "5/3 dollars per ticket",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-023",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -3 pages while x changes by 6 minutes. What is the rate of change?",
+      "options": [
+        "-2 pages per minute",
+        "1/2 pages per minute",
+        "-1/2 pages per minute",
+        "-3/2 pages per minute"
+      ],
+      "correctAnswer": "-1/2 pages per minute",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-024",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 28 cups while x changes by 16 batches. What is the rate of change?",
+      "options": [
+        "4/7 cups per batch",
+        "-7/4 cups per batch",
+        "11/4 cups per batch",
+        "7/4 cups per batch"
+      ],
+      "correctAnswer": "7/4 cups per batch",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-025",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 0 miles while x changes by 2 hours. What is the rate of change?",
+      "options": [
+        "0 miles per hour",
+        "1 mile per hour",
+        "-1 mile per hour",
+        "The rate cannot be determined from the information given"
+      ],
+      "correctAnswer": "0 miles per hour",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-026",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 18 dollars while x changes by 15 tickets. What is the rate of change?",
+      "options": [
+        "5/6 dollars per ticket",
+        "6/5 dollars per ticket",
+        "-6/5 dollars per ticket",
+        "11/5 dollars per ticket"
+      ],
+      "correctAnswer": "6/5 dollars per ticket",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-027",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 8 pages while x changes by 4 minutes. What is the rate of change?",
+      "options": [
+        "1/2 pages per minute",
+        "-2 pages per minute",
+        "2 pages per minute",
+        "3 pages per minute"
+      ],
+      "correctAnswer": "2 pages per minute",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-028",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 6 cups while x changes by 2 batches. What is the rate of change?",
+      "options": [
+        "1/3 cups per batch",
+        "-3 cups per batch",
+        "4 cups per batch",
+        "3 cups per batch"
+      ],
+      "correctAnswer": "3 cups per batch",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-029",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 3 miles while x changes by 6 hours. What is the rate of change?",
+      "options": [
+        "1/2 miles per hour",
+        "2 miles per hour",
+        "-1/2 miles per hour",
+        "3/2 miles per hour"
+      ],
+      "correctAnswer": "1/2 miles per hour",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-030",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 8 dollars while x changes by 12 tickets. What is the rate of change?",
+      "options": [
+        "3/2 dollars per ticket",
+        "2/3 dollars per ticket",
+        "-2/3 dollars per ticket",
+        "5/3 dollars per ticket"
+      ],
+      "correctAnswer": "2/3 dollars per ticket",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-031",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 6 pages while x changes by 8 minutes. What is the rate of change?",
+      "options": [
+        "4/3 pages per minute",
+        "-3/4 pages per minute",
+        "3/4 pages per minute",
+        "7/4 pages per minute"
+      ],
+      "correctAnswer": "3/4 pages per minute",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-032",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 15 cups while x changes by 6 batches. What is the rate of change?",
+      "options": [
+        "2/5 cups per batch",
+        "-5/2 cups per batch",
+        "7/2 cups per batch",
+        "5/2 cups per batch"
+      ],
+      "correctAnswer": "5/2 cups per batch",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-033",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -8 miles while x changes by 4 hours. What is the rate of change?",
+      "options": [
+        "-2 miles per hour",
+        "-1/2 miles per hour",
+        "2 miles per hour",
+        "-1 mile per hour"
+      ],
+      "correctAnswer": "-2 miles per hour",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-034",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -6 dollars while x changes by 4 tickets. What is the rate of change?",
+      "options": [
+        "-2/3 dollars per ticket",
+        "-3/2 dollars per ticket",
+        "3/2 dollars per ticket",
+        "-1/2 dollars per ticket"
+      ],
+      "correctAnswer": "-3/2 dollars per ticket",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-035",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 12 pages while x changes by 15 minutes. What is the rate of change?",
+      "options": [
+        "5/4 pages per minute",
+        "-4/5 pages per minute",
+        "4/5 pages per minute",
+        "9/5 pages per minute"
+      ],
+      "correctAnswer": "4/5 pages per minute",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-036",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 20 cups while x changes by 12 batches. What is the rate of change?",
+      "options": [
+        "3/5 cups per batch",
+        "-5/3 cups per batch",
+        "8/3 cups per batch",
+        "5/3 cups per batch"
+      ],
+      "correctAnswer": "5/3 cups per batch",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-037",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -2 miles while x changes by 4 hours. What is the rate of change?",
+      "options": [
+        "-1/2 miles per hour",
+        "-2 miles per hour",
+        "1/2 miles per hour",
+        "-3/2 miles per hour"
+      ],
+      "correctAnswer": "-1/2 miles per hour",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-038",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 21 dollars while x changes by 12 tickets. What is the rate of change?",
+      "options": [
+        "4/7 dollars per ticket",
+        "7/4 dollars per ticket",
+        "-7/4 dollars per ticket",
+        "11/4 dollars per ticket"
+      ],
+      "correctAnswer": "7/4 dollars per ticket",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-039",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 0 pages while x changes by 4 minutes. What is the rate of change?",
+      "options": [
+        "1 page per minute",
+        "-1 page per minute",
+        "0 pages per minute",
+        "The rate cannot be determined from the information given"
+      ],
+      "correctAnswer": "0 pages per minute",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-040",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 12 cups while x changes by 10 batches. What is the rate of change?",
+      "options": [
+        "5/6 cups per batch",
+        "-6/5 cups per batch",
+        "11/5 cups per batch",
+        "6/5 cups per batch"
+      ],
+      "correctAnswer": "6/5 cups per batch",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-041",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 6 miles while x changes by 3 hours. What is the rate of change?",
+      "options": [
+        "2 miles per hour",
+        "1/2 miles per hour",
+        "-2 miles per hour",
+        "3 miles per hour"
+      ],
+      "correctAnswer": "2 miles per hour",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-042",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 12 dollars while x changes by 4 tickets. What is the rate of change?",
+      "options": [
+        "1/3 dollars per ticket",
+        "3 dollars per ticket",
+        "-3 dollars per ticket",
+        "4 dollars per ticket"
+      ],
+      "correctAnswer": "3 dollars per ticket",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-043",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 2 pages while x changes by 4 minutes. What is the rate of change?",
+      "options": [
+        "2 pages per minute",
+        "-1/2 pages per minute",
+        "1/2 pages per minute",
+        "3/2 pages per minute"
+      ],
+      "correctAnswer": "1/2 pages per minute",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-044",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 6 cups while x changes by 9 batches. What is the rate of change?",
+      "options": [
+        "3/2 cups per batch",
+        "-2/3 cups per batch",
+        "5/3 cups per batch",
+        "2/3 cups per batch"
+      ],
+      "correctAnswer": "2/3 cups per batch",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-045",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 12 miles while x changes by 16 hours. What is the rate of change?",
+      "options": [
+        "3/4 miles per hour",
+        "4/3 miles per hour",
+        "-3/4 miles per hour",
+        "7/4 miles per hour"
+      ],
+      "correctAnswer": "3/4 miles per hour",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-046",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 10 dollars while x changes by 4 tickets. What is the rate of change?",
+      "options": [
+        "2/5 dollars per ticket",
+        "5/2 dollars per ticket",
+        "-5/2 dollars per ticket",
+        "7/2 dollars per ticket"
+      ],
+      "correctAnswer": "5/2 dollars per ticket",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-047",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -6 pages while x changes by 3 minutes. What is the rate of change?",
+      "options": [
+        "-1/2 pages per minute",
+        "2 pages per minute",
+        "-2 pages per minute",
+        "-1 page per minute"
+      ],
+      "correctAnswer": "-2 pages per minute",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-048",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by -12 cups while x changes by 8 batches. What is the rate of change?",
+      "options": [
+        "-2/3 cups per batch",
+        "3/2 cups per batch",
+        "-1/2 cups per batch",
+        "-3/2 cups per batch"
+      ],
+      "correctAnswer": "-3/2 cups per batch",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-049",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 8 miles while x changes by 10 hours. What is the rate of change?",
+      "options": [
+        "4/5 miles per hour",
+        "5/4 miles per hour",
+        "-4/5 miles per hour",
+        "9/5 miles per hour"
+      ],
+      "correctAnswer": "4/5 miles per hour",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    },
+    {
+      "id": "course3-understand-slope-rate-change-core-050",
+      "type": "multiple_choice",
+      "questionText": "A constant-rate situation changes by 15 dollars while x changes by 9 tickets. What is the rate of change?",
+      "options": [
+        "3/5 dollars per ticket",
+        "5/3 dollars per ticket",
+        "-5/3 dollars per ticket",
+        "8/3 dollars per ticket"
+      ],
+      "correctAnswer": "5/3 dollars per ticket",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "computation",
+        "application"
+      ],
+      "explanation": "Rate of change is output change divided by input change. It is the same idea as slope."
+    }
+  ]
+}

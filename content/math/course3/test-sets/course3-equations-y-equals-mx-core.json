@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-equations-y-equals-mx-core",
+  "conceptId": "concept-equations-y-equals-mx",
+  "type": "concept",
+  "title": "Equations in the Form y = mx Core Test",
+  "description": "Write and interpret proportional linear equations in the form y = mx.",
+  "questions": [
+    {
+      "id": "course3-equations-y-equals-mx-core-001",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 2/3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 2/3x",
+        "y = 3/2x",
+        "y = 1x",
+        "y = 2/3x + 1"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-002",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, 3/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 4/3x",
+        "y = 3/4x",
+        "y = 2x",
+        "y = 3/2x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-003",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, 15/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 2/5x",
+        "y = 3x",
+        "y = 5/2x",
+        "y = 15/2x"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-004",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, -8). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -1/2x",
+        "y = 4x",
+        "y = -8x",
+        "y = -2x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-005",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, -15/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -3/2x",
+        "y = -2/3x",
+        "y = 5x",
+        "y = -15/2x"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-006",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, 24/5). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/4x",
+        "y = 4/5x",
+        "y = 6x",
+        "y = 24/5x"
+      ],
+      "correctAnswer": "y = 4/5x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-007",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 5/3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 3/5x",
+        "y = 1x",
+        "y = 5/3x",
+        "y = 5/3x + 1"
+      ],
+      "correctAnswer": "y = 5/3x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-008",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, -1). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -2x",
+        "y = 2x",
+        "y = -1x",
+        "y = -1/2x"
+      ],
+      "correctAnswer": "y = -1/2x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-009",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, 21/4). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 7/4x",
+        "y = 4/7x",
+        "y = 3x",
+        "y = 21/4x"
+      ],
+      "correctAnswer": "y = 7/4x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-010",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, 0). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = x",
+        "y = 0",
+        "y = 4x",
+        "y = -x"
+      ],
+      "correctAnswer": "y = 0",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-011",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, 6). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/6x",
+        "y = 5x",
+        "y = 6/5x",
+        "y = 6x"
+      ],
+      "correctAnswer": "y = 6/5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-012",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, 12). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 1/2x",
+        "y = 6x",
+        "y = 12x",
+        "y = 2x"
+      ],
+      "correctAnswer": "y = 2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-013",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 3x",
+        "y = 1/3x",
+        "y = 1x",
+        "y = 3x + 1"
+      ],
+      "correctAnswer": "y = 3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-014",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, 1). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 2x",
+        "y = 1/2x",
+        "y = 1x",
+        "y = 1/2x + 2"
+      ],
+      "correctAnswer": "y = 1/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-015",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, 2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 3/2x",
+        "y = 3x",
+        "y = 2/3x",
+        "y = 2x"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-016",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, 3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 4/3x",
+        "y = 4x",
+        "y = 3x",
+        "y = 3/4x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-017",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, 25/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/2x",
+        "y = 2/5x",
+        "y = 5x",
+        "y = 25/2x"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-018",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, -12). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -1/2x",
+        "y = -2x",
+        "y = 6x",
+        "y = -12x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-019",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, -3/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -2/3x",
+        "y = 1x",
+        "y = -3/2x",
+        "y = -3/2x + 1"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-020",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, 8/5). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/4x",
+        "y = 2x",
+        "y = 8/5x",
+        "y = 4/5x"
+      ],
+      "correctAnswer": "y = 4/5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-021",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, 5). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/3x",
+        "y = 3/5x",
+        "y = 3x",
+        "y = 5x"
+      ],
+      "correctAnswer": "y = 5/3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-022",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, -2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -2x",
+        "y = -1/2x",
+        "y = 4x",
+        "y = -1/2x + 4"
+      ],
+      "correctAnswer": "y = -1/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-023",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, 35/4). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 4/7x",
+        "y = 5x",
+        "y = 7/4x",
+        "y = 35/4x"
+      ],
+      "correctAnswer": "y = 7/4x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-024",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, 0). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = x",
+        "y = 6x",
+        "y = -x",
+        "y = 0"
+      ],
+      "correctAnswer": "y = 0",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-025",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 6/5). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 6/5x",
+        "y = 5/6x",
+        "y = 1x",
+        "y = 6/5x + 1"
+      ],
+      "correctAnswer": "y = 6/5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-026",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, 4). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 1/2x",
+        "y = 2x",
+        "y = 4x",
+        "y = 2x + 2"
+      ],
+      "correctAnswer": "y = 2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-027",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, 9). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 1/3x",
+        "y = 9x",
+        "y = 3x",
+        "y = 3x + 3"
+      ],
+      "correctAnswer": "y = 3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-028",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, 2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 2x",
+        "y = 4x",
+        "y = 1/2x + 4",
+        "y = 1/2x"
+      ],
+      "correctAnswer": "y = 1/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-029",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, 10/3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 2/3x",
+        "y = 3/2x",
+        "y = 5x",
+        "y = 10/3x"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-030",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, 9/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 4/3x",
+        "y = 3/4x",
+        "y = 6x",
+        "y = 9/2x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-031",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 5/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 2/5x",
+        "y = 1x",
+        "y = 5/2x",
+        "y = 5/2x + 1"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-032",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, -4). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -1/2x",
+        "y = 2x",
+        "y = -4x",
+        "y = -2x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-033",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, -9/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -3/2x",
+        "y = -2/3x",
+        "y = 3x",
+        "y = -9/2x"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-034",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, 16/5). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/4x",
+        "y = 4/5x",
+        "y = 4x",
+        "y = 16/5x"
+      ],
+      "correctAnswer": "y = 4/5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-035",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, 25/3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 3/5x",
+        "y = 5x",
+        "y = 5/3x",
+        "y = 25/3x"
+      ],
+      "correctAnswer": "y = 5/3x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-036",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, -3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -2x",
+        "y = 6x",
+        "y = -3x",
+        "y = -1/2x"
+      ],
+      "correctAnswer": "y = -1/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-037",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 7/4). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 7/4x",
+        "y = 4/7x",
+        "y = 1x",
+        "y = 7/4x + 1"
+      ],
+      "correctAnswer": "y = 7/4x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-038",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, 0). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = x",
+        "y = 0",
+        "y = 2x",
+        "y = -x"
+      ],
+      "correctAnswer": "y = 0",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-039",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, 18/5). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/6x",
+        "y = 3x",
+        "y = 6/5x",
+        "y = 18/5x"
+      ],
+      "correctAnswer": "y = 6/5x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-040",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, 8). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 1/2x",
+        "y = 4x",
+        "y = 8x",
+        "y = 2x"
+      ],
+      "correctAnswer": "y = 2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-041",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, 15). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 3x",
+        "y = 1/3x",
+        "y = 5x",
+        "y = 15x"
+      ],
+      "correctAnswer": "y = 3x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-042",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, 3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 2x",
+        "y = 1/2x",
+        "y = 6x",
+        "y = 3x"
+      ],
+      "correctAnswer": "y = 1/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-043",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 2/3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 3/2x",
+        "y = 1x",
+        "y = 2/3x",
+        "y = 2/3x + 1"
+      ],
+      "correctAnswer": "y = 2/3x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-044",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, 3/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 4/3x",
+        "y = 2x",
+        "y = 3/2x",
+        "y = 3/4x"
+      ],
+      "correctAnswer": "y = 3/4x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-045",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (3, 15/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/2x",
+        "y = 2/5x",
+        "y = 3x",
+        "y = 15/2x"
+      ],
+      "correctAnswer": "y = 5/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-046",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (4, -8). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -1/2x",
+        "y = -2x",
+        "y = 4x",
+        "y = -8x"
+      ],
+      "correctAnswer": "y = -2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-047",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (5, -15/2). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -2/3x",
+        "y = 5x",
+        "y = -3/2x",
+        "y = -15/2x"
+      ],
+      "correctAnswer": "y = -3/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-048",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (6, 24/5). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/4x",
+        "y = 6x",
+        "y = 24/5x",
+        "y = 4/5x"
+      ],
+      "correctAnswer": "y = 4/5x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-049",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (1, 5/3). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = 5/3x",
+        "y = 3/5x",
+        "y = 1x",
+        "y = 5/3x + 1"
+      ],
+      "correctAnswer": "y = 5/3x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    },
+    {
+      "id": "course3-equations-y-equals-mx-core-050",
+      "type": "multiple_choice",
+      "questionText": "A line goes through the origin and the point (2, -1). Which equation has the form y = mx for this line?",
+      "options": [
+        "y = -2x",
+        "y = -1/2x",
+        "y = 2x",
+        "y = -1x"
+      ],
+      "correctAnswer": "y = -1/2x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "conceptual",
+        "graph"
+      ],
+      "explanation": "For a line through the origin, m is the constant of proportionality and y = mx."
+    }
+  ]
+}

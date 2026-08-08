@@ -1227,6 +1227,392 @@
               ]
             }
           ]
+        },
+        {
+          "id": "course3-unit-lines-slope-linear-equations",
+          "courseId": "course-3",
+          "title": "Unit 3 — Lines, Slope, and Linear Equations",
+          "description": "Understand slope, rate of change, proportional linear equations, and multiple representations of lines.",
+          "order": 3,
+          "concepts": [
+            {
+              "id": "concept-proportional-relationships-as-lines",
+              "title": "Proportional Relationships as Lines",
+              "description": "Connect proportional relationships to lines through the origin and equations of the form y = mx.",
+              "tags": [
+                "linear-equations",
+                "proportional-relationships",
+                "graphs"
+              ],
+              "skillTags": [
+                "conceptual",
+                "graph",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-proportional-relationships-as-lines.md",
+              "tests": [
+                {
+                  "id": "course3-proportional-relationships-as-lines-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-proportional-relationships-as-lines-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-proportional-relationships-as-lines-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-proportional-relationships-as-lines-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-understand-slope-rate-change",
+              "title": "Understand Slope as Rate of Change",
+              "description": "Interpret slope as a constant rate of change in tables, graphs, equations, and contexts.",
+              "tags": [
+                "slope",
+                "rate-of-change",
+                "linear-relationships"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-understand-slope-rate-change.md",
+              "tests": [
+                {
+                  "id": "course3-understand-slope-rate-change-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-understand-slope-rate-change-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-understand-slope-rate-change-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-understand-slope-rate-change-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-find-slope-from-graphs",
+              "title": "Find Slope from Graphs",
+              "description": "Find slope on coordinate graphs by using rise over run between two points on a line.",
+              "tags": [
+                "slope",
+                "graphs",
+                "coordinate-plane"
+              ],
+              "skillTags": [
+                "graph",
+                "computation",
+                "visual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-find-slope-from-graphs.md",
+              "tests": [
+                {
+                  "id": "course3-find-slope-from-graphs-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-find-slope-from-graphs-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-find-slope-from-graphs-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-find-slope-from-graphs-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-find-slope-tables-points",
+              "title": "Find Slope from Tables and Points",
+              "description": "Calculate slope from tables and coordinate pairs using change in y over change in x.",
+              "tags": [
+                "slope",
+                "tables",
+                "points"
+              ],
+              "skillTags": [
+                "computation",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-find-slope-tables-points.md",
+              "tests": [
+                {
+                  "id": "course3-find-slope-tables-points-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-find-slope-tables-points-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-find-slope-tables-points-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-find-slope-tables-points-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-compare-rates-of-change",
+              "title": "Compare Rates of Change",
+              "description": "Compare rates of change across proportional relationships, tables, graphs, and contexts.",
+              "tags": [
+                "slope",
+                "rate-of-change",
+                "comparison"
+              ],
+              "skillTags": [
+                "reasoning",
+                "application",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-compare-rates-of-change.md",
+              "tests": [
+                {
+                  "id": "course3-compare-rates-of-change-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-compare-rates-of-change-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-compare-rates-of-change-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-compare-rates-of-change-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-similar-triangles-constant-slope",
+              "title": "Similar Triangles and Constant Slope",
+              "description": "Use similar slope triangles to explain why a line has a constant slope.",
+              "tags": [
+                "slope",
+                "similar-triangles",
+                "constant-slope"
+              ],
+              "skillTags": [
+                "conceptual",
+                "visual",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 6,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-similar-triangles-constant-slope.md",
+              "tests": [
+                {
+                  "id": "course3-similar-triangles-constant-slope-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-similar-triangles-constant-slope-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-similar-triangles-constant-slope-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-similar-triangles-constant-slope-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-y-equals-mx",
+              "title": "Equations in the Form y = mx",
+              "description": "Write and interpret proportional linear equations in the form y = mx.",
+              "tags": [
+                "linear-equations",
+                "y-mx",
+                "proportional-relationships"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "graph"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 7,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-y-equals-mx.md",
+              "tests": [
+                {
+                  "id": "course3-equations-y-equals-mx-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-y-equals-mx-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }
