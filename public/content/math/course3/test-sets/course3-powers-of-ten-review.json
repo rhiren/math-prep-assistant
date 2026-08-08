@@ -29,8 +29,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻².",
       "options": [
-        "0.01",
         "100",
+        "0.01",
         "0.1",
         "-100"
       ],
@@ -48,9 +48,9 @@
       "type": "multiple_choice",
       "questionText": "Write 1,000,000 as a power of 10.",
       "options": [
-        "10⁶",
         "10⁵",
         "10⁷",
+        "10⁶",
         "6¹⁰"
       ],
       "correctAnswer": "10⁶",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Write 0.001 as a power of 10.",
       "options": [
-        "10⁻³",
         "10³",
         "10⁻²",
-        "3⁻¹⁰"
+        "3⁻¹⁰",
+        "10⁻³"
       ],
       "correctAnswer": "10⁻³",
       "difficulty": "scaffold",
@@ -105,8 +105,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10⁶ ÷ 10⁴.",
       "options": [
-        "10²",
         "10¹⁰",
+        "10²",
         "10⁻²",
         "2¹⁰"
       ],
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 4.5 × 10².",
       "options": [
-        "450",
         "45",
         "4,500",
+        "450",
         "0.045"
       ],
       "correctAnswer": "450",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 7.8 × 10⁻¹.",
       "options": [
-        "0.78",
         "78",
         "7.8",
-        "0.078"
+        "0.078",
+        "0.78"
       ],
       "correctAnswer": "0.78",
       "difficulty": "scaffold",
@@ -181,8 +181,8 @@
       "type": "multiple_choice",
       "questionText": "A decimal moves 5 places left. Which multiplier was used?",
       "options": [
-        "10⁻⁵",
         "10⁵",
+        "10⁻⁵",
         "10⁻⁴",
         "5¹⁰"
       ],
@@ -200,9 +200,9 @@
       "type": "multiple_choice",
       "questionText": "A decimal moves 2 places right. Which multiplier was used?",
       "options": [
-        "10²",
         "10⁻²",
         "10³",
+        "10²",
         "2¹⁰"
       ],
       "correctAnswer": "10²",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10⁻³ × 10⁷.",
       "options": [
-        "10⁴",
         "10⁻²¹",
         "10¹⁰",
-        "10⁻⁴"
+        "10⁻⁴",
+        "10⁴"
       ],
       "correctAnswer": "10⁴",
       "difficulty": "standard",
@@ -257,8 +257,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 0.006 × 10⁴.",
       "options": [
-        "60",
         "6",
+        "60",
         "600",
         "0.0000006"
       ],
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 52 ÷ 10³.",
       "options": [
-        "0.052",
         "0.52",
         "5,200",
+        "0.052",
         "0.0052"
       ],
       "correctAnswer": "0.052",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "How many times larger is 10⁵ than 10²?",
       "options": [
-        "10³",
         "10⁷",
         "10⁻³",
-        "3"
+        "3",
+        "10³"
       ],
       "correctAnswer": "10³",
       "difficulty": "standard",
@@ -333,8 +333,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (10⁻²)².",
       "options": [
-        "10⁻⁴",
         "10⁴",
+        "10⁻⁴",
         "10⁰",
         "10⁻²"
       ],
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Which equals 0.00000001?",
       "options": [
-        "10⁻⁸",
         "10⁸",
         "10⁻⁷",
+        "10⁻⁸",
         "8⁻¹⁰"
       ],
       "correctAnswer": "10⁻⁸",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "Which equals 100,000,000?",
       "options": [
-        "10⁸",
         "10⁷",
         "10⁹",
-        "8¹⁰"
+        "8¹⁰",
+        "10⁸"
       ],
       "correctAnswer": "10⁸",
       "difficulty": "standard",

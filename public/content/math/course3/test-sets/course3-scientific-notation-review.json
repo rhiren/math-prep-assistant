@@ -29,8 +29,8 @@
       "type": "multiple_choice",
       "questionText": "Write 45,000 in scientific notation.",
       "options": [
-        "4.5 × 10⁴",
         "45 × 10³",
+        "4.5 × 10⁴",
         "0.45 × 10⁵",
         "4.5 × 10⁻⁴"
       ],
@@ -48,9 +48,9 @@
       "type": "multiple_choice",
       "questionText": "Write 0.007 in scientific notation.",
       "options": [
-        "7 × 10⁻³",
         "7 × 10³",
         "0.7 × 10⁻²",
+        "7 × 10⁻³",
         "70 × 10⁻⁴"
       ],
       "correctAnswer": "7 × 10⁻³",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Write 0.00082 in scientific notation.",
       "options": [
-        "8.2 × 10⁻⁴",
         "82 × 10⁻⁵",
         "8.2 × 10⁴",
-        "0.82 × 10⁻³"
+        "0.82 × 10⁻³",
+        "8.2 × 10⁻⁴"
       ],
       "correctAnswer": "8.2 × 10⁻⁴",
       "difficulty": "scaffold",
@@ -105,8 +105,8 @@
       "type": "multiple_choice",
       "questionText": "Convert 5.6 × 10⁻³ to standard form.",
       "options": [
-        "0.0056",
         "0.056",
+        "0.0056",
         "5,600",
         "0.00056"
       ],
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "In 7.4 × 10⁶, what is the coefficient?",
       "options": [
-        "7.4",
         "10",
         "6",
+        "7.4",
         "74"
       ],
       "correctAnswer": "7.4",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "In 2.9 × 10⁻⁵, what does the negative exponent indicate?",
       "options": [
-        "The number is less than 1",
         "The number is negative",
         "The coefficient is invalid",
-        "The number equals zero"
+        "The number equals zero",
+        "The number is less than 1"
       ],
       "correctAnswer": "The number is less than 1",
       "difficulty": "scaffold",
@@ -181,8 +181,8 @@
       "type": "multiple_choice",
       "questionText": "Write 0.00000064 in scientific notation.",
       "options": [
-        "6.4 × 10⁻⁷",
         "64 × 10⁻⁸",
+        "6.4 × 10⁻⁷",
         "6.4 × 10⁷",
         "0.64 × 10⁻⁶"
       ],
@@ -200,9 +200,9 @@
       "type": "multiple_choice",
       "questionText": "Convert 9.12 × 10⁵ to standard form.",
       "options": [
-        "912,000",
         "91,200",
         "9,120,000",
+        "912,000",
         "0.0000912"
       ],
       "correctAnswer": "912,000",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 1.25 × 10⁻⁴ to standard form.",
       "options": [
-        "0.000125",
         "0.00125",
         "12,500",
-        "0.0000125"
+        "0.0000125",
+        "0.000125"
       ],
       "correctAnswer": "0.000125",
       "difficulty": "standard",
@@ -257,8 +257,8 @@
       "type": "multiple_choice",
       "questionText": "Which is smaller: 2.5 × 10⁻³ or 4 × 10⁻⁴?",
       "options": [
-        "4 × 10⁻⁴",
         "2.5 × 10⁻³",
+        "4 × 10⁻⁴",
         "They are equal",
         "2.5 × 10³"
       ],
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Write 72 × 10⁵ in proper scientific notation.",
       "options": [
-        "7.2 × 10⁶",
         "72 × 10⁵",
         "7.2 × 10⁵",
+        "7.2 × 10⁶",
         "0.72 × 10⁷"
       ],
       "correctAnswer": "7.2 × 10⁶",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "Write 0.38 × 10⁻⁶ in proper scientific notation.",
       "options": [
-        "3.8 × 10⁻⁷",
         "3.8 × 10⁻⁶",
         "38 × 10⁻⁸",
-        "0.38 × 10⁻⁶"
+        "0.38 × 10⁻⁶",
+        "3.8 × 10⁻⁷"
       ],
       "correctAnswer": "3.8 × 10⁻⁷",
       "difficulty": "standard",
@@ -333,8 +333,8 @@
       "type": "multiple_choice",
       "questionText": "A planet is 149,600,000 km from the Sun. Write this in scientific notation.",
       "options": [
-        "1.496 × 10⁸ km",
         "14.96 × 10⁷ km",
+        "1.496 × 10⁸ km",
         "1.496 × 10⁻⁸ km",
         "0.1496 × 10⁹ km"
       ],
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Which number equals 4.08 × 10⁻²?",
       "options": [
-        "0.0408",
         "0.408",
         "408",
+        "0.0408",
         "0.00408"
       ],
       "correctAnswer": "0.0408",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "Which number equals 7.03 × 10⁶?",
       "options": [
-        "7,030,000",
         "703,000",
         "70,300,000",
-        "0.00000703"
+        "0.00000703",
+        "7,030,000"
       ],
       "correctAnswer": "7,030,000",
       "difficulty": "standard",

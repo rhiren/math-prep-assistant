@@ -902,6 +902,329 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-equations-rational-coefficients",
+              "title": "Equations with Rational Coefficients",
+              "description": "Solve one-variable equations with fraction and decimal coefficients by clearing denominators, combining terms, and checking solutions.",
+              "tags": [
+                "linear-equations",
+                "rational-coefficients",
+                "fractions",
+                "decimals"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "multi-step"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-rational-coefficients.md",
+              "tests": [
+                {
+                  "id": "course3-equations-rational-coefficients-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-rational-coefficients-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-rational-coefficients-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-rational-coefficients-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-solution-types",
+              "title": "One Solution, No Solution, or Infinitely Many Solutions",
+              "description": "Classify linear equations by simplifying both sides and comparing variable terms and constants.",
+              "tags": [
+                "linear-equations",
+                "solution-types",
+                "equivalent-equations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "reasoning",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 6,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-solution-types.md",
+              "tests": [
+                {
+                  "id": "course3-equations-solution-types-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-solution-types-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-solution-types-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-solution-types-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-build-equations-from-context",
+              "title": "Build Equations from Context",
+              "description": "Translate situations into one-variable equations by identifying constants, rates, variables, and equal quantities.",
+              "tags": [
+                "linear-equations",
+                "modeling",
+                "context"
+              ],
+              "skillTags": [
+                "application",
+                "reasoning",
+                "word-problem"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 7,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-build-equations-from-context.md",
+              "tests": [
+                {
+                  "id": "course3-build-equations-from-context-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-build-equations-from-context-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-build-equations-from-context-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-build-equations-from-context-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-linear-equation-word-problems",
+              "title": "Linear Equation Word Problems",
+              "description": "Solve one-variable linear equation word problems by defining a variable, building an equation, solving, and interpreting the answer.",
+              "tags": [
+                "linear-equations",
+                "word-problems",
+                "modeling"
+              ],
+              "skillTags": [
+                "application",
+                "word-problem",
+                "multi-step",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 8,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-linear-equation-word-problems.md",
+              "tests": [
+                {
+                  "id": "course3-linear-equation-word-problems-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-linear-equation-word-problems-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-linear-equation-word-problems-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-linear-equation-word-problems-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-check-explain-equation-solutions",
+              "title": "Check and Explain Equation Solutions",
+              "description": "Check proposed solutions in original equations and explain whether solving steps preserve equality.",
+              "tags": [
+                "linear-equations",
+                "checking-solutions",
+                "error-analysis"
+              ],
+              "skillTags": [
+                "reasoning",
+                "conceptual",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 9,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-check-explain-equation-solutions.md",
+              "tests": [
+                {
+                  "id": "course3-check-explain-equation-solutions-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-check-explain-equation-solutions-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-check-explain-equation-solutions-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-check-explain-equation-solutions-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-unit-2-mixed-review",
+              "title": "Unit 2 Mixed Review",
+              "description": "Review equivalent expressions, multi-step equations, distributive property equations, rational coefficients, solution types, modeling, and checking solutions.",
+              "tags": [
+                "linear-equations",
+                "mixed-review",
+                "unit-review"
+              ],
+              "skillTags": [
+                "computation",
+                "conceptual",
+                "reasoning",
+                "application",
+                "word-problem"
+              ],
+              "meta": {
+                "type": "mixed-review",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 10,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-unit-2-mixed-review.md",
+              "tests": [
+                {
+                  "id": "course3-unit-2-mixed-review-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-unit-2-mixed-review-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-unit-2-mixed-review-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-unit-2-mixed-review-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }

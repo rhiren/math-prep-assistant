@@ -9,220 +9,360 @@
       "id": "course3-approximate-irrational-numbers-review-001",
       "type": "multiple_choice",
       "questionText": "Between which consecutive integers does √6 lie?",
-      "options": ["2 and 3", "1 and 2", "3 and 4", "5 and 6"],
+      "options": [
+        "2 and 3",
+        "1 and 2",
+        "3 and 4",
+        "5 and 6"
+      ],
       "correctAnswer": "2 and 3",
       "difficulty": "scaffold",
       "answerType": "number",
-      "skillTags": ["conceptual"],
+      "skillTags": [
+        "conceptual"
+      ],
       "explanation": "4 < 6 < 9, so 2 < √6 < 3."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-002",
       "type": "multiple_choice",
       "questionText": "Between which consecutive integers does √35 lie?",
-      "options": ["5 and 6", "4 and 5", "6 and 7", "17 and 18"],
+      "options": [
+        "4 and 5",
+        "5 and 6",
+        "6 and 7",
+        "17 and 18"
+      ],
       "correctAnswer": "5 and 6",
       "difficulty": "scaffold",
       "answerType": "number",
-      "skillTags": ["conceptual"],
+      "skillTags": [
+        "conceptual"
+      ],
       "explanation": "25 < 35 < 36, so 5 < √35 < 6."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-003",
       "type": "multiple_choice",
       "questionText": "Approximate √11 to the nearest tenth.",
-      "options": ["3.3", "3.4", "3.1", "5.5"],
+      "options": [
+        "3.4",
+        "3.1",
+        "3.3",
+        "5.5"
+      ],
       "correctAnswer": "3.3",
       "difficulty": "scaffold",
       "answerType": "decimal",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "√11 = 3.3166..., which rounds to 3.3."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-004",
       "type": "multiple_choice",
       "questionText": "Approximate √60 to the nearest tenth.",
-      "options": ["7.7", "7.8", "6.0", "8.4"],
+      "options": [
+        "7.8",
+        "6.0",
+        "8.4",
+        "7.7"
+      ],
       "correctAnswer": "7.7",
       "difficulty": "scaffold",
       "answerType": "decimal",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "√60 = 7.7459..., which rounds to 7.7 because the hundredths digit is 4."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-005",
       "type": "multiple_choice",
       "questionText": "What is π rounded to the nearest whole number?",
-      "options": ["3", "4", "2", "31"],
+      "options": [
+        "3",
+        "4",
+        "2",
+        "31"
+      ],
       "correctAnswer": "3",
       "difficulty": "scaffold",
       "answerType": "number",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "π = 3.14159..., which rounds to 3."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-006",
       "type": "multiple_choice",
       "questionText": "Which inequality correctly locates √8?",
-      "options": ["2.8 < √8 < 2.9", "2.7 < √8 < 2.8", "2.9 < √8 < 3.0", "3.8 < √8 < 3.9"],
+      "options": [
+        "2.7 < √8 < 2.8",
+        "2.8 < √8 < 2.9",
+        "2.9 < √8 < 3.0",
+        "3.8 < √8 < 3.9"
+      ],
       "correctAnswer": "2.8 < √8 < 2.9",
       "difficulty": "scaffold",
       "answerType": "text",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "2.8² = 7.84 and 2.9² = 8.41, so √8 lies between 2.8 and 2.9."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-007",
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
-      "options": ["√15 > 3.8", "√15 < 3.8", "√15 = 3.8", "√15 > 4"],
+      "options": [
+        "√15 < 3.8",
+        "√15 = 3.8",
+        "√15 > 3.8",
+        "√15 > 4"
+      ],
       "correctAnswer": "√15 > 3.8",
       "difficulty": "scaffold",
       "answerType": "text",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "3.8² = 14.44 < 15, so 3.8 < √15."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-008",
       "type": "multiple_choice",
       "questionText": "A square has area 40 square inches. Estimate its side length to the nearest whole inch.",
-      "options": ["6 in", "7 in", "5 in", "20 in"],
+      "options": [
+        "7 in",
+        "5 in",
+        "20 in",
+        "6 in"
+      ],
       "correctAnswer": "6 in",
       "difficulty": "scaffold",
       "answerType": "text",
-      "skillTags": ["application"],
+      "skillTags": [
+        "application"
+      ],
       "explanation": "The side is √40 ≈ 6.32 inches, which rounds to 6 inches."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-009",
       "type": "multiple_choice",
       "questionText": "Approximate √19 to the nearest tenth.",
-      "options": ["4.4", "4.3", "4.9", "3.8"],
+      "options": [
+        "4.4",
+        "4.3",
+        "4.9",
+        "3.8"
+      ],
       "correctAnswer": "4.4",
       "difficulty": "standard",
       "answerType": "decimal",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "√19 = 4.3588..., which rounds to 4.4."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-010",
       "type": "multiple_choice",
       "questionText": "Approximate √55 to the nearest tenth.",
-      "options": ["7.4", "7.5", "7.3", "5.5"],
+      "options": [
+        "7.5",
+        "7.4",
+        "7.3",
+        "5.5"
+      ],
       "correctAnswer": "7.4",
       "difficulty": "standard",
       "answerType": "decimal",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "√55 = 7.4161..., which rounds to 7.4."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-011",
       "type": "multiple_choice",
       "questionText": "Approximate √5 to the nearest hundredth.",
-      "options": ["2.24", "2.23", "2.20", "2.50"],
+      "options": [
+        "2.23",
+        "2.20",
+        "2.24",
+        "2.50"
+      ],
       "correctAnswer": "2.24",
       "difficulty": "standard",
       "answerType": "decimal",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "√5 = 2.2360..., which rounds to 2.24."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-012",
       "type": "multiple_choice",
       "questionText": "Approximate √140 to the nearest tenth.",
-      "options": ["11.8", "11.9", "12.0", "14.0"],
+      "options": [
+        "11.9",
+        "12.0",
+        "14.0",
+        "11.8"
+      ],
       "correctAnswer": "11.8",
       "difficulty": "standard",
       "answerType": "decimal",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "√140 = 11.8321..., which rounds to 11.8."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-013",
       "type": "multiple_choice",
       "questionText": "Order √6, 2.5, and √7 from least to greatest.",
-      "options": ["√6, 2.5, √7", "2.5, √6, √7", "√7, 2.5, √6", "√6, √7, 2.5"],
+      "options": [
+        "√6, 2.5, √7",
+        "2.5, √6, √7",
+        "√7, 2.5, √6",
+        "√6, √7, 2.5"
+      ],
       "correctAnswer": "√6, 2.5, √7",
       "difficulty": "standard",
       "answerType": "text",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "√6 ≈ 2.449 and √7 ≈ 2.646, so √6 < 2.5 < √7."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-014",
       "type": "multiple_choice",
       "questionText": "Which comparison is correct?",
-      "options": ["√9.8 < π", "√9.8 > π", "√9.8 = π", "√9.8 > 3.2"],
+      "options": [
+        "√9.8 > π",
+        "√9.8 < π",
+        "√9.8 = π",
+        "√9.8 > 3.2"
+      ],
       "correctAnswer": "√9.8 < π",
       "difficulty": "standard",
       "answerType": "text",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "√9.8 ≈ 3.1305 and π ≈ 3.1416, so √9.8 < π."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-015",
       "type": "multiple_choice",
       "questionText": "Which interval contains -√7?",
-      "options": ["-2.7 < -√7 < -2.6", "-2.6 < -√7 < -2.5", "2.6 < -√7 < 2.7", "-3.0 < -√7 < -2.8"],
+      "options": [
+        "-2.6 < -√7 < -2.5",
+        "2.6 < -√7 < 2.7",
+        "-2.7 < -√7 < -2.6",
+        "-3.0 < -√7 < -2.8"
+      ],
       "correctAnswer": "-2.7 < -√7 < -2.6",
       "difficulty": "standard",
       "answerType": "text",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "√7 ≈ 2.6458, so -√7 ≈ -2.6458, between -2.7 and -2.6."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-016",
       "type": "multiple_choice",
       "questionText": "A square has area 120 square centimeters. Estimate its side length to the nearest tenth.",
-      "options": ["11.0 cm", "10.9 cm", "12.0 cm", "60.0 cm"],
+      "options": [
+        "10.9 cm",
+        "12.0 cm",
+        "60.0 cm",
+        "11.0 cm"
+      ],
       "correctAnswer": "11.0 cm",
       "difficulty": "standard",
       "answerType": "text",
-      "skillTags": ["application"],
+      "skillTags": [
+        "application"
+      ],
       "explanation": "The side is √120 = 10.954..., which rounds to 11.0 centimeters."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-017",
       "type": "multiple_choice",
       "questionText": "Estimate 1 + √12 to the nearest tenth.",
-      "options": ["4.5", "4.4", "3.5", "13.0"],
+      "options": [
+        "4.5",
+        "4.4",
+        "3.5",
+        "13.0"
+      ],
       "correctAnswer": "4.5",
       "difficulty": "standard",
       "answerType": "decimal",
-      "skillTags": ["computation"],
+      "skillTags": [
+        "computation"
+      ],
       "explanation": "1 + √12 = 1 + 3.464... = 4.464..., which rounds to 4.5."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-018",
       "type": "multiple_choice",
       "questionText": "Which radical is closest to 5.5?",
-      "options": ["√30", "√28", "√32", "√36"],
+      "options": [
+        "√28",
+        "√30",
+        "√32",
+        "√36"
+      ],
       "correctAnswer": "√30",
       "difficulty": "standard",
       "answerType": "number",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "√30 ≈ 5.477, only about 0.023 from 5.5. The other choices are farther away."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-019",
       "type": "multiple_choice",
       "questionText": "Why is 6.3 a reasonable approximation of √40?",
-      "options": ["6.3² = 39.69, which is close to 40", "6.3 + 6.3 = 12.6", "40 ÷ 6.3 is exactly 6.3", "6.3 is irrational"],
+      "options": [
+        "6.3 + 6.3 = 12.6",
+        "40 ÷ 6.3 is exactly 6.3",
+        "6.3² = 39.69, which is close to 40",
+        "6.3 is irrational"
+      ],
       "correctAnswer": "6.3² = 39.69, which is close to 40",
       "difficulty": "standard",
       "answerType": "text",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "Squaring the estimate gives a value close to the radicand, so the estimate is reasonable."
     },
     {
       "id": "course3-approximate-irrational-numbers-review-020",
       "type": "multiple_choice",
       "questionText": "Which facts show that √73 rounds to 8.54 to the nearest hundredth?",
-      "options": ["8.54² < 73 and 8.545² > 73", "8.53² < 73 and 8.54² < 73", "8² < 73 and 9² > 73", "8.545² < 73 and 8.55² > 73"],
+      "options": [
+        "8.53² < 73 and 8.54² < 73",
+        "8² < 73 and 9² > 73",
+        "8.545² < 73 and 8.55² > 73",
+        "8.54² < 73 and 8.545² > 73"
+      ],
       "correctAnswer": "8.54² < 73 and 8.545² > 73",
       "difficulty": "standard",
       "answerType": "text",
-      "skillTags": ["reasoning"],
+      "skillTags": [
+        "reasoning"
+      ],
       "explanation": "√73 lies above 8.54 but below the rounding midpoint 8.545, so it rounds to 8.54."
     }
   ]

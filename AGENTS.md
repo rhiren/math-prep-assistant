@@ -306,6 +306,17 @@ The current Course 3 learner-ready sequence is:
 - `Solve Multi-Step Equations`
 - `Equations with the Distributive Property`
 - `Equations with Variables on Both Sides`
+- `Equations with Rational Coefficients`
+- `One Solution, No Solution, or Infinitely Many Solutions`
+- `Build Equations from Context`
+- `Linear Equation Word Problems`
+- `Check and Explain Equation Solutions`
+- `Unit 2 Mixed Review`
+
+Course 3 multiple-choice answer choices must remain position-balanced. Do not
+author or generate test banks where the correct answer repeatedly appears in
+the same option slot. The Course 3 answer-position regression test should
+remain active for future concept packs.
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.

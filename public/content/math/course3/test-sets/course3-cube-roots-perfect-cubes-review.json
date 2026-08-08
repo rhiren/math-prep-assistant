@@ -5,25 +5,365 @@
   "title": "Cube Roots and Perfect Cubes Review",
   "description": "Review perfect cubes, real cube roots, and cube-volume applications.",
   "questions": [
-    {"id":"course3-cube-roots-perfect-cubes-review-001","type":"multiple_choice","questionText":"What is 2³?","options":["8","6","4","9"],"correctAnswer":"8","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"2 × 2 × 2 = 8."},
-    {"id":"course3-cube-roots-perfect-cubes-review-002","type":"multiple_choice","questionText":"What is ∛8?","options":["2","4","-2","8"],"correctAnswer":"2","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"2³ = 8."},
-    {"id":"course3-cube-roots-perfect-cubes-review-003","type":"multiple_choice","questionText":"Which number is a perfect cube?","options":["27","18","36","54"],"correctAnswer":"27","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"27 = 3³."},
-    {"id":"course3-cube-roots-perfect-cubes-review-004","type":"multiple_choice","questionText":"What is ∛64?","options":["4","8","16","2"],"correctAnswer":"4","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"4³ = 64."},
-    {"id":"course3-cube-roots-perfect-cubes-review-005","type":"multiple_choice","questionText":"What is ∛(-27)?","options":["-3","3","-9","Not real"],"correctAnswer":"-3","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"(-3)³ = -27."},
-    {"id":"course3-cube-roots-perfect-cubes-review-006","type":"multiple_choice","questionText":"Which expression means 5 cubed?","options":["5 × 5 × 5","5 × 3","5 + 5 + 5","3 × 3 × 3"],"correctAnswer":"5 × 5 × 5","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"An exponent of 3 uses the base as a factor three times."},
-    {"id":"course3-cube-roots-perfect-cubes-review-007","type":"multiple_choice","questionText":"A cube has volume 125 in³. What is its edge length?","options":["5 in","25 in","15 in","125 in"],"correctAnswer":"5 in","difficulty":"scaffold","answerType":"number","skillTags":["application"],"explanation":"The edge is ∛125 = 5 in."},
-    {"id":"course3-cube-roots-perfect-cubes-review-008","type":"multiple_choice","questionText":"Which is not a perfect cube?","options":["40","1","8","64"],"correctAnswer":"40","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"40 lies between 27 = 3³ and 64 = 4³."},
-    {"id":"course3-cube-roots-perfect-cubes-review-009","type":"multiple_choice","questionText":"What is ∛216?","options":["6","18","36","72"],"correctAnswer":"6","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"6³ = 216."},
-    {"id":"course3-cube-roots-perfect-cubes-review-010","type":"multiple_choice","questionText":"Between which integers does ∛100 lie?","options":["4 and 5","3 and 4","5 and 6","9 and 10"],"correctAnswer":"4 and 5","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"4³ = 64 and 5³ = 125."},
-    {"id":"course3-cube-roots-perfect-cubes-review-011","type":"multiple_choice","questionText":"Solve x³ = 512.","options":["x = 8","x = 8 or x = -8","x = 64","x = 16"],"correctAnswer":"x = 8","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"8³ = 512, and the real solution is unique."},
-    {"id":"course3-cube-roots-perfect-cubes-review-012","type":"multiple_choice","questionText":"What is ∛(8/27)?","options":["2/3","8/3","2/27","3/2"],"correctAnswer":"2/3","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"∛8/∛27 = 2/3."},
-    {"id":"course3-cube-roots-perfect-cubes-review-013","type":"multiple_choice","questionText":"What is ∛0.001?","options":["0.1","0.01","1","10"],"correctAnswer":"0.1","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"0.1³ = 0.001."},
-    {"id":"course3-cube-roots-perfect-cubes-review-014","type":"multiple_choice","questionText":"Which comparison is true?","options":["∛65 > 4","∛65 < 4","∛65 = 4","∛65 is not real"],"correctAnswer":"∛65 > 4","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"4³ = 64 and 65 > 64."},
-    {"id":"course3-cube-roots-perfect-cubes-review-015","type":"multiple_choice","questionText":"A cube has edge length 6 cm. What is its volume?","options":["216 cm³","36 cm³","18 cm³","108 cm³"],"correctAnswer":"216 cm³","difficulty":"standard","answerType":"number","skillTags":["application"],"explanation":"Volume = 6³ = 216 cm³."},
-    {"id":"course3-cube-roots-perfect-cubes-review-016","type":"multiple_choice","questionText":"Why is ∛(-64) real?","options":["(-4)³ = -64","4³ = -64","Every square root is real","Negative signs disappear when cubed"],"correctAnswer":"(-4)³ = -64","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"A negative number used as a factor three times gives a negative product."},
-    {"id":"course3-cube-roots-perfect-cubes-review-017","type":"multiple_choice","questionText":"Which integer is closest to ∛210?","options":["6","5","7","4"],"correctAnswer":"6","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"210 is only 6 away from 216 = 6³."},
-    {"id":"course3-cube-roots-perfect-cubes-review-018","type":"multiple_choice","questionText":"If ∛n = 7, what is n?","options":["343","49","21","7"],"correctAnswer":"343","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"n = 7³ = 343."},
-    {"id":"course3-cube-roots-perfect-cubes-review-019","type":"multiple_choice","questionText":"Which statement is true?","options":["∛(x³) = x for every real x","∛(x³) = |x| for every real x","Every cube root is positive","Negative numbers have no real cube roots"],"correctAnswer":"∛(x³) = x for every real x","difficulty":"standard","answerType":"number","skillTags":["conceptual"],"explanation":"Cubing and taking a real cube root are inverse operations."},
-    {"id":"course3-cube-roots-perfect-cubes-review-020","type":"multiple_choice","questionText":"A student writes ∛343 = 49 because 343 ÷ 7 = 49. What is the correction?","options":["∛343 = 7 because 7 × 7 × 7 = 343","∛343 = 3 because it is a cube root","∛343 = 49 because division is correct","∛343 is not an integer"],"correctAnswer":"∛343 = 7 because 7 × 7 × 7 = 343","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"A cube root asks for one factor repeated three times, not division by a guessed factor."}
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-001",
+      "type": "multiple_choice",
+      "questionText": "What is 2³?",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "9"
+      ],
+      "correctAnswer": "8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "2 × 2 × 2 = 8."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-002",
+      "type": "multiple_choice",
+      "questionText": "What is ∛8?",
+      "options": [
+        "4",
+        "2",
+        "-2",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "2³ = 8."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-003",
+      "type": "multiple_choice",
+      "questionText": "Which number is a perfect cube?",
+      "options": [
+        "18",
+        "36",
+        "27",
+        "54"
+      ],
+      "correctAnswer": "27",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "27 = 3³."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-004",
+      "type": "multiple_choice",
+      "questionText": "What is ∛64?",
+      "options": [
+        "8",
+        "16",
+        "2",
+        "4"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "4³ = 64."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-005",
+      "type": "multiple_choice",
+      "questionText": "What is ∛(-27)?",
+      "options": [
+        "-3",
+        "3",
+        "-9",
+        "Not real"
+      ],
+      "correctAnswer": "-3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "(-3)³ = -27."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-006",
+      "type": "multiple_choice",
+      "questionText": "Which expression means 5 cubed?",
+      "options": [
+        "5 × 3",
+        "5 × 5 × 5",
+        "5 + 5 + 5",
+        "3 × 3 × 3"
+      ],
+      "correctAnswer": "5 × 5 × 5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "An exponent of 3 uses the base as a factor three times."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-007",
+      "type": "multiple_choice",
+      "questionText": "A cube has volume 125 in³. What is its edge length?",
+      "options": [
+        "25 in",
+        "15 in",
+        "5 in",
+        "125 in"
+      ],
+      "correctAnswer": "5 in",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "The edge is ∛125 = 5 in."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-008",
+      "type": "multiple_choice",
+      "questionText": "Which is not a perfect cube?",
+      "options": [
+        "1",
+        "8",
+        "64",
+        "40"
+      ],
+      "correctAnswer": "40",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "40 lies between 27 = 3³ and 64 = 4³."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-009",
+      "type": "multiple_choice",
+      "questionText": "What is ∛216?",
+      "options": [
+        "6",
+        "18",
+        "36",
+        "72"
+      ],
+      "correctAnswer": "6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "6³ = 216."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-010",
+      "type": "multiple_choice",
+      "questionText": "Between which integers does ∛100 lie?",
+      "options": [
+        "3 and 4",
+        "4 and 5",
+        "5 and 6",
+        "9 and 10"
+      ],
+      "correctAnswer": "4 and 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "4³ = 64 and 5³ = 125."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-011",
+      "type": "multiple_choice",
+      "questionText": "Solve x³ = 512.",
+      "options": [
+        "x = 8 or x = -8",
+        "x = 64",
+        "x = 8",
+        "x = 16"
+      ],
+      "correctAnswer": "x = 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "8³ = 512, and the real solution is unique."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-012",
+      "type": "multiple_choice",
+      "questionText": "What is ∛(8/27)?",
+      "options": [
+        "8/3",
+        "2/27",
+        "3/2",
+        "2/3"
+      ],
+      "correctAnswer": "2/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "∛8/∛27 = 2/3."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-013",
+      "type": "multiple_choice",
+      "questionText": "What is ∛0.001?",
+      "options": [
+        "0.1",
+        "0.01",
+        "1",
+        "10"
+      ],
+      "correctAnswer": "0.1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "0.1³ = 0.001."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-014",
+      "type": "multiple_choice",
+      "questionText": "Which comparison is true?",
+      "options": [
+        "∛65 < 4",
+        "∛65 > 4",
+        "∛65 = 4",
+        "∛65 is not real"
+      ],
+      "correctAnswer": "∛65 > 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "4³ = 64 and 65 > 64."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-015",
+      "type": "multiple_choice",
+      "questionText": "A cube has edge length 6 cm. What is its volume?",
+      "options": [
+        "36 cm³",
+        "18 cm³",
+        "216 cm³",
+        "108 cm³"
+      ],
+      "correctAnswer": "216 cm³",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "explanation": "Volume = 6³ = 216 cm³."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-016",
+      "type": "multiple_choice",
+      "questionText": "Why is ∛(-64) real?",
+      "options": [
+        "4³ = -64",
+        "Every square root is real",
+        "Negative signs disappear when cubed",
+        "(-4)³ = -64"
+      ],
+      "correctAnswer": "(-4)³ = -64",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "A negative number used as a factor three times gives a negative product."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-017",
+      "type": "multiple_choice",
+      "questionText": "Which integer is closest to ∛210?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "correctAnswer": "6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "210 is only 6 away from 216 = 6³."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-018",
+      "type": "multiple_choice",
+      "questionText": "If ∛n = 7, what is n?",
+      "options": [
+        "49",
+        "343",
+        "21",
+        "7"
+      ],
+      "correctAnswer": "343",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "n = 7³ = 343."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-019",
+      "type": "multiple_choice",
+      "questionText": "Which statement is true?",
+      "options": [
+        "∛(x³) = |x| for every real x",
+        "Every cube root is positive",
+        "∛(x³) = x for every real x",
+        "Negative numbers have no real cube roots"
+      ],
+      "correctAnswer": "∛(x³) = x for every real x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Cubing and taking a real cube root are inverse operations."
+    },
+    {
+      "id": "course3-cube-roots-perfect-cubes-review-020",
+      "type": "multiple_choice",
+      "questionText": "A student writes ∛343 = 49 because 343 ÷ 7 = 49. What is the correction?",
+      "options": [
+        "∛343 = 3 because it is a cube root",
+        "∛343 = 49 because division is correct",
+        "∛343 is not an integer",
+        "∛343 = 7 because 7 × 7 × 7 = 343"
+      ],
+      "correctAnswer": "∛343 = 7 because 7 × 7 × 7 = 343",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "A cube root asks for one factor repeated three times, not division by a guessed factor."
+    }
   ]
 }

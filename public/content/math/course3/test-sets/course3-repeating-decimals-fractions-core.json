@@ -5,55 +5,909 @@
   "title": "Repeating Decimals as Fractions Core Test",
   "description": "Convert repeating decimals to fractions, justify the algebra, simplify results, and interpret mixed repeating forms.",
   "questions": [
-    {"id":"course3-repeating-decimals-fractions-core-001","type":"multiple_choice","questionText":"Convert 0.333... to a fraction.","options":["1/3","3/10","3/100","1/9"],"correctAnswer":"1/3","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"Let x = 0.333.... Then 10x - x = 3, so 9x = 3 and x = 1/3."},
-    {"id":"course3-repeating-decimals-fractions-core-002","type":"multiple_choice","questionText":"Convert 0.777... to a fraction in simplest form.","options":["7/9","7/10","7/99","77/100"],"correctAnswer":"7/9","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"A single repeating digit 7 gives 7/9."},
-    {"id":"course3-repeating-decimals-fractions-core-003","type":"multiple_choice","questionText":"Which equation correctly starts the conversion of x = 0.444...?","options":["10x = 4.444...","100x = 4.444...","10x = 44.44...","x = 4/10"],"correctAnswer":"10x = 4.444...","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"One digit repeats, so multiplying by 10 moves one full repeating block left of the decimal."},
-    {"id":"course3-repeating-decimals-fractions-core-004","type":"multiple_choice","questionText":"Convert 0.121212... to a fraction before simplifying.","options":["12/99","12/100","12/999","1/12"],"correctAnswer":"12/99","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"The two-digit block 12 repeats, so 100x - x = 12 and 99x = 12."},
-    {"id":"course3-repeating-decimals-fractions-core-005","type":"multiple_choice","questionText":"Simplify 12/99.","options":["4/33","6/49","3/25","2/11"],"correctAnswer":"4/33","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"The greatest common factor of 12 and 99 is 3, giving 4/33."},
-    {"id":"course3-repeating-decimals-fractions-core-006","type":"multiple_choice","questionText":"Why is every repeating decimal rational?","options":["It can be converted to a ratio of integers","It always has fewer than ten digits","It is always between 0 and 1","Its repeating digit must be even"],"correctAnswer":"It can be converted to a ratio of integers","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"Aligning and subtracting repeating tails produces an equation whose solution is a fraction of integers."},
-    {"id":"course3-repeating-decimals-fractions-core-007","type":"multiple_choice","questionText":"Convert 0.090909... to a fraction in simplest form.","options":["1/11","9/100","9/90","1/9"],"correctAnswer":"1/11","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"0.090909... = 9/99, which simplifies to 1/11."},
-    {"id":"course3-repeating-decimals-fractions-core-008","type":"multiple_choice","questionText":"Which denominator is used before simplifying a decimal with a three-digit repeating block and no nonrepeating digits?","options":["999","1000","99","900"],"correctAnswer":"999","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"Three repeating digits produce three 9s in the denominator."},
-    {"id":"course3-repeating-decimals-fractions-core-009","type":"multiple_choice","questionText":"Convert -0.666... to a fraction.","options":["-2/3","-6/10","2/3","-1/6"],"correctAnswer":"-2/3","difficulty":"scaffold","answerType":"number","skillTags":["computation"],"explanation":"0.666... = 6/9 = 2/3, and the negative sign remains."},
-    {"id":"course3-repeating-decimals-fractions-core-010","type":"multiple_choice","questionText":"What is the exact value of 0.999...?","options":["1","0.99","99/100","A number slightly less than 1"],"correctAnswer":"1","difficulty":"scaffold","answerType":"number","skillTags":["conceptual"],"explanation":"If x = 0.999..., then 10x - x = 9, so 9x = 9 and x = 1."},
-    {"id":"course3-repeating-decimals-fractions-core-011","type":"multiple_choice","questionText":"Convert 0.272727... to a fraction in simplest form.","options":["3/11","27/100","27/999","2/7"],"correctAnswer":"3/11","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"The repeating block gives 27/99, which simplifies by 9 to 3/11."},
-    {"id":"course3-repeating-decimals-fractions-core-012","type":"multiple_choice","questionText":"Convert 0.181818... to a fraction in simplest form.","options":["2/11","18/100","9/50","1/18"],"correctAnswer":"2/11","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"18/99 simplifies by 9 to 2/11."},
-    {"id":"course3-repeating-decimals-fractions-core-013","type":"multiple_choice","questionText":"Convert 0.454545... to a fraction in simplest form.","options":["5/11","45/100","9/20","4/9"],"correctAnswer":"5/11","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"45/99 simplifies by 9 to 5/11."},
-    {"id":"course3-repeating-decimals-fractions-core-014","type":"multiple_choice","questionText":"Convert 0.123123... to a fraction in simplest form.","options":["41/333","123/1000","41/300","123/9990"],"correctAnswer":"41/333","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"The three-digit block gives 123/999; divide numerator and denominator by 3."},
-    {"id":"course3-repeating-decimals-fractions-core-015","type":"multiple_choice","questionText":"Convert 0.045045... to a fraction in simplest form.","options":["5/111","45/1000","1/22","9/200"],"correctAnswer":"5/111","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"45/999 simplifies by 9 to 5/111."},
-    {"id":"course3-repeating-decimals-fractions-core-016","type":"multiple_choice","questionText":"Convert 0.001001... to a fraction.","options":["1/999","1/1000","1/99","10/999"],"correctAnswer":"1/999","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"The full repeating block is 001, so the fraction is 1/999."},
-    {"id":"course3-repeating-decimals-fractions-core-017","type":"multiple_choice","questionText":"If x = 0.343434..., what equation results after subtracting x from 100x?","options":["99x = 34","100x = 34","99x = 0.34","101x = 34"],"correctAnswer":"99x = 34","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"100x = 34.343434... and x = 0.343434..., so the repeating tails cancel and 99x = 34."},
-    {"id":"course3-repeating-decimals-fractions-core-018","type":"multiple_choice","questionText":"Convert 0.343434... to a fraction in simplest form.","options":["34/99","17/50","34/100","3/11"],"correctAnswer":"34/99","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"The two-digit block gives 34/99, which is already in simplest form."},
-    {"id":"course3-repeating-decimals-fractions-core-019","type":"multiple_choice","questionText":"Convert 2.333... to an improper fraction.","options":["7/3","23/10","2/3","20/9"],"correctAnswer":"7/3","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"2.333... = 2 + 1/3 = 7/3."},
-    {"id":"course3-repeating-decimals-fractions-core-020","type":"multiple_choice","questionText":"Convert 1.272727... to an improper fraction.","options":["14/11","127/100","13/11","127/99"],"correctAnswer":"14/11","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"The decimal part is 27/99 = 3/11, so 1 + 3/11 = 14/11."},
-    {"id":"course3-repeating-decimals-fractions-core-021","type":"multiple_choice","questionText":"Convert 3.555... to an improper fraction.","options":["32/9","35/10","8/3","31/9"],"correctAnswer":"32/9","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"3.555... = 3 + 5/9 = 27/9 + 5/9 = 32/9."},
-    {"id":"course3-repeating-decimals-fractions-core-022","type":"multiple_choice","questionText":"Convert 0.2333..., where only the 3 repeats, to a fraction.","options":["7/30","23/99","2/9","23/100"],"correctAnswer":"7/30","difficulty":"standard","answerType":"number","skillTags":["computation","reasoning"],"explanation":"Use (23 - 2)/90 = 21/90 = 7/30."},
-    {"id":"course3-repeating-decimals-fractions-core-023","type":"multiple_choice","questionText":"Convert 0.1666..., where only the 6 repeats, to a fraction.","options":["1/6","16/99","1/9","8/45"],"correctAnswer":"1/6","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"Use (16 - 1)/90 = 15/90 = 1/6."},
-    {"id":"course3-repeating-decimals-fractions-core-024","type":"multiple_choice","questionText":"Convert 0.41666..., where only the 6 repeats, to a fraction.","options":["5/12","41/99","3/8","2/5"],"correctAnswer":"5/12","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"There are two nonrepeating digits and one repeating digit: (416 - 41)/900 = 375/900 = 5/12."},
-    {"id":"course3-repeating-decimals-fractions-core-025","type":"multiple_choice","questionText":"Which fraction has decimal form 0.363636...?","options":["4/11","3/8","36/100","11/36"],"correctAnswer":"4/11","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"36/99 simplifies to 4/11, so dividing 4 by 11 produces the repeating block 36."},
-    {"id":"course3-repeating-decimals-fractions-core-026","type":"multiple_choice","questionText":"Which fraction has decimal form 0.818181...?","options":["9/11","81/100","8/9","17/22"],"correctAnswer":"9/11","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"81/99 simplifies to 9/11."},
-    {"id":"course3-repeating-decimals-fractions-core-027","type":"multiple_choice","questionText":"A student writes 0.474747... = 47/100. What is the error?","options":["A repeating two-digit block uses denominator 99 before simplifying","The numerator should be 74","Repeating decimals cannot be fractions","The fraction needs denominator 10"],"correctAnswer":"A repeating two-digit block uses denominator 99 before simplifying","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"47/100 is the terminating decimal 0.47; the repeating decimal equals 47/99."},
-    {"id":"course3-repeating-decimals-fractions-core-028","type":"multiple_choice","questionText":"A student uses 10x for x = 0.252525.... Why will the repeating tails not align for subtraction?","options":["The repeating block has two digits, so 100x is needed","The decimal is irrational","The block must be multiplied by 25","Subtraction never works for two-digit blocks"],"correctAnswer":"The repeating block has two digits, so 100x is needed","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"Multiplying by 100 shifts exactly one two-digit block and aligns identical tails."},
-    {"id":"course3-repeating-decimals-fractions-core-029","type":"multiple_choice","questionText":"Which expression converts 0.2454545..., where 45 repeats after the first decimal digit?","options":["(245 - 2)/990","245/999","(245 - 24)/900","45/99"],"correctAnswer":"(245 - 2)/990","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"There are two repeating digits and one nonrepeating digit, so the denominator is 990 and the numerator subtracts the nonrepeating prefix 2."},
-    {"id":"course3-repeating-decimals-fractions-core-030","type":"multiple_choice","questionText":"Simplify the fraction represented by (245 - 2)/990.","options":["27/110","23/100","9/44","9/40"],"correctAnswer":"27/110","difficulty":"standard","answerType":"number","skillTags":["computation"],"explanation":"243/990 simplifies by 9 to 27/110."},
-    {"id":"course3-repeating-decimals-fractions-core-031","type":"multiple_choice","questionText":"Which decimal equals 5/6?","options":["0.8333...","0.8555...","0.666...","0.80505..."],"correctAnswer":"0.8333...","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"5 divided by 6 is 0.8333..., with only the 3 repeating."},
-    {"id":"course3-repeating-decimals-fractions-core-032","type":"multiple_choice","questionText":"Which decimal equals 7/12?","options":["0.58333...","0.575757...","0.5888...","0.51212..."],"correctAnswer":"0.58333...","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"7 ÷ 12 = 0.58333..., where the 3 repeats."},
-    {"id":"course3-repeating-decimals-fractions-core-033","type":"multiple_choice","questionText":"If 99x = 62, what repeating decimal does x represent?","options":["0.626262...","0.626","0.062062...","0.696969..."],"correctAnswer":"0.626262...","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"x = 62/99, whose two-digit repeating block is 62."},
-    {"id":"course3-repeating-decimals-fractions-core-034","type":"multiple_choice","questionText":"Which statement about 0.125 and 0.125125... is true?","options":["Both are rational, but they are different numbers","Only 0.125 is rational","Only 0.125125... is rational","They are equal"],"correctAnswer":"Both are rational, but they are different numbers","difficulty":"standard","answerType":"number","skillTags":["conceptual"],"explanation":"A terminating decimal and a repeating decimal are both rational, but 0.125 is not equal to 0.125125...."},
-    {"id":"course3-repeating-decimals-fractions-core-035","type":"multiple_choice","questionText":"Which is the best verification that 7/30 = 0.2333...?","options":["Divide 7 by 30 and obtain 0.2333...","Multiply 7 by 30 and obtain 210","Round both values to 0.2","Check that 7 + 30 = 37"],"correctAnswer":"Divide 7 by 30 and obtain 0.2333...","difficulty":"standard","answerType":"number","skillTags":["reasoning"],"explanation":"Decimal form is found by numerator divided by denominator, so division directly verifies the conversion."},
-    {"id":"course3-repeating-decimals-fractions-core-036","type":"multiple_choice","questionText":"Convert 0.0585858..., where 58 repeats after the first decimal digit, to a fraction in simplest form.","options":["29/495","58/999","13/225","1/17"],"correctAnswer":"29/495","difficulty":"challenge","answerType":"number","skillTags":["computation","reasoning"],"explanation":"Use (58 - 0)/990 = 58/990 = 29/495 because the nonrepeating digit is 0."},
-    {"id":"course3-repeating-decimals-fractions-core-037","type":"multiple_choice","questionText":"Convert 0.123333..., where only the 3 repeats, to a fraction in simplest form.","options":["37/300","123/999","11/90","13/105"],"correctAnswer":"37/300","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"Use (123 - 12)/900 = 111/900 = 37/300."},
-    {"id":"course3-repeating-decimals-fractions-core-038","type":"multiple_choice","questionText":"Convert 0.0727272..., where 72 repeats after an initial 0, to a fraction in simplest form.","options":["4/55","8/111","72/999","2/27"],"correctAnswer":"4/55","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"Use (72 - 0)/990 = 72/990 = 4/55."},
-    {"id":"course3-repeating-decimals-fractions-core-039","type":"multiple_choice","questionText":"Convert 4.181818... to an improper fraction.","options":["46/11","418/99","45/11","23/5"],"correctAnswer":"46/11","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"4.181818... = 4 + 18/99 = 4 + 2/11 = 46/11."},
-    {"id":"course3-repeating-decimals-fractions-core-040","type":"multiple_choice","questionText":"Convert -2.454545... to an improper fraction.","options":["-27/11","-245/99","-25/11","-49/20"],"correctAnswer":"-27/11","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"2.454545... = 2 + 45/99 = 2 + 5/11 = 27/11, then apply the negative sign."},
-    {"id":"course3-repeating-decimals-fractions-core-041","type":"multiple_choice","questionText":"If x = 0.1454545..., which subtraction removes the repeating tail most directly?","options":["1000x - 10x","100x - x","1000x - 100x","10x - x"],"correctAnswer":"1000x - 10x","difficulty":"challenge","answerType":"number","skillTags":["reasoning"],"explanation":"10x = 1.454545... and 1000x = 145.454545..., so their identical repeating tails cancel."},
-    {"id":"course3-repeating-decimals-fractions-core-042","type":"multiple_choice","questionText":"Convert 0.1454545..., where 45 repeats, to a fraction in simplest form.","options":["8/55","16/99","145/999","7/50"],"correctAnswer":"8/55","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"Use (145 - 1)/990 = 144/990 = 8/55."},
-    {"id":"course3-repeating-decimals-fractions-core-043","type":"multiple_choice","questionText":"Two students convert 0.666.... Ana gets 6/9 and Ben gets 2/3. Which conclusion is correct?","options":["Both are correct, but Ben's fraction is simplified","Only Ana is correct because 6 repeats","Only Ben is correct because denominator 9 is forbidden","Neither is correct because the decimal never ends"],"correctAnswer":"Both are correct, but Ben's fraction is simplified","difficulty":"challenge","answerType":"number","skillTags":["reasoning"],"explanation":"6/9 and 2/3 are equivalent, but 2/3 is in simplest form."},
-    {"id":"course3-repeating-decimals-fractions-core-044","type":"multiple_choice","questionText":"What is 0.999... + 0.222...?","options":["11/9","1.221221...","1.2","10/9"],"correctAnswer":"11/9","difficulty":"challenge","answerType":"number","skillTags":["computation","reasoning"],"explanation":"0.999... = 1 and 0.222... = 2/9, so the sum is 11/9."},
-    {"id":"course3-repeating-decimals-fractions-core-045","type":"multiple_choice","questionText":"What is 0.777... - 0.222...?","options":["5/9","0.5","1/3","7/9"],"correctAnswer":"5/9","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"7/9 - 2/9 = 5/9."},
-    {"id":"course3-repeating-decimals-fractions-core-046","type":"multiple_choice","questionText":"A repeating decimal converts to 37/99. What is its repeating block?","options":["37","99","73","17"],"correctAnswer":"37","difficulty":"challenge","answerType":"number","skillTags":["reasoning"],"explanation":"For a two-digit block with no prefix, the numerator over 99 is the repeating block."},
-    {"id":"course3-repeating-decimals-fractions-core-047","type":"multiple_choice","questionText":"Which fraction equals 0.0121212..., where 12 repeats after an initial 0?","options":["2/165","4/333","12/999","1/82"],"correctAnswer":"2/165","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"Use (12 - 0)/990 = 12/990 = 2/165."},
-    {"id":"course3-repeating-decimals-fractions-core-048","type":"multiple_choice","questionText":"Which argument proves 0.999... = 1 without rounding?","options":["Let x = 0.999...; then 10x - x = 9, so x = 1","The first three digits round to 1","Both values look almost the same","A calculator displays 1 after a few digits"],"correctAnswer":"Let x = 0.999...; then 10x - x = 9, so x = 1","difficulty":"challenge","answerType":"number","skillTags":["reasoning"],"explanation":"The algebra uses the complete infinite decimal and establishes exact equality."},
-    {"id":"course3-repeating-decimals-fractions-core-049","type":"multiple_choice","questionText":"Convert 0.3212121..., where 21 repeats after the first decimal digit, to a fraction in simplest form.","options":["53/165","321/990","107/333","8/25"],"correctAnswer":"53/165","difficulty":"challenge","answerType":"number","skillTags":["computation"],"explanation":"Use (321 - 3)/990 = 318/990 = 53/165."},
-    {"id":"course3-repeating-decimals-fractions-core-050","type":"multiple_choice","questionText":"A decimal has two nonrepeating digits followed by a three-digit repeating block. What form should its unsimplified denominator have?","options":["99900","99000","9990","999"],"correctAnswer":"99900","difficulty":"challenge","answerType":"number","skillTags":["conceptual","reasoning"],"explanation":"Use one 9 for each of the three repeating digits and one 0 for each of the two nonrepeating digits."}
+    {
+      "id": "course3-repeating-decimals-fractions-core-001",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.333... to a fraction.",
+      "options": [
+        "1/3",
+        "3/10",
+        "3/100",
+        "1/9"
+      ],
+      "correctAnswer": "1/3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Let x = 0.333.... Then 10x - x = 3, so 9x = 3 and x = 1/3."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-002",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.777... to a fraction in simplest form.",
+      "options": [
+        "7/10",
+        "7/9",
+        "7/99",
+        "77/100"
+      ],
+      "correctAnswer": "7/9",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "A single repeating digit 7 gives 7/9."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-003",
+      "type": "multiple_choice",
+      "questionText": "Which equation correctly starts the conversion of x = 0.444...?",
+      "options": [
+        "100x = 4.444...",
+        "10x = 44.44...",
+        "10x = 4.444...",
+        "x = 4/10"
+      ],
+      "correctAnswer": "10x = 4.444...",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "One digit repeats, so multiplying by 10 moves one full repeating block left of the decimal."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-004",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.121212... to a fraction before simplifying.",
+      "options": [
+        "12/100",
+        "12/999",
+        "1/12",
+        "12/99"
+      ],
+      "correctAnswer": "12/99",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The two-digit block 12 repeats, so 100x - x = 12 and 99x = 12."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-005",
+      "type": "multiple_choice",
+      "questionText": "Simplify 12/99.",
+      "options": [
+        "4/33",
+        "6/49",
+        "3/25",
+        "2/11"
+      ],
+      "correctAnswer": "4/33",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The greatest common factor of 12 and 99 is 3, giving 4/33."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-006",
+      "type": "multiple_choice",
+      "questionText": "Why is every repeating decimal rational?",
+      "options": [
+        "It always has fewer than ten digits",
+        "It can be converted to a ratio of integers",
+        "It is always between 0 and 1",
+        "Its repeating digit must be even"
+      ],
+      "correctAnswer": "It can be converted to a ratio of integers",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Aligning and subtracting repeating tails produces an equation whose solution is a fraction of integers."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-007",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.090909... to a fraction in simplest form.",
+      "options": [
+        "9/100",
+        "9/90",
+        "1/11",
+        "1/9"
+      ],
+      "correctAnswer": "1/11",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "0.090909... = 9/99, which simplifies to 1/11."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-008",
+      "type": "multiple_choice",
+      "questionText": "Which denominator is used before simplifying a decimal with a three-digit repeating block and no nonrepeating digits?",
+      "options": [
+        "1000",
+        "99",
+        "900",
+        "999"
+      ],
+      "correctAnswer": "999",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "Three repeating digits produce three 9s in the denominator."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-009",
+      "type": "multiple_choice",
+      "questionText": "Convert -0.666... to a fraction.",
+      "options": [
+        "-2/3",
+        "-6/10",
+        "2/3",
+        "-1/6"
+      ],
+      "correctAnswer": "-2/3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "0.666... = 6/9 = 2/3, and the negative sign remains."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-010",
+      "type": "multiple_choice",
+      "questionText": "What is the exact value of 0.999...?",
+      "options": [
+        "0.99",
+        "1",
+        "99/100",
+        "A number slightly less than 1"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "If x = 0.999..., then 10x - x = 9, so 9x = 9 and x = 1."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-011",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.272727... to a fraction in simplest form.",
+      "options": [
+        "27/100",
+        "27/999",
+        "3/11",
+        "2/7"
+      ],
+      "correctAnswer": "3/11",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The repeating block gives 27/99, which simplifies by 9 to 3/11."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-012",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.181818... to a fraction in simplest form.",
+      "options": [
+        "18/100",
+        "9/50",
+        "1/18",
+        "2/11"
+      ],
+      "correctAnswer": "2/11",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "18/99 simplifies by 9 to 2/11."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-013",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.454545... to a fraction in simplest form.",
+      "options": [
+        "5/11",
+        "45/100",
+        "9/20",
+        "4/9"
+      ],
+      "correctAnswer": "5/11",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "45/99 simplifies by 9 to 5/11."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-014",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.123123... to a fraction in simplest form.",
+      "options": [
+        "123/1000",
+        "41/333",
+        "41/300",
+        "123/9990"
+      ],
+      "correctAnswer": "41/333",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The three-digit block gives 123/999; divide numerator and denominator by 3."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-015",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.045045... to a fraction in simplest form.",
+      "options": [
+        "45/1000",
+        "1/22",
+        "5/111",
+        "9/200"
+      ],
+      "correctAnswer": "5/111",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "45/999 simplifies by 9 to 5/111."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-016",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.001001... to a fraction.",
+      "options": [
+        "1/1000",
+        "1/99",
+        "10/999",
+        "1/999"
+      ],
+      "correctAnswer": "1/999",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The full repeating block is 001, so the fraction is 1/999."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-017",
+      "type": "multiple_choice",
+      "questionText": "If x = 0.343434..., what equation results after subtracting x from 100x?",
+      "options": [
+        "99x = 34",
+        "100x = 34",
+        "99x = 0.34",
+        "101x = 34"
+      ],
+      "correctAnswer": "99x = 34",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "100x = 34.343434... and x = 0.343434..., so the repeating tails cancel and 99x = 34."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-018",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.343434... to a fraction in simplest form.",
+      "options": [
+        "17/50",
+        "34/99",
+        "34/100",
+        "3/11"
+      ],
+      "correctAnswer": "34/99",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The two-digit block gives 34/99, which is already in simplest form."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-019",
+      "type": "multiple_choice",
+      "questionText": "Convert 2.333... to an improper fraction.",
+      "options": [
+        "23/10",
+        "2/3",
+        "7/3",
+        "20/9"
+      ],
+      "correctAnswer": "7/3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "2.333... = 2 + 1/3 = 7/3."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-020",
+      "type": "multiple_choice",
+      "questionText": "Convert 1.272727... to an improper fraction.",
+      "options": [
+        "127/100",
+        "13/11",
+        "127/99",
+        "14/11"
+      ],
+      "correctAnswer": "14/11",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "The decimal part is 27/99 = 3/11, so 1 + 3/11 = 14/11."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-021",
+      "type": "multiple_choice",
+      "questionText": "Convert 3.555... to an improper fraction.",
+      "options": [
+        "32/9",
+        "35/10",
+        "8/3",
+        "31/9"
+      ],
+      "correctAnswer": "32/9",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "3.555... = 3 + 5/9 = 27/9 + 5/9 = 32/9."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-022",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.2333..., where only the 3 repeats, to a fraction.",
+      "options": [
+        "23/99",
+        "7/30",
+        "2/9",
+        "23/100"
+      ],
+      "correctAnswer": "7/30",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Use (23 - 2)/90 = 21/90 = 7/30."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-023",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.1666..., where only the 6 repeats, to a fraction.",
+      "options": [
+        "16/99",
+        "1/9",
+        "1/6",
+        "8/45"
+      ],
+      "correctAnswer": "1/6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Use (16 - 1)/90 = 15/90 = 1/6."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-024",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.41666..., where only the 6 repeats, to a fraction.",
+      "options": [
+        "41/99",
+        "3/8",
+        "2/5",
+        "5/12"
+      ],
+      "correctAnswer": "5/12",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "There are two nonrepeating digits and one repeating digit: (416 - 41)/900 = 375/900 = 5/12."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-025",
+      "type": "multiple_choice",
+      "questionText": "Which fraction has decimal form 0.363636...?",
+      "options": [
+        "4/11",
+        "3/8",
+        "36/100",
+        "11/36"
+      ],
+      "correctAnswer": "4/11",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "36/99 simplifies to 4/11, so dividing 4 by 11 produces the repeating block 36."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-026",
+      "type": "multiple_choice",
+      "questionText": "Which fraction has decimal form 0.818181...?",
+      "options": [
+        "81/100",
+        "9/11",
+        "8/9",
+        "17/22"
+      ],
+      "correctAnswer": "9/11",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "81/99 simplifies to 9/11."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-027",
+      "type": "multiple_choice",
+      "questionText": "A student writes 0.474747... = 47/100. What is the error?",
+      "options": [
+        "The numerator should be 74",
+        "Repeating decimals cannot be fractions",
+        "A repeating two-digit block uses denominator 99 before simplifying",
+        "The fraction needs denominator 10"
+      ],
+      "correctAnswer": "A repeating two-digit block uses denominator 99 before simplifying",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "47/100 is the terminating decimal 0.47; the repeating decimal equals 47/99."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-028",
+      "type": "multiple_choice",
+      "questionText": "A student uses 10x for x = 0.252525.... Why will the repeating tails not align for subtraction?",
+      "options": [
+        "The decimal is irrational",
+        "The block must be multiplied by 25",
+        "Subtraction never works for two-digit blocks",
+        "The repeating block has two digits, so 100x is needed"
+      ],
+      "correctAnswer": "The repeating block has two digits, so 100x is needed",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Multiplying by 100 shifts exactly one two-digit block and aligns identical tails."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-029",
+      "type": "multiple_choice",
+      "questionText": "Which expression converts 0.2454545..., where 45 repeats after the first decimal digit?",
+      "options": [
+        "(245 - 2)/990",
+        "245/999",
+        "(245 - 24)/900",
+        "45/99"
+      ],
+      "correctAnswer": "(245 - 2)/990",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "There are two repeating digits and one nonrepeating digit, so the denominator is 990 and the numerator subtracts the nonrepeating prefix 2."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-030",
+      "type": "multiple_choice",
+      "questionText": "Simplify the fraction represented by (245 - 2)/990.",
+      "options": [
+        "23/100",
+        "27/110",
+        "9/44",
+        "9/40"
+      ],
+      "correctAnswer": "27/110",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "243/990 simplifies by 9 to 27/110."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-031",
+      "type": "multiple_choice",
+      "questionText": "Which decimal equals 5/6?",
+      "options": [
+        "0.8555...",
+        "0.666...",
+        "0.8333...",
+        "0.80505..."
+      ],
+      "correctAnswer": "0.8333...",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "5 divided by 6 is 0.8333..., with only the 3 repeating."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-032",
+      "type": "multiple_choice",
+      "questionText": "Which decimal equals 7/12?",
+      "options": [
+        "0.575757...",
+        "0.5888...",
+        "0.51212...",
+        "0.58333..."
+      ],
+      "correctAnswer": "0.58333...",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "7 ÷ 12 = 0.58333..., where the 3 repeats."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-033",
+      "type": "multiple_choice",
+      "questionText": "If 99x = 62, what repeating decimal does x represent?",
+      "options": [
+        "0.626262...",
+        "0.626",
+        "0.062062...",
+        "0.696969..."
+      ],
+      "correctAnswer": "0.626262...",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "x = 62/99, whose two-digit repeating block is 62."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-034",
+      "type": "multiple_choice",
+      "questionText": "Which statement about 0.125 and 0.125125... is true?",
+      "options": [
+        "Only 0.125 is rational",
+        "Both are rational, but they are different numbers",
+        "Only 0.125125... is rational",
+        "They are equal"
+      ],
+      "correctAnswer": "Both are rational, but they are different numbers",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual"
+      ],
+      "explanation": "A terminating decimal and a repeating decimal are both rational, but 0.125 is not equal to 0.125125...."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-035",
+      "type": "multiple_choice",
+      "questionText": "Which is the best verification that 7/30 = 0.2333...?",
+      "options": [
+        "Multiply 7 by 30 and obtain 210",
+        "Round both values to 0.2",
+        "Divide 7 by 30 and obtain 0.2333...",
+        "Check that 7 + 30 = 37"
+      ],
+      "correctAnswer": "Divide 7 by 30 and obtain 0.2333...",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "Decimal form is found by numerator divided by denominator, so division directly verifies the conversion."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-036",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.0585858..., where 58 repeats after the first decimal digit, to a fraction in simplest form.",
+      "options": [
+        "58/999",
+        "13/225",
+        "1/17",
+        "29/495"
+      ],
+      "correctAnswer": "29/495",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "Use (58 - 0)/990 = 58/990 = 29/495 because the nonrepeating digit is 0."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-037",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.123333..., where only the 3 repeats, to a fraction in simplest form.",
+      "options": [
+        "37/300",
+        "123/999",
+        "11/90",
+        "13/105"
+      ],
+      "correctAnswer": "37/300",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Use (123 - 12)/900 = 111/900 = 37/300."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-038",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.0727272..., where 72 repeats after an initial 0, to a fraction in simplest form.",
+      "options": [
+        "8/111",
+        "4/55",
+        "72/999",
+        "2/27"
+      ],
+      "correctAnswer": "4/55",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Use (72 - 0)/990 = 72/990 = 4/55."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-039",
+      "type": "multiple_choice",
+      "questionText": "Convert 4.181818... to an improper fraction.",
+      "options": [
+        "418/99",
+        "45/11",
+        "46/11",
+        "23/5"
+      ],
+      "correctAnswer": "46/11",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "4.181818... = 4 + 18/99 = 4 + 2/11 = 46/11."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-040",
+      "type": "multiple_choice",
+      "questionText": "Convert -2.454545... to an improper fraction.",
+      "options": [
+        "-245/99",
+        "-25/11",
+        "-49/20",
+        "-27/11"
+      ],
+      "correctAnswer": "-27/11",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "2.454545... = 2 + 45/99 = 2 + 5/11 = 27/11, then apply the negative sign."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-041",
+      "type": "multiple_choice",
+      "questionText": "If x = 0.1454545..., which subtraction removes the repeating tail most directly?",
+      "options": [
+        "1000x - 10x",
+        "100x - x",
+        "1000x - 100x",
+        "10x - x"
+      ],
+      "correctAnswer": "1000x - 10x",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "10x = 1.454545... and 1000x = 145.454545..., so their identical repeating tails cancel."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-042",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.1454545..., where 45 repeats, to a fraction in simplest form.",
+      "options": [
+        "16/99",
+        "8/55",
+        "145/999",
+        "7/50"
+      ],
+      "correctAnswer": "8/55",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Use (145 - 1)/990 = 144/990 = 8/55."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-043",
+      "type": "multiple_choice",
+      "questionText": "Two students convert 0.666.... Ana gets 6/9 and Ben gets 2/3. Which conclusion is correct?",
+      "options": [
+        "Only Ana is correct because 6 repeats",
+        "Only Ben is correct because denominator 9 is forbidden",
+        "Both are correct, but Ben's fraction is simplified",
+        "Neither is correct because the decimal never ends"
+      ],
+      "correctAnswer": "Both are correct, but Ben's fraction is simplified",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "6/9 and 2/3 are equivalent, but 2/3 is in simplest form."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-044",
+      "type": "multiple_choice",
+      "questionText": "What is 0.999... + 0.222...?",
+      "options": [
+        "1.221221...",
+        "1.2",
+        "10/9",
+        "11/9"
+      ],
+      "correctAnswer": "11/9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation",
+        "reasoning"
+      ],
+      "explanation": "0.999... = 1 and 0.222... = 2/9, so the sum is 11/9."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-045",
+      "type": "multiple_choice",
+      "questionText": "What is 0.777... - 0.222...?",
+      "options": [
+        "5/9",
+        "0.5",
+        "1/3",
+        "7/9"
+      ],
+      "correctAnswer": "5/9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "7/9 - 2/9 = 5/9."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-046",
+      "type": "multiple_choice",
+      "questionText": "A repeating decimal converts to 37/99. What is its repeating block?",
+      "options": [
+        "99",
+        "37",
+        "73",
+        "17"
+      ],
+      "correctAnswer": "37",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "For a two-digit block with no prefix, the numerator over 99 is the repeating block."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-047",
+      "type": "multiple_choice",
+      "questionText": "Which fraction equals 0.0121212..., where 12 repeats after an initial 0?",
+      "options": [
+        "4/333",
+        "12/999",
+        "2/165",
+        "1/82"
+      ],
+      "correctAnswer": "2/165",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Use (12 - 0)/990 = 12/990 = 2/165."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-048",
+      "type": "multiple_choice",
+      "questionText": "Which argument proves 0.999... = 1 without rounding?",
+      "options": [
+        "The first three digits round to 1",
+        "Both values look almost the same",
+        "A calculator displays 1 after a few digits",
+        "Let x = 0.999...; then 10x - x = 9, so x = 1"
+      ],
+      "correctAnswer": "Let x = 0.999...; then 10x - x = 9, so x = 1",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "explanation": "The algebra uses the complete infinite decimal and establishes exact equality."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-049",
+      "type": "multiple_choice",
+      "questionText": "Convert 0.3212121..., where 21 repeats after the first decimal digit, to a fraction in simplest form.",
+      "options": [
+        "53/165",
+        "321/990",
+        "107/333",
+        "8/25"
+      ],
+      "correctAnswer": "53/165",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "computation"
+      ],
+      "explanation": "Use (321 - 3)/990 = 318/990 = 53/165."
+    },
+    {
+      "id": "course3-repeating-decimals-fractions-core-050",
+      "type": "multiple_choice",
+      "questionText": "A decimal has two nonrepeating digits followed by a three-digit repeating block. What form should its unsimplified denominator have?",
+      "options": [
+        "99000",
+        "99900",
+        "9990",
+        "999"
+      ],
+      "correctAnswer": "99900",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Use one 9 for each of the three repeating digits and one 0 for each of the two nonrepeating digits."
+    }
   ]
 }

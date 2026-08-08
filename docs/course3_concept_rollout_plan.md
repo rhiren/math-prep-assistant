@@ -224,10 +224,23 @@ The current learner-ready Unit 2 packs are:
 - Solve Multi-Step Equations
 - Equations with the Distributive Property
 - Equations with Variables on Both Sides
-
-The next Course 3 rollout work is:
-
 - Equations with Rational Coefficients
+- One Solution, No Solution, or Infinitely Many Solutions
+- Build Equations from Context
+- Linear Equation Word Problems
+- Check and Explain Equation Solutions
+- Unit 2 Mixed Review
+
+Unit 2 is complete.
+
+The next Course 3 rollout work is Unit 3:
+
+- Proportional Relationships as Lines
+
+Course 3 multiple-choice answer positions should remain balanced within each
+active test set so learners cannot infer the correct option from repeated
+placement. Current Course 3 core banks target a 13/13/12/12 split across
+A/B/C/D, and review banks target 5/5/5/5.
 
 ### Phase 3 — Lines, Slope, and Systems
 

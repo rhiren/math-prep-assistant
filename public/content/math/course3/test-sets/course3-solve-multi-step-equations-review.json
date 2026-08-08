@@ -28,8 +28,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 3x - 6 = 12.",
       "options": [
-        "x = 6",
         "x = 2",
+        "x = 6",
         "x = 18",
         "x = 4"
       ],
@@ -46,9 +46,9 @@
       "type": "multiple_choice",
       "questionText": "Solve x/2 + 7 = 10.",
       "options": [
-        "x = 6",
         "x = 3",
         "x = 17",
+        "x = 6",
         "x = 20"
       ],
       "correctAnswer": "x = 6",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x + 1 = 17.",
       "options": [
-        "x = 4",
         "x = 16",
         "x = 5",
-        "x = 3"
+        "x = 3",
+        "x = 4"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -100,8 +100,8 @@
       "type": "multiple_choice",
       "questionText": "Solve x/4 - 1 = 5.",
       "options": [
-        "x = 24",
         "x = 16",
+        "x = 24",
         "x = 6",
         "x = 4"
       ],
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Which first step is best for 6x - 8 = 28?",
       "options": [
-        "Add 8 to both sides",
         "Subtract 8 from both sides",
         "Divide both sides by 6",
+        "Add 8 to both sides",
         "Add 6 to both sides"
       ],
       "correctAnswer": "Add 8 to both sides",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 9 + x/3 = 14.",
       "options": [
-        "x = 15",
         "x = 5",
         "x = 23",
-        "x = 42"
+        "x = 42",
+        "x = 15"
       ],
       "correctAnswer": "x = 15",
       "difficulty": "scaffold",
@@ -172,8 +172,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 8x - 5x + 4 = 19.",
       "options": [
-        "x = 5",
         "x = 15",
+        "x = 5",
         "x = 3",
         "x = 23"
       ],
@@ -190,9 +190,9 @@
       "type": "multiple_choice",
       "questionText": "Solve -3x + 2 = 20.",
       "options": [
-        "x = -6",
         "x = 6",
         "x = -18",
+        "x = -6",
         "x = 22"
       ],
       "correctAnswer": "x = -6",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -2x - 7 = 9.",
       "options": [
-        "x = -8",
         "x = 8",
         "x = -1",
-        "x = -16"
+        "x = -16",
+        "x = -8"
       ],
       "correctAnswer": "x = -8",
       "difficulty": "standard",
@@ -244,8 +244,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 3/5x - 1 = 5.",
       "options": [
-        "x = 10",
         "x = 6",
+        "x = 10",
         "x = 15",
         "x = 4"
       ],
@@ -262,9 +262,9 @@
       "type": "multiple_choice",
       "questionText": "A number times 6, then increased by 4, equals 34. What is the number?",
       "options": [
-        "5",
         "6",
         "30",
+        "5",
         "4"
       ],
       "correctAnswer": "5",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "A subscription costs $9 plus $3 per month. The total is $36. How many months?",
       "options": [
-        "9",
         "12",
         "27",
-        "6"
+        "6",
+        "9"
       ],
       "correctAnswer": "9",
       "difficulty": "standard",
@@ -316,8 +316,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 20 = 4x - 8.",
       "options": [
-        "x = 7",
         "x = 3",
+        "x = 7",
         "x = 28",
         "x = 5"
       ],
@@ -334,9 +334,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 5x + 7 - 2x = 25.",
       "options": [
-        "x = 6",
         "x = 9",
         "x = 18",
+        "x = 6",
         "x = 4"
       ],
       "correctAnswer": "x = 6",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has solution x = 8?",
       "options": [
-        "2x + 3 = 19",
         "2x + 3 = 11",
         "3x - 8 = 8",
-        "x/2 + 8 = 8"
+        "x/2 + 8 = 8",
+        "2x + 3 = 19"
       ],
       "correctAnswer": "2x + 3 = 19",
       "difficulty": "standard",

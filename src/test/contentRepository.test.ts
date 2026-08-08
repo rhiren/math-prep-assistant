@@ -225,7 +225,7 @@ describe("content repository", () => {
     }
   });
 
-  it("loads Course 3 with complete Unit 1 and the first four Unit 2 concept packs", async () => {
+  it("loads Course 3 with complete Unit 1 and Unit 2 concept packs", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");
     const conceptPacks = [
@@ -341,6 +341,48 @@ describe("content repository", () => {
         coreTestId: "course3-equations-variables-both-sides-core",
         reviewTestId: "course3-equations-variables-both-sides-review",
       },
+      {
+        conceptId: "concept-equations-rational-coefficients",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# Equations with Rational Coefficients",
+        coreTestId: "course3-equations-rational-coefficients-core",
+        reviewTestId: "course3-equations-rational-coefficients-review",
+      },
+      {
+        conceptId: "concept-equations-solution-types",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# One Solution, No Solution, or Infinitely Many Solutions",
+        coreTestId: "course3-equations-solution-types-core",
+        reviewTestId: "course3-equations-solution-types-review",
+      },
+      {
+        conceptId: "concept-build-equations-from-context",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# Build Equations from Context",
+        coreTestId: "course3-build-equations-from-context-core",
+        reviewTestId: "course3-build-equations-from-context-review",
+      },
+      {
+        conceptId: "concept-linear-equation-word-problems",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# Linear Equation Word Problems",
+        coreTestId: "course3-linear-equation-word-problems-core",
+        reviewTestId: "course3-linear-equation-word-problems-review",
+      },
+      {
+        conceptId: "concept-check-explain-equation-solutions",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# Check and Explain Equation Solutions",
+        coreTestId: "course3-check-explain-equation-solutions-core",
+        reviewTestId: "course3-check-explain-equation-solutions-review",
+      },
+      {
+        conceptId: "concept-unit-2-mixed-review",
+        standards: ["8.EE.7"],
+        tutorialHeading: "# Unit 2 Mixed Review",
+        coreTestId: "course3-unit-2-mixed-review-core",
+        reviewTestId: "course3-unit-2-mixed-review-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -351,7 +393,7 @@ describe("content repository", () => {
     expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
     expect(course?.units[0]?.concepts).toHaveLength(12);
     expect(course?.units[1]?.id).toBe("course3-unit-linear-equations");
-    expect(course?.units[1]?.concepts).toHaveLength(4);
+    expect(course?.units[1]?.concepts).toHaveLength(10);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);
@@ -391,6 +433,40 @@ describe("content repository", () => {
         expect(question.choices?.map((choice) => choice.value)).toContain(
           question.correctAnswer,
         );
+      }
+    }
+  });
+
+  it("keeps Course 3 multiple-choice correct answers balanced across answer positions", async () => {
+    const repository = await createDefaultContentRepository();
+    const course = await repository.getCourse("course-3");
+    const concepts = course?.units.flatMap((unit) => unit.concepts) ?? [];
+
+    for (const concept of concepts) {
+      const testSets = await repository.getTestSetsForConcept(concept.id);
+
+      for (const testSet of testSets) {
+        const questions = await repository.getQuestionsForTestSet(testSet.id);
+        const counts = [0, 0, 0, 0];
+
+        for (const question of questions) {
+          if (question.questionType !== "multiple_choice") {
+            continue;
+          }
+
+          const correctIndex =
+            question.choices?.findIndex((choice) => choice.value === question.correctAnswer) ?? -1;
+          expect(correctIndex).toBeGreaterThanOrEqual(0);
+          counts[correctIndex] += 1;
+        }
+
+        const total = counts.reduce((sum, count) => sum + count, 0);
+        if (total === 50) {
+          expect(Math.max(...counts)).toBeLessThanOrEqual(13);
+          expect(Math.min(...counts)).toBeGreaterThanOrEqual(12);
+        } else if (total === 20) {
+          expect(counts).toEqual([5, 5, 5, 5]);
+        }
       }
     }
   });

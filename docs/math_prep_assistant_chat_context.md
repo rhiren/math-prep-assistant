@@ -250,12 +250,18 @@ The learner-ready Unit 2 concepts are:
 2. Solve Multi-Step Equations
 3. Equations with the Distributive Property
 4. Equations with Variables on Both Sides
+5. Equations with Rational Coefficients
+6. One Solution, No Solution, or Infinitely Many Solutions
+7. Build Equations from Context
+8. Linear Equation Word Problems
+9. Check and Explain Equation Solutions
+10. Unit 2 Mixed Review
 
 Course 3 currently contains:
 
-- 16 active concepts
-- 32 assessment files
-- 1120 assessment questions
+- 22 active concepts
+- 44 assessment files
+- 1540 assessment questions
 - 50 core questions per concept
 - 20 review questions per concept
 
@@ -308,12 +314,18 @@ For the current Course 3 working tree, the following passed:
 - Course 3 JSON parsing
 - globally unique Course 3 question IDs
 - exact authored multiple-choice answer identity
+- balanced Course 3 multiple-choice correct-answer positions
 - unique option checks
 - known-correct mathematical spot checks
 - browser verification of the Course 3 grid, concept page, tutorial, and
   assessment counts
 
-The most recent Course 3 audit found 1120 questions and 1120 unique IDs.
+The most recent Course 3 audit found 1540 questions and 1540 unique IDs.
+An answer-position audit found that the old Course 3 banks had 1119 of 1120
+correct answers in option A. Course 3 answer choices were rebalanced so core
+banks use a 13/13/12/12 A/B/C/D split and review banks use a 5/5/5/5 split.
+The content repository test suite now includes a Course 3 answer-position
+regression guard.
 
 Existing non-blocking warnings include:
 
@@ -327,14 +339,15 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 ### Exact next task
 
-The next Course 3 rollout task is Unit 2:
+The next Course 3 rollout task is Unit 3:
 
-`Equations with Rational Coefficients`
+`Proportional Relationships as Lines`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,
 50-question core bank, 20-question review bank, validation, then manifest
-unlock.
+unlock. Keep the answer-position balance guard green for every new Course 3
+test set.
 
 ### Independent-session startup checklist
 
@@ -365,7 +378,7 @@ These were explicitly left alone on purpose:
 
 Current useful follow-ups:
 
-- build `Equations with Rational Coefficients` as the next complete Course 3
+- build `Proportional Relationships as Lines` as the next complete Course 3
   concept pack
 - verify or run the GitHub Pages deployment after new `master` content commits
 - keep local launcher and distribution guidance aligned with `dist/` and
@@ -384,9 +397,8 @@ multiple-choice scoring, student-friendly tutorials and practice, optional
 Firebase sync, multi-student profiles, subject-aware course navigation, and
 GitHub Pages support. Active content includes Math Course 2, Math Course 3, and
 Grade 6 Science. Course 3 is an accelerated Grade 7 placement into Grade 8
-instructional content and has twelve learner-ready Unit 1 concepts plus four
-learner-ready Unit 2 concepts, with 1120 validated questions. Unit 1 is
-complete and Unit 2 has begun. The next pack is
-`Equations with Rational Coefficients`.
+instructional content and has twelve learner-ready Unit 1 concepts plus ten
+learner-ready Unit 2 concepts, with 1540 validated questions. Units 1 and 2 are
+complete. The next pack is `Proportional Relationships as Lines`.
 Preserve saved-progress compatibility, local-first
 behavior, the frozen domain model, and the phased manifest release discipline.

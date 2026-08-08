@@ -28,8 +28,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 4a + 2a.",
       "options": [
-        "6a",
         "8a",
+        "6a",
         "6a²",
         "2a"
       ],
@@ -46,9 +46,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 7y - 3y.",
       "options": [
-        "4y",
         "10y",
         "4",
+        "4y",
         "4y²"
       ],
       "correctAnswer": "4y",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 5m + 2 + 3m.",
       "options": [
-        "8m + 2",
         "10m",
         "8m + 5",
-        "5m + 5"
+        "5m + 5",
+        "8m + 2"
       ],
       "correctAnswer": "8m + 2",
       "difficulty": "scaffold",
@@ -100,8 +100,8 @@
       "type": "multiple_choice",
       "questionText": "Use the distributive property: 5(y - 2).",
       "options": [
-        "5y - 10",
         "5y - 2",
+        "5y - 10",
         "y - 10",
         "5y + 10"
       ],
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Factor 6x + 12.",
       "options": [
-        "6(x + 2)",
         "6(x + 12)",
         "x(6 + 12)",
+        "6(x + 2)",
         "12(x + 6)"
       ],
       "correctAnswer": "6(x + 2)",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 2n + 8?",
       "options": [
-        "2(n + 4)",
         "2(n + 8)",
         "n(2 + 8)",
-        "4(n + 2)"
+        "4(n + 2)",
+        "2(n + 4)"
       ],
       "correctAnswer": "2(n + 4)",
       "difficulty": "scaffold",
@@ -172,8 +172,8 @@
       "type": "multiple_choice",
       "questionText": "Which pair is equivalent?",
       "options": [
-        "4(x + 3) and 4x + 12",
         "4(x + 3) and 4x + 3",
+        "4(x + 3) and 4x + 12",
         "x + 4 and 4x",
         "3x + 4x and 12x"
       ],
@@ -191,9 +191,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3x + 5 + 2x + 7.",
       "options": [
-        "5x + 12",
         "5x + 35",
         "6x + 12",
+        "5x + 12",
         "5x + 2"
       ],
       "correctAnswer": "5x + 12",
@@ -209,10 +209,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 8a - 3 + 2a + 9.",
       "options": [
-        "10a + 6",
         "10a - 12",
         "6a + 6",
-        "10a + 12"
+        "10a + 12",
+        "10a + 6"
       ],
       "correctAnswer": "10a + 6",
       "difficulty": "standard",
@@ -245,8 +245,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 4(2x + 3).",
       "options": [
-        "8x + 12",
         "8x + 3",
+        "8x + 12",
         "6x + 12",
         "8x + 7"
       ],
@@ -263,9 +263,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify -2(x - 5).",
       "options": [
-        "-2x + 10",
         "-2x - 10",
         "2x + 10",
+        "-2x + 10",
         "-2x - 5"
       ],
       "correctAnswer": "-2x + 10",
@@ -282,10 +282,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3(2a - 4) + a.",
       "options": [
-        "7a - 12",
         "6a - 12",
         "7a - 4",
-        "7a + 12"
+        "7a + 12",
+        "7a - 12"
       ],
       "correctAnswer": "7a - 12",
       "difficulty": "standard",
@@ -320,8 +320,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 2(3x + 1) + 4(x - 5).",
       "options": [
-        "10x - 18",
         "10x - 4",
+        "10x - 18",
         "14x - 18",
         "6x - 18"
       ],
@@ -339,9 +339,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 7m - 2(3m - 4).",
       "options": [
-        "m + 8",
         "m - 8",
         "13m + 8",
+        "m + 8",
         "4m - 8"
       ],
       "correctAnswer": "m + 8",
@@ -358,10 +358,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 12x + 18?",
       "options": [
-        "6(2x + 3)",
         "6(2x + 18)",
         "3(4x + 18)",
-        "12(x + 18)"
+        "12(x + 18)",
+        "6(2x + 3)"
       ],
       "correctAnswer": "6(2x + 3)",
       "difficulty": "standard",
@@ -394,8 +394,8 @@
       "type": "multiple_choice",
       "questionText": "Which is equivalent to 4x + 4y?",
       "options": [
-        "4(x + y)",
         "8xy",
+        "4(x + y)",
         "4(xy)",
         "x(4 + y)"
       ],
@@ -412,9 +412,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate both expressions at x = 3. Which pair is equivalent?",
       "options": [
-        "2(x + 5) and 2x + 10",
         "2x + 5 and 7x",
         "x² + 3 and 3x + 3",
+        "2(x + 5) and 2x + 10",
         "5x - 2 and 2x + 5"
       ],
       "correctAnswer": "2(x + 5) and 2x + 10",
@@ -430,10 +430,10 @@
       "type": "multiple_choice",
       "questionText": "A student says 3(x + 2) = 3x + 2. What is the correction?",
       "options": [
-        "3(x + 2) = 3x + 6",
         "3(x + 2) = 5x",
         "3(x + 2) = x + 6",
-        "3(x + 2) = 6x"
+        "3(x + 2) = 6x",
+        "3(x + 2) = 3x + 6"
       ],
       "correctAnswer": "3(x + 2) = 3x + 6",
       "difficulty": "standard",
@@ -466,8 +466,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 1/2x + 3/2x.",
       "options": [
-        "2x",
         "4/2x²",
+        "2x",
         "2x²",
         "4x"
       ],
@@ -484,9 +484,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 0.4p + 0.6p - p.",
       "options": [
-        "0",
         "p",
         "1p",
+        "0",
         "0.2p"
       ],
       "correctAnswer": "0",
@@ -502,10 +502,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3(x - 2) - (x + 5).",
       "options": [
-        "2x - 11",
         "2x + 3",
         "4x - 11",
-        "2x - 1"
+        "2x - 1",
+        "2x - 11"
       ],
       "correctAnswer": "2x - 11",
       "difficulty": "standard",
@@ -540,8 +540,8 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 9 - 3(x + 2)?",
       "options": [
-        "3 - 3x",
         "6 - 3x",
+        "3 - 3x",
         "9 - 3x + 2",
         "12 - 3x"
       ],
@@ -558,9 +558,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 2a + 3b + 4a - b.",
       "options": [
-        "6a + 2b",
         "6ab + 2",
         "6a + 4b",
+        "6a + 2b",
         "9a + 2b"
       ],
       "correctAnswer": "6a + 2b",
@@ -576,10 +576,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression represents the perimeter of a rectangle with sides x + 3 and 2x?",
       "options": [
-        "6x + 6",
         "3x + 3",
         "2x² + 6x",
-        "6x + 3"
+        "6x + 3",
+        "6x + 6"
       ],
       "correctAnswer": "6x + 6",
       "difficulty": "standard",
@@ -613,8 +613,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3(2x - 1) - 2(x + 4).",
       "options": [
-        "4x - 11",
         "4x + 5",
+        "4x - 11",
         "8x - 11",
         "4x - 5"
       ],
@@ -631,9 +631,9 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 2(5n - 3) + 4?",
       "options": [
-        "10n - 2",
         "10n - 10",
         "7n + 1",
+        "10n - 2",
         "10n + 2"
       ],
       "correctAnswer": "10n - 2",
@@ -649,10 +649,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 4(x + 2y) - 3(2x - y).",
       "options": [
-        "-2x + 11y",
         "-2x + 5y",
         "10x + 5y",
-        "2x + 11y"
+        "2x + 11y",
+        "-2x + 11y"
       ],
       "correctAnswer": "-2x + 11y",
       "difficulty": "challenge",
@@ -687,8 +687,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 0.5(8a - 6) - 1.5a.",
       "options": [
-        "2.5a - 3",
         "2.5a - 6",
+        "2.5a - 3",
         "5.5a - 3",
         "4a - 7.5a"
       ],
@@ -705,9 +705,9 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to -3(2x - 5) + 4(x - 1)?",
       "options": [
-        "-2x + 11",
         "-2x - 19",
         "10x + 11",
+        "-2x + 11",
         "-2x + 19"
       ],
       "correctAnswer": "-2x + 11",
@@ -724,10 +724,10 @@
       "type": "multiple_choice",
       "questionText": "A student simplifies 2(3x + 4) - x as 2(2x + 4). Which expression is correct?",
       "options": [
-        "5x + 8",
         "4x + 8",
         "6x + 8",
-        "5x + 4"
+        "5x + 4",
+        "5x + 8"
       ],
       "correctAnswer": "5x + 8",
       "difficulty": "challenge",
@@ -760,8 +760,8 @@
       "type": "multiple_choice",
       "questionText": "Factor 18x - 24y using the greatest common factor.",
       "options": [
-        "6(3x - 4y)",
         "6(3x + 4y)",
+        "6(3x - 4y)",
         "3(6x - 24y)",
         "2(9x - 24y)"
       ],
@@ -778,9 +778,9 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 8x + 20 and shows the greatest common factor?",
       "options": [
-        "4(2x + 5)",
         "2(4x + 10)",
         "8(x + 20)",
+        "4(2x + 5)",
         "10(x + 2)"
       ],
       "correctAnswer": "4(2x + 5)",
@@ -796,10 +796,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 5 - 2(3x - 4) + x.",
       "options": [
-        "13 - 5x",
         "9 - 5x",
         "13 - 7x",
-        "-3 - 5x"
+        "-3 - 5x",
+        "13 - 5x"
       ],
       "correctAnswer": "13 - 5x",
       "difficulty": "challenge",
@@ -834,8 +834,8 @@
       "type": "multiple_choice",
       "questionText": "Which expression has the same value as 2x + 3 when x = -2 but is not always equivalent?",
       "options": [
-        "x² - 5",
         "3 + 2x",
+        "x² - 5",
         "2(x + 1.5)",
         "4x - 2x + 3"
       ],
@@ -853,9 +853,9 @@
       "type": "multiple_choice",
       "questionText": "Which test best proves two expressions are equivalent?",
       "options": [
-        "Show one can be transformed into the other using valid properties",
         "Check one value only",
         "See if they have the same number of terms",
+        "Show one can be transformed into the other using valid properties",
         "Compare only the constants"
       ],
       "correctAnswer": "Show one can be transformed into the other using valid properties",
@@ -871,10 +871,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has side lengths 3x - 2 and x + 5. Which expression gives its perimeter?",
       "options": [
-        "8x + 6",
         "4x + 3",
         "3x² + 13x - 10",
-        "8x - 14"
+        "8x - 14",
+        "8x + 6"
       ],
       "correctAnswer": "8x + 6",
       "difficulty": "challenge",
@@ -908,8 +908,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 2(3x - y) + 5(2y - x).",
       "options": [
-        "x + 8y",
         "11x + 3y",
+        "x + 8y",
         "x - 8y",
         "6x + 10y"
       ],

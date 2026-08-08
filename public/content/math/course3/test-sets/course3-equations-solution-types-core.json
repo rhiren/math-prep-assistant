@@ -1,0 +1,959 @@
+{
+  "testId": "course3-equations-solution-types-core",
+  "conceptId": "concept-equations-solution-types",
+  "type": "concept",
+  "title": "One Solution, No Solution, or Infinitely Many Solutions Core Test",
+  "description": "Classify linear equations by simplifying both sides and comparing variable terms and constants.",
+  "questions": [
+    {
+      "id": "course3-equations-solution-types-core-001",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-002",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-003",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-004",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "one solution"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-005",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-006",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-007",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 8(x + 2) = 7x + 24 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "one solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-008",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 9(x + 2) = 9x + 21 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-009",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 10(x + 2) = 10x + 20 have?",
+      "options": [
+        "infinitely many solutions",
+        "one solution",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-010",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-011",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-012",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "cannot be determined",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-013",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-014",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-015",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-016",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 8(x + 2) = 7x + 24 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "one solution"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-017",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 9(x + 2) = 9x + 21 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-018",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 10(x + 2) = 10x + 20 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-019",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "one solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-020",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-021",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "infinitely many solutions",
+        "one solution",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-022",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-023",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-024",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "cannot be determined",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-025",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 8(x + 2) = 7x + 24 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-026",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 9(x + 2) = 9x + 21 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-027",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 10(x + 2) = 10x + 20 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-028",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "one solution"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-029",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-030",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-031",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "one solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-032",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-033",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
+      "options": [
+        "infinitely many solutions",
+        "one solution",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-034",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 8(x + 2) = 7x + 24 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-035",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 9(x + 2) = 9x + 21 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-036",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 10(x + 2) = 10x + 20 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "cannot be determined",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-037",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-038",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-039",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-040",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "one solution"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-041",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-042",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-043",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 8(x + 2) = 7x + 24 have?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "one solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-044",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 9(x + 2) = 9x + 21 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-045",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 10(x + 2) = 10x + 20 have?",
+      "options": [
+        "infinitely many solutions",
+        "one solution",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-046",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-047",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-equations-solution-types-core-048",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "cannot be determined",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-equations-solution-types-core-049",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-equations-solution-types-core-050",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "cannot be determined"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    }
+  ]
+}

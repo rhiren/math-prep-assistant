@@ -29,8 +29,8 @@
       "type": "multiple_choice",
       "questionText": "Write 6,000 in scientific notation.",
       "options": [
-        "6 × 10³",
         "60 × 10²",
+        "6 × 10³",
         "0.6 × 10⁴",
         "6 × 10⁻³"
       ],
@@ -48,9 +48,9 @@
       "type": "multiple_choice",
       "questionText": "Write 45,000 in scientific notation.",
       "options": [
-        "4.5 × 10⁴",
         "45 × 10³",
         "0.45 × 10⁵",
+        "4.5 × 10⁴",
         "4.5 × 10⁻⁴"
       ],
       "correctAnswer": "4.5 × 10⁴",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Write 0.007 in scientific notation.",
       "options": [
-        "7 × 10⁻³",
         "7 × 10³",
         "0.7 × 10⁻²",
-        "70 × 10⁻⁴"
+        "70 × 10⁻⁴",
+        "7 × 10⁻³"
       ],
       "correctAnswer": "7 × 10⁻³",
       "difficulty": "scaffold",
@@ -105,8 +105,8 @@
       "type": "multiple_choice",
       "questionText": "Convert 3.1 × 10⁴ to standard form.",
       "options": [
-        "31,000",
         "3,100",
+        "31,000",
         "310,000",
         "0.00031"
       ],
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Convert 5.6 × 10⁻³ to standard form.",
       "options": [
-        "0.0056",
         "0.056",
         "5,600",
+        "0.0056",
         "0.00056"
       ],
       "correctAnswer": "0.0056",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "In 7.4 × 10⁶, what is the coefficient?",
       "options": [
-        "7.4",
         "10",
         "6",
-        "74"
+        "74",
+        "7.4"
       ],
       "correctAnswer": "7.4",
       "difficulty": "scaffold",
@@ -181,8 +181,8 @@
       "type": "multiple_choice",
       "questionText": "Which coefficient is valid in scientific notation?",
       "options": [
-        "8.03",
         "0.803",
+        "8.03",
         "80.3",
         "10.3"
       ],
@@ -200,9 +200,9 @@
       "type": "multiple_choice",
       "questionText": "Write 380,000,000 in scientific notation.",
       "options": [
-        "3.8 × 10⁸",
         "38 × 10⁷",
         "3.8 × 10⁻⁸",
+        "3.8 × 10⁸",
         "0.38 × 10⁹"
       ],
       "correctAnswer": "3.8 × 10⁸",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Write 0.00000064 in scientific notation.",
       "options": [
-        "6.4 × 10⁻⁷",
         "64 × 10⁻⁸",
         "6.4 × 10⁷",
-        "0.64 × 10⁻⁶"
+        "0.64 × 10⁻⁶",
+        "6.4 × 10⁻⁷"
       ],
       "correctAnswer": "6.4 × 10⁻⁷",
       "difficulty": "standard",
@@ -257,8 +257,8 @@
       "type": "multiple_choice",
       "questionText": "Convert 1.25 × 10⁻⁴ to standard form.",
       "options": [
-        "0.000125",
         "0.00125",
+        "0.000125",
         "12,500",
         "0.0000125"
       ],
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Which is greater: 6 × 10⁴ or 9 × 10³?",
       "options": [
-        "6 × 10⁴",
         "9 × 10³",
         "They are equal",
+        "6 × 10⁴",
         "Cannot compare"
       ],
       "correctAnswer": "6 × 10⁴",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "Which is smaller: 2.5 × 10⁻³ or 4 × 10⁻⁴?",
       "options": [
-        "4 × 10⁻⁴",
         "2.5 × 10⁻³",
         "They are equal",
-        "2.5 × 10³"
+        "2.5 × 10³",
+        "4 × 10⁻⁴"
       ],
       "correctAnswer": "4 × 10⁻⁴",
       "difficulty": "standard",
@@ -333,8 +333,8 @@
       "type": "multiple_choice",
       "questionText": "Write 0.38 × 10⁻⁶ in proper scientific notation.",
       "options": [
-        "3.8 × 10⁻⁷",
         "3.8 × 10⁻⁶",
+        "3.8 × 10⁻⁷",
         "38 × 10⁻⁸",
         "0.38 × 10⁻⁶"
       ],
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "A cell is 0.000012 m wide. Write this in scientific notation.",
       "options": [
-        "1.2 × 10⁻⁵ m",
         "12 × 10⁻⁶ m",
         "1.2 × 10⁵ m",
+        "1.2 × 10⁻⁵ m",
         "0.12 × 10⁻⁴ m"
       ],
       "correctAnswer": "1.2 × 10⁻⁵ m",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "A planet is 149,600,000 km from the Sun. Write this in scientific notation.",
       "options": [
-        "1.496 × 10⁸ km",
         "14.96 × 10⁷ km",
         "1.496 × 10⁻⁸ km",
-        "0.1496 × 10⁹ km"
+        "0.1496 × 10⁹ km",
+        "1.496 × 10⁸ km"
       ],
       "correctAnswer": "1.496 × 10⁸ km",
       "difficulty": "standard",
@@ -409,8 +409,8 @@
       "type": "multiple_choice",
       "questionText": "Which number equals 7.03 × 10⁶?",
       "options": [
-        "7,030,000",
         "703,000",
+        "7,030,000",
         "70,300,000",
         "0.00000703"
       ],
@@ -428,9 +428,9 @@
       "type": "multiple_choice",
       "questionText": "Write 0.0105 in scientific notation.",
       "options": [
-        "1.05 × 10⁻²",
         "10.5 × 10⁻³",
         "1.05 × 10²",
+        "1.05 × 10⁻²",
         "0.105 × 10⁻¹"
       ],
       "correctAnswer": "1.05 × 10⁻²",
@@ -447,10 +447,10 @@
       "type": "multiple_choice",
       "questionText": "Write 999,000 in scientific notation.",
       "options": [
-        "9.99 × 10⁵",
         "99.9 × 10⁴",
         "9.99 × 10⁻⁵",
-        "0.999 × 10⁶"
+        "0.999 × 10⁶",
+        "9.99 × 10⁵"
       ],
       "correctAnswer": "9.99 × 10⁵",
       "difficulty": "standard",
@@ -485,8 +485,8 @@
       "type": "multiple_choice",
       "questionText": "Which number is not in proper scientific notation?",
       "options": [
-        "12.4 × 10⁵",
         "1.24 × 10⁶",
+        "12.4 × 10⁵",
         "9.9 × 10⁻³",
         "6 × 10⁰"
       ],
@@ -504,9 +504,9 @@
       "type": "multiple_choice",
       "questionText": "Write 5.02 million in scientific notation.",
       "options": [
-        "5.02 × 10⁶",
         "5.02 × 10⁵",
         "50.2 × 10⁵",
+        "5.02 × 10⁶",
         "5.02 × 10⁻⁶"
       ],
       "correctAnswer": "5.02 × 10⁶",
@@ -523,10 +523,10 @@
       "type": "multiple_choice",
       "questionText": "Write 3.4 thousandths in scientific notation.",
       "options": [
-        "3.4 × 10⁻³",
         "3.4 × 10³",
         "34 × 10⁻⁴",
-        "0.34 × 10⁻²"
+        "0.34 × 10⁻²",
+        "3.4 × 10⁻³"
       ],
       "correctAnswer": "3.4 × 10⁻³",
       "difficulty": "standard",
@@ -561,8 +561,8 @@
       "type": "multiple_choice",
       "questionText": "Compare 8 × 10⁻⁶ and 2 × 10⁻⁵.",
       "options": [
-        "2 × 10⁻⁵ is greater",
         "8 × 10⁻⁶ is greater",
+        "2 × 10⁻⁵ is greater",
         "They are equal",
         "Cannot compare"
       ],
@@ -580,9 +580,9 @@
       "type": "multiple_choice",
       "questionText": "Write 0.0000000009 in scientific notation.",
       "options": [
-        "9 × 10⁻¹⁰",
         "9 × 10¹⁰",
         "0.9 × 10⁻⁹",
+        "9 × 10⁻¹⁰",
         "90 × 10⁻¹¹"
       ],
       "correctAnswer": "9 × 10⁻¹⁰",
@@ -599,10 +599,10 @@
       "type": "multiple_choice",
       "questionText": "Write 12,300,000,000 in scientific notation.",
       "options": [
-        "1.23 × 10¹⁰",
         "12.3 × 10⁹",
         "1.23 × 10⁻¹⁰",
-        "0.123 × 10¹¹"
+        "0.123 × 10¹¹",
+        "1.23 × 10¹⁰"
       ],
       "correctAnswer": "1.23 × 10¹⁰",
       "difficulty": "standard",
@@ -637,8 +637,8 @@
       "type": "multiple_choice",
       "questionText": "Which scientific notation matches 450 × 10⁻⁸?",
       "options": [
-        "4.5 × 10⁻⁶",
         "45 × 10⁻⁷",
+        "4.5 × 10⁻⁶",
         "4.5 × 10⁻⁸",
         "0.45 × 10⁻⁵"
       ],
@@ -656,9 +656,9 @@
       "type": "multiple_choice",
       "questionText": "A dust particle has mass 0.00000032 g. Write this in scientific notation.",
       "options": [
-        "3.2 × 10⁻⁷ g",
         "32 × 10⁻⁸ g",
         "3.2 × 10⁷ g",
+        "3.2 × 10⁻⁷ g",
         "0.32 × 10⁻⁶ g"
       ],
       "correctAnswer": "3.2 × 10⁻⁷ g",
@@ -675,10 +675,10 @@
       "type": "multiple_choice",
       "questionText": "Order least to greatest: 3 × 10⁻⁴, 8 × 10⁻⁵, 1.2 × 10⁻³.",
       "options": [
-        "8 × 10⁻⁵, 3 × 10⁻⁴, 1.2 × 10⁻³",
         "1.2 × 10⁻³, 3 × 10⁻⁴, 8 × 10⁻⁵",
         "3 × 10⁻⁴, 8 × 10⁻⁵, 1.2 × 10⁻³",
-        "8 × 10⁻⁵, 1.2 × 10⁻³, 3 × 10⁻⁴"
+        "8 × 10⁻⁵, 1.2 × 10⁻³, 3 × 10⁻⁴",
+        "8 × 10⁻⁵, 3 × 10⁻⁴, 1.2 × 10⁻³"
       ],
       "correctAnswer": "8 × 10⁻⁵, 3 × 10⁻⁴, 1.2 × 10⁻³",
       "difficulty": "challenge",
@@ -713,8 +713,8 @@
       "type": "multiple_choice",
       "questionText": "A student writes 0.00045 as 45 × 10⁻⁵. What is proper scientific notation?",
       "options": [
-        "4.5 × 10⁻⁴",
         "45 × 10⁻⁵",
+        "4.5 × 10⁻⁴",
         "4.5 × 10⁻⁵",
         "0.45 × 10⁻³"
       ],
@@ -732,9 +732,9 @@
       "type": "multiple_choice",
       "questionText": "A number is 2.3 × 10⁴. Another is 23 × 10³. What is true?",
       "options": [
-        "They are equal",
         "2.3 × 10⁴ is greater",
         "23 × 10³ is greater",
+        "They are equal",
         "Neither is valid"
       ],
       "correctAnswer": "They are equal",
@@ -751,10 +751,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is closest to 10⁻³?",
       "options": [
-        "9.8 × 10⁻⁴",
         "1.2 × 10⁻²",
         "4.5 × 10⁻⁵",
-        "8.1 × 10⁻¹"
+        "8.1 × 10⁻¹",
+        "9.8 × 10⁻⁴"
       ],
       "correctAnswer": "9.8 × 10⁻⁴",
       "difficulty": "challenge",
@@ -789,8 +789,8 @@
       "type": "multiple_choice",
       "questionText": "The diameter of a strand is 1.7 × 10⁻⁵ m. Which standard form is correct?",
       "options": [
-        "0.000017 m",
         "0.00017 m",
+        "0.000017 m",
         "170,000 m",
         "0.0000017 m"
       ],
@@ -808,9 +808,9 @@
       "type": "multiple_choice",
       "questionText": "The population is 8.04 × 10⁶. Which standard form is correct?",
       "options": [
-        "8,040,000",
         "804,000",
         "80,400,000",
+        "8,040,000",
         "0.00000804"
       ],
       "correctAnswer": "8,040,000",
@@ -827,10 +827,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 0.0063 × 10⁸ in proper scientific notation?",
       "options": [
-        "6.3 × 10⁵",
         "6.3 × 10⁶",
         "0.63 × 10⁶",
-        "63 × 10⁴"
+        "63 × 10⁴",
+        "6.3 × 10⁵"
       ],
       "correctAnswer": "6.3 × 10⁵",
       "difficulty": "challenge",
@@ -865,8 +865,8 @@
       "type": "multiple_choice",
       "questionText": "A measurement is 4.8 × 10⁻³ km. How many kilometers is that in decimal form?",
       "options": [
-        "0.0048 km",
         "0.048 km",
+        "0.0048 km",
         "4,800 km",
         "0.00048 km"
       ],
@@ -884,9 +884,9 @@
       "type": "multiple_choice",
       "questionText": "A measurement is 3.25 × 10⁹ bytes. Which description matches it?",
       "options": [
-        "3.25 billion bytes",
         "3.25 million bytes",
         "0.00000000325 bytes",
+        "3.25 billion bytes",
         "32.5 billion bytes"
       ],
       "correctAnswer": "3.25 billion bytes",
@@ -903,10 +903,10 @@
       "type": "multiple_choice",
       "questionText": "Which is less than 5 × 10⁻⁶?",
       "options": [
-        "4.9 × 10⁻⁶",
         "5.1 × 10⁻⁶",
         "1 × 10⁻⁵",
-        "5 × 10⁻⁵"
+        "5 × 10⁻⁵",
+        "4.9 × 10⁻⁶"
       ],
       "correctAnswer": "4.9 × 10⁻⁶",
       "difficulty": "challenge",
@@ -941,8 +941,8 @@
       "type": "multiple_choice",
       "questionText": "Write 0.000120 in scientific notation.",
       "options": [
-        "1.20 × 10⁻⁴",
         "1.20 × 10⁴",
+        "1.20 × 10⁻⁴",
         "12.0 × 10⁻⁵",
         "0.120 × 10⁻³"
       ],

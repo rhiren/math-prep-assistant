@@ -29,8 +29,8 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (4 × 10⁵)(2 × 10²).",
       "options": [
-        "8 × 10⁷",
         "8 × 10¹⁰",
+        "8 × 10⁷",
         "6 × 10⁷",
         "8 × 10³"
       ],
@@ -48,9 +48,9 @@
       "type": "multiple_choice",
       "questionText": "Divide: (6 × 10⁵) ÷ (2 × 10²).",
       "options": [
-        "3 × 10³",
         "3 × 10⁷",
         "4 × 10³",
+        "3 × 10³",
         "3 × 10²"
       ],
       "correctAnswer": "3 × 10³",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (8 × 10⁶) ÷ (4 × 10²).",
       "options": [
-        "2 × 10⁴",
         "2 × 10⁸",
         "4 × 10⁴",
-        "2 × 10³"
+        "2 × 10³",
+        "2 × 10⁴"
       ],
       "correctAnswer": "2 × 10⁴",
       "difficulty": "scaffold",
@@ -105,8 +105,8 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 9 × 10⁵ - 4 × 10⁵.",
       "options": [
-        "5 × 10⁵",
         "5 × 10⁰",
+        "5 × 10⁵",
         "13 × 10⁵",
         "5 × 10¹⁰"
       ],
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Which operation requires matching powers of ten first?",
       "options": [
-        "Addition",
         "Multiplication",
         "Division",
+        "Addition",
         "Raising a power"
       ],
       "correctAnswer": "Addition",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (5 × 10⁻³)(2 × 10⁴).",
       "options": [
-        "1 × 10²",
         "10 × 10¹",
         "7 × 10¹",
-        "1 × 10⁻¹²"
+        "1 × 10⁻¹²",
+        "1 × 10²"
       ],
       "correctAnswer": "1 × 10²",
       "difficulty": "scaffold",
@@ -181,8 +181,8 @@
       "type": "multiple_choice",
       "questionText": "Multiply: (7.5 × 10⁻²)(4 × 10⁵).",
       "options": [
-        "3 × 10⁴",
         "30 × 10³",
+        "3 × 10⁴",
         "3 × 10⁻¹⁰",
         "11.5 × 10³"
       ],
@@ -200,9 +200,9 @@
       "type": "multiple_choice",
       "questionText": "Divide: (9.6 × 10⁸) ÷ (3.2 × 10²).",
       "options": [
-        "3 × 10⁶",
         "3 × 10¹⁰",
         "6.4 × 10⁶",
+        "3 × 10⁶",
         "3 × 10⁴"
       ],
       "correctAnswer": "3 × 10⁶",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Divide: (4.5 × 10⁻³) ÷ (1.5 × 10⁴).",
       "options": [
-        "3 × 10⁻⁷",
         "3 × 10¹",
         "3 × 10⁻¹²",
-        "6 × 10⁻⁷"
+        "6 × 10⁻⁷",
+        "3 × 10⁻⁷"
       ],
       "correctAnswer": "3 × 10⁻⁷",
       "difficulty": "standard",
@@ -257,8 +257,8 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 8.7 × 10⁻⁴ - 2.2 × 10⁻⁴.",
       "options": [
-        "6.5 × 10⁻⁴",
         "6.5 × 10⁰",
+        "6.5 × 10⁻⁴",
         "10.9 × 10⁻⁴",
         "6.5 × 10⁻⁸"
       ],
@@ -276,9 +276,9 @@
       "type": "multiple_choice",
       "questionText": "Add: 3 × 10⁵ + 4 × 10⁴.",
       "options": [
-        "3.4 × 10⁵",
         "7 × 10⁹",
         "7 × 10⁵",
+        "3.4 × 10⁵",
         "3.04 × 10⁵"
       ],
       "correctAnswer": "3.4 × 10⁵",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "Subtract: 6 × 10³ - 2 × 10².",
       "options": [
-        "5.8 × 10³",
         "4 × 10¹",
         "4 × 10³",
-        "5.98 × 10³"
+        "5.98 × 10³",
+        "5.8 × 10³"
       ],
       "correctAnswer": "5.8 × 10³",
       "difficulty": "standard",
@@ -333,8 +333,8 @@
       "type": "multiple_choice",
       "questionText": "A mass is 7.2 × 10⁻⁶ g and 1.2 × 10⁻⁶ g is removed. What remains?",
       "options": [
-        "6 × 10⁻⁶ g",
         "6 × 10⁰ g",
+        "6 × 10⁻⁶ g",
         "8.4 × 10⁻⁶ g",
         "6 × 10⁻¹² g"
       ],
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Estimate (6.1 × 10⁷)(1.9 × 10³).",
       "options": [
-        "about 1.2 × 10¹¹",
         "about 8 × 10⁴",
         "about 1.2 × 10¹⁰",
+        "about 1.2 × 10¹¹",
         "about 12 × 10²¹"
       ],
       "correctAnswer": "about 1.2 × 10¹¹",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "Estimate (8.2 × 10⁵) ÷ (4.1 × 10²).",
       "options": [
-        "about 2 × 10³",
         "about 2 × 10⁷",
         "about 4 × 10³",
-        "about 12 × 10⁷"
+        "about 12 × 10⁷",
+        "about 2 × 10³"
       ],
       "correctAnswer": "about 2 × 10³",
       "difficulty": "standard",
