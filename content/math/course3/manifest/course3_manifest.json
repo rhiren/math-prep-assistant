@@ -1773,6 +1773,114 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-write-linear-equations-representations",
+              "title": "Write Linear Equations from Representations",
+              "description": "Write y = mx + b equations from tables, points, graphs, and contexts.",
+              "tags": [
+                "linear-equations",
+                "representations",
+                "slope"
+              ],
+              "skillTags": [
+                "linear-equations",
+                "representations",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 11,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-write-linear-equations-representations.md",
+              "tests": [
+                {
+                  "id": "course3-write-linear-equations-representations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-write-linear-equations-representations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-write-linear-equations-representations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-write-linear-equations-representations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-unit-3-mixed-review",
+              "title": "Unit 3 Mixed Review",
+              "description": "Review slope, y-intercept, linear equations, graphing, and multiple representations of lines.",
+              "tags": [
+                "linear-equations",
+                "slope",
+                "unit-review"
+              ],
+              "skillTags": [
+                "review",
+                "reasoning",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 12,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-unit-3-mixed-review.md",
+              "tests": [
+                {
+                  "id": "course3-unit-3-mixed-review-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-unit-3-mixed-review-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-unit-3-mixed-review-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-unit-3-mixed-review-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }

@@ -1,0 +1,409 @@
+{
+  "testId": "course3-write-linear-equations-representations-review",
+  "conceptId": "concept-write-linear-equations-representations",
+  "type": "review",
+  "title": "Write Linear Equations from Representations Review Test",
+  "description": "Write y = mx + b equations from tables, points, graphs, and contexts.",
+  "questions": [
+    {
+      "id": "course3-write-linear-equations-representations-review-001",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 1/2 and y-intercept 5. Which equation represents the line?",
+      "options": [
+        "y = 1/2x - 5",
+        "y = 3/2x + 5",
+        "y = 1/2x + 5",
+        "y = -1/2x + 5"
+      ],
+      "correctAnswer": "y = 1/2x + 5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-002",
+      "type": "multiple_choice",
+      "questionText": "A line has slope -4 and passes through (-3, 19). Which equation is correct?",
+      "options": [
+        "y = -4x + 7",
+        "y = -3x + 7",
+        "y = -4x - 7",
+        "y = 4x + 7"
+      ],
+      "correctAnswer": "y = -4x + 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-003",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes -1 -> 31/6, 5 -> 61/6, 11 -> 91/6. Which equation matches the table?",
+      "options": [
+        "y = -5/6x + 6",
+        "y = 5/6x + 6",
+        "y = 11/6x + 6",
+        "y = 5/6x - 6"
+      ],
+      "correctAnswer": "y = 5/6x + 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-004",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (2, -9) and (10, -13). Which equation represents it?",
+      "options": [
+        "y = 1/2x - 8",
+        "y = -1/2x - 8",
+        "y = -3/2x - 8",
+        "y = -1/2x + 8"
+      ],
+      "correctAnswer": "y = -1/2x - 8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-005",
+      "type": "multiple_choice",
+      "questionText": "A graph crosses the y-axis at (0, 5) and contains (9, 43/5). Which equation matches?",
+      "options": [
+        "y = 2/5x + 5",
+        "y = 2/5x - 5",
+        "y = -2/5x + 5",
+        "y = 7/5x + 5"
+      ],
+      "correctAnswer": "y = 2/5x + 5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-006",
+      "type": "multiple_choice",
+      "questionText": "A savings account starts at 7 dollars and changes by -3/2 dollars each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = -3/2x - 7",
+        "y = -1/2x + 7",
+        "y = 3/2x + 7",
+        "y = -3/2x + 7"
+      ],
+      "correctAnswer": "y = -3/2x + 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-007",
+      "type": "multiple_choice",
+      "questionText": "A student found slope 3/2 from two points, then used (-5, -3/2) to find b = 6. What equation should they write?",
+      "options": [
+        "y = 5/2x + 6",
+        "y = 3/2x - 6",
+        "y = -3/2x + 6",
+        "y = 3/2x + 6"
+      ],
+      "correctAnswer": "y = 3/2x + 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-008",
+      "type": "multiple_choice",
+      "questionText": "Which equation has rate of change 0 and output -8 when input is 0?",
+      "options": [
+        "y = 8",
+        "y = -x - 8",
+        "y = -8",
+        "y = x - 8"
+      ],
+      "correctAnswer": "y = -8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-009",
+      "type": "multiple_choice",
+      "questionText": "A line contains (0, 5), (-1, 19/5), and (4, 49/5). Which rule gives y from x?",
+      "options": [
+        "y = 6/5x - 5",
+        "y = -6/5x + 5",
+        "y = 6/5x + 5",
+        "y = 11/5x + 5"
+      ],
+      "correctAnswer": "y = 6/5x + 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-010",
+      "type": "multiple_choice",
+      "questionText": "The change in y divided by change in x is -2/3, and the starting value is 7. Which equation models the relationship?",
+      "options": [
+        "y = -2/3x - 7",
+        "y = -2/3x + 7",
+        "y = 1/3x + 7",
+        "y = 2/3x + 7"
+      ],
+      "correctAnswer": "y = -2/3x + 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-011",
+      "type": "multiple_choice",
+      "questionText": "A line has slope -5/3 and y-intercept 6. Which equation represents the line?",
+      "options": [
+        "y = -5/3x - 6",
+        "y = 5/3x + 6",
+        "y = -5/3x + 6",
+        "y = -2/3x + 6"
+      ],
+      "correctAnswer": "y = -5/3x + 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-012",
+      "type": "multiple_choice",
+      "questionText": "A line has slope 1 and passes through (6, -2). Which equation is correct?",
+      "options": [
+        "y = 2x - 8",
+        "y = x - 8",
+        "y = -x - 8",
+        "y = x + 8"
+      ],
+      "correctAnswer": "y = x - 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-013",
+      "type": "multiple_choice",
+      "questionText": "A table for a line includes -5 -> -5/3, -2 -> 7/3, 1 -> 19/3. Which equation matches the table?",
+      "options": [
+        "y = 4/3x + 5",
+        "y = -4/3x + 5",
+        "y = 7/3x + 5",
+        "y = 4/3x - 5"
+      ],
+      "correctAnswer": "y = 4/3x + 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-014",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (-3, 26/5) and (7, 56/5). Which equation represents it?",
+      "options": [
+        "y = 3/5x + 7",
+        "y = 3/5x - 7",
+        "y = -3/5x + 7",
+        "y = 8/5x + 7"
+      ],
+      "correctAnswer": "y = 3/5x + 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-015",
+      "type": "multiple_choice",
+      "questionText": "A graph crosses the y-axis at (0, 6) and contains (2, 10). Which equation matches?",
+      "options": [
+        "y = 2x - 6",
+        "y = -2x + 6",
+        "y = 3x + 6",
+        "y = 2x + 6"
+      ],
+      "correctAnswer": "y = 2x + 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-016",
+      "type": "multiple_choice",
+      "questionText": "A savings account starts at -8 dollars and changes by -3/4 dollars each week. Which equation gives y after x weeks?",
+      "options": [
+        "y = -3/4x - 8",
+        "y = 3/4x - 8",
+        "y = 1/4x - 8",
+        "y = -3/4x + 8"
+      ],
+      "correctAnswer": "y = -3/4x - 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-017",
+      "type": "multiple_choice",
+      "questionText": "A student found slope 7/4 from two points, then used (4, 12) to find b = 5. What equation should they write?",
+      "options": [
+        "y = 11/4x + 5",
+        "y = 7/4x - 5",
+        "y = -7/4x + 5",
+        "y = 7/4x + 5"
+      ],
+      "correctAnswer": "y = 7/4x + 5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-018",
+      "type": "multiple_choice",
+      "questionText": "Which equation has rate of change -1 and output 7 when input is 0?",
+      "options": [
+        "y = -x - 7",
+        "y = x + 7",
+        "y = -x + 7",
+        "y = 7"
+      ],
+      "correctAnswer": "y = -x + 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-019",
+      "type": "multiple_choice",
+      "questionText": "A line contains (0, 6), (-5, -13/2), and (1, 17/2). Which rule gives y from x?",
+      "options": [
+        "y = -5/2x + 6",
+        "y = 7/2x + 6",
+        "y = 5/2x - 6",
+        "y = 5/2x + 6"
+      ],
+      "correctAnswer": "y = 5/2x + 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    },
+    {
+      "id": "course3-write-linear-equations-representations-review-020",
+      "type": "multiple_choice",
+      "questionText": "The change in y divided by change in x is -7/5, and the starting value is -8. Which equation models the relationship?",
+      "options": [
+        "y = -2/5x - 8",
+        "y = -7/5x - 8",
+        "y = -7/5x + 8",
+        "y = 7/5x - 8"
+      ],
+      "correctAnswer": "y = -7/5x - 8",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "linear-equations",
+        "representations",
+        "reasoning"
+      ],
+      "explanation": "Find the slope m and y-intercept b, then write the relationship in the form y = mx + b."
+    }
+  ]
+}
