@@ -525,6 +525,20 @@ describe("content repository", () => {
         coreTestId: "course3-graph-linear-equations-core",
         reviewTestId: "course3-graph-linear-equations-review",
       },
+      {
+        conceptId: "concept-write-linear-equations-representations",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Write Linear Equations from Representations",
+        coreTestId: "course3-write-linear-equations-representations-core",
+        reviewTestId: "course3-write-linear-equations-representations-review",
+      },
+      {
+        conceptId: "concept-unit-3-mixed-review",
+        standards: ["8.EE.5", "8.EE.6"],
+        tutorialHeading: "# Unit 3 Mixed Review",
+        coreTestId: "course3-unit-3-mixed-review-core",
+        reviewTestId: "course3-unit-3-mixed-review-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -537,7 +551,7 @@ describe("content repository", () => {
     expect(course?.units[1]?.id).toBe("course3-unit-linear-equations");
     expect(course?.units[1]?.concepts).toHaveLength(10);
     expect(course?.units[2]?.id).toBe("course3-unit-lines-slope-linear-equations");
-    expect(course?.units[2]?.concepts).toHaveLength(10);
+    expect(course?.units[2]?.concepts).toHaveLength(12);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

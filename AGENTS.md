@@ -322,6 +322,8 @@ The current Course 3 learner-ready sequence is:
 - `Understand the y-Intercept`
 - `Equations in the Form y = mx + b`
 - `Graph Linear Equations`
+- `Write Linear Equations from Representations`
+- `Unit 3 Mixed Review`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in

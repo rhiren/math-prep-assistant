@@ -245,10 +245,14 @@ The current learner-ready Unit 3 packs are:
 - Understand the `y`-Intercept
 - Equations in the Form `y = mx + b`
 - Graph Linear Equations
-
-The next Course 3 rollout work is Unit 3:
-
 - Write Linear Equations from Representations
+- Unit 3 Mixed Review
+
+Unit 3 is complete.
+
+The next Course 3 rollout work is Unit 4:
+
+- Understand Solutions to Systems
 
 Course 3 multiple-choice answer positions should remain balanced within each
 active test set so learners cannot infer the correct option from repeated
@@ -264,7 +268,7 @@ challenge-question reasoning variety. Some already-published banks are tracked
 as explicit template-variety debt in the test suite; do not add new banks to
 that list as a substitute for authoring varied questions.
 
-The first ten learner-ready Unit 3 packs have been regenerated or authored
+The twelve learner-ready Unit 3 packs have been regenerated or authored
 under this gate and should remain off the template-variety debt list.
 
 ### Phase 3 — Lines, Slope, and Systems
