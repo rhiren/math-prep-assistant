@@ -2049,6 +2049,59 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-solve-systems-elimination",
+              "title": "Solve Systems by Elimination",
+              "description": "Solve systems by adding or subtracting equivalent equations to eliminate one variable.",
+              "tags": [
+                "systems",
+                "elimination",
+                "algebra"
+              ],
+              "skillTags": [
+                "systems",
+                "elimination",
+                "algebra"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-systems-elimination.md",
+              "tests": [
+                {
+                  "id": "course3-solve-systems-elimination-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-systems-elimination-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-systems-elimination-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-systems-elimination-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }

@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-solve-systems-elimination-core",
+  "conceptId": "concept-solve-systems-elimination",
+  "type": "concept",
+  "title": "Solve Systems by Elimination Core Test",
+  "description": "Solve systems by adding or subtracting equivalent equations to eliminate one variable.",
+  "questions": [
+    {
+      "id": "course3-solve-systems-elimination-core-001",
+      "type": "multiple_choice",
+      "questionText": "Solve by elimination: 4x + 3y = 7 and -4x + 2y = 18. What is the solution?",
+      "options": [
+        "(5, -2)",
+        "(-2, 6)",
+        "(-2, 5)",
+        "(-1, 5)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "add-equations"
+      ],
+      "explanation": "The x-terms are opposites, so adding the equations eliminates x. Solve for y, then substitute to find x."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-002",
+      "type": "multiple_choice",
+      "questionText": "For 5x + 5y = 35 and -3x + 5y = 19, what happens if you subtract the second equation from the first?",
+      "options": [
+        "no variable is eliminated",
+        "x is eliminated",
+        "y is eliminated",
+        "both variables are eliminated"
+      ],
+      "correctAnswer": "y is eliminated",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "structure"
+      ],
+      "explanation": "The y-coefficients match. Subtracting equations with matching y-terms makes the y-term become zero."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-003",
+      "type": "multiple_choice",
+      "questionText": "Use elimination on 5x + 5y = 0 and -3x + 5y = 8. What x-value do you get after eliminating y?",
+      "options": [
+        "-2",
+        "-1",
+        "1",
+        "0"
+      ],
+      "correctAnswer": "-1",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-x"
+      ],
+      "explanation": "Subtract the equations to eliminate y, then divide by the remaining x-coefficient."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-004",
+      "type": "multiple_choice",
+      "questionText": "Before eliminating x in 5x + 2y = 23 and 15x + 5y = 65, multiply the first equation by -3. Which equivalent equation results?",
+      "options": [
+        "-15x - 6y = -69",
+        "15x + 6y = 69",
+        "5x - 6y = -69",
+        "-15x + 2y = -69"
+      ],
+      "correctAnswer": "-15x - 6y = -69",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-equation"
+      ],
+      "explanation": "Multiplying an equation by a factor means multiplying every term on both sides by that factor."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-005",
+      "type": "multiple_choice",
+      "questionText": "After scaling one equation, solve by elimination: 3x - 3y = -12 and 6x + y = -31. What is the solution?",
+      "options": [
+        "(-4, -1)",
+        "(-5, 0)",
+        "(-5, -1)",
+        "(-1, -5)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-then-solve"
+      ],
+      "explanation": "Scale one equation so a pair of variable terms are opposites, add to eliminate that variable, then substitute back."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-006",
+      "type": "multiple_choice",
+      "questionText": "Which first move is most efficient for 4x + 3y = -18 and -4x + 2y = 28?",
+      "options": [
+        "divide both equations by the y-coefficients",
+        "add the equations",
+        "multiply only the constants by -1",
+        "subtract the equations"
+      ],
+      "correctAnswer": "add the equations",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "strategy"
+      ],
+      "explanation": "The x-coefficients are already opposites, so adding the equations is the efficient elimination step."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-007",
+      "type": "multiple_choice",
+      "questionText": "Add 4x + 3y = -12 and -4x + 2y = -8 to eliminate x. What y-value is in the solution?",
+      "options": [
+        "4",
+        "-3",
+        "0",
+        "-4"
+      ],
+      "correctAnswer": "-4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-y"
+      ],
+      "explanation": "Adding removes the x-terms. Solve the remaining one-variable equation for y."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-008",
+      "type": "multiple_choice",
+      "questionText": "A system is 2x + 3y = -1 and -2x + 5y = -23. Why is multiplying an entire equation allowed before elimination?",
+      "options": [
+        "multiply every term in one equation by the same factor",
+        "it makes any chosen ordered pair correct",
+        "it removes the need to check the second equation",
+        "it changes the solution so the numbers are easier"
+      ],
+      "correctAnswer": "multiply every term in one equation by the same factor",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "equivalent-equations"
+      ],
+      "explanation": "Multiplying both sides of an equation by the same nonzero factor creates an equivalent equation with the same solutions."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-009",
+      "type": "multiple_choice",
+      "questionText": "A student used elimination and found x = -3. Which ordered pair solves 5x - y = -13 and 2x + 3y = -12?",
+      "options": [
+        "(-3, -2)",
+        "(-2, -3)",
+        "(-2, -2)",
+        "(-3, -1)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "substitute-back"
+      ],
+      "explanation": "After finding one variable, substitute it into either original equation to find the other variable."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-010",
+      "type": "multiple_choice",
+      "questionText": "After solving 2x - 5y = 23 and 6x + y = 21 by elimination, what is the best final check?",
+      "options": [
+        "verify that the eliminated variable equals 0",
+        "check only the equation that was multiplied",
+        "make sure the two constants have the same sign",
+        "check the ordered pair in both original equations"
+      ],
+      "correctAnswer": "check the ordered pair in both original equations",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "checking"
+      ],
+      "explanation": "A system solution must make every original equation true, so the final ordered pair should be checked in both equations."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-011",
+      "type": "multiple_choice",
+      "questionText": "Solve by elimination: 4x + 3y = -23 and -4x + 2y = 18. What is the solution?",
+      "options": [
+        "(-1, -5)",
+        "(-5, 0)",
+        "(-4, -1)",
+        "(-5, -1)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "add-equations"
+      ],
+      "explanation": "The x-terms are opposites, so adding the equations eliminates x. Solve for y, then substitute to find x."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-012",
+      "type": "multiple_choice",
+      "questionText": "For 5x + 5y = 5 and -3x + 5y = -11, what happens if you subtract the second equation from the first?",
+      "options": [
+        "y is eliminated",
+        "no variable is eliminated",
+        "both variables are eliminated",
+        "x is eliminated"
+      ],
+      "correctAnswer": "y is eliminated",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "structure"
+      ],
+      "explanation": "The y-coefficients match. Subtracting equations with matching y-terms makes the y-term become zero."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-013",
+      "type": "multiple_choice",
+      "questionText": "Use elimination on 5x + 5y = 35 and -3x + 5y = -13. What x-value do you get after eliminating y?",
+      "options": [
+        "7",
+        "-6",
+        "6",
+        "1"
+      ],
+      "correctAnswer": "6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-x"
+      ],
+      "explanation": "Subtract the equations to eliminate y, then divide by the remaining x-coefficient."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-014",
+      "type": "multiple_choice",
+      "questionText": "Before eliminating x in 5x + 2y = 29 and 15x + 5y = 85, multiply the first equation by -3. Which equivalent equation results?",
+      "options": [
+        "5x - 6y = -87",
+        "-15x + 2y = -87",
+        "15x + 6y = 87",
+        "-15x - 6y = -87"
+      ],
+      "correctAnswer": "-15x - 6y = -87",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-equation"
+      ],
+      "explanation": "Multiplying an equation by a factor means multiplying every term on both sides by that factor."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-015",
+      "type": "multiple_choice",
+      "questionText": "After scaling one equation, solve by elimination: 3x - 3y = -9 and 6x + y = 17. What is the solution?",
+      "options": [
+        "(2, 6)",
+        "(3, 5)",
+        "(2, 5)",
+        "(5, 2)"
+      ],
+      "correctAnswer": "(2, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-then-solve"
+      ],
+      "explanation": "Scale one equation so a pair of variable terms are opposites, add to eliminate that variable, then substitute back."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-016",
+      "type": "multiple_choice",
+      "questionText": "Which first move is most efficient for 4x + 3y = 24 and -4x + 2y = -4?",
+      "options": [
+        "subtract the equations",
+        "multiply only the constants by -1",
+        "add the equations",
+        "divide both equations by the y-coefficients"
+      ],
+      "correctAnswer": "add the equations",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "strategy"
+      ],
+      "explanation": "The x-coefficients are already opposites, so adding the equations is the efficient elimination step."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-017",
+      "type": "multiple_choice",
+      "questionText": "Add 4x + 3y = 23 and -4x + 2y = 2 to eliminate x. What y-value is in the solution?",
+      "options": [
+        "5",
+        "-5",
+        "6",
+        "2"
+      ],
+      "correctAnswer": "5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-y"
+      ],
+      "explanation": "Adding removes the x-terms. Solve the remaining one-variable equation for y."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-018",
+      "type": "multiple_choice",
+      "questionText": "A system is 2x + 3y = -1 and -2x + 5y = -23. Why is multiplying an entire equation allowed before elimination?",
+      "options": [
+        "it removes the need to check the second equation",
+        "it changes the solution so the numbers are easier",
+        "multiply every term in one equation by the same factor",
+        "it makes any chosen ordered pair correct"
+      ],
+      "correctAnswer": "multiply every term in one equation by the same factor",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "equivalent-equations"
+      ],
+      "explanation": "Multiplying both sides of an equation by the same nonzero factor creates an equivalent equation with the same solutions."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-019",
+      "type": "multiple_choice",
+      "questionText": "A student used elimination and found x = -3. Which ordered pair solves 5x - y = -13 and 2x + 3y = -12?",
+      "options": [
+        "(-2, -3)",
+        "(-3, -2)",
+        "(-2, -2)",
+        "(-3, -1)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "substitute-back"
+      ],
+      "explanation": "After finding one variable, substitute it into either original equation to find the other variable."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-020",
+      "type": "multiple_choice",
+      "questionText": "After solving 2x - 5y = 23 and 6x + y = 21 by elimination, what is the best final check?",
+      "options": [
+        "check only the equation that was multiplied",
+        "verify that the eliminated variable equals 0",
+        "make sure the two constants have the same sign",
+        "check the ordered pair in both original equations"
+      ],
+      "correctAnswer": "check the ordered pair in both original equations",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "checking"
+      ],
+      "explanation": "A system solution must make every original equation true, so the final ordered pair should be checked in both equations."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-021",
+      "type": "multiple_choice",
+      "questionText": "Solve by elimination: 4x + 3y = -12 and -4x + 2y = -8. What is the solution?",
+      "options": [
+        "(0, -3)",
+        "(0, -4)",
+        "(1, -4)",
+        "(-4, 0)"
+      ],
+      "correctAnswer": "(0, -4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "add-equations"
+      ],
+      "explanation": "The x-terms are opposites, so adding the equations eliminates x. Solve for y, then substitute to find x."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-022",
+      "type": "multiple_choice",
+      "questionText": "For 5x + 5y = -5 and -3x + 5y = 27, what happens if you subtract the second equation from the first?",
+      "options": [
+        "y is eliminated",
+        "x is eliminated",
+        "no variable is eliminated",
+        "both variables are eliminated"
+      ],
+      "correctAnswer": "y is eliminated",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "structure"
+      ],
+      "explanation": "The y-coefficients match. Subtracting equations with matching y-terms makes the y-term become zero."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-023",
+      "type": "multiple_choice",
+      "questionText": "Use elimination on 5x + 5y = 20 and -3x + 5y = 12. What x-value do you get after eliminating y?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "-1"
+      ],
+      "correctAnswer": "1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-x"
+      ],
+      "explanation": "Subtract the equations to eliminate y, then divide by the remaining x-coefficient."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-024",
+      "type": "multiple_choice",
+      "questionText": "Before eliminating x in 5x + 2y = 32 and 15x + 5y = 95, multiply the first equation by -3. Which equivalent equation results?",
+      "options": [
+        "-15x + 2y = -96",
+        "-15x - 6y = -96",
+        "5x - 6y = -96",
+        "15x + 6y = 96"
+      ],
+      "correctAnswer": "-15x - 6y = -96",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-equation"
+      ],
+      "explanation": "Multiplying an equation by a factor means multiplying every term on both sides by that factor."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-025",
+      "type": "multiple_choice",
+      "questionText": "After scaling one equation, solve by elimination: 3x - 3y = -21 and 6x + y = -21. What is the solution?",
+      "options": [
+        "(-4, 4)",
+        "(-3, 3)",
+        "(-4, 3)",
+        "(3, -4)"
+      ],
+      "correctAnswer": "(-4, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-then-solve"
+      ],
+      "explanation": "Scale one equation so a pair of variable terms are opposites, add to eliminate that variable, then substitute back."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-026",
+      "type": "multiple_choice",
+      "questionText": "Which first move is most efficient for 4x + 3y = -18 and -4x + 2y = 8?",
+      "options": [
+        "divide both equations by the y-coefficients",
+        "add the equations",
+        "multiply only the constants by -1",
+        "subtract the equations"
+      ],
+      "correctAnswer": "add the equations",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "strategy"
+      ],
+      "explanation": "The x-coefficients are already opposites, so adding the equations is the efficient elimination step."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-027",
+      "type": "multiple_choice",
+      "questionText": "Add 4x + 3y = 5 and -4x + 2y = -10 to eliminate x. What y-value is in the solution?",
+      "options": [
+        "-1",
+        "2",
+        "0",
+        "1"
+      ],
+      "correctAnswer": "-1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-y"
+      ],
+      "explanation": "Adding removes the x-terms. Solve the remaining one-variable equation for y."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-028",
+      "type": "multiple_choice",
+      "questionText": "A system is 2x + 3y = -1 and -2x + 5y = -23. Why is multiplying an entire equation allowed before elimination?",
+      "options": [
+        "multiply every term in one equation by the same factor",
+        "it changes the solution so the numbers are easier",
+        "it makes any chosen ordered pair correct",
+        "it removes the need to check the second equation"
+      ],
+      "correctAnswer": "multiply every term in one equation by the same factor",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "equivalent-equations"
+      ],
+      "explanation": "Multiplying both sides of an equation by the same nonzero factor creates an equivalent equation with the same solutions."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-029",
+      "type": "multiple_choice",
+      "questionText": "A student used elimination and found x = -3. Which ordered pair solves 5x - y = -13 and 2x + 3y = -12?",
+      "options": [
+        "(-2, -2)",
+        "(-2, -3)",
+        "(-3, -2)",
+        "(-3, -1)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "substitute-back"
+      ],
+      "explanation": "After finding one variable, substitute it into either original equation to find the other variable."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-030",
+      "type": "multiple_choice",
+      "questionText": "After solving 2x - 5y = 23 and 6x + y = 21 by elimination, what is the best final check?",
+      "options": [
+        "make sure the two constants have the same sign",
+        "verify that the eliminated variable equals 0",
+        "check the ordered pair in both original equations",
+        "check only the equation that was multiplied"
+      ],
+      "correctAnswer": "check the ordered pair in both original equations",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "checking"
+      ],
+      "explanation": "A system solution must make every original equation true, so the final ordered pair should be checked in both equations."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-031",
+      "type": "multiple_choice",
+      "questionText": "Solve by elimination: 4x + 3y = 23 and -4x + 2y = 2. What is the solution?",
+      "options": [
+        "(2, 5)",
+        "(3, 5)",
+        "(2, 6)",
+        "(5, 2)"
+      ],
+      "correctAnswer": "(2, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "add-equations"
+      ],
+      "explanation": "The x-terms are opposites, so adding the equations eliminates x. Solve for y, then substitute to find x."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-032",
+      "type": "multiple_choice",
+      "questionText": "For 5x + 5y = 5 and -3x + 5y = -27, what happens if you subtract the second equation from the first?",
+      "options": [
+        "no variable is eliminated",
+        "y is eliminated",
+        "x is eliminated",
+        "both variables are eliminated"
+      ],
+      "correctAnswer": "y is eliminated",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "structure"
+      ],
+      "explanation": "The y-coefficients match. Subtracting equations with matching y-terms makes the y-term become zero."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-033",
+      "type": "multiple_choice",
+      "questionText": "Use elimination on 5x + 5y = -20 and -3x + 5y = 28. What x-value do you get after eliminating y?",
+      "options": [
+        "6",
+        "-6",
+        "2",
+        "-5"
+      ],
+      "correctAnswer": "-6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-x"
+      ],
+      "explanation": "Subtract the equations to eliminate y, then divide by the remaining x-coefficient."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-034",
+      "type": "multiple_choice",
+      "questionText": "Before eliminating x in 5x + 2y = -26 and 15x + 5y = -80, multiply the first equation by -3. Which equivalent equation results?",
+      "options": [
+        "15x + 6y = -78",
+        "5x - 6y = 78",
+        "-15x + 2y = 78",
+        "-15x - 6y = 78"
+      ],
+      "correctAnswer": "-15x - 6y = 78",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-equation"
+      ],
+      "explanation": "Multiplying an equation by a factor means multiplying every term on both sides by that factor."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-035",
+      "type": "multiple_choice",
+      "questionText": "After scaling one equation, solve by elimination: 3x - 3y = -21 and 6x + y = -7. What is the solution?",
+      "options": [
+        "(-1, 5)",
+        "(-2, 6)",
+        "(5, -2)",
+        "(-2, 5)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-then-solve"
+      ],
+      "explanation": "Scale one equation so a pair of variable terms are opposites, add to eliminate that variable, then substitute back."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-036",
+      "type": "multiple_choice",
+      "questionText": "Which first move is most efficient for 4x + 3y = 26 and -4x + 2y = -16?",
+      "options": [
+        "add the equations",
+        "multiply only the constants by -1",
+        "subtract the equations",
+        "divide both equations by the y-coefficients"
+      ],
+      "correctAnswer": "add the equations",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "strategy"
+      ],
+      "explanation": "The x-coefficients are already opposites, so adding the equations is the efficient elimination step."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-037",
+      "type": "multiple_choice",
+      "questionText": "Add 4x + 3y = -7 and -4x + 2y = 22 to eliminate x. What y-value is in the solution?",
+      "options": [
+        "4",
+        "-3",
+        "3",
+        "-4"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-y"
+      ],
+      "explanation": "Adding removes the x-terms. Solve the remaining one-variable equation for y."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-038",
+      "type": "multiple_choice",
+      "questionText": "A system is 2x + 3y = -1 and -2x + 5y = -23. Why is multiplying an entire equation allowed before elimination?",
+      "options": [
+        "it changes the solution so the numbers are easier",
+        "it removes the need to check the second equation",
+        "it makes any chosen ordered pair correct",
+        "multiply every term in one equation by the same factor"
+      ],
+      "correctAnswer": "multiply every term in one equation by the same factor",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "equivalent-equations"
+      ],
+      "explanation": "Multiplying both sides of an equation by the same nonzero factor creates an equivalent equation with the same solutions."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-039",
+      "type": "multiple_choice",
+      "questionText": "A student used elimination and found x = -3. Which ordered pair solves 5x - y = -13 and 2x + 3y = -12?",
+      "options": [
+        "(-3, -1)",
+        "(-3, -2)",
+        "(-2, -3)",
+        "(-2, -2)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "substitute-back"
+      ],
+      "explanation": "After finding one variable, substitute it into either original equation to find the other variable."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-040",
+      "type": "multiple_choice",
+      "questionText": "After solving 2x - 5y = 23 and 6x + y = 21 by elimination, what is the best final check?",
+      "options": [
+        "check the ordered pair in both original equations",
+        "check only the equation that was multiplied",
+        "make sure the two constants have the same sign",
+        "verify that the eliminated variable equals 0"
+      ],
+      "correctAnswer": "check the ordered pair in both original equations",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "checking"
+      ],
+      "explanation": "A system solution must make every original equation true, so the final ordered pair should be checked in both equations."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-041",
+      "type": "multiple_choice",
+      "questionText": "Solve by elimination: 4x + 3y = 5 and -4x + 2y = -10. What is the solution?",
+      "options": [
+        "(2, -1)",
+        "(2, 0)",
+        "(3, -1)",
+        "(-1, 2)"
+      ],
+      "correctAnswer": "(2, -1)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "add-equations"
+      ],
+      "explanation": "The x-terms are opposites, so adding the equations eliminates x. Solve for y, then substitute to find x."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-042",
+      "type": "multiple_choice",
+      "questionText": "For 5x + 5y = 15 and -3x + 5y = 31, what happens if you subtract the second equation from the first?",
+      "options": [
+        "both variables are eliminated",
+        "y is eliminated",
+        "x is eliminated",
+        "no variable is eliminated"
+      ],
+      "correctAnswer": "y is eliminated",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "structure"
+      ],
+      "explanation": "The y-coefficients match. Subtracting equations with matching y-terms makes the y-term become zero."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-043",
+      "type": "multiple_choice",
+      "questionText": "Use elimination on 5x + 5y = 35 and -3x + 5y = 11. What x-value do you get after eliminating y?",
+      "options": [
+        "-3",
+        "4",
+        "2",
+        "3"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-x"
+      ],
+      "explanation": "Subtract the equations to eliminate y, then divide by the remaining x-coefficient."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-044",
+      "type": "multiple_choice",
+      "questionText": "Before eliminating x in 5x + 2y = -19 and 15x + 5y = -55, multiply the first equation by -3. Which equivalent equation results?",
+      "options": [
+        "-15x + 2y = 57",
+        "-15x - 6y = 57",
+        "5x - 6y = 57",
+        "15x + 6y = -57"
+      ],
+      "correctAnswer": "-15x - 6y = 57",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-equation"
+      ],
+      "explanation": "Multiplying an equation by a factor means multiplying every term on both sides by that factor."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-045",
+      "type": "multiple_choice",
+      "questionText": "After scaling one equation, solve by elimination: 3x - 3y = 12 and 6x + y = -4. What is the solution?",
+      "options": [
+        "(-4, 0)",
+        "(0, -4)",
+        "(0, -3)",
+        "(1, -4)"
+      ],
+      "correctAnswer": "(0, -4)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "scale-then-solve"
+      ],
+      "explanation": "Scale one equation so a pair of variable terms are opposites, add to eliminate that variable, then substitute back."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-046",
+      "type": "multiple_choice",
+      "questionText": "Which first move is most efficient for 4x + 3y = -1 and -4x + 2y = 6?",
+      "options": [
+        "subtract the equations",
+        "multiply only the constants by -1",
+        "divide both equations by the y-coefficients",
+        "add the equations"
+      ],
+      "correctAnswer": "add the equations",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "strategy"
+      ],
+      "explanation": "The x-coefficients are already opposites, so adding the equations is the efficient elimination step."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-047",
+      "type": "multiple_choice",
+      "questionText": "Add 4x + 3y = 7 and -4x + 2y = -22 to eliminate x. What y-value is in the solution?",
+      "options": [
+        "-2",
+        "-3",
+        "4",
+        "3"
+      ],
+      "correctAnswer": "-3",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "solve-y"
+      ],
+      "explanation": "Adding removes the x-terms. Solve the remaining one-variable equation for y."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-048",
+      "type": "multiple_choice",
+      "questionText": "A system is 2x + 3y = -1 and -2x + 5y = -23. Why is multiplying an entire equation allowed before elimination?",
+      "options": [
+        "it changes the solution so the numbers are easier",
+        "it makes any chosen ordered pair correct",
+        "it removes the need to check the second equation",
+        "multiply every term in one equation by the same factor"
+      ],
+      "correctAnswer": "multiply every term in one equation by the same factor",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "equivalent-equations"
+      ],
+      "explanation": "Multiplying both sides of an equation by the same nonzero factor creates an equivalent equation with the same solutions."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-049",
+      "type": "multiple_choice",
+      "questionText": "A student used elimination and found x = -3. Which ordered pair solves 5x - y = -13 and 2x + 3y = -12?",
+      "options": [
+        "(-3, -2)",
+        "(-3, -1)",
+        "(-2, -3)",
+        "(-2, -2)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "substitute-back"
+      ],
+      "explanation": "After finding one variable, substitute it into either original equation to find the other variable."
+    },
+    {
+      "id": "course3-solve-systems-elimination-core-050",
+      "type": "multiple_choice",
+      "questionText": "After solving 2x - 5y = 23 and 6x + y = 21 by elimination, what is the best final check?",
+      "options": [
+        "verify that the eliminated variable equals 0",
+        "check only the equation that was multiplied",
+        "make sure the two constants have the same sign",
+        "check the ordered pair in both original equations"
+      ],
+      "correctAnswer": "check the ordered pair in both original equations",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "elimination",
+        "checking"
+      ],
+      "explanation": "A system solution must make every original equation true, so the final ordered pair should be checked in both equations."
+    }
+  ]
+}
