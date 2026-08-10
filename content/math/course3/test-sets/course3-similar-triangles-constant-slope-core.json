@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise 5 and run 2, and a larger slope triangle with rise 10 and run 4. What does this show?",
       "options": [
-        "Both triangles show slope 5/2",
         "The larger triangle has slope 2/5",
         "The slope changes from 5/2 to 11/4",
+        "Both triangles show slope 5/2",
         "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope 5/2",
@@ -32,8 +32,8 @@
       "options": [
         "The slope changes from 5/3 to 31/18",
         "Both triangles show slope 5/3",
-        "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope 3/5"
+        "The larger triangle has slope 3/5",
+        "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope 5/3",
       "difficulty": "scaffold",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "A student draws two right triangles under a line. Their rise/run ratios are -15/12 and -60/48. What conclusion is valid?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
         "Both triangles show slope -5/4",
         "The slope changes from -5/4 to -59/48",
-        "The larger triangle has slope -4/5"
+        "The larger triangle has slope -4/5",
+        "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope -5/4",
       "difficulty": "scaffold",
@@ -70,10 +70,10 @@
       "type": "multiple_choice",
       "questionText": "Why do the triangles with legs (1, -1) and (5, -5) give the same steepness?",
       "options": [
-        "Both triangles show slope -1",
-        "The larger triangle has slope -1",
         "The slope changes from -1 to -4/5",
-        "Similar slope triangles cannot be used to find slope"
+        "Similar slope triangles cannot be used to find slope",
+        "Both triangles show slope -1",
+        "The larger triangle has slope -1"
       ],
       "correctAnswer": "Both triangles show slope -1",
       "difficulty": "scaffold",
@@ -90,10 +90,10 @@
       "type": "multiple_choice",
       "questionText": "A graph uses a small slope triangle and a scaled copy. Which statement matches rise -4, run 10, rise -8, run 20?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -5/2",
+        "Both triangles show slope -2/5",
         "The slope changes from -2/5 to -7/20",
-        "Both triangles show slope -2/5"
+        "The larger triangle has slope -5/2",
+        "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope -2/5",
       "difficulty": "scaffold",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "The larger slope triangle is 3 times the smaller one. What happens to the slope?",
       "options": [
-        "Both triangles show slope -3",
+        "The larger triangle has slope -1/3",
         "The slope changes from -3 to -26/9",
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -1/3"
+        "Both triangles show slope -3"
       ],
       "correctAnswer": "Both triangles show slope -3",
       "difficulty": "scaffold",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "For a line, one triangle has vertical change -8 and horizontal change 3. A similar triangle has -32 and 12. Which slope is represented?",
       "options": [
-        "The larger triangle has slope -3/8",
-        "The slope changes from -8/3 to -31/12",
         "Both triangles show slope -8/3",
-        "Similar slope triangles cannot be used to find slope"
+        "The slope changes from -8/3 to -31/12",
+        "Similar slope triangles cannot be used to find slope",
+        "The larger triangle has slope -3/8"
       ],
       "correctAnswer": "Both triangles show slope -8/3",
       "difficulty": "scaffold",
@@ -150,8 +150,8 @@
       "type": "multiple_choice",
       "questionText": "A student worries the larger triangle should have a larger slope. Which answer explains the correct slope?",
       "options": [
-        "The slope changes from -9/2 to -89/20",
         "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -9/2 to -89/20",
         "Both triangles show slope -9/2",
         "The larger triangle has slope -2/9"
       ],
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -3 and run 9, and a larger slope triangle with rise -6 and run 18. What does this show?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
         "Both triangles show slope -1/3",
-        "The slope changes from -1/3 to -5/18",
-        "The larger triangle has slope -3"
+        "The larger triangle has slope -3",
+        "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -1/3 to -5/18"
       ],
       "correctAnswer": "Both triangles show slope -1/3",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Two slope triangles on the same line are similar. The small triangle is rise -9, run 4; the large triangle is rise -27, run 12. What slope do both give?",
       "options": [
-        "The slope changes from -9/4 to -13/6",
-        "Both triangles show slope -9/4",
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -4/9"
+        "The slope changes from -9/4 to -13/6",
+        "The larger triangle has slope -4/9",
+        "Both triangles show slope -9/4"
       ],
       "correctAnswer": "Both triangles show slope -9/4",
       "difficulty": "scaffold",
@@ -210,10 +210,10 @@
       "type": "multiple_choice",
       "questionText": "A student draws two right triangles under a line. Their rise/run ratios are -6/10 and -24/40. What conclusion is valid?",
       "options": [
-        "Both triangles show slope -3/5",
+        "The slope changes from -3/5 to -23/40",
         "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope -5/3",
-        "The slope changes from -3/5 to -23/40"
+        "Both triangles show slope -3/5"
       ],
       "correctAnswer": "Both triangles show slope -3/5",
       "difficulty": "standard",
@@ -230,10 +230,10 @@
       "type": "multiple_choice",
       "questionText": "Why do the triangles with legs (18, -21) and (90, -105) give the same steepness?",
       "options": [
-        "The larger triangle has slope -6/7",
-        "The slope changes from -7/6 to -52/45",
         "Similar slope triangles cannot be used to find slope",
-        "Both triangles show slope -7/6"
+        "Both triangles show slope -7/6",
+        "The slope changes from -7/6 to -52/45",
+        "The larger triangle has slope -6/7"
       ],
       "correctAnswer": "Both triangles show slope -7/6",
       "difficulty": "standard",
@@ -251,9 +251,9 @@
       "questionText": "A graph uses a small slope triangle and a scaled copy. Which statement matches rise 2, run 3, rise 4, run 6?",
       "options": [
         "The larger triangle has slope 3/2",
+        "Similar slope triangles cannot be used to find slope",
         "Both triangles show slope 2/3",
-        "The slope changes from 2/3 to 5/6",
-        "Similar slope triangles cannot be used to find slope"
+        "The slope changes from 2/3 to 5/6"
       ],
       "correctAnswer": "Both triangles show slope 2/3",
       "difficulty": "standard",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "The larger slope triangle is 3 times the smaller one. What happens to the slope?",
       "options": [
-        "The slope changes from -3/2 to -17/12",
-        "Similar slope triangles cannot be used to find slope",
+        "The larger triangle has slope -2/3",
         "Both triangles show slope -3/2",
-        "The larger triangle has slope -2/3"
+        "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -3/2 to -17/12"
       ],
       "correctAnswer": "Both triangles show slope -3/2",
       "difficulty": "standard",
@@ -292,8 +292,8 @@
       "options": [
         "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope 4/7",
-        "The slope changes from 7/4 to 85/48",
-        "Both triangles show slope 7/4"
+        "Both triangles show slope 7/4",
+        "The slope changes from 7/4 to 85/48"
       ],
       "correctAnswer": "Both triangles show slope 7/4",
       "difficulty": "standard",
@@ -310,10 +310,10 @@
       "type": "multiple_choice",
       "questionText": "A student worries the larger triangle should have a larger slope. Which answer explains the correct slope?",
       "options": [
-        "The larger triangle has slope -3/4",
-        "The slope changes from -4/3 to -19/15",
         "Both triangles show slope -4/3",
-        "Similar slope triangles cannot be used to find slope"
+        "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -4/3 to -19/15",
+        "The larger triangle has slope -3/4"
       ],
       "correctAnswer": "Both triangles show slope -4/3",
       "difficulty": "standard",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -10 and run 4, and a larger slope triangle with rise -20 and run 8. What does this show?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
-        "The slope changes from -5/2 to -19/8",
         "Both triangles show slope -5/2",
-        "The larger triangle has slope -2/5"
+        "The slope changes from -5/2 to -19/8",
+        "The larger triangle has slope -2/5",
+        "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope -5/2",
       "difficulty": "standard",
@@ -350,10 +350,10 @@
       "type": "multiple_choice",
       "questionText": "Two slope triangles on the same line are similar. The small triangle is rise -21, run 9; the large triangle is rise -63, run 27. What slope do both give?",
       "options": [
-        "The larger triangle has slope -3/7",
-        "Both triangles show slope -7/3",
         "The slope changes from -7/3 to -62/27",
-        "Similar slope triangles cannot be used to find slope"
+        "The larger triangle has slope -3/7",
+        "Similar slope triangles cannot be used to find slope",
+        "Both triangles show slope -7/3"
       ],
       "correctAnswer": "Both triangles show slope -7/3",
       "difficulty": "standard",
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "Why do the triangles with legs (10, -8) and (50, -40) give the same steepness?",
       "options": [
-        "Both triangles show slope -4/5",
-        "The larger triangle has slope -5/4",
         "The slope changes from -4/5 to -39/50",
-        "Similar slope triangles cannot be used to find slope"
+        "Both triangles show slope -4/5",
+        "Similar slope triangles cannot be used to find slope",
+        "The larger triangle has slope -5/4"
       ],
       "correctAnswer": "Both triangles show slope -4/5",
       "difficulty": "standard",
@@ -410,10 +410,10 @@
       "type": "multiple_choice",
       "questionText": "A graph uses a small slope triangle and a scaled copy. Which statement matches rise -21, run 12, rise -42, run 24?",
       "options": [
-        "The slope changes from -7/4 to -41/24",
         "Both triangles show slope -7/4",
+        "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope -4/7",
-        "Similar slope triangles cannot be used to find slope"
+        "The slope changes from -7/4 to -41/24"
       ],
       "correctAnswer": "Both triangles show slope -7/4",
       "difficulty": "standard",
@@ -431,9 +431,9 @@
       "questionText": "The larger slope triangle is 3 times the smaller one. What happens to the slope?",
       "options": [
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -3/5",
         "Both triangles show slope -5/3",
-        "The slope changes from -5/3 to -14/9"
+        "The slope changes from -5/3 to -14/9",
+        "The larger triangle has slope -3/5"
       ],
       "correctAnswer": "Both triangles show slope -5/3",
       "difficulty": "standard",
@@ -450,10 +450,10 @@
       "type": "multiple_choice",
       "questionText": "For a line, one triangle has vertical change -22 and horizontal change 6. A similar triangle has -88 and 24. Which slope is represented?",
       "options": [
-        "Both triangles show slope -11/3",
+        "The larger triangle has slope -3/11",
         "The slope changes from -11/3 to -29/8",
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -3/11"
+        "Both triangles show slope -11/3"
       ],
       "correctAnswer": "Both triangles show slope -11/3",
       "difficulty": "standard",
@@ -471,8 +471,8 @@
       "questionText": "A student worries the larger triangle should have a larger slope. Which answer explains the correct slope?",
       "options": [
         "The larger triangle has slope -3/2",
-        "The slope changes from -2/3 to -29/45",
         "Both triangles show slope -2/3",
+        "The slope changes from -2/3 to -29/45",
         "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope -2/3",
@@ -491,9 +491,9 @@
       "questionText": "A line has one slope triangle with rise 3 and run 1, and a larger slope triangle with rise 6 and run 2. What does this show?",
       "options": [
         "Both triangles show slope 3",
+        "The slope changes from 3 to 7/2",
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope 1/3",
-        "The slope changes from 3 to 7/2"
+        "The larger triangle has slope 1/3"
       ],
       "correctAnswer": "Both triangles show slope 3",
       "difficulty": "standard",
@@ -511,8 +511,8 @@
       "questionText": "Two slope triangles on the same line are similar. The small triangle is rise 10, run 4; the large triangle is rise 30, run 12. What slope do both give?",
       "options": [
         "The slope changes from 5/2 to 31/12",
-        "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope 2/5",
+        "Similar slope triangles cannot be used to find slope",
         "Both triangles show slope 5/2"
       ],
       "correctAnswer": "Both triangles show slope 5/2",
@@ -530,10 +530,10 @@
       "type": "multiple_choice",
       "questionText": "A student draws two right triangles under a line. Their rise/run ratios are 15/9 and 60/36. What conclusion is valid?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
         "The slope changes from 5/3 to 61/36",
         "The larger triangle has slope 3/5",
-        "Both triangles show slope 5/3"
+        "Both triangles show slope 5/3",
+        "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope 5/3",
       "difficulty": "standard",
@@ -550,10 +550,10 @@
       "type": "multiple_choice",
       "questionText": "Why do the triangles with legs (4, -5) and (20, -25) give the same steepness?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
-        "Both triangles show slope -5/4",
         "The larger triangle has slope -4/5",
-        "The slope changes from -5/4 to -6/5"
+        "Both triangles show slope -5/4",
+        "The slope changes from -5/4 to -6/5",
+        "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope -5/4",
       "difficulty": "standard",
@@ -570,10 +570,10 @@
       "type": "multiple_choice",
       "questionText": "A graph uses a small slope triangle and a scaled copy. Which statement matches rise -2, run 2, rise -4, run 4?",
       "options": [
-        "Both triangles show slope -1",
         "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -1 to -3/4",
         "The larger triangle has slope -1",
-        "The slope changes from -1 to -3/4"
+        "Both triangles show slope -1"
       ],
       "correctAnswer": "Both triangles show slope -1",
       "difficulty": "standard",
@@ -590,10 +590,10 @@
       "type": "multiple_choice",
       "questionText": "The larger slope triangle is 3 times the smaller one. What happens to the slope?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -5/2",
         "The slope changes from -2/5 to -17/45",
-        "Both triangles show slope -2/5"
+        "Both triangles show slope -2/5",
+        "Similar slope triangles cannot be used to find slope",
+        "The larger triangle has slope -5/2"
       ],
       "correctAnswer": "Both triangles show slope -2/5",
       "difficulty": "standard",
@@ -610,10 +610,10 @@
       "type": "multiple_choice",
       "questionText": "For a line, one triangle has vertical change -3 and horizontal change 1. A similar triangle has -12 and 4. Which slope is represented?",
       "options": [
-        "The larger triangle has slope -1/3",
-        "The slope changes from -3 to -11/4",
         "Both triangles show slope -3",
-        "Similar slope triangles cannot be used to find slope"
+        "The larger triangle has slope -1/3",
+        "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -3 to -11/4"
       ],
       "correctAnswer": "Both triangles show slope -3",
       "difficulty": "standard",
@@ -630,10 +630,10 @@
       "type": "multiple_choice",
       "questionText": "A student worries the larger triangle should have a larger slope. Which answer explains the correct slope?",
       "options": [
+        "Both triangles show slope -8/3",
         "Similar slope triangles cannot be used to find slope",
         "The slope changes from -8/3 to -79/30",
-        "The larger triangle has slope -3/8",
-        "Both triangles show slope -8/3"
+        "The larger triangle has slope -3/8"
       ],
       "correctAnswer": "Both triangles show slope -8/3",
       "difficulty": "standard",
@@ -650,10 +650,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -27 and run 6, and a larger slope triangle with rise -54 and run 12. What does this show?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
         "The slope changes from -9/2 to -53/12",
-        "Both triangles show slope -9/2",
-        "The larger triangle has slope -2/9"
+        "The larger triangle has slope -2/9",
+        "Similar slope triangles cannot be used to find slope",
+        "Both triangles show slope -9/2"
       ],
       "correctAnswer": "Both triangles show slope -9/2",
       "difficulty": "standard",
@@ -670,10 +670,10 @@
       "type": "multiple_choice",
       "questionText": "Two slope triangles on the same line are similar. The small triangle is rise -1, run 3; the large triangle is rise -3, run 9. What slope do both give?",
       "options": [
-        "Both triangles show slope -1/3",
-        "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope -3",
-        "The slope changes from -1/3 to -2/9"
+        "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -1/3 to -2/9",
+        "Both triangles show slope -1/3"
       ],
       "correctAnswer": "Both triangles show slope -1/3",
       "difficulty": "standard",
@@ -691,9 +691,9 @@
       "questionText": "A student draws two right triangles under a line. Their rise/run ratios are -18/8 and -72/32. What conclusion is valid?",
       "options": [
         "The slope changes from -9/4 to -71/32",
-        "The larger triangle has slope -4/9",
+        "Similar slope triangles cannot be used to find slope",
         "Both triangles show slope -9/4",
-        "Similar slope triangles cannot be used to find slope"
+        "The larger triangle has slope -4/9"
       ],
       "correctAnswer": "Both triangles show slope -9/4",
       "difficulty": "standard",
@@ -710,10 +710,10 @@
       "type": "multiple_choice",
       "questionText": "Why do the triangles with legs (15, -9) and (75, -45) give the same steepness?",
       "options": [
-        "The larger triangle has slope -5/3",
-        "Both triangles show slope -3/5",
         "The slope changes from -3/5 to -44/75",
-        "Similar slope triangles cannot be used to find slope"
+        "Similar slope triangles cannot be used to find slope",
+        "Both triangles show slope -3/5",
+        "The larger triangle has slope -5/3"
       ],
       "correctAnswer": "Both triangles show slope -3/5",
       "difficulty": "challenge",
@@ -731,9 +731,9 @@
       "questionText": "A graph uses a small slope triangle and a scaled copy. Which statement matches rise -7, run 6, rise -14, run 12?",
       "options": [
         "Similar slope triangles cannot be used to find slope",
-        "The slope changes from -7/6 to -13/12",
+        "Both triangles show slope -7/6",
         "The larger triangle has slope -6/7",
-        "Both triangles show slope -7/6"
+        "The slope changes from -7/6 to -13/12"
       ],
       "correctAnswer": "Both triangles show slope -7/6",
       "difficulty": "challenge",
@@ -750,10 +750,10 @@
       "type": "multiple_choice",
       "questionText": "The larger slope triangle is 3 times the smaller one. What happens to the slope?",
       "options": [
-        "Both triangles show slope 2/3",
         "The slope changes from 2/3 to 13/18",
+        "The larger triangle has slope 3/2",
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope 3/2"
+        "Both triangles show slope 2/3"
       ],
       "correctAnswer": "Both triangles show slope 2/3",
       "difficulty": "challenge",
@@ -771,9 +771,9 @@
       "questionText": "For a line, one triangle has vertical change -9 and horizontal change 6. A similar triangle has -36 and 24. Which slope is represented?",
       "options": [
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -2/3",
+        "The slope changes from -3/2 to -35/24",
         "Both triangles show slope -3/2",
-        "The slope changes from -3/2 to -35/24"
+        "The larger triangle has slope -2/3"
       ],
       "correctAnswer": "Both triangles show slope -3/2",
       "difficulty": "challenge",
@@ -790,10 +790,10 @@
       "type": "multiple_choice",
       "questionText": "A student worries the larger triangle should have a larger slope. Which answer explains the correct slope?",
       "options": [
-        "The larger triangle has slope 4/7",
         "The slope changes from 7/4 to 9/5",
         "Both triangles show slope 7/4",
-        "Similar slope triangles cannot be used to find slope"
+        "Similar slope triangles cannot be used to find slope",
+        "The larger triangle has slope 4/7"
       ],
       "correctAnswer": "Both triangles show slope 7/4",
       "difficulty": "challenge",
@@ -810,10 +810,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -8 and run 6, and a larger slope triangle with rise -16 and run 12. What does this show?",
       "options": [
-        "Both triangles show slope -4/3",
         "Similar slope triangles cannot be used to find slope",
+        "The slope changes from -4/3 to -5/4",
         "The larger triangle has slope -3/4",
-        "The slope changes from -4/3 to -5/4"
+        "Both triangles show slope -4/3"
       ],
       "correctAnswer": "Both triangles show slope -4/3",
       "difficulty": "challenge",
@@ -830,10 +830,10 @@
       "type": "multiple_choice",
       "questionText": "Two slope triangles on the same line are similar. The small triangle is rise -15, run 6; the large triangle is rise -45, run 18. What slope do both give?",
       "options": [
-        "The slope changes from -5/2 to -22/9",
+        "Both triangles show slope -5/2",
         "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope -2/5",
-        "Both triangles show slope -5/2"
+        "The slope changes from -5/2 to -22/9"
       ],
       "correctAnswer": "Both triangles show slope -5/2",
       "difficulty": "challenge",
@@ -850,10 +850,10 @@
       "type": "multiple_choice",
       "questionText": "A student draws two right triangles under a line. Their rise/run ratios are -7/3 and -28/12. What conclusion is valid?",
       "options": [
-        "The larger triangle has slope -3/7",
-        "Both triangles show slope -7/3",
+        "Similar slope triangles cannot be used to find slope",
         "The slope changes from -7/3 to -9/4",
-        "Similar slope triangles cannot be used to find slope"
+        "The larger triangle has slope -3/7",
+        "Both triangles show slope -7/3"
       ],
       "correctAnswer": "Both triangles show slope -7/3",
       "difficulty": "challenge",
@@ -870,10 +870,10 @@
       "type": "multiple_choice",
       "questionText": "Why do the triangles with legs (10, -12) and (50, -60) give the same steepness?",
       "options": [
-        "The larger triangle has slope -5/6",
-        "Both triangles show slope -6/5",
         "The slope changes from -6/5 to -59/50",
-        "Similar slope triangles cannot be used to find slope"
+        "Both triangles show slope -6/5",
+        "Similar slope triangles cannot be used to find slope",
+        "The larger triangle has slope -5/6"
       ],
       "correctAnswer": "Both triangles show slope -6/5",
       "difficulty": "challenge",
@@ -890,10 +890,10 @@
       "type": "multiple_choice",
       "questionText": "A graph uses a small slope triangle and a scaled copy. Which statement matches rise -12, run 15, rise -24, run 30?",
       "options": [
-        "The larger triangle has slope -5/4",
-        "The slope changes from -4/5 to -23/30",
         "Similar slope triangles cannot be used to find slope",
-        "Both triangles show slope -4/5"
+        "Both triangles show slope -4/5",
+        "The slope changes from -4/5 to -23/30",
+        "The larger triangle has slope -5/4"
       ],
       "correctAnswer": "Both triangles show slope -4/5",
       "difficulty": "challenge",
@@ -910,8 +910,8 @@
       "type": "multiple_choice",
       "questionText": "The larger slope triangle is 3 times the smaller one. What happens to the slope?",
       "options": [
-        "The slope changes from -7/4 to -5/3",
         "Both triangles show slope -7/4",
+        "The slope changes from -7/4 to -5/3",
         "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope -4/7"
       ],
@@ -930,10 +930,10 @@
       "type": "multiple_choice",
       "questionText": "For a line, one triangle has vertical change -10 and horizontal change 6. A similar triangle has -40 and 24. Which slope is represented?",
       "options": [
-        "Both triangles show slope -5/3",
         "The slope changes from -5/3 to -13/8",
-        "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -3/5"
+        "The larger triangle has slope -3/5",
+        "Both triangles show slope -5/3",
+        "Similar slope triangles cannot be used to find slope"
       ],
       "correctAnswer": "Both triangles show slope -5/3",
       "difficulty": "challenge",
@@ -950,10 +950,10 @@
       "type": "multiple_choice",
       "questionText": "A student worries the larger triangle should have a larger slope. Which answer explains the correct slope?",
       "options": [
+        "Both triangles show slope -11/3",
         "Similar slope triangles cannot be used to find slope",
         "The larger triangle has slope -3/11",
-        "The slope changes from -11/3 to -164/45",
-        "Both triangles show slope -11/3"
+        "The slope changes from -11/3 to -164/45"
       ],
       "correctAnswer": "Both triangles show slope -11/3",
       "difficulty": "challenge",
@@ -970,10 +970,10 @@
       "type": "multiple_choice",
       "questionText": "A line has one slope triangle with rise -2 and run 3, and a larger slope triangle with rise -4 and run 6. What does this show?",
       "options": [
-        "Both triangles show slope -2/3",
-        "The slope changes from -2/3 to -1/2",
+        "The larger triangle has slope -3/2",
         "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope -3/2"
+        "Both triangles show slope -2/3",
+        "The slope changes from -2/3 to -1/2"
       ],
       "correctAnswer": "Both triangles show slope -2/3",
       "difficulty": "challenge",
@@ -990,10 +990,10 @@
       "type": "multiple_choice",
       "questionText": "Two slope triangles on the same line are similar. The small triangle is rise 6, run 2; the large triangle is rise 18, run 6. What slope do both give?",
       "options": [
-        "Similar slope triangles cannot be used to find slope",
-        "The larger triangle has slope 1/3",
         "The slope changes from 3 to 19/6",
-        "Both triangles show slope 3"
+        "Similar slope triangles cannot be used to find slope",
+        "Both triangles show slope 3",
+        "The larger triangle has slope 1/3"
       ],
       "correctAnswer": "Both triangles show slope 3",
       "difficulty": "challenge",

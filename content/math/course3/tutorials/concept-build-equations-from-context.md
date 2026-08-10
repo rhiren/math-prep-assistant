@@ -2,42 +2,48 @@
 
 ## Big Idea
 
-Linear equations stay true when you make the same valid move to both sides. The goal is not to memorize a trick; the goal is to keep the two sides balanced until the value of the variable is clear.
+A context becomes an equation when you name the unknown and translate the relationships carefully. The hardest part is usually deciding what the variable represents.
 
-## What To Watch For
+## What To Notice
 
-- Identify the variable and what it represents.
-- Simplify each side before moving terms.
-- Move variable terms and constant terms with inverse operations.
-- If fractions or decimals make the equation hard to read, clear them first.
-- Check the answer in the original equation, not only in the last line of work.
+- Define the variable before writing any equation.
+- Look for words that describe equal quantities.
+- Convert repeated groups into multiplication.
+- Convert totals, differences, and starting amounts into expressions.
+- Keep units in mind so both sides of the equation describe the same kind of quantity.
 
 ## Worked Example
 
-Solve: `1/2x + 3 = 1/4x + 7`
+Maya buys 3 notebooks and a $4 pen. The total is $19. Each notebook costs the same amount.
 
-1. Subtract `1/4x` from both sides: `1/4x + 3 = 7`
-2. Subtract 3 from both sides: `1/4x = 4`
-3. Multiply both sides by 4: `x = 16`
-4. Check: `1/2(16) + 3 = 11` and `1/4(16) + 7 = 11`
+Let `n` be the cost of one notebook.
+
+Three notebooks cost `3n`.
+
+The pen adds 4 dollars, so the equation is:
+
+`3n + 4 = 19`
+
+Solve:
+
+`3n = 15`
+
+`n = 5`
+
+Each notebook costs $5.
 
 ## Strategy
 
-Ask: What is making the equation complicated?
-
-| If you see... | Try... |
-| --- | --- |
-| Fractions | multiply every term by a common denominator |
-| Parentheses | distribute first |
-| Variables on both sides | move one variable term to the other side |
-| Same expression on both sides | check for infinitely many solutions |
-| Same variable term but different constants | check for no solution |
-| A story problem | define the variable before writing the equation |
+1. Name the unknown.
+2. Write expressions for each part of the situation.
+3. Use an equals sign only when two quantities are equal.
+4. Solve the equation.
+5. Answer the original question in words.
 
 ## Common Mistake
 
-Do not move a term by simply changing where it appears. Use an inverse operation on both sides. For example, from `3x + 5 = x + 17`, subtract `x` from both sides to get `2x + 5 = 17`.
+Do not let the variable mean two different things. If `n` means the cost of one notebook, then `3n` means the cost of three notebooks.
 
 ## Quick Self-Check
 
-After solving, substitute the value back into the original equation. If both sides match, the solution works. If they do not match, look for a distribution, sign, or fraction-clearing mistake.
+Read your equation back as a sentence. If the sentence matches the story, your setup is probably correct.

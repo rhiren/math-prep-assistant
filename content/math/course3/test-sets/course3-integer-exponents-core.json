@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "In the expression 5³, what is the base?",
       "options": [
-        "125",
-        "15",
         "5",
+        "15",
+        "125",
         "3"
       ],
       "correctAnswer": "5",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "What does the exponent 4 mean in 7⁴?",
       "options": [
-        "Use 7 as a factor four times",
+        "Add four 7s",
         "Use 4 as a factor seven times",
         "Multiply 7 by 4",
-        "Add four 7s"
+        "Use 7 as a factor four times"
       ],
       "correctAnswer": "Use 7 as a factor four times",
       "difficulty": "scaffold",
@@ -47,9 +47,9 @@
       "questionText": "Evaluate 2⁵.",
       "options": [
         "32",
-        "25",
+        "64",
         "10",
-        "64"
+        "25"
       ],
       "correctAnswer": "32",
       "difficulty": "scaffold",
@@ -66,8 +66,8 @@
       "options": [
         "64",
         "12",
-        "81",
-        "27"
+        "27",
+        "81"
       ],
       "correctAnswer": "81",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (-2)³.",
       "options": [
-        "6",
-        "-6",
         "8",
-        "-8"
+        "-8",
+        "-6",
+        "6"
       ],
       "correctAnswer": "-8",
       "difficulty": "scaffold",
@@ -100,10 +100,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (-2)⁴.",
       "options": [
-        "-8",
         "16",
         "8",
-        "-16"
+        "-16",
+        "-8"
       ],
       "correctAnswer": "16",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate -2⁴.",
       "options": [
-        "8",
         "16",
+        "-16",
         "-8",
-        "-16"
+        "8"
       ],
       "correctAnswer": "-16",
       "difficulty": "scaffold",
@@ -137,9 +137,9 @@
       "questionText": "Which repeated multiplication represents x³?",
       "options": [
         "3 × x",
-        "x × x × x",
         "x × 3 × 3",
-        "x + x + x"
+        "x + x + x",
+        "x × x × x"
       ],
       "correctAnswer": "x × x × x",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify x² × x⁴.",
       "options": [
+        "x²",
         "2x⁶",
-        "x⁸",
         "x⁶",
-        "x²"
+        "x⁸"
       ],
       "correctAnswer": "x⁶",
       "difficulty": "scaffold",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "For y ≠ 0, simplify y⁷ ÷ y³.",
       "options": [
-        "4y",
-        "y²¹",
         "y⁴",
-        "y¹⁰"
+        "4y",
+        "y¹⁰",
+        "y²¹"
       ],
       "correctAnswer": "y⁴",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify a³ × a⁵.",
       "options": [
+        "a⁸",
         "2a⁸",
-        "a²",
         "a¹⁵",
-        "a⁸"
+        "a²"
       ],
       "correctAnswer": "a⁸",
       "difficulty": "standard",
@@ -209,9 +209,9 @@
       "questionText": "For m ≠ 0, simplify m⁹ ÷ m⁴.",
       "options": [
         "m¹³",
-        "m³⁶",
+        "5m",
         "m⁵",
-        "5m"
+        "m³⁶"
       ],
       "correctAnswer": "m⁵",
       "difficulty": "standard",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (p³)⁴.",
       "options": [
-        "p⁸¹",
         "p¹²",
-        "p⁷",
-        "4p³"
+        "4p³",
+        "p⁸¹",
+        "p⁷"
       ],
       "correctAnswer": "p¹²",
       "difficulty": "standard",
@@ -244,10 +244,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2x)³.",
       "options": [
-        "8x",
+        "2x³",
         "6x³",
         "8x³",
-        "2x³"
+        "8x"
       ],
       "correctAnswer": "8x³",
       "difficulty": "standard",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (ab)⁴.",
       "options": [
-        "ab⁴",
-        "a⁴b⁴",
+        "4ab",
         "a⁴b",
-        "4ab"
+        "a⁴b⁴",
+        "ab⁴"
       ],
       "correctAnswer": "a⁴b⁴",
       "difficulty": "standard",
@@ -299,9 +299,9 @@
       "questionText": "Write 2³ × 2⁴ as one power of 2.",
       "options": [
         "4⁷",
-        "2¹²",
         "2⁷",
-        "2¹"
+        "2¹",
+        "2¹²"
       ],
       "correctAnswer": "2⁷",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "Write 5⁶ ÷ 5² as one power of 5.",
       "options": [
-        "1⁴",
-        "5⁴",
         "5⁸",
-        "5³"
+        "5³",
+        "1⁴",
+        "5⁴"
       ],
       "correctAnswer": "5⁴",
       "difficulty": "standard",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "Write (3²)³ as one power of 3.",
       "options": [
-        "3⁶",
         "9⁶",
-        "3⁵",
-        "3⁸"
+        "3⁶",
+        "3⁸",
+        "3⁵"
       ],
       "correctAnswer": "3⁶",
       "difficulty": "standard",
@@ -353,8 +353,8 @@
       "questionText": "Simplify x × x⁴.",
       "options": [
         "2x⁴",
-        "x⁶",
         "x⁴",
+        "x⁶",
         "x⁵"
       ],
       "correctAnswer": "x⁵",
@@ -371,8 +371,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify 4x² × 3x⁵.",
       "options": [
-        "12x³",
         "12x¹⁰",
+        "12x³",
         "12x⁷",
         "7x⁷"
       ],
@@ -389,10 +389,10 @@
       "type": "multiple_choice",
       "questionText": "For a ≠ 0, simplify 10a⁶ ÷ 2a².",
       "options": [
+        "5a³",
         "20a⁸",
         "5a⁴",
-        "8a⁴",
-        "5a³"
+        "8a⁴"
       ],
       "correctAnswer": "5a⁴",
       "difficulty": "standard",
@@ -407,10 +407,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2m²)³.",
       "options": [
+        "2m⁶",
         "8m⁶",
-        "8m⁵",
         "6m⁶",
-        "2m⁶"
+        "8m⁵"
       ],
       "correctAnswer": "8m⁶",
       "difficulty": "standard",
@@ -425,10 +425,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (3xy)².",
       "options": [
-        "9x²y²",
+        "6x²y²",
         "3x²y²",
         "9xy²",
-        "6x²y²"
+        "9x²y²"
       ],
       "correctAnswer": "9x²y²",
       "difficulty": "standard",
@@ -444,9 +444,9 @@
       "questionText": "Simplify (a²b³)².",
       "options": [
         "a⁸b⁹",
+        "a⁴b⁶",
         "a⁴b⁵",
-        "a²b⁶",
-        "a⁴b⁶"
+        "a²b⁶"
       ],
       "correctAnswer": "a⁴b⁶",
       "difficulty": "standard",
@@ -462,9 +462,9 @@
       "questionText": "Which single power is equivalent to 2³ × 5³?",
       "options": [
         "10³",
-        "10⁶",
         "7³",
-        "2¹⁵"
+        "2¹⁵",
+        "10⁶"
       ],
       "correctAnswer": "10³",
       "difficulty": "standard",
@@ -479,10 +479,10 @@
       "type": "multiple_choice",
       "questionText": "For x ≠ 0, simplify 12x⁵ ÷ 3x².",
       "options": [
+        "9x³",
         "4x³",
         "4x²",
-        "4x⁷",
-        "9x³"
+        "4x⁷"
       ],
       "correctAnswer": "4x³",
       "difficulty": "standard",
@@ -497,9 +497,9 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "2⁶ < 4³",
         "2⁶ > 4³",
         "2⁶ = 8³",
-        "2⁶ < 4³",
         "2⁶ = 4³"
       ],
       "correctAnswer": "2⁶ = 4³",
@@ -515,9 +515,9 @@
       "type": "multiple_choice",
       "questionText": "A student claims x³ + x³ = x⁶. What is the correct simplification?",
       "options": [
+        "2x⁶",
         "x⁹",
         "x⁶",
-        "2x⁶",
         "2x³"
       ],
       "correctAnswer": "2x³",
@@ -534,10 +534,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to x²y²?",
       "options": [
-        "xy⁴",
-        "(x + y)²",
         "(xy)²",
-        "(xy)⁴"
+        "(xy)⁴",
+        "(x + y)²",
+        "xy⁴"
       ],
       "correctAnswer": "(xy)²",
       "difficulty": "standard",
@@ -552,10 +552,10 @@
       "type": "multiple_choice",
       "questionText": "A square has side length 3x². Which expression represents its area?",
       "options": [
+        "9x²",
         "6x⁴",
-        "3x⁴",
         "9x⁴",
-        "9x²"
+        "3x⁴"
       ],
       "correctAnswer": "9x⁴",
       "difficulty": "standard",
@@ -572,8 +572,8 @@
       "options": [
         "4a⁶",
         "8a⁶",
-        "8a⁵",
-        "6a⁶"
+        "6a⁶",
+        "8a⁵"
       ],
       "correctAnswer": "8a⁶",
       "difficulty": "standard",
@@ -588,10 +588,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (2²)³ ÷ 2².",
       "options": [
-        "32",
-        "16",
+        "4",
         "8",
-        "4"
+        "32",
+        "16"
       ],
       "correctAnswer": "16",
       "difficulty": "standard",
@@ -606,9 +606,9 @@
       "type": "multiple_choice",
       "questionText": "Find n if xⁿ × x⁵ = x¹².",
       "options": [
-        "2",
         "17",
         "60",
+        "2",
         "7"
       ],
       "correctAnswer": "7",
@@ -624,10 +624,10 @@
       "type": "multiple_choice",
       "questionText": "Find n if (x³)ⁿ = x¹⁵.",
       "options": [
-        "5",
-        "45",
         "18",
-        "12"
+        "12",
+        "5",
+        "45"
       ],
       "correctAnswer": "5",
       "difficulty": "standard",
@@ -642,10 +642,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (a⁴ × a³)².",
       "options": [
-        "a¹⁴",
-        "a²⁴",
         "a⁹",
-        "a⁷"
+        "a⁷",
+        "a¹⁴",
+        "a²⁴"
       ],
       "correctAnswer": "a¹⁴",
       "difficulty": "challenge",
@@ -661,10 +661,10 @@
       "type": "multiple_choice",
       "questionText": "For x ≠ 0, simplify (x⁸ ÷ x³)².",
       "options": [
-        "x¹⁶",
         "x⁷",
+        "x¹⁰",
         "x²²",
-        "x¹⁰"
+        "x¹⁶"
       ],
       "correctAnswer": "x¹⁰",
       "difficulty": "challenge",
@@ -681,8 +681,8 @@
       "options": [
         "6x⁶y⁴",
         "12x⁷y⁴",
-        "12x⁷y³",
-        "12x⁴y³"
+        "12x⁴y³",
+        "12x⁷y³"
       ],
       "correctAnswer": "12x⁷y⁴",
       "difficulty": "challenge",
@@ -697,9 +697,9 @@
       "type": "multiple_choice",
       "questionText": "For a ≠ 0 and b ≠ 0, simplify 6a⁵b³ ÷ 2a²b.",
       "options": [
-        "3a²b³",
         "3a³b²",
         "3a⁷b⁴",
+        "3a²b³",
         "4a³b²"
       ],
       "correctAnswer": "3a³b²",
@@ -715,10 +715,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify ((2m)³)².",
       "options": [
+        "8m⁶",
         "32m⁶",
-        "64m⁵",
         "64m⁶",
-        "8m⁶"
+        "64m⁵"
       ],
       "correctAnswer": "64m⁶",
       "difficulty": "challenge",
@@ -733,9 +733,9 @@
       "type": "multiple_choice",
       "questionText": "For x ≠ 0, simplify (3x²)² ÷ 3x.",
       "options": [
+        "3x³",
         "9x³",
         "3x²",
-        "3x³",
         "6x³"
       ],
       "correctAnswer": "3x³",
@@ -751,9 +751,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (a²b)³ × (ab²)².",
       "options": [
-        "a⁷b⁸",
         "a¹⁰b⁹",
         "a⁶b⁶",
+        "a⁷b⁸",
         "a⁸b⁷"
       ],
       "correctAnswer": "a⁸b⁷",
@@ -769,10 +769,10 @@
       "type": "multiple_choice",
       "questionText": "A student writes (x²)³ = x⁵. Which correction explains the error?",
       "options": [
-        "Keep only the outside exponent to get x³",
-        "Multiply the exponents to get x⁶",
         "Add one more x to get x⁶",
-        "Square 3 to get x⁹"
+        "Multiply the exponents to get x⁶",
+        "Square 3 to get x⁹",
+        "Keep only the outside exponent to get x³"
       ],
       "correctAnswer": "Multiply the exponents to get x⁶",
       "difficulty": "challenge",
@@ -788,10 +788,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 4⁵ ÷ 2⁶.",
       "options": [
-        "64",
-        "16",
         "32",
-        "8"
+        "64",
+        "8",
+        "16"
       ],
       "correctAnswer": "16",
       "difficulty": "challenge",
@@ -807,10 +807,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (8³ × 2⁴) ÷ 4².",
       "options": [
-        "128",
         "1024",
+        "512",
         "256",
-        "512"
+        "128"
       ],
       "correctAnswer": "512",
       "difficulty": "challenge",
@@ -826,10 +826,10 @@
       "type": "multiple_choice",
       "questionText": "Find n if (xⁿ)³ × x² = x²⁰.",
       "options": [
-        "9",
-        "18",
+        "6",
         "22",
-        "6"
+        "18",
+        "9"
       ],
       "correctAnswer": "6",
       "difficulty": "challenge",
@@ -844,10 +844,10 @@
       "type": "multiple_choice",
       "questionText": "If every side length of a square is doubled, by what factor is its area multiplied?",
       "options": [
-        "4",
-        "8",
         "2",
-        "16"
+        "16",
+        "4",
+        "8"
       ],
       "correctAnswer": "4",
       "difficulty": "challenge",
@@ -882,10 +882,10 @@
       "type": "multiple_choice",
       "questionText": "For a ≠ 0 and b ≠ 0, simplify ((ab)²)³ ÷ a²b.",
       "options": [
-        "a⁴b⁵",
-        "a⁴b⁶",
+        "a⁸b⁷",
         "a⁵b⁴",
-        "a⁸b⁷"
+        "a⁴b⁵",
+        "a⁴b⁶"
       ],
       "correctAnswer": "a⁴b⁵",
       "difficulty": "challenge",
@@ -902,8 +902,8 @@
       "options": [
         "2x⁵y²",
         "2x⁶y³",
-        "4x⁵y²",
-        "2x⁴y²"
+        "2x⁴y²",
+        "4x⁵y²"
       ],
       "correctAnswer": "2x⁵y²",
       "difficulty": "challenge",

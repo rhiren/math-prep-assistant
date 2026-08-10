@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope 1/2 and y-intercept 5. Which equation represents the line?",
       "options": [
-        "y = 3/2x + 5",
         "y = 1/2x + 5",
         "y = -1/2x + 5",
-        "y = 1/2x - 5"
+        "y = 1/2x - 5",
+        "y = 3/2x + 5"
       ],
       "correctAnswer": "y = 1/2x + 5",
       "difficulty": "scaffold",
@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope -4 and passes through (-3, 19). Which equation is correct?",
       "options": [
-        "y = 4x + 7",
         "y = -4x - 7",
-        "y = -4x + 7",
-        "y = -3x + 7"
+        "y = 4x + 7",
+        "y = -3x + 7",
+        "y = -4x + 7"
       ],
       "correctAnswer": "y = -4x + 7",
       "difficulty": "scaffold",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a line includes -1 -> 31/6, 5 -> 61/6, 11 -> 91/6. Which equation matches the table?",
       "options": [
-        "y = -5/6x + 6",
-        "y = 5/6x - 6",
         "y = 5/6x + 6",
-        "y = 11/6x + 6"
+        "y = -5/6x + 6",
+        "y = 11/6x + 6",
+        "y = 5/6x - 6"
       ],
       "correctAnswer": "y = 5/6x + 6",
       "difficulty": "scaffold",
@@ -70,10 +70,10 @@
       "type": "multiple_choice",
       "questionText": "A line passes through (2, -9) and (10, -13). Which equation represents it?",
       "options": [
+        "y = -3/2x - 8",
         "y = 1/2x - 8",
         "y = -1/2x - 8",
-        "y = -1/2x + 8",
-        "y = -3/2x - 8"
+        "y = -1/2x + 8"
       ],
       "correctAnswer": "y = -1/2x - 8",
       "difficulty": "scaffold",
@@ -91,8 +91,8 @@
       "questionText": "A graph crosses the y-axis at (0, 5) and contains (9, 43/5). Which equation matches?",
       "options": [
         "y = 7/5x + 5",
-        "y = -2/5x + 5",
         "y = 2/5x - 5",
+        "y = -2/5x + 5",
         "y = 2/5x + 5"
       ],
       "correctAnswer": "y = 2/5x + 5",
@@ -110,9 +110,9 @@
       "type": "multiple_choice",
       "questionText": "A savings account starts at 7 dollars and changes by -3/2 dollars each week. Which equation gives y after x weeks?",
       "options": [
+        "y = -1/2x + 7",
         "y = -3/2x + 7",
         "y = -3/2x - 7",
-        "y = -1/2x + 7",
         "y = 3/2x + 7"
       ],
       "correctAnswer": "y = -3/2x + 7",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "A student found slope 3/2 from two points, then used (-5, -3/2) to find b = 6. What equation should they write?",
       "options": [
-        "y = -3/2x + 6",
-        "y = 3/2x - 6",
         "y = 3/2x + 6",
-        "y = 5/2x + 6"
+        "y = 5/2x + 6",
+        "y = 3/2x - 6",
+        "y = -3/2x + 6"
       ],
       "correctAnswer": "y = 3/2x + 6",
       "difficulty": "scaffold",
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has rate of change 0 and output -8 when input is 0?",
       "options": [
-        "y = 8",
-        "y = x - 8",
         "y = -x - 8",
-        "y = -8"
+        "y = -8",
+        "y = x - 8",
+        "y = 8"
       ],
       "correctAnswer": "y = -8",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A line contains (0, 5), (-1, 19/5), and (4, 49/5). Which rule gives y from x?",
       "options": [
-        "y = -6/5x + 5",
-        "y = 6/5x + 5",
         "y = 6/5x - 5",
-        "y = 11/5x + 5"
+        "y = -6/5x + 5",
+        "y = 11/5x + 5",
+        "y = 6/5x + 5"
       ],
       "correctAnswer": "y = 6/5x + 5",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "The change in y divided by change in x is -2/3, and the starting value is 7. Which equation models the relationship?",
       "options": [
-        "y = -2/3x + 7",
-        "y = -2/3x - 7",
+        "y = 2/3x + 7",
         "y = 1/3x + 7",
-        "y = 2/3x + 7"
+        "y = -2/3x + 7",
+        "y = -2/3x - 7"
       ],
       "correctAnswer": "y = -2/3x + 7",
       "difficulty": "scaffold",
@@ -210,10 +210,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope -5/3 and y-intercept 6. Which equation represents the line?",
       "options": [
-        "y = -5/3x + 6",
-        "y = -2/3x + 6",
+        "y = -5/3x - 6",
         "y = 5/3x + 6",
-        "y = -5/3x - 6"
+        "y = -2/3x + 6",
+        "y = -5/3x + 6"
       ],
       "correctAnswer": "y = -5/3x + 6",
       "difficulty": "standard",
@@ -231,9 +231,9 @@
       "questionText": "A line has slope 1 and passes through (6, -2). Which equation is correct?",
       "options": [
         "y = -x - 8",
+        "y = x - 8",
         "y = x + 8",
-        "y = 2x - 8",
-        "y = x - 8"
+        "y = 2x - 8"
       ],
       "correctAnswer": "y = x - 8",
       "difficulty": "standard",
@@ -250,10 +250,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a line includes -5 -> -5/3, -2 -> 7/3, 1 -> 19/3. Which equation matches the table?",
       "options": [
+        "y = -4/3x + 5",
         "y = 4/3x + 5",
-        "y = 7/3x + 5",
         "y = 4/3x - 5",
-        "y = -4/3x + 5"
+        "y = 7/3x + 5"
       ],
       "correctAnswer": "y = 4/3x + 5",
       "difficulty": "standard",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "A line passes through (-3, 26/5) and (7, 56/5). Which equation represents it?",
       "options": [
-        "y = 3/5x - 7",
+        "y = -3/5x + 7",
         "y = 8/5x + 7",
         "y = 3/5x + 7",
-        "y = -3/5x + 7"
+        "y = 3/5x - 7"
       ],
       "correctAnswer": "y = 3/5x + 7",
       "difficulty": "standard",
@@ -290,9 +290,9 @@
       "type": "multiple_choice",
       "questionText": "A graph crosses the y-axis at (0, 6) and contains (2, 10). Which equation matches?",
       "options": [
+        "y = 2x + 6",
         "y = 2x - 6",
         "y = 3x + 6",
-        "y = 2x + 6",
         "y = -2x + 6"
       ],
       "correctAnswer": "y = 2x + 6",
@@ -310,8 +310,8 @@
       "type": "multiple_choice",
       "questionText": "A savings account starts at -8 dollars and changes by -3/4 dollars each week. Which equation gives y after x weeks?",
       "options": [
-        "y = 3/4x - 8",
         "y = -3/4x - 8",
+        "y = 3/4x - 8",
         "y = -3/4x + 8",
         "y = 1/4x - 8"
       ],
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "A student found slope 7/4 from two points, then used (4, 12) to find b = 5. What equation should they write?",
       "options": [
-        "y = -7/4x + 5",
         "y = 7/4x - 5",
-        "y = 11/4x + 5",
-        "y = 7/4x + 5"
+        "y = -7/4x + 5",
+        "y = 7/4x + 5",
+        "y = 11/4x + 5"
       ],
       "correctAnswer": "y = 7/4x + 5",
       "difficulty": "standard",
@@ -371,8 +371,8 @@
       "questionText": "A line contains (0, 6), (-5, -13/2), and (1, 17/2). Which rule gives y from x?",
       "options": [
         "y = -5/2x + 6",
-        "y = 5/2x + 6",
         "y = 5/2x - 6",
+        "y = 5/2x + 6",
         "y = 7/2x + 6"
       ],
       "correctAnswer": "y = 5/2x + 6",
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "The change in y divided by change in x is -7/5, and the starting value is -8. Which equation models the relationship?",
       "options": [
-        "y = -2/5x - 8",
-        "y = -7/5x - 8",
         "y = 7/5x - 8",
-        "y = -7/5x + 8"
+        "y = -7/5x + 8",
+        "y = -7/5x - 8",
+        "y = -2/5x - 8"
       ],
       "correctAnswer": "y = -7/5x - 8",
       "difficulty": "standard",
@@ -410,10 +410,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope 1/2 and y-intercept 5. Which equation represents the line?",
       "options": [
-        "y = 3/2x + 5",
         "y = -1/2x + 5",
         "y = 1/2x + 5",
-        "y = 1/2x - 5"
+        "y = 1/2x - 5",
+        "y = 3/2x + 5"
       ],
       "correctAnswer": "y = 1/2x + 5",
       "difficulty": "standard",
@@ -430,10 +430,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope -4 and passes through (2, -1). Which equation is correct?",
       "options": [
-        "y = -4x + 7",
         "y = -4x - 7",
-        "y = -3x + 7",
-        "y = 4x + 7"
+        "y = -4x + 7",
+        "y = 4x + 7",
+        "y = -3x + 7"
       ],
       "correctAnswer": "y = -4x + 7",
       "difficulty": "standard",
@@ -450,10 +450,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a line includes 4 -> 28/3, 10 -> 43/3, 16 -> 58/3. Which equation matches the table?",
       "options": [
-        "y = -5/6x + 6",
         "y = 5/6x - 6",
+        "y = 11/6x + 6",
         "y = 5/6x + 6",
-        "y = 11/6x + 6"
+        "y = -5/6x + 6"
       ],
       "correctAnswer": "y = 5/6x + 6",
       "difficulty": "standard",
@@ -470,9 +470,9 @@
       "type": "multiple_choice",
       "questionText": "A line passes through (6, -11) and (14, -15). Which equation represents it?",
       "options": [
-        "y = 1/2x - 8",
-        "y = -1/2x + 8",
         "y = -1/2x - 8",
+        "y = -1/2x + 8",
+        "y = 1/2x - 8",
         "y = -3/2x - 8"
       ],
       "correctAnswer": "y = -1/2x - 8",
@@ -490,10 +490,10 @@
       "type": "multiple_choice",
       "questionText": "A graph crosses the y-axis at (0, 5) and contains (0, 5). Which equation matches?",
       "options": [
-        "y = 2/5x + 5",
-        "y = 7/5x + 5",
+        "y = 2/5x - 5",
         "y = -2/5x + 5",
-        "y = 2/5x - 5"
+        "y = 2/5x + 5",
+        "y = 7/5x + 5"
       ],
       "correctAnswer": "y = 2/5x + 5",
       "difficulty": "standard",
@@ -511,9 +511,9 @@
       "questionText": "A savings account starts at 7 dollars and changes by -3/2 dollars each week. Which equation gives y after x weeks?",
       "options": [
         "y = -3/2x - 7",
+        "y = -3/2x + 7",
         "y = -1/2x + 7",
-        "y = 3/2x + 7",
-        "y = -3/2x + 7"
+        "y = 3/2x + 7"
       ],
       "correctAnswer": "y = -3/2x + 7",
       "difficulty": "standard",
@@ -530,10 +530,10 @@
       "type": "multiple_choice",
       "questionText": "A student found slope 3/2 from two points, then used (-1, 9/2) to find b = 6. What equation should they write?",
       "options": [
-        "y = 5/2x + 6",
-        "y = 3/2x + 6",
         "y = 3/2x - 6",
-        "y = -3/2x + 6"
+        "y = 5/2x + 6",
+        "y = -3/2x + 6",
+        "y = 3/2x + 6"
       ],
       "correctAnswer": "y = 3/2x + 6",
       "difficulty": "standard",
@@ -551,9 +551,9 @@
       "questionText": "Which equation has rate of change 0 and output -8 when input is 0?",
       "options": [
         "y = -8",
+        "y = 8",
         "y = x - 8",
-        "y = -x - 8",
-        "y = 8"
+        "y = -x - 8"
       ],
       "correctAnswer": "y = -8",
       "difficulty": "standard",
@@ -571,8 +571,8 @@
       "questionText": "A line contains (0, 5), (4, 49/5), and (9, 79/5). Which rule gives y from x?",
       "options": [
         "y = 11/5x + 5",
-        "y = 6/5x - 5",
         "y = -6/5x + 5",
+        "y = 6/5x - 5",
         "y = 6/5x + 5"
       ],
       "correctAnswer": "y = 6/5x + 5",
@@ -590,9 +590,9 @@
       "type": "multiple_choice",
       "questionText": "The change in y divided by change in x is -2/3, and the starting value is 7. Which equation models the relationship?",
       "options": [
-        "y = -2/3x - 7",
         "y = -2/3x + 7",
         "y = 1/3x + 7",
+        "y = -2/3x - 7",
         "y = 2/3x + 7"
       ],
       "correctAnswer": "y = -2/3x + 7",
@@ -610,10 +610,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope -5/3 and y-intercept 6. Which equation represents the line?",
       "options": [
-        "y = -2/3x + 6",
-        "y = 5/3x + 6",
+        "y = -5/3x + 6",
         "y = -5/3x - 6",
-        "y = -5/3x + 6"
+        "y = 5/3x + 6",
+        "y = -2/3x + 6"
       ],
       "correctAnswer": "y = -5/3x + 6",
       "difficulty": "standard",
@@ -630,10 +630,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope 1 and passes through (-3, -11). Which equation is correct?",
       "options": [
-        "y = x - 8",
-        "y = -x - 8",
         "y = x + 8",
-        "y = 2x - 8"
+        "y = -x - 8",
+        "y = 2x - 8",
+        "y = x - 8"
       ],
       "correctAnswer": "y = x - 8",
       "difficulty": "standard",
@@ -651,9 +651,9 @@
       "questionText": "A table for a line includes -1 -> 11/3, 2 -> 23/3, 5 -> 35/3. Which equation matches the table?",
       "options": [
         "y = 4/3x + 5",
-        "y = -4/3x + 5",
         "y = 4/3x - 5",
-        "y = 7/3x + 5"
+        "y = 7/3x + 5",
+        "y = -4/3x + 5"
       ],
       "correctAnswer": "y = 4/3x + 5",
       "difficulty": "standard",
@@ -670,10 +670,10 @@
       "type": "multiple_choice",
       "questionText": "A line passes through (2, 41/5) and (12, 71/5). Which equation represents it?",
       "options": [
-        "y = 8/5x + 7",
-        "y = 3/5x + 7",
         "y = -3/5x + 7",
-        "y = 3/5x - 7"
+        "y = 3/5x - 7",
+        "y = 8/5x + 7",
+        "y = 3/5x + 7"
       ],
       "correctAnswer": "y = 3/5x + 7",
       "difficulty": "standard",
@@ -690,10 +690,10 @@
       "type": "multiple_choice",
       "questionText": "A graph crosses the y-axis at (0, 6) and contains (7, 20). Which equation matches?",
       "options": [
-        "y = 2x + 6",
-        "y = 2x - 6",
+        "y = 3x + 6",
         "y = -2x + 6",
-        "y = 3x + 6"
+        "y = 2x + 6",
+        "y = 2x - 6"
       ],
       "correctAnswer": "y = 2x + 6",
       "difficulty": "standard",
@@ -710,10 +710,10 @@
       "type": "multiple_choice",
       "questionText": "A savings account starts at -8 dollars and changes by -3/4 dollars each week. Which equation gives y after x weeks?",
       "options": [
-        "y = -3/4x - 8",
-        "y = 3/4x - 8",
+        "y = 1/4x - 8",
         "y = -3/4x + 8",
-        "y = 1/4x - 8"
+        "y = -3/4x - 8",
+        "y = 3/4x - 8"
       ],
       "correctAnswer": "y = -3/4x - 8",
       "difficulty": "challenge",
@@ -731,9 +731,9 @@
       "questionText": "A student found slope 7/4 from two points, then used (-5, -15/4) to find b = 5. What equation should they write?",
       "options": [
         "y = 11/4x + 5",
-        "y = 7/4x - 5",
         "y = 7/4x + 5",
-        "y = -7/4x + 5"
+        "y = -7/4x + 5",
+        "y = 7/4x - 5"
       ],
       "correctAnswer": "y = 7/4x + 5",
       "difficulty": "challenge",
@@ -750,10 +750,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has rate of change -1 and output 7 when input is 0?",
       "options": [
-        "y = x + 7",
-        "y = -x - 7",
         "y = 7",
-        "y = -x + 7"
+        "y = -x + 7",
+        "y = -x - 7",
+        "y = x + 7"
       ],
       "correctAnswer": "y = -x + 7",
       "difficulty": "challenge",
@@ -770,10 +770,10 @@
       "type": "multiple_choice",
       "questionText": "A line contains (0, 6), (-1, 7/2), and (5, 37/2). Which rule gives y from x?",
       "options": [
-        "y = 5/2x - 6",
         "y = 7/2x + 6",
-        "y = -5/2x + 6",
-        "y = 5/2x + 6"
+        "y = 5/2x - 6",
+        "y = 5/2x + 6",
+        "y = -5/2x + 6"
       ],
       "correctAnswer": "y = 5/2x + 6",
       "difficulty": "challenge",
@@ -790,10 +790,10 @@
       "type": "multiple_choice",
       "questionText": "The change in y divided by change in x is -7/5, and the starting value is -8. Which equation models the relationship?",
       "options": [
-        "y = -2/5x - 8",
         "y = -7/5x - 8",
+        "y = 7/5x - 8",
         "y = -7/5x + 8",
-        "y = 7/5x - 8"
+        "y = -2/5x - 8"
       ],
       "correctAnswer": "y = -7/5x - 8",
       "difficulty": "challenge",
@@ -810,10 +810,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope 1/2 and y-intercept 5. Which equation represents the line?",
       "options": [
+        "y = 3/2x + 5",
         "y = -1/2x + 5",
-        "y = 1/2x + 5",
         "y = 1/2x - 5",
-        "y = 3/2x + 5"
+        "y = 1/2x + 5"
       ],
       "correctAnswer": "y = 1/2x + 5",
       "difficulty": "challenge",
@@ -831,9 +831,9 @@
       "questionText": "A line has slope -4 and passes through (6, -17). Which equation is correct?",
       "options": [
         "y = -3x + 7",
+        "y = -4x + 7",
         "y = 4x + 7",
-        "y = -4x - 7",
-        "y = -4x + 7"
+        "y = -4x - 7"
       ],
       "correctAnswer": "y = -4x + 7",
       "difficulty": "challenge",
@@ -850,10 +850,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a line includes -5 -> 11/6, 1 -> 41/6, 7 -> 71/6. Which equation matches the table?",
       "options": [
-        "y = 11/6x + 6",
-        "y = 5/6x - 6",
+        "y = -5/6x + 6",
         "y = 5/6x + 6",
-        "y = -5/6x + 6"
+        "y = 5/6x - 6",
+        "y = 11/6x + 6"
       ],
       "correctAnswer": "y = 5/6x + 6",
       "difficulty": "challenge",
@@ -870,10 +870,10 @@
       "type": "multiple_choice",
       "questionText": "A line passes through (-3, -13/2) and (5, -21/2). Which equation represents it?",
       "options": [
-        "y = 1/2x - 8",
+        "y = -3/2x - 8",
         "y = -1/2x + 8",
-        "y = -1/2x - 8",
-        "y = -3/2x - 8"
+        "y = 1/2x - 8",
+        "y = -1/2x - 8"
       ],
       "correctAnswer": "y = -1/2x - 8",
       "difficulty": "challenge",
@@ -930,10 +930,10 @@
       "type": "multiple_choice",
       "questionText": "A student found slope 3/2 from two points, then used (4, 12) to find b = 6. What equation should they write?",
       "options": [
-        "y = 5/2x + 6",
         "y = 3/2x + 6",
-        "y = 3/2x - 6",
-        "y = -3/2x + 6"
+        "y = 5/2x + 6",
+        "y = -3/2x + 6",
+        "y = 3/2x - 6"
       ],
       "correctAnswer": "y = 3/2x + 6",
       "difficulty": "challenge",
@@ -971,9 +971,9 @@
       "questionText": "A line contains (0, 5), (-5, -1), and (0, 5). Which rule gives y from x?",
       "options": [
         "y = 6/5x + 5",
+        "y = 6/5x - 5",
         "y = 11/5x + 5",
-        "y = -6/5x + 5",
-        "y = 6/5x - 5"
+        "y = -6/5x + 5"
       ],
       "correctAnswer": "y = 6/5x + 5",
       "difficulty": "challenge",
@@ -990,10 +990,10 @@
       "type": "multiple_choice",
       "questionText": "The change in y divided by change in x is -2/3, and the starting value is 7. Which equation models the relationship?",
       "options": [
+        "y = 1/3x + 7",
         "y = -2/3x + 7",
-        "y = 2/3x + 7",
         "y = -2/3x - 7",
-        "y = 1/3x + 7"
+        "y = 2/3x + 7"
       ],
       "correctAnswer": "y = -2/3x + 7",
       "difficulty": "challenge",

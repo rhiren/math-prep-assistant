@@ -11,9 +11,9 @@
       "questionText": "A line goes through the origin and the point (2, 6). Which equation has the form y = mx for this line?",
       "options": [
         "y = 4x",
-        "y = 1/3x",
+        "y = 3x",
         "y = -3x",
-        "y = 3x"
+        "y = 1/3x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "scaffold",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "Which y = mx equation contains (16, -20)?",
       "options": [
+        "y = -4/5x",
         "y = -1/4x",
-        "y = 5/4x",
         "y = -5/4x",
-        "y = -4/5x"
+        "y = 5/4x"
       ],
       "correctAnswer": "y = -5/4x",
       "difficulty": "scaffold",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship has output -25 when input is 10. Which equation models it?",
       "options": [
-        "y = -3/2x",
+        "y = 5/2x",
         "y = -5/2x",
         "y = -2/5x",
-        "y = 5/2x"
+        "y = -3/2x"
       ],
       "correctAnswer": "y = -5/2x",
       "difficulty": "scaffold",
@@ -87,9 +87,9 @@
       "questionText": "A graph through the origin has slope -3. Which equation matches?",
       "options": [
         "y = -3x",
-        "y = -2x",
+        "y = 3x",
         "y = -1/3x",
-        "y = 3x"
+        "y = -2x"
       ],
       "correctAnswer": "y = -3x",
       "difficulty": "scaffold",
@@ -105,9 +105,9 @@
       "type": "multiple_choice",
       "questionText": "A table for y = mx includes the row x = 40, y = -32. Which equation is correct?",
       "options": [
-        "y = 1/5x",
-        "y = 4/5x",
         "y = -4/5x",
+        "y = 4/5x",
+        "y = 1/5x",
         "y = -5/4x"
       ],
       "correctAnswer": "y = -4/5x",
@@ -145,8 +145,8 @@
       "options": [
         "y = -11/3x",
         "y = -8/3x",
-        "y = 11/3x",
-        "y = -3/11x"
+        "y = -3/11x",
+        "y = 11/3x"
       ],
       "correctAnswer": "y = -11/3x",
       "difficulty": "scaffold",
@@ -163,9 +163,9 @@
       "questionText": "Which equation represents a line through the origin with rate of change -7/6?",
       "options": [
         "y = -6/7x",
+        "y = -1/6x",
         "y = 7/6x",
-        "y = -7/6x",
-        "y = -1/6x"
+        "y = -7/6x"
       ],
       "correctAnswer": "y = -7/6x",
       "difficulty": "standard",
@@ -182,8 +182,8 @@
       "questionText": "A line goes through the origin and the point (10, 25). Which equation has the form y = mx for this line?",
       "options": [
         "y = 7/2x",
-        "y = 2/5x",
         "y = 5/2x",
+        "y = 2/5x",
         "y = -5/2x"
       ],
       "correctAnswer": "y = 5/2x",
@@ -200,10 +200,10 @@
       "type": "multiple_choice",
       "questionText": "For a line through (0, 0), the point (24, 42) is on the graph. What is m in y = mx?",
       "options": [
-        "y = -7/4x",
+        "y = 7/4x",
         "y = 4/7x",
         "y = 11/4x",
-        "y = 7/4x"
+        "y = -7/4x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "standard",
@@ -219,8 +219,8 @@
       "type": "multiple_choice",
       "questionText": "Which y = mx equation contains (8, -8)?",
       "options": [
-        "y = x",
         "y = 0",
+        "y = x",
         "y = -1/2x",
         "y = -x"
       ],
@@ -238,10 +238,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship has output -14 when input is 6. Which equation models it?",
       "options": [
+        "y = -3/7x",
         "y = -4/3x",
         "y = -7/3x",
-        "y = 7/3x",
-        "y = -3/7x"
+        "y = 7/3x"
       ],
       "correctAnswer": "y = -7/3x",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "A graph through the origin has slope -8/3. Which equation matches?",
       "options": [
-        "y = -5/3x",
-        "y = -8/3x",
+        "y = 8/3x",
         "y = -3/8x",
-        "y = 8/3x"
+        "y = -5/3x",
+        "y = -8/3x"
       ],
       "correctAnswer": "y = -8/3x",
       "difficulty": "standard",
@@ -276,10 +276,10 @@
       "type": "multiple_choice",
       "questionText": "A table for y = mx includes the row x = 16, y = -28. Which equation is correct?",
       "options": [
-        "y = -7/4x",
-        "y = -3/4x",
         "y = -4/7x",
-        "y = 7/4x"
+        "y = 7/4x",
+        "y = -7/4x",
+        "y = -3/4x"
       ],
       "correctAnswer": "y = -7/4x",
       "difficulty": "standard",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "The constant multiplier from x to y is -9/4. Which equation should be written?",
       "options": [
-        "y = 9/4x",
-        "y = -4/9x",
         "y = -5/4x",
-        "y = -9/4x"
+        "y = -9/4x",
+        "y = 9/4x",
+        "y = -4/9x"
       ],
       "correctAnswer": "y = -9/4x",
       "difficulty": "standard",
@@ -314,10 +314,10 @@
       "type": "multiple_choice",
       "questionText": "A student divides -12 by 18 to find m. Which equation follows?",
       "options": [
-        "y = -3/2x",
-        "y = -2/3x",
         "y = 2/3x",
-        "y = 1/3x"
+        "y = 1/3x",
+        "y = -3/2x",
+        "y = -2/3x"
       ],
       "correctAnswer": "y = -2/3x",
       "difficulty": "standard",
@@ -333,10 +333,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation represents a line through the origin with rate of change 2/3?",
       "options": [
-        "y = 2/3x",
-        "y = 3/2x",
+        "y = 5/3x",
         "y = -2/3x",
-        "y = 5/3x"
+        "y = 2/3x",
+        "y = 3/2x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "standard",
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "A line goes through the origin and the point (6, 10). Which equation has the form y = mx for this line?",
       "options": [
-        "y = 5/3x",
-        "y = 8/3x",
         "y = -5/3x",
+        "y = 8/3x",
+        "y = 5/3x",
         "y = 3/5x"
       ],
       "correctAnswer": "y = 5/3x",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "For a line through (0, 0), the point (9, -12) is on the graph. What is m in y = mx?",
       "options": [
-        "y = -1/3x",
-        "y = 4/3x",
         "y = -4/3x",
-        "y = -3/4x"
+        "y = -1/3x",
+        "y = -3/4x",
+        "y = 4/3x"
       ],
       "correctAnswer": "y = -4/3x",
       "difficulty": "standard",

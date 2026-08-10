@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2x + 3 = 11.",
       "options": [
-        "x = 14",
-        "x = 5",
         "x = 4",
+        "x = 5",
+        "x = 14",
         "x = 7"
       ],
       "correctAnswer": "x = 4",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3x - 5 = 16.",
       "options": [
-        "x = 11/3",
-        "x = 7",
         "x = 21",
-        "x = 6"
+        "x = 6",
+        "x = 7",
+        "x = 11/3"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -46,9 +46,9 @@
       "type": "multiple_choice",
       "questionText": "Solve x/4 + 2 = 8.",
       "options": [
-        "x = 24",
-        "x = 40",
         "x = 10",
+        "x = 40",
+        "x = 24",
         "x = 6"
       ],
       "correctAnswer": "x = 24",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5x + 1 = 26.",
       "options": [
-        "x = 4",
+        "x = 6",
         "x = 25",
-        "x = 5",
-        "x = 6"
+        "x = 4",
+        "x = 5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x - 7 = 9.",
       "options": [
-        "x = 16",
-        "x = 4",
+        "x = 2",
         "x = -4",
-        "x = 2"
+        "x = 16",
+        "x = 4"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -100,10 +100,10 @@
       "type": "multiple_choice",
       "questionText": "Solve x/3 - 4 = 2.",
       "options": [
+        "x = 2",
         "x = 18",
-        "x = -6",
         "x = 6",
-        "x = 2"
+        "x = -6"
       ],
       "correctAnswer": "x = 18",
       "difficulty": "scaffold",
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 6x + 2 = 38.",
       "options": [
+        "x = 36",
         "x = 6",
         "x = 7",
-        "x = 36",
         "x = 5"
       ],
       "correctAnswer": "x = 6",
@@ -137,9 +137,9 @@
       "questionText": "Solve 7x - 3 = 25.",
       "options": [
         "x = 22/7",
-        "x = 4",
         "x = 3",
-        "x = 28"
+        "x = 28",
+        "x = 4"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 10 + 2x = 30.",
       "options": [
-        "x = 20",
         "x = 15",
         "x = 5",
-        "x = 10"
+        "x = 10",
+        "x = 20"
       ],
       "correctAnswer": "x = 10",
       "difficulty": "scaffold",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "Which first step correctly solves 4x + 9 = 29?",
       "options": [
-        "Subtract 9 from both sides",
-        "Subtract 4 from both sides",
         "Add 9 to both sides",
-        "Divide both sides by 4"
+        "Subtract 4 from both sides",
+        "Divide both sides by 4",
+        "Subtract 9 from both sides"
       ],
       "correctAnswer": "Subtract 9 from both sides",
       "difficulty": "scaffold",
@@ -191,9 +191,9 @@
       "questionText": "Solve 8x + 6 = 46.",
       "options": [
         "x = 40",
+        "x = 5",
         "x = 4",
-        "x = 6.5",
-        "x = 5"
+        "x = 6.5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 9x - 12 = 33.",
       "options": [
+        "x = 45",
         "x = 5",
-        "x = 7",
         "x = 3",
-        "x = 45"
+        "x = 7"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3x + 2x + 4 = 34.",
       "options": [
-        "x = 10",
-        "x = 6",
         "x = 30",
-        "x = 5"
+        "x = 5",
+        "x = 6",
+        "x = 10"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -245,10 +245,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 7x - 2x - 8 = 17.",
       "options": [
-        "x = 9",
-        "x = 25",
+        "x = 5",
         "x = 3",
-        "x = 5"
+        "x = 9",
+        "x = 25"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "standard",
@@ -283,10 +283,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 12 - 3x = 30.",
       "options": [
-        "x = 18",
-        "x = 6",
         "x = -6",
-        "x = -14"
+        "x = 18",
+        "x = -14",
+        "x = 6"
       ],
       "correctAnswer": "x = -6",
       "difficulty": "standard",
@@ -302,10 +302,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -2x + 5 = 17.",
       "options": [
-        "x = -11",
         "x = 6",
-        "x = 12",
-        "x = -6"
+        "x = -11",
+        "x = -6",
+        "x = 12"
       ],
       "correctAnswer": "x = -6",
       "difficulty": "standard",
@@ -320,10 +320,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -4x - 9 = 15.",
       "options": [
-        "x = 6",
-        "x = -6",
         "x = -1.5",
-        "x = -24"
+        "x = -24",
+        "x = 6",
+        "x = -6"
       ],
       "correctAnswer": "x = -6",
       "difficulty": "standard",
@@ -338,10 +338,10 @@
       "type": "multiple_choice",
       "questionText": "Solve x/5 + 7 = 12.",
       "options": [
-        "x = 1",
         "x = 19",
         "x = 5",
-        "x = 25"
+        "x = 25",
+        "x = 1"
       ],
       "correctAnswer": "x = 25",
       "difficulty": "standard",
@@ -375,8 +375,8 @@
       "questionText": "Solve 0.5x + 4 = 11.",
       "options": [
         "x = 7",
-        "x = 22",
         "x = 14",
+        "x = 22",
         "x = 3.5"
       ],
       "correctAnswer": "x = 14",
@@ -392,10 +392,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 0.25x - 2 = 5.",
       "options": [
-        "x = 12",
         "x = 28",
-        "x = 20",
-        "x = 7"
+        "x = 7",
+        "x = 12",
+        "x = 20"
       ],
       "correctAnswer": "x = 28",
       "difficulty": "standard",
@@ -411,9 +411,9 @@
       "questionText": "Solve 2.5x + 5 = 20.",
       "options": [
         "x = 25",
-        "x = 6",
+        "x = 10",
         "x = 5",
-        "x = 10"
+        "x = 6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -428,10 +428,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3/4x + 2 = 8.",
       "options": [
-        "x = 12",
         "x = 10",
         "x = 6",
-        "x = 8"
+        "x = 8",
+        "x = 12"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -446,10 +446,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2/3x - 5 = 7.",
       "options": [
-        "x = 8",
         "x = 12",
         "x = 18",
-        "x = 3"
+        "x = 3",
+        "x = 8"
       ],
       "correctAnswer": "x = 18",
       "difficulty": "standard",
@@ -464,10 +464,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5x + 9 = -16.",
       "options": [
-        "x = -5",
-        "x = 5",
+        "x = -25",
         "x = -7/5",
-        "x = -25"
+        "x = -5",
+        "x = 5"
       ],
       "correctAnswer": "x = -5",
       "difficulty": "standard",
@@ -483,9 +483,9 @@
       "questionText": "Solve -6x + 8 = -28.",
       "options": [
         "x = 6",
-        "x = -36",
         "x = -6",
-        "x = 20/3"
+        "x = 20/3",
+        "x = -36"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -500,10 +500,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x - 3x + 11 = 19.",
       "options": [
-        "x = 4",
         "x = 8",
-        "x = 19",
-        "x = 30"
+        "x = 30",
+        "x = 4",
+        "x = 19"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -518,8 +518,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 2x + 3x - 15 = 10.",
       "options": [
-        "x = 25",
         "x = 2",
+        "x = 25",
         "x = 5",
         "x = -1"
       ],
@@ -536,10 +536,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 6x - 2x + 5 = 29.",
       "options": [
+        "x = 4",
         "x = 8.5",
         "x = 24",
-        "x = 6",
-        "x = 4"
+        "x = 6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -554,10 +554,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 15 = 2x + 3.",
       "options": [
-        "x = 6",
-        "x = 9",
         "x = 12",
-        "x = 5"
+        "x = 9",
+        "x = 5",
+        "x = 6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -572,10 +572,10 @@
       "type": "multiple_choice",
       "questionText": "A number times 4, then decreased by 9, equals 27. What is the number?",
       "options": [
-        "18",
+        "7",
         "9",
         "36",
-        "7"
+        "18"
       ],
       "correctAnswer": "9",
       "difficulty": "standard",
@@ -590,9 +590,9 @@
       "type": "multiple_choice",
       "questionText": "A gym charges a $12 sign-up fee plus $8 per class. The total is $60. How many classes is that?",
       "options": [
+        "7",
         "6",
         "48",
-        "7",
         "9"
       ],
       "correctAnswer": "6",
@@ -609,9 +609,9 @@
       "questionText": "Which value checks the equation 3x - 4 = 23?",
       "options": [
         "x = 9",
-        "x = 7",
         "x = 27",
-        "x = 8"
+        "x = 8",
+        "x = 7"
       ],
       "correctAnswer": "x = 9",
       "difficulty": "standard",
@@ -626,8 +626,8 @@
       "type": "multiple_choice",
       "questionText": "A student solves 5x + 4 = 39 by dividing 39 by 5 first. What should the student do first?",
       "options": [
-        "Subtract 5 from both sides",
         "Subtract 4 from both sides",
+        "Subtract 5 from both sides",
         "Divide both sides by 5",
         "Add 4 to both sides"
       ],
@@ -645,10 +645,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -5x + 14 = 44.",
       "options": [
-        "x = -6",
         "x = -30",
+        "x = 6",
         "x = 10",
-        "x = 6"
+        "x = -6"
       ],
       "correctAnswer": "x = -6",
       "difficulty": "challenge",
@@ -663,9 +663,9 @@
       "type": "multiple_choice",
       "questionText": "Solve -7x - 10 = -52.",
       "options": [
-        "x = -42",
         "x = -6",
         "x = 6",
+        "x = -42",
         "x = 7"
       ],
       "correctAnswer": "x = 6",
@@ -681,9 +681,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 3x + 4x - 18 = 31.",
       "options": [
-        "x = 5",
         "x = 13/7",
         "x = 49",
+        "x = 5",
         "x = 7"
       ],
       "correctAnswer": "x = 7",
@@ -699,10 +699,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 10 - 2x - 3x = 35.",
       "options": [
-        "x = -9",
-        "x = 25",
+        "x = -5",
         "x = 5",
-        "x = -5"
+        "x = -9",
+        "x = 25"
       ],
       "correctAnswer": "x = -5",
       "difficulty": "challenge",
@@ -718,10 +718,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2/5x + 3 = 11.",
       "options": [
-        "x = 16",
         "x = 20",
-        "x = 8",
-        "x = 14"
+        "x = 16",
+        "x = 14",
+        "x = 8"
       ],
       "correctAnswer": "x = 20",
       "difficulty": "challenge",
@@ -737,9 +737,9 @@
       "questionText": "Solve -3/4x + 6 = 0.",
       "options": [
         "x = 6",
-        "x = 4.5",
         "x = 8",
-        "x = -8"
+        "x = -8",
+        "x = 4.5"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "challenge",
@@ -754,10 +754,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 1.2x - 3 = 9.",
       "options": [
-        "x = 5",
+        "x = 10",
         "x = 12",
         "x = 15",
-        "x = 10"
+        "x = 5"
       ],
       "correctAnswer": "x = 10",
       "difficulty": "challenge",
@@ -772,9 +772,9 @@
       "type": "multiple_choice",
       "questionText": "Solve -0.5x + 7 = 2.",
       "options": [
+        "x = 5",
         "x = -5",
         "x = -10",
-        "x = 5",
         "x = 10"
       ],
       "correctAnswer": "x = 10",
@@ -790,10 +790,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 2x + 5 + 3x - 8 = 22.",
       "options": [
-        "x = 4",
         "x = 3",
-        "x = 5",
-        "x = 7"
+        "x = 4",
+        "x = 7",
+        "x = 5"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "challenge",
@@ -808,10 +808,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 9x - 4x + 12 - 7 = 40.",
       "options": [
+        "x = 9",
         "x = 7",
         "x = 5",
-        "x = 35",
-        "x = 9"
+        "x = 35"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -826,8 +826,8 @@
       "type": "multiple_choice",
       "questionText": "A taxi ride costs $4 plus $2.50 per mile. The total cost is $21.50. How many miles was the ride?",
       "options": [
-        "10 miles",
         "6 miles",
+        "10 miles",
         "7 miles",
         "17.5 miles"
       ],
@@ -844,10 +844,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle perimeter is 38. One side is 7 and the other side is x. Solve 2x + 14 = 38.",
       "options": [
+        "x = 12",
         "x = 7",
-        "x = 24",
         "x = 19",
-        "x = 12"
+        "x = 24"
       ],
       "correctAnswer": "x = 12",
       "difficulty": "challenge",
@@ -862,10 +862,10 @@
       "type": "multiple_choice",
       "questionText": "A student claims x = 6 solves 4x - 9 = 11. What is true?",
       "options": [
-        "It is correct because 4(6) - 9 = 11",
-        "It is incorrect because 6 - 9 = -3",
         "It is correct because 4 + 6 + 9 = 19",
-        "It is incorrect because 4(6) - 9 = 15"
+        "It is correct because 4(6) - 9 = 11",
+        "It is incorrect because 4(6) - 9 = 15",
+        "It is incorrect because 6 - 9 = -3"
       ],
       "correctAnswer": "It is incorrect because 4(6) - 9 = 15",
       "difficulty": "challenge",
@@ -880,10 +880,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has solution x = -3?",
       "options": [
+        "-2x + 5 = -1",
         "3x - 5 = 14",
-        "2x + 5 = 1",
         "2x + 5 = -1",
-        "-2x + 5 = -1"
+        "2x + 5 = 1"
       ],
       "correctAnswer": "2x + 5 = -1",
       "difficulty": "challenge",
@@ -900,8 +900,8 @@
       "options": [
         "x = -6",
         "x = -4",
-        "x = -8",
-        "x = 4"
+        "x = 4",
+        "x = -8"
       ],
       "correctAnswer": "x = -4",
       "difficulty": "challenge",

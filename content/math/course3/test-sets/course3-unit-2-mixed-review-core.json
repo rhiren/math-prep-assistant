@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 1/2x + 3 = 1/4x + 9/2.",
       "options": [
-        "x = 5",
-        "x = -6",
+        "x = 6",
         "x = 7",
-        "x = 6"
+        "x = 5",
+        "x = -6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "scaffold",
@@ -29,9 +29,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2/3x + 5/2 = -2/5x + 331/30.",
       "options": [
-        "x = 9",
-        "x = 7",
         "x = -8",
+        "x = 7",
+        "x = 9",
         "x = 8"
       ],
       "correctAnswer": "x = 8",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3/4x + 1/4 = 5/12x - 7/12.",
       "options": [
-        "x = -3/2",
         "x = 5/2",
-        "x = -5/2",
-        "x = -7/2"
+        "x = -7/2",
+        "x = -3/2",
+        "x = -5/2"
       ],
       "correctAnswer": "x = -5/2",
       "difficulty": "scaffold",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5/6x - 5 = -1/6x - 8.",
       "options": [
-        "x = -2",
-        "x = 3",
         "x = -4",
-        "x = -3"
+        "x = 3",
+        "x = -3",
+        "x = -2"
       ],
       "correctAnswer": "x = -3",
       "difficulty": "scaffold",
@@ -86,10 +86,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -1/3x + 3 = 3/10x + 41/20.",
       "options": [
-        "x = -3/2",
-        "x = 3/2",
         "x = 5/2",
-        "x = 1/2"
+        "x = 3/2",
+        "x = 1/2",
+        "x = -3/2"
       ],
       "correctAnswer": "x = 3/2",
       "difficulty": "scaffold",
@@ -105,10 +105,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4/5x + 5/2 = 1/5x + 49/10.",
       "options": [
-        "x = 3",
         "x = 5",
-        "x = 4",
-        "x = -4"
+        "x = 3",
+        "x = -4",
+        "x = 4"
       ],
       "correctAnswer": "x = 4",
       "difficulty": "scaffold",
@@ -125,9 +125,9 @@
       "questionText": "Solve -3/2x + 1/4 = 1/3x - 151/12.",
       "options": [
         "x = 8",
-        "x = 7",
+        "x = -7",
         "x = 6",
-        "x = -7"
+        "x = 7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "scaffold",
@@ -143,9 +143,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 7/10x - 5 = -1/2x + 1/5.",
       "options": [
+        "x = -13/3",
         "x = 13/3",
         "x = 10/3",
-        "x = -13/3",
         "x = 16/3"
       ],
       "correctAnswer": "x = 13/3",
@@ -163,9 +163,9 @@
       "questionText": "Solve 1/2x + 3 = 1/4x + 17/4.",
       "options": [
         "x = 5",
-        "x = 4",
         "x = 6",
-        "x = -5"
+        "x = -5",
+        "x = 4"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -182,9 +182,9 @@
       "questionText": "Solve 2/3x + 5/2 = -2/5x + 251/30.",
       "options": [
         "x = 9/2",
-        "x = -11/2",
+        "x = 13/2",
         "x = 11/2",
-        "x = 13/2"
+        "x = -11/2"
       ],
       "correctAnswer": "x = 11/2",
       "difficulty": "scaffold",
@@ -201,9 +201,9 @@
       "questionText": "Solve 3/4x + 1/4 = 5/12x + 13/4.",
       "options": [
         "x = -9",
+        "x = 9",
         "x = 10",
-        "x = 8",
-        "x = 9"
+        "x = 8"
       ],
       "correctAnswer": "x = 9",
       "difficulty": "standard",
@@ -219,9 +219,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 5/6x - 5 = -1/6x - 9.",
       "options": [
-        "x = -3",
         "x = -5",
         "x = -4",
+        "x = -3",
         "x = 4"
       ],
       "correctAnswer": "x = -4",
@@ -238,10 +238,10 @@
       "type": "multiple_choice",
       "questionText": "Solve -1/3x + 3 = 3/10x - 4/5.",
       "options": [
-        "x = 7",
         "x = 6",
-        "x = 5",
-        "x = -6"
+        "x = -6",
+        "x = 7",
+        "x = 5"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4/5x + 5/2 = 1/5x + 73/10.",
       "options": [
-        "x = 7",
         "x = 9",
         "x = 8",
-        "x = -8"
+        "x = -8",
+        "x = 7"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -275,6 +275,120 @@
       "id": "course3-unit-2-mixed-review-core-015",
       "type": "multiple_choice",
       "questionText": "How many solutions does 2(x + 2) = x + 6 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "cannot be determined",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-core-016",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
+      "options": [
+        "cannot be determined",
+        "infinitely many solutions",
+        "one solution",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-core-017",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
+      "options": [
+        "cannot be determined",
+        "infinitely many solutions",
+        "one solution",
+        "no solution"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-core-018",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
+      "options": [
+        "cannot be determined",
+        "infinitely many solutions",
+        "one solution",
+        "no solution"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-core-019",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
+      "options": [
+        "no solution",
+        "one solution",
+        "cannot be determined",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-core-020",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
+      "options": [
+        "infinitely many solutions",
+        "cannot be determined",
+        "no solution",
+        "one solution"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "explanation": "Both sides simplify to the same expression, so every value of x works."
+    },
+    {
+      "id": "course3-unit-2-mixed-review-core-021",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does 8(x + 2) = 7x + 24 have?",
       "options": [
         "infinitely many solutions",
         "cannot be determined",
@@ -291,128 +405,14 @@
       "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
     },
     {
-      "id": "course3-unit-2-mixed-review-core-016",
-      "type": "multiple_choice",
-      "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
-      "options": [
-        "one solution",
-        "cannot be determined",
-        "no solution",
-        "infinitely many solutions"
-      ],
-      "correctAnswer": "no solution",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "conceptual",
-        "reasoning"
-      ],
-      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
-    },
-    {
-      "id": "course3-unit-2-mixed-review-core-017",
-      "type": "multiple_choice",
-      "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
-      "options": [
-        "one solution",
-        "infinitely many solutions",
-        "no solution",
-        "cannot be determined"
-      ],
-      "correctAnswer": "infinitely many solutions",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "conceptual",
-        "reasoning"
-      ],
-      "explanation": "Both sides simplify to the same expression, so every value of x works."
-    },
-    {
-      "id": "course3-unit-2-mixed-review-core-018",
-      "type": "multiple_choice",
-      "questionText": "How many solutions does 5(x + 2) = 4x + 15 have?",
-      "options": [
-        "one solution",
-        "no solution",
-        "infinitely many solutions",
-        "cannot be determined"
-      ],
-      "correctAnswer": "one solution",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "conceptual",
-        "reasoning"
-      ],
-      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
-    },
-    {
-      "id": "course3-unit-2-mixed-review-core-019",
-      "type": "multiple_choice",
-      "questionText": "How many solutions does 6(x + 2) = 6x + 15 have?",
-      "options": [
-        "infinitely many solutions",
-        "cannot be determined",
-        "one solution",
-        "no solution"
-      ],
-      "correctAnswer": "no solution",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "conceptual",
-        "reasoning"
-      ],
-      "explanation": "After simplifying, the variable terms match but the constants do not, so the equation is impossible."
-    },
-    {
-      "id": "course3-unit-2-mixed-review-core-020",
-      "type": "multiple_choice",
-      "questionText": "How many solutions does 7(x + 2) = 7x + 14 have?",
-      "options": [
-        "no solution",
-        "cannot be determined",
-        "one solution",
-        "infinitely many solutions"
-      ],
-      "correctAnswer": "infinitely many solutions",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "conceptual",
-        "reasoning"
-      ],
-      "explanation": "Both sides simplify to the same expression, so every value of x works."
-    },
-    {
-      "id": "course3-unit-2-mixed-review-core-021",
-      "type": "multiple_choice",
-      "questionText": "How many solutions does 8(x + 2) = 7x + 24 have?",
-      "options": [
-        "one solution",
-        "infinitely many solutions",
-        "no solution",
-        "cannot be determined"
-      ],
-      "correctAnswer": "one solution",
-      "difficulty": "standard",
-      "answerType": "number",
-      "skillTags": [
-        "conceptual",
-        "reasoning"
-      ],
-      "explanation": "After simplifying, the variable terms are different, so the equation has exactly one solution."
-    },
-    {
       "id": "course3-unit-2-mixed-review-core-022",
       "type": "multiple_choice",
       "questionText": "How many solutions does 9(x + 2) = 9x + 21 have?",
       "options": [
-        "no solution",
-        "one solution",
+        "infinitely many solutions",
         "cannot be determined",
-        "infinitely many solutions"
+        "no solution",
+        "one solution"
       ],
       "correctAnswer": "no solution",
       "difficulty": "standard",
@@ -428,10 +428,10 @@
       "type": "multiple_choice",
       "questionText": "How many solutions does 10(x + 2) = 10x + 20 have?",
       "options": [
-        "one solution",
-        "infinitely many solutions",
         "cannot be determined",
-        "no solution"
+        "no solution",
+        "one solution",
+        "infinitely many solutions"
       ],
       "correctAnswer": "infinitely many solutions",
       "difficulty": "standard",
@@ -449,8 +449,8 @@
       "options": [
         "infinitely many solutions",
         "cannot be determined",
-        "no solution",
-        "one solution"
+        "one solution",
+        "no solution"
       ],
       "correctAnswer": "one solution",
       "difficulty": "standard",
@@ -467,8 +467,8 @@
       "questionText": "How many solutions does 3(x + 2) = 3x + 9 have?",
       "options": [
         "no solution",
-        "infinitely many solutions",
         "cannot be determined",
+        "infinitely many solutions",
         "one solution"
       ],
       "correctAnswer": "no solution",
@@ -485,10 +485,10 @@
       "type": "multiple_choice",
       "questionText": "How many solutions does 4(x + 2) = 4x + 8 have?",
       "options": [
-        "no solution",
         "infinitely many solutions",
-        "one solution",
-        "cannot be determined"
+        "cannot be determined",
+        "no solution",
+        "one solution"
       ],
       "correctAnswer": "infinitely many solutions",
       "difficulty": "standard",
@@ -523,10 +523,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $20 and saves $5 each week. Omar has $8 and saves $7 each week. Which equation matches the situation if x is the number of weeks until they have the same amount?",
       "options": [
-        "20x + 5 = 8x + 7",
         "20 + 8 = 5x + 7x",
+        "20 + 5x = 8 + 7x",
         "20 + 7x = 8 + 5x",
-        "20 + 5x = 8 + 7x"
+        "20x + 5 = 8x + 7"
       ],
       "correctAnswer": "20 + 5x = 8 + 7x",
       "difficulty": "standard",
@@ -542,10 +542,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has width x and length x + 3. Its perimeter is 30. Which equation matches the situation if x is the width?",
       "options": [
-        "2x + 2(x + 3) = 30",
-        "2x + x + 3 = 30",
         "2x + 2x + 3 = 30",
-        "x + (x + 3) = 30"
+        "x + (x + 3) = 30",
+        "2x + 2(x + 3) = 30",
+        "2x + x + 3 = 30"
       ],
       "correctAnswer": "2x + 2(x + 3) = 30",
       "difficulty": "standard",
@@ -581,9 +581,9 @@
       "questionText": "A subscription has a one-time $18 setup fee and costs $12 per month. The total is $78. Which equation matches the situation if x is the number of months?",
       "options": [
         "18x + 12 = 78",
-        "18 + 12x = 78",
         "12 + 18x = 78",
-        "18 + 12 = 78x"
+        "18 + 12 = 78x",
+        "18 + 12x = 78"
       ],
       "correctAnswer": "18 + 12x = 78",
       "difficulty": "standard",
@@ -599,10 +599,10 @@
       "type": "multiple_choice",
       "questionText": "A teacher buys 4 equal packs of pencils plus 3 extra pencils, for 31 pencils total. Which equation matches the situation if x is the number of pencils in each pack?",
       "options": [
-        "4x + 3 = 31",
         "4(x + 3) = 31",
-        "4x = 31 + 3",
-        "4 + 3x = 31"
+        "4x + 3 = 31",
+        "4 + 3x = 31",
+        "4x = 31 + 3"
       ],
       "correctAnswer": "4x + 3 = 31",
       "difficulty": "standard",
@@ -618,10 +618,10 @@
       "type": "multiple_choice",
       "questionText": "A number is multiplied by 3, then 7 is subtracted. The result is 17. Which equation matches the situation if x is the original number?",
       "options": [
-        "3x - 7 = 17",
         "3x + 7 = 17",
+        "7x - 3 = 17",
         "3(x - 7) = 17",
-        "7x - 3 = 17"
+        "3x - 7 = 17"
       ],
       "correctAnswer": "3x - 7 = 17",
       "difficulty": "standard",
@@ -637,10 +637,10 @@
       "type": "multiple_choice",
       "questionText": "A delivery service charges $5 plus $2 per mile. The total charge is $23. Which equation matches the situation if x is the number of miles?",
       "options": [
-        "5x + 2 = 23",
-        "2 + 5x = 23",
+        "5 + 2x = 23",
         "5 + 2 = 23x",
-        "5 + 2x = 23"
+        "5x + 2 = 23",
+        "2 + 5x = 23"
       ],
       "correctAnswer": "5 + 2x = 23",
       "difficulty": "standard",
@@ -656,10 +656,10 @@
       "type": "multiple_choice",
       "questionText": "A club charges a $10 sign-up fee plus $4 for each meeting. The total cost is $34. How many meetings are included?",
       "options": [
-        "x = 4",
         "x = -6",
-        "x = 8",
-        "x = 6"
+        "x = 4",
+        "x = 6",
+        "x = 8"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -676,10 +676,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $24 and saves $6 each week. Omar has $10 and saves $8 each week. After how many weeks will they have the same amount?",
       "options": [
-        "x = 9",
-        "x = -7",
+        "x = 5",
         "x = 7",
-        "x = 5"
+        "x = 9",
+        "x = -7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -696,10 +696,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has width x and length x + 5. Its perimeter is 42. What is x?",
       "options": [
-        "x = 10",
+        "x = 6",
         "x = 8",
-        "x = -8",
-        "x = 6"
+        "x = 10",
+        "x = -8"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "challenge",
@@ -716,9 +716,9 @@
       "type": "multiple_choice",
       "questionText": "Three friends split a bill after using a $9 coupon. Each pays $9. What was the original bill?",
       "options": [
+        "x = 36",
         "x = 34",
         "x = -36",
-        "x = 36",
         "x = 38"
       ],
       "correctAnswer": "x = 36",
@@ -736,10 +736,10 @@
       "type": "multiple_choice",
       "questionText": "A subscription costs $18 to start plus $7 each month. The total is $88. How many months were paid for?",
       "options": [
-        "x = -10",
-        "x = 10",
         "x = 12",
-        "x = 8"
+        "x = 8",
+        "x = 10",
+        "x = -10"
       ],
       "correctAnswer": "x = 10",
       "difficulty": "challenge",
@@ -756,10 +756,10 @@
       "type": "multiple_choice",
       "questionText": "A teacher buys 5 equal packs of pencils plus 4 extra pencils, for 64 pencils total. How many pencils are in each pack?",
       "options": [
-        "x = 14",
         "x = 12",
-        "x = -12",
-        "x = 10"
+        "x = 10",
+        "x = 14",
+        "x = -12"
       ],
       "correctAnswer": "x = 12",
       "difficulty": "challenge",
@@ -776,9 +776,9 @@
       "type": "multiple_choice",
       "questionText": "A number is multiplied by 4, then 11 is subtracted. The result is 49. What is the number?",
       "options": [
-        "x = 15",
-        "x = -15",
         "x = 17",
+        "x = -15",
+        "x = 15",
         "x = 13"
       ],
       "correctAnswer": "x = 15",
@@ -796,10 +796,10 @@
       "type": "multiple_choice",
       "questionText": "A delivery costs $6 plus $3 per mile. The total is $60. How many miles was the delivery?",
       "options": [
-        "x = 16",
-        "x = 20",
+        "x = -18",
         "x = 18",
-        "x = -18"
+        "x = 16",
+        "x = 20"
       ],
       "correctAnswer": "x = 18",
       "difficulty": "challenge",
@@ -816,10 +816,10 @@
       "type": "multiple_choice",
       "questionText": "A club charges a $11 sign-up fee plus $5 for each meeting. The total cost is $111. How many meetings are included?",
       "options": [
-        "x = 22",
+        "x = -20",
         "x = 18",
-        "x = 20",
-        "x = -20"
+        "x = 22",
+        "x = 20"
       ],
       "correctAnswer": "x = 20",
       "difficulty": "challenge",
@@ -836,10 +836,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $24 and saves $6 each week. Omar has $10 and saves $8 each week. After how many weeks will they have the same amount?",
       "options": [
-        "x = -7",
-        "x = 7",
+        "x = 5",
         "x = 9",
-        "x = 5"
+        "x = 7",
+        "x = -7"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "challenge",
@@ -856,10 +856,10 @@
       "type": "multiple_choice",
       "questionText": "Does x = 5 solve 4x + 3 = 2x + 13?",
       "options": [
-        "Yes, both sides equal 23.",
+        "No, the left side is 20.",
         "No, the right side is 13.",
-        "Yes, both sides equal 18.",
-        "No, the left side is 20."
+        "Yes, both sides equal 23.",
+        "Yes, both sides equal 18."
       ],
       "correctAnswer": "Yes, both sides equal 23.",
       "difficulty": "challenge",
@@ -876,9 +876,9 @@
       "questionText": "Does x = -2 solve 3x - 4 = x - 8?",
       "options": [
         "No, both sides equal 10.",
+        "Yes, both sides equal -6.",
         "No, only the left side is -10.",
-        "Yes, both sides equal -10.",
-        "Yes, both sides equal -6."
+        "Yes, both sides equal -10."
       ],
       "correctAnswer": "Yes, both sides equal -10.",
       "difficulty": "challenge",
@@ -894,10 +894,10 @@
       "type": "multiple_choice",
       "questionText": "A student solves 2(x + 3) = 18 by writing 2x + 3 = 18. What is the first mistake?",
       "options": [
+        "They divided by 2 too early.",
         "They should subtract 18 first.",
         "There is no mistake.",
-        "They did not distribute 2 to both terms.",
-        "They divided by 2 too early."
+        "They did not distribute 2 to both terms."
       ],
       "correctAnswer": "They did not distribute 2 to both terms.",
       "difficulty": "challenge",
@@ -932,10 +932,10 @@
       "type": "multiple_choice",
       "questionText": "Which check proves x = 4 solves 3x + 1 = x + 9?",
       "options": [
+        "3(4) + 1 = 13 and 4 + 9 = 13",
         "3(4) + 1 = 12 and 4 + 9 = 13",
-        "3 + 4 + 1 = 8 and 4 + 9 = 13",
         "3(9) + 1 = 28 and 4 + 9 = 13",
-        "3(4) + 1 = 13 and 4 + 9 = 13"
+        "3 + 4 + 1 = 8 and 4 + 9 = 13"
       ],
       "correctAnswer": "3(4) + 1 = 13 and 4 + 9 = 13",
       "difficulty": "challenge",
@@ -951,9 +951,9 @@
       "type": "multiple_choice",
       "questionText": "A student changes 1/2x = 6 to x = 6/2. What should they do instead?",
       "options": [
-        "Multiply both sides by 2 to get x = 12.",
         "Divide both sides by 2 to get x = 3.",
         "Subtract 1/2 from both sides.",
+        "Multiply both sides by 2 to get x = 12.",
         "The step is already correct."
       ],
       "correctAnswer": "Multiply both sides by 2 to get x = 12.",

@@ -2,42 +2,53 @@
 
 ## Big Idea
 
-Linear equations stay true when you make the same valid move to both sides. The goal is not to memorize a trick; the goal is to keep the two sides balanced until the value of the variable is clear.
+Solving is not finished until you can check the answer and explain why it works. A correct solution makes the original equation true.
 
-## What To Watch For
+## How To Check
 
-- Identify the variable and what it represents.
-- Simplify each side before moving terms.
-- Move variable terms and constant terms with inverse operations.
-- If fractions or decimals make the equation hard to read, clear them first.
-- Check the answer in the original equation, not only in the last line of work.
+1. Start with the original equation.
+2. Substitute the proposed value for the variable.
+3. Simplify both sides separately.
+4. Compare the two sides.
 
 ## Worked Example
 
-Solve: `1/2x + 3 = 1/4x + 7`
+Check whether `x = 4` solves `3x - 5 = 7`.
 
-1. Subtract `1/4x` from both sides: `1/4x + 3 = 7`
-2. Subtract 3 from both sides: `1/4x = 4`
-3. Multiply both sides by 4: `x = 16`
-4. Check: `1/2(16) + 3 = 11` and `1/4(16) + 7 = 11`
+Substitute 4:
 
-## Strategy
+`3(4) - 5 = 7`
 
-Ask: What is making the equation complicated?
+Simplify:
 
-| If you see... | Try... |
-| --- | --- |
-| Fractions | multiply every term by a common denominator |
-| Parentheses | distribute first |
-| Variables on both sides | move one variable term to the other side |
-| Same expression on both sides | check for infinitely many solutions |
-| Same variable term but different constants | check for no solution |
-| A story problem | define the variable before writing the equation |
+`12 - 5 = 7`
+
+`7 = 7`
+
+The statement is true, so `x = 4` is a solution.
+
+## Explaining A Solution
+
+A strong explanation names the operation and the reason it preserves equality.
+
+Example:
+
+"I subtracted 5 from both sides because adding 5 was attached to the variable expression. Then I divided both sides by 3. These inverse operations keep the equation balanced."
+
+## Finding Errors
+
+If a check gives a false statement, look for:
+
+- a sign error
+- forgetting to distribute
+- combining unlike terms
+- clearing only some fraction terms
+- checking in a simplified equation instead of the original
 
 ## Common Mistake
 
-Do not move a term by simply changing where it appears. Use an inverse operation on both sides. For example, from `3x + 5 = x + 17`, subtract `x` from both sides to get `2x + 5 = 17`.
+Do not check by substituting into your final line only. A mistake could have happened earlier, so the original equation is the real test.
 
 ## Quick Self-Check
 
-After solving, substitute the value back into the original equation. If both sides match, the solution works. If they do not match, look for a distribution, sign, or fraction-clearing mistake.
+Your explanation should answer two questions: "What did I do?" and "Why is that move allowed?"

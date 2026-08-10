@@ -12,8 +12,8 @@
       "options": [
         "(2, -3)",
         "(0, -2)",
-        "(2, -1)",
-        "(2, 1)"
+        "(2, 1)",
+        "(2, -1)"
       ],
       "correctAnswer": "(2, -3)",
       "difficulty": "scaffold",
@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "Which graphing description matches y = 2/5x?",
       "options": [
+        "Start at 0 on the y-axis, then use slope -2/5",
         "Start at 1 on the y-axis, then use slope 2/5",
         "Start at 2/5 on the y-axis, then use slope 0",
-        "Start at 0 on the y-axis, then use slope 2/5",
-        "Start at 0 on the y-axis, then use slope -2/5"
+        "Start at 0 on the y-axis, then use slope 2/5"
       ],
       "correctAnswer": "Start at 0 on the y-axis, then use slope 2/5",
       "difficulty": "scaffold",
@@ -51,8 +51,8 @@
       "questionText": "What is the first point to plot when graphing y = -3/2x + 7 from the y-intercept?",
       "options": [
         "(0, 7)",
-        "(1, 11/2)",
         "(2, 4)",
+        "(1, 11/2)",
         "(0, -7)"
       ],
       "correctAnswer": "(0, 7)",
@@ -70,10 +70,10 @@
       "type": "multiple_choice",
       "questionText": "A line has equation y = 3/2x - 5. Starting at (0, -5), which point follows from the slope?",
       "options": [
-        "(2, -2)",
         "(8, -17)",
         "(8, 17)",
-        "(8, 7)"
+        "(8, 7)",
+        "(2, -2)"
       ],
       "correctAnswer": "(8, 7)",
       "difficulty": "scaffold",
@@ -91,9 +91,9 @@
       "questionText": "A student wants to graph y = -3. Which steps should they use?",
       "options": [
         "Start at -3 on the y-axis, then use slope 0",
-        "Start at 3 on the y-axis, then use slope 0",
         "Start at 0 on the y-axis, then use slope -3",
-        "Start at -2 on the y-axis, then use slope 0"
+        "Start at -2 on the y-axis, then use slope 0",
+        "Start at 3 on the y-axis, then use slope 0"
       ],
       "correctAnswer": "Start at -3 on the y-axis, then use slope 0",
       "difficulty": "scaffold",
@@ -111,8 +111,8 @@
       "questionText": "For y = 6/5x + 9, which y-axis point belongs on the graph before using slope?",
       "options": [
         "(5, 15)",
-        "(0, 9)",
         "(1, 51/5)",
+        "(0, 9)",
         "(0, -9)"
       ],
       "correctAnswer": "(0, 9)",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "Use slope -2/3 from y-intercept -9. Which point is on the line?",
       "options": [
-        "(3, -11)",
+        "(6, 5)",
         "(6, -13)",
         "(6, -5)",
-        "(6, 5)"
+        "(3, -11)"
       ],
       "correctAnswer": "(6, -13)",
       "difficulty": "scaffold",
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "Which description correctly graphs a line with slope -5/3 and y-intercept 5?",
       "options": [
-        "Start at -5 on the y-axis, then use slope -5/3",
-        "Start at 5 on the y-axis, then use slope 5/3",
         "Start at -5/3 on the y-axis, then use slope 5",
-        "Start at 5 on the y-axis, then use slope -5/3"
+        "Start at 5 on the y-axis, then use slope -5/3",
+        "Start at 5 on the y-axis, then use slope 5/3",
+        "Start at -5 on the y-axis, then use slope -5/3"
       ],
       "correctAnswer": "Start at 5 on the y-axis, then use slope -5/3",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "When graphing y = x + 1, what point shows where the line crosses the y-axis?",
       "options": [
-        "(0, -1)",
-        "(0, 1)",
         "(1, 2)",
-        "(0, 2)"
+        "(0, 2)",
+        "(0, -1)",
+        "(0, 1)"
       ],
       "correctAnswer": "(0, 1)",
       "difficulty": "standard",
@@ -210,10 +210,10 @@
       "type": "multiple_choice",
       "questionText": "Which graphing description matches y = 3/5x + 2?",
       "options": [
-        "Start at -2 on the y-axis, then use slope 3/5",
-        "Start at 2 on the y-axis, then use slope -3/5",
         "Start at 2 on the y-axis, then use slope 3/5",
-        "Start at 3/5 on the y-axis, then use slope 2"
+        "Start at 2 on the y-axis, then use slope -3/5",
+        "Start at 3/5 on the y-axis, then use slope 2",
+        "Start at -2 on the y-axis, then use slope 3/5"
       ],
       "correctAnswer": "Start at 2 on the y-axis, then use slope 3/5",
       "difficulty": "standard",
@@ -230,10 +230,10 @@
       "type": "multiple_choice",
       "questionText": "What is the first point to plot when graphing y = 2x + 8 from the y-intercept?",
       "options": [
-        "(0, 8)",
+        "(1, 10)",
         "(0, 9)",
         "(0, -8)",
-        "(1, 10)"
+        "(0, 8)"
       ],
       "correctAnswer": "(0, 8)",
       "difficulty": "standard",
@@ -251,9 +251,9 @@
       "questionText": "A line has equation y = -3/4x - 8. Starting at (0, -8), which point follows from the slope?",
       "options": [
         "(4, -11)",
-        "(12, -1)",
+        "(12, -17)",
         "(12, 1)",
-        "(12, -17)"
+        "(12, -1)"
       ],
       "correctAnswer": "(12, -17)",
       "difficulty": "standard",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "A student wants to graph y = 7/4x + 3. Which steps should they use?",
       "options": [
-        "Start at -3 on the y-axis, then use slope 7/4",
         "Start at 3 on the y-axis, then use slope -7/4",
+        "Start at 7/4 on the y-axis, then use slope 3",
         "Start at 3 on the y-axis, then use slope 7/4",
-        "Start at 7/4 on the y-axis, then use slope 3"
+        "Start at -3 on the y-axis, then use slope 7/4"
       ],
       "correctAnswer": "Start at 3 on the y-axis, then use slope 7/4",
       "difficulty": "standard",
@@ -291,9 +291,9 @@
       "questionText": "For y = -x - 4, which y-axis point belongs on the graph before using slope?",
       "options": [
         "(0, -4)",
+        "(0, -3)",
         "(1, -5)",
-        "(0, 4)",
-        "(0, -3)"
+        "(0, 4)"
       ],
       "correctAnswer": "(0, -4)",
       "difficulty": "standard",
@@ -310,10 +310,10 @@
       "type": "multiple_choice",
       "questionText": "Use slope 5/2 from y-intercept -6. Which point is on the line?",
       "options": [
-        "(2, 11)",
         "(0, -6)",
+        "(2, -11)",
         "(2, -1)",
-        "(2, -11)"
+        "(2, 11)"
       ],
       "correctAnswer": "(2, -1)",
       "difficulty": "standard",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "Which description correctly graphs a line with slope -7/5 and y-intercept 4?",
       "options": [
-        "Start at -7/5 on the y-axis, then use slope 4",
         "Start at 4 on the y-axis, then use slope 7/5",
-        "Start at -4 on the y-axis, then use slope -7/5",
-        "Start at 4 on the y-axis, then use slope -7/5"
+        "Start at -7/5 on the y-axis, then use slope 4",
+        "Start at 4 on the y-axis, then use slope -7/5",
+        "Start at -4 on the y-axis, then use slope -7/5"
       ],
       "correctAnswer": "Start at 4 on the y-axis, then use slope -7/5",
       "difficulty": "standard",
@@ -350,9 +350,9 @@
       "type": "multiple_choice",
       "questionText": "When graphing y = 1/2x + 6, what point shows where the line crosses the y-axis?",
       "options": [
-        "(1, 13/2)",
-        "(0, -6)",
         "(2, 7)",
+        "(0, -6)",
+        "(1, 13/2)",
         "(0, 6)"
       ],
       "correctAnswer": "(0, 6)",
@@ -370,9 +370,9 @@
       "type": "multiple_choice",
       "questionText": "To graph y = -4x - 7, start at the y-intercept and use the slope. Which second point can you plot?",
       "options": [
-        "(1, -11)",
-        "(4, -23)",
         "(4, 9)",
+        "(4, -23)",
+        "(1, -11)",
         "(4, -9)"
       ],
       "correctAnswer": "(4, -23)",
@@ -391,9 +391,9 @@
       "questionText": "Which graphing description matches y = 5/6x + 10?",
       "options": [
         "Start at 5/6 on the y-axis, then use slope 10",
+        "Start at 10 on the y-axis, then use slope -5/6",
         "Start at -10 on the y-axis, then use slope 5/6",
-        "Start at 10 on the y-axis, then use slope 5/6",
-        "Start at 10 on the y-axis, then use slope -5/6"
+        "Start at 10 on the y-axis, then use slope 5/6"
       ],
       "correctAnswer": "Start at 10 on the y-axis, then use slope 5/6",
       "difficulty": "standard",

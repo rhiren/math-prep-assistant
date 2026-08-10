@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "A line crosses the y-axis at (0, 3). What is the y-intercept?",
       "options": [
-        "-3",
-        "3",
+        "4",
         "2",
-        "4"
+        "3",
+        "-3"
       ],
       "correctAnswer": "3",
       "difficulty": "scaffold",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a line includes (0, 5) and (3, 11/4). What is the y-intercept?",
       "options": [
-        "6",
-        "5",
         "-5",
-        "4"
+        "4",
+        "6",
+        "5"
       ],
       "correctAnswer": "5",
       "difficulty": "scaffold",
@@ -70,8 +70,8 @@
       "type": "multiple_choice",
       "questionText": "A line has slope 2/5 and passes through (0, -4). What is b in y = mx + b?",
       "options": [
-        "4",
         "-5",
+        "4",
         "-4",
         "-3"
       ],
@@ -92,8 +92,8 @@
       "options": [
         "0",
         "3/5",
-        "-1",
-        "1"
+        "1",
+        "-1"
       ],
       "correctAnswer": "0",
       "difficulty": "scaffold",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "A linear context starts with 1 points before any rounds are played. What is the y-intercept of the graph?",
       "options": [
-        "2",
-        "1",
         "-1",
-        "0"
+        "0",
+        "2",
+        "1"
       ],
       "correctAnswer": "1",
       "difficulty": "scaffold",
@@ -130,8 +130,8 @@
       "type": "multiple_choice",
       "questionText": "A student identifies the y-intercept by setting x = 0. For y = x - 6, what value should they get?",
       "options": [
-        "-6",
         "-7",
+        "-6",
         "6",
         "-5"
       ],
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "The ordered pair (0, 7) is on a line. What does its y-coordinate represent?",
       "options": [
-        "6",
+        "7",
         "8",
         "-7",
-        "7"
+        "6"
       ],
       "correctAnswer": "7",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A line goes through (0, -1); another point is (3, -3). What is the starting value?",
       "options": [
-        "0",
-        "-1",
         "-2",
-        "1"
+        "-1",
+        "1",
+        "0"
       ],
       "correctAnswer": "-1",
       "difficulty": "standard",
@@ -191,9 +191,9 @@
       "questionText": "A line crosses the y-axis at (0, 4). What is the y-intercept?",
       "options": [
         "3",
-        "4",
+        "5",
         "-4",
-        "5"
+        "4"
       ],
       "correctAnswer": "4",
       "difficulty": "standard",
@@ -210,10 +210,10 @@
       "type": "multiple_choice",
       "questionText": "In the equation y = -5, what is the y-intercept?",
       "options": [
-        "-6",
-        "5",
+        "-4",
         "-5",
-        "-4"
+        "-6",
+        "5"
       ],
       "correctAnswer": "-5",
       "difficulty": "standard",
@@ -230,9 +230,9 @@
       "type": "multiple_choice",
       "questionText": "A table for a line includes (0, 2) and (-2, -3/2). What is the y-intercept?",
       "options": [
+        "2",
         "1",
         "3",
-        "2",
         "-2"
       ],
       "correctAnswer": "2",
@@ -250,9 +250,9 @@
       "type": "multiple_choice",
       "questionText": "A line has slope -3/2 and passes through (0, 6). What is b in y = mx + b?",
       "options": [
-        "5",
-        "7",
         "-6",
+        "7",
+        "5",
         "6"
       ],
       "correctAnswer": "6",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "The graph of a line meets the y-axis at y = -3. Which value is the y-intercept?",
       "options": [
-        "-4",
-        "3",
         "-2",
-        "-3"
+        "-3",
+        "-4",
+        "3"
       ],
       "correctAnswer": "-3",
       "difficulty": "standard",
@@ -291,8 +291,8 @@
       "questionText": "A linear context starts with 8 points before any rounds are played. What is the y-intercept of the graph?",
       "options": [
         "8",
-        "9",
         "-8",
+        "9",
         "7"
       ],
       "correctAnswer": "8",
@@ -310,10 +310,10 @@
       "type": "multiple_choice",
       "questionText": "A student identifies the y-intercept by setting x = 0. For y = 4/3x - 7, what value should they get?",
       "options": [
-        "-7",
-        "-8",
         "-6",
-        "7"
+        "-8",
+        "7",
+        "-7"
       ],
       "correctAnswer": "-7",
       "difficulty": "standard",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "The ordered pair (0, 9) is on a line. What does its y-coordinate represent?",
       "options": [
-        "8",
-        "-9",
         "10",
-        "9"
+        "8",
+        "9",
+        "-9"
       ],
       "correctAnswer": "9",
       "difficulty": "standard",
@@ -350,9 +350,9 @@
       "type": "multiple_choice",
       "questionText": "A line goes through (0, -8); another point is (-2, -14/3). What is the starting value?",
       "options": [
-        "-7",
         "8",
         "-8",
+        "-7",
         "-9"
       ],
       "correctAnswer": "-8",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "A line crosses the y-axis at (0, 10). What is the y-intercept?",
       "options": [
-        "9",
         "11",
         "-10",
-        "10"
+        "10",
+        "9"
       ],
       "correctAnswer": "10",
       "difficulty": "standard",
@@ -391,8 +391,8 @@
       "questionText": "In the equation y = 6/5x - 9, what is the y-intercept?",
       "options": [
         "-9",
-        "-10",
         "-8",
+        "-10",
         "9"
       ],
       "correctAnswer": "-9",

@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "Why is -12 a rational number?",
       "options": [
+        "It can be written as -12/1",
         "It is negative",
         "It has no decimal point",
-        "It can be written as -12/1",
         "Every negative number is irrational"
       ],
       "correctAnswer": "It can be written as -12/1",
@@ -28,9 +28,9 @@
       "type": "multiple_choice",
       "questionText": "Which number is rational because it is already written as a ratio of integers?",
       "options": [
+        "√3",
         "π",
         "7/11",
-        "√3",
         "0.1010010001..."
       ],
       "correctAnswer": "7/11",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Classify 0.375.",
       "options": [
-        "Irrational, because it is less than 1",
         "Not a real number",
         "Rational, because the decimal terminates",
-        "Irrational, because it has three decimal places"
+        "Irrational, because it has three decimal places",
+        "Irrational, because it is less than 1"
       ],
       "correctAnswer": "Rational, because the decimal terminates",
       "difficulty": "scaffold",
@@ -65,9 +65,9 @@
       "type": "multiple_choice",
       "questionText": "Classify 0.272727..., where the block 27 repeats forever.",
       "options": [
+        "Not a real number",
         "Irrational, because 27 is not a perfect square",
         "Rational, because the decimal repeats",
-        "Not a real number",
         "Irrational, because the decimal never ends"
       ],
       "correctAnswer": "Rational, because the decimal repeats",
@@ -83,10 +83,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is irrational?",
       "options": [
+        "π",
         "3.14",
-        "-4",
         "22/7",
-        "π"
+        "-4"
       ],
       "correctAnswer": "π",
       "difficulty": "scaffold",
@@ -101,10 +101,10 @@
       "type": "multiple_choice",
       "questionText": "Classify √49.",
       "options": [
-        "Rational, because √49 = 7",
         "Irrational, because every square root is irrational",
-        "Irrational, because 49 is odd",
-        "Not a real number"
+        "Not a real number",
+        "Rational, because √49 = 7",
+        "Irrational, because 49 is odd"
       ],
       "correctAnswer": "Rational, because √49 = 7",
       "difficulty": "scaffold",
@@ -120,10 +120,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement correctly classifies √7?",
       "options": [
-        "It is rational because every radical is a fraction",
-        "It is rational because 7 is an integer",
+        "It is irrational because 7 is not a perfect square",
         "It is not real because 7 is positive",
-        "It is irrational because 7 is not a perfect square"
+        "It is rational because every radical is a fraction",
+        "It is rational because 7 is an integer"
       ],
       "correctAnswer": "It is irrational because 7 is not a perfect square",
       "difficulty": "scaffold",
@@ -138,9 +138,9 @@
       "type": "multiple_choice",
       "questionText": "Classify -√81.",
       "options": [
+        "Not real, because square roots cannot be negative",
         "Irrational, because it contains a radical",
         "Rational, because -√81 = -9",
-        "Not real, because square roots cannot be negative",
         "Irrational, because the value is negative"
       ],
       "correctAnswer": "Rational, because -√81 = -9",
@@ -157,10 +157,10 @@
       "type": "multiple_choice",
       "questionText": "Which fraction shows that 0 is rational?",
       "options": [
+        "5/0",
         "0/0",
         "1/0",
-        "0/5",
-        "5/0"
+        "0/5"
       ],
       "correctAnswer": "0/5",
       "difficulty": "scaffold",
@@ -175,10 +175,10 @@
       "type": "multiple_choice",
       "questionText": "The decimal 0.101001000100001... has groups of zeros that keep getting longer. How should it be classified?",
       "options": [
-        "Rational, because it contains only 0s and 1s",
         "Rational, because the first digits show a pattern",
-        "Irrational, because it does not terminate or repeat a fixed block",
-        "Irrational, because every decimal is irrational"
+        "Irrational, because every decimal is irrational",
+        "Rational, because it contains only 0s and 1s",
+        "Irrational, because it does not terminate or repeat a fixed block"
       ],
       "correctAnswer": "Irrational, because it does not terminate or repeat a fixed block",
       "difficulty": "scaffold",
@@ -194,9 +194,9 @@
       "questionText": "Which list contains only irrational numbers?",
       "options": [
         "π, √2, √11",
-        "√4, π, √11",
         "1/3, √5, √9",
-        "0.5, √2, π"
+        "0.5, √2, π",
+        "√4, π, √11"
       ],
       "correctAnswer": "π, √2, √11",
       "difficulty": "standard",
@@ -213,8 +213,8 @@
       "options": [
         "-5, 0.125, √100",
         "-5, √3, 2/7",
-        "√10, 0.4, 9",
-        "π, 0.125, √100"
+        "π, 0.125, √100",
+        "√10, 0.4, 9"
       ],
       "correctAnswer": "-5, 0.125, √100",
       "difficulty": "standard",
@@ -229,10 +229,10 @@
       "type": "multiple_choice",
       "questionText": "A student claims, “Any number written with a square-root symbol is irrational.” Which example disproves the claim?",
       "options": [
-        "√10 does not terminate",
         "√15 is not an integer",
-        "√6 is between 2 and 3",
-        "√64 = 8"
+        "√64 = 8",
+        "√10 does not terminate",
+        "√6 is between 2 and 3"
       ],
       "correctAnswer": "√64 = 8",
       "difficulty": "standard",
@@ -250,8 +250,8 @@
       "options": [
         "Both are irrational because their digits begin the same way",
         "Both are rational because 3.14159 approximates π",
-        "3.14159 is rational, while π is irrational",
-        "3.14159 is irrational, while π is rational"
+        "3.14159 is irrational, while π is rational",
+        "3.14159 is rational, while π is irrational"
       ],
       "correctAnswer": "3.14159 is rational, while π is irrational",
       "difficulty": "standard",
@@ -267,10 +267,10 @@
       "type": "multiple_choice",
       "questionText": "Which is the best classification of √121?",
       "options": [
+        "An irrational number",
         "A rational non-integer",
         "A rational integer",
-        "A non-real number",
-        "An irrational number"
+        "A non-real number"
       ],
       "correctAnswer": "A rational integer",
       "difficulty": "standard",
@@ -287,9 +287,9 @@
       "questionText": "Why is √50 irrational?",
       "options": [
         "50 is greater than 10",
-        "50 is not a perfect square, so √50 cannot be written as a ratio of integers",
         "The symbol √ always produces an irrational value",
-        "50 is even, and square roots of even numbers are always irrational"
+        "50 is even, and square roots of even numbers are always irrational",
+        "50 is not a perfect square, so √50 cannot be written as a ratio of integers"
       ],
       "correctAnswer": "50 is not a perfect square, so √50 cannot be written as a ratio of integers",
       "difficulty": "standard",
@@ -304,10 +304,10 @@
       "type": "multiple_choice",
       "questionText": "Classify √36 + 1/2.",
       "options": [
-        "Rational, because it equals 13/2",
-        "Irrational, because it is not an integer",
+        "Not real, because a radical cannot be added to a fraction",
         "Irrational, because it contains a square root",
-        "Not real, because a radical cannot be added to a fraction"
+        "Rational, because it equals 13/2",
+        "Irrational, because it is not an integer"
       ],
       "correctAnswer": "Rational, because it equals 13/2",
       "difficulty": "standard",
@@ -323,10 +323,10 @@
       "type": "multiple_choice",
       "questionText": "Classify 3 + √2.",
       "options": [
-        "Rational, because 3 is rational",
         "Not real, because unlike number types cannot be added",
+        "Irrational, because adding rational 3 does not remove the irrational part √2",
         "Rational, because every sum is rational",
-        "Irrational, because adding rational 3 does not remove the irrational part √2"
+        "Rational, because 3 is rational"
       ],
       "correctAnswer": "Irrational, because adding rational 3 does not remove the irrational part √2",
       "difficulty": "standard",
@@ -342,8 +342,8 @@
       "questionText": "Which fraction is equal to 0.125 and confirms that it is rational?",
       "options": [
         "1/25",
-        "8/10",
         "1/5",
+        "8/10",
         "1/8"
       ],
       "correctAnswer": "1/8",
@@ -359,10 +359,10 @@
       "type": "multiple_choice",
       "questionText": "The decimal 0.454545... repeats the block 45. Which conclusion is correct?",
       "options": [
-        "It is irrational because 45 is not a perfect square",
         "It is irrational because it has infinitely many digits",
         "It is rational because a repeating decimal can be converted to a fraction",
-        "It is rational only if the digits eventually stop"
+        "It is rational only if the digits eventually stop",
+        "It is irrational because 45 is not a perfect square"
       ],
       "correctAnswer": "It is rational because a repeating decimal can be converted to a fraction",
       "difficulty": "standard",
@@ -379,8 +379,8 @@
       "options": [
         "2.03003000300003...",
         "2.03",
-        "2.03333...",
-        "2.03030303..."
+        "2.03030303...",
+        "2.03333..."
       ],
       "correctAnswer": "2.03003000300003...",
       "difficulty": "standard",
@@ -395,10 +395,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression proves that the mixed number -2 3/5 is rational?",
       "options": [
-        "-2/5",
-        "-13/5",
         "13/0",
-        "-7/5"
+        "-13/5",
+        "-7/5",
+        "-2/5"
       ],
       "correctAnswer": "-13/5",
       "difficulty": "standard",
@@ -413,10 +413,10 @@
       "type": "multiple_choice",
       "questionText": "A circle has diameter 1 meter. Its exact circumference is π meters. Which statement is true?",
       "options": [
-        "The exact circumference terminates after enough digits",
-        "The exact circumference is the rational number 3.14",
+        "The exact circumference is irrational",
         "The circumference is not a real number",
-        "The exact circumference is irrational"
+        "The exact circumference terminates after enough digits",
+        "The exact circumference is the rational number 3.14"
       ],
       "correctAnswer": "The exact circumference is irrational",
       "difficulty": "standard",
@@ -432,10 +432,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 144 square centimeters. How should its side length be classified?",
       "options": [
-        "Irrational, because 144 has three digits",
+        "Rational, because √144 = 12",
         "Not real, because area cannot determine side length",
         "Irrational, because all side lengths from areas use radicals",
-        "Rational, because √144 = 12"
+        "Irrational, because 144 has three digits"
       ],
       "correctAnswer": "Rational, because √144 = 12",
       "difficulty": "standard",
@@ -451,10 +451,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 72 square meters. Which classification describes its exact side length √72?",
       "options": [
-        "Irrational, because 72 is not a perfect square",
-        "Rational, because 72 is an integer",
         "Not real, because 72 is not a perfect square",
-        "Rational, because all measurements are rational"
+        "Irrational, because 72 is not a perfect square",
+        "Rational, because all measurements are rational",
+        "Rational, because 72 is an integer"
       ],
       "correctAnswer": "Irrational, because 72 is not a perfect square",
       "difficulty": "standard",
@@ -470,10 +470,10 @@
       "type": "multiple_choice",
       "questionText": "Classify √81 / 3.",
       "options": [
-        "Irrational, because it contains a radical",
-        "Rational, because it equals 3",
+        "Not real, because radicals cannot be divided",
         "Irrational, because division creates irrational numbers",
-        "Not real, because radicals cannot be divided"
+        "Irrational, because it contains a radical",
+        "Rational, because it equals 3"
       ],
       "correctAnswer": "Rational, because it equals 3",
       "difficulty": "standard",
@@ -489,10 +489,10 @@
       "type": "multiple_choice",
       "questionText": "Classify 2√5.",
       "options": [
-        "Irrational, because a nonzero rational multiple of √5 remains irrational",
-        "Rational, because multiplying by 2 removes the radical",
         "Rational, because it is a product of 2 and 5",
-        "Not real, because √5 is not an integer"
+        "Irrational, because a nonzero rational multiple of √5 remains irrational",
+        "Not real, because √5 is not an integer",
+        "Rational, because multiplying by 2 removes the radical"
       ],
       "correctAnswer": "Irrational, because a nonzero rational multiple of √5 remains irrational",
       "difficulty": "standard",
@@ -507,10 +507,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify and classify √18 / √2.",
       "options": [
-        "Irrational, because both original radicals are irrational",
-        "Rational, because it equals √9 = 3",
         "Not real, because radicals cannot be divided",
-        "Irrational, because it equals √16"
+        "Irrational, because it equals √16",
+        "Irrational, because both original radicals are irrational",
+        "Rational, because it equals √9 = 3"
       ],
       "correctAnswer": "Rational, because it equals √9 = 3",
       "difficulty": "standard",
@@ -526,9 +526,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify and classify √8 × √2.",
       "options": [
-        "Rational, because it equals 10",
-        "Irrational, because each factor is irrational",
         "Rational, because it equals √16 = 4",
+        "Irrational, because each factor is irrational",
+        "Rational, because it equals 10",
         "Not real, because radicals cannot be multiplied"
       ],
       "correctAnswer": "Rational, because it equals √16 = 4",
@@ -545,10 +545,10 @@
       "type": "multiple_choice",
       "questionText": "How should -π be classified?",
       "options": [
-        "Irrational, because changing the sign does not create a fractional representation",
+        "Not real, because π cannot be negative",
         "Rational, because every negative number is rational",
-        "Rational, because -π is less than zero",
-        "Not real, because π cannot be negative"
+        "Irrational, because changing the sign does not create a fractional representation",
+        "Rational, because -π is less than zero"
       ],
       "correctAnswer": "Irrational, because changing the sign does not create a fractional representation",
       "difficulty": "standard",
@@ -564,8 +564,8 @@
       "questionText": "The decimal 0.999... repeats forever. Which statement is correct?",
       "options": [
         "It is irrational because it never terminates",
-        "It is rational and equals 1",
         "It is less than every rational number",
+        "It is rational and equals 1",
         "It is rational but can never equal a fraction"
       ],
       "correctAnswer": "It is rational and equals 1",
@@ -583,9 +583,9 @@
       "questionText": "Let x = 0.666.... Which equation is the useful first step for converting x to a fraction?",
       "options": [
         "10x = 6.666...",
+        "x = 6.666...",
         "100x = 0.666...",
-        "x + 10 = 0.666...",
-        "x = 6.666..."
+        "x + 10 = 0.666..."
       ],
       "correctAnswer": "10x = 6.666...",
       "difficulty": "standard",
@@ -602,9 +602,9 @@
       "questionText": "What must be true about the decimal representation of any rational number?",
       "options": [
         "It never contains a repeating digit",
-        "It terminates or eventually repeats",
+        "It must have fewer than ten decimal places",
         "It always terminates",
-        "It must have fewer than ten decimal places"
+        "It terminates or eventually repeats"
       ],
       "correctAnswer": "It terminates or eventually repeats",
       "difficulty": "standard",
@@ -619,10 +619,10 @@
       "type": "multiple_choice",
       "questionText": "Which description defines an irrational number?",
       "options": [
-        "A negative number that cannot be shown on a number line",
-        "A number written using a square-root symbol",
+        "A decimal with more than three digits",
         "A real number that cannot be written as a ratio of two integers",
-        "A decimal with more than three digits"
+        "A number written using a square-root symbol",
+        "A negative number that cannot be shown on a number line"
       ],
       "correctAnswer": "A real number that cannot be written as a ratio of two integers",
       "difficulty": "standard",
@@ -639,9 +639,9 @@
       "questionText": "Classify √0.",
       "options": [
         "Irrational, because zero is neither positive nor negative",
+        "Irrational, because it contains a radical",
         "Not real, because zero has no square root",
-        "Rational, because √0 = 0",
-        "Irrational, because it contains a radical"
+        "Rational, because √0 = 0"
       ],
       "correctAnswer": "Rational, because √0 = 0",
       "difficulty": "standard",
@@ -658,9 +658,9 @@
       "questionText": "Which statement is always true?",
       "options": [
         "Every square root is irrational",
-        "Every rational number is an integer",
         "Every nonterminating decimal is irrational",
-        "Every integer is rational"
+        "Every integer is rational",
+        "Every rational number is an integer"
       ],
       "correctAnswer": "Every integer is rational",
       "difficulty": "challenge",
@@ -676,10 +676,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify and classify √(16/25).",
       "options": [
-        "Rational, because it equals 16/25",
-        "Irrational, because it contains a fraction under a radical",
+        "Rational, because it equals 4/5",
         "Not real, because square roots cannot contain fractions",
-        "Rational, because it equals 4/5"
+        "Rational, because it equals 16/25",
+        "Irrational, because it contains a fraction under a radical"
       ],
       "correctAnswer": "Rational, because it equals 4/5",
       "difficulty": "challenge",
@@ -695,9 +695,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify and classify √0.04.",
       "options": [
+        "Not real, because square roots require whole numbers",
         "Rational, because it equals 0.2",
         "Irrational, because it equals 0.02",
-        "Not real, because square roots require whole numbers",
         "Irrational, because 0.04 is a decimal"
       ],
       "correctAnswer": "Rational, because it equals 0.2",
@@ -713,10 +713,10 @@
       "type": "multiple_choice",
       "questionText": "Which reasoning correctly classifies √0.2?",
       "options": [
-        "It is irrational because √0.2 = √(1/5), and 1/5 is not the square of a rational number",
         "It is rational because every number less than 1 is rational",
-        "It is rational because 0.2 terminates",
-        "It is not real because 0.2 is not an integer"
+        "It is irrational because √0.2 = √(1/5), and 1/5 is not the square of a rational number",
+        "It is not real because 0.2 is not an integer",
+        "It is rational because 0.2 terminates"
       ],
       "correctAnswer": "It is irrational because √0.2 = √(1/5), and 1/5 is not the square of a rational number",
       "difficulty": "challenge",
@@ -731,10 +731,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify and classify π - π.",
       "options": [
-        "Irrational, because π cannot be canceled",
-        "Irrational, because both terms are irrational",
         "Not real, because irrational numbers cannot be subtracted",
-        "Rational, because it equals 0"
+        "Irrational, because both terms are irrational",
+        "Rational, because it equals 0",
+        "Irrational, because π cannot be canceled"
       ],
       "correctAnswer": "Rational, because it equals 0",
       "difficulty": "challenge",
@@ -749,9 +749,9 @@
       "type": "multiple_choice",
       "questionText": "Which statement correctly classifies π + 1?",
       "options": [
-        "It is not real because unlike number types cannot be added",
         "It is rational because π is close to 3",
         "It is irrational because adding rational 1 to π cannot produce a rational sum",
+        "It is not real because unlike number types cannot be added",
         "It is rational because 1 is rational"
       ],
       "correctAnswer": "It is irrational because adding rational 1 to π cannot produce a rational sum",
@@ -768,9 +768,9 @@
       "questionText": "Simplify and classify (√5)².",
       "options": [
         "Rational, because it equals 5",
+        "Rational, because it equals 25",
         "Irrational, because √5 is irrational",
-        "Not real, because an irrational number cannot be squared",
-        "Rational, because it equals 25"
+        "Not real, because an irrational number cannot be squared"
       ],
       "correctAnswer": "Rational, because it equals 5",
       "difficulty": "challenge",
@@ -788,8 +788,8 @@
       "options": [
         "Irrational, because 48 and 3 are not perfect squares",
         "Not real, because radicals cannot form a quotient",
-        "Rational, because it equals √16 = 4",
-        "Irrational, because it equals √45"
+        "Irrational, because it equals √45",
+        "Rational, because it equals √16 = 4"
       ],
       "correctAnswer": "Rational, because it equals √16 = 4",
       "difficulty": "challenge",
@@ -805,10 +805,10 @@
       "type": "multiple_choice",
       "questionText": "Which irrational number lies between 4 and 5?",
       "options": [
-        "√25",
+        "√16",
         "√20",
-        "9/2",
-        "√16"
+        "√25",
+        "9/2"
       ],
       "correctAnswer": "√20",
       "difficulty": "challenge",
@@ -842,10 +842,10 @@
       "type": "multiple_choice",
       "questionText": "Which relationship among number sets is correct?",
       "options": [
+        "Every real number is rational",
         "Every rational number is an integer, and every integer is irrational",
         "Every integer is rational, and every rational number is real",
-        "Rational and irrational numbers are not real numbers",
-        "Every real number is rational"
+        "Rational and irrational numbers are not real numbers"
       ],
       "correctAnswer": "Every integer is rational, and every rational number is real",
       "difficulty": "challenge",
@@ -861,9 +861,9 @@
       "type": "multiple_choice",
       "questionText": "A student says, “The sum of two irrational numbers is always irrational.” Which counterexample disproves the statement?",
       "options": [
+        "√5 + 1",
         "π + √2",
         "√2 + √3",
-        "√5 + 1",
         "√2 + (-√2) = 0"
       ],
       "correctAnswer": "√2 + (-√2) = 0",
@@ -879,10 +879,10 @@
       "type": "multiple_choice",
       "questionText": "A student says, “The product of two irrational numbers is always irrational.” Which counterexample disproves the statement?",
       "options": [
-        "√5 × 2 = 2√5",
-        "√2 × √2 = 2",
+        "√2 × √3 = √6",
         "π × √2",
-        "√2 × √3 = √6"
+        "√5 × 2 = 2√5",
+        "√2 × √2 = 2"
       ],
       "correctAnswer": "√2 × √2 = 2",
       "difficulty": "challenge",
@@ -897,10 +897,10 @@
       "type": "multiple_choice",
       "questionText": "Which decimal has a fixed repeating block and is therefore rational?",
       "options": [
-        "0.123412341234...",
-        "0.12012001200012...",
         "0.123456789101112...",
-        "0.101001000100001..."
+        "0.123412341234...",
+        "0.101001000100001...",
+        "0.12012001200012..."
       ],
       "correctAnswer": "0.123412341234...",
       "difficulty": "challenge",
@@ -915,10 +915,10 @@
       "type": "multiple_choice",
       "questionText": "A 3-by-4 rectangle has a diagonal of √(3² + 4²) units. How should the diagonal be classified?",
       "options": [
-        "Not real, because 3² + 4² is greater than either side",
+        "Rational, because √(9 + 16) = √25 = 5",
         "Irrational, because it is found with a square root",
-        "Irrational, because every diagonal is irrational",
-        "Rational, because √(9 + 16) = √25 = 5"
+        "Not real, because 3² + 4² is greater than either side",
+        "Irrational, because every diagonal is irrational"
       ],
       "correctAnswer": "Rational, because √(9 + 16) = √25 = 5",
       "difficulty": "challenge",

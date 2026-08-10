@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Between which two consecutive integers does √20 lie?",
       "options": [
-        "3 and 4",
-        "4 and 5",
+        "5 and 6",
         "9 and 10",
-        "5 and 6"
+        "3 and 4",
+        "4 and 5"
       ],
       "correctAnswer": "4 and 5",
       "difficulty": "scaffold",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Between which two consecutive integers does √50 lie?",
       "options": [
-        "6 and 7",
-        "7 and 8",
         "8 and 9",
-        "24 and 25"
+        "7 and 8",
+        "24 and 25",
+        "6 and 7"
       ],
       "correctAnswer": "7 and 8",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Which is the best approximation of √5 to the nearest tenth?",
       "options": [
-        "2.5",
         "1.5",
-        "2.2",
-        "2.3"
+        "2.3",
+        "2.5",
+        "2.2"
       ],
       "correctAnswer": "2.2",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Which is the best approximation of √70 to the nearest tenth?",
       "options": [
-        "7.0",
         "8.7",
         "8.3",
-        "8.4"
+        "8.4",
+        "7.0"
       ],
       "correctAnswer": "8.4",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "What is π rounded to the nearest tenth?",
       "options": [
-        "3.2",
-        "3.14",
+        "3.0",
         "3.1",
-        "3.0"
+        "3.2",
+        "3.14"
       ],
       "correctAnswer": "3.1",
       "difficulty": "scaffold",
@@ -101,9 +101,9 @@
       "questionText": "Which inequality correctly locates √10?",
       "options": [
         "3.0 < √10 < 3.1",
+        "3.1 < √10 < 3.2",
         "4.0 < √10 < 4.1",
-        "3.2 < √10 < 3.3",
-        "3.1 < √10 < 3.2"
+        "3.2 < √10 < 3.3"
       ],
       "correctAnswer": "3.1 < √10 < 3.2",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Which inequality correctly locates √30 between consecutive integers?",
       "options": [
-        "6 < √30 < 7",
-        "4 < √30 < 5",
         "5 < √30 < 6",
-        "14 < √30 < 15"
+        "6 < √30 < 7",
+        "14 < √30 < 15",
+        "4 < √30 < 5"
       ],
       "correctAnswer": "5 < √30 < 6",
       "difficulty": "scaffold",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Why is 1.41 a reasonable approximation of √2?",
       "options": [
-        "2² = 4",
         "1.41² = 1.9881, which is close to 2",
         "1.41 is an irrational decimal",
-        "1.41 + 1.41 = 2.82"
+        "1.41 + 1.41 = 2.82",
+        "2² = 4"
       ],
       "correctAnswer": "1.41² = 1.9881, which is close to 2",
       "difficulty": "scaffold",
@@ -155,8 +155,8 @@
       "questionText": "Which inequality correctly locates √17 to the nearest tenth interval?",
       "options": [
         "4.2 < √17 < 4.3",
-        "8.4 < √17 < 8.5",
         "4.0 < √17 < 4.1",
+        "8.4 < √17 < 8.5",
         "4.1 < √17 < 4.2"
       ],
       "correctAnswer": "4.1 < √17 < 4.2",
@@ -174,8 +174,8 @@
       "options": [
         "A repeating decimal that changes the irrational number into a rational number",
         "A nearby rational value used to represent the irrational number to a chosen precision",
-        "A whole number that must be greater than the irrational number",
-        "A fraction exactly equal to every irrational number"
+        "A fraction exactly equal to every irrational number",
+        "A whole number that must be greater than the irrational number"
       ],
       "correctAnswer": "A nearby rational value used to represent the irrational number to a chosen precision",
       "difficulty": "scaffold",
@@ -191,9 +191,9 @@
       "questionText": "Approximate √45 to the nearest tenth.",
       "options": [
         "6.5",
-        "6.7",
         "6.8",
-        "7.5"
+        "7.5",
+        "6.7"
       ],
       "correctAnswer": "6.7",
       "difficulty": "standard",
@@ -208,9 +208,9 @@
       "type": "multiple_choice",
       "questionText": "Approximate √80 to the nearest tenth.",
       "options": [
-        "8.9",
         "9.0",
         "8.8",
+        "8.9",
         "4.0"
       ],
       "correctAnswer": "8.9",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √130 to the nearest whole number.",
       "options": [
-        "12",
         "11",
-        "13",
-        "10"
+        "12",
+        "10",
+        "13"
       ],
       "correctAnswer": "11",
       "difficulty": "standard",
@@ -245,9 +245,9 @@
       "questionText": "Approximate √150 to the nearest tenth.",
       "options": [
         "12.5",
-        "12.3",
         "12.2",
-        "11.5"
+        "11.5",
+        "12.3"
       ],
       "correctAnswer": "12.2",
       "difficulty": "standard",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √7 to the nearest hundredth.",
       "options": [
-        "2.65",
         "2.64",
-        "2.70",
-        "3.50"
+        "2.65",
+        "3.50",
+        "2.70"
       ],
       "correctAnswer": "2.65",
       "difficulty": "standard",
@@ -280,9 +280,9 @@
       "type": "multiple_choice",
       "questionText": "Approximate √13 to the nearest hundredth.",
       "options": [
-        "3.60",
-        "3.70",
         "3.16",
+        "3.70",
+        "3.60",
         "3.61"
       ],
       "correctAnswer": "3.61",
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √26 to the nearest hundredth.",
       "options": [
-        "5.10",
+        "5.20",
         "4.90",
-        "5.01",
-        "5.20"
+        "5.10",
+        "5.01"
       ],
       "correctAnswer": "5.10",
       "difficulty": "standard",
@@ -317,9 +317,9 @@
       "questionText": "Approximate √95 to the nearest hundredth.",
       "options": [
         "9.75",
+        "10.25",
         "9.74",
-        "9.50",
-        "10.25"
+        "9.50"
       ],
       "correctAnswer": "9.75",
       "difficulty": "standard",
@@ -335,9 +335,9 @@
       "questionText": "Approximate π to the nearest hundredth.",
       "options": [
         "3.15",
-        "3.41",
         "3.10",
-        "3.14"
+        "3.14",
+        "3.41"
       ],
       "correctAnswer": "3.14",
       "difficulty": "standard",
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Approximate √3 to the nearest hundredth.",
       "options": [
-        "1.72",
         "1.73",
         "1.83",
+        "1.72",
         "1.70"
       ],
       "correctAnswer": "1.73",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√40 < 6.3",
+        "√40 > 6.3",
         "√40 < 6",
         "√40 = 6.3",
-        "√40 > 6.3"
+        "√40 < 6.3"
       ],
       "correctAnswer": "√40 > 6.3",
       "difficulty": "standard",
@@ -388,8 +388,8 @@
       "type": "multiple_choice",
       "questionText": "Which ordering is correct?",
       "options": [
-        "2.7 < 3 < √8",
         "√8 < 2.7 < 3",
+        "2.7 < 3 < √8",
         "2.7 < √8 < 3",
         "3 < √8 < 2.7"
       ],
@@ -406,10 +406,10 @@
       "type": "multiple_choice",
       "questionText": "Order √15, 3.9, and 4 from least to greatest.",
       "options": [
-        "4, 3.9, √15",
-        "√15, 3.9, 4",
         "√15, 4, 3.9",
-        "3.9, √15, 4"
+        "√15, 3.9, 4",
+        "3.9, √15, 4",
+        "4, 3.9, √15"
       ],
       "correctAnswer": "√15, 3.9, 4",
       "difficulty": "standard",
@@ -424,10 +424,10 @@
       "type": "multiple_choice",
       "questionText": "Which irrational number lies between 7.2 and 7.3?",
       "options": [
-        "√51",
-        "√53",
         "√49",
-        "√55"
+        "√55",
+        "√53",
+        "√51"
       ],
       "correctAnswer": "√53",
       "difficulty": "standard",
@@ -442,10 +442,10 @@
       "type": "multiple_choice",
       "questionText": "On a number line marked in tenths, which point is closest to √65?",
       "options": [
-        "8.1",
-        "8.0",
         "8.5",
-        "7.5"
+        "8.1",
+        "7.5",
+        "8.0"
       ],
       "correctAnswer": "8.1",
       "difficulty": "standard",
@@ -460,10 +460,10 @@
       "type": "multiple_choice",
       "questionText": "What is the greatest tenth less than √12?",
       "options": [
-        "3.4",
         "3.3",
+        "3.5",
         "3.6",
-        "3.5"
+        "3.4"
       ],
       "correctAnswer": "3.4",
       "difficulty": "standard",
@@ -478,10 +478,10 @@
       "type": "multiple_choice",
       "questionText": "What is the least tenth greater than √12?",
       "options": [
-        "3.4",
-        "4.0",
         "3.6",
-        "3.5"
+        "3.5",
+        "3.4",
+        "4.0"
       ],
       "correctAnswer": "3.5",
       "difficulty": "standard",
@@ -496,10 +496,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement is true, and why?",
       "options": [
-        "√50 = 7.1 because both round to 7",
-        "√50 < 7 because 50 < 70",
         "√50 < 7.1 because 50 < 7.1²",
-        "√50 > 7.1 because 50 > 7.1"
+        "√50 = 7.1 because both round to 7",
+        "√50 > 7.1 because 50 > 7.1",
+        "√50 < 7 because 50 < 70"
       ],
       "correctAnswer": "√50 < 7.1 because 50 < 7.1²",
       "difficulty": "standard",
@@ -516,8 +516,8 @@
       "options": [
         "3.16",
         "0.32",
-        "0.16",
-        "0.06"
+        "0.06",
+        "0.16"
       ],
       "correctAnswer": "0.16",
       "difficulty": "standard",
@@ -533,10 +533,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 75 square meters. What is its side length to the nearest tenth?",
       "options": [
-        "8.7 m",
+        "7.5 m",
         "8.6 m",
         "37.5 m",
-        "7.5 m"
+        "8.7 m"
       ],
       "correctAnswer": "8.7 m",
       "difficulty": "standard",
@@ -551,10 +551,10 @@
       "type": "multiple_choice",
       "questionText": "√18 lies between 4.2 and 4.3. To which tenth is it closer?",
       "options": [
+        "4.2",
         "4.3",
         "4.5",
-        "4.0",
-        "4.2"
+        "4.0"
       ],
       "correctAnswer": "4.2",
       "difficulty": "standard",
@@ -587,10 +587,10 @@
       "type": "multiple_choice",
       "questionText": "Estimate √20 - 1 to the nearest tenth.",
       "options": [
-        "4.5",
         "3.4",
-        "3.5",
-        "1.5"
+        "4.5",
+        "1.5",
+        "3.5"
       ],
       "correctAnswer": "3.5",
       "difficulty": "standard",
@@ -605,10 +605,10 @@
       "type": "multiple_choice",
       "questionText": "Estimate 3√2 to the nearest tenth.",
       "options": [
-        "4.3",
-        "6.0",
         "3.6",
-        "4.2"
+        "6.0",
+        "4.2",
+        "4.3"
       ],
       "correctAnswer": "4.2",
       "difficulty": "standard",
@@ -624,9 +624,9 @@
       "questionText": "Which comparison is correct?",
       "options": [
         "π < √10",
+        "π > √10",
         "π < 3",
-        "π = √10",
-        "π > √10"
+        "π = √10"
       ],
       "correctAnswer": "π < √10",
       "difficulty": "standard",
@@ -641,10 +641,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √28 to the nearest hundredth.",
       "options": [
-        "5.30",
+        "5.29",
         "5.28",
-        "5.14",
-        "5.29"
+        "5.30",
+        "5.14"
       ],
       "correctAnswer": "5.29",
       "difficulty": "challenge",
@@ -660,9 +660,9 @@
       "questionText": "Approximate √200 to the nearest tenth.",
       "options": [
         "10.0",
-        "14.2",
+        "20.0",
         "14.1",
-        "20.0"
+        "14.2"
       ],
       "correctAnswer": "14.1",
       "difficulty": "challenge",
@@ -677,10 +677,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √0.3 to the nearest hundredth.",
       "options": [
-        "0.55",
+        "0.03",
         "0.30",
-        "0.54",
-        "0.03"
+        "0.55",
+        "0.54"
       ],
       "correctAnswer": "0.55",
       "difficulty": "challenge",
@@ -697,8 +697,8 @@
       "options": [
         "0.20",
         "0.14",
-        "0.15",
-        "0.02"
+        "0.02",
+        "0.15"
       ],
       "correctAnswer": "0.14",
       "difficulty": "challenge",
@@ -713,9 +713,9 @@
       "type": "multiple_choice",
       "questionText": "Which interval contains -√11?",
       "options": [
-        "3.3 < -√11 < 3.4",
         "-3.3 < -√11 < -3.2",
         "-3.4 < -√11 < -3.3",
+        "3.3 < -√11 < 3.4",
         "-4.0 < -√11 < -3.5"
       ],
       "correctAnswer": "-3.4 < -√11 < -3.3",
@@ -731,10 +731,10 @@
       "type": "multiple_choice",
       "questionText": "Order -√5, -2.2, and -2 from least to greatest.",
       "options": [
-        "-√5, -2, -2.2",
-        "-√5, -2.2, -2",
         "-2, -2.2, -√5",
-        "-2.2, -√5, -2"
+        "-2.2, -√5, -2",
+        "-√5, -2.2, -2",
+        "-√5, -2, -2.2"
       ],
       "correctAnswer": "-√5, -2.2, -2",
       "difficulty": "challenge",
@@ -749,10 +749,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√2 + √3 < 3",
-        "√2 + √3 = 3.1",
         "√2 + √3 < 3.1",
-        "√2 + √3 > 3.1"
+        "√2 + √3 < 3",
+        "√2 + √3 > 3.1",
+        "√2 + √3 = 3.1"
       ],
       "correctAnswer": "√2 + √3 > 3.1",
       "difficulty": "challenge",
@@ -768,10 +768,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 90 square centimeters. Estimate its perimeter to the nearest tenth.",
       "options": [
-        "37.9 cm",
         "38.0 cm",
-        "90.0 cm",
-        "18.9 cm"
+        "37.9 cm",
+        "18.9 cm",
+        "90.0 cm"
       ],
       "correctAnswer": "37.9 cm",
       "difficulty": "challenge",
@@ -786,10 +786,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 30 square feet. Estimate its perimeter to the nearest whole foot.",
       "options": [
-        "30 ft",
         "120 ft",
-        "22 ft",
-        "21 ft"
+        "21 ft",
+        "30 ft",
+        "22 ft"
       ],
       "correctAnswer": "22 ft",
       "difficulty": "challenge",
@@ -804,9 +804,9 @@
       "type": "multiple_choice",
       "questionText": "The estimate 4.5 is used for √20. Which statement best describes its absolute error?",
       "options": [
-        "The error is greater than 1",
         "The error is exactly 0.5",
         "The error is less than 0.03",
+        "The error is greater than 1",
         "The error is between 0.1 and 0.2"
       ],
       "correctAnswer": "The error is less than 0.03",
@@ -823,8 +823,8 @@
       "questionText": "Which pair of facts proves that √60 rounds to 7.7 to the nearest tenth?",
       "options": [
         "7.7² < 60 and 7.75² > 60",
-        "7.6² < 60 and 7.7² < 60",
         "7.75² < 60 and 7.8² > 60",
+        "7.6² < 60 and 7.7² < 60",
         "7² < 60 and 8² > 60"
       ],
       "correctAnswer": "7.7² < 60 and 7.75² > 60",
@@ -841,8 +841,8 @@
       "questionText": "For which integer n is 6.4 < √n < 6.5?",
       "options": [
         "43",
-        "42",
         "40",
+        "42",
         "45"
       ],
       "correctAnswer": "42",
@@ -858,10 +858,10 @@
       "type": "multiple_choice",
       "questionText": "Using 6.9 as an approximation for √48 gives a squared estimate of 47.61. By how much is that squared estimate below 48?",
       "options": [
-        "1.39",
         "0.39",
-        "0.31",
-        "0.49"
+        "1.39",
+        "0.49",
+        "0.31"
       ],
       "correctAnswer": "0.39",
       "difficulty": "challenge",
@@ -877,8 +877,8 @@
       "type": "multiple_choice",
       "questionText": "A student says, “Because √3 ≈ 1.73 and 1.73 is rational, √3 must be rational.” What is the best correction?",
       "options": [
-        "Every rounded decimal is irrational",
         "The statement is correct because approximation preserves number type",
+        "Every rounded decimal is irrational",
         "√3 is rational because 3 is an integer",
         "1.73 is only a nearby rational approximation; it is not exactly equal to √3"
       ],
@@ -896,10 +896,10 @@
       "type": "multiple_choice",
       "questionText": "Estimate √50 - √8 to the nearest tenth.",
       "options": [
-        "4.2",
-        "9.9",
         "4.3",
-        "5.7"
+        "9.9",
+        "5.7",
+        "4.2"
       ],
       "correctAnswer": "4.2",
       "difficulty": "challenge",

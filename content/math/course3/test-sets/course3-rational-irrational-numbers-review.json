@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is rational?",
       "options": [
-        "5/8",
-        "0.1010010001...",
         "π",
-        "√7"
+        "√7",
+        "0.1010010001...",
+        "5/8"
       ],
       "correctAnswer": "5/8",
       "difficulty": "scaffold",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is irrational?",
       "options": [
-        "√13",
+        "√16",
         "-9",
-        "0.75",
-        "√16"
+        "√13",
+        "0.75"
       ],
       "correctAnswer": "√13",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Why is 0.6 rational?",
       "options": [
-        "It is less than 1",
         "It terminates and equals 3/5",
-        "It has one decimal digit",
-        "Every positive number is rational"
+        "Every positive number is rational",
+        "It is less than 1",
+        "It has one decimal digit"
       ],
       "correctAnswer": "It terminates and equals 3/5",
       "difficulty": "scaffold",
@@ -66,9 +66,9 @@
       "questionText": "Why is 0.181818... rational?",
       "options": [
         "It never ends",
-        "It begins with zero",
+        "18 is an even number",
         "The block 18 repeats",
-        "18 is an even number"
+        "It begins with zero"
       ],
       "correctAnswer": "The block 18 repeats",
       "difficulty": "scaffold",
@@ -83,10 +83,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify and classify √25.",
       "options": [
+        "Irrational, because 25 is odd",
         "Not real",
         "Irrational, because it contains a radical",
-        "Rational, because it equals 5",
-        "Irrational, because 25 is odd"
+        "Rational, because it equals 5"
       ],
       "correctAnswer": "Rational, because it equals 5",
       "difficulty": "scaffold",
@@ -103,8 +103,8 @@
       "options": [
         "314/100",
         "3",
-        "3.14",
-        "π"
+        "π",
+        "3.14"
       ],
       "correctAnswer": "π",
       "difficulty": "scaffold",
@@ -119,10 +119,10 @@
       "type": "multiple_choice",
       "questionText": "Which statement about integers is true?",
       "options": [
-        "Every integer is irrational",
-        "Only zero is rational",
         "Every integer is rational",
-        "No negative integer is rational"
+        "Every integer is irrational",
+        "No negative integer is rational",
+        "Only zero is rational"
       ],
       "correctAnswer": "Every integer is rational",
       "difficulty": "scaffold",
@@ -137,10 +137,10 @@
       "type": "multiple_choice",
       "questionText": "Classify √10.",
       "options": [
-        "Rational, because every square root is rational",
         "Irrational, because 10 is not a perfect square",
+        "Rational, because 10 is an integer",
         "Not real, because 10 is positive",
-        "Rational, because 10 is an integer"
+        "Rational, because every square root is rational"
       ],
       "correctAnswer": "Irrational, because 10 is not a perfect square",
       "difficulty": "scaffold",
@@ -157,8 +157,8 @@
       "options": [
         "√3, 2/3, -4",
         "2/3, -4, 0.2",
-        "√7, π, 0.2",
-        "π, -4, 0.2"
+        "π, -4, 0.2",
+        "√7, π, 0.2"
       ],
       "correctAnswer": "2/3, -4, 0.2",
       "difficulty": "standard",
@@ -174,8 +174,8 @@
       "questionText": "Which list contains only irrational numbers?",
       "options": [
         "1/7, √2, π",
-        "√4, √3, π",
         "0.5, √3, π",
+        "√4, √3, π",
         "√2, √3, π"
       ],
       "correctAnswer": "√2, √3, π",
@@ -191,10 +191,10 @@
       "type": "multiple_choice",
       "questionText": "Classify -√100.",
       "options": [
-        "Rational, because it equals -10",
         "Not real",
-        "Irrational, because it is negative",
-        "Irrational, because it contains a radical"
+        "Rational, because it equals -10",
+        "Irrational, because it contains a radical",
+        "Irrational, because it is negative"
       ],
       "correctAnswer": "Rational, because it equals -10",
       "difficulty": "standard",
@@ -228,10 +228,10 @@
       "type": "multiple_choice",
       "questionText": "Which fraction is equal to 0.45?",
       "options": [
+        "4/5",
         "9/20",
         "1/45",
-        "45/10",
-        "4/5"
+        "45/10"
       ],
       "correctAnswer": "9/20",
       "difficulty": "standard",
@@ -247,9 +247,9 @@
       "questionText": "A square has area 36 square units. How is its side length classified?",
       "options": [
         "Irrational, because 36 is even",
-        "Rational, because √36 = 6",
         "Not real",
-        "Irrational, because side lengths use square roots"
+        "Irrational, because side lengths use square roots",
+        "Rational, because √36 = 6"
       ],
       "correctAnswer": "Rational, because √36 = 6",
       "difficulty": "standard",
@@ -265,10 +265,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 30 square units. How is its exact side length classified?",
       "options": [
-        "Not real",
-        "Rational, because 30 is an integer",
         "Rational, because every length is rational",
-        "Irrational, because 30 is not a perfect square"
+        "Rational, because 30 is an integer",
+        "Irrational, because 30 is not a perfect square",
+        "Not real"
       ],
       "correctAnswer": "Irrational, because 30 is not a perfect square",
       "difficulty": "standard",
@@ -284,10 +284,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is a rational approximation, not the exact irrational value?",
       "options": [
-        "√2",
+        "√5",
         "π",
         "1.414 used for √2",
-        "√5"
+        "√2"
       ],
       "correctAnswer": "1.414 used for √2",
       "difficulty": "standard",
@@ -302,10 +302,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify and classify √9 + 2.",
       "options": [
-        "Irrational, because it contains a radical",
-        "Irrational, because it is a sum",
+        "Rational, because it equals 5",
         "Not real",
-        "Rational, because it equals 5"
+        "Irrational, because it contains a radical",
+        "Irrational, because it is a sum"
       ],
       "correctAnswer": "Rational, because it equals 5",
       "difficulty": "standard",
@@ -321,9 +321,9 @@
       "type": "multiple_choice",
       "questionText": "Classify 4 + √3.",
       "options": [
-        "Not real",
-        "Rational fraction",
         "Irrational",
+        "Rational fraction",
+        "Not real",
         "Rational integer"
       ],
       "correctAnswer": "Irrational",
@@ -339,9 +339,9 @@
       "type": "multiple_choice",
       "questionText": "Which number lies between 5 and 6 and is irrational?",
       "options": [
+        "11/2",
         "√30",
         "√36",
-        "11/2",
         "√25"
       ],
       "correctAnswer": "√30",
@@ -357,10 +357,10 @@
       "type": "multiple_choice",
       "questionText": "What is the most reliable test for deciding whether a real number is rational?",
       "options": [
-        "Count how many symbols appear in the expression",
+        "Check whether the number is positive",
         "Determine whether its exact value can be written as a/b for integers a and nonzero b",
         "Check whether its decimal has at least four digits",
-        "Check whether the number is positive"
+        "Count how many symbols appear in the expression"
       ],
       "correctAnswer": "Determine whether its exact value can be written as a/b for integers a and nonzero b",
       "difficulty": "standard",
