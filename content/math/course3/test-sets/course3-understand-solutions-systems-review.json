@@ -1,0 +1,409 @@
+{
+  "testId": "course3-understand-solutions-systems-review",
+  "conceptId": "concept-understand-solutions-systems",
+  "type": "review",
+  "title": "Understand Solutions to Systems Review Test",
+  "description": "Understand a system solution as an ordered pair that makes both equations true.",
+  "questions": [
+    {
+      "id": "course3-understand-solutions-systems-review-001",
+      "type": "multiple_choice",
+      "questionText": "The lines y = 2x + 4 and y = -x - 5 intersect at (-3, -2). What is the solution to the system?",
+      "options": [
+        "(-3, -2)",
+        "(-3, -1)",
+        "(-2, -3)",
+        "(-2, -2)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-002",
+      "type": "multiple_choice",
+      "questionText": "Does (2, -1) solve the system y = -3x + 5 and y = -x + 1?",
+      "options": [
+        "No; it satisfies only the second equation",
+        "Yes; it makes both equations true",
+        "No; it satisfies neither equation",
+        "No; it satisfies only the first equation"
+      ],
+      "correctAnswer": "Yes; it makes both equations true",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-003",
+      "type": "multiple_choice",
+      "questionText": "What does the solution to a system of two linear equations represent on a graph?",
+      "options": [
+        "the point where the two lines intersect",
+        "any point that satisfies the first equation",
+        "the slope of the steeper line",
+        "the point where one line crosses the y-axis"
+      ],
+      "correctAnswer": "the point where the two lines intersect",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-004",
+      "type": "multiple_choice",
+      "questionText": "A student says (0, -4) solves y = -x - 4 and y = 2x - 4. What must be true?",
+      "options": [
+        "(1, -4)",
+        "(-4, 0)",
+        "(0, -3)",
+        "(0, -4)"
+      ],
+      "correctAnswer": "(0, -4)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-005",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair makes both y = 4x - 18 and y = -x + 7 true?",
+      "options": [
+        "No; it satisfies only the first equation",
+        "No; it satisfies only the second equation",
+        "No; it satisfies neither equation",
+        "No; it does not make both equations true"
+      ],
+      "correctAnswer": "No; it does not make both equations true",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-006",
+      "type": "multiple_choice",
+      "questionText": "If two lines intersect once, how many solutions does the system have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "two solutions"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-007",
+      "type": "multiple_choice",
+      "questionText": "The point (3, 4) lies on both lines in a system. What does that point mean?",
+      "options": [
+        "(3, 4)",
+        "(4, 4)",
+        "(3, 5)",
+        "(4, 3)"
+      ],
+      "correctAnswer": "(3, 4)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-008",
+      "type": "multiple_choice",
+      "questionText": "Which statement best describes a solution to two linear equations?",
+      "options": [
+        "the y-intercept of the first line",
+        "an ordered pair that makes only one equation true",
+        "an ordered pair that makes both equations true",
+        "the larger slope"
+      ],
+      "correctAnswer": "an ordered pair that makes both equations true",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-009",
+      "type": "multiple_choice",
+      "questionText": "For the system y = x + 2 and y = 3x, what point should appear on both tables?",
+      "options": [
+        "the point where the two lines intersect",
+        "any point that satisfies the first equation",
+        "the slope of the steeper line",
+        "the point where one line crosses the y-axis"
+      ],
+      "correctAnswer": "the point where the two lines intersect",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-010",
+      "type": "multiple_choice",
+      "questionText": "A graph shows two lines crossing at (-5, -1). What ordered pair solves the system?",
+      "options": [
+        "(-1, -5)",
+        "(-4, -1)",
+        "(-5, -1)",
+        "(-5, 0)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-011",
+      "type": "multiple_choice",
+      "questionText": "The lines y = 3x + 4 and y = x + 2 intersect at (-1, 1). What is the solution to the system?",
+      "options": [
+        "(0, 1)",
+        "(1, -1)",
+        "(-1, 2)",
+        "(-1, 1)"
+      ],
+      "correctAnswer": "(-1, 1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-012",
+      "type": "multiple_choice",
+      "questionText": "Does (4, -3) solve the system y = -2x + 5 and y = -4x + 13?",
+      "options": [
+        "No; it satisfies neither equation",
+        "No; it satisfies only the first equation",
+        "Yes; it makes both equations true",
+        "No; it satisfies only the second equation"
+      ],
+      "correctAnswer": "Yes; it makes both equations true",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-013",
+      "type": "multiple_choice",
+      "questionText": "What does the solution to a system of two linear equations represent on a graph?",
+      "options": [
+        "any point that satisfies the first equation",
+        "the point where the two lines intersect",
+        "the point where one line crosses the y-axis",
+        "the slope of the steeper line"
+      ],
+      "correctAnswer": "the point where the two lines intersect",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-014",
+      "type": "multiple_choice",
+      "questionText": "A student says (2, -1) solves y = -3x + 5 and y = -x + 1. What must be true?",
+      "options": [
+        "(-1, 2)",
+        "(2, 0)",
+        "(2, -1)",
+        "(3, -1)"
+      ],
+      "correctAnswer": "(2, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-015",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair makes both y = 3x - 17 and y = -2x + 13 true?",
+      "options": [
+        "No; it satisfies neither equation",
+        "No; it does not make both equations true",
+        "No; it satisfies only the first equation",
+        "No; it satisfies only the second equation"
+      ],
+      "correctAnswer": "No; it does not make both equations true",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-016",
+      "type": "multiple_choice",
+      "questionText": "If two lines intersect once, how many solutions does the system have?",
+      "options": [
+        "two solutions",
+        "no solution",
+        "one solution",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "one solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-017",
+      "type": "multiple_choice",
+      "questionText": "The point (5, 2) lies on both lines in a system. What does that point mean?",
+      "options": [
+        "(6, 2)",
+        "(5, 2)",
+        "(5, 3)",
+        "(2, 5)"
+      ],
+      "correctAnswer": "(5, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-018",
+      "type": "multiple_choice",
+      "questionText": "Which statement best describes a solution to two linear equations?",
+      "options": [
+        "the larger slope",
+        "an ordered pair that makes both equations true",
+        "the y-intercept of the first line",
+        "an ordered pair that makes only one equation true"
+      ],
+      "correctAnswer": "an ordered pair that makes both equations true",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-019",
+      "type": "multiple_choice",
+      "questionText": "For the system y = 2x - 2 and y = 4x - 8, what point should appear on both tables?",
+      "options": [
+        "the point where one line crosses the y-axis",
+        "the slope of the steeper line",
+        "any point that satisfies the first equation",
+        "the point where the two lines intersect"
+      ],
+      "correctAnswer": "the point where the two lines intersect",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    },
+    {
+      "id": "course3-understand-solutions-systems-review-020",
+      "type": "multiple_choice",
+      "questionText": "A graph shows two lines crossing at (-4, 3). What ordered pair solves the system?",
+      "options": [
+        "(-3, 3)",
+        "(-4, 4)",
+        "(3, -4)",
+        "(-4, 3)"
+      ],
+      "correctAnswer": "(-4, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graph",
+        "conceptual"
+      ],
+      "explanation": "A solution to a system is an ordered pair that makes both equations true. On a graph, it is the intersection point."
+    }
+  ]
+}

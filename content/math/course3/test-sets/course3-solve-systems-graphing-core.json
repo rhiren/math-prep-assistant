@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-solve-systems-graphing-core",
+  "conceptId": "concept-solve-systems-graphing",
+  "type": "concept",
+  "title": "Solve Systems by Graphing Core Test",
+  "description": "Solve systems by graphing both lines and identifying their intersection point.",
+  "questions": [
+    {
+      "id": "course3-solve-systems-graphing-core-001",
+      "type": "multiple_choice",
+      "questionText": "Solve the system by graphing: y = -2x + 1 and y = x + 7. The lines intersect at which point?",
+      "options": [
+        "(-2, 6)",
+        "(-1, 5)",
+        "(5, -2)",
+        "(-2, 5)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-002",
+      "type": "multiple_choice",
+      "questionText": "Which graphing step solves a system of two linear equations?",
+      "options": [
+        "graph only the line with the larger slope",
+        "choose any point on either line",
+        "add the two y-intercepts",
+        "graph both lines and find their intersection"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-003",
+      "type": "multiple_choice",
+      "questionText": "A graph of y = -x - 4 and y = 2x - 4 shows one crossing point. What is the solution?",
+      "options": [
+        "(1, -4)",
+        "(-4, 0)",
+        "(0, -4)",
+        "(0, -3)"
+      ],
+      "correctAnswer": "(0, -4)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-004",
+      "type": "multiple_choice",
+      "questionText": "The table for y = 3x - 17 and the table for y = -2x + 13 both include which ordered pair?",
+      "options": [
+        "(7, 1)",
+        "(6, 1)",
+        "(6, 2)",
+        "(1, 6)"
+      ],
+      "correctAnswer": "(6, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-005",
+      "type": "multiple_choice",
+      "questionText": "When graphing y = -3x + 5 and y = -x + 1, which point should be marked as the intersection?",
+      "options": [
+        "(2, -1)",
+        "(2, 0)",
+        "(-1, 2)",
+        "(3, -1)"
+      ],
+      "correctAnswer": "(2, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-006",
+      "type": "multiple_choice",
+      "questionText": "A student graphs both lines but chooses (-2, -2) as the answer. Why is (-3, -2) better?",
+      "options": [
+        "graph both lines and find their intersection",
+        "graph only the line with the larger slope",
+        "choose any point on either line",
+        "add the two y-intercepts"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-007",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair is on both lines y = -2x + 5 and y = -4x + 13?",
+      "options": [
+        "(-3, 4)",
+        "(4, -2)",
+        "(4, -3)",
+        "(5, -3)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-008",
+      "type": "multiple_choice",
+      "questionText": "A coordinate grid shows y = 3x + 4 crossing y = x + 2 at (-1, 1). What is the system's solution?",
+      "options": [
+        "(-1, 2)",
+        "(-1, 1)",
+        "(1, -1)",
+        "(0, 1)"
+      ],
+      "correctAnswer": "(-1, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-009",
+      "type": "multiple_choice",
+      "questionText": "Use the graphing idea for y = x + 4 and y = -3x - 16. Which point satisfies both lines?",
+      "options": [
+        "(-4, -1)",
+        "(-1, -5)",
+        "(-5, -1)",
+        "(-5, 0)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-010",
+      "type": "multiple_choice",
+      "questionText": "What point would you circle on a graph to show the solution of y = x + 2 and y = 3x?",
+      "options": [
+        "graph both lines and find their intersection",
+        "add the two y-intercepts",
+        "graph only the line with the larger slope",
+        "choose any point on either line"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-011",
+      "type": "multiple_choice",
+      "questionText": "Solve the system by graphing: y = x + 7 and y = -x - 1. The lines intersect at which point?",
+      "options": [
+        "(3, -4)",
+        "(-4, 4)",
+        "(-4, 3)",
+        "(-3, 3)"
+      ],
+      "correctAnswer": "(-4, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-012",
+      "type": "multiple_choice",
+      "questionText": "Which graphing step solves a system of two linear equations?",
+      "options": [
+        "add the two y-intercepts",
+        "graph only the line with the larger slope",
+        "graph both lines and find their intersection",
+        "choose any point on either line"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-013",
+      "type": "multiple_choice",
+      "questionText": "A graph of y = -2x + 1 and y = x + 7 shows one crossing point. What is the solution?",
+      "options": [
+        "(-2, 6)",
+        "(-2, 5)",
+        "(5, -2)",
+        "(-1, 5)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-014",
+      "type": "multiple_choice",
+      "questionText": "The table for y = 4x - 18 and the table for y = -x + 7 both include which ordered pair?",
+      "options": [
+        "(6, 2)",
+        "(5, 2)",
+        "(5, 3)",
+        "(2, 5)"
+      ],
+      "correctAnswer": "(5, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-015",
+      "type": "multiple_choice",
+      "questionText": "When graphing y = -x - 4 and y = 2x - 4, which point should be marked as the intersection?",
+      "options": [
+        "(-4, 0)",
+        "(0, -3)",
+        "(1, -4)",
+        "(0, -4)"
+      ],
+      "correctAnswer": "(0, -4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-016",
+      "type": "multiple_choice",
+      "questionText": "A student graphs both lines but chooses (7, 1) as the answer. Why is (6, 1) better?",
+      "options": [
+        "graph only the line with the larger slope",
+        "choose any point on either line",
+        "graph both lines and find their intersection",
+        "add the two y-intercepts"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-017",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair is on both lines y = -3x + 5 and y = -x + 1?",
+      "options": [
+        "(-1, 2)",
+        "(2, -1)",
+        "(2, 0)",
+        "(3, -1)"
+      ],
+      "correctAnswer": "(2, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-018",
+      "type": "multiple_choice",
+      "questionText": "A coordinate grid shows y = 2x + 4 crossing y = -x - 5 at (-3, -2). What is the system's solution?",
+      "options": [
+        "(-2, -3)",
+        "(-3, -1)",
+        "(-2, -2)",
+        "(-3, -2)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-019",
+      "type": "multiple_choice",
+      "questionText": "Use the graphing idea for y = -2x + 5 and y = -4x + 13. Which point satisfies both lines?",
+      "options": [
+        "(5, -3)",
+        "(4, -2)",
+        "(-3, 4)",
+        "(4, -3)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-020",
+      "type": "multiple_choice",
+      "questionText": "What point would you circle on a graph to show the solution of y = 3x + 4 and y = x + 2?",
+      "options": [
+        "graph both lines and find their intersection",
+        "add the two y-intercepts",
+        "graph only the line with the larger slope",
+        "choose any point on either line"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-021",
+      "type": "multiple_choice",
+      "questionText": "Solve the system by graphing: y = x + 4 and y = -3x - 16. The lines intersect at which point?",
+      "options": [
+        "(-4, -1)",
+        "(-1, -5)",
+        "(-5, -1)",
+        "(-5, 0)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-022",
+      "type": "multiple_choice",
+      "questionText": "Which graphing step solves a system of two linear equations?",
+      "options": [
+        "graph both lines and find their intersection",
+        "graph only the line with the larger slope",
+        "add the two y-intercepts",
+        "choose any point on either line"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-023",
+      "type": "multiple_choice",
+      "questionText": "A graph of y = x + 7 and y = -x - 1 shows one crossing point. What is the solution?",
+      "options": [
+        "(3, -4)",
+        "(-3, 3)",
+        "(-4, 4)",
+        "(-4, 3)"
+      ],
+      "correctAnswer": "(-4, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-024",
+      "type": "multiple_choice",
+      "questionText": "The table for y = 2x - 2 and the table for y = 4x - 8 both include which ordered pair?",
+      "options": [
+        "(4, 3)",
+        "(3, 4)",
+        "(4, 4)",
+        "(3, 5)"
+      ],
+      "correctAnswer": "(3, 4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-025",
+      "type": "multiple_choice",
+      "questionText": "When graphing y = -2x + 1 and y = x + 7, which point should be marked as the intersection?",
+      "options": [
+        "(-2, 6)",
+        "(-1, 5)",
+        "(-2, 5)",
+        "(5, -2)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-026",
+      "type": "multiple_choice",
+      "questionText": "A student graphs both lines but chooses (6, 2) as the answer. Why is (5, 2) better?",
+      "options": [
+        "add the two y-intercepts",
+        "graph both lines and find their intersection",
+        "graph only the line with the larger slope",
+        "choose any point on either line"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-027",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair is on both lines y = -x - 4 and y = 2x - 4?",
+      "options": [
+        "(1, -4)",
+        "(0, -4)",
+        "(0, -3)",
+        "(-4, 0)"
+      ],
+      "correctAnswer": "(0, -4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-028",
+      "type": "multiple_choice",
+      "questionText": "A coordinate grid shows y = 3x - 17 crossing y = -2x + 13 at (6, 1). What is the system's solution?",
+      "options": [
+        "(6, 1)",
+        "(1, 6)",
+        "(7, 1)",
+        "(6, 2)"
+      ],
+      "correctAnswer": "(6, 1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-029",
+      "type": "multiple_choice",
+      "questionText": "Use the graphing idea for y = -3x + 5 and y = -x + 1. Which point satisfies both lines?",
+      "options": [
+        "(2, -1)",
+        "(2, 0)",
+        "(3, -1)",
+        "(-1, 2)"
+      ],
+      "correctAnswer": "(2, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-030",
+      "type": "multiple_choice",
+      "questionText": "What point would you circle on a graph to show the solution of y = 2x + 4 and y = -x - 5?",
+      "options": [
+        "add the two y-intercepts",
+        "graph both lines and find their intersection",
+        "graph only the line with the larger slope",
+        "choose any point on either line"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-031",
+      "type": "multiple_choice",
+      "questionText": "Solve the system by graphing: y = -2x + 5 and y = -4x + 13. The lines intersect at which point?",
+      "options": [
+        "(5, -3)",
+        "(4, -2)",
+        "(-3, 4)",
+        "(4, -3)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-032",
+      "type": "multiple_choice",
+      "questionText": "Which graphing step solves a system of two linear equations?",
+      "options": [
+        "choose any point on either line",
+        "graph both lines and find their intersection",
+        "add the two y-intercepts",
+        "graph only the line with the larger slope"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-033",
+      "type": "multiple_choice",
+      "questionText": "A graph of y = x + 4 and y = -3x - 16 shows one crossing point. What is the solution?",
+      "options": [
+        "(-5, 0)",
+        "(-4, -1)",
+        "(-5, -1)",
+        "(-1, -5)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-034",
+      "type": "multiple_choice",
+      "questionText": "The table for y = x + 2 and the table for y = 3x both include which ordered pair?",
+      "options": [
+        "(3, 1)",
+        "(1, 4)",
+        "(1, 3)",
+        "(2, 3)"
+      ],
+      "correctAnswer": "(1, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-035",
+      "type": "multiple_choice",
+      "questionText": "When graphing y = x + 7 and y = -x - 1, which point should be marked as the intersection?",
+      "options": [
+        "(-4, 3)",
+        "(-4, 4)",
+        "(-3, 3)",
+        "(3, -4)"
+      ],
+      "correctAnswer": "(-4, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-036",
+      "type": "multiple_choice",
+      "questionText": "A student graphs both lines but chooses (4, 4) as the answer. Why is (3, 4) better?",
+      "options": [
+        "choose any point on either line",
+        "add the two y-intercepts",
+        "graph both lines and find their intersection",
+        "graph only the line with the larger slope"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-037",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair is on both lines y = -2x + 1 and y = x + 7?",
+      "options": [
+        "(-2, 6)",
+        "(5, -2)",
+        "(-1, 5)",
+        "(-2, 5)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-038",
+      "type": "multiple_choice",
+      "questionText": "A coordinate grid shows y = 4x - 18 crossing y = -x + 7 at (5, 2). What is the system's solution?",
+      "options": [
+        "(2, 5)",
+        "(6, 2)",
+        "(5, 2)",
+        "(5, 3)"
+      ],
+      "correctAnswer": "(5, 2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-039",
+      "type": "multiple_choice",
+      "questionText": "Use the graphing idea for y = -x - 4 and y = 2x - 4. Which point satisfies both lines?",
+      "options": [
+        "(1, -4)",
+        "(0, -3)",
+        "(-4, 0)",
+        "(0, -4)"
+      ],
+      "correctAnswer": "(0, -4)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-040",
+      "type": "multiple_choice",
+      "questionText": "What point would you circle on a graph to show the solution of y = 3x - 17 and y = -2x + 13?",
+      "options": [
+        "choose any point on either line",
+        "graph only the line with the larger slope",
+        "add the two y-intercepts",
+        "graph both lines and find their intersection"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-041",
+      "type": "multiple_choice",
+      "questionText": "Solve the system by graphing: y = -3x + 5 and y = -x + 1. The lines intersect at which point?",
+      "options": [
+        "(2, -1)",
+        "(3, -1)",
+        "(-1, 2)",
+        "(2, 0)"
+      ],
+      "correctAnswer": "(2, -1)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-042",
+      "type": "multiple_choice",
+      "questionText": "Which graphing step solves a system of two linear equations?",
+      "options": [
+        "graph only the line with the larger slope",
+        "add the two y-intercepts",
+        "choose any point on either line",
+        "graph both lines and find their intersection"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-043",
+      "type": "multiple_choice",
+      "questionText": "A graph of y = -2x + 5 and y = -4x + 13 shows one crossing point. What is the solution?",
+      "options": [
+        "(4, -2)",
+        "(4, -3)",
+        "(-3, 4)",
+        "(5, -3)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-044",
+      "type": "multiple_choice",
+      "questionText": "The table for y = 3x + 4 and the table for y = x + 2 both include which ordered pair?",
+      "options": [
+        "(-1, 2)",
+        "(-1, 1)",
+        "(0, 1)",
+        "(1, -1)"
+      ],
+      "correctAnswer": "(-1, 1)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-045",
+      "type": "multiple_choice",
+      "questionText": "When graphing y = x + 4 and y = -3x - 16, which point should be marked as the intersection?",
+      "options": [
+        "(-5, -1)",
+        "(-5, 0)",
+        "(-4, -1)",
+        "(-1, -5)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-046",
+      "type": "multiple_choice",
+      "questionText": "A student graphs both lines but chooses (2, 3) as the answer. Why is (1, 3) better?",
+      "options": [
+        "add the two y-intercepts",
+        "graph both lines and find their intersection",
+        "choose any point on either line",
+        "graph only the line with the larger slope"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-047",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair is on both lines y = x + 7 and y = -x - 1?",
+      "options": [
+        "(-4, 3)",
+        "(-4, 4)",
+        "(3, -4)",
+        "(-3, 3)"
+      ],
+      "correctAnswer": "(-4, 3)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-048",
+      "type": "multiple_choice",
+      "questionText": "A coordinate grid shows y = 2x - 2 crossing y = 4x - 8 at (3, 4). What is the system's solution?",
+      "options": [
+        "(3, 4)",
+        "(4, 4)",
+        "(4, 3)",
+        "(3, 5)"
+      ],
+      "correctAnswer": "(3, 4)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-049",
+      "type": "multiple_choice",
+      "questionText": "Use the graphing idea for y = -2x + 1 and y = x + 7. Which point satisfies both lines?",
+      "options": [
+        "(5, -2)",
+        "(-2, 6)",
+        "(-1, 5)",
+        "(-2, 5)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    },
+    {
+      "id": "course3-solve-systems-graphing-core-050",
+      "type": "multiple_choice",
+      "questionText": "What point would you circle on a graph to show the solution of y = 4x - 18 and y = -x + 7?",
+      "options": [
+        "graph both lines and find their intersection",
+        "add the two y-intercepts",
+        "choose any point on either line",
+        "graph only the line with the larger slope"
+      ],
+      "correctAnswer": "graph both lines and find their intersection",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "graphing",
+        "intersection"
+      ],
+      "explanation": "To solve by graphing, graph both lines and read the point where they intersect. That point satisfies both equations."
+    }
+  ]
+}
