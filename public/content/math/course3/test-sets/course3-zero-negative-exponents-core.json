@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 7⁰.",
       "options": [
-        "1",
+        "70",
         "0",
         "7",
-        "70"
+        "1"
       ],
       "correctAnswer": "1",
       "difficulty": "scaffold",
@@ -28,9 +28,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 12⁰.",
       "options": [
-        "12",
         "144",
         "1",
+        "12",
         "0"
       ],
       "correctAnswer": "1",
@@ -47,9 +47,9 @@
       "questionText": "Evaluate 3⁻¹.",
       "options": [
         "1/3",
+        "3",
         "-3",
-        "0",
-        "3"
+        "0"
       ],
       "correctAnswer": "1/3",
       "difficulty": "scaffold",
@@ -64,8 +64,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 5⁻².",
       "options": [
-        "-25",
         "1/10",
+        "-25",
         "25",
         "1/25"
       ],
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Rewrite x⁻³ with a positive exponent.",
       "options": [
-        "x³",
+        "1/3x",
         "1/x³",
         "-x³",
-        "1/3x"
+        "x³"
       ],
       "correctAnswer": "1/x³",
       "difficulty": "scaffold",
@@ -100,9 +100,9 @@
       "type": "multiple_choice",
       "questionText": "Rewrite 1/a⁻⁴ with a positive exponent.",
       "options": [
+        "a⁴",
         "1/a⁴",
         "-a⁴",
-        "a⁴",
         "4a"
       ],
       "correctAnswer": "a⁴",
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (-2)⁰.",
       "options": [
-        "-1",
-        "-2",
         "1",
+        "-2",
+        "-1",
         "0"
       ],
       "correctAnswer": "1",
@@ -137,9 +137,9 @@
       "questionText": "Evaluate -2⁰.",
       "options": [
         "0",
+        "1",
         "-1",
-        "-2",
-        "1"
+        "-2"
       ],
       "correctAnswer": "-1",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 4⁻³?",
       "options": [
-        "4³",
-        "1/12",
+        "-4³",
         "1/4³",
-        "-4³"
+        "1/12",
+        "4³"
       ],
       "correctAnswer": "1/4³",
       "difficulty": "scaffold",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to m⁰ for m ≠ 0?",
       "options": [
+        "m",
         "1/m",
-        "1",
         "0",
-        "m"
+        "1"
       ],
       "correctAnswer": "1",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify x⁵ ÷ x⁵ for x ≠ 0.",
       "options": [
-        "1",
+        "x",
         "x¹⁰",
-        "0",
-        "x"
+        "1",
+        "0"
       ],
       "correctAnswer": "1",
       "difficulty": "standard",
@@ -209,10 +209,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify x³ ÷ x⁷ for x ≠ 0.",
       "options": [
-        "x⁴",
         "1/x⁴",
+        "-x⁴",
         "x¹⁰",
-        "-x⁴"
+        "x⁴"
       ],
       "correctAnswer": "1/x⁴",
       "difficulty": "standard",
@@ -228,10 +228,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify a²b⁻³ with positive exponents.",
       "options": [
-        "a²/b³",
         "a²b³",
-        "b³/a²",
-        "1/a²b³"
+        "a²/b³",
+        "1/a²b³",
+        "b³/a²"
       ],
       "correctAnswer": "a²/b³",
       "difficulty": "standard",
@@ -247,9 +247,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 4x⁻² with positive exponents.",
       "options": [
+        "4/x²",
         "4x²",
         "-4x²",
-        "4/x²",
         "1/4x²"
       ],
       "correctAnswer": "4/x²",
@@ -266,8 +266,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2x)⁻³ with positive exponents.",
       "options": [
-        "8x³",
         "-8x³",
+        "8x³",
         "1/(2x³)",
         "1/(8x³)"
       ],
@@ -285,10 +285,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (3/x)⁻².",
       "options": [
+        "-9/x²",
         "x²/9",
-        "9/x²",
         "x/9",
-        "-9/x²"
+        "9/x²"
       ],
       "correctAnswer": "x²/9",
       "difficulty": "standard",
@@ -305,8 +305,8 @@
       "questionText": "Simplify 6a⁰.",
       "options": [
         "6",
-        "1",
         "6a",
+        "1",
         "0"
       ],
       "correctAnswer": "6",
@@ -323,8 +323,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify (x²y⁻¹)³ with positive exponents.",
       "options": [
-        "x⁵/y³",
         "x⁶/3y",
+        "x⁵/y³",
         "x⁶/y³",
         "x⁶y³"
       ],
@@ -342,10 +342,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify x⁻² ÷ x⁻⁵ for x ≠ 0.",
       "options": [
-        "x³",
-        "1/x³",
         "x⁻⁷",
-        "x⁷"
+        "1/x³",
+        "x⁷",
+        "x³"
       ],
       "correctAnswer": "x³",
       "difficulty": "standard",
@@ -363,8 +363,8 @@
       "options": [
         "b³/a²",
         "1/a²b³",
-        "a²/b³",
-        "a²b³"
+        "a²b³",
+        "a²/b³"
       ],
       "correctAnswer": "a²/b³",
       "difficulty": "standard",
@@ -380,10 +380,10 @@
       "type": "multiple_choice",
       "questionText": "Which value equals 2⁻³ + 2⁻³?",
       "options": [
-        "1/8",
         "1/16",
-        "2/3",
-        "1/4"
+        "1/8",
+        "1/4",
+        "2/3"
       ],
       "correctAnswer": "1/4",
       "difficulty": "standard",
@@ -399,10 +399,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻².",
       "options": [
-        "100",
-        "0.01",
+        "0.1",
         "-100",
-        "0.1"
+        "0.01",
+        "100"
       ],
       "correctAnswer": "0.01",
       "difficulty": "standard",
@@ -418,9 +418,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 3² × 3⁻².",
       "options": [
-        "3⁴",
-        "9",
         "1",
+        "9",
+        "3⁴",
         "0"
       ],
       "correctAnswer": "1",
@@ -437,10 +437,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 5x⁻¹y².",
       "options": [
-        "5xy²",
-        "5y²/x",
         "5x/y²",
-        "y²/5x"
+        "5y²/x",
+        "y²/5x",
+        "5xy²"
       ],
       "correctAnswer": "5y²/x",
       "difficulty": "standard",
@@ -456,10 +456,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (4m⁻¹n²)/(2n⁻¹).",
       "options": [
-        "2n/m",
-        "8n/m",
         "2n³/m",
-        "2m/n³"
+        "2n/m",
+        "2m/n³",
+        "8n/m"
       ],
       "correctAnswer": "2n³/m",
       "difficulty": "standard",
@@ -494,10 +494,10 @@
       "type": "multiple_choice",
       "questionText": "A pattern divides by 5 each step. After 5⁰ comes 5⁻¹. What is 5⁻¹?",
       "options": [
-        "5",
-        "-5",
+        "1/5",
         "0",
-        "1/5"
+        "-5",
+        "5"
       ],
       "correctAnswer": "1/5",
       "difficulty": "standard",
@@ -514,8 +514,8 @@
       "questionText": "Simplify (x⁻³y²)(x⁵y⁻⁴).",
       "options": [
         "x²/y²",
-        "x²y²",
         "1/x²y²",
+        "x²y²",
         "x⁸/y⁶"
       ],
       "correctAnswer": "x²/y²",
@@ -533,9 +533,9 @@
       "questionText": "Simplify (2a²b⁻¹)².",
       "options": [
         "4a⁴b²",
-        "4a²/b",
         "2a⁴/b²",
-        "4a⁴/b²"
+        "4a⁴/b²",
+        "4a²/b"
       ],
       "correctAnswer": "4a⁴/b²",
       "difficulty": "standard",
@@ -551,10 +551,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 1/(3x⁻²)?",
       "options": [
-        "1/3x²",
-        "x²/3",
         "3/x²",
-        "3x²"
+        "x²/3",
+        "3x²",
+        "1/3x²"
       ],
       "correctAnswer": "x²/3",
       "difficulty": "standard",
@@ -570,10 +570,10 @@
       "type": "multiple_choice",
       "questionText": "For x ≠ 0, simplify x⁴ ÷ x⁹.",
       "options": [
-        "x⁵",
-        "1/x⁵",
         "x¹³",
-        "0"
+        "x⁵",
+        "0",
+        "1/x⁵"
       ],
       "correctAnswer": "1/x⁵",
       "difficulty": "standard",
@@ -589,10 +589,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 8p⁰q⁻².",
       "options": [
-        "8/q²",
         "8p/q²",
-        "1/8q²",
-        "8q²"
+        "8/q²",
+        "8q²",
+        "1/8q²"
       ],
       "correctAnswer": "8/q²",
       "difficulty": "standard",
@@ -608,9 +608,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (1/2)⁻³.",
       "options": [
-        "8",
         "-8",
         "6",
+        "8",
         "1/8"
       ],
       "correctAnswer": "8",
@@ -627,10 +627,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (-3)⁻².",
       "options": [
-        "-1/9",
+        "-9",
         "9",
         "1/9",
-        "-9"
+        "-1/9"
       ],
       "correctAnswer": "1/9",
       "difficulty": "standard",
@@ -646,10 +646,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate -3⁻².",
       "options": [
-        "1/9",
         "-9",
+        "-1/9",
         "9",
-        "-1/9"
+        "1/9"
       ],
       "correctAnswer": "-1/9",
       "difficulty": "standard",
@@ -665,10 +665,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2x⁻²y³)⁻².",
       "options": [
+        "x⁴/(4y⁶)",
         "4x⁴/y⁶",
-        "x⁴/2y⁶",
         "4y⁶/x⁴",
-        "x⁴/(4y⁶)"
+        "x⁴/2y⁶"
       ],
       "correctAnswer": "x⁴/(4y⁶)",
       "difficulty": "challenge",
@@ -684,10 +684,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (a⁻³b²)/(a²b⁻⁴).",
       "options": [
+        "a/b⁶",
         "1/a b²",
         "b⁶/a⁵",
-        "a⁵/b⁶",
-        "a/b⁶"
+        "a⁵/b⁶"
       ],
       "correctAnswer": "b⁶/a⁵",
       "difficulty": "challenge",
@@ -722,10 +722,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (x⁻²y³)² ÷ (x³y⁻¹).",
       "options": [
-        "x⁷/y⁷",
-        "y⁷/x⁷",
         "y⁵/x",
-        "x/y⁷"
+        "x/y⁷",
+        "x⁷/y⁷",
+        "y⁷/x⁷"
       ],
       "correctAnswer": "y⁷/x⁷",
       "difficulty": "challenge",
@@ -742,8 +742,8 @@
       "questionText": "Which expression is equivalent to (2a⁻¹)³(4a²)?",
       "options": [
         "32/a",
-        "8/a",
         "16a",
+        "8/a",
         "32a"
       ],
       "correctAnswer": "32/a",
@@ -760,10 +760,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (2⁻¹ + 2⁻²).",
       "options": [
-        "1/4",
-        "3/2",
         "1/2",
-        "3/4"
+        "3/2",
+        "3/4",
+        "1/4"
       ],
       "correctAnswer": "3/4",
       "difficulty": "challenge",
@@ -779,10 +779,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (m³n⁻²)⁻²(m⁻¹n)³ using positive exponents.",
       "options": [
+        "m⁹/n⁷",
         "n⁷/m⁹",
         "1/(m⁹n)",
-        "n/m⁹",
-        "m⁹/n⁷"
+        "n/m⁹"
       ],
       "correctAnswer": "n⁷/m⁹",
       "difficulty": "challenge",
@@ -798,10 +798,10 @@
       "type": "multiple_choice",
       "questionText": "A student says x⁻⁴ is negative because the exponent is negative. What correction is best?",
       "options": [
-        "x⁻⁴ equals 0",
+        "x⁻⁴ means 1/x⁴, not a negative value",
         "x⁻⁴ always equals -x⁴",
         "x⁻⁴ equals x⁴",
-        "x⁻⁴ means 1/x⁴, not a negative value"
+        "x⁻⁴ equals 0"
       ],
       "correctAnswer": "x⁻⁴ means 1/x⁴, not a negative value",
       "difficulty": "challenge",
@@ -818,9 +818,9 @@
       "questionText": "Simplify ((2x⁻¹)/(y²))⁻³.",
       "options": [
         "y⁶/8x³",
+        "8/(x³y⁶)",
         "8x³/y⁶",
-        "x³y⁶/8",
-        "8/(x³y⁶)"
+        "x³y⁶/8"
       ],
       "correctAnswer": "x³y⁶/8",
       "difficulty": "challenge",
@@ -836,9 +836,9 @@
       "type": "multiple_choice",
       "questionText": "For t ≠ 0, simplify t⁻² ÷ t³ × t⁵.",
       "options": [
-        "1",
-        "t⁶",
         "t⁰/t",
+        "t⁶",
+        "1",
         "1/t¹⁰"
       ],
       "correctAnswer": "1",
@@ -855,10 +855,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (4⁻¹)(2⁻²).",
       "options": [
+        "16",
         "1/6",
-        "1/8",
         "1/16",
-        "16"
+        "1/8"
       ],
       "correctAnswer": "1/16",
       "difficulty": "challenge",
@@ -893,10 +893,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression is equivalent to 1/(a⁻²b⁻³)?",
       "options": [
-        "1/(a²b³)",
+        "a²/b³",
         "a²b³",
-        "b³/a²",
-        "a²/b³"
+        "1/(a²b³)",
+        "b³/a²"
       ],
       "correctAnswer": "a²b³",
       "difficulty": "challenge",
@@ -912,8 +912,8 @@
       "type": "multiple_choice",
       "questionText": "Simplify (x⁻¹ + x⁻¹) for x ≠ 0.",
       "options": [
-        "1/x²",
         "x²",
+        "1/x²",
         "2x",
         "2/x"
       ],

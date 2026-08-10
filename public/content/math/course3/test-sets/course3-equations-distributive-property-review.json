@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x + 4) = 18.",
       "options": [
+        "x = 4",
         "x = 7",
         "x = 9",
-        "x = 4",
         "x = 5"
       ],
       "correctAnswer": "x = 5",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 3(x - 1) = 21.",
       "options": [
-        "x = 22",
         "x = 6",
-        "x = 8",
-        "x = 7"
+        "x = 7",
+        "x = 22",
+        "x = 8"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4(x + 2) = 28.",
       "options": [
-        "x = 3",
         "x = 5",
-        "x = 6",
-        "x = 7"
+        "x = 7",
+        "x = 3",
+        "x = 6"
       ],
       "correctAnswer": "x = 5",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5(x - 2) = 20.",
       "options": [
-        "x = 6",
-        "x = 5",
         "x = 4",
-        "x = 22"
+        "x = 22",
+        "x = 5",
+        "x = 6"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "scaffold",
@@ -84,8 +84,8 @@
       "options": [
         "2x + 12 = 20",
         "x + 12 = 20",
-        "8x = 20",
-        "2x + 6 = 20"
+        "2x + 6 = 20",
+        "8x = 20"
       ],
       "correctAnswer": "2x + 12 = 20",
       "difficulty": "scaffold",
@@ -100,10 +100,10 @@
       "type": "multiple_choice",
       "questionText": "Which is equivalent to 3(x - 5) = 12?",
       "options": [
-        "15x = 12",
+        "3x - 15 = 12",
         "x - 15 = 12",
         "3x - 5 = 12",
-        "3x - 15 = 12"
+        "15x = 12"
       ],
       "correctAnswer": "3x - 15 = 12",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 6(x + 1) = 42.",
       "options": [
-        "x = 7",
-        "x = 6",
+        "x = 5",
         "x = 36",
-        "x = 5"
+        "x = 6",
+        "x = 7"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "scaffold",
@@ -136,8 +136,8 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x - 3) = 10.",
       "options": [
-        "x = 8",
         "x = 7",
+        "x = 8",
         "x = 5",
         "x = 2"
       ],
@@ -173,9 +173,9 @@
       "questionText": "Solve 3(x - 2) + 5 = 20.",
       "options": [
         "x = 3",
-        "x = 5",
         "x = 9",
-        "x = 7"
+        "x = 7",
+        "x = 5"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4(x + 1) - 3 = 25.",
       "options": [
-        "x = 5",
         "x = 7",
+        "x = 6",
         "x = 4",
-        "x = 6"
+        "x = 5"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -208,9 +208,9 @@
       "type": "multiple_choice",
       "questionText": "Solve 2(x + 5) + x = 25.",
       "options": [
-        "x = 3",
         "x = 5",
         "x = 10",
+        "x = 3",
         "x = 7"
       ],
       "correctAnswer": "x = 5",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 5(x - 1) - x = 19.",
       "options": [
-        "x = 8",
+        "x = 4",
         "x = 5",
         "x = 6",
-        "x = 4"
+        "x = 8"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -244,9 +244,9 @@
       "type": "multiple_choice",
       "questionText": "Solve -2(x + 4) = -20.",
       "options": [
-        "x = 4",
-        "x = 10",
         "x = 6",
+        "x = 10",
+        "x = 4",
         "x = -6"
       ],
       "correctAnswer": "x = 6",
@@ -263,9 +263,9 @@
       "questionText": "Solve -3(x - 2) = -18.",
       "options": [
         "x = 6",
-        "x = -4",
+        "x = 8",
         "x = 4",
-        "x = 8"
+        "x = -4"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 12 - 2(x + 1) = 4.",
       "options": [
-        "x = 4",
+        "x = -3",
         "x = 5",
-        "x = 3",
-        "x = -3"
+        "x = 4",
+        "x = 3"
       ],
       "correctAnswer": "x = 3",
       "difficulty": "standard",
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "Solve 4x - (x + 3) = 18.",
       "options": [
-        "x = 5",
-        "x = 9",
+        "x = 3",
         "x = 7",
-        "x = 3"
+        "x = 5",
+        "x = 9"
       ],
       "correctAnswer": "x = 7",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has side lengths 3 and x + 2. Its area is 24. Solve 3(x + 2) = 24.",
       "options": [
-        "x = 6",
-        "x = 4",
         "x = 5",
-        "x = 8"
+        "x = 8",
+        "x = 6",
+        "x = 4"
       ],
       "correctAnswer": "x = 6",
       "difficulty": "standard",
@@ -334,9 +334,9 @@
       "type": "multiple_choice",
       "questionText": "Which value checks 4(x - 1) = 24?",
       "options": [
-        "x = 7",
-        "x = 8",
         "x = 5",
+        "x = 8",
+        "x = 7",
         "x = 6"
       ],
       "correctAnswer": "x = 7",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Which step correctly simplifies -2(x - 5) = 14?",
       "options": [
+        "-2x - 10 = 14",
         "2x + 10 = 14",
-        "-2x + 10 = 14",
         "-2x + 5 = 14",
-        "-2x - 10 = 14"
+        "-2x + 10 = 14"
       ],
       "correctAnswer": "-2x + 10 = 14",
       "difficulty": "standard",

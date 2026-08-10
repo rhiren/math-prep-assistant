@@ -324,14 +324,16 @@ No broader UI redesign is currently required for the next Course 3 unit.
 For the current Course 3 working tree, the following passed:
 
 - 18 Vitest files
-- 103 automated tests
+- 104 automated tests
 - `npm run build`
 - Course 3 JSON parsing
 - globally unique Course 3 question IDs
 - exact authored multiple-choice answer identity
 - balanced Course 3 multiple-choice correct-answer positions
-- unpredictable Course 3 multiple-choice correct-answer position sequencing
+- unpredictable Course 3 multiple-choice correct-answer position sequencing,
+  including a block on three-letter A/B/C-style mini-cycles
 - Course 3 template-variety quality gate for new banks
+- Course 3 tutorial uniqueness and minimum-length quality gate
 - unique option checks
 - known-correct mathematical spot checks
 - browser verification of the Course 3 grid, concept page, tutorial, and
@@ -346,7 +348,14 @@ A/B/C/D/A/B/C/D answer-position sequence. Course 3 answer choices were
 reshuffled again while preserving authored correct-answer values, explanations,
 question IDs, and global answer-position balance. The content repository test
 suite now includes Course 3 answer-position balance, answer-sequence, and
-template-variety regression guards.
+template-variety regression guards. A follow-up learner audit found shorter
+A/B/C-style mini-cycles, so Course 3 banks were reshuffled under a stricter
+gate that blocks any three-step forward answer-position cycle.
+
+A tutorial duplication audit found several Course 3 Unit 2 tutorials had been
+authored with the same body and different headings. Those tutorials were
+rewritten to be concept-specific, and the content repository test suite now
+checks active Course 3 tutorial length and pairwise tutorial similarity.
 
 Several already-published Course 3 banks remain explicit template-variety debt
 because they rely too heavily on one normalized question form. That debt is

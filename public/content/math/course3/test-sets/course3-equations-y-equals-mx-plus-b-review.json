@@ -10,9 +10,9 @@
       "type": "multiple_choice",
       "questionText": "A line has slope 2 and y-intercept -4. Which equation represents it?",
       "options": [
-        "y = 1/2x - 4",
         "y = 2x + 4",
         "y = -2x - 4",
+        "y = 1/2x - 4",
         "y = 2x - 4"
       ],
       "correctAnswer": "y = 2x - 4",
@@ -50,10 +50,10 @@
       "type": "multiple_choice",
       "questionText": "A graph starts at 7 on the y-axis and changes by 2/5 for each 1 unit right. Which equation matches?",
       "options": [
-        "y = 5/2x + 7",
-        "y = 2/5x + 7",
+        "y = 2/5x - 7",
         "y = -2/5x + 7",
-        "y = 2/5x - 7"
+        "y = 2/5x + 7",
+        "y = 5/2x + 7"
       ],
       "correctAnswer": "y = 2/5x + 7",
       "difficulty": "scaffold",
@@ -90,10 +90,10 @@
       "type": "multiple_choice",
       "questionText": "A plant is 2 cm tall at week 0 and changes by 2 cm each week. Which equation gives y after x weeks?",
       "options": [
+        "y = 1/2x + 2",
         "y = 2x - 2",
         "y = -2x + 2",
-        "y = 2x + 2",
-        "y = 1/2x + 2"
+        "y = 2x + 2"
       ],
       "correctAnswer": "y = 2x + 2",
       "difficulty": "scaffold",
@@ -110,8 +110,8 @@
       "type": "multiple_choice",
       "questionText": "A student writes y = mx + b. For slope -2/3 and starting value -3, what equation should they write?",
       "options": [
-        "y = -2/3x - 3",
         "y = -3/2x - 3",
+        "y = -2/3x - 3",
         "y = 2/3x - 3",
         "y = -2/3x + 3"
       ],
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation contains (0, -8) and has rate of change -7/5?",
       "options": [
-        "y = -5/7x - 8",
-        "y = 7/5x - 8",
+        "y = -7/5x - 8",
         "y = -7/5x + 8",
-        "y = -7/5x - 8"
+        "y = 7/5x - 8",
+        "y = -5/7x - 8"
       ],
       "correctAnswer": "y = -7/5x - 8",
       "difficulty": "scaffold",
@@ -170,10 +170,10 @@
       "type": "multiple_choice",
       "questionText": "A line has constant change 2 and output -9 when input is 0. Which equation models it?",
       "options": [
+        "y = 2x + 9",
         "y = -2x - 9",
-        "y = 1/2x - 9",
         "y = 2x - 9",
-        "y = 2x + 9"
+        "y = 1/2x - 9"
       ],
       "correctAnswer": "y = 2x - 9",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "A line has slope -2/3 and y-intercept -2. Which equation represents it?",
       "options": [
+        "y = 2/3x - 2",
         "y = -2/3x - 2",
-        "y = -2/3x + 2",
         "y = -3/2x - 2",
-        "y = 2/3x - 2"
+        "y = -2/3x + 2"
       ],
       "correctAnswer": "y = -2/3x - 2",
       "difficulty": "standard",
@@ -211,9 +211,9 @@
       "questionText": "Which equation in the form y = mx + b has m = 2/5 and b = -4?",
       "options": [
         "y = 2/5x - 4",
-        "y = 5/2x - 4",
         "y = 2/5x + 4",
-        "y = -2/5x - 4"
+        "y = -2/5x - 4",
+        "y = 5/2x - 4"
       ],
       "correctAnswer": "y = 2/5x - 4",
       "difficulty": "standard",
@@ -250,10 +250,10 @@
       "type": "multiple_choice",
       "questionText": "A linear table has y-intercept 7 and includes the point (-1, 5). Which equation fits?",
       "options": [
-        "y = 2x - 7",
-        "y = 2x + 7",
         "y = -2x + 7",
-        "y = 1/2x + 7"
+        "y = 1/2x + 7",
+        "y = 2x - 7",
+        "y = 2x + 7"
       ],
       "correctAnswer": "y = 2x + 7",
       "difficulty": "standard",
@@ -270,10 +270,10 @@
       "type": "multiple_choice",
       "questionText": "A plant is 4 cm tall at week 0 and changes by -2/3 cm each week. Which equation gives y after x weeks?",
       "options": [
-        "y = -3/2x + 4",
-        "y = -2/3x - 4",
         "y = 2/3x + 4",
-        "y = -2/3x + 4"
+        "y = -2/3x + 4",
+        "y = -3/2x + 4",
+        "y = -2/3x - 4"
       ],
       "correctAnswer": "y = -2/3x + 4",
       "difficulty": "standard",
@@ -290,10 +290,10 @@
       "type": "multiple_choice",
       "questionText": "A student writes y = mx + b. For slope 2/5 and starting value 2, what equation should they write?",
       "options": [
-        "y = -2/5x + 2",
+        "y = 2/5x - 2",
         "y = 5/2x + 2",
         "y = 2/5x + 2",
-        "y = 2/5x - 2"
+        "y = -2/5x + 2"
       ],
       "correctAnswer": "y = 2/5x + 2",
       "difficulty": "standard",
@@ -312,8 +312,8 @@
       "options": [
         "y = -7/5x + 3",
         "y = -7/5x - 3",
-        "y = 7/5x - 3",
-        "y = -5/7x - 3"
+        "y = -5/7x - 3",
+        "y = 7/5x - 3"
       ],
       "correctAnswer": "y = -7/5x - 3",
       "difficulty": "standard",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation contains (0, -7) and has rate of change 2?",
       "options": [
-        "y = 2x + 7",
         "y = 2x - 7",
-        "y = 1/2x - 7",
-        "y = -2x - 7"
+        "y = 2x + 7",
+        "y = -2x - 7",
+        "y = 1/2x - 7"
       ],
       "correctAnswer": "y = 2x - 7",
       "difficulty": "standard",
@@ -350,10 +350,10 @@
       "type": "multiple_choice",
       "questionText": "A line has constant change -2/3 and output -8 when input is 0. Which equation models it?",
       "options": [
-        "y = -2/3x + 8",
-        "y = 2/3x - 8",
+        "y = -3/2x - 8",
         "y = -2/3x - 8",
-        "y = -3/2x - 8"
+        "y = -2/3x + 8",
+        "y = 2/3x - 8"
       ],
       "correctAnswer": "y = -2/3x - 8",
       "difficulty": "standard",
@@ -370,8 +370,8 @@
       "type": "multiple_choice",
       "questionText": "A line has slope 2/5 and y-intercept -9. Which equation represents it?",
       "options": [
-        "y = 2/5x + 9",
         "y = 2/5x - 9",
+        "y = 2/5x + 9",
         "y = -2/5x - 9",
         "y = 5/2x - 9"
       ],
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation in the form y = mx + b has m = -7/5 and b = -2?",
       "options": [
-        "y = -7/5x - 2",
-        "y = -7/5x + 2",
         "y = 7/5x - 2",
-        "y = -5/7x - 2"
+        "y = -5/7x - 2",
+        "y = -7/5x - 2",
+        "y = -7/5x + 2"
       ],
       "correctAnswer": "y = -7/5x - 2",
       "difficulty": "standard",

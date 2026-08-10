@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "In 6⁴, which number is the exponent?",
       "options": [
+        "4",
         "6",
-        "24",
         "1,296",
-        "4"
+        "24"
       ],
       "correctAnswer": "4",
       "difficulty": "scaffold",
@@ -28,9 +28,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 4³.",
       "options": [
-        "81",
         "12",
         "64",
+        "81",
         "16"
       ],
       "correctAnswer": "64",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (-3)².",
       "options": [
-        "6",
         "9",
+        "-9",
         "-6",
-        "-9"
+        "6"
       ],
       "correctAnswer": "9",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate -3².",
       "options": [
-        "-9",
         "-6",
+        "9",
         "6",
-        "9"
+        "-9"
       ],
       "correctAnswer": "-9",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Which repeated multiplication represents y⁴?",
       "options": [
-        "y × 4 × 4 × 4",
         "y + y + y + y",
-        "y × y × y × y",
-        "4 × y"
+        "4 × y",
+        "y × 4 × 4 × 4",
+        "y × y × y × y"
       ],
       "correctAnswer": "y × y × y × y",
       "difficulty": "scaffold",
@@ -100,10 +100,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify a² × a³.",
       "options": [
-        "a⁵",
         "a¹",
-        "a⁶",
-        "2a⁵"
+        "a⁵",
+        "2a⁵",
+        "a⁶"
       ],
       "correctAnswer": "a⁵",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "For b ≠ 0, simplify b⁶ ÷ b².",
       "options": [
-        "4b",
-        "b⁸",
         "b³",
-        "b⁴"
+        "b⁴",
+        "b⁸",
+        "4b"
       ],
       "correctAnswer": "b⁴",
       "difficulty": "scaffold",
@@ -137,9 +137,9 @@
       "questionText": "Simplify (c²)³.",
       "options": [
         "3c²",
+        "c⁸",
         "c⁵",
-        "c⁶",
-        "c⁸"
+        "c⁶"
       ],
       "correctAnswer": "c⁶",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (2x)².",
       "options": [
-        "2x⁴",
-        "4x",
         "2x²",
-        "4x²"
+        "4x",
+        "4x²",
+        "2x⁴"
       ],
       "correctAnswer": "4x²",
       "difficulty": "standard",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify (mn)³.",
       "options": [
-        "mn³",
         "m³n³",
-        "m³n",
-        "3mn"
+        "3mn",
+        "mn³",
+        "m³n"
       ],
       "correctAnswer": "m³n³",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 3x⁴ × 2x².",
       "options": [
-        "6x²",
         "6x⁶",
+        "5x⁶",
         "6x⁸",
-        "5x⁶"
+        "6x²"
       ],
       "correctAnswer": "6x⁶",
       "difficulty": "standard",
@@ -209,9 +209,9 @@
       "questionText": "For a ≠ 0, simplify 12a⁵ ÷ 4a².",
       "options": [
         "3a²",
-        "8a³",
         "3a⁷",
-        "3a³"
+        "3a³",
+        "8a³"
       ],
       "correctAnswer": "3a³",
       "difficulty": "standard",
@@ -226,9 +226,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (3p²)².",
       "options": [
-        "9p⁴",
-        "3p⁴",
         "6p⁴",
+        "3p⁴",
+        "9p⁴",
         "9p²"
       ],
       "correctAnswer": "9p⁴",
@@ -244,9 +244,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify (a³b²)².",
       "options": [
-        "a⁹b⁴",
         "a⁵b⁴",
         "a⁶b²",
+        "a⁹b⁴",
         "a⁶b⁴"
       ],
       "correctAnswer": "a⁶b⁴",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "Find n if x⁴ × xⁿ = x¹¹.",
       "options": [
-        "15",
-        "7",
         "44",
-        "3"
+        "7",
+        "3",
+        "15"
       ],
       "correctAnswer": "7",
       "difficulty": "standard",
@@ -281,8 +281,8 @@
       "questionText": "In 3² × 3³ = 3ⁿ, what is n?",
       "options": [
         "9",
-        "5",
         "8",
+        "5",
         "6"
       ],
       "correctAnswer": "5",
@@ -298,8 +298,8 @@
       "type": "multiple_choice",
       "questionText": "Evaluate (2³)².",
       "options": [
-        "64",
         "12",
+        "64",
         "32",
         "16"
       ],
@@ -317,9 +317,9 @@
       "questionText": "A rectangle has side lengths 2x³ and 5x². Which expression represents its area?",
       "options": [
         "10x⁵",
-        "10x",
         "10x⁶",
-        "7x⁵"
+        "7x⁵",
+        "10x"
       ],
       "correctAnswer": "10x⁵",
       "difficulty": "standard",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "A student writes x² × x³ = x⁶. Which statement is correct?",
       "options": [
-        "Only the larger exponent should remain, giving x³",
+        "The bases should be added, giving 2x⁵",
         "The work is correct because 2 × 3 = 6",
         "The exponents should be added, giving x⁵",
-        "The bases should be added, giving 2x⁵"
+        "Only the larger exponent should remain, giving x³"
       ],
       "correctAnswer": "The exponents should be added, giving x⁵",
       "difficulty": "standard",
@@ -353,10 +353,10 @@
       "type": "multiple_choice",
       "questionText": "For x ≠ 0, simplify (x⁵ ÷ x²)³.",
       "options": [
+        "x¹⁵",
         "x²¹",
         "x⁶",
-        "x⁹",
-        "x¹⁵"
+        "x⁹"
       ],
       "correctAnswer": "x⁹",
       "difficulty": "standard",

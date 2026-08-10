@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "0.75 = 3/4",
-        "0.75 > 3/4",
         "0.75 = 3/5",
-        "0.75 < 3/4"
+        "0.75 < 3/4",
+        "0.75 > 3/4",
+        "0.75 = 3/4"
       ],
       "correctAnswer": "0.75 = 3/4",
       "difficulty": "scaffold",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√16 < 3.9",
+        "√16 < 3",
         "√16 > 3.9",
-        "√16 = 3.9",
-        "√16 < 3"
+        "√16 < 3.9",
+        "√16 = 3.9"
       ],
       "correctAnswer": "√16 > 3.9",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "√2 < 1.5",
         "√2 > 1.5",
-        "√2 > 2",
         "√2 = 1.5",
-        "√2 < 1.5"
+        "√2 > 2"
       ],
       "correctAnswer": "√2 < 1.5",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "-4 < -3.8",
+        "-4 > -3.8",
         "-4 = -3.8",
-        "-4 > 0",
-        "-4 > -3.8"
+        "-4 < -3.8",
+        "-4 > 0"
       ],
       "correctAnswer": "-4 < -3.8",
       "difficulty": "scaffold",
@@ -100,10 +100,10 @@
       "type": "multiple_choice",
       "questionText": "Which value is least?",
       "options": [
-        "√3",
         "-2",
-        "0",
-        "1.5"
+        "1.5",
+        "√3",
+        "0"
       ],
       "correctAnswer": "-2",
       "difficulty": "scaffold",
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "Which value is greatest?",
       "options": [
-        "2.9",
         "π",
         "√9",
+        "2.9",
         "3.05"
       ],
       "correctAnswer": "π",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Order 1/2, 0.6, and √0.49 from least to greatest.",
       "options": [
-        "1/2, 0.6, √0.49",
-        "√0.49, 0.6, 1/2",
         "0.6, 1/2, √0.49",
-        "1/2, √0.49, 0.6"
+        "1/2, √0.49, 0.6",
+        "1/2, 0.6, √0.49",
+        "√0.49, 0.6, 1/2"
       ],
       "correctAnswer": "1/2, 0.6, √0.49",
       "difficulty": "scaffold",
@@ -154,10 +154,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "∛27 < 2",
         "∛27 < 2.9",
-        "∛27 > 2.9",
         "∛27 = 2.9",
-        "∛27 < 2"
+        "∛27 > 2.9"
       ],
       "correctAnswer": "∛27 > 2.9",
       "difficulty": "scaffold",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "What is the best first step when comparing √64 and 7.9?",
       "options": [
-        "Simplify √64 exactly",
-        "Compare 64 directly with 7.9",
+        "Round both values to a whole number",
         "Assume the radical is irrational",
-        "Round both values to a whole number"
+        "Simplify √64 exactly",
+        "Compare 64 directly with 7.9"
       ],
       "correctAnswer": "Simplify √64 exactly",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√20 < 4.5",
-        "√20 = 4.5",
         "√20 < 4",
-        "√20 > 4.5"
+        "√20 > 4.5",
+        "√20 = 4.5",
+        "√20 < 4.5"
       ],
       "correctAnswer": "√20 < 4.5",
       "difficulty": "standard",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√30 < 5.4",
-        "√30 > 5.4",
+        "√30 = 5.4",
         "√30 > 6",
-        "√30 = 5.4"
+        "√30 < 5.4",
+        "√30 > 5.4"
       ],
       "correctAnswer": "√30 > 5.4",
       "difficulty": "standard",
@@ -227,8 +227,8 @@
       "questionText": "Which comparison is true?",
       "options": [
         "√50 > 7.1",
-        "√50 = 7.1",
         "√50 < 7.1",
+        "√50 = 7.1",
         "√50 < 7"
       ],
       "correctAnswer": "√50 < 7.1",
@@ -244,10 +244,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "√80 > 9",
         "√80 > 8.9",
         "√80 < 8.9",
-        "√80 = 8.9",
-        "√80 > 9"
+        "√80 = 8.9"
       ],
       "correctAnswer": "√80 > 8.9",
       "difficulty": "standard",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√7 = 2.65",
         "√7 < 2.65",
-        "√7 > 2.7",
-        "√7 > 2.65"
+        "√7 = 2.65",
+        "√7 > 2.65",
+        "√7 > 2.7"
       ],
       "correctAnswer": "√7 < 2.65",
       "difficulty": "standard",
@@ -280,9 +280,9 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "-√7 > -2.65",
-        "-√7 < -2.65",
         "-√7 > -2.6",
+        "-√7 < -2.65",
+        "-√7 > -2.65",
         "-√7 = -2.65"
       ],
       "correctAnswer": "-√7 > -2.65",
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "-√10 > -3.1",
+        "-√10 > 0",
         "-√10 = -3.1",
-        "-√10 < -3.1",
-        "-√10 > 0"
+        "-√10 > -3.1",
+        "-√10 < -3.1"
       ],
       "correctAnswer": "-√10 < -3.1",
       "difficulty": "standard",
@@ -317,9 +317,9 @@
       "questionText": "Which comparison is true?",
       "options": [
         "π > 22/7",
-        "π < 22/7",
+        "π < 3",
         "π = 22/7",
-        "π < 3"
+        "π < 22/7"
       ],
       "correctAnswer": "π < 22/7",
       "difficulty": "standard",
@@ -335,9 +335,9 @@
       "questionText": "Which comparison is true?",
       "options": [
         "√10 = π",
-        "√10 < π",
         "√10 < 3",
-        "√10 > π"
+        "√10 > π",
+        "√10 < π"
       ],
       "correctAnswer": "√10 > π",
       "difficulty": "standard",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Order 2.7, √8, and 2.9 from least to greatest.",
       "options": [
-        "2.7, 2.9, √8",
-        "√8, 2.7, 2.9",
         "2.7, √8, 2.9",
-        "2.9, √8, 2.7"
+        "√8, 2.7, 2.9",
+        "2.9, √8, 2.7",
+        "2.7, 2.9, √8"
       ],
       "correctAnswer": "2.7, √8, 2.9",
       "difficulty": "standard",
@@ -370,8 +370,8 @@
       "type": "multiple_choice",
       "questionText": "Order √15, 3.9, and 4 from least to greatest.",
       "options": [
-        "√15, 3.9, 4",
         "√15, 4, 3.9",
+        "√15, 3.9, 4",
         "3.9, √15, 4",
         "4, 3.9, √15"
       ],
@@ -388,9 +388,9 @@
       "type": "multiple_choice",
       "questionText": "Order 1.7, √3, and 7/4 from least to greatest.",
       "options": [
+        "1.7, 7/4, √3",
         "√3, 1.7, 7/4",
         "7/4, √3, 1.7",
-        "1.7, 7/4, √3",
         "1.7, √3, 7/4"
       ],
       "correctAnswer": "1.7, √3, 7/4",
@@ -406,9 +406,9 @@
       "type": "multiple_choice",
       "questionText": "Order -1.8, -√3, and -5/3 from least to greatest.",
       "options": [
-        "-1.8, -√3, -5/3",
-        "-1.8, -5/3, -√3",
         "-5/3, -√3, -1.8",
+        "-1.8, -5/3, -√3",
+        "-1.8, -√3, -5/3",
         "-√3, -1.8, -5/3"
       ],
       "correctAnswer": "-1.8, -√3, -5/3",
@@ -425,9 +425,9 @@
       "questionText": "Which comparison is true?",
       "options": [
         "0.625 = 5/8",
-        "0.625 > 5/8",
+        "0.625 < 5/8",
         "0.625 = 3/5",
-        "0.625 < 5/8"
+        "0.625 > 5/8"
       ],
       "correctAnswer": "0.625 = 5/8",
       "difficulty": "standard",
@@ -442,10 +442,10 @@
       "type": "multiple_choice",
       "questionText": "Which irrational number lies between 4.4 and 4.5?",
       "options": [
-        "√21",
-        "√19",
+        "√25",
         "√20",
-        "√25"
+        "√19",
+        "√21"
       ],
       "correctAnswer": "√20",
       "difficulty": "standard",
@@ -460,10 +460,10 @@
       "type": "multiple_choice",
       "questionText": "Which value is greatest?",
       "options": [
-        "√24",
+        "√26",
         "4.8",
-        "5",
-        "√26"
+        "√24",
+        "5"
       ],
       "correctAnswer": "√26",
       "difficulty": "standard",
@@ -478,10 +478,10 @@
       "type": "multiple_choice",
       "questionText": "Which positive value is least?",
       "options": [
-        "π - 3",
+        "1/7",
         "√2 - 1",
         "0.14",
-        "1/7"
+        "π - 3"
       ],
       "correctAnswer": "0.14",
       "difficulty": "standard",
@@ -498,8 +498,8 @@
       "options": [
         "2 + √3 < 3",
         "2 + √3 > 3.7",
-        "2 + √3 = 3.7",
-        "2 + √3 < 3.7"
+        "2 + √3 < 3.7",
+        "2 + √3 = 3.7"
       ],
       "correctAnswer": "2 + √3 > 3.7",
       "difficulty": "standard",
@@ -516,9 +516,9 @@
       "questionText": "Which comparison is true?",
       "options": [
         "5 - √2 = 3.6",
+        "5 - √2 > 3.6",
         "5 - √2 < 3",
-        "5 - √2 < 3.6",
-        "5 - √2 > 3.6"
+        "5 - √2 < 3.6"
       ],
       "correctAnswer": "5 - √2 < 3.6",
       "difficulty": "standard",
@@ -534,10 +534,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "√12 / 2 > 2",
         "√12 / 2 > 1.7",
-        "√12 / 2 < 1.7",
         "√12 / 2 = 1.7",
-        "√12 / 2 > 2"
+        "√12 / 2 < 1.7"
       ],
       "correctAnswer": "√12 / 2 > 1.7",
       "difficulty": "standard",
@@ -553,10 +553,10 @@
       "type": "multiple_choice",
       "questionText": "Order -√10, -π, and -3.14 from least to greatest.",
       "options": [
-        "-3.14, -π, -√10",
-        "-√10, -π, -3.14",
+        "-√10, -3.14, -π",
         "-π, -√10, -3.14",
-        "-√10, -3.14, -π"
+        "-3.14, -π, -√10",
+        "-√10, -π, -3.14"
       ],
       "correctAnswer": "-√10, -π, -3.14",
       "difficulty": "standard",
@@ -571,9 +571,9 @@
       "type": "multiple_choice",
       "questionText": "Which chain of inequalities is true?",
       "options": [
+        "√5 < 2.3 < √6",
         "√5 < √6 < 2.3",
         "√6 < 2.3 < √5",
-        "√5 < 2.3 < √6",
         "2.3 < √5 < √6"
       ],
       "correctAnswer": "√5 < 2.3 < √6",
@@ -589,10 +589,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "∛50 > 4",
         "∛50 < 3.7",
         "∛50 = 3.7",
-        "∛50 > 3.7"
+        "∛50 > 3.7",
+        "∛50 > 4"
       ],
       "correctAnswer": "∛50 < 3.7",
       "difficulty": "standard",
@@ -609,8 +609,8 @@
       "options": [
         "∛(-50) = -3.7",
         "∛(-50) < -3.7",
-        "∛(-50) > -3.7",
-        "∛(-50) > 0"
+        "∛(-50) > 0",
+        "∛(-50) > -3.7"
       ],
       "correctAnswer": "∛(-50) > -3.7",
       "difficulty": "standard",
@@ -625,10 +625,10 @@
       "type": "multiple_choice",
       "questionText": "Order 3/2, √3, 1.75, and π from least to greatest.",
       "options": [
-        "3/2, 1.75, √3, π",
         "π, 1.75, √3, 3/2",
+        "√3, 3/2, 1.75, π",
         "3/2, √3, 1.75, π",
-        "√3, 3/2, 1.75, π"
+        "3/2, 1.75, √3, π"
       ],
       "correctAnswer": "3/2, √3, 1.75, π",
       "difficulty": "standard",
@@ -643,10 +643,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "√47 > 6.85",
         "√47 = 6.85",
         "√47 > 7",
-        "√47 < 6.85",
-        "√47 > 6.85"
+        "√47 < 6.85"
       ],
       "correctAnswer": "√47 > 6.85",
       "difficulty": "challenge",
@@ -662,9 +662,9 @@
       "questionText": "Which comparison is true?",
       "options": [
         "√73 < 8.54",
+        "√73 > 8.54",
         "√73 > 8.6",
-        "√73 = 8.54",
-        "√73 > 8.54"
+        "√73 = 8.54"
       ],
       "correctAnswer": "√73 > 8.54",
       "difficulty": "challenge",
@@ -679,10 +679,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "-√73 = -8.54",
         "-√73 > -8.5",
         "-√73 < -8.54",
-        "-√73 > -8.54"
+        "-√73 > -8.54",
+        "-√73 = -8.54"
       ],
       "correctAnswer": "-√73 < -8.54",
       "difficulty": "challenge",
@@ -697,10 +697,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "π = √9.87",
         "π < √9.87",
-        "π < 3.1",
-        "π > √9.87"
+        "π = √9.87",
+        "π > √9.87",
+        "π < 3.1"
       ],
       "correctAnswer": "π < √9.87",
       "difficulty": "challenge",
@@ -715,9 +715,9 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "π < 3",
         "π < 355/113",
         "π > 355/113",
-        "π < 3",
         "π = 355/113"
       ],
       "correctAnswer": "π < 355/113",
@@ -733,10 +733,10 @@
       "type": "multiple_choice",
       "questionText": "Order 1.414, √2, and 99/70 from least to greatest.",
       "options": [
-        "1.414, 99/70, √2",
+        "1.414, √2, 99/70",
         "99/70, √2, 1.414",
         "√2, 1.414, 99/70",
-        "1.414, √2, 99/70"
+        "1.414, 99/70, √2"
       ],
       "correctAnswer": "1.414, √2, 99/70",
       "difficulty": "challenge",
@@ -751,9 +751,9 @@
       "type": "multiple_choice",
       "questionText": "Order -99/70, -√2, and -1.414 from least to greatest.",
       "options": [
-        "-99/70, -√2, -1.414",
         "-√2, -99/70, -1.414",
         "-1.414, -√2, -99/70",
+        "-99/70, -√2, -1.414",
         "-99/70, -1.414, -√2"
       ],
       "correctAnswer": "-99/70, -√2, -1.414",
@@ -769,10 +769,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√48 - √3 > 5.2",
         "√48 - √3 < 5",
-        "√48 - √3 = 5.2",
-        "√48 - √3 < 5.2"
+        "√48 - √3 > 5.2",
+        "√48 - √3 < 5.2",
+        "√48 - √3 = 5.2"
       ],
       "correctAnswer": "√48 - √3 < 5.2",
       "difficulty": "challenge",
@@ -790,8 +790,8 @@
       "options": [
         "2π = √40",
         "2π < √40",
-        "2π < 6",
-        "2π > √40"
+        "2π > √40",
+        "2π < 6"
       ],
       "correctAnswer": "2π < √40",
       "difficulty": "challenge",
@@ -807,8 +807,8 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√2 + √5 = 11/3",
         "√2 + √5 < 3",
+        "√2 + √5 = 11/3",
         "√2 + √5 < 11/3",
         "√2 + √5 > 11/3"
       ],
@@ -826,9 +826,9 @@
       "type": "multiple_choice",
       "questionText": "For which integer n is 6.2 < √n < 6.3?",
       "options": [
-        "38",
-        "39",
         "40",
+        "39",
+        "38",
         "41"
       ],
       "correctAnswer": "39",
@@ -862,10 +862,10 @@
       "type": "multiple_choice",
       "questionText": "Which value is closest to 0?",
       "options": [
-        "-√0.1",
-        "0.32",
         "-0.3",
-        "1/3"
+        "1/3",
+        "0.32",
+        "-√0.1"
       ],
       "correctAnswer": "-0.3",
       "difficulty": "challenge",
@@ -882,8 +882,8 @@
       "options": [
         "The conclusion is correct because rounded values are exact",
         "Compare 2 with 1.414 without squaring",
-        "√2 is less because radicals are always smaller than decimals",
-        "Use more precision: 1.414² < 2, so 1.414 < √2"
+        "Use more precision: 1.414² < 2, so 1.414 < √2",
+        "√2 is less because radicals are always smaller than decimals"
       ],
       "correctAnswer": "Use more precision: 1.414² < 2, so 1.414 < √2",
       "difficulty": "challenge",
@@ -899,10 +899,10 @@
       "type": "multiple_choice",
       "questionText": "Order -√10, -3.15, -π, and -3.1 from least to greatest.",
       "options": [
-        "-3.15, -√10, -π, -3.1",
-        "-√10, -π, -3.15, -3.1",
         "-3.1, -π, -3.15, -√10",
-        "-√10, -3.15, -π, -3.1"
+        "-√10, -3.15, -π, -3.1",
+        "-√10, -π, -3.15, -3.1",
+        "-3.15, -√10, -π, -3.1"
       ],
       "correctAnswer": "-√10, -3.15, -π, -3.1",
       "difficulty": "challenge",

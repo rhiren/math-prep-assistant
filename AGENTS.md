@@ -327,9 +327,9 @@ The current Course 3 learner-ready sequence is:
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in
-the same option slot or follows a predictable sequence such as A/B/C/D/A/B/C/D.
-The Course 3 answer-position regression tests should remain active for future
-concept packs.
+the same option slot or follows a predictable sequence such as A/B/C/D/A/B/C/D
+or shorter mini-cycles such as A/B/C and D/A/B. The Course 3 answer-position
+regression tests should remain active for future concept packs.
 
 Course 3 concept packs must also avoid repetitive question forms. The content
 repository quality gate blocks new Course 3 banks with too few normalized
@@ -337,6 +337,11 @@ question templates, one template dominating the bank, or challenge questions
 that do not vary their reasoning form. Existing template-variety debt is
 explicitly allowlisted in the test and should be reduced, not expanded, unless
 there is a deliberate documented reason.
+
+Course 3 tutorials must be concept-specific. Do not clone one tutorial body
+across multiple concepts with only the heading changed. The content repository
+quality gate checks active Course 3 tutorial length and similarity so repeated
+or near-duplicate tutorials are blocked before release.
 
 Course navigation should remain subject-aware so Mathematics can contain
 multiple courses without presenting each course as a separate subject.

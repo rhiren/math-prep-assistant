@@ -11,9 +11,9 @@
       "questionText": "Between which consecutive integers does √6 lie?",
       "options": [
         "2 and 3",
+        "3 and 4",
         "5 and 6",
-        "1 and 2",
-        "3 and 4"
+        "1 and 2"
       ],
       "correctAnswer": "2 and 3",
       "difficulty": "scaffold",
@@ -28,10 +28,10 @@
       "type": "multiple_choice",
       "questionText": "Between which consecutive integers does √35 lie?",
       "options": [
-        "17 and 18",
-        "5 and 6",
+        "4 and 5",
         "6 and 7",
-        "4 and 5"
+        "17 and 18",
+        "5 and 6"
       ],
       "correctAnswer": "5 and 6",
       "difficulty": "scaffold",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √11 to the nearest tenth.",
       "options": [
-        "3.3",
-        "3.4",
         "3.1",
-        "5.5"
+        "5.5",
+        "3.3",
+        "3.4"
       ],
       "correctAnswer": "3.3",
       "difficulty": "scaffold",
@@ -65,8 +65,8 @@
       "questionText": "Approximate √60 to the nearest tenth.",
       "options": [
         "7.8",
-        "6.0",
         "8.4",
+        "6.0",
         "7.7"
       ],
       "correctAnswer": "7.7",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "What is π rounded to the nearest whole number?",
       "options": [
-        "2",
         "4",
-        "31",
-        "3"
+        "2",
+        "3",
+        "31"
       ],
       "correctAnswer": "3",
       "difficulty": "scaffold",
@@ -100,8 +100,8 @@
       "type": "multiple_choice",
       "questionText": "Which inequality correctly locates √8?",
       "options": [
-        "3.8 < √8 < 3.9",
         "2.8 < √8 < 2.9",
+        "3.8 < √8 < 3.9",
         "2.7 < √8 < 2.8",
         "2.9 < √8 < 3.0"
       ],
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
-        "√15 > 3.8",
         "√15 > 4",
         "√15 = 3.8",
-        "√15 < 3.8"
+        "√15 < 3.8",
+        "√15 > 3.8"
       ],
       "correctAnswer": "√15 > 3.8",
       "difficulty": "scaffold",
@@ -136,9 +136,9 @@
       "type": "multiple_choice",
       "questionText": "A square has area 40 square inches. Estimate its side length to the nearest whole inch.",
       "options": [
-        "20 in",
-        "6 in",
         "7 in",
+        "6 in",
+        "20 in",
         "5 in"
       ],
       "correctAnswer": "6 in",
@@ -155,8 +155,8 @@
       "questionText": "Approximate √19 to the nearest tenth.",
       "options": [
         "4.9",
-        "4.4",
         "3.8",
+        "4.4",
         "4.3"
       ],
       "correctAnswer": "4.4",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "Approximate √55 to the nearest tenth.",
       "options": [
-        "5.5",
-        "7.3",
+        "7.5",
         "7.4",
-        "7.5"
+        "7.3",
+        "5.5"
       ],
       "correctAnswer": "7.4",
       "difficulty": "standard",
@@ -190,9 +190,9 @@
       "type": "multiple_choice",
       "questionText": "Approximate √5 to the nearest hundredth.",
       "options": [
+        "2.50",
         "2.24",
         "2.20",
-        "2.50",
         "2.23"
       ],
       "correctAnswer": "2.24",
@@ -208,9 +208,9 @@
       "type": "multiple_choice",
       "questionText": "Approximate √140 to the nearest tenth.",
       "options": [
-        "11.8",
-        "14.0",
         "11.9",
+        "14.0",
+        "11.8",
         "12.0"
       ],
       "correctAnswer": "11.8",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "Order √6, 2.5, and √7 from least to greatest.",
       "options": [
+        "√6, 2.5, √7",
         "2.5, √6, √7",
         "√7, 2.5, √6",
-        "√6, √7, 2.5",
-        "√6, 2.5, √7"
+        "√6, √7, 2.5"
       ],
       "correctAnswer": "√6, 2.5, √7",
       "difficulty": "standard",
@@ -244,10 +244,10 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is correct?",
       "options": [
-        "√9.8 > π",
         "√9.8 = π",
-        "√9.8 < π",
-        "√9.8 > 3.2"
+        "√9.8 > 3.2",
+        "√9.8 > π",
+        "√9.8 < π"
       ],
       "correctAnswer": "√9.8 < π",
       "difficulty": "standard",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "Which interval contains -√7?",
       "options": [
-        "-3.0 < -√7 < -2.8",
-        "-2.7 < -√7 < -2.6",
         "2.6 < -√7 < 2.7",
-        "-2.6 < -√7 < -2.5"
+        "-2.7 < -√7 < -2.6",
+        "-2.6 < -√7 < -2.5",
+        "-3.0 < -√7 < -2.8"
       ],
       "correctAnswer": "-2.7 < -√7 < -2.6",
       "difficulty": "standard",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "A square has area 120 square centimeters. Estimate its side length to the nearest tenth.",
       "options": [
-        "60.0 cm",
         "10.9 cm",
-        "11.0 cm",
-        "12.0 cm"
+        "12.0 cm",
+        "60.0 cm",
+        "11.0 cm"
       ],
       "correctAnswer": "11.0 cm",
       "difficulty": "standard",
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "Estimate 1 + √12 to the nearest tenth.",
       "options": [
-        "13.0",
-        "4.4",
         "3.5",
-        "4.5"
+        "13.0",
+        "4.5",
+        "4.4"
       ],
       "correctAnswer": "4.5",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "Which radical is closest to 5.5?",
       "options": [
-        "√28",
-        "√32",
         "√30",
-        "√36"
+        "√36",
+        "√28",
+        "√32"
       ],
       "correctAnswer": "√30",
       "difficulty": "standard",
@@ -334,9 +334,9 @@
       "type": "multiple_choice",
       "questionText": "Why is 6.3 a reasonable approximation of √40?",
       "options": [
-        "6.3 + 6.3 = 12.6",
         "40 ÷ 6.3 is exactly 6.3",
         "6.3² = 39.69, which is close to 40",
+        "6.3 + 6.3 = 12.6",
         "6.3 is irrational"
       ],
       "correctAnswer": "6.3² = 39.69, which is close to 40",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Which facts show that √73 rounds to 8.54 to the nearest hundredth?",
       "options": [
+        "8.54² < 73 and 8.545² > 73",
         "8.545² < 73 and 8.55² > 73",
         "8.53² < 73 and 8.54² < 73",
-        "8² < 73 and 9² > 73",
-        "8.54² < 73 and 8.545² > 73"
+        "8² < 73 and 9² > 73"
       ],
       "correctAnswer": "8.54² < 73 and 8.545² > 73",
       "difficulty": "standard",

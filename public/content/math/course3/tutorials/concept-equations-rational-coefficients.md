@@ -2,42 +2,39 @@
 
 ## Big Idea
 
-Linear equations stay true when you make the same valid move to both sides. The goal is not to memorize a trick; the goal is to keep the two sides balanced until the value of the variable is clear.
+Rational coefficients are fractions or decimals attached to the variable. The equation is still solved by keeping both sides balanced, but clearing fractions can make the work much easier to read.
 
-## What To Watch For
+## What To Notice
 
-- Identify the variable and what it represents.
-- Simplify each side before moving terms.
-- Move variable terms and constant terms with inverse operations.
-- If fractions or decimals make the equation hard to read, clear them first.
-- Check the answer in the original equation, not only in the last line of work.
+- A coefficient like `1/3`, `-2/5`, or `0.75` multiplies the variable.
+- You can clear fractions by multiplying every term by a common denominator.
+- You can clear decimals by multiplying every term by a power of 10.
+- Clearing coefficients is optional, but every term on both sides must get the same multiplier.
 
 ## Worked Example
 
 Solve: `1/2x + 3 = 1/4x + 7`
 
-1. Subtract `1/4x` from both sides: `1/4x + 3 = 7`
-2. Subtract 3 from both sides: `1/4x = 4`
-3. Multiply both sides by 4: `x = 16`
-4. Check: `1/2(16) + 3 = 11` and `1/4(16) + 7 = 11`
+Multiply every term by 4:
 
-## Strategy
+`2x + 12 = x + 28`
 
-Ask: What is making the equation complicated?
+Subtract `x`:
 
-| If you see... | Try... |
-| --- | --- |
-| Fractions | multiply every term by a common denominator |
-| Parentheses | distribute first |
-| Variables on both sides | move one variable term to the other side |
-| Same expression on both sides | check for infinitely many solutions |
-| Same variable term but different constants | check for no solution |
-| A story problem | define the variable before writing the equation |
+`x + 12 = 28`
+
+Subtract 12:
+
+`x = 16`
+
+## Why This Works
+
+Multiplying both sides by 4 does not change the solution because both sides stay equal. It only rewrites the equation without fractions.
 
 ## Common Mistake
 
-Do not move a term by simply changing where it appears. Use an inverse operation on both sides. For example, from `3x + 5 = x + 17`, subtract `x` from both sides to get `2x + 5 = 17`.
+Do not multiply only the fraction terms. In `1/2x + 3 = 7`, multiplying by 2 gives `x + 6 = 14`, not `x + 3 = 14`.
 
 ## Quick Self-Check
 
-After solving, substitute the value back into the original equation. If both sides match, the solution works. If they do not match, look for a distribution, sign, or fraction-clearing mistake.
+After solving, substitute into the original equation with fractions or decimals. If the original equation balances, the solution is valid.

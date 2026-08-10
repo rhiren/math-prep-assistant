@@ -139,7 +139,7 @@ function longestRun(sequence) {
 }
 
 function sequencePasses(sequence) {
-  if (longestCycle(sequence) > 3) return false;
+  if (longestCycle(sequence) > 2) return false;
   if (longestRun(sequence) > 2) return false;
   for (let start = 0; start <= sequence.length - 8; start += 1) {
     const counts = [0, 0, 0, 0];

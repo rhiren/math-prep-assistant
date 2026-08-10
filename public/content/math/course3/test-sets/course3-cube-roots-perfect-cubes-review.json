@@ -11,9 +11,9 @@
       "questionText": "What is 2³?",
       "options": [
         "8",
-        "9",
+        "4",
         "6",
-        "4"
+        "9"
       ],
       "correctAnswer": "8",
       "difficulty": "scaffold",
@@ -28,9 +28,9 @@
       "type": "multiple_choice",
       "questionText": "What is ∛8?",
       "options": [
-        "4",
         "-2",
         "8",
+        "4",
         "2"
       ],
       "correctAnswer": "2",
@@ -46,10 +46,10 @@
       "type": "multiple_choice",
       "questionText": "Which number is a perfect cube?",
       "options": [
-        "18",
-        "36",
+        "54",
         "27",
-        "54"
+        "36",
+        "18"
       ],
       "correctAnswer": "27",
       "difficulty": "scaffold",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛64?",
       "options": [
-        "2",
-        "4",
         "8",
-        "16"
+        "16",
+        "4",
+        "2"
       ],
       "correctAnswer": "4",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(-27)?",
       "options": [
-        "-3",
-        "3",
         "-9",
-        "Not real"
+        "-3",
+        "Not real",
+        "3"
       ],
       "correctAnswer": "-3",
       "difficulty": "scaffold",
@@ -101,9 +101,9 @@
       "questionText": "Which expression means 5 cubed?",
       "options": [
         "5 × 3",
-        "5 + 5 + 5",
         "3 × 3 × 3",
-        "5 × 5 × 5"
+        "5 × 5 × 5",
+        "5 + 5 + 5"
       ],
       "correctAnswer": "5 × 5 × 5",
       "difficulty": "scaffold",
@@ -118,9 +118,9 @@
       "type": "multiple_choice",
       "questionText": "A cube has volume 125 in³. What is its edge length?",
       "options": [
-        "15 in",
         "5 in",
         "125 in",
+        "15 in",
         "25 in"
       ],
       "correctAnswer": "5 in",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Which is not a perfect cube?",
       "options": [
-        "1",
         "8",
-        "40",
-        "64"
+        "64",
+        "1",
+        "40"
       ],
       "correctAnswer": "40",
       "difficulty": "scaffold",
@@ -154,8 +154,8 @@
       "type": "multiple_choice",
       "questionText": "What is ∛216?",
       "options": [
-        "36",
         "72",
+        "36",
         "18",
         "6"
       ],
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "Between which integers does ∛100 lie?",
       "options": [
+        "5 and 6",
         "3 and 4",
         "4 and 5",
-        "9 and 10",
-        "5 and 6"
+        "9 and 10"
       ],
       "correctAnswer": "4 and 5",
       "difficulty": "standard",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Solve x³ = 512.",
       "options": [
-        "x = 16",
         "x = 8 or x = -8",
+        "x = 8",
         "x = 64",
-        "x = 8"
+        "x = 16"
       ],
       "correctAnswer": "x = 8",
       "difficulty": "standard",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛(8/27)?",
       "options": [
+        "8/3",
         "2/3",
         "2/27",
-        "3/2",
-        "8/3"
+        "3/2"
       ],
       "correctAnswer": "2/3",
       "difficulty": "standard",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "What is ∛0.001?",
       "options": [
-        "0.1",
-        "0.01",
         "1",
-        "10"
+        "0.01",
+        "10",
+        "0.1"
       ],
       "correctAnswer": "0.1",
       "difficulty": "standard",
@@ -244,9 +244,9 @@
       "type": "multiple_choice",
       "questionText": "Which comparison is true?",
       "options": [
+        "∛65 > 4",
         "∛65 < 4",
         "∛65 = 4",
-        "∛65 > 4",
         "∛65 is not real"
       ],
       "correctAnswer": "∛65 > 4",
@@ -263,9 +263,9 @@
       "questionText": "A cube has edge length 6 cm. What is its volume?",
       "options": [
         "36 cm³",
-        "216 cm³",
         "108 cm³",
-        "18 cm³"
+        "18 cm³",
+        "216 cm³"
       ],
       "correctAnswer": "216 cm³",
       "difficulty": "standard",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "Why is ∛(-64) real?",
       "options": [
-        "Every square root is real",
+        "(-4)³ = -64",
         "Negative signs disappear when cubed",
         "4³ = -64",
-        "(-4)³ = -64"
+        "Every square root is real"
       ],
       "correctAnswer": "(-4)³ = -64",
       "difficulty": "standard",
@@ -299,9 +299,9 @@
       "questionText": "Which integer is closest to ∛210?",
       "options": [
         "7",
-        "4",
+        "5",
         "6",
-        "5"
+        "4"
       ],
       "correctAnswer": "6",
       "difficulty": "standard",
@@ -316,10 +316,10 @@
       "type": "multiple_choice",
       "questionText": "If ∛n = 7, what is n?",
       "options": [
-        "343",
+        "49",
         "21",
-        "7",
-        "49"
+        "343",
+        "7"
       ],
       "correctAnswer": "343",
       "difficulty": "standard",
@@ -334,9 +334,9 @@
       "type": "multiple_choice",
       "questionText": "Which statement is true?",
       "options": [
+        "∛(x³) = x for every real x",
         "Every cube root is positive",
         "Negative numbers have no real cube roots",
-        "∛(x³) = x for every real x",
         "∛(x³) = |x| for every real x"
       ],
       "correctAnswer": "∛(x³) = x for every real x",

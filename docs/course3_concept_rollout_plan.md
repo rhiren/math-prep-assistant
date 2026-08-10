@@ -258,8 +258,8 @@ Course 3 multiple-choice answer positions should remain balanced within each
 active test set so learners cannot infer the correct option from repeated
 placement. Current Course 3 core banks target a 13/13/12/12 split across
 A/B/C/D, and review banks target 5/5/5/5. Correct-answer positions must also
-avoid predictable local sequences such as A/B/C/D/A/B/C/D and long repeated
-answer-position runs.
+avoid predictable local sequences such as A/B/C/D/A/B/C/D, shorter A/B/C or
+D/A/B mini-cycles, and long repeated answer-position runs.
 
 Course 3 test banks must vary question forms enough that practice does not feel
 like one template with changed numbers. The automated content quality gate now
@@ -267,6 +267,10 @@ checks normalized question-template variety, maximum single-template share, and
 challenge-question reasoning variety. Some already-published banks are tracked
 as explicit template-variety debt in the test suite; do not add new banks to
 that list as a substitute for authoring varied questions.
+
+Course 3 tutorials must also be concept-specific. The automated content quality
+gate checks active Course 3 tutorial length and pairwise similarity so copied
+or near-copied tutorial bodies cannot be released by changing only a heading.
 
 The twelve learner-ready Unit 3 packs have been regenerated or authored
 under this gate and should remain off the template-variety debt list.

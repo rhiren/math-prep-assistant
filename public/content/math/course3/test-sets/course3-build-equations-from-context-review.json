@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "A club charges a $10 sign-up fee plus $4 for each meeting. The total cost is $34. Which equation matches the situation if x is the number of meetings?",
       "options": [
-        "10 + 4 = 34x",
+        "10 + 4x = 34",
         "4 + 10x = 34",
         "10x + 4 = 34",
-        "10 + 4x = 34"
+        "10 + 4 = 34x"
       ],
       "correctAnswer": "10 + 4x = 34",
       "difficulty": "scaffold",
@@ -29,10 +29,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $20 and saves $5 each week. Omar has $8 and saves $7 each week. Which equation matches the situation if x is the number of weeks until they have the same amount?",
       "options": [
-        "20 + 7x = 8 + 5x",
+        "20 + 5x = 8 + 7x",
         "20x + 5 = 8x + 7",
         "20 + 8 = 5x + 7x",
-        "20 + 5x = 8 + 7x"
+        "20 + 7x = 8 + 5x"
       ],
       "correctAnswer": "20 + 5x = 8 + 7x",
       "difficulty": "scaffold",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "A rectangle has width x and length x + 3. Its perimeter is 30. Which equation matches the situation if x is the width?",
       "options": [
-        "x + (x + 3) = 30",
         "2x + x + 3 = 30",
+        "2x + 2x + 3 = 30",
         "2x + 2(x + 3) = 30",
-        "2x + 2x + 3 = 30"
+        "x + (x + 3) = 30"
       ],
       "correctAnswer": "2x + 2(x + 3) = 30",
       "difficulty": "scaffold",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "3 friends split a bill after using a $6 coupon. Each friend pays $14. Which equation matches the situation if x is the original bill before the coupon?",
       "options": [
-        "x - 6/3 = 14",
-        "(x + 6)/3 = 14",
+        "3(x - 6) = 14",
         "(x - 6)/3 = 14",
-        "3(x - 6) = 14"
+        "x - 6/3 = 14",
+        "(x + 6)/3 = 14"
       ],
       "correctAnswer": "(x - 6)/3 = 14",
       "difficulty": "scaffold",
@@ -86,10 +86,10 @@
       "type": "multiple_choice",
       "questionText": "A subscription has a one-time $18 setup fee and costs $12 per month. The total is $78. Which equation matches the situation if x is the number of months?",
       "options": [
-        "18x + 12 = 78",
+        "12 + 18x = 78",
         "18 + 12x = 78",
-        "18 + 12 = 78x",
-        "12 + 18x = 78"
+        "18x + 12 = 78",
+        "18 + 12 = 78x"
       ],
       "correctAnswer": "18 + 12x = 78",
       "difficulty": "scaffold",
@@ -105,10 +105,10 @@
       "type": "multiple_choice",
       "questionText": "A teacher buys 4 equal packs of pencils plus 3 extra pencils, for 31 pencils total. Which equation matches the situation if x is the number of pencils in each pack?",
       "options": [
-        "4x + 3 = 31",
         "4 + 3x = 31",
         "4(x + 3) = 31",
-        "4x = 31 + 3"
+        "4x = 31 + 3",
+        "4x + 3 = 31"
       ],
       "correctAnswer": "4x + 3 = 31",
       "difficulty": "scaffold",
@@ -124,10 +124,10 @@
       "type": "multiple_choice",
       "questionText": "A number is multiplied by 3, then 7 is subtracted. The result is 17. Which equation matches the situation if x is the original number?",
       "options": [
-        "3x - 7 = 17",
         "3x + 7 = 17",
         "3(x - 7) = 17",
-        "7x - 3 = 17"
+        "7x - 3 = 17",
+        "3x - 7 = 17"
       ],
       "correctAnswer": "3x - 7 = 17",
       "difficulty": "scaffold",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "A delivery service charges $5 plus $2 per mile. The total charge is $23. Which equation matches the situation if x is the number of miles?",
       "options": [
-        "2 + 5x = 23",
         "5x + 2 = 23",
         "5 + 2 = 23x",
-        "5 + 2x = 23"
+        "5 + 2x = 23",
+        "2 + 5x = 23"
       ],
       "correctAnswer": "5 + 2x = 23",
       "difficulty": "scaffold",
@@ -163,9 +163,9 @@
       "questionText": "A club charges a $11 sign-up fee plus $5 for each meeting. The total cost is $46. Which equation matches the situation if x is the number of meetings?",
       "options": [
         "11 + 5x = 46",
-        "5 + 11x = 46",
+        "11 + 5 = 46x",
         "11x + 5 = 46",
-        "11 + 5 = 46x"
+        "5 + 11x = 46"
       ],
       "correctAnswer": "11 + 5x = 46",
       "difficulty": "standard",
@@ -181,10 +181,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $22 and saves $6 each week. Omar has $9 and saves $8 each week. Which equation matches the situation if x is the number of weeks until they have the same amount?",
       "options": [
-        "22 + 8x = 9 + 6x",
-        "22 + 9 = 6x + 8x",
+        "22x + 6 = 9x + 8",
         "22 + 6x = 9 + 8x",
-        "22x + 6 = 9x + 8"
+        "22 + 8x = 9 + 6x",
+        "22 + 9 = 6x + 8x"
       ],
       "correctAnswer": "22 + 6x = 9 + 8x",
       "difficulty": "standard",
@@ -201,8 +201,8 @@
       "questionText": "A rectangle has width x and length x + 4. Its perimeter is 36. Which equation matches the situation if x is the width?",
       "options": [
         "2x + 2(x + 4) = 36",
-        "2x + 2x + 4 = 36",
         "x + (x + 4) = 36",
+        "2x + 2x + 4 = 36",
         "2x + x + 4 = 36"
       ],
       "correctAnswer": "2x + 2(x + 4) = 36",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "4 friends split a bill after using a $7 coupon. Each friend pays $15. Which equation matches the situation if x is the original bill before the coupon?",
       "options": [
-        "(x + 7)/4 = 15",
-        "(x - 7)/4 = 15",
         "4(x - 7) = 15",
-        "x - 7/4 = 15"
+        "x - 7/4 = 15",
+        "(x - 7)/4 = 15",
+        "(x + 7)/4 = 15"
       ],
       "correctAnswer": "(x - 7)/4 = 15",
       "difficulty": "standard",
@@ -238,10 +238,10 @@
       "type": "multiple_choice",
       "questionText": "A subscription has a one-time $20 setup fee and costs $13 per month. The total is $98. Which equation matches the situation if x is the number of months?",
       "options": [
-        "20x + 13 = 98",
+        "13 + 20x = 98",
         "20 + 13x = 98",
-        "20 + 13 = 98x",
-        "13 + 20x = 98"
+        "20x + 13 = 98",
+        "20 + 13 = 98x"
       ],
       "correctAnswer": "20 + 13x = 98",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "A teacher buys 5 equal packs of pencils plus 4 extra pencils, for 44 pencils total. Which equation matches the situation if x is the number of pencils in each pack?",
       "options": [
-        "5x = 44 + 4",
-        "5 + 4x = 44",
         "5(x + 4) = 44",
-        "5x + 4 = 44"
+        "5x + 4 = 44",
+        "5 + 4x = 44",
+        "5x = 44 + 4"
       ],
       "correctAnswer": "5x + 4 = 44",
       "difficulty": "standard",
@@ -276,10 +276,10 @@
       "type": "multiple_choice",
       "questionText": "A number is multiplied by 4, then 8 is subtracted. The result is 28. Which equation matches the situation if x is the original number?",
       "options": [
-        "4x + 8 = 28",
         "8x - 4 = 28",
+        "4(x - 8) = 28",
         "4x - 8 = 28",
-        "4(x - 8) = 28"
+        "4x + 8 = 28"
       ],
       "correctAnswer": "4x - 8 = 28",
       "difficulty": "standard",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "A delivery service charges $6 plus $3 per mile. The total charge is $36. Which equation matches the situation if x is the number of miles?",
       "options": [
-        "6 + 3 = 36x",
-        "6x + 3 = 36",
         "3 + 6x = 36",
-        "6 + 3x = 36"
+        "6 + 3 = 36x",
+        "6 + 3x = 36",
+        "6x + 3 = 36"
       ],
       "correctAnswer": "6 + 3x = 36",
       "difficulty": "standard",
@@ -315,9 +315,9 @@
       "questionText": "A club charges a $12 sign-up fee plus $6 for each meeting. The total cost is $60. Which equation matches the situation if x is the number of meetings?",
       "options": [
         "12x + 6 = 60",
-        "12 + 6x = 60",
+        "6 + 12x = 60",
         "12 + 6 = 60x",
-        "6 + 12x = 60"
+        "12 + 6x = 60"
       ],
       "correctAnswer": "12 + 6x = 60",
       "difficulty": "standard",
@@ -333,10 +333,10 @@
       "type": "multiple_choice",
       "questionText": "Lina has $24 and saves $7 each week. Omar has $10 and saves $9 each week. Which equation matches the situation if x is the number of weeks until they have the same amount?",
       "options": [
-        "24x + 7 = 10x + 9",
+        "24 + 10 = 7x + 9x",
         "24 + 9x = 10 + 7x",
-        "24 + 7x = 10 + 9x",
-        "24 + 10 = 7x + 9x"
+        "24x + 7 = 10x + 9",
+        "24 + 7x = 10 + 9x"
       ],
       "correctAnswer": "24 + 7x = 10 + 9x",
       "difficulty": "standard",
@@ -353,8 +353,8 @@
       "questionText": "A rectangle has width x and length x + 5. Its perimeter is 42. Which equation matches the situation if x is the width?",
       "options": [
         "2x + 2(x + 5) = 42",
-        "2x + x + 5 = 42",
         "2x + 2x + 5 = 42",
+        "2x + x + 5 = 42",
         "x + (x + 5) = 42"
       ],
       "correctAnswer": "2x + 2(x + 5) = 42",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "5 friends split a bill after using a $8 coupon. Each friend pays $16. Which equation matches the situation if x is the original bill before the coupon?",
       "options": [
-        "x - 8/5 = 16",
-        "(x - 8)/5 = 16",
         "5(x - 8) = 16",
-        "(x + 8)/5 = 16"
+        "(x + 8)/5 = 16",
+        "x - 8/5 = 16",
+        "(x - 8)/5 = 16"
       ],
       "correctAnswer": "(x - 8)/5 = 16",
       "difficulty": "standard",

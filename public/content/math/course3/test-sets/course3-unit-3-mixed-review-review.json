@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "A line passes through (-4, 0) and (-2, -1). What is its slope?",
       "options": [
-        "-2",
         "2",
-        "1/2",
-        "-1/2"
+        "-1/2",
+        "-2",
+        "1/2"
       ],
       "correctAnswer": "-1/2",
       "difficulty": "scaffold",
@@ -30,8 +30,8 @@
       "questionText": "In y = 5/2x - 1, what is the y-intercept?",
       "options": [
         "-1",
-        "5/2",
         "1",
+        "5/2",
         "0"
       ],
       "correctAnswer": "-1",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has slope 3/5 and y-intercept -7?",
       "options": [
-        "y = -3/5x - 7",
+        "y = 3/5x + 7",
         "y = 8/5x - 7",
-        "y = 3/5x - 7",
-        "y = 3/5x + 7"
+        "y = -3/5x - 7",
+        "y = 3/5x - 7"
       ],
       "correctAnswer": "y = 3/5x - 7",
       "difficulty": "scaffold",
@@ -68,9 +68,9 @@
       "questionText": "A line has equation y = 6/5x + 5. Which graphing description is correct?",
       "options": [
         "Start at 6/5, then use slope 5",
-        "Start at 5, then use slope 6/5",
+        "Start at -5, then use slope 6/5",
         "Start at 5, then use slope -6/5",
-        "Start at -5, then use slope 6/5"
+        "Start at 5, then use slope 6/5"
       ],
       "correctAnswer": "Start at 5, then use slope 6/5",
       "difficulty": "scaffold",
@@ -87,9 +87,9 @@
       "questionText": "A table includes -4 -> 6, -2 -> 5, 0 -> 4. Which equation matches it?",
       "options": [
         "y = -1/2x - 4",
+        "y = -1/2x + 4",
         "y = 1/2x + 4",
-        "y = -3/2x + 4",
-        "y = -1/2x + 4"
+        "y = -3/2x + 4"
       ],
       "correctAnswer": "y = -1/2x + 4",
       "difficulty": "scaffold",
@@ -105,9 +105,9 @@
       "type": "multiple_choice",
       "questionText": "A line contains (0, 9) and (5, 43/2). Which equation represents the line?",
       "options": [
-        "y = -5/2x + 9",
         "y = 7/2x + 9",
         "y = 5/2x + 9",
+        "y = -5/2x + 9",
         "y = 5/2x - 9"
       ],
       "correctAnswer": "y = 5/2x + 9",
@@ -124,10 +124,10 @@
       "type": "multiple_choice",
       "questionText": "Which point is the y-intercept of y = 3/5x - 4?",
       "options": [
-        "(-4, 0)",
         "(1, -17/5)",
-        "(0, 4)",
-        "(0, -4)"
+        "(-4, 0)",
+        "(0, -4)",
+        "(0, 4)"
       ],
       "correctAnswer": "(0, -4)",
       "difficulty": "scaffold",
@@ -144,8 +144,8 @@
       "questionText": "A line starts at -5 and changes by 6/5 each step. What is the value when x = 16?",
       "options": [
         "121/5",
-        "76/5",
         "71/5",
+        "76/5",
         "-121/5"
       ],
       "correctAnswer": "71/5",
@@ -162,10 +162,10 @@
       "type": "multiple_choice",
       "questionText": "Two representations show slopes -1/2 and 1/2. Which has the greater rate of change?",
       "options": [
-        "-8",
         "-1/2",
+        "They are equal",
         "1/2",
-        "They are equal"
+        "-8"
       ],
       "correctAnswer": "1/2",
       "difficulty": "standard",
@@ -181,9 +181,9 @@
       "type": "multiple_choice",
       "questionText": "A student says y = 5/2x has slope 0. What is the student's mistake?",
       "options": [
-        "They changed the sign of every y-value",
         "They confused the y-intercept with the slope",
         "They found the x-intercept correctly",
+        "They changed the sign of every y-value",
         "They used the reciprocal of the slope"
       ],
       "correctAnswer": "They confused the y-intercept with the slope",
@@ -201,8 +201,8 @@
       "questionText": "A line has slope 3/5 and passes through (3, 19/5). What is its y-intercept?",
       "options": [
         "3",
-        "-2",
         "3/5",
+        "-2",
         "2"
       ],
       "correctAnswer": "2",
@@ -220,9 +220,9 @@
       "questionText": "Which statement best explains why slope is constant on a line?",
       "options": [
         "Every line must pass through the origin",
+        "The run is always 1 for every line",
         "Any two slope triangles on the line have the same rise/run ratio",
-        "The y-intercept changes each time x changes",
-        "The run is always 1 for every line"
+        "The y-intercept changes each time x changes"
       ],
       "correctAnswer": "Any two slope triangles on the line have the same rise/run ratio",
       "difficulty": "standard",
@@ -238,10 +238,10 @@
       "type": "multiple_choice",
       "questionText": "A line passes through (-4, 3) and (-2, 2). What is its slope?",
       "options": [
-        "-1/2",
         "1",
-        "-2",
-        "1/2"
+        "1/2",
+        "-1/2",
+        "-2"
       ],
       "correctAnswer": "-1/2",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "In y = 5/2x + 6, what is the y-intercept?",
       "options": [
-        "-6",
-        "7",
         "5/2",
-        "6"
+        "6",
+        "7",
+        "-6"
       ],
       "correctAnswer": "6",
       "difficulty": "standard",
@@ -276,10 +276,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has slope 3/5 and y-intercept -9?",
       "options": [
-        "y = 3/5x - 9",
         "y = 8/5x - 9",
         "y = -3/5x - 9",
-        "y = 3/5x + 9"
+        "y = 3/5x + 9",
+        "y = 3/5x - 9"
       ],
       "correctAnswer": "y = 3/5x - 9",
       "difficulty": "standard",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "A line has equation y = 6/5x - 6. Which graphing description is correct?",
       "options": [
-        "Start at 6/5, then use slope -6",
-        "Start at -6, then use slope 6/5",
         "Start at -6, then use slope -6/5",
-        "Start at 6, then use slope 6/5"
+        "Start at 6, then use slope 6/5",
+        "Start at -6, then use slope 6/5",
+        "Start at 6/5, then use slope -6"
       ],
       "correctAnswer": "Start at -6, then use slope 6/5",
       "difficulty": "standard",
@@ -315,9 +315,9 @@
       "questionText": "A table includes -4 -> -1, -2 -> -2, 0 -> -3. Which equation matches it?",
       "options": [
         "y = -1/2x - 3",
+        "y = 1/2x - 3",
         "y = -3/2x - 3",
-        "y = -1/2x + 3",
-        "y = 1/2x - 3"
+        "y = -1/2x + 3"
       ],
       "correctAnswer": "y = -1/2x - 3",
       "difficulty": "standard",
@@ -334,9 +334,9 @@
       "questionText": "A line contains (0, 3) and (5, 31/2). Which equation represents the line?",
       "options": [
         "y = 5/2x + 3",
-        "y = 7/2x + 3",
+        "y = 5/2x - 3",
         "y = -5/2x + 3",
-        "y = 5/2x - 3"
+        "y = 7/2x + 3"
       ],
       "correctAnswer": "y = 5/2x + 3",
       "difficulty": "standard",
@@ -353,9 +353,9 @@
       "questionText": "Which point is the y-intercept of y = 3/5x + 7?",
       "options": [
         "(0, -7)",
+        "(1, 38/5)",
         "(7, 0)",
-        "(0, 7)",
-        "(1, 38/5)"
+        "(0, 7)"
       ],
       "correctAnswer": "(0, 7)",
       "difficulty": "standard",
@@ -371,8 +371,8 @@
       "type": "multiple_choice",
       "questionText": "A line starts at 8 and changes by 6/5 each step. What is the value when x = 16?",
       "options": [
-        "56/5",
         "136/5",
+        "56/5",
         "141/5",
         "-56/5"
       ],

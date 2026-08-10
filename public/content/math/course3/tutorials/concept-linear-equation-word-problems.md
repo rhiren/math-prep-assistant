@@ -2,42 +2,53 @@
 
 ## Big Idea
 
-Linear equations stay true when you make the same valid move to both sides. The goal is not to memorize a trick; the goal is to keep the two sides balanced until the value of the variable is clear.
+Linear equation word problems describe situations with a steady change or a fixed relationship. The equation helps you solve for the unknown amount.
 
-## What To Watch For
+## What To Notice
 
-- Identify the variable and what it represents.
-- Simplify each side before moving terms.
-- Move variable terms and constant terms with inverse operations.
-- If fractions or decimals make the equation hard to read, clear them first.
-- Check the answer in the original equation, not only in the last line of work.
+- A starting amount is often added or subtracted once.
+- A repeated amount is usually multiplied by the variable.
+- A total, target, or comparison often becomes the other side of the equation.
+- The answer should include units and should make sense in the story.
 
 ## Worked Example
 
-Solve: `1/2x + 3 = 1/4x + 7`
+A gym charges a $12 signup fee plus $8 per class. Priya paid $60 total. How many classes did she take?
 
-1. Subtract `1/4x` from both sides: `1/4x + 3 = 7`
-2. Subtract 3 from both sides: `1/4x = 4`
-3. Multiply both sides by 4: `x = 16`
-4. Check: `1/2(16) + 3 = 11` and `1/4(16) + 7 = 11`
+Let `c` be the number of classes.
 
-## Strategy
+Signup fee plus class cost:
 
-Ask: What is making the equation complicated?
+`12 + 8c = 60`
 
-| If you see... | Try... |
-| --- | --- |
-| Fractions | multiply every term by a common denominator |
-| Parentheses | distribute first |
-| Variables on both sides | move one variable term to the other side |
-| Same expression on both sides | check for infinitely many solutions |
-| Same variable term but different constants | check for no solution |
-| A story problem | define the variable before writing the equation |
+Subtract 12:
+
+`8c = 48`
+
+Divide by 8:
+
+`c = 6`
+
+Priya took 6 classes.
+
+## Comparison Example
+
+Two plans cost the same after some number of months:
+
+Plan A: `20 + 5m`
+
+Plan B: `8m`
+
+Set them equal:
+
+`20 + 5m = 8m`
+
+The equation means: find the month when both plans have the same cost.
 
 ## Common Mistake
 
-Do not move a term by simply changing where it appears. Use an inverse operation on both sides. For example, from `3x + 5 = x + 17`, subtract `x` from both sides to get `2x + 5 = 17`.
+Do not answer only with `x = 6`. Explain what the number means: 6 classes, 6 months, 6 tickets, or whatever the context asks for.
 
 ## Quick Self-Check
 
-After solving, substitute the value back into the original equation. If both sides match, the solution works. If they do not match, look for a distribution, sign, or fraction-clearing mistake.
+Plug the answer back into the story, not just the equation. The total or comparison should match the words in the problem.

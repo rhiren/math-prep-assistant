@@ -140,7 +140,7 @@ function longestSameRun(seq) {
 }
 
 function passesSequence(seq) {
-  if (longestSequentialCycle(seq) > 3) return false;
+  if (longestSequentialCycle(seq) > 2) return false;
   if (longestSameRun(seq) > 2) return false;
   for (let start = 0; start <= seq.length - 8; start += 1) {
     const counts = [0, 0, 0, 0];

@@ -10,10 +10,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10³.",
       "options": [
-        "0.001",
-        "1,000",
         "10,000",
-        "100"
+        "0.001",
+        "100",
+        "1,000"
       ],
       "correctAnswer": "1,000",
       "difficulty": "scaffold",
@@ -29,10 +29,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 10⁻².",
       "options": [
-        "100",
         "-100",
         "0.01",
-        "0.1"
+        "0.1",
+        "100"
       ],
       "correctAnswer": "0.01",
       "difficulty": "scaffold",
@@ -48,10 +48,10 @@
       "type": "multiple_choice",
       "questionText": "Write 1,000,000 as a power of 10.",
       "options": [
+        "10⁶",
         "6¹⁰",
-        "10⁵",
         "10⁷",
-        "10⁶"
+        "10⁵"
       ],
       "correctAnswer": "10⁶",
       "difficulty": "scaffold",
@@ -67,10 +67,10 @@
       "type": "multiple_choice",
       "questionText": "Write 0.001 as a power of 10.",
       "options": [
-        "10⁻²",
-        "10³",
+        "3⁻¹⁰",
         "10⁻³",
-        "3⁻¹⁰"
+        "10³",
+        "10⁻²"
       ],
       "correctAnswer": "10⁻³",
       "difficulty": "scaffold",
@@ -86,9 +86,9 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10² × 10⁵.",
       "options": [
-        "10³",
         "10⁷",
         "100⁷",
+        "10³",
         "10¹⁰"
       ],
       "correctAnswer": "10⁷",
@@ -105,10 +105,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10⁶ ÷ 10⁴.",
       "options": [
+        "10²",
         "2¹⁰",
         "10⁻²",
-        "10¹⁰",
-        "10²"
+        "10¹⁰"
       ],
       "correctAnswer": "10²",
       "difficulty": "scaffold",
@@ -124,9 +124,9 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 4.5 × 10².",
       "options": [
-        "450",
-        "45",
         "0.045",
+        "45",
+        "450",
         "4,500"
       ],
       "correctAnswer": "450",
@@ -143,10 +143,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 7.8 × 10⁻¹.",
       "options": [
-        "0.078",
         "78",
-        "7.8",
-        "0.78"
+        "0.78",
+        "0.078",
+        "7.8"
       ],
       "correctAnswer": "0.78",
       "difficulty": "scaffold",
@@ -162,10 +162,10 @@
       "type": "multiple_choice",
       "questionText": "Which is greater: 10⁻¹ or 10⁻³?",
       "options": [
-        "They are equal",
-        "10⁻¹",
         "10⁻³",
-        "10⁻⁴"
+        "They are equal",
+        "10⁻⁴",
+        "10⁻¹"
       ],
       "correctAnswer": "10⁻¹",
       "difficulty": "standard",
@@ -182,9 +182,9 @@
       "questionText": "A decimal moves 5 places left. Which multiplier was used?",
       "options": [
         "5¹⁰",
+        "10⁵",
         "10⁻⁵",
-        "10⁻⁴",
-        "10⁵"
+        "10⁻⁴"
       ],
       "correctAnswer": "10⁻⁵",
       "difficulty": "standard",
@@ -201,9 +201,9 @@
       "questionText": "A decimal moves 2 places right. Which multiplier was used?",
       "options": [
         "10²",
+        "10⁻²",
         "2¹⁰",
-        "10³",
-        "10⁻²"
+        "10³"
       ],
       "correctAnswer": "10²",
       "difficulty": "standard",
@@ -219,10 +219,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10⁻³ × 10⁷.",
       "options": [
-        "10¹⁰",
         "10⁻²¹",
-        "10⁻⁴",
-        "10⁴"
+        "10¹⁰",
+        "10⁴",
+        "10⁻⁴"
       ],
       "correctAnswer": "10⁴",
       "difficulty": "standard",
@@ -238,10 +238,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 10² ÷ 10⁶.",
       "options": [
-        "10⁻⁸",
-        "10⁴",
+        "10⁻⁴",
         "10⁸",
-        "10⁻⁴"
+        "10⁴",
+        "10⁻⁸"
       ],
       "correctAnswer": "10⁻⁴",
       "difficulty": "standard",
@@ -257,10 +257,10 @@
       "type": "multiple_choice",
       "questionText": "Evaluate 0.006 × 10⁴.",
       "options": [
-        "60",
-        "0.0000006",
         "600",
-        "6"
+        "6",
+        "0.0000006",
+        "60"
       ],
       "correctAnswer": "60",
       "difficulty": "standard",
@@ -295,10 +295,10 @@
       "type": "multiple_choice",
       "questionText": "How many times larger is 10⁵ than 10²?",
       "options": [
-        "3",
+        "10⁻³",
         "10⁷",
-        "10³",
-        "10⁻³"
+        "3",
+        "10³"
       ],
       "correctAnswer": "10³",
       "difficulty": "standard",
@@ -314,10 +314,10 @@
       "type": "multiple_choice",
       "questionText": "Order from least to greatest: 10⁻², 10¹, 10⁻⁴.",
       "options": [
-        "10⁻⁴, 10⁻², 10¹",
         "10¹, 10⁻², 10⁻⁴",
+        "10⁻², 10⁻⁴, 10¹",
         "10⁻⁴, 10¹, 10⁻²",
-        "10⁻², 10⁻⁴, 10¹"
+        "10⁻⁴, 10⁻², 10¹"
       ],
       "correctAnswer": "10⁻⁴, 10⁻², 10¹",
       "difficulty": "standard",
@@ -334,9 +334,9 @@
       "questionText": "Evaluate (10⁻²)².",
       "options": [
         "10⁰",
+        "10⁻²",
         "10⁻⁴",
-        "10⁴",
-        "10⁻²"
+        "10⁴"
       ],
       "correctAnswer": "10⁻⁴",
       "difficulty": "standard",
@@ -352,9 +352,9 @@
       "type": "multiple_choice",
       "questionText": "Which equals 0.00000001?",
       "options": [
-        "8⁻¹⁰",
         "10⁸",
         "10⁻⁸",
+        "8⁻¹⁰",
         "10⁻⁷"
       ],
       "correctAnswer": "10⁻⁸",
@@ -371,10 +371,10 @@
       "type": "multiple_choice",
       "questionText": "Which equals 100,000,000?",
       "options": [
+        "10⁹",
         "10⁸",
-        "8¹⁰",
         "10⁷",
-        "10⁹"
+        "8¹⁰"
       ],
       "correctAnswer": "10⁸",
       "difficulty": "standard",

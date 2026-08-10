@@ -81,6 +81,34 @@ function getTemplateStats(questions: Question[]) {
   };
 }
 
+function normalizeTutorialForSimilarity(tutorial: string) {
+  return tutorial
+    .replace(/^# .+$/m, "")
+    .toLowerCase()
+    .replace(/`[^`]+`/g, "`math`")
+    .replace(/-?\d+(?:\/\d+)?(?:\.\d+)?/g, "#")
+    .replace(/[^a-z#`]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getTutorialShingles(tutorial: string) {
+  const words = normalizeTutorialForSimilarity(tutorial).split(" ").filter(Boolean);
+  const shingles = new Set<string>();
+
+  for (let index = 0; index <= words.length - 8; index += 1) {
+    shingles.add(words.slice(index, index + 8).join(" "));
+  }
+
+  return shingles;
+}
+
+function getJaccardSimilarity(first: Set<string>, second: Set<string>) {
+  const intersectionCount = [...first].filter((value) => second.has(value)).length;
+  const unionCount = new Set([...first, ...second]).size;
+  return unionCount === 0 ? 0 : intersectionCount / unionCount;
+}
+
 describe("content repository", () => {
   it("builds O(1) question lookup access for loaded content", async () => {
     const repository = await createDefaultContentRepository();
@@ -646,8 +674,8 @@ describe("content repository", () => {
         expect(answerIndexes, `${testSet.id} has invalid correct-answer options`).not.toContain(-1);
         expect(
           getLongestSequentialAnswerCycle(answerIndexes),
-          `${testSet.id} has a predictable A/B/C/D answer cycle`,
-        ).toBeLessThanOrEqual(3);
+          `${testSet.id} has a predictable answer-position mini-cycle`,
+        ).toBeLessThanOrEqual(2);
         expect(
           getLongestSameAnswerRun(answerIndexes),
           `${testSet.id} repeats the same answer position too many times in a row`,
@@ -706,6 +734,45 @@ describe("content repository", () => {
             `${testSet.id} challenge questions need varied reasoning forms`,
           ).toBeGreaterThanOrEqual(3);
         }
+      }
+    }
+  });
+
+  it("keeps active Course 3 tutorials concept-specific instead of near-duplicates", async () => {
+    const repository = await createDefaultContentRepository();
+    const course = await repository.getCourse("course-3");
+    const concepts = course?.units.flatMap((unit) => unit.concepts) ?? [];
+    const tutorials = await Promise.all(
+      concepts.map(async (concept) => ({
+        conceptId: concept.id,
+        title: concept.title,
+        content: await repository.getTutorialContent(concept.id),
+      })),
+    );
+
+    for (const tutorial of tutorials) {
+      expect(tutorial.content, `${tutorial.conceptId} is missing tutorial content`).toBeTruthy();
+      expect(
+        normalizeTutorialForSimilarity(tutorial.content ?? "").split(" ").length,
+        `${tutorial.conceptId} tutorial is too short to be learner-ready`,
+      ).toBeGreaterThanOrEqual(80);
+    }
+
+    const tutorialShingles = tutorials.map((tutorial) => ({
+      ...tutorial,
+      shingles: getTutorialShingles(tutorial.content ?? ""),
+    }));
+
+    for (let firstIndex = 0; firstIndex < tutorialShingles.length; firstIndex += 1) {
+      for (let secondIndex = firstIndex + 1; secondIndex < tutorialShingles.length; secondIndex += 1) {
+        const first = tutorialShingles[firstIndex];
+        const second = tutorialShingles[secondIndex];
+        const similarity = getJaccardSimilarity(first.shingles, second.shingles);
+
+        expect(
+          similarity,
+          `${first.conceptId} and ${second.conceptId} tutorials are too similar`,
+        ).toBeLessThan(0.85);
       }
     }
   });

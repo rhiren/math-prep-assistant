@@ -12,8 +12,8 @@
       "options": [
         "y = -2x",
         "y = 2x",
-        "y = 3x",
-        "y = 1/2x"
+        "y = 1/2x",
+        "y = 3x"
       ],
       "correctAnswer": "y = 2x",
       "difficulty": "scaffold",
@@ -30,10 +30,10 @@
       "type": "multiple_choice",
       "questionText": "A line through the origin also passes through (3, 9). Which equation matches this proportional relationship?",
       "options": [
-        "y = 3x",
+        "y = -3x",
         "y = 1/3x",
         "y = 4x",
-        "y = -3x"
+        "y = 3x"
       ],
       "correctAnswer": "y = 3x",
       "difficulty": "scaffold",
@@ -50,9 +50,9 @@
       "type": "multiple_choice",
       "questionText": "The graph of a proportional relationship contains (4, 2). What is its equation?",
       "options": [
+        "y = -1/2x",
         "y = 2x",
         "y = 3/2x",
-        "y = -1/2x",
         "y = 1/2x"
       ],
       "correctAnswer": "y = 1/2x",
@@ -70,10 +70,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a proportional relationship includes x = 5 and y = 10/3. Which equation is true for all rows?",
       "options": [
-        "y = 3/2x",
-        "y = 2/3x",
         "y = -2/3x",
-        "y = 5/3x"
+        "y = 5/3x",
+        "y = 2/3x",
+        "y = 3/2x"
       ],
       "correctAnswer": "y = 2/3x",
       "difficulty": "scaffold",
@@ -90,10 +90,10 @@
       "type": "multiple_choice",
       "questionText": "A recipe scales proportionally: 6 batches use 9/2 cups. Which equation gives y cups for x batches?",
       "options": [
-        "y = -3/4x",
         "y = 7/4x",
+        "y = 4/3x",
         "y = 3/4x",
-        "y = 4/3x"
+        "y = -3/4x"
       ],
       "correctAnswer": "y = 3/4x",
       "difficulty": "scaffold",
@@ -110,10 +110,10 @@
       "type": "multiple_choice",
       "questionText": "Which equation has a graph through both (0, 0) and (8, 20)?",
       "options": [
+        "y = 2/5x",
         "y = -5/2x",
         "y = 7/2x",
-        "y = 5/2x",
-        "y = 2/5x"
+        "y = 5/2x"
       ],
       "correctAnswer": "y = 5/2x",
       "difficulty": "scaffold",
@@ -130,10 +130,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional graph rises by -20 when x increases from 0 to 10. Which equation represents it?",
       "options": [
-        "y = -1/2x",
-        "y = -x",
         "y = 2x",
-        "y = -2x"
+        "y = -2x",
+        "y = -x",
+        "y = -1/2x"
       ],
       "correctAnswer": "y = -2x",
       "difficulty": "scaffold",
@@ -150,10 +150,10 @@
       "type": "multiple_choice",
       "questionText": "A student says the constant of proportionality is y divided by x. For (2, -3), which equation follows?",
       "options": [
-        "y = -1/2x",
-        "y = -2/3x",
+        "y = -3/2x",
         "y = 3/2x",
-        "y = -3/2x"
+        "y = -2/3x",
+        "y = -1/2x"
       ],
       "correctAnswer": "y = -3/2x",
       "difficulty": "scaffold",
@@ -170,9 +170,9 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the origin and (3, 12/5). Which equation represents the graph?",
       "options": [
+        "y = 4/5x",
         "y = 5/4x",
         "y = 9/5x",
-        "y = 4/5x",
         "y = -4/5x"
       ],
       "correctAnswer": "y = 4/5x",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "A line through the origin also passes through (4, 20/3). Which equation matches this proportional relationship?",
       "options": [
-        "y = -5/3x",
-        "y = 5/3x",
+        "y = 3/5x",
         "y = 8/3x",
-        "y = 3/5x"
+        "y = 5/3x",
+        "y = -5/3x"
       ],
       "correctAnswer": "y = 5/3x",
       "difficulty": "standard",
@@ -210,10 +210,10 @@
       "type": "multiple_choice",
       "questionText": "The graph of a proportional relationship contains (5, -5/2). What is its equation?",
       "options": [
+        "y = -2x",
         "y = -1/2x",
         "y = 1/2x",
-        "y = -1/3x",
-        "y = -2x"
+        "y = -1/3x"
       ],
       "correctAnswer": "y = -1/2x",
       "difficulty": "standard",
@@ -230,10 +230,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a proportional relationship includes x = 6 and y = 21/2. Which equation is true for all rows?",
       "options": [
-        "y = -7/4x",
+        "y = 7/4x",
         "y = 4/7x",
-        "y = 11/4x",
-        "y = 7/4x"
+        "y = -7/4x",
+        "y = 11/4x"
       ],
       "correctAnswer": "y = 7/4x",
       "difficulty": "standard",
@@ -250,10 +250,10 @@
       "type": "multiple_choice",
       "questionText": "A recipe scales proportionally: 8 batches use 0 cups. Which equation gives y cups for x batches?",
       "options": [
-        "y = x",
         "y = -x",
-        "y = 0x + 1",
-        "y = 0"
+        "y = x",
+        "y = 0",
+        "y = 0x + 1"
       ],
       "correctAnswer": "y = 0",
       "difficulty": "standard",
@@ -271,9 +271,9 @@
       "questionText": "Which equation has a graph through both (0, 0) and (10, -25/2)?",
       "options": [
         "y = -5/4x",
-        "y = 5/4x",
+        "y = -4/5x",
         "y = -1/4x",
-        "y = -4/5x"
+        "y = 5/4x"
       ],
       "correctAnswer": "y = -5/4x",
       "difficulty": "standard",
@@ -290,10 +290,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional graph rises by 12/5 when x increases from 0 to 2. Which equation represents it?",
       "options": [
-        "y = 6/5x",
-        "y = -6/5x",
         "y = 5/6x",
-        "y = 11/5x"
+        "y = -6/5x",
+        "y = 11/5x",
+        "y = 6/5x"
       ],
       "correctAnswer": "y = 6/5x",
       "difficulty": "standard",
@@ -310,10 +310,10 @@
       "type": "multiple_choice",
       "questionText": "A student says the constant of proportionality is y divided by x. For (3, -4), which equation follows?",
       "options": [
-        "y = -3/4x",
+        "y = 4/3x",
         "y = -1/3x",
         "y = -4/3x",
-        "y = 4/3x"
+        "y = -3/4x"
       ],
       "correctAnswer": "y = -4/3x",
       "difficulty": "standard",
@@ -330,10 +330,10 @@
       "type": "multiple_choice",
       "questionText": "A proportional relationship includes the origin and (4, 4). Which equation represents the graph?",
       "options": [
-        "y = x",
         "y = -x",
+        "y = 2x",
         "y = 1/2x",
-        "y = 2x"
+        "y = x"
       ],
       "correctAnswer": "y = x",
       "difficulty": "standard",
@@ -352,8 +352,8 @@
       "options": [
         "y = x",
         "y = -x",
-        "y = -1/2x",
-        "y = 0"
+        "y = 0",
+        "y = -1/2x"
       ],
       "correctAnswer": "y = -x",
       "difficulty": "standard",
@@ -370,9 +370,9 @@
       "type": "multiple_choice",
       "questionText": "The graph of a proportional relationship contains (6, 16). What is its equation?",
       "options": [
-        "y = 3/8x",
-        "y = 11/3x",
         "y = 8/3x",
+        "y = 11/3x",
+        "y = 3/8x",
         "y = -8/3x"
       ],
       "correctAnswer": "y = 8/3x",
@@ -390,10 +390,10 @@
       "type": "multiple_choice",
       "questionText": "A table for a proportional relationship includes x = 8 and y = -20. Which equation is true for all rows?",
       "options": [
-        "y = -2/5x",
-        "y = -5/2x",
         "y = -3/2x",
-        "y = 5/2x"
+        "y = -5/2x",
+        "y = 5/2x",
+        "y = -2/5x"
       ],
       "correctAnswer": "y = -5/2x",
       "difficulty": "standard",

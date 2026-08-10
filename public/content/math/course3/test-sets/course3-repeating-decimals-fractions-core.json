@@ -10,8 +10,8 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.333... to a fraction.",
       "options": [
-        "1/3",
         "3/100",
+        "1/3",
         "3/10",
         "1/9"
       ],
@@ -29,9 +29,9 @@
       "questionText": "Convert 0.777... to a fraction in simplest form.",
       "options": [
         "7/10",
-        "77/100",
         "7/99",
-        "7/9"
+        "7/9",
+        "77/100"
       ],
       "correctAnswer": "7/9",
       "difficulty": "scaffold",
@@ -46,9 +46,9 @@
       "type": "multiple_choice",
       "questionText": "Which equation correctly starts the conversion of x = 0.444...?",
       "options": [
-        "100x = 4.444...",
         "10x = 4.444...",
         "x = 4/10",
+        "100x = 4.444...",
         "10x = 44.44..."
       ],
       "correctAnswer": "10x = 4.444...",
@@ -64,10 +64,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.121212... to a fraction before simplifying.",
       "options": [
+        "1/12",
         "12/999",
-        "12/99",
         "12/100",
-        "1/12"
+        "12/99"
       ],
       "correctAnswer": "12/99",
       "difficulty": "scaffold",
@@ -82,10 +82,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify 12/99.",
       "options": [
-        "4/33",
+        "2/11",
         "3/25",
         "6/49",
-        "2/11"
+        "4/33"
       ],
       "correctAnswer": "4/33",
       "difficulty": "scaffold",
@@ -101,9 +101,9 @@
       "questionText": "Why is every repeating decimal rational?",
       "options": [
         "It always has fewer than ten digits",
+        "It is always between 0 and 1",
         "It can be converted to a ratio of integers",
-        "Its repeating digit must be even",
-        "It is always between 0 and 1"
+        "Its repeating digit must be even"
       ],
       "correctAnswer": "It can be converted to a ratio of integers",
       "difficulty": "scaffold",
@@ -118,10 +118,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.090909... to a fraction in simplest form.",
       "options": [
-        "1/9",
-        "9/90",
         "1/11",
-        "9/100"
+        "1/9",
+        "9/100",
+        "9/90"
       ],
       "correctAnswer": "1/11",
       "difficulty": "scaffold",
@@ -136,10 +136,10 @@
       "type": "multiple_choice",
       "questionText": "Which denominator is used before simplifying a decimal with a three-digit repeating block and no nonrepeating digits?",
       "options": [
+        "900",
         "99",
-        "999",
         "1000",
-        "900"
+        "999"
       ],
       "correctAnswer": "999",
       "difficulty": "scaffold",
@@ -154,9 +154,9 @@
       "type": "multiple_choice",
       "questionText": "Convert -0.666... to a fraction.",
       "options": [
-        "-1/6",
         "-6/10",
         "2/3",
+        "-1/6",
         "-2/3"
       ],
       "correctAnswer": "-2/3",
@@ -172,10 +172,10 @@
       "type": "multiple_choice",
       "questionText": "What is the exact value of 0.999...?",
       "options": [
-        "1",
         "A number slightly less than 1",
-        "99/100",
-        "0.99"
+        "0.99",
+        "1",
+        "99/100"
       ],
       "correctAnswer": "1",
       "difficulty": "scaffold",
@@ -190,10 +190,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.272727... to a fraction in simplest form.",
       "options": [
-        "3/11",
-        "2/7",
         "27/999",
-        "27/100"
+        "3/11",
+        "27/100",
+        "2/7"
       ],
       "correctAnswer": "3/11",
       "difficulty": "standard",
@@ -208,10 +208,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.181818... to a fraction in simplest form.",
       "options": [
-        "1/18",
         "2/11",
         "18/100",
-        "9/50"
+        "9/50",
+        "1/18"
       ],
       "correctAnswer": "2/11",
       "difficulty": "standard",
@@ -226,10 +226,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.454545... to a fraction in simplest form.",
       "options": [
-        "9/20",
+        "5/11",
         "45/100",
         "4/9",
-        "5/11"
+        "9/20"
       ],
       "correctAnswer": "5/11",
       "difficulty": "standard",
@@ -246,8 +246,8 @@
       "options": [
         "123/9990",
         "41/300",
-        "41/333",
-        "123/1000"
+        "123/1000",
+        "41/333"
       ],
       "correctAnswer": "41/333",
       "difficulty": "standard",
@@ -262,10 +262,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.045045... to a fraction in simplest form.",
       "options": [
+        "1/22",
         "5/111",
         "9/200",
-        "45/1000",
-        "1/22"
+        "45/1000"
       ],
       "correctAnswer": "5/111",
       "difficulty": "standard",
@@ -280,10 +280,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.001001... to a fraction.",
       "options": [
-        "1/99",
         "1/1000",
-        "10/999",
-        "1/999"
+        "1/99",
+        "1/999",
+        "10/999"
       ],
       "correctAnswer": "1/999",
       "difficulty": "standard",
@@ -298,10 +298,10 @@
       "type": "multiple_choice",
       "questionText": "If x = 0.343434..., what equation results after subtracting x from 100x?",
       "options": [
-        "100x = 34",
         "99x = 34",
+        "101x = 34",
         "99x = 0.34",
-        "101x = 34"
+        "100x = 34"
       ],
       "correctAnswer": "99x = 34",
       "difficulty": "standard",
@@ -316,9 +316,9 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.343434... to a fraction in simplest form.",
       "options": [
-        "17/50",
         "34/99",
         "3/11",
+        "17/50",
         "34/100"
       ],
       "correctAnswer": "34/99",
@@ -334,10 +334,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 2.333... to an improper fraction.",
       "options": [
-        "20/9",
         "23/10",
         "7/3",
-        "2/3"
+        "2/3",
+        "20/9"
       ],
       "correctAnswer": "7/3",
       "difficulty": "standard",
@@ -352,10 +352,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 1.272727... to an improper fraction.",
       "options": [
-        "13/11",
         "14/11",
-        "127/100",
-        "127/99"
+        "127/99",
+        "13/11",
+        "127/100"
       ],
       "correctAnswer": "14/11",
       "difficulty": "standard",
@@ -370,10 +370,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 3.555... to an improper fraction.",
       "options": [
-        "32/9",
-        "31/9",
         "35/10",
-        "8/3"
+        "31/9",
+        "8/3",
+        "32/9"
       ],
       "correctAnswer": "32/9",
       "difficulty": "standard",
@@ -389,8 +389,8 @@
       "questionText": "Convert 0.2333..., where only the 3 repeats, to a fraction.",
       "options": [
         "23/99",
-        "7/30",
         "23/100",
+        "7/30",
         "2/9"
       ],
       "correctAnswer": "7/30",
@@ -425,10 +425,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.41666..., where only the 6 repeats, to a fraction.",
       "options": [
+        "3/8",
         "2/5",
         "41/99",
-        "5/12",
-        "3/8"
+        "5/12"
       ],
       "correctAnswer": "5/12",
       "difficulty": "standard",
@@ -444,9 +444,9 @@
       "questionText": "Which fraction has decimal form 0.363636...?",
       "options": [
         "3/8",
+        "4/11",
         "11/36",
-        "36/100",
-        "4/11"
+        "36/100"
       ],
       "correctAnswer": "4/11",
       "difficulty": "standard",
@@ -461,10 +461,10 @@
       "type": "multiple_choice",
       "questionText": "Which fraction has decimal form 0.818181...?",
       "options": [
-        "17/22",
-        "8/9",
         "9/11",
-        "81/100"
+        "81/100",
+        "17/22",
+        "8/9"
       ],
       "correctAnswer": "9/11",
       "difficulty": "standard",
@@ -479,9 +479,9 @@
       "type": "multiple_choice",
       "questionText": "A student writes 0.474747... = 47/100. What is the error?",
       "options": [
+        "Repeating decimals cannot be fractions",
         "A repeating two-digit block uses denominator 99 before simplifying",
         "The numerator should be 74",
-        "Repeating decimals cannot be fractions",
         "The fraction needs denominator 10"
       ],
       "correctAnswer": "A repeating two-digit block uses denominator 99 before simplifying",
@@ -497,10 +497,10 @@
       "type": "multiple_choice",
       "questionText": "A student uses 10x for x = 0.252525.... Why will the repeating tails not align for subtraction?",
       "options": [
-        "Subtraction never works for two-digit blocks",
         "The repeating block has two digits, so 100x is needed",
-        "The block must be multiplied by 25",
-        "The decimal is irrational"
+        "The decimal is irrational",
+        "Subtraction never works for two-digit blocks",
+        "The block must be multiplied by 25"
       ],
       "correctAnswer": "The repeating block has two digits, so 100x is needed",
       "difficulty": "standard",
@@ -515,10 +515,10 @@
       "type": "multiple_choice",
       "questionText": "Which expression converts 0.2454545..., where 45 repeats after the first decimal digit?",
       "options": [
-        "(245 - 24)/900",
-        "(245 - 2)/990",
+        "45/99",
         "245/999",
-        "45/99"
+        "(245 - 2)/990",
+        "(245 - 24)/900"
       ],
       "correctAnswer": "(245 - 2)/990",
       "difficulty": "standard",
@@ -533,10 +533,10 @@
       "type": "multiple_choice",
       "questionText": "Simplify the fraction represented by (245 - 2)/990.",
       "options": [
+        "9/44",
         "27/110",
         "23/100",
-        "9/40",
-        "9/44"
+        "9/40"
       ],
       "correctAnswer": "27/110",
       "difficulty": "standard",
@@ -551,9 +551,9 @@
       "type": "multiple_choice",
       "questionText": "Which decimal equals 5/6?",
       "options": [
+        "0.8555...",
         "0.8333...",
         "0.666...",
-        "0.8555...",
         "0.80505..."
       ],
       "correctAnswer": "0.8333...",
@@ -569,10 +569,10 @@
       "type": "multiple_choice",
       "questionText": "Which decimal equals 7/12?",
       "options": [
+        "0.58333...",
         "0.5888...",
         "0.575757...",
-        "0.51212...",
-        "0.58333..."
+        "0.51212..."
       ],
       "correctAnswer": "0.58333...",
       "difficulty": "standard",
@@ -588,8 +588,8 @@
       "questionText": "If 99x = 62, what repeating decimal does x represent?",
       "options": [
         "0.696969...",
-        "0.626262...",
         "0.062062...",
+        "0.626262...",
         "0.626"
       ],
       "correctAnswer": "0.626262...",
@@ -606,9 +606,9 @@
       "questionText": "Which statement about 0.125 and 0.125125... is true?",
       "options": [
         "Only 0.125 is rational",
-        "They are equal",
+        "Only 0.125125... is rational",
         "Both are rational, but they are different numbers",
-        "Only 0.125125... is rational"
+        "They are equal"
       ],
       "correctAnswer": "Both are rational, but they are different numbers",
       "difficulty": "standard",
@@ -624,9 +624,9 @@
       "questionText": "Which is the best verification that 7/30 = 0.2333...?",
       "options": [
         "Check that 7 + 30 = 37",
+        "Round both values to 0.2",
         "Multiply 7 by 30 and obtain 210",
-        "Divide 7 by 30 and obtain 0.2333...",
-        "Round both values to 0.2"
+        "Divide 7 by 30 and obtain 0.2333..."
       ],
       "correctAnswer": "Divide 7 by 30 and obtain 0.2333...",
       "difficulty": "standard",
@@ -642,9 +642,9 @@
       "questionText": "Convert 0.0585858..., where 58 repeats after the first decimal digit, to a fraction in simplest form.",
       "options": [
         "13/225",
+        "29/495",
         "58/999",
-        "1/17",
-        "29/495"
+        "1/17"
       ],
       "correctAnswer": "29/495",
       "difficulty": "challenge",
@@ -660,10 +660,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.123333..., where only the 3 repeats, to a fraction in simplest form.",
       "options": [
-        "11/90",
-        "123/999",
         "37/300",
-        "13/105"
+        "13/105",
+        "11/90",
+        "123/999"
       ],
       "correctAnswer": "37/300",
       "difficulty": "challenge",
@@ -678,10 +678,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.0727272..., where 72 repeats after an initial 0, to a fraction in simplest form.",
       "options": [
-        "72/999",
-        "8/111",
         "2/27",
-        "4/55"
+        "4/55",
+        "72/999",
+        "8/111"
       ],
       "correctAnswer": "4/55",
       "difficulty": "challenge",
@@ -696,9 +696,9 @@
       "type": "multiple_choice",
       "questionText": "Convert 4.181818... to an improper fraction.",
       "options": [
-        "45/11",
         "23/5",
         "418/99",
+        "45/11",
         "46/11"
       ],
       "correctAnswer": "46/11",
@@ -715,9 +715,9 @@
       "questionText": "Convert -2.454545... to an improper fraction.",
       "options": [
         "-27/11",
-        "-49/20",
         "-245/99",
-        "-25/11"
+        "-25/11",
+        "-49/20"
       ],
       "correctAnswer": "-27/11",
       "difficulty": "challenge",
@@ -732,10 +732,10 @@
       "type": "multiple_choice",
       "questionText": "If x = 0.1454545..., which subtraction removes the repeating tail most directly?",
       "options": [
-        "1000x - 10x",
-        "10x - x",
         "100x - x",
-        "1000x - 100x"
+        "1000x - 100x",
+        "1000x - 10x",
+        "10x - x"
       ],
       "correctAnswer": "1000x - 10x",
       "difficulty": "challenge",
@@ -750,10 +750,10 @@
       "type": "multiple_choice",
       "questionText": "Convert 0.1454545..., where 45 repeats, to a fraction in simplest form.",
       "options": [
-        "7/50",
-        "145/999",
+        "8/55",
         "16/99",
-        "8/55"
+        "145/999",
+        "7/50"
       ],
       "correctAnswer": "8/55",
       "difficulty": "challenge",
@@ -768,10 +768,10 @@
       "type": "multiple_choice",
       "questionText": "Two students convert 0.666.... Ana gets 6/9 and Ben gets 2/3. Which conclusion is correct?",
       "options": [
-        "Only Ana is correct because 6 repeats",
-        "Only Ben is correct because denominator 9 is forbidden",
+        "Neither is correct because the decimal never ends",
         "Both are correct, but Ben's fraction is simplified",
-        "Neither is correct because the decimal never ends"
+        "Only Ana is correct because 6 repeats",
+        "Only Ben is correct because denominator 9 is forbidden"
       ],
       "correctAnswer": "Both are correct, but Ben's fraction is simplified",
       "difficulty": "challenge",
@@ -787,9 +787,9 @@
       "questionText": "What is 0.999... + 0.222...?",
       "options": [
         "1.2",
-        "1.221221...",
         "11/9",
-        "10/9"
+        "10/9",
+        "1.221221..."
       ],
       "correctAnswer": "11/9",
       "difficulty": "challenge",
@@ -805,10 +805,10 @@
       "type": "multiple_choice",
       "questionText": "What is 0.777... - 0.222...?",
       "options": [
-        "5/9",
-        "7/9",
+        "1/3",
         "0.5",
-        "1/3"
+        "5/9",
+        "7/9"
       ],
       "correctAnswer": "5/9",
       "difficulty": "challenge",
@@ -823,10 +823,10 @@
       "type": "multiple_choice",
       "questionText": "A repeating decimal converts to 37/99. What is its repeating block?",
       "options": [
+        "99",
         "37",
         "17",
-        "73",
-        "99"
+        "73"
       ],
       "correctAnswer": "37",
       "difficulty": "challenge",
@@ -841,10 +841,10 @@
       "type": "multiple_choice",
       "questionText": "Which fraction equals 0.0121212..., where 12 repeats after an initial 0?",
       "options": [
-        "1/82",
-        "12/999",
         "4/333",
-        "2/165"
+        "1/82",
+        "2/165",
+        "12/999"
       ],
       "correctAnswer": "2/165",
       "difficulty": "challenge",
@@ -878,9 +878,9 @@
       "questionText": "Convert 0.3212121..., where 21 repeats after the first decimal digit, to a fraction in simplest form.",
       "options": [
         "107/333",
+        "8/25",
         "321/990",
-        "53/165",
-        "8/25"
+        "53/165"
       ],
       "correctAnswer": "53/165",
       "difficulty": "challenge",
@@ -896,9 +896,9 @@
       "questionText": "A decimal has two nonrepeating digits followed by a three-digit repeating block. What form should its unsimplified denominator have?",
       "options": [
         "99000",
-        "99900",
         "9990",
-        "999"
+        "999",
+        "99900"
       ],
       "correctAnswer": "99900",
       "difficulty": "challenge",
