@@ -1,0 +1,409 @@
+{
+  "testId": "course3-solve-systems-substitution-review",
+  "conceptId": "concept-solve-systems-substitution",
+  "type": "review",
+  "title": "Solve Systems by Substitution Review Test",
+  "description": "Solve systems algebraically by replacing one variable with an equivalent expression.",
+  "questions": [
+    {
+      "id": "course3-solve-systems-substitution-review-001",
+      "type": "multiple_choice",
+      "questionText": "Use substitution to solve y = 3x + 4 and y = x + 2. What is the solution?",
+      "options": [
+        "(-1, 1)",
+        "(1, -1)",
+        "(-1, 2)",
+        "(0, 1)"
+      ],
+      "correctAnswer": "(-1, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-002",
+      "type": "multiple_choice",
+      "questionText": "For the system y = -2x + 1 and y = x + 7, which equation should you solve after substituting one expression for y?",
+      "options": [
+        "-2x + 1 = 7",
+        "-2x + 1 = x + 7",
+        "-2 = 1",
+        "x + 7 = 1"
+      ],
+      "correctAnswer": "-2x + 1 = x + 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-003",
+      "type": "multiple_choice",
+      "questionText": "A system has y = 2x + 4 and y = -x - 5. After substitution, the solution is which ordered pair?",
+      "options": [
+        "(-3, -1)",
+        "(-3, -2)",
+        "(-2, -3)",
+        "(-2, -2)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-004",
+      "type": "multiple_choice",
+      "questionText": "Substitute y = x + 7 into y = -x - 1. What x-value solves the system?",
+      "options": [
+        "4",
+        "3",
+        "-3",
+        "-4"
+      ],
+      "correctAnswer": "-4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-005",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair solves the system y = 3x - 17 and y = -2x + 13?",
+      "options": [
+        "(1, 6)",
+        "(7, 1)",
+        "(6, 2)",
+        "(6, 1)"
+      ],
+      "correctAnswer": "(6, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-006",
+      "type": "multiple_choice",
+      "questionText": "A student sets the two expressions for y equal because both equal y. What solution should they find?",
+      "options": [
+        "(-4, -1)",
+        "(-5, -1)",
+        "(-1, -5)",
+        "(-5, 0)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-007",
+      "type": "multiple_choice",
+      "questionText": "Use substitution on the system y = 4x - 18 and y = -x + 7. Which point makes both equations true?",
+      "options": [
+        "4 = -1",
+        "4x - 18 = 7",
+        "4x - 18 = -x + 7",
+        "-x + 7 = -18"
+      ],
+      "correctAnswer": "4x - 18 = -x + 7",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-008",
+      "type": "multiple_choice",
+      "questionText": "After substituting, the x-value is 4. What full ordered-pair solution follows?",
+      "options": [
+        "(-3, 4)",
+        "(5, -3)",
+        "(4, -3)",
+        "(4, -2)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-009",
+      "type": "multiple_choice",
+      "questionText": "Which answer checks in both equations: y = 2x - 2 and y = 4x - 8?",
+      "options": [
+        "3",
+        "-3",
+        "2",
+        "4"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-010",
+      "type": "multiple_choice",
+      "questionText": "Solve by substitution: y = -3x + 5; y = -x + 1. Which ordered pair is correct?",
+      "options": [
+        "(-1, 2)",
+        "(3, -1)",
+        "(2, 0)",
+        "(2, -1)"
+      ],
+      "correctAnswer": "(2, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-011",
+      "type": "multiple_choice",
+      "questionText": "Use substitution to solve y = x + 2 and y = 3x. What is the solution?",
+      "options": [
+        "(1, 4)",
+        "(3, 1)",
+        "(1, 3)",
+        "(2, 3)"
+      ],
+      "correctAnswer": "(1, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-012",
+      "type": "multiple_choice",
+      "questionText": "For the system y = -x - 4 and y = 2x - 4, which equation should you solve after substituting one expression for y?",
+      "options": [
+        "-x - 4 = -4",
+        "2x - 4 = -4",
+        "-1 = 2",
+        "-x - 4 = 2x - 4"
+      ],
+      "correctAnswer": "-x - 4 = 2x - 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-013",
+      "type": "multiple_choice",
+      "questionText": "A system has y = 3x + 4 and y = x + 2. After substitution, the solution is which ordered pair?",
+      "options": [
+        "(1, -1)",
+        "(-1, 1)",
+        "(-1, 2)",
+        "(0, 1)"
+      ],
+      "correctAnswer": "(-1, 1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-014",
+      "type": "multiple_choice",
+      "questionText": "Substitute y = -2x + 1 into y = x + 7. What x-value solves the system?",
+      "options": [
+        "2",
+        "-1",
+        "5",
+        "-2"
+      ],
+      "correctAnswer": "-2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-015",
+      "type": "multiple_choice",
+      "questionText": "Which ordered pair solves the system y = 2x + 4 and y = -x - 5?",
+      "options": [
+        "(-3, -1)",
+        "(-3, -2)",
+        "(-2, -3)",
+        "(-2, -2)"
+      ],
+      "correctAnswer": "(-3, -2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-016",
+      "type": "multiple_choice",
+      "questionText": "A student sets the two expressions for y equal because both equal y. What solution should they find?",
+      "options": [
+        "(-4, 3)",
+        "(3, -4)",
+        "(-4, 4)",
+        "(-3, 3)"
+      ],
+      "correctAnswer": "(-4, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-017",
+      "type": "multiple_choice",
+      "questionText": "Use substitution on the system y = 3x - 17 and y = -2x + 13. Which point makes both equations true?",
+      "options": [
+        "3x - 17 = -2x + 13",
+        "-2x + 13 = -17",
+        "3x - 17 = 13",
+        "3 = -2"
+      ],
+      "correctAnswer": "3x - 17 = -2x + 13",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-018",
+      "type": "multiple_choice",
+      "questionText": "After substituting, the x-value is -5. What full ordered-pair solution follows?",
+      "options": [
+        "(-5, 0)",
+        "(-4, -1)",
+        "(-5, -1)",
+        "(-1, -5)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-019",
+      "type": "multiple_choice",
+      "questionText": "Which answer checks in both equations: y = 4x - 18 and y = -x + 7?",
+      "options": [
+        "5",
+        "2",
+        "6",
+        "-5"
+      ],
+      "correctAnswer": "5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    },
+    {
+      "id": "course3-solve-systems-substitution-review-020",
+      "type": "multiple_choice",
+      "questionText": "Solve by substitution: y = -2x + 5; y = -4x + 13. Which ordered pair is correct?",
+      "options": [
+        "(4, -2)",
+        "(-3, 4)",
+        "(4, -3)",
+        "(5, -3)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "substitution",
+        "algebra"
+      ],
+      "explanation": "When both equations equal y, set the expressions equal, solve for x, then substitute x back to find y."
+    }
+  ]
+}

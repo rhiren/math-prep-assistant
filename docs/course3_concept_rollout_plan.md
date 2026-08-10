@@ -250,9 +250,15 @@ The current learner-ready Unit 3 packs are:
 
 Unit 3 is complete.
 
-The next Course 3 rollout work is Unit 4:
+The current learner-ready Unit 4 packs are:
 
 - Understand Solutions to Systems
+- Solve Systems by Graphing
+- Solve Systems by Substitution
+
+The next Course 3 rollout work is Unit 4:
+
+- Solve Systems by Elimination
 
 Course 3 multiple-choice answer positions should remain balanced within each
 active test set so learners cannot infer the correct option from repeated

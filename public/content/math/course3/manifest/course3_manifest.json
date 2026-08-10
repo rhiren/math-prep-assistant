@@ -1883,6 +1883,174 @@
               ]
             }
           ]
+        },
+        {
+          "id": "course3-unit-systems-linear-equations",
+          "courseId": "course-3",
+          "title": "Unit 4 — Systems of Linear Equations",
+          "description": "Solve systems of linear equations using graphs and algebraic methods, and interpret the number of solutions.",
+          "order": 4,
+          "concepts": [
+            {
+              "id": "concept-understand-solutions-systems",
+              "title": "Understand Solutions to Systems",
+              "description": "Understand a system solution as an ordered pair that makes both equations true.",
+              "tags": [
+                "systems",
+                "linear-equations",
+                "solutions"
+              ],
+              "skillTags": [
+                "systems",
+                "graph",
+                "conceptual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-understand-solutions-systems.md",
+              "tests": [
+                {
+                  "id": "course3-understand-solutions-systems-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-understand-solutions-systems-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-understand-solutions-systems-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-understand-solutions-systems-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-solve-systems-graphing",
+              "title": "Solve Systems by Graphing",
+              "description": "Solve systems by graphing both lines and identifying their intersection point.",
+              "tags": [
+                "systems",
+                "graphing",
+                "intersection"
+              ],
+              "skillTags": [
+                "systems",
+                "graphing",
+                "intersection"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-systems-graphing.md",
+              "tests": [
+                {
+                  "id": "course3-solve-systems-graphing-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-systems-graphing-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-systems-graphing-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-systems-graphing-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-solve-systems-substitution",
+              "title": "Solve Systems by Substitution",
+              "description": "Solve systems algebraically by replacing one variable with an equivalent expression.",
+              "tags": [
+                "systems",
+                "substitution",
+                "algebra"
+              ],
+              "skillTags": [
+                "systems",
+                "substitution",
+                "algebra"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-systems-substitution.md",
+              "tests": [
+                {
+                  "id": "course3-solve-systems-substitution-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-systems-substitution-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-systems-substitution-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-systems-substitution-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }
