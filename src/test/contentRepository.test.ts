@@ -588,6 +588,13 @@ describe("content repository", () => {
         coreTestId: "course3-solve-systems-substitution-core",
         reviewTestId: "course3-solve-systems-substitution-review",
       },
+      {
+        conceptId: "concept-solve-systems-elimination",
+        standards: ["8.EE.8"],
+        tutorialHeading: "# Solve Systems by Elimination",
+        coreTestId: "course3-solve-systems-elimination-core",
+        reviewTestId: "course3-solve-systems-elimination-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -602,7 +609,7 @@ describe("content repository", () => {
     expect(course?.units[2]?.id).toBe("course3-unit-lines-slope-linear-equations");
     expect(course?.units[2]?.concepts).toHaveLength(12);
     expect(course?.units[3]?.id).toBe("course3-unit-systems-linear-equations");
-    expect(course?.units[3]?.concepts).toHaveLength(3);
+    expect(course?.units[3]?.concepts).toHaveLength(4);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

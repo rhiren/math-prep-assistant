@@ -327,6 +327,7 @@ The current Course 3 learner-ready sequence is:
 - `Understand Solutions to Systems`
 - `Solve Systems by Graphing`
 - `Solve Systems by Substitution`
+- `Solve Systems by Elimination`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in
