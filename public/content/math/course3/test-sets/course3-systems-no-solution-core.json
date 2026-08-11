@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-systems-no-solution-core",
+  "conceptId": "concept-systems-no-solution",
+  "type": "concept",
+  "title": "Systems with No Solution Core Test",
+  "description": "Recognize systems whose lines are parallel and therefore have no ordered-pair solution.",
+  "questions": [
+    {
+      "id": "course3-systems-no-solution-core-001",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does the system y = -3x - 5 and y = -3x + 1 have?",
+      "options": [
+        "two solutions",
+        "no solution",
+        "one solution",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "parallel-lines"
+      ],
+      "explanation": "The lines have the same slope but different y-intercepts, so they are parallel and never intersect."
+    },
+    {
+      "id": "course3-systems-no-solution-core-002",
+      "type": "multiple_choice",
+      "questionText": "Why does y = 3x + 1 and y = 3x - 5 have no solution?",
+      "options": [
+        "same slope and different y-intercepts",
+        "different slopes and the same y-intercept",
+        "same slope and same y-intercept",
+        "different slopes and different y-intercepts"
+      ],
+      "correctAnswer": "same slope and different y-intercepts",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "slope-intercept"
+      ],
+      "explanation": "Parallel lines have equal slopes. Different y-intercepts mean they are distinct lines, so they do not meet."
+    },
+    {
+      "id": "course3-systems-no-solution-core-003",
+      "type": "multiple_choice",
+      "questionText": "Elimination gives 0 = -1 for the system x + 2y = 5 and -2x - 4y = -11. What does that mean?",
+      "options": [
+        "two solutions",
+        "infinitely many solutions",
+        "no solution",
+        "one solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "contradiction"
+      ],
+      "explanation": "A false statement like 0 = 1 means no ordered pair can satisfy both equations."
+    },
+    {
+      "id": "course3-systems-no-solution-core-004",
+      "type": "multiple_choice",
+      "questionText": "Scale the first equation in -4x + 3y = -10 and 12x - 9y = 28 by -3, then subtract. Which result shows the system is inconsistent?",
+      "options": [
+        "y = 0",
+        "0 = -2",
+        "x = 0",
+        "0 = 0"
+      ],
+      "correctAnswer": "0 = -2",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "elimination"
+      ],
+      "explanation": "After equivalent scaling, the variable terms match but the constants do not. Subtracting leaves a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-005",
+      "type": "multiple_choice",
+      "questionText": "Which system has no solution?",
+      "options": [
+        "y = -x - 5 and y = -x + 1",
+        "-5x - 2y = -15 and -20x - 8y = -60",
+        "y = 0x - 5 and y = -x + 1",
+        "y = x - 2 and y = 4x - 5"
+      ],
+      "correctAnswer": "y = -x - 5 and y = -x + 1",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "classification"
+      ],
+      "explanation": "The no-solution system is the one with parallel lines: same slope, different intercepts."
+    },
+    {
+      "id": "course3-systems-no-solution-core-006",
+      "type": "multiple_choice",
+      "questionText": "On a graph, what would the solution picture look like for y = 5x + 1 and y = 5x - 5?",
+      "options": [
+        "the same line drawn twice",
+        "parallel lines that never intersect",
+        "one crossing point",
+        "a vertical line crossing a horizontal line"
+      ],
+      "correctAnswer": "parallel lines that never intersect",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "graph"
+      ],
+      "explanation": "A system has no solution when its two lines are parallel and distinct, so there is no intersection point."
+    },
+    {
+      "id": "course3-systems-no-solution-core-007",
+      "type": "multiple_choice",
+      "questionText": "A student says y = x - 5 and y = x + 1 must share at least one point because both are lines. Is the student correct?",
+      "options": [
+        "no; parallel lines do not share any ordered pair",
+        "yes; any two lines have exactly one solution",
+        "yes; the y-intercepts are both solutions",
+        "no; different slopes are required for no solution"
+      ],
+      "correctAnswer": "no; parallel lines do not share any ordered pair",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "misconception"
+      ],
+      "explanation": "Distinct parallel lines never intersect, so they do not share an ordered-pair solution."
+    },
+    {
+      "id": "course3-systems-no-solution-core-008",
+      "type": "multiple_choice",
+      "questionText": "In 4x + y = 4 and -8x - 2y = -10, what algebraic sign points to no solution?",
+      "options": [
+        "the x-coefficients are both positive",
+        "the coefficients and constants are all proportional",
+        "the coefficients are proportional, but the constants are not",
+        "only the constants are proportional"
+      ],
+      "correctAnswer": "the coefficients are proportional, but the constants are not",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "structure"
+      ],
+      "explanation": "Proportional variable coefficients with nonproportional constants describe parallel distinct lines."
+    },
+    {
+      "id": "course3-systems-no-solution-core-009",
+      "type": "multiple_choice",
+      "questionText": "How is a system that simplifies to 0 = 0 different from y = 2x - 5 and y = 2x + 1?",
+      "options": [
+        "two solutions",
+        "no solution",
+        "infinitely many solutions",
+        "exactly one solution"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "compare-solution-types"
+      ],
+      "explanation": "The statement 0 = 0 means the equations represent the same line. A no-solution system simplifies to a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-010",
+      "type": "multiple_choice",
+      "questionText": "Two plans are modeled by y = -3x + 1 and y = -3x - 5. What context clue would match no solution?",
+      "options": [
+        "different rates that eventually meet",
+        "one plan starts at zero and the other starts later",
+        "the exact same rate and starting value",
+        "the same rate but different starting values"
+      ],
+      "correctAnswer": "the same rate but different starting values",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "context"
+      ],
+      "explanation": "Same rate and different starting values means the two quantities stay the same distance apart forever."
+    },
+    {
+      "id": "course3-systems-no-solution-core-011",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does the system y = 3x - 5 and y = 3x + 1 have?",
+      "options": [
+        "infinitely many solutions",
+        "two solutions",
+        "one solution",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "parallel-lines"
+      ],
+      "explanation": "The lines have the same slope but different y-intercepts, so they are parallel and never intersect."
+    },
+    {
+      "id": "course3-systems-no-solution-core-012",
+      "type": "multiple_choice",
+      "questionText": "Why does y = -2x + 1 and y = -2x - 5 have no solution?",
+      "options": [
+        "same slope and different y-intercepts",
+        "different slopes and different y-intercepts",
+        "different slopes and the same y-intercept",
+        "same slope and same y-intercept"
+      ],
+      "correctAnswer": "same slope and different y-intercepts",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "slope-intercept"
+      ],
+      "explanation": "Parallel lines have equal slopes. Different y-intercepts mean they are distinct lines, so they do not meet."
+    },
+    {
+      "id": "course3-systems-no-solution-core-013",
+      "type": "multiple_choice",
+      "questionText": "Elimination gives 0 = -1 for the system 5x - 2y = 8 and -10x + 4y = -17. What does that mean?",
+      "options": [
+        "no solution",
+        "two solutions",
+        "one solution",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "contradiction"
+      ],
+      "explanation": "A false statement like 0 = 1 means no ordered pair can satisfy both equations."
+    },
+    {
+      "id": "course3-systems-no-solution-core-014",
+      "type": "multiple_choice",
+      "questionText": "Scale the first equation in -3x - y = -6 and 9x + 3y = 16 by -3, then subtract. Which result shows the system is inconsistent?",
+      "options": [
+        "x = 0",
+        "0 = 0",
+        "0 = -2",
+        "y = 0"
+      ],
+      "correctAnswer": "0 = -2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "elimination"
+      ],
+      "explanation": "After equivalent scaling, the variable terms match but the constants do not. Subtracting leaves a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-015",
+      "type": "multiple_choice",
+      "questionText": "Which system has no solution?",
+      "options": [
+        "-5x - 2y = -15 and -20x - 8y = -60",
+        "y = 5x - 5 and y = 5x + 1",
+        "y = 6x - 5 and y = 5x + 1",
+        "y = 2x - 2 and y = 5x - 5"
+      ],
+      "correctAnswer": "y = 5x - 5 and y = 5x + 1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "classification"
+      ],
+      "explanation": "The no-solution system is the one with parallel lines: same slope, different intercepts."
+    },
+    {
+      "id": "course3-systems-no-solution-core-016",
+      "type": "multiple_choice",
+      "questionText": "On a graph, what would the solution picture look like for y = x + 1 and y = x - 5?",
+      "options": [
+        "one crossing point",
+        "the same line drawn twice",
+        "parallel lines that never intersect",
+        "a vertical line crossing a horizontal line"
+      ],
+      "correctAnswer": "parallel lines that never intersect",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "graph"
+      ],
+      "explanation": "A system has no solution when its two lines are parallel and distinct, so there is no intersection point."
+    },
+    {
+      "id": "course3-systems-no-solution-core-017",
+      "type": "multiple_choice",
+      "questionText": "A student says y = -4x - 5 and y = -4x + 1 must share at least one point because both are lines. Is the student correct?",
+      "options": [
+        "no; parallel lines do not share any ordered pair",
+        "yes; any two lines have exactly one solution",
+        "yes; the y-intercepts are both solutions",
+        "no; different slopes are required for no solution"
+      ],
+      "correctAnswer": "no; parallel lines do not share any ordered pair",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "misconception"
+      ],
+      "explanation": "Distinct parallel lines never intersect, so they do not share an ordered-pair solution."
+    },
+    {
+      "id": "course3-systems-no-solution-core-018",
+      "type": "multiple_choice",
+      "questionText": "In 2x - 3y = -7 and -4x + 6y = 12, what algebraic sign points to no solution?",
+      "options": [
+        "only the constants are proportional",
+        "the coefficients are proportional, but the constants are not",
+        "the coefficients and constants are all proportional",
+        "the x-coefficients are both positive"
+      ],
+      "correctAnswer": "the coefficients are proportional, but the constants are not",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "structure"
+      ],
+      "explanation": "Proportional variable coefficients with nonproportional constants describe parallel distinct lines."
+    },
+    {
+      "id": "course3-systems-no-solution-core-019",
+      "type": "multiple_choice",
+      "questionText": "How is a system that simplifies to 0 = 0 different from y = -3x - 5 and y = -3x + 1?",
+      "options": [
+        "infinitely many solutions",
+        "two solutions",
+        "exactly one solution",
+        "no solution"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "compare-solution-types"
+      ],
+      "explanation": "The statement 0 = 0 means the equations represent the same line. A no-solution system simplifies to a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-020",
+      "type": "multiple_choice",
+      "questionText": "Two plans are modeled by y = 3x + 1 and y = 3x - 5. What context clue would match no solution?",
+      "options": [
+        "different rates that eventually meet",
+        "the exact same rate and starting value",
+        "the same rate but different starting values",
+        "one plan starts at zero and the other starts later"
+      ],
+      "correctAnswer": "the same rate but different starting values",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "context"
+      ],
+      "explanation": "Same rate and different starting values means the two quantities stay the same distance apart forever."
+    },
+    {
+      "id": "course3-systems-no-solution-core-021",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does the system y = -2x - 5 and y = -2x + 1 have?",
+      "options": [
+        "infinitely many solutions",
+        "two solutions",
+        "one solution",
+        "no solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "parallel-lines"
+      ],
+      "explanation": "The lines have the same slope but different y-intercepts, so they are parallel and never intersect."
+    },
+    {
+      "id": "course3-systems-no-solution-core-022",
+      "type": "multiple_choice",
+      "questionText": "Why does y = 4x + 1 and y = 4x - 5 have no solution?",
+      "options": [
+        "same slope and same y-intercept",
+        "different slopes and different y-intercepts",
+        "different slopes and the same y-intercept",
+        "same slope and different y-intercepts"
+      ],
+      "correctAnswer": "same slope and different y-intercepts",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "slope-intercept"
+      ],
+      "explanation": "Parallel lines have equal slopes. Different y-intercepts mean they are distinct lines, so they do not meet."
+    },
+    {
+      "id": "course3-systems-no-solution-core-023",
+      "type": "multiple_choice",
+      "questionText": "Elimination gives 0 = -1 for the system -2x + 5y = 12 and 4x - 10y = -25. What does that mean?",
+      "options": [
+        "one solution",
+        "two solutions",
+        "no solution",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "contradiction"
+      ],
+      "explanation": "A false statement like 0 = 1 means no ordered pair can satisfy both equations."
+    },
+    {
+      "id": "course3-systems-no-solution-core-024",
+      "type": "multiple_choice",
+      "questionText": "Scale the first equation in 4x + y = 4 and -12x - 3y = -14 by -3, then subtract. Which result shows the system is inconsistent?",
+      "options": [
+        "0 = 0",
+        "0 = -2",
+        "x = 0",
+        "y = 0"
+      ],
+      "correctAnswer": "0 = -2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "elimination"
+      ],
+      "explanation": "After equivalent scaling, the variable terms match but the constants do not. Subtracting leaves a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-025",
+      "type": "multiple_choice",
+      "questionText": "Which system has no solution?",
+      "options": [
+        "-5x - 2y = -15 and -20x - 8y = -60",
+        "y = 2x - 5 and y = x + 1",
+        "y = 3x - 2 and y = -4x - 5",
+        "y = x - 5 and y = x + 1"
+      ],
+      "correctAnswer": "y = x - 5 and y = x + 1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "classification"
+      ],
+      "explanation": "The no-solution system is the one with parallel lines: same slope, different intercepts."
+    },
+    {
+      "id": "course3-systems-no-solution-core-026",
+      "type": "multiple_choice",
+      "questionText": "On a graph, what would the solution picture look like for y = -4x + 1 and y = -4x - 5?",
+      "options": [
+        "parallel lines that never intersect",
+        "a vertical line crossing a horizontal line",
+        "one crossing point",
+        "the same line drawn twice"
+      ],
+      "correctAnswer": "parallel lines that never intersect",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "graph"
+      ],
+      "explanation": "A system has no solution when its two lines are parallel and distinct, so there is no intersection point."
+    },
+    {
+      "id": "course3-systems-no-solution-core-027",
+      "type": "multiple_choice",
+      "questionText": "A student says y = 2x - 5 and y = 2x + 1 must share at least one point because both are lines. Is the student correct?",
+      "options": [
+        "no; different slopes are required for no solution",
+        "yes; the y-intercepts are both solutions",
+        "yes; any two lines have exactly one solution",
+        "no; parallel lines do not share any ordered pair"
+      ],
+      "correctAnswer": "no; parallel lines do not share any ordered pair",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "misconception"
+      ],
+      "explanation": "Distinct parallel lines never intersect, so they do not share an ordered-pair solution."
+    },
+    {
+      "id": "course3-systems-no-solution-core-028",
+      "type": "multiple_choice",
+      "questionText": "In -4x + 3y = -10 and 8x - 6y = 18, what algebraic sign points to no solution?",
+      "options": [
+        "the x-coefficients are both positive",
+        "the coefficients and constants are all proportional",
+        "the coefficients are proportional, but the constants are not",
+        "only the constants are proportional"
+      ],
+      "correctAnswer": "the coefficients are proportional, but the constants are not",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "structure"
+      ],
+      "explanation": "Proportional variable coefficients with nonproportional constants describe parallel distinct lines."
+    },
+    {
+      "id": "course3-systems-no-solution-core-029",
+      "type": "multiple_choice",
+      "questionText": "How is a system that simplifies to 0 = 0 different from y = 3x - 5 and y = 3x + 1?",
+      "options": [
+        "two solutions",
+        "infinitely many solutions",
+        "exactly one solution",
+        "no solution"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "compare-solution-types"
+      ],
+      "explanation": "The statement 0 = 0 means the equations represent the same line. A no-solution system simplifies to a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-030",
+      "type": "multiple_choice",
+      "questionText": "Two plans are modeled by y = -2x + 1 and y = -2x - 5. What context clue would match no solution?",
+      "options": [
+        "different rates that eventually meet",
+        "one plan starts at zero and the other starts later",
+        "the exact same rate and starting value",
+        "the same rate but different starting values"
+      ],
+      "correctAnswer": "the same rate but different starting values",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "context"
+      ],
+      "explanation": "Same rate and different starting values means the two quantities stay the same distance apart forever."
+    },
+    {
+      "id": "course3-systems-no-solution-core-031",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does the system y = 4x - 5 and y = 4x + 1 have?",
+      "options": [
+        "one solution",
+        "no solution",
+        "infinitely many solutions",
+        "two solutions"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "parallel-lines"
+      ],
+      "explanation": "The lines have the same slope but different y-intercepts, so they are parallel and never intersect."
+    },
+    {
+      "id": "course3-systems-no-solution-core-032",
+      "type": "multiple_choice",
+      "questionText": "Why does y = -x + 1 and y = -x - 5 have no solution?",
+      "options": [
+        "different slopes and the same y-intercept",
+        "same slope and same y-intercept",
+        "same slope and different y-intercepts",
+        "different slopes and different y-intercepts"
+      ],
+      "correctAnswer": "same slope and different y-intercepts",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "slope-intercept"
+      ],
+      "explanation": "Parallel lines have equal slopes. Different y-intercepts mean they are distinct lines, so they do not meet."
+    },
+    {
+      "id": "course3-systems-no-solution-core-033",
+      "type": "multiple_choice",
+      "questionText": "Elimination gives 0 = -1 for the system 3x + 4y = 9 and -6x - 8y = -19. What does that mean?",
+      "options": [
+        "no solution",
+        "one solution",
+        "infinitely many solutions",
+        "two solutions"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "contradiction"
+      ],
+      "explanation": "A false statement like 0 = 1 means no ordered pair can satisfy both equations."
+    },
+    {
+      "id": "course3-systems-no-solution-core-034",
+      "type": "multiple_choice",
+      "questionText": "Scale the first equation in 2x - 3y = -7 and -6x + 9y = 19 by -3, then subtract. Which result shows the system is inconsistent?",
+      "options": [
+        "0 = -2",
+        "y = 0",
+        "0 = 0",
+        "x = 0"
+      ],
+      "correctAnswer": "0 = -2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "elimination"
+      ],
+      "explanation": "After equivalent scaling, the variable terms match but the constants do not. Subtracting leaves a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-035",
+      "type": "multiple_choice",
+      "questionText": "Which system has no solution?",
+      "options": [
+        "y = -3x - 5 and y = -4x + 1",
+        "y = -4x - 5 and y = -4x + 1",
+        "y = 4x - 2 and y = -3x - 5",
+        "-5x - 2y = -15 and -20x - 8y = -60"
+      ],
+      "correctAnswer": "y = -4x - 5 and y = -4x + 1",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "classification"
+      ],
+      "explanation": "The no-solution system is the one with parallel lines: same slope, different intercepts."
+    },
+    {
+      "id": "course3-systems-no-solution-core-036",
+      "type": "multiple_choice",
+      "questionText": "On a graph, what would the solution picture look like for y = 2x + 1 and y = 2x - 5?",
+      "options": [
+        "the same line drawn twice",
+        "a vertical line crossing a horizontal line",
+        "one crossing point",
+        "parallel lines that never intersect"
+      ],
+      "correctAnswer": "parallel lines that never intersect",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "graph"
+      ],
+      "explanation": "A system has no solution when its two lines are parallel and distinct, so there is no intersection point."
+    },
+    {
+      "id": "course3-systems-no-solution-core-037",
+      "type": "multiple_choice",
+      "questionText": "A student says y = -3x - 5 and y = -3x + 1 must share at least one point because both are lines. Is the student correct?",
+      "options": [
+        "no; parallel lines do not share any ordered pair",
+        "yes; any two lines have exactly one solution",
+        "yes; the y-intercepts are both solutions",
+        "no; different slopes are required for no solution"
+      ],
+      "correctAnswer": "no; parallel lines do not share any ordered pair",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "misconception"
+      ],
+      "explanation": "Distinct parallel lines never intersect, so they do not share an ordered-pair solution."
+    },
+    {
+      "id": "course3-systems-no-solution-core-038",
+      "type": "multiple_choice",
+      "questionText": "In -3x - y = -6 and 6x + 2y = 10, what algebraic sign points to no solution?",
+      "options": [
+        "the coefficients and constants are all proportional",
+        "only the constants are proportional",
+        "the x-coefficients are both positive",
+        "the coefficients are proportional, but the constants are not"
+      ],
+      "correctAnswer": "the coefficients are proportional, but the constants are not",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "structure"
+      ],
+      "explanation": "Proportional variable coefficients with nonproportional constants describe parallel distinct lines."
+    },
+    {
+      "id": "course3-systems-no-solution-core-039",
+      "type": "multiple_choice",
+      "questionText": "How is a system that simplifies to 0 = 0 different from y = -2x - 5 and y = -2x + 1?",
+      "options": [
+        "exactly one solution",
+        "infinitely many solutions",
+        "two solutions",
+        "no solution"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "compare-solution-types"
+      ],
+      "explanation": "The statement 0 = 0 means the equations represent the same line. A no-solution system simplifies to a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-040",
+      "type": "multiple_choice",
+      "questionText": "Two plans are modeled by y = 4x + 1 and y = 4x - 5. What context clue would match no solution?",
+      "options": [
+        "one plan starts at zero and the other starts later",
+        "the exact same rate and starting value",
+        "different rates that eventually meet",
+        "the same rate but different starting values"
+      ],
+      "correctAnswer": "the same rate but different starting values",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "context"
+      ],
+      "explanation": "Same rate and different starting values means the two quantities stay the same distance apart forever."
+    },
+    {
+      "id": "course3-systems-no-solution-core-041",
+      "type": "multiple_choice",
+      "questionText": "How many solutions does the system y = -x - 5 and y = -x + 1 have?",
+      "options": [
+        "one solution",
+        "infinitely many solutions",
+        "no solution",
+        "two solutions"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "parallel-lines"
+      ],
+      "explanation": "The lines have the same slope but different y-intercepts, so they are parallel and never intersect."
+    },
+    {
+      "id": "course3-systems-no-solution-core-042",
+      "type": "multiple_choice",
+      "questionText": "Why does y = 5x + 1 and y = 5x - 5 have no solution?",
+      "options": [
+        "different slopes and the same y-intercept",
+        "same slope and different y-intercepts",
+        "same slope and same y-intercept",
+        "different slopes and different y-intercepts"
+      ],
+      "correctAnswer": "same slope and different y-intercepts",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "slope-intercept"
+      ],
+      "explanation": "Parallel lines have equal slopes. Different y-intercepts mean they are distinct lines, so they do not meet."
+    },
+    {
+      "id": "course3-systems-no-solution-core-043",
+      "type": "multiple_choice",
+      "questionText": "Elimination gives 0 = -1 for the system x + 2y = 5 and -2x - 4y = -11. What does that mean?",
+      "options": [
+        "no solution",
+        "infinitely many solutions",
+        "two solutions",
+        "one solution"
+      ],
+      "correctAnswer": "no solution",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "contradiction"
+      ],
+      "explanation": "A false statement like 0 = 1 means no ordered pair can satisfy both equations."
+    },
+    {
+      "id": "course3-systems-no-solution-core-044",
+      "type": "multiple_choice",
+      "questionText": "Scale the first equation in -4x + 3y = -10 and 12x - 9y = 28 by -3, then subtract. Which result shows the system is inconsistent?",
+      "options": [
+        "0 = -2",
+        "x = 0",
+        "0 = 0",
+        "y = 0"
+      ],
+      "correctAnswer": "0 = -2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "elimination"
+      ],
+      "explanation": "After equivalent scaling, the variable terms match but the constants do not. Subtracting leaves a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-045",
+      "type": "multiple_choice",
+      "questionText": "Which system has no solution?",
+      "options": [
+        "-5x - 2y = -15 and -20x - 8y = -60",
+        "y = 2x - 5 and y = 2x + 1",
+        "y = 5x - 2 and y = -2x - 5",
+        "y = 3x - 5 and y = 2x + 1"
+      ],
+      "correctAnswer": "y = 2x - 5 and y = 2x + 1",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "classification"
+      ],
+      "explanation": "The no-solution system is the one with parallel lines: same slope, different intercepts."
+    },
+    {
+      "id": "course3-systems-no-solution-core-046",
+      "type": "multiple_choice",
+      "questionText": "On a graph, what would the solution picture look like for y = -3x + 1 and y = -3x - 5?",
+      "options": [
+        "one crossing point",
+        "the same line drawn twice",
+        "a vertical line crossing a horizontal line",
+        "parallel lines that never intersect"
+      ],
+      "correctAnswer": "parallel lines that never intersect",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "graph"
+      ],
+      "explanation": "A system has no solution when its two lines are parallel and distinct, so there is no intersection point."
+    },
+    {
+      "id": "course3-systems-no-solution-core-047",
+      "type": "multiple_choice",
+      "questionText": "A student says y = 3x - 5 and y = 3x + 1 must share at least one point because both are lines. Is the student correct?",
+      "options": [
+        "yes; the y-intercepts are both solutions",
+        "no; different slopes are required for no solution",
+        "no; parallel lines do not share any ordered pair",
+        "yes; any two lines have exactly one solution"
+      ],
+      "correctAnswer": "no; parallel lines do not share any ordered pair",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "misconception"
+      ],
+      "explanation": "Distinct parallel lines never intersect, so they do not share an ordered-pair solution."
+    },
+    {
+      "id": "course3-systems-no-solution-core-048",
+      "type": "multiple_choice",
+      "questionText": "In 4x + y = 4 and -8x - 2y = -10, what algebraic sign points to no solution?",
+      "options": [
+        "the coefficients and constants are all proportional",
+        "the coefficients are proportional, but the constants are not",
+        "the x-coefficients are both positive",
+        "only the constants are proportional"
+      ],
+      "correctAnswer": "the coefficients are proportional, but the constants are not",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "structure"
+      ],
+      "explanation": "Proportional variable coefficients with nonproportional constants describe parallel distinct lines."
+    },
+    {
+      "id": "course3-systems-no-solution-core-049",
+      "type": "multiple_choice",
+      "questionText": "How is a system that simplifies to 0 = 0 different from y = 4x - 5 and y = 4x + 1?",
+      "options": [
+        "no solution",
+        "exactly one solution",
+        "two solutions",
+        "infinitely many solutions"
+      ],
+      "correctAnswer": "infinitely many solutions",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "compare-solution-types"
+      ],
+      "explanation": "The statement 0 = 0 means the equations represent the same line. A no-solution system simplifies to a false statement."
+    },
+    {
+      "id": "course3-systems-no-solution-core-050",
+      "type": "multiple_choice",
+      "questionText": "Two plans are modeled by y = -x + 1 and y = -x - 5. What context clue would match no solution?",
+      "options": [
+        "one plan starts at zero and the other starts later",
+        "the exact same rate and starting value",
+        "the same rate but different starting values",
+        "different rates that eventually meet"
+      ],
+      "correctAnswer": "the same rate but different starting values",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "systems",
+        "no-solution",
+        "context"
+      ],
+      "explanation": "Same rate and different starting values means the two quantities stay the same distance apart forever."
+    }
+  ]
+}

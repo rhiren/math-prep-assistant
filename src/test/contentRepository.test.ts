@@ -595,6 +595,13 @@ describe("content repository", () => {
         coreTestId: "course3-solve-systems-elimination-core",
         reviewTestId: "course3-solve-systems-elimination-review",
       },
+      {
+        conceptId: "concept-systems-no-solution",
+        standards: ["8.EE.8"],
+        tutorialHeading: "# Systems with No Solution",
+        coreTestId: "course3-systems-no-solution-core",
+        reviewTestId: "course3-systems-no-solution-review",
+      },
     ];
 
     expect(course?.subjectId).toBe("math");
@@ -609,7 +616,7 @@ describe("content repository", () => {
     expect(course?.units[2]?.id).toBe("course3-unit-lines-slope-linear-equations");
     expect(course?.units[2]?.concepts).toHaveLength(12);
     expect(course?.units[3]?.id).toBe("course3-unit-systems-linear-equations");
-    expect(course?.units[3]?.concepts).toHaveLength(4);
+    expect(course?.units[3]?.concepts).toHaveLength(5);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

@@ -328,6 +328,7 @@ The current Course 3 learner-ready sequence is:
 - `Solve Systems by Graphing`
 - `Solve Systems by Substitution`
 - `Solve Systems by Elimination`
+- `Systems with No Solution`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in

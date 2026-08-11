@@ -256,10 +256,11 @@ The current learner-ready Unit 4 packs are:
 - Solve Systems by Graphing
 - Solve Systems by Substitution
 - Solve Systems by Elimination
+- Systems with No Solution
 
 The next Course 3 rollout work is Unit 4:
 
-- Systems with No Solution
+- Systems with Infinitely Many Solutions
 
 Course 3 multiple-choice answer positions should remain balanced within each
 active test set so learners cannot infer the correct option from repeated
