@@ -2102,6 +2102,59 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-systems-no-solution",
+              "title": "Systems with No Solution",
+              "description": "Recognize systems whose lines are parallel and therefore have no ordered-pair solution.",
+              "tags": [
+                "systems",
+                "no-solution",
+                "parallel-lines"
+              ],
+              "skillTags": [
+                "systems",
+                "no-solution",
+                "parallel-lines"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-systems-no-solution.md",
+              "tests": [
+                {
+                  "id": "course3-systems-no-solution-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-systems-no-solution-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-systems-no-solution-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-systems-no-solution-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }
