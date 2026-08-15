@@ -83,15 +83,16 @@ For each new idea, capture:
   - what concepts appear difficult
   - where follow-up or encouragement may be useful
 - `Possible signals or data`
-  Candidate inputs for the report:
+  Implemented inputs include:
   - concepts attempted during the week
   - number of attempts per concept
   - latest score and best score
-  - accuracy trend
-  - retry frequency
   - whether Smart Retry was triggered
   - completion time for a concept test
   - unanswered or abandoned sessions
+  - answer-change history for multiple-choice questions
+  - possible trial-and-error signal when correct answers follow multiple
+    distinct choice selections
 - `Student UX guardrails`
   - reporting should not add pressure or visible monitoring to the learner flow
   - if test duration is tracked, the timer should remain hidden from the student
@@ -113,10 +114,12 @@ For each new idea, capture:
   - need to decide whether reports remain local-first, exportable, synced, or some
     combination of those
 - `Status`
-  Phase 2A implemented. Hidden admin now includes a weekly parent report for the
-  active student, grouped by subject and using local-first progress plus the
-  hidden duration signal. A daily parent summary for today's work is also now
-  available in hidden admin. See [reporting_feature_plan.md](/Users/hiren/Documents/github/school-prep-assistant/docs/reporting_feature_plan.md)
+  Phase 2B implemented. Hidden admin includes daily and weekly parent reports
+  for the active student, grouped by subject and using local-first progress,
+  hidden duration, Smart Retry, and multiple-choice answer-change signals. The
+  answer-change signal is additive and starts accumulating for newly saved
+  sessions; older attempts remain valid but cannot show intra-question choice
+  changes that were never captured. See [reporting_feature_plan.md](/Users/hiren/Documents/github/school-prep-assistant/docs/reporting_feature_plan.md)
   for remaining polish work.
 
 ### 2. Hidden Test Duration Signal

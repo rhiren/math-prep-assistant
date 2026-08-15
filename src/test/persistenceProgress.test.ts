@@ -47,9 +47,21 @@ describe("session persistence and progress", () => {
       questionId: "concept-unit-rates-core-001",
       response: "9",
       answeredAt: "2026-04-12T12:00:00.000Z",
+      inputMethod: "choice",
+    });
+    await sessionService.saveAnswer(firstSession.id, {
+      questionId: "concept-unit-rates-core-001",
+      response: "12",
+      answeredAt: "2026-04-12T12:01:00.000Z",
+      inputMethod: "choice",
     });
 
     expect((await sessionService.getSession(firstSession.id))?.currentQuestionIndex).toBe(2);
+    expect(
+      (await sessionService.getSession(firstSession.id))?.answerHistory?.[
+        "concept-unit-rates-core-001"
+      ],
+    ).toHaveLength(2);
 
     const firstAttempt = await sessionService.submitSession(firstSession.id);
     vi.advanceTimersByTime(1_000);
@@ -68,6 +80,7 @@ describe("session persistence and progress", () => {
     const progress = await progressService.getConceptProgress("concept-unit-rates");
 
     expect(firstAttempt.attemptId).not.toBe(secondAttempt.attemptId);
+    expect(firstAttempt.answerHistory?.["concept-unit-rates-core-001"]).toHaveLength(2);
     expect(firstAttempt.durationSignal?.startedAt).toBe(firstSession.createdAt);
     expect(typeof firstAttempt.durationSignal?.durationMs).toBe("number");
     expect(secondAttempt.durationSignal?.startedAt).toBe(secondSession.createdAt);

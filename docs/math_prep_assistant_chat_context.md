@@ -327,12 +327,21 @@ It renders React elements rather than injecting raw HTML.
 
 No broader UI redesign is currently required for the next Course 3 unit.
 
+Hidden admin now includes parent-only understanding signals inside the daily and
+weekly reports. New test sessions record `answerHistory` for each saved answer;
+the report summarizes multiple-choice answer changes, multi-try questions, and
+cases where a correct final answer followed multiple distinct choice selections.
+Typed-answer keystrokes are marked separately so typing a number or short answer
+does not look like guessing. This signal is additive and starts with newly saved
+sessions; older attempts remain valid but do not contain historical choice
+changes that were not previously stored.
+
 ### Current validation baseline
 
 For the current Course 3 working tree, the following passed:
 
 - 18 Vitest files
-- 104 automated tests
+- 106 automated tests
 - `npm run build`
 - Course 3 JSON parsing
 - globally unique Course 3 question IDs
@@ -431,6 +440,8 @@ Current useful follow-ups:
 - build `Systems with Infinitely Many Solutions` as the next complete Course 3
   concept pack
 - verify or run the GitHub Pages deployment after new `master` content commits
+- keep parent-only understanding signals hidden from the student flow and
+  local-first/sync-compatible
 - keep local launcher and distribution guidance aligned with `dist/` and
   `public/content`
 - continue Course 2 readiness work only through its dedicated rollout plan

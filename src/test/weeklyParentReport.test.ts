@@ -66,6 +66,7 @@ function buildAttempt(
   score: number,
   submittedAt: string,
   options?: {
+    answerHistory?: TestAttempt["answerHistory"];
     smartRetry?: boolean;
     durationMs?: number;
   },
@@ -80,6 +81,7 @@ function buildAttempt(
     conceptIds: [conceptId],
     questionIds: ["q1", "q2", "q3", "q4", "q5"],
     answers: {},
+    answerHistory: options?.answerHistory,
     smartRetry: options?.smartRetry
       ? {
           kind: "targeted",
@@ -93,7 +95,13 @@ function buildAttempt(
             durationMs: options.durationMs,
           }
         : undefined,
-    results: [],
+    results: ["q1", "q2", "q3", "q4", "q5"].map((questionId, index) => ({
+      questionId,
+      isCorrect: index < Math.round((score / 100) * 5),
+      submittedAnswer: index < Math.round((score / 100) * 5) ? "correct" : "incorrect",
+      correctAnswer: "correct",
+      feedbackTip: null,
+    })),
     summary: {
       totalQuestions: 5,
       correctCount: Math.round((score / 100) * 5),
@@ -134,6 +142,53 @@ describe("buildWeeklyParentReport", () => {
           attempts: [
             buildAttempt("attempt-1", "concept-unit-rates", 96, "2026-04-23T10:00:00.000Z", {
               durationMs: 360000,
+              answerHistory: {
+                q1: [
+                  {
+                    questionId: "q1",
+                    response: "wrong-a",
+                    answeredAt: "2026-04-23T09:51:00.000Z",
+                    inputMethod: "choice",
+                  },
+                  {
+                    questionId: "q1",
+                    response: "correct",
+                    answeredAt: "2026-04-23T09:52:00.000Z",
+                    inputMethod: "choice",
+                    previousResponse: "wrong-a",
+                  },
+                ],
+                q2: [
+                  {
+                    questionId: "q2",
+                    response: "wrong-b",
+                    answeredAt: "2026-04-23T09:53:00.000Z",
+                    inputMethod: "choice",
+                  },
+                  {
+                    questionId: "q2",
+                    response: "correct",
+                    answeredAt: "2026-04-23T09:54:00.000Z",
+                    inputMethod: "choice",
+                    previousResponse: "wrong-b",
+                  },
+                ],
+                q3: [
+                  {
+                    questionId: "q3",
+                    response: "wrong-c",
+                    answeredAt: "2026-04-23T09:55:00.000Z",
+                    inputMethod: "choice",
+                  },
+                  {
+                    questionId: "q3",
+                    response: "correct",
+                    answeredAt: "2026-04-23T09:56:00.000Z",
+                    inputMethod: "choice",
+                    previousResponse: "wrong-c",
+                  },
+                ],
+              },
             }),
             buildAttempt("attempt-2", "concept-ratios", 62, "2026-04-22T10:00:00.000Z", {
               smartRetry: true,
@@ -186,6 +241,12 @@ describe("buildWeeklyParentReport", () => {
     expect(report.subjects[0]?.strongestConcepts[0]).toMatchObject({
       conceptId: "concept-unit-rates",
       status: "going_well",
+    });
+    expect(report.subjects[0]?.strongestConcepts[0]?.understandingSignal).toMatchObject({
+      status: "possible_trial_and_error",
+      answerChangeCount: 3,
+      multiTryQuestionCount: 3,
+      correctAfterMultipleChoicesCount: 3,
     });
     expect(report.subjects[0]?.conceptsNeedingSupport[0]).toMatchObject({
       conceptId: "concept-ratios",

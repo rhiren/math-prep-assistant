@@ -171,6 +171,11 @@ export interface AnswerRecord {
   questionId: string;
   response: string;
   answeredAt: string;
+  inputMethod?: "choice" | "text";
+}
+
+export interface AnswerHistoryEntry extends AnswerRecord {
+  previousResponse?: string | null;
 }
 
 export interface SmartRetryMetadata {
@@ -214,6 +219,7 @@ export interface TestSession {
   conceptIds: string[];
   questionIds: string[];
   answers: Record<string, AnswerRecord>;
+  answerHistory?: Record<string, AnswerHistoryEntry[]>;
   smartRetry?: SmartRetryMetadata;
   currentQuestionIndex: number;
   status: SessionStatus;
@@ -232,6 +238,7 @@ export interface TestAttempt {
   conceptIds: string[];
   questionIds: string[];
   answers: Record<string, AnswerRecord>;
+  answerHistory?: Record<string, AnswerHistoryEntry[]>;
   smartRetry?: SmartRetryMetadata;
   durationSignal?: AttemptDurationSignal;
   results: ScoredQuestionResult[];

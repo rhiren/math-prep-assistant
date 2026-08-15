@@ -1,4 +1,4 @@
-import type { AnswerRecord, TestAttempt, TestSession } from "../domain/models";
+import type { AnswerHistoryEntry, AnswerRecord, TestAttempt, TestSession } from "../domain/models";
 import type { ProgressService, ScoringService, SessionService } from "./contracts";
 import type { AttemptRepository, SessionRepository } from "../storage/repositories";
 import { buildRetryOutcome } from "./smartRetry";
@@ -35,8 +35,23 @@ export class LocalSessionService implements SessionService {
 
   async saveAnswer(sessionId: string, answer: AnswerRecord): Promise<void> {
     const session = await this.requireMutableSession(sessionId);
+    const previousAnswer = session.answers[answer.questionId];
+    const previousResponse = previousAnswer?.response ?? null;
 
     session.answers[answer.questionId] = answer;
+    if (previousResponse !== answer.response) {
+      const historyEntry: AnswerHistoryEntry = {
+        ...answer,
+        previousResponse,
+      };
+      session.answerHistory = {
+        ...(session.answerHistory ?? {}),
+        [answer.questionId]: [
+          ...(session.answerHistory?.[answer.questionId] ?? []),
+          historyEntry,
+        ],
+      };
+    }
     session.updatedAt = new Date().toISOString();
     await this.sessionRepository.save(session);
   }
@@ -87,6 +102,10 @@ export class LocalSessionService implements SessionService {
       throw new Error(`Session ${sessionId} has already been submitted.`);
     }
 
-    return { ...session, answers: { ...session.answers } };
+    return {
+      ...session,
+      answers: { ...session.answers },
+      answerHistory: { ...(session.answerHistory ?? {}) },
+    };
   }
 }

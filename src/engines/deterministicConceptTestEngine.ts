@@ -70,6 +70,7 @@ export class DeterministicConceptTestEngine implements TestGenerationService {
       conceptIds: [concept.id],
       questionIds: selectedQuestions.map((question) => question.id),
       answers: {},
+      answerHistory: {},
       smartRetry: options?.smartRetry,
       currentQuestionIndex: 0,
       status: "in_progress",

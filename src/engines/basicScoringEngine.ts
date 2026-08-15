@@ -88,6 +88,7 @@ export class BasicScoringEngine implements ScoringService {
       conceptIds: session.conceptIds,
       questionIds: session.questionIds,
       answers: session.answers,
+      answerHistory: session.answerHistory,
       smartRetry: session.smartRetry,
       durationSignal: toAttemptDurationSignal(session, submittedAt),
       results,

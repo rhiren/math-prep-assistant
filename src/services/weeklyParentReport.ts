@@ -1,5 +1,14 @@
 import type { Course, ProgressRecord, StudentProfile, TestAttempt, TestSession } from "../domain/models";
 
+export interface ParentUnderstandingSignal {
+  status: "steady" | "mixed" | "possible_trial_and_error";
+  answerChangeCount: number;
+  multiTryQuestionCount: number;
+  correctAfterMultipleChoicesCount: number;
+  observedChoiceQuestionCount: number;
+  explanation: string;
+}
+
 export interface WeeklyParentReportConceptSummary {
   conceptId: string;
   conceptTitle: string;
@@ -9,6 +18,7 @@ export interface WeeklyParentReportConceptSummary {
   averageScore: number | null;
   averageDurationMs: number | null;
   smartRetryCount: number;
+  understandingSignal: ParentUnderstandingSignal | null;
   lastWorkedAt: string | null;
   status: "going_well" | "keep_practicing" | "needs_support";
   explanation: string;
@@ -45,6 +55,7 @@ export interface DailyParentReportConceptSummary {
   attemptsToday: number;
   totalDurationMs: number | null;
   smartRetryCount: number;
+  understandingSignal: ParentUnderstandingSignal | null;
   lastWorkedAt: string | null;
   status: "going_well" | "keep_practicing" | "needs_support";
   explanation: string;
@@ -207,6 +218,76 @@ function buildDailyConceptStatus(
   };
 }
 
+function buildUnderstandingSignal(attempts: TestAttempt[]): ParentUnderstandingSignal | null {
+  let answerChangeCount = 0;
+  let multiTryQuestionCount = 0;
+  let correctAfterMultipleChoicesCount = 0;
+  let observedChoiceQuestionCount = 0;
+
+  for (const attempt of attempts) {
+    const resultsByQuestionId = Object.fromEntries(
+      attempt.results.map((result) => [result.questionId, result] as const),
+    );
+
+    for (const [questionId, entries] of Object.entries(attempt.answerHistory ?? {})) {
+      const choiceEntries = entries.filter((entry) => entry.inputMethod === "choice");
+      if (choiceEntries.length === 0) {
+        continue;
+      }
+
+      const distinctResponses = new Set(
+        choiceEntries
+          .map((entry) => entry.response)
+          .filter((response) => response.trim() !== ""),
+      );
+
+      observedChoiceQuestionCount += 1;
+      answerChangeCount += Math.max(0, distinctResponses.size - 1);
+
+      if (distinctResponses.size > 1) {
+        multiTryQuestionCount += 1;
+        if (resultsByQuestionId[questionId]?.isCorrect) {
+          correctAfterMultipleChoicesCount += 1;
+        }
+      }
+    }
+  }
+
+  if (observedChoiceQuestionCount === 0) {
+    return null;
+  }
+
+  const multiTryShare = multiTryQuestionCount / observedChoiceQuestionCount;
+  const correctAfterMultiTryShare =
+    multiTryQuestionCount === 0
+      ? 0
+      : correctAfterMultipleChoicesCount / multiTryQuestionCount;
+  const status: ParentUnderstandingSignal["status"] =
+    correctAfterMultipleChoicesCount >= 3 ||
+    (multiTryQuestionCount >= 2 && correctAfterMultiTryShare >= 0.6) ||
+    multiTryShare >= 0.35
+      ? "possible_trial_and_error"
+      : multiTryQuestionCount > 0
+        ? "mixed"
+        : "steady";
+
+  const explanation =
+    status === "possible_trial_and_error"
+      ? "Several correct answers came after trying multiple choices, so this may be trial-and-error rather than steady understanding."
+      : status === "mixed"
+        ? "There were a few answer changes; worth glancing at, but it is not a strong guessing pattern."
+        : "Answers were generally selected without switching between choices.";
+
+  return {
+    status,
+    answerChangeCount,
+    multiTryQuestionCount,
+    correctAfterMultipleChoicesCount,
+    observedChoiceQuestionCount,
+    explanation,
+  };
+}
+
 function getStartOfDayIso(value: string): string {
   const parsed = new Date(value);
   if (Number.isNaN(parsed.getTime())) {
@@ -319,6 +400,7 @@ export function buildWeeklyParentReport(
             .map((attempt) => attempt.durationSignal?.durationMs)
             .filter((value): value is number => typeof value === "number");
           const smartRetryCount = sortedAttempts.filter((attempt) => attempt.smartRetry?.kind === "targeted").length;
+          const understandingSignal = buildUnderstandingSignal(sortedAttempts);
           const progressRecord = progressByConceptId[conceptId];
           const averageScore = average(scores);
           const averageDurationMs = average(durations);
@@ -342,6 +424,7 @@ export function buildWeeklyParentReport(
             averageScore,
             averageDurationMs,
             smartRetryCount,
+            understandingSignal,
             lastWorkedAt: latestAttempt?.submittedAt ?? progressRecord?.lastAttemptedAt ?? null,
             status: status.status,
             explanation: status.explanation,
@@ -515,6 +598,7 @@ export function buildDailyParentReport(
           const smartRetryCount = sortedAttempts.filter(
             (attempt) => attempt.smartRetry?.kind === "targeted",
           ).length;
+          const understandingSignal = buildUnderstandingSignal(sortedAttempts);
           const progressRecord = progressByConceptId[conceptId];
           const latestScore = latestAttempt?.summary.percentage ?? progressRecord?.latestScore ?? null;
           const bestScore =
@@ -537,6 +621,7 @@ export function buildDailyParentReport(
             attemptsToday: sortedAttempts.length,
             totalDurationMs,
             smartRetryCount,
+            understandingSignal,
             lastWorkedAt: latestAttempt?.submittedAt ?? progressRecord?.lastAttemptedAt ?? null,
             status: status.status,
             explanation: status.explanation,

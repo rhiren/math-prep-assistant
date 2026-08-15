@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { QuestionNav } from "../components/QuestionNav";
 import { QuestionRenderer } from "../components/QuestionRenderer";
-import type { Question, TestSession } from "../domain/models";
+import type { AnswerRecord, Question, TestSession } from "../domain/models";
 import { useAppServices, useStudentProfiles } from "../state/AppServicesProvider";
 import { useTestMode } from "../state/TestModeProvider";
 
@@ -68,10 +68,11 @@ export function TestPage() {
   }
 
   const handleAnswerChange = async (value: string) => {
-    const answer = {
+    const answer: AnswerRecord = {
       questionId: currentQuestion.id,
       response: value,
       answeredAt: new Date().toISOString(),
+      inputMethod: currentQuestion.questionType === "multiple_choice" ? "choice" : "text",
     };
 
     setSession((current) =>

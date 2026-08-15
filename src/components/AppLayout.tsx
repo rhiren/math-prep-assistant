@@ -135,6 +135,14 @@ export function AppLayout() {
     return `${totalMinutes} min`;
   };
 
+  const formatUnderstandingStatus = (status: string) => {
+    if (status === "possible_trial_and_error") {
+      return "Possible trial-and-error";
+    }
+
+    return status === "steady" ? "Looks steady" : "Mixed signal";
+  };
+
   const handleDeleteProfile = async (studentId: string) => {
     const summary = await getStudentProfileDeletionSummary(studentId);
     const workSummary = summary.hasSavedWork
@@ -367,6 +375,19 @@ export function AppLayout() {
                                     <div className="max-w-2xl">
                                       <div className="font-medium text-ink">{concept.conceptTitle}</div>
                                       <p className="mt-1 text-sm text-stone-600">{concept.explanation}</p>
+                                      {concept.understandingSignal ? (
+                                        <div className="mt-2 rounded-xl border border-stone-200 bg-white px-3 py-2 text-sm text-stone-600">
+                                          <div className="font-semibold text-ink">
+                                            Understanding: {formatUnderstandingStatus(concept.understandingSignal.status)}
+                                          </div>
+                                          <p className="mt-1">{concept.understandingSignal.explanation}</p>
+                                          <p className="mt-1 text-xs uppercase tracking-[0.12em] text-stone-500">
+                                            {concept.understandingSignal.answerChangeCount} answer change(s),{" "}
+                                            {concept.understandingSignal.multiTryQuestionCount} multi-try question(s),{" "}
+                                            {concept.understandingSignal.correctAfterMultipleChoicesCount} correct after switching.
+                                          </p>
+                                        </div>
+                                      ) : null}
                                     </div>
                                     <div className="grid gap-2 text-sm text-stone-600 sm:grid-cols-4 sm:text-right">
                                       <div>
@@ -464,6 +485,14 @@ export function AppLayout() {
                                     <div key={concept.conceptId}>
                                       <div className="font-medium text-ink">{concept.conceptTitle}</div>
                                       <p className="mt-1 text-sm text-stone-600">{concept.explanation}</p>
+                                      {concept.understandingSignal ? (
+                                        <div className="mt-2 rounded-xl border border-stone-200 bg-stone-50 px-3 py-2 text-sm text-stone-600">
+                                          <div className="font-semibold text-ink">
+                                            Understanding: {formatUnderstandingStatus(concept.understandingSignal.status)}
+                                          </div>
+                                          <p className="mt-1">{concept.understandingSignal.explanation}</p>
+                                        </div>
+                                      ) : null}
                                     </div>
                                   ))
                                 )}
@@ -484,6 +513,14 @@ export function AppLayout() {
                                     <div key={concept.conceptId}>
                                       <div className="font-medium text-ink">{concept.conceptTitle}</div>
                                       <p className="mt-1 text-sm text-stone-600">{concept.explanation}</p>
+                                      {concept.understandingSignal ? (
+                                        <div className="mt-2 rounded-xl border border-stone-200 bg-stone-50 px-3 py-2 text-sm text-stone-600">
+                                          <div className="font-semibold text-ink">
+                                            Understanding: {formatUnderstandingStatus(concept.understandingSignal.status)}
+                                          </div>
+                                          <p className="mt-1">{concept.understandingSignal.explanation}</p>
+                                        </div>
+                                      ) : null}
                                     </div>
                                   ))
                                 )}
@@ -509,6 +546,19 @@ export function AppLayout() {
                                     <div className="max-w-2xl">
                                       <div className="font-medium text-ink">{concept.conceptTitle}</div>
                                       <p className="mt-1 text-sm text-stone-600">{concept.explanation}</p>
+                                      {concept.understandingSignal ? (
+                                        <div className="mt-2 rounded-xl border border-stone-200 bg-white px-3 py-2 text-sm text-stone-600">
+                                          <div className="font-semibold text-ink">
+                                            Understanding: {formatUnderstandingStatus(concept.understandingSignal.status)}
+                                          </div>
+                                          <p className="mt-1">{concept.understandingSignal.explanation}</p>
+                                          <p className="mt-1 text-xs uppercase tracking-[0.12em] text-stone-500">
+                                            {concept.understandingSignal.answerChangeCount} answer change(s),{" "}
+                                            {concept.understandingSignal.multiTryQuestionCount} multi-try question(s),{" "}
+                                            {concept.understandingSignal.correctAfterMultipleChoicesCount} correct after switching.
+                                          </p>
+                                        </div>
+                                      ) : null}
                                     </div>
                                     <div className="grid gap-2 text-sm text-stone-600 sm:grid-cols-4 sm:text-right">
                                       <div>
