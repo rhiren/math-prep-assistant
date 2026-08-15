@@ -325,6 +325,53 @@ describe("content repository", () => {
     }
   });
 
+  it("loads the Grade 7 Life Science scaffold with the starter cells concept pack", async () => {
+    const repository = await createDefaultContentRepository();
+    const scienceCourse = await repository.getCourse("course-7-life-science");
+    const cellsConcept = await repository.getConcept("concept-cells-living-things");
+    const bodySystemsConcept = await repository.getConcept(
+      "concept-body-systems-information-processing",
+    );
+    const tutorial = await repository.getTutorialContent("concept-cells-living-things");
+    const testSets = await repository.getTestSetsForConcept("concept-cells-living-things");
+    const coreQuestions = await repository.getQuestionsForTestSet(
+      "science7-cells-living-things-core",
+    );
+    const reviewQuestions = await repository.getQuestionsForTestSet(
+      "science7-cells-living-things-review",
+    );
+
+    expect(scienceCourse?.subjectTitle).toBe("Science");
+    expect(scienceCourse?.courseTitle).toBe("Grade 7 Life Science");
+    expect(scienceCourse?.instructionalGrades).toEqual(["7"]);
+    expect(scienceCourse?.programPathways).toEqual(["SRVUSD"]);
+    expect(scienceCourse?.standardsFrameworks).toEqual(["CA NGSS"]);
+    expect(scienceCourse?.units.map((unit) => unit.id)).toEqual([
+      "unit-cells-living-systems",
+      "unit-body-systems-information",
+      "unit-growth-reproduction-energy",
+      "unit-ecosystems",
+      "unit-genetics-inheritance",
+      "unit-evolution-life-history",
+      "unit-biodiversity-human-impact",
+    ]);
+    expect(cellsConcept?.hasTest).toBe(true);
+    expect(cellsConcept?.tags).toEqual(
+      expect.arrayContaining(["MS-LS1-1", "MS-LS1-2"]),
+    );
+    expect(bodySystemsConcept?.hasTest).toBe(false);
+    expect(bodySystemsConcept?.meta?.assessable).toBe(false);
+    expect(tutorial).toContain("# Cells and Living Things");
+    expect(testSets.map((testSet) => testSet.id)).toEqual([
+      "science7-cells-living-things-core",
+      "science7-cells-living-things-review",
+    ]);
+    expect(coreQuestions).toHaveLength(10);
+    expect(reviewQuestions).toHaveLength(10);
+    expect(coreQuestions.every((question) => question.questionType === "multiple_choice")).toBe(true);
+    expect(reviewQuestions.every((question) => (question.choices?.length ?? 0) === 4)).toBe(true);
+  });
+
   it("loads Course 3 with complete Unit 1 and Unit 2 concept packs", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");

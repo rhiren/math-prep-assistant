@@ -1,0 +1,189 @@
+{
+  "id": "science7-cells-living-things-review",
+  "testId": "science7-cells-living-things-review",
+  "conceptId": "concept-cells-living-things",
+  "title": "Cells and Living Things Review Test",
+  "description": "Review practice for cell evidence, structures, and systems.",
+  "questions": [
+    {
+      "id": "science7-cells-living-things-review-q1",
+      "type": "multiple_choice",
+      "prompt": "Which item is living according to cell theory?",
+      "questionText": "Which item is living according to cell theory?",
+      "options": [
+        "a bacterium made of one cell",
+        "a water droplet with no cells",
+        "a grain of sand with no cells",
+        "a metal spring that moves"
+      ],
+      "correctAnswer": "a bacterium made of one cell",
+      "skillTags": [
+        "conceptual"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A bacterium is a living single-celled organism. The other choices do not provide evidence of cells."
+    },
+    {
+      "id": "science7-cells-living-things-review-q2",
+      "type": "multiple_choice",
+      "prompt": "What is the main function of mitochondria in many cells?",
+      "questionText": "What is the main function of mitochondria in many cells?",
+      "options": [
+        "help release usable energy from food molecules",
+        "store water outside the cell",
+        "make the cell wall rigid",
+        "block all materials from entering the cell"
+      ],
+      "correctAnswer": "help release usable energy from food molecules",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Mitochondria help cells release usable energy from food molecules."
+    },
+    {
+      "id": "science7-cells-living-things-review-q3",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would best support the claim that a pond sample contains living organisms?",
+      "questionText": "Which evidence would best support the claim that a pond sample contains living organisms?",
+      "options": [
+        "Microscope observations show cells moving and dividing.",
+        "The pond water is clear.",
+        "The sample is cold.",
+        "The sample contains tiny grains of sand."
+      ],
+      "correctAnswer": "Microscope observations show cells moving and dividing.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cells carrying out life processes are strong evidence that living organisms are present."
+    },
+    {
+      "id": "science7-cells-living-things-review-q4",
+      "type": "multiple_choice",
+      "prompt": "Which model would best help explain how a cell functions as a system?",
+      "questionText": "Which model would best help explain how a cell functions as a system?",
+      "options": [
+        "a labeled diagram showing cell parts and how their jobs connect",
+        "a list of rocks sorted by color",
+        "a map of highways in a city",
+        "a thermometer reading from one afternoon"
+      ],
+      "correctAnswer": "a labeled diagram showing cell parts and how their jobs connect",
+      "skillTags": [
+        "visual"
+      ],
+      "difficulty": "standard",
+      "explanation": "A model that shows cell parts and connected functions can explain the cell as an interacting system."
+    },
+    {
+      "id": "science7-cells-living-things-review-q5",
+      "type": "multiple_choice",
+      "prompt": "A cell has a nucleus, mitochondria, and a cell membrane, but no cell wall or chloroplasts. What type of cell is it most likely?",
+      "questionText": "A cell has a nucleus, mitochondria, and a cell membrane, but no cell wall or chloroplasts. What type of cell is it most likely?",
+      "options": [
+        "animal cell",
+        "plant cell",
+        "nonliving mineral",
+        "water molecule"
+      ],
+      "correctAnswer": "animal cell",
+      "skillTags": [
+        "application"
+      ],
+      "difficulty": "standard",
+      "explanation": "Animal cells have cell membranes and often have nuclei and mitochondria, but they do not have cell walls or chloroplasts."
+    },
+    {
+      "id": "science7-cells-living-things-review-q6",
+      "type": "multiple_choice",
+      "prompt": "Why is saying 'it moves' not enough evidence that something is living?",
+      "questionText": "Why is saying 'it moves' not enough evidence that something is living?",
+      "options": [
+        "Nonliving things can move, so stronger evidence such as cells is needed.",
+        "Living things never move.",
+        "Only multicellular organisms can move.",
+        "Movement proves that something has chloroplasts."
+      ],
+      "correctAnswer": "Nonliving things can move, so stronger evidence such as cells is needed.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Movement alone can happen in nonliving things. Evidence that the object is made of cells is stronger."
+    },
+    {
+      "id": "science7-cells-living-things-review-q7",
+      "type": "multiple_choice",
+      "prompt": "Which comparison is accurate?",
+      "questionText": "Which comparison is accurate?",
+      "options": [
+        "A unicellular organism has one cell; a multicellular organism has many cells.",
+        "A unicellular organism has many tissues; a multicellular organism has no cells.",
+        "Only multicellular organisms can be living.",
+        "Only unicellular organisms use energy."
+      ],
+      "correctAnswer": "A unicellular organism has one cell; a multicellular organism has many cells.",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Unicellular means one cell. Multicellular means many cells."
+    },
+    {
+      "id": "science7-cells-living-things-review-q8",
+      "type": "multiple_choice",
+      "prompt": "Which question best focuses on the function of a cell structure?",
+      "questionText": "Which question best focuses on the function of a cell structure?",
+      "options": [
+        "What job does the structure do for the cell?",
+        "What color is the drawing of the structure?",
+        "Who named the structure first?",
+        "How many letters are in the structure's name?"
+      ],
+      "correctAnswer": "What job does the structure do for the cell?",
+      "skillTags": [
+        "conceptual"
+      ],
+      "difficulty": "standard",
+      "explanation": "Function means what something does. Asking about the job of the structure focuses on function."
+    },
+    {
+      "id": "science7-cells-living-things-review-q9",
+      "type": "multiple_choice",
+      "prompt": "A plant cell's chloroplasts are damaged. Which cell function would be affected most directly?",
+      "questionText": "A plant cell's chloroplasts are damaged. Which cell function would be affected most directly?",
+      "options": [
+        "using light energy to make sugars",
+        "forming bones",
+        "hearing sounds",
+        "carrying oxygen through blood"
+      ],
+      "correctAnswer": "using light energy to make sugars",
+      "skillTags": [
+        "application"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Chloroplasts are the structures that help many plant cells use light energy to make sugars."
+    },
+    {
+      "id": "science7-cells-living-things-review-q10",
+      "type": "multiple_choice",
+      "prompt": "Which statement best explains why cells are studied with microscopes?",
+      "questionText": "Which statement best explains why cells are studied with microscopes?",
+      "options": [
+        "Many cells are too small to see clearly with only our eyes.",
+        "Cells are always larger than organs.",
+        "Microscopes turn nonliving things into cells.",
+        "Microscopes show only the outside of large animals."
+      ],
+      "correctAnswer": "Many cells are too small to see clearly with only our eyes.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "difficulty": "standard",
+      "explanation": "Many cells are microscopic, so microscopes help scientists observe them."
+    }
+  ]
+}

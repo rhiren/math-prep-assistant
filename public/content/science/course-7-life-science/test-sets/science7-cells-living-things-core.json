@@ -1,0 +1,189 @@
+{
+  "id": "science7-cells-living-things-core",
+  "testId": "science7-cells-living-things-core",
+  "conceptId": "concept-cells-living-things",
+  "title": "Cells and Living Things Core Test",
+  "description": "Core practice for living things, cell evidence, and cell structures.",
+  "questions": [
+    {
+      "id": "science7-cells-living-things-core-q1",
+      "type": "multiple_choice",
+      "prompt": "Which observation is the strongest evidence that a sample is living?",
+      "questionText": "Which observation is the strongest evidence that a sample is living?",
+      "options": [
+        "It is made of one or more cells.",
+        "It has a rough surface.",
+        "It changes temperature during the day.",
+        "It is found outside in soil."
+      ],
+      "correctAnswer": "It is made of one or more cells.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Being made of cells is direct evidence of living things. Texture, temperature change, and location do not prove that something is alive."
+    },
+    {
+      "id": "science7-cells-living-things-core-q2",
+      "type": "multiple_choice",
+      "prompt": "A scientist sees a single microscopic structure using energy, growing, and dividing into two similar structures. What conclusion is best supported?",
+      "questionText": "A scientist sees a single microscopic structure using energy, growing, and dividing into two similar structures. What conclusion is best supported?",
+      "options": [
+        "The structure is likely a living single-celled organism.",
+        "The structure must be a nonliving crystal.",
+        "The structure cannot be alive because it has only one cell.",
+        "The structure is a tissue made of many organs."
+      ],
+      "correctAnswer": "The structure is likely a living single-celled organism.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "difficulty": "standard",
+      "explanation": "Single-celled organisms can be living. The evidence of energy use, growth, and division supports that conclusion."
+    },
+    {
+      "id": "science7-cells-living-things-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Which cell structure controls what enters and leaves the cell?",
+      "questionText": "Which cell structure controls what enters and leaves the cell?",
+      "options": [
+        "cell membrane",
+        "chloroplast",
+        "nucleus",
+        "mitochondrion"
+      ],
+      "correctAnswer": "cell membrane",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The cell membrane forms a boundary and controls movement into and out of the cell."
+    },
+    {
+      "id": "science7-cells-living-things-core-q4",
+      "type": "multiple_choice",
+      "prompt": "A plant cell has a stiff outer layer that helps it keep its shape. Which structure is being described?",
+      "questionText": "A plant cell has a stiff outer layer that helps it keep its shape. Which structure is being described?",
+      "options": [
+        "cell wall",
+        "cell membrane",
+        "nucleus",
+        "mitochondrion"
+      ],
+      "correctAnswer": "cell wall",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The cell wall gives plant cells extra support and helps maintain shape."
+    },
+    {
+      "id": "science7-cells-living-things-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which statement best describes the relationship between a cell part and the whole cell?",
+      "questionText": "Which statement best describes the relationship between a cell part and the whole cell?",
+      "options": [
+        "Cell parts have jobs that help the cell function as a system.",
+        "Each cell part can survive forever without the rest of the cell.",
+        "Only one cell part does all jobs for the cell.",
+        "Cell parts are unrelated to the needs of the cell."
+      ],
+      "correctAnswer": "Cell parts have jobs that help the cell function as a system.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "difficulty": "standard",
+      "explanation": "A cell is a system because its parts interact and contribute to the function of the whole cell."
+    },
+    {
+      "id": "science7-cells-living-things-core-q6",
+      "type": "multiple_choice",
+      "prompt": "Which structure is most directly involved in using light energy to make sugars in many plant cells?",
+      "questionText": "Which structure is most directly involved in using light energy to make sugars in many plant cells?",
+      "options": [
+        "chloroplast",
+        "cell wall",
+        "nucleus",
+        "cell membrane"
+      ],
+      "correctAnswer": "chloroplast",
+      "skillTags": [
+        "conceptual"
+      ],
+      "difficulty": "standard",
+      "explanation": "Chloroplasts capture light energy and help make sugars during photosynthesis."
+    },
+    {
+      "id": "science7-cells-living-things-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A student claims that animal cells and plant cells are identical because both are living cells. Which evidence best challenges the claim?",
+      "questionText": "A student claims that animal cells and plant cells are identical because both are living cells. Which evidence best challenges the claim?",
+      "options": [
+        "Plant cells usually have cell walls and chloroplasts, while animal cells do not.",
+        "Both plant and animal cells have cell membranes.",
+        "Both plant and animal cells use energy.",
+        "Animal cells and plant cells can both be seen with microscopes."
+      ],
+      "correctAnswer": "Plant cells usually have cell walls and chloroplasts, while animal cells do not.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The claim says the cells are identical. Evidence about cell walls and chloroplasts shows an important difference."
+    },
+    {
+      "id": "science7-cells-living-things-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which example best shows structure and function in a cell?",
+      "questionText": "Which example best shows structure and function in a cell?",
+      "options": [
+        "The flexible membrane surrounds the cell and helps control movement of materials.",
+        "A cell is too small to see without a microscope.",
+        "A living thing may contain many cells.",
+        "Cells were first studied by scientists using lenses."
+      ],
+      "correctAnswer": "The flexible membrane surrounds the cell and helps control movement of materials.",
+      "skillTags": [
+        "application"
+      ],
+      "difficulty": "standard",
+      "explanation": "This connects the membrane's structure as a boundary with its function controlling what enters and leaves."
+    },
+    {
+      "id": "science7-cells-living-things-core-q9",
+      "type": "multiple_choice",
+      "prompt": "A sample grows larger because more mineral crystals attach to it. It has no cells and does not use energy. Which conclusion is best?",
+      "questionText": "A sample grows larger because more mineral crystals attach to it. It has no cells and does not use energy. Which conclusion is best?",
+      "options": [
+        "The sample is probably nonliving, even though it gets larger.",
+        "The sample is living because all growth proves life.",
+        "The sample is living because minerals are cells.",
+        "The sample must be a multicellular organism."
+      ],
+      "correctAnswer": "The sample is probably nonliving, even though it gets larger.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Growth alone is not enough evidence for life. The lack of cells and energy use supports the conclusion that the sample is nonliving."
+    },
+    {
+      "id": "science7-cells-living-things-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which sequence correctly shows increasing organization in a multicellular organism?",
+      "questionText": "Which sequence correctly shows increasing organization in a multicellular organism?",
+      "options": [
+        "cell, tissue, organ, organ system",
+        "organ system, organ, tissue, cell",
+        "tissue, cell, organ system, organ",
+        "cell wall, organ, tissue, organism"
+      ],
+      "correctAnswer": "cell, tissue, organ, organ system",
+      "skillTags": [
+        "conceptual"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cells form tissues, tissues form organs, and organs work together in organ systems."
+    }
+  ]
+}
