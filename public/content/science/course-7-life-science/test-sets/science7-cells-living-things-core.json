@@ -20,6 +20,9 @@
       "skillTags": [
         "conceptual"
       ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
       "difficulty": "scaffold",
       "explanation": "Being made of cells is direct evidence of living things. Texture, temperature change, and location do not prove that something is alive."
     },
@@ -37,6 +40,10 @@
       "correctAnswer": "The structure is likely a living single-celled organism.",
       "skillTags": [
         "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
       ],
       "difficulty": "standard",
       "explanation": "Single-celled organisms can be living. The evidence of energy use, growth, and division supports that conclusion."
@@ -56,6 +63,9 @@
       "skillTags": [
         "vocabulary"
       ],
+      "reasoningTags": [
+        "recall"
+      ],
       "difficulty": "scaffold",
       "explanation": "The cell membrane forms a boundary and controls movement into and out of the cell."
     },
@@ -73,6 +83,9 @@
       "correctAnswer": "cell wall",
       "skillTags": [
         "vocabulary"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
       ],
       "difficulty": "scaffold",
       "explanation": "The cell wall gives plant cells extra support and helps maintain shape."
@@ -92,6 +105,9 @@
       "skillTags": [
         "conceptual"
       ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
       "difficulty": "standard",
       "explanation": "A cell is a system because its parts interact and contribute to the function of the whole cell."
     },
@@ -109,6 +125,9 @@
       "correctAnswer": "chloroplast",
       "skillTags": [
         "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
       ],
       "difficulty": "standard",
       "explanation": "Chloroplasts capture light energy and help make sugars during photosynthesis."
@@ -128,6 +147,10 @@
       "skillTags": [
         "reasoning"
       ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
       "difficulty": "challenge",
       "explanation": "The claim says the cells are identical. Evidence about cell walls and chloroplasts shows an important difference."
     },
@@ -145,6 +168,9 @@
       "correctAnswer": "The flexible membrane surrounds the cell and helps control movement of materials.",
       "skillTags": [
         "application"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
       ],
       "difficulty": "standard",
       "explanation": "This connects the membrane's structure as a boundary with its function controlling what enters and leaves."
@@ -164,6 +190,10 @@
       "skillTags": [
         "reasoning"
       ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "misconception-check"
+      ],
       "difficulty": "challenge",
       "explanation": "Growth alone is not enough evidence for life. The lack of cells and energy use supports the conclusion that the sample is nonliving."
     },
@@ -181,6 +211,9 @@
       "correctAnswer": "cell, tissue, organ, organ system",
       "skillTags": [
         "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
       ],
       "difficulty": "standard",
       "explanation": "Cells form tissues, tissues form organs, and organs work together in organ systems."

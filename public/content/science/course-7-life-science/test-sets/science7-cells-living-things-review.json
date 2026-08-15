@@ -20,6 +20,9 @@
       "skillTags": [
         "conceptual"
       ],
+      "reasoningTags": [
+        "recall"
+      ],
       "difficulty": "scaffold",
       "explanation": "A bacterium is a living single-celled organism. The other choices do not provide evidence of cells."
     },
@@ -37,6 +40,9 @@
       "correctAnswer": "help release usable energy from food molecules",
       "skillTags": [
         "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
       ],
       "difficulty": "scaffold",
       "explanation": "Mitochondria help cells release usable energy from food molecules."
@@ -56,6 +62,9 @@
       "skillTags": [
         "reasoning"
       ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
       "difficulty": "standard",
       "explanation": "Cells carrying out life processes are strong evidence that living organisms are present."
     },
@@ -73,6 +82,9 @@
       "correctAnswer": "a labeled diagram showing cell parts and how their jobs connect",
       "skillTags": [
         "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
       ],
       "difficulty": "standard",
       "explanation": "A model that shows cell parts and connected functions can explain the cell as an interacting system."
@@ -92,6 +104,9 @@
       "skillTags": [
         "application"
       ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
       "difficulty": "standard",
       "explanation": "Animal cells have cell membranes and often have nuclei and mitochondria, but they do not have cell walls or chloroplasts."
     },
@@ -109,6 +124,9 @@
       "correctAnswer": "Nonliving things can move, so stronger evidence such as cells is needed.",
       "skillTags": [
         "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
       ],
       "difficulty": "challenge",
       "explanation": "Movement alone can happen in nonliving things. Evidence that the object is made of cells is stronger."
@@ -128,6 +146,9 @@
       "skillTags": [
         "vocabulary"
       ],
+      "reasoningTags": [
+        "recall"
+      ],
       "difficulty": "scaffold",
       "explanation": "Unicellular means one cell. Multicellular means many cells."
     },
@@ -145,6 +166,9 @@
       "correctAnswer": "What job does the structure do for the cell?",
       "skillTags": [
         "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
       ],
       "difficulty": "standard",
       "explanation": "Function means what something does. Asking about the job of the structure focuses on function."
@@ -164,6 +188,9 @@
       "skillTags": [
         "application"
       ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
       "difficulty": "challenge",
       "explanation": "Chloroplasts are the structures that help many plant cells use light energy to make sugars."
     },
@@ -181,6 +208,9 @@
       "correctAnswer": "Many cells are too small to see clearly with only our eyes.",
       "skillTags": [
         "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
       ],
       "difficulty": "standard",
       "explanation": "Many cells are microscopic, so microscopes help scientists observe them."

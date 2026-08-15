@@ -244,6 +244,45 @@ Do not weaken these safeguards casually.
 
 ---
 
+### Science rollout discipline
+
+Science concept packs are `Practice ready` only when they test transfer, not
+just recall.
+
+For Science, preserve a phenomenon-first learning model:
+
+1. phenomenon / scenario
+2. core idea
+3. model or system representation
+4. evidence rules
+5. common misconceptions
+6. apply-it prompts
+
+Do not unlock a Science concept pack with only vocabulary or definition-style
+questions. A learner-ready Science concept pack should include:
+
+- a concept-specific tutorial
+- a core test
+- a review test
+- scoring / answer-key validation
+- NGSS or local standards tags where applicable
+- question coverage across recall, scenario transfer, claim/evidence reasoning,
+  model interpretation, cause/effect reasoning, data patterns, or misconception
+  checks as appropriate to the concept
+
+Science questions should feel like small investigations whenever possible:
+
+- analyze a scenario
+- choose evidence for or against a claim
+- interpret a model, diagram, table, or data pattern
+- reason through cause and effect
+- transfer the same idea to a new organism, ecosystem, system, or phenomenon
+
+Do not mark future Science concepts `assessable: true` or give them test files
+until this minimum structure is in place.
+
+---
+
 ### Course 2 rollout discipline
 
 Current Course 2 concept rollout should remain phased and deliberate.

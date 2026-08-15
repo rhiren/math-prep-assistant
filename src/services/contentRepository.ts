@@ -11,6 +11,7 @@ import type {
   QuestionBankDocument,
   QuestionOption,
   QuestionType,
+  ScienceReasoningTag,
   SkillTag,
   TestSet,
   Unit,
@@ -176,6 +177,19 @@ function toSkillTags(value: unknown): SkillTag[] {
       tag === "multi-step" ||
       tag === "graph" ||
       tag === "visual",
+  );
+}
+
+function toScienceReasoningTags(value: unknown): ScienceReasoningTag[] {
+  return toStringArray(value).filter(
+    (tag): tag is ScienceReasoningTag =>
+      tag === "recall" ||
+      tag === "scenario-transfer" ||
+      tag === "claim-evidence" ||
+      tag === "model-interpretation" ||
+      tag === "cause-effect" ||
+      tag === "data-pattern" ||
+      tag === "misconception-check",
   );
 }
 
@@ -1077,6 +1091,7 @@ export async function createDefaultContentRepository(): Promise<StaticContentRep
           conceptId: normalizedConceptId,
           tags: toStringArray(rawQuestion.tags),
           skillTags: toSkillTags(rawQuestion.skillTags),
+          reasoningTags: toScienceReasoningTags(rawQuestion.reasoningTags),
           difficulty: toDifficulty(rawQuestion.difficulty),
           questionType: toQuestionType(rawQuestion.type ?? rawQuestion.questionType),
           answerType: toAnswerType(rawQuestion.answerType),

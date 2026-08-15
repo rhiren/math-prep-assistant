@@ -370,6 +370,52 @@ describe("content repository", () => {
     expect(reviewQuestions).toHaveLength(10);
     expect(coreQuestions.every((question) => question.questionType === "multiple_choice")).toBe(true);
     expect(reviewQuestions.every((question) => (question.choices?.length ?? 0) === 4)).toBe(true);
+    expect(coreQuestions.flatMap((question) => question.reasoningTags ?? [])).toEqual(
+      expect.arrayContaining(["scenario-transfer", "claim-evidence", "model-interpretation"]),
+    );
+  });
+
+  it("keeps Grade 7 Science practice-ready packs focused on transfer reasoning", async () => {
+    const repository = await createDefaultContentRepository();
+    const scienceCourse = await repository.getCourse("course-7-life-science");
+    const readyConcepts =
+      scienceCourse?.units
+        .flatMap((unit) => unit.concepts)
+        .filter((concept) => concept.hasTest) ?? [];
+
+    expect(readyConcepts.map((concept) => concept.id)).toEqual([
+      "concept-cells-living-things",
+    ]);
+
+    for (const concept of readyConcepts) {
+      const testSets = await repository.getTestSetsForConcept(concept.id);
+      const allQuestions = (
+        await Promise.all(testSets.map((testSet) => repository.getQuestionsForTestSet(testSet.id)))
+      ).flat();
+      const skillTags = new Set(allQuestions.flatMap((question) => question.skillTags ?? []));
+      const reasoningTags = allQuestions.flatMap((question) => question.reasoningTags ?? []);
+      const nonRecallQuestions = allQuestions.filter((question) =>
+        (question.reasoningTags ?? []).some((tag) => tag !== "recall"),
+      );
+
+      expect(testSets.some((testSet) => testSet.type === "concept")).toBe(true);
+      expect(testSets.some((testSet) => testSet.type === "review")).toBe(true);
+      expect(allQuestions.length).toBeGreaterThanOrEqual(20);
+      expect(skillTags.size).toBeGreaterThanOrEqual(3);
+      expect(skillTags).not.toEqual(new Set(["vocabulary"]));
+      expect(reasoningTags).toEqual(
+        expect.arrayContaining([
+          "scenario-transfer",
+          "claim-evidence",
+          "model-interpretation",
+        ]),
+      );
+      expect(new Set(reasoningTags).size).toBeGreaterThanOrEqual(4);
+      expect(nonRecallQuestions.length / allQuestions.length).toBeGreaterThanOrEqual(0.6);
+      expect(allQuestions.every((question) => (question.reasoningTags?.length ?? 0) > 0)).toBe(
+        true,
+      );
+    }
   });
 
   it("loads Course 3 with complete Unit 1 and Unit 2 concept packs", async () => {

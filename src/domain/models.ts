@@ -27,6 +27,14 @@ export type SkillTag =
   | "multi-step"
   | "graph"
   | "visual";
+export type ScienceReasoningTag =
+  | "recall"
+  | "scenario-transfer"
+  | "claim-evidence"
+  | "model-interpretation"
+  | "cause-effect"
+  | "data-pattern"
+  | "misconception-check";
 export type StudentProfileType = "production" | "test";
 export type StudentFeatureFlags = Record<string, boolean>;
 export type SmartRetryKind = "targeted";
@@ -147,6 +155,7 @@ export interface Question {
   conceptId: string;
   tags: string[];
   skillTags?: SkillTag[];
+  reasoningTags?: ScienceReasoningTag[];
   difficulty: DifficultyLevel;
   questionType: QuestionType;
   answerType: AnswerType;
