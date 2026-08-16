@@ -418,6 +418,35 @@ describe("content repository", () => {
     }
   });
 
+  it("keeps Grade 7 Science tutorials structured for retention", async () => {
+    const repository = await createDefaultContentRepository();
+    const scienceCourse = await repository.getCourse("course-7-life-science");
+    const concepts = scienceCourse?.units.flatMap((unit) => unit.concepts) ?? [];
+    const requiredSections = [
+      "## Hook",
+      "## Big Idea",
+      "## Learn It",
+      "## Build The Model",
+      "## Memory Anchors",
+      "## Common Traps",
+      "## Pause And Think",
+      "## Apply It",
+      "## 3-2-1 Memory Check",
+    ];
+
+    expect(concepts.length).toBeGreaterThan(0);
+
+    for (const concept of concepts) {
+      const tutorial = await repository.getTutorialContent(concept.id);
+      expect(tutorial).not.toBeNull();
+      expect(tutorial?.length ?? 0).toBeGreaterThan(1200);
+
+      for (const section of requiredSections) {
+        expect(tutorial).toContain(section);
+      }
+    }
+  });
+
   it("loads Course 3 with complete Unit 1 and Unit 2 concept packs", async () => {
     const repository = await createDefaultContentRepository();
     const course = await repository.getCourse("course-3");

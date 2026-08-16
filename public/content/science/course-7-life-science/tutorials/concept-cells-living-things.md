@@ -1,40 +1,94 @@
 # Cells and Living Things
 
+## Hook
+
+A crystal grows larger over time. A bacterium also grows larger over time. Which one is alive?
+
+The answer is not "the one that grows." Some nonliving things can grow. The stronger clue is whether the thing is made of cells and carries out life processes.
+
+## Big Idea
+
 Cells are the basic unit of life. A living thing may be made of one cell, like many bacteria, or many cells, like a plant, mushroom, or person.
 
-## Evidence for Cells
+Memory anchor: **Cells are the evidence.**
 
-Scientists use observations and investigations to decide whether something is living. Strong evidence includes:
+## Learn It
 
-- it is made of one or more cells
-- it uses energy and matter
-- it grows or responds to its environment
-- it can reproduce as part of a life cycle
+A living thing is made of one or more cells. It also uses energy and matter, responds to its environment, grows, and reproduces as part of a life cycle.
 
-A rock is not living because it is not made of cells. A bacterium is living because it is a single cell that carries out life processes.
+Important cell parts:
 
-## Cell Parts Work Together
-
-A cell works as a system. Each part has a job that helps the whole cell survive.
-
-- **Cell membrane**: controls what enters and leaves the cell
+- **Cell membrane**: controls what enters and leaves
 - **Cell wall**: gives plant cells extra support and shape
 - **Nucleus**: stores genetic instructions in many plant and animal cells
-- **Chloroplasts**: use light energy to make sugars in plant cells and some microorganisms
+- **Chloroplasts**: use light energy to make sugars
 - **Mitochondria**: help release usable energy from food molecules
 
-Not every cell has every part. For example, plant cells usually have chloroplasts and cell walls, while animal cells do not.
+Not every cell has every part. Plant cells usually have cell walls and chloroplasts. Animal cells do not.
 
-## Structure and Function
+## Build The Model
 
-Structure means how something is built. Function means what it does. In science, the shape and parts of a structure often help explain its job.
+Think of a cell as a small system:
 
-For cells, ask:
+`cell parts -> jobs -> whole cell stays alive`
 
-- What part is being described?
-- What job does that part help the cell do?
-- How does that job help the whole living thing?
+Example:
 
-## Practice Focus
+`cell membrane -> controls materials moving in and out -> helps the cell maintain conditions it needs`
 
-Look for evidence. Decide whether the question is asking about living vs. nonliving, cell parts, or how parts work together as a system.
+Structure means how something is built. Function means what it does. In science, structure often helps explain function.
+
+## Memory Anchors
+
+- **Cells are the evidence.** Movement or growth alone is not enough.
+- **Structure helps function.** How a part is built helps explain its job.
+- **A cell is a system.** Parts work together.
+
+## Compare And Contrast
+
+| Looks Similar | Key Difference |
+|---|---|
+| crystal grows | no cells, nonliving |
+| bacterium grows | one cell, living |
+| plant cell | usually has cell wall and chloroplasts |
+| animal cell | no cell wall or chloroplasts |
+
+## Common Traps
+
+- Trap: "It moves, so it is alive."  
+  Fix: Some nonliving things move. Look for cells and life processes.
+- Trap: "It grows, so it is alive."  
+  Fix: Crystals can grow. Growth alone is weak evidence.
+- Trap: "Plant and animal cells are identical."  
+  Fix: They share some parts, but plant cells usually have cell walls and chloroplasts.
+
+## Pause And Think
+
+Answer these without looking back:
+
+- What is the strongest evidence that something is living?
+- What does the cell membrane control?
+- Why is growth alone not enough evidence for life?
+
+## Apply It
+
+A scientist finds a tiny pond organism. It is one cell, uses energy, responds to light, and divides into two cells.
+
+This is probably living because it has cellular evidence and carries out life processes. It does not need many cells to be alive.
+
+## 3-2-1 Memory Check
+
+3 things to remember:
+
+- Living things are made of cells.
+- Cell parts have jobs.
+- Plant and animal cells are not identical.
+
+2 traps to avoid:
+
+- Movement does not always mean living.
+- Growth does not always mean living.
+
+1 explain-it prompt:
+
+- How can one cell be a complete living thing?

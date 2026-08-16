@@ -27,17 +27,59 @@ table, data pattern, evidence claim, or cause/effect chain.
 
 ## Tutorial Pattern
 
-Each Grade 7 Science tutorial should use this structure:
+Each Grade 7 Science tutorial should use a retention-focused learning loop:
 
-1. Phenomenon or scenario first
-2. Core idea
-3. Model, system map, diagram thinking, or representation
-4. Evidence rules
-5. Common traps and misconceptions
-6. Apply-it prompts
+1. Hook mystery or phenomenon first
+2. Big idea in plain language
+3. Learn it in small chunks
+4. Build the model, system map, or cause/effect chain
+5. Memory anchors the learner can say back later
+6. Compare / contrast or evidence rules
+7. Common traps and misconception fixes
+8. Pause-and-think retrieval prompts
+9. Apply-it scenario
+10. 3-2-1 memory check
 
 Keep tutorials concept-specific. Do not clone a generic tutorial body across
 concepts with only the heading changed.
+
+### Tutorial Authoring Standard
+
+Science tutorials should help the learner remember, not only understand in the
+moment. Favor short sections, repeated memory hooks, and quick retrieval prompts
+over long textbook-style exposition.
+
+Each tutorial should include these learner-facing sections:
+
+- `## Hook`
+- `## Big Idea`
+- `## Learn It`
+- `## Build The Model`
+- `## Memory Anchors`
+- `## Compare And Contrast` or `## Evidence Rules`
+- `## Common Traps`
+- `## Pause And Think`
+- `## Apply It`
+- `## 3-2-1 Memory Check`
+
+Use the same rhythm across concepts so the learner recognizes the pattern:
+
+- **Learn**: introduce one idea at a time
+- **Pause**: ask a no-choice retrieval question
+- **Remember**: give a short phrase or anchor
+- **Apply**: use the idea in a new scenario
+- **Check**: end with 3 things, 2 traps, and 1 explain-it prompt
+
+Good memory anchors are short and reusable:
+
+- `Cells are the evidence.`
+- `Structure helps function.`
+- `Claims need evidence.`
+- `Models show relationships.`
+- `Environment changes selection.`
+
+Do not overuse multiple-choice inside tutorials. The tutorial should train the
+student to recall and explain before the test provides choices.
 
 ## Question Metadata
 
