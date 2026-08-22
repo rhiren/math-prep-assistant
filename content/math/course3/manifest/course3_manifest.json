@@ -20,10 +20,73 @@
       "order": 2,
       "units": [
         {
+          "id": "course3-unit-rigid-transformations-congruence",
+          "title": "Rigid Transformations and Congruence",
+          "description": "Start the Amplify Grade 8 sequence by sliding, flipping, and turning figures while preserving distance, angle measure, and shape.",
+          "order": 1,
+          "concepts": [
+            {
+              "id": "concept-translations-coordinate-plane",
+              "title": "Translations on the Coordinate Plane",
+              "description": "Use horizontal and vertical moves to translate points and figures, write coordinate rules, and reason from image back to preimage.",
+              "tags": [
+                "transformations",
+                "translations",
+                "coordinate-plane"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.1",
+                "8.G.3"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-translations-coordinate-plane.md",
+              "tests": [
+                {
+                  "id": "course3-translations-coordinate-plane-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-translations-coordinate-plane-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-translations-coordinate-plane-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-translations-coordinate-plane-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "course3-unit-real-numbers-exponents",
           "title": "Real Numbers and Exponents",
           "description": "Build a strong foundation with rational and irrational numbers before moving into radicals, exponents, and scientific notation.",
-          "order": 1,
+          "order": 2,
           "concepts": [
             {
               "id": "concept-rational-irrational-numbers",
@@ -685,7 +748,7 @@
           "id": "course3-unit-linear-equations",
           "title": "Linear Equations in One Variable",
           "description": "Build from equivalent expressions into multi-step linear equations, special solution cases, and equation modeling.",
-          "order": 2,
+          "order": 3,
           "concepts": [
             {
               "id": "concept-review-equivalent-expressions",
@@ -1233,7 +1296,7 @@
           "courseId": "course-3",
           "title": "Unit 3 — Lines, Slope, and Linear Equations",
           "description": "Understand slope, rate of change, proportional linear equations, and multiple representations of lines.",
-          "order": 3,
+          "order": 4,
           "concepts": [
             {
               "id": "concept-proportional-relationships-as-lines",
@@ -1889,7 +1952,7 @@
           "courseId": "course-3",
           "title": "Unit 4 — Systems of Linear Equations",
           "description": "Solve systems of linear equations using graphs and algebraic methods, and interpret the number of solutions.",
-          "order": 4,
+          "order": 5,
           "concepts": [
             {
               "id": "concept-understand-solutions-systems",

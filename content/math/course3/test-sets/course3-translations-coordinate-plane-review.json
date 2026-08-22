@@ -1,0 +1,409 @@
+{
+  "testId": "course3-translations-coordinate-plane-review",
+  "conceptId": "concept-translations-coordinate-plane",
+  "type": "review",
+  "title": "Translations on the Coordinate Plane Review Test",
+  "description": "Review coordinate-plane translations by finding image points, movement vectors, and coordinate rules.",
+  "questions": [
+    {
+      "id": "course3-translations-coordinate-plane-review-001",
+      "type": "multiple_choice",
+      "questionText": "Translate point (-1, 2) by vector <3, -5>. What is the image point?",
+      "options": [
+        "(-4, -3)",
+        "(2, 7)",
+        "(2, -3)",
+        "(-4, 7)"
+      ],
+      "correctAnswer": "(2, -3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add 3 to x and -5 to y to get (2, -3)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-002",
+      "type": "multiple_choice",
+      "questionText": "Point B(4, -3) slides by <-6, 2>. Where is B' after the translation?",
+      "options": [
+        "(10, -1)",
+        "(-2, -5)",
+        "(10, -5)",
+        "(-2, -1)"
+      ],
+      "correctAnswer": "(-2, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add -6 to x and 2 to y to get (-2, -1)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-003",
+      "type": "multiple_choice",
+      "questionText": "The rule (x, y) -> (x + 1, y + 4) is applied to (0, 5). Which point is the image?",
+      "options": [
+        "(-1, 9)",
+        "(1, 9)",
+        "(1, 1)",
+        "(-1, 1)"
+      ],
+      "correctAnswer": "(1, 9)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add 1 to x and 4 to y to get (1, 9)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-004",
+      "type": "multiple_choice",
+      "questionText": "A point at (-5, -2) moves 4 units right and 3 units up. What are its new coordinates?",
+      "options": [
+        "(-9, 1)",
+        "(-1, 1)",
+        "(-1, -5)",
+        "(-9, -5)"
+      ],
+      "correctAnswer": "(-1, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add 4 to x and 3 to y to get (-1, 1)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-005",
+      "type": "multiple_choice",
+      "questionText": "Point P starts at (6, 1). After translation <-2, -4>, where does P land?",
+      "options": [
+        "(4, -3)",
+        "(8, -3)",
+        "(4, 5)",
+        "(8, 5)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add -2 to x and -4 to y to get (4, -3)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-006",
+      "type": "multiple_choice",
+      "questionText": "A horizontal translation sends (-3, 0) by <5, 0>. Which coordinate pair is correct?",
+      "options": [
+        "(-8, 0)",
+        "(-3, 5)",
+        "(2, 5)",
+        "(2, 0)"
+      ],
+      "correctAnswer": "(2, 0)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add 5 to x and 0 to y to get (2, 0)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-007",
+      "type": "multiple_choice",
+      "questionText": "A vertical translation sends (2, -6) by <0, 7>. Which coordinate pair is correct?",
+      "options": [
+        "(2, -13)",
+        "(9, -6)",
+        "(9, 1)",
+        "(2, 1)"
+      ],
+      "correctAnswer": "(2, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add 0 to x and 7 to y to get (2, 1)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-008",
+      "type": "multiple_choice",
+      "questionText": "On a grid, (-4, 4) is slid left 3 and down 2. What is the image?",
+      "options": [
+        "(-1, 2)",
+        "(-7, 2)",
+        "(-7, 6)",
+        "(-1, 6)"
+      ],
+      "correctAnswer": "(-7, 2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Add -3 to x and -2 to y to get (-7, 2)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-009",
+      "type": "multiple_choice",
+      "questionText": "A point moves from (-2, 1) to (4, 6). Which translation rule describes the move?",
+      "options": [
+        "(x + 6, y + 5)",
+        "(x - 6, y + 5)",
+        "(x + 6, y - 5)",
+        "(x - 6, y - 5)"
+      ],
+      "correctAnswer": "(x + 6, y + 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is 4 - -2 = 6, and the y-change is 6 - 1 = 5, so the rule is (x + 6, y + 5)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-010",
+      "type": "multiple_choice",
+      "questionText": "What coordinate rule sends (5, -3) to (1, -8)?",
+      "options": [
+        "(x - 4, y - 5)",
+        "(x + 4, y - 5)",
+        "(x - 4, y + 5)",
+        "(x + 4, y + 5)"
+      ],
+      "correctAnswer": "(x - 4, y - 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is 1 - 5 = -4, and the y-change is -8 - -3 = -5, so the rule is (x - 4, y - 5)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-011",
+      "type": "multiple_choice",
+      "questionText": "The preimage is (0, 4) and the image is (-5, 2). Which rule matches that translation?",
+      "options": [
+        "(x + 5, y - 2)",
+        "(x - 5, y + 2)",
+        "(x - 5, y - 2)",
+        "(x + 5, y + 2)"
+      ],
+      "correctAnswer": "(x - 5, y - 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is -5 - 0 = -5, and the y-change is 2 - 4 = -2, so the rule is (x - 5, y - 2)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-012",
+      "type": "multiple_choice",
+      "questionText": "Which rule would slide every point the same way that (-6, -1) slides to (-2, -4)?",
+      "options": [
+        "(x + 4, y - 3)",
+        "(x - 4, y - 3)",
+        "(x + 4, y + 3)",
+        "(x - 4, y + 3)"
+      ],
+      "correctAnswer": "(x + 4, y - 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is -2 - -6 = 4, and the y-change is -4 - -1 = -3, so the rule is (x + 4, y - 3)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-013",
+      "type": "multiple_choice",
+      "questionText": "From (3, 3) to (7, -2), what rule should be applied to any point?",
+      "options": [
+        "(x - 4, y - 5)",
+        "(x + 4, y + 5)",
+        "(x + 4, y - 5)",
+        "(x - 4, y + 5)"
+      ],
+      "correctAnswer": "(x + 4, y - 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is 7 - 3 = 4, and the y-change is -2 - 3 = -5, so the rule is (x + 4, y - 5)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-014",
+      "type": "multiple_choice",
+      "questionText": "A translation changes x by -3 and y by 4. Which coordinate rule shows that movement?",
+      "options": [
+        "(x + 3, y + 4)",
+        "(x - 3, y - 4)",
+        "(x - 3, y + 4)",
+        "(x + 3, y - 4)"
+      ],
+      "correctAnswer": "(x - 3, y + 4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is -4 - -1 = -3, and the y-change is 9 - 5 = 4, so the rule is (x - 3, y + 4)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-015",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule maps (6, 0) onto (2, 3)?",
+      "options": [
+        "(x + 4, y + 3)",
+        "(x - 4, y + 3)",
+        "(x - 4, y - 3)",
+        "(x + 4, y - 3)"
+      ],
+      "correctAnswer": "(x - 4, y + 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is 2 - 6 = -4, and the y-change is 3 - 0 = 3, so the rule is (x - 4, y + 3)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-016",
+      "type": "multiple_choice",
+      "questionText": "A figure is translated so one vertex moves from (-3, -5) to (4, -1). Which rule applies to the whole figure?",
+      "options": [
+        "(x - 7, y + 4)",
+        "(x + 7, y - 4)",
+        "(x + 7, y + 4)",
+        "(x - 7, y - 4)"
+      ],
+      "correctAnswer": "(x + 7, y + 4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is 4 - -3 = 7, and the y-change is -1 - -5 = 4, so the rule is (x + 7, y + 4)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-017",
+      "type": "multiple_choice",
+      "questionText": "A point and its image are (2, -2) and (-6, -6). Which rule gives the image?",
+      "options": [
+        "(x + 8, y - 4)",
+        "(x - 8, y - 4)",
+        "(x - 8, y + 4)",
+        "(x + 8, y + 4)"
+      ],
+      "correctAnswer": "(x - 8, y - 4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is -6 - 2 = -8, and the y-change is -6 - -2 = -4, so the rule is (x - 8, y - 4)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-018",
+      "type": "multiple_choice",
+      "questionText": "One vertex moves from (-5, 7) to (0, 1). Which rule must every vertex follow?",
+      "options": [
+        "(x - 5, y - 6)",
+        "(x + 5, y + 6)",
+        "(x - 5, y + 6)",
+        "(x + 5, y - 6)"
+      ],
+      "correctAnswer": "(x + 5, y - 6)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is 0 - -5 = 5, and the y-change is 1 - 7 = -6, so the rule is (x + 5, y - 6)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-019",
+      "type": "multiple_choice",
+      "questionText": "Which rule represents the vector from (1, 1) to (5, 4)?",
+      "options": [
+        "(x + 4, y + 3)",
+        "(x - 4, y + 3)",
+        "(x + 4, y - 3)",
+        "(x - 4, y - 3)"
+      ],
+      "correctAnswer": "(x + 4, y + 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is 5 - 1 = 4, and the y-change is 4 - 1 = 3, so the rule is (x + 4, y + 3)."
+    },
+    {
+      "id": "course3-translations-coordinate-plane-review-020",
+      "type": "multiple_choice",
+      "questionText": "A slide sends (4, -4) to (-1, -2). Which coordinate rule describes the slide?",
+      "options": [
+        "(x + 5, y + 2)",
+        "(x - 5, y - 2)",
+        "(x + 5, y - 2)",
+        "(x - 5, y + 2)"
+      ],
+      "correctAnswer": "(x - 5, y + 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "translations",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The x-change is -1 - 4 = -5, and the y-change is -2 - -4 = 2, so the rule is (x - 5, y + 2)."
+    }
+  ]
+}
