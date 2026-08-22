@@ -1,0 +1,389 @@
+{
+  "testId": "course3-sequences-rigid-transformations-review",
+  "conceptId": "concept-sequences-rigid-transformations",
+  "type": "review",
+  "title": "Sequences of Rigid Transformations Review",
+  "description": "Review ordered rigid-motion sequences, intermediate images, inverse moves, and congruence conclusions.",
+  "questions": [
+    {
+      "id": "course3-sequences-rigid-transformations-review-001",
+      "type": "multiple_choice",
+      "questionText": "Point P is (2, 3). Apply this sequence: translate by <4, -1>, then reflect across the x-axis. What is P''?",
+      "options": [
+        "(6, 2)",
+        "(6, -2)",
+        "(6, -4)",
+        "(2, -3)"
+      ],
+      "correctAnswer": "(6, -2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (6, 2), then apply the second step to get (6, -2)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-002",
+      "type": "multiple_choice",
+      "questionText": "Point P is (-3, 5). Apply this sequence: reflect across the y-axis, then translate by <2, -4>. What is P''?",
+      "options": [
+        "(3, 5)",
+        "(1, 1)",
+        "(-1, 1)",
+        "(5, 1)"
+      ],
+      "correctAnswer": "(5, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (3, 5), then apply the second step to get (5, 1)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-003",
+      "type": "multiple_choice",
+      "questionText": "Point P is (4, -2). Apply this sequence: rotate 180 degrees about the origin, then translate by <1, 3>. What is P''?",
+      "options": [
+        "(-3, 5)",
+        "(-4, 2)",
+        "(-5, -1)",
+        "(5, 1)"
+      ],
+      "correctAnswer": "(-3, 5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (-4, 2), then apply the second step to get (-3, 5)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-004",
+      "type": "multiple_choice",
+      "questionText": "Point P is (-5, -1). Apply this sequence: translate by <3, 6>, then reflect across the y-axis. What is P''?",
+      "options": [
+        "(-2, 5)",
+        "(8, 5)",
+        "(2, 5)",
+        "(5, -1)"
+      ],
+      "correctAnswer": "(2, 5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (-2, 5), then apply the second step to get (2, 5)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-005",
+      "type": "multiple_choice",
+      "questionText": "Point P is (1, -6). Apply this sequence: reflect across the x-axis, then translate by <-2, 5>. What is P''?",
+      "options": [
+        "(1, 6)",
+        "(-1, 1)",
+        "(-1, -1)",
+        "(-1, 11)"
+      ],
+      "correctAnswer": "(-1, 11)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (1, 6), then apply the second step to get (-1, 11)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-006",
+      "type": "multiple_choice",
+      "questionText": "Point P is (6, 2). Apply this sequence: rotate 90 degrees counterclockwise about the origin, then translate by <3, 0>. What is P''?",
+      "options": [
+        "(-2, 6)",
+        "(1, 6)",
+        "(-2, 9)",
+        "(9, 2)"
+      ],
+      "correctAnswer": "(1, 6)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (-2, 6), then apply the second step to get (1, 6)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-007",
+      "type": "multiple_choice",
+      "questionText": "Point P is (-2, 4). Apply this sequence: rotate 90 degrees clockwise about the origin, then reflect across the x-axis. What is P''?",
+      "options": [
+        "(4, 2)",
+        "(-4, 2)",
+        "(4, -2)",
+        "(-2, -4)"
+      ],
+      "correctAnswer": "(4, -2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (4, 2), then apply the second step to get (4, -2)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-008",
+      "type": "multiple_choice",
+      "questionText": "Point P is (3, -5). Apply this sequence: translate by <-4, 2>, then rotate 180 degrees about the origin. What is P''?",
+      "options": [
+        "(1, 3)",
+        "(-1, -3)",
+        "(-7, 7)",
+        "(-3, 5)"
+      ],
+      "correctAnswer": "(1, 3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the first step to get (-1, -3), then apply the second step to get (1, 3)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-009",
+      "type": "multiple_choice",
+      "questionText": "Which phrase describes P' in a two-step transformation sequence?",
+      "options": [
+        "The original point",
+        "The final image",
+        "The image after the first transformation",
+        "The transformation rule"
+      ],
+      "correctAnswer": "The image after the first transformation",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "vocabulary"
+      ],
+      "explanation": "P' is the intermediate image; P'' is the image after the second step."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-010",
+      "type": "multiple_choice",
+      "questionText": "Which phrase describes P'' in a two-step transformation sequence?",
+      "options": [
+        "The image after both transformations",
+        "The original point",
+        "The center of rotation",
+        "The image before any transformation"
+      ],
+      "correctAnswer": "The image after both transformations",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "vocabulary"
+      ],
+      "explanation": "Double prime notation marks the image after the second transformation."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-011",
+      "type": "multiple_choice",
+      "questionText": "A point is reflected across the x-axis and then reflected across the x-axis again. What is the final point?",
+      "options": [
+        "The 180 degree image",
+        "The y-axis reflection",
+        "A translated point",
+        "The original point"
+      ],
+      "correctAnswer": "The original point",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "inverse"
+      ],
+      "explanation": "Reflecting across the same line twice undoes the first reflection."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-012",
+      "type": "multiple_choice",
+      "questionText": "A triangle is transformed by a translation and a rotation. What must stay the same?",
+      "options": [
+        "The coordinates of every vertex",
+        "Side lengths and angle measures",
+        "The quadrant of every vertex",
+        "The direction the triangle faces"
+      ],
+      "correctAnswer": "Side lengths and angle measures",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "properties"
+      ],
+      "explanation": "Translations and rotations are rigid transformations."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-013",
+      "type": "multiple_choice",
+      "questionText": "Why should you not switch the order of transformations unless the problem allows it?",
+      "options": [
+        "The final image can change.",
+        "The figure stops being congruent.",
+        "The first point disappears.",
+        "The coordinate plane changes."
+      ],
+      "correctAnswer": "The final image can change.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "order-matters"
+      ],
+      "explanation": "The same transformations in a different order can land in a different place."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-014",
+      "type": "multiple_choice",
+      "questionText": "Which sequence uses only rigid transformations?",
+      "options": [
+        "Translate, dilate, rotate",
+        "Stretch, reflect, translate",
+        "Translate, reflect, rotate",
+        "Scale by 2, rotate, translate"
+      ],
+      "correctAnswer": "Translate, reflect, rotate",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "rigid-transformations"
+      ],
+      "explanation": "Translations, reflections, and rotations are rigid transformations."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-015",
+      "type": "multiple_choice",
+      "questionText": "A sequence of rigid transformations maps one triangle exactly onto another. What does this prove?",
+      "options": [
+        "The triangles are different sizes.",
+        "The triangles are congruent.",
+        "The triangles are not related.",
+        "The triangles have different angle measures."
+      ],
+      "correctAnswer": "The triangles are congruent.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "congruence"
+      ],
+      "explanation": "Rigid transformations preserve size and shape."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-016",
+      "type": "multiple_choice",
+      "questionText": "Point P(2, 3) is translated by <1, -5>, then reflected across the x-axis. What is P''?",
+      "options": [
+        "(3, -2)",
+        "(-3, 2)",
+        "(1, -8)",
+        "(3, 2)"
+      ],
+      "correctAnswer": "(3, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "P becomes (3, -2), then (3, 2)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-017",
+      "type": "multiple_choice",
+      "questionText": "Point P(-4, 1) is reflected across the y-axis, then translated by <-2, 3>. What is P''?",
+      "options": [
+        "(6, 4)",
+        "(2, 4)",
+        "(-6, 4)",
+        "(2, -4)"
+      ],
+      "correctAnswer": "(2, 4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "coordinate-plane"
+      ],
+      "explanation": "P becomes (4, 1), then (2, 4)."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-018",
+      "type": "multiple_choice",
+      "questionText": "Which two-step sequence is equivalent to no net movement?",
+      "options": [
+        "Translate by <5, -2>, then translate by <-5, 2>",
+        "Translate by <5, -2>, then translate by <5, -2>",
+        "Rotate 90 degrees clockwise, then rotate 180 degrees",
+        "Reflect across the x-axis, then reflect across the y-axis"
+      ],
+      "correctAnswer": "Translate by <5, -2>, then translate by <-5, 2>",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "inverse"
+      ],
+      "explanation": "Opposite translation vectors undo each other."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-019",
+      "type": "multiple_choice",
+      "questionText": "A segment is 9 units long. After a sequence of rigid transformations, how long is its image?",
+      "options": [
+        "18 units",
+        "4.5 units",
+        "It depends on the final quadrant.",
+        "9 units"
+      ],
+      "correctAnswer": "9 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "distance"
+      ],
+      "explanation": "Rigid transformations preserve distances."
+    },
+    {
+      "id": "course3-sequences-rigid-transformations-review-020",
+      "type": "multiple_choice",
+      "questionText": "Which statement is always true for a sequence of rigid transformations?",
+      "options": [
+        "The final image is always translated only.",
+        "The final image is always in Quadrant I.",
+        "The final image is congruent to the original figure.",
+        "The final image is always facing the same direction."
+      ],
+      "correctAnswer": "The final image is congruent to the original figure.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "sequences",
+        "properties"
+      ],
+      "explanation": "A sequence of rigid transformations preserves size and shape."
+    }
+  ]
+}

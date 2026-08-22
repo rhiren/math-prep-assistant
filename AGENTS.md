@@ -345,9 +345,9 @@ and tutorial paths when moving them into book-aligned units so existing local
 progress, Firebase sync, export/import, and parent reporting continue to attach
 to the same skills.
 
-The current active Course 3 manifest contains 42 learner-ready concepts:
+The current active Course 3 manifest contains 43 learner-ready concepts:
 
-- Rigid Transformations and Congruence: 3 concepts
+- Rigid Transformations and Congruence: 4 concepts
 - Real Numbers and Exponents: 12 concepts
 - Linear Equations in One Variable: 10 concepts
 - Lines, Slope, and Linear Equations: 12 concepts
@@ -358,10 +358,11 @@ The current book-aligned learner-ready sequence begins with:
 - `Translations on the Coordinate Plane`
 - `Reflections on the Coordinate Plane`
 - `Rotations on the Coordinate Plane`
+- `Sequences of Rigid Transformations`
 
 The next Course 3 build target is:
 
-- `Sequences of Rigid Transformations`
+- `Congruent Figures on a Grid`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in
