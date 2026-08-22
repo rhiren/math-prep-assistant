@@ -1,0 +1,1000 @@
+{
+  "testId": "course3-rotations-coordinate-plane-core",
+  "conceptId": "concept-rotations-coordinate-plane",
+  "type": "concept",
+  "title": "Rotations on the Coordinate Plane Core Test",
+  "description": "Rotate points and figures about the origin, identify rotation rules, reason backward from images, and analyze rigid-motion properties.",
+  "questions": [
+    {
+      "id": "course3-rotations-coordinate-plane-core-001",
+      "type": "multiple_choice",
+      "questionText": "Point A is (2, 5). Rotate A 90 degrees counterclockwise about the origin. What is A'?",
+      "options": [
+        "(-5, 2)",
+        "(5, -2)",
+        "(-2, -5)",
+        "(5, 2)"
+      ],
+      "correctAnswer": "(-5, 2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (-y, x) for this rotation, so A' is (-5, 2)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-002",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-3, 4). Rotate A 90 degrees clockwise about the origin. What is A'?",
+      "options": [
+        "(-4, -3)",
+        "(3, -4)",
+        "(4, 3)",
+        "(4, -3)"
+      ],
+      "correctAnswer": "(4, 3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (y, -x) for this rotation, so A' is (4, 3)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-003",
+      "type": "multiple_choice",
+      "questionText": "Point A is (6, -1). Rotate A 180 degrees about the origin. What is A'?",
+      "options": [
+        "(1, 6)",
+        "(-6, 1)",
+        "(-1, 6)",
+        "Not 3"
+      ],
+      "correctAnswer": "(-6, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (-x, -y) for this rotation, so A' is (-6, 1)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-004",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-5, -2). Rotate A 90 degrees counterclockwise about the origin. What is A'?",
+      "options": [
+        "(-2, 5)",
+        "(5, 2)",
+        "(-2, -5)",
+        "(2, -5)"
+      ],
+      "correctAnswer": "(2, -5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (-y, x) for this rotation, so A' is (2, -5)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-005",
+      "type": "multiple_choice",
+      "questionText": "Point A is (0, 7). Rotate A 90 degrees clockwise about the origin. What is A'?",
+      "options": [
+        "(7, 0)",
+        "(-7, 0)",
+        "(0, -7)",
+        "Not 3"
+      ],
+      "correctAnswer": "(7, 0)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (y, -x) for this rotation, so A' is (7, 0)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-006",
+      "type": "multiple_choice",
+      "questionText": "Point A is (4, 0). Rotate A 180 degrees about the origin. What is A'?",
+      "options": [
+        "(0, 4)",
+        "Not 2",
+        "Not 3",
+        "(-4, 0)"
+      ],
+      "correctAnswer": "(-4, 0)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (-x, -y) for this rotation, so A' is (-4, 0)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-007",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-6, 3). Rotate A 90 degrees counterclockwise about the origin. What is A'?",
+      "options": [
+        "(3, 6)",
+        "(-3, -6)",
+        "(6, -3)",
+        "(3, -6)"
+      ],
+      "correctAnswer": "(-3, -6)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (-y, x) for this rotation, so A' is (-3, -6)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-008",
+      "type": "multiple_choice",
+      "questionText": "Point A is (1, -8). Rotate A 90 degrees clockwise about the origin. What is A'?",
+      "options": [
+        "(8, 1)",
+        "(-1, 8)",
+        "(-8, -1)",
+        "(-8, 1)"
+      ],
+      "correctAnswer": "(-8, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (y, -x) for this rotation, so A' is (-8, -1)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-009",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-2, -5). Rotate A 180 degrees about the origin. What is A'?",
+      "options": [
+        "(2, 5)",
+        "(5, -2)",
+        "(-5, -2)",
+        "Not 3"
+      ],
+      "correctAnswer": "(2, 5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (-x, -y) for this rotation, so A' is (2, 5)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-010",
+      "type": "multiple_choice",
+      "questionText": "Point A is (7, 2). Rotate A 90 degrees counterclockwise about the origin. What is A'?",
+      "options": [
+        "(2, -7)",
+        "(-2, 7)",
+        "(-7, -2)",
+        "(2, 7)"
+      ],
+      "correctAnswer": "(-2, 7)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Use (x, y) -> (-y, x) for this rotation, so A' is (-2, 7)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-011",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (3, -4) to (4, 3) about the origin?",
+      "options": [
+        "(x, y) -> (y, -x)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (-y, x)"
+      ],
+      "correctAnswer": "(x, y) -> (-y, x)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(3, -4) becomes (4, 3) when (x, y) -> (-y, x) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-012",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (-7, 1) to (1, 7) about the origin?",
+      "options": [
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, -x)",
+        "(x, y) -> (x, -y)"
+      ],
+      "correctAnswer": "(x, y) -> (y, -x)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(-7, 1) becomes (1, 7) when (x, y) -> (y, -x) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-013",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (5, 6) to (-5, -6) about the origin?",
+      "options": [
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (x, -y)",
+        "Not 3"
+      ],
+      "correctAnswer": "(x, y) -> (-x, -y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(5, 6) becomes (-5, -6) when (x, y) -> (-x, -y) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-014",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (-4, -6) to (6, -4) about the origin?",
+      "options": [
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (y, -x)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (x, -y)"
+      ],
+      "correctAnswer": "(x, y) -> (-y, x)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(-4, -6) becomes (6, -4) when (x, y) -> (-y, x) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-015",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (8, -3) to (-3, -8) about the origin?",
+      "options": [
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, -x)",
+        "(x, y) -> (x, -y)"
+      ],
+      "correctAnswer": "(x, y) -> (y, -x)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(8, -3) becomes (-3, -8) when (x, y) -> (y, -x) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-016",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (-1, 9) to (1, -9) about the origin?",
+      "options": [
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (x, -y)",
+        "Not 3",
+        "(x, y) -> (-x, -y)"
+      ],
+      "correctAnswer": "(x, y) -> (-x, -y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(-1, 9) becomes (1, -9) when (x, y) -> (-x, -y) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-017",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (6, 2) to (-2, 6) about the origin?",
+      "options": [
+        "(x, y) -> (y, -x)",
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (x, -y)"
+      ],
+      "correctAnswer": "(x, y) -> (-y, x)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(6, 2) becomes (-2, 6) when (x, y) -> (-y, x) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-018",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (-8, -5) to (-5, 8) about the origin?",
+      "options": [
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (y, -x)"
+      ],
+      "correctAnswer": "(x, y) -> (y, -x)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(-8, -5) becomes (-5, 8) when (x, y) -> (y, -x) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-019",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule correctly rotates (2, -7) to (-2, 7) about the origin?",
+      "options": [
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (x, -y)",
+        "Not 3"
+      ],
+      "correctAnswer": "(x, y) -> (-x, -y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "coordinate-rules"
+      ],
+      "explanation": "(2, -7) becomes (-2, 7) when (x, y) -> (-x, -y) is applied."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-020",
+      "type": "multiple_choice",
+      "questionText": "Triangle A(1, 2), B(4, 2), C(2, 5) is rotated 90 degrees counterclockwise about the origin. Which list gives the image vertices?",
+      "options": [
+        "A'(-2, 1), B'(-2, 4), C'(-5, 2)",
+        "A'(2, -1), B'(2, -4), C'(5, -2)",
+        "A'(-1, -2), B'(-4, -2), C'(-2, -5)",
+        "A'(2, 1), B'(2, 4), C'(5, 2)"
+      ],
+      "correctAnswer": "A'(-2, 1), B'(-2, 4), C'(-5, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "figures",
+        "coordinate-plane"
+      ],
+      "explanation": "Rotate each vertex using (x, y) -> (-y, x) and keep the vertex order the same."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-021",
+      "type": "multiple_choice",
+      "questionText": "Triangle P(-3, 1), Q(-1, 4), R(-5, 3) is rotated 90 degrees clockwise about the origin. Which list gives the image vertices?",
+      "options": [
+        "P'(-1, -3), Q'(-4, -1), R'(-3, -5)",
+        "P'(3, -1), Q'(1, -4), R'(5, -3)",
+        "P'(1, -3), Q'(4, -1), R'(3, -5)",
+        "P'(1, 3), Q'(4, 1), R'(3, 5)"
+      ],
+      "correctAnswer": "P'(1, 3), Q'(4, 1), R'(3, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "figures",
+        "coordinate-plane"
+      ],
+      "explanation": "Rotate each vertex using (x, y) -> (y, -x) and keep the vertex order the same."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-022",
+      "type": "multiple_choice",
+      "questionText": "Triangle D(2, -1), E(6, -1), F(4, -4) is rotated 180 degrees about the origin. Which list gives the image vertices?",
+      "options": [
+        "D'(-2, 1), E'(-6, 1), F'(-4, 4)",
+        "D'(1, 2), E'(1, 6), F'(4, 4)",
+        "D'(-1, 2), E'(-1, 6), F'(-4, 4)",
+        "Not 3"
+      ],
+      "correctAnswer": "D'(-2, 1), E'(-6, 1), F'(-4, 4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "figures",
+        "coordinate-plane"
+      ],
+      "explanation": "Rotate each vertex using (x, y) -> (-x, -y) and keep the vertex order the same."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-023",
+      "type": "multiple_choice",
+      "questionText": "Triangle J(-2, -3), K(-6, -3), L(-3, -7) is rotated 90 degrees counterclockwise about the origin. Which list gives the image vertices?",
+      "options": [
+        "J'(-3, 2), K'(-3, 6), L'(-7, 3)",
+        "J'(2, 3), K'(6, 3), L'(3, 7)",
+        "J'(3, -2), K'(3, -6), L'(7, -3)",
+        "J'(-3, -2), K'(-3, -6), L'(-7, -3)"
+      ],
+      "correctAnswer": "J'(3, -2), K'(3, -6), L'(7, -3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "figures",
+        "coordinate-plane"
+      ],
+      "explanation": "Rotate each vertex using (x, y) -> (-y, x) and keep the vertex order the same."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-024",
+      "type": "multiple_choice",
+      "questionText": "After a 90 degrees counterclockwise rotation about the origin, point P' is (-4, 3). What was the original point P?",
+      "options": [
+        "(-3, -4)",
+        "(3, 4)",
+        "(4, -3)",
+        "(3, -4)"
+      ],
+      "correctAnswer": "(3, 4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "preimage",
+        "reasoning"
+      ],
+      "explanation": "Undo the rotation. The preimage must rotate to (-4, 3), so P was (3, 4)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-025",
+      "type": "multiple_choice",
+      "questionText": "After a 90 degrees clockwise rotation about the origin, point P' is (5, 2). What was the original point P?",
+      "options": [
+        "(2, -5)",
+        "(-5, -2)",
+        "(2, 5)",
+        "(-2, 5)"
+      ],
+      "correctAnswer": "(-2, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "preimage",
+        "reasoning"
+      ],
+      "explanation": "Undo the rotation. The preimage must rotate to (5, 2), so P was (-2, 5)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-026",
+      "type": "multiple_choice",
+      "questionText": "After a 180 degrees rotation about the origin, point P' is (-6, 1). What was the original point P?",
+      "options": [
+        "(-1, -6)",
+        "(1, -6)",
+        "(6, -1)",
+        "Not 3"
+      ],
+      "correctAnswer": "(6, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "preimage",
+        "reasoning"
+      ],
+      "explanation": "Undo the rotation. The preimage must rotate to (-6, 1), so P was (6, -1)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-027",
+      "type": "multiple_choice",
+      "questionText": "After a 90 degrees counterclockwise rotation about the origin, point P' is (7, -3). What was the original point P?",
+      "options": [
+        "(3, 7)",
+        "(-7, 3)",
+        "(-3, -7)",
+        "(-3, 7)"
+      ],
+      "correctAnswer": "(-3, -7)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "preimage",
+        "reasoning"
+      ],
+      "explanation": "Undo the rotation. The preimage must rotate to (7, -3), so P was (-3, -7)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-028",
+      "type": "multiple_choice",
+      "questionText": "A point in Quadrant I is rotated 90 degrees counterclockwise about the origin. Where must its image be?",
+      "options": [
+        "Quadrant I",
+        "Quadrant II",
+        "Quadrant III",
+        "Quadrant IV"
+      ],
+      "correctAnswer": "Quadrant II",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-029",
+      "type": "multiple_choice",
+      "questionText": "A point in Quadrant II is rotated 90 degrees clockwise about the origin. Where must its image be?",
+      "options": [
+        "Quadrant II",
+        "Quadrant III",
+        "Quadrant I",
+        "Quadrant IV"
+      ],
+      "correctAnswer": "Quadrant I",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-030",
+      "type": "multiple_choice",
+      "questionText": "A point in Quadrant III is rotated 180 degrees about the origin. Where must its image be?",
+      "options": [
+        "Quadrant II",
+        "Quadrant I",
+        "Quadrant III",
+        "Quadrant IV"
+      ],
+      "correctAnswer": "Quadrant I",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-031",
+      "type": "multiple_choice",
+      "questionText": "A point in Quadrant IV is rotated 90 degrees counterclockwise about the origin. Where must its image be?",
+      "options": [
+        "Quadrant II",
+        "Quadrant III",
+        "Quadrant IV",
+        "Quadrant I"
+      ],
+      "correctAnswer": "Quadrant I",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-032",
+      "type": "multiple_choice",
+      "questionText": "Which statement is always true after a rotation about the origin?",
+      "options": [
+        "Distances from the origin stay the same.",
+        "The x-coordinate always stays the same.",
+        "The figure always moves right.",
+        "The side lengths double."
+      ],
+      "correctAnswer": "Distances from the origin stay the same.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-033",
+      "type": "multiple_choice",
+      "questionText": "Which property shows that rotations are rigid transformations?",
+      "options": [
+        "The image is always in Quadrant I.",
+        "The image is always larger.",
+        "Corresponding side lengths and angles are preserved.",
+        "Every point keeps both original coordinates."
+      ],
+      "correctAnswer": "Corresponding side lengths and angles are preserved.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-034",
+      "type": "multiple_choice",
+      "questionText": "A point lies on the positive x-axis. After a 90 degree counterclockwise rotation about the origin, where does it land?",
+      "options": [
+        "On the positive y-axis",
+        "On the negative y-axis",
+        "On the positive x-axis",
+        "On the negative x-axis"
+      ],
+      "correctAnswer": "On the positive y-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-035",
+      "type": "multiple_choice",
+      "questionText": "A point lies on the negative y-axis. After a 90 degree clockwise rotation about the origin, where does it land?",
+      "options": [
+        "On the positive x-axis",
+        "On the positive y-axis",
+        "On the negative y-axis",
+        "On the negative x-axis"
+      ],
+      "correctAnswer": "On the negative x-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "properties",
+        "reasoning"
+      ],
+      "explanation": "A rotation turns a point or figure around the center while preserving distances and angle measures."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-036",
+      "type": "multiple_choice",
+      "questionText": "Point P(2, -7) is rotated 90 degrees counterclockwise, then 180 degrees, both about the origin. Where is the final image point?",
+      "options": [
+        "(7, 2)",
+        "(-7, -2)",
+        "(-2, 7)",
+        "(7, -2)"
+      ],
+      "correctAnswer": "(-7, -2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "composition",
+        "coordinate-plane"
+      ],
+      "explanation": "First P becomes (7, 2). A 180 degree rotation sends that point to (-7, -2)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-037",
+      "type": "multiple_choice",
+      "questionText": "Point P(-5, 3) is rotated 90 degrees clockwise, then 90 degrees clockwise again. What single rotation gives the same final image?",
+      "options": [
+        "A 180 degree rotation about the origin",
+        "A 90 degree counterclockwise rotation about the origin",
+        "A translation 10 units right",
+        "A reflection across the x-axis"
+      ],
+      "correctAnswer": "A 180 degree rotation about the origin",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "composition",
+        "equivalence"
+      ],
+      "explanation": "Two quarter-turns in the same direction equal one half-turn."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-038",
+      "type": "multiple_choice",
+      "questionText": "A triangle is rotated 90 degrees counterclockwise about the origin. Vertex A moves from (4, 1) to (-1, 4). Which statement best justifies the move?",
+      "options": [
+        "The rule (x, y) -> (y, -x) sends (4, 1) to (-1, 4).",
+        "The x-coordinate stayed fixed and y changed sign.",
+        "Both coordinates changed sign.",
+        "The rule (x, y) -> (-y, x) sends (4, 1) to (-1, 4)."
+      ],
+      "correctAnswer": "The rule (x, y) -> (-y, x) sends (4, 1) to (-1, 4).",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "justification",
+        "coordinate-rules"
+      ],
+      "explanation": "A 90 degree counterclockwise rotation changes (x, y) to (-y, x)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-039",
+      "type": "multiple_choice",
+      "questionText": "Point M is 10 units from the origin. After any rotation about the origin, how far is M' from the origin?",
+      "options": [
+        "5 units",
+        "20 units",
+        "10 units",
+        "It depends on the quadrant."
+      ],
+      "correctAnswer": "10 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "invariants",
+        "distance"
+      ],
+      "explanation": "Rotations preserve distance from the center of rotation."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-040",
+      "type": "multiple_choice",
+      "questionText": "A segment has endpoints A(1, 5) and B(6, 5). It is rotated 90 degrees clockwise about the origin. What must be true about A'B'?",
+      "options": [
+        "A'B' is twice as long as AB.",
+        "A'B' has the same length as AB.",
+        "A'B' is half as long as AB.",
+        "A'B' must be horizontal."
+      ],
+      "correctAnswer": "A'B' has the same length as AB.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "invariants",
+        "figures"
+      ],
+      "explanation": "A rotation is rigid, so it preserves the length of every segment."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-041",
+      "type": "multiple_choice",
+      "questionText": "A student says a 90 degree clockwise rotation uses (x, y) -> (-y, x). What is the error?",
+      "options": [
+        "That rule is for a 90 degree counterclockwise rotation.",
+        "That rule is for a translation.",
+        "That rule is for a 180 degree rotation.",
+        "There is no error."
+      ],
+      "correctAnswer": "That rule is for a 90 degree counterclockwise rotation.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "misconception",
+        "coordinate-rules"
+      ],
+      "explanation": "Clockwise and counterclockwise quarter-turns use inverse coordinate rules."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-042",
+      "type": "multiple_choice",
+      "questionText": "Point N(-3, -8) is rotated to N'(8, -3). Which rotation was used?",
+      "options": [
+        "90 degrees clockwise about the origin",
+        "180 degrees about the origin",
+        "90 degrees counterclockwise about the origin",
+        "Reflection across the x-axis"
+      ],
+      "correctAnswer": "90 degrees counterclockwise about the origin",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "infer-rule",
+        "reasoning"
+      ],
+      "explanation": "The rule (x, y) -> (-y, x) sends (-3, -8) to (8, -3)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-043",
+      "type": "multiple_choice",
+      "questionText": "Point N(6, -4) is rotated to N'(-4, -6). Which rotation was used?",
+      "options": [
+        "90 degrees counterclockwise about the origin",
+        "180 degrees about the origin",
+        "Reflection across the y-axis",
+        "90 degrees clockwise about the origin"
+      ],
+      "correctAnswer": "90 degrees clockwise about the origin",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "infer-rule",
+        "reasoning"
+      ],
+      "explanation": "The rule (x, y) -> (y, -x) sends (6, -4) to (-4, -6)."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-044",
+      "type": "multiple_choice",
+      "questionText": "Point N(-7, 2) is rotated to N'(7, -2). Which rotation was used?",
+      "options": [
+        "90 degrees clockwise about the origin",
+        "180 degrees about the origin",
+        "90 degrees counterclockwise about the origin",
+        "Reflection across the line y = x"
+      ],
+      "correctAnswer": "180 degrees about the origin",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "infer-rule",
+        "reasoning"
+      ],
+      "explanation": "A 180 degree rotation changes both coordinate signs."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-045",
+      "type": "multiple_choice",
+      "questionText": "A square is rotated 90 degrees about the origin. Which measurement could change?",
+      "options": [
+        "The length of each side",
+        "The measure of each angle",
+        "The coordinates of its vertices",
+        "The distance between adjacent vertices"
+      ],
+      "correctAnswer": "The coordinates of its vertices",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "invariants",
+        "figures"
+      ],
+      "explanation": "A rotation changes location and direction, but not size or shape."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-046",
+      "type": "multiple_choice",
+      "questionText": "After a rotation about the origin, P(0, 6) becomes P'(-6, 0). Which rotation matches this image?",
+      "options": [
+        "90 degrees clockwise",
+        "90 degrees counterclockwise",
+        "180 degrees",
+        "No rotation"
+      ],
+      "correctAnswer": "90 degrees counterclockwise",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "axis-points",
+        "infer-rule"
+      ],
+      "explanation": "The positive y-axis turns to the negative x-axis under a 90 degree counterclockwise rotation."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-047",
+      "type": "multiple_choice",
+      "questionText": "After a rotation about the origin, P(-9, 0) becomes P'(0, 9). Which rotation matches this image?",
+      "options": [
+        "90 degrees clockwise",
+        "90 degrees counterclockwise",
+        "180 degrees",
+        "No rotation"
+      ],
+      "correctAnswer": "90 degrees clockwise",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "axis-points",
+        "infer-rule"
+      ],
+      "explanation": "The negative x-axis turns to the positive y-axis under a 90 degree clockwise rotation."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-048",
+      "type": "multiple_choice",
+      "questionText": "A point is rotated 90 degrees clockwise, then 90 degrees counterclockwise, both about the origin. What is the final image?",
+      "options": [
+        "The 180 degree image",
+        "The reflection across the x-axis",
+        "The reflection across the y-axis",
+        "The original point"
+      ],
+      "correctAnswer": "The original point",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "inverse",
+        "composition"
+      ],
+      "explanation": "The two rotations undo each other because they are inverse moves."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-049",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC is rotated 180 degrees about the origin. A side from A to B was 7 units long before the rotation. How long is A'B'?",
+      "options": [
+        "14 units",
+        "7 units",
+        "3.5 units",
+        "It cannot be known without graphing."
+      ],
+      "correctAnswer": "7 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "invariants",
+        "distance"
+      ],
+      "explanation": "Rotations preserve lengths, so corresponding sides remain congruent."
+    },
+    {
+      "id": "course3-rotations-coordinate-plane-core-050",
+      "type": "multiple_choice",
+      "questionText": "A figure is rotated 90 degrees counterclockwise about the origin, then 90 degrees counterclockwise again. Which coordinate rule describes the combined move?",
+      "options": [
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (-y, x)",
+        "(x, y) -> (y, -x)",
+        "(x, y) -> (x, y)"
+      ],
+      "correctAnswer": "(x, y) -> (-x, -y)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "rotations",
+        "composition",
+        "coordinate-rules"
+      ],
+      "explanation": "Two 90 degree counterclockwise rotations make a 180 degree rotation."
+    }
+  ]
+}
