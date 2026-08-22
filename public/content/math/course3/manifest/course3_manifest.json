@@ -246,6 +246,62 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-congruent-figures-grid",
+              "title": "Congruent Figures on a Grid",
+              "description": "Identify congruent grid figures by matching corresponding side lengths, angle measures, and rigid-motion evidence.",
+              "tags": [
+                "transformations",
+                "congruence",
+                "grid",
+                "rigid-transformations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.1",
+                "8.G.2"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-congruent-figures-grid.md",
+              "tests": [
+                {
+                  "id": "course3-congruent-figures-grid-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-congruent-figures-grid-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-congruent-figures-grid-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-congruent-figures-grid-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },

@@ -1,0 +1,401 @@
+{
+  "testId": "course3-congruent-figures-grid-review",
+  "conceptId": "concept-congruent-figures-grid",
+  "type": "review",
+  "title": "Congruent Figures on a Grid Review",
+  "description": "Review congruent figures, rigid transformations, corresponding measurements, and non-examples.",
+  "questions": [
+    {
+      "id": "course3-congruent-figures-grid-review-001",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 3, 4, 5. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 3, 4, 6",
+        "Triangle B with side lengths 3, 4, 5",
+        "Triangle D with side lengths 2, 4, 5",
+        "Triangle E with side lengths 3, 5, 5"
+      ],
+      "correctAnswer": "Triangle B with side lengths 3, 4, 5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-002",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 5, 5, 8. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 5, 6, 8",
+        "Triangle D with side lengths 4, 5, 8",
+        "Triangle E with side lengths 5, 5, 9",
+        "Triangle B with side lengths 5, 5, 8"
+      ],
+      "correctAnswer": "Triangle B with side lengths 5, 5, 8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-003",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 2, 6, 6. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle B with side lengths 2, 6, 6",
+        "Triangle C with side lengths 3, 6, 6",
+        "Triangle D with side lengths 2, 5, 6",
+        "Triangle E with side lengths 2, 6, 7"
+      ],
+      "correctAnswer": "Triangle B with side lengths 2, 6, 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-004",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 4, 7, 9. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 4, 7, 10",
+        "Triangle D with side lengths 4, 6, 9",
+        "Triangle B with side lengths 4, 7, 9",
+        "Triangle E with side lengths 5, 7, 9"
+      ],
+      "correctAnswer": "Triangle B with side lengths 4, 7, 9",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-005",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 6, 8, 10. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 6, 8, 12",
+        "Triangle D with side lengths 5, 8, 10",
+        "Triangle E with side lengths 6, 7, 10",
+        "Triangle B with side lengths 6, 8, 10"
+      ],
+      "correctAnswer": "Triangle B with side lengths 6, 8, 10",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-006",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 7, 7, 4. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 7, 7, 5",
+        "Triangle B with side lengths 7, 7, 4",
+        "Triangle D with side lengths 7, 6, 4",
+        "Triangle E with side lengths 8, 7, 4"
+      ],
+      "correctAnswer": "Triangle B with side lengths 7, 7, 4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-007",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 3, 3, 3. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 3, 3, 4",
+        "Triangle D with side lengths 2, 3, 3",
+        "Triangle B with side lengths 3, 3, 3",
+        "Triangle E with side lengths 3, 4, 4"
+      ],
+      "correctAnswer": "Triangle B with side lengths 3, 3, 3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-008",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 5, 12, 13. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle B with side lengths 5, 12, 13",
+        "Triangle C with side lengths 5, 12, 14",
+        "Triangle D with side lengths 6, 12, 13",
+        "Triangle E with side lengths 5, 11, 13"
+      ],
+      "correctAnswer": "Triangle B with side lengths 5, 12, 13",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-009",
+      "type": "multiple_choice",
+      "questionText": "A rectangle is 6 units by 4 units. Which rectangle is congruent to it?",
+      "options": [
+        "A rectangle that is 6 units by 5 units",
+        "A rectangle that is 12 units by 8 units",
+        "A rectangle that is 4 units by 6 units",
+        "A rectangle that is 5 units by 4 units"
+      ],
+      "correctAnswer": "A rectangle that is 4 units by 6 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-010",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 40, 60, and 80 degrees and side lengths 5, 7, and 9. Which triangle is congruent?",
+      "options": [
+        "A triangle with angles 80, 40, 60 degrees and side lengths 9, 5, 7",
+        "A triangle with angles 40, 60, 80 degrees and side lengths 10, 14, 18",
+        "A triangle with angles 45, 55, 80 degrees and side lengths 5, 7, 9",
+        "A triangle with angles 40, 60, 80 degrees and side lengths 5, 7, 10"
+      ],
+      "correctAnswer": "A triangle with angles 80, 40, 60 degrees and side lengths 9, 5, 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-011",
+      "type": "multiple_choice",
+      "questionText": "Figure A is translated 3 units right and 2 units down to make Figure B. What must be true?",
+      "options": [
+        "Figure B is larger than Figure A.",
+        "Figure B is similar but not congruent.",
+        "Figure B has different angle measures.",
+        "Figure A and Figure B are congruent."
+      ],
+      "correctAnswer": "Figure A and Figure B are congruent.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-012",
+      "type": "multiple_choice",
+      "questionText": "Figure A is reflected across the y-axis to make Figure B. What must be true?",
+      "options": [
+        "All x-coordinates stay the same.",
+        "Corresponding side lengths are equal.",
+        "The figure doubles in size.",
+        "Corresponding angles are cut in half."
+      ],
+      "correctAnswer": "Corresponding side lengths are equal.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-013",
+      "type": "multiple_choice",
+      "questionText": "Figure A is rotated 180 degrees to make Figure B. Which measurement is preserved?",
+      "options": [
+        "Every angle measure",
+        "Only horizontal side lengths",
+        "Only vertical side lengths",
+        "Only the coordinates"
+      ],
+      "correctAnswer": "Every angle measure",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-014",
+      "type": "multiple_choice",
+      "questionText": "A shape on a grid is stretched horizontally. Is the image congruent to the original?",
+      "options": [
+        "Yes, because the shape stays on the grid.",
+        "Yes, because orientation changed.",
+        "No, because a stretch changes distances.",
+        "No, because translations are not rigid."
+      ],
+      "correctAnswer": "No, because a stretch changes distances.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-015",
+      "type": "multiple_choice",
+      "questionText": "Two grid figures have the same shape but one has all side lengths doubled. What is true?",
+      "options": [
+        "They are congruent.",
+        "They are similar, but not congruent.",
+        "They have different angle measures only.",
+        "They are related by a reflection only."
+      ],
+      "correctAnswer": "They are similar, but not congruent.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-016",
+      "type": "multiple_choice",
+      "questionText": "Which evidence is strongest for congruence on a grid?",
+      "options": [
+        "Both figures are in Quadrant I.",
+        "Both figures have one horizontal side.",
+        "Both figures have vertices with integer coordinates.",
+        "A sequence of translations, rotations, and reflections maps one figure exactly onto the other."
+      ],
+      "correctAnswer": "A sequence of translations, rotations, and reflections maps one figure exactly onto the other.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-017",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC maps to triangle DEF. AB matches DE, BC matches EF, and AC matches DF. What else should match for congruence?",
+      "options": [
+        "Only the x-coordinates",
+        "Corresponding angle measures",
+        "Only the area of the grid",
+        "The names of the vertices"
+      ],
+      "correctAnswer": "Corresponding angle measures",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-018",
+      "type": "multiple_choice",
+      "questionText": "A figure is flipped and then slid. What can change?",
+      "options": [
+        "Its location and orientation",
+        "Its side lengths",
+        "Its angle measures",
+        "Its congruence to the original"
+      ],
+      "correctAnswer": "Its location and orientation",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-019",
+      "type": "multiple_choice",
+      "questionText": "Which transformation can create a congruent image?",
+      "options": [
+        "A dilation by 2",
+        "A horizontal stretch",
+        "A vertical compression",
+        "A rotation"
+      ],
+      "correctAnswer": "A rotation",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    },
+    {
+      "id": "course3-congruent-figures-grid-review-020",
+      "type": "multiple_choice",
+      "questionText": "A polygon and its image have matching side lengths, but one angle is different. Are they congruent?",
+      "options": [
+        "Yes, side lengths are enough for every polygon.",
+        "Yes, all grid figures are congruent.",
+        "No, corresponding angles must also match.",
+        "No, congruent figures cannot move."
+      ],
+      "correctAnswer": "No, corresponding angles must also match.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "review"
+      ],
+      "explanation": "Rigid transformations preserve size and shape; stretches and non-unit dilations do not."
+    }
+  ]
+}

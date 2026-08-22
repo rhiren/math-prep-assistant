@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-congruent-figures-grid-core",
+  "conceptId": "concept-congruent-figures-grid",
+  "type": "concept",
+  "title": "Congruent Figures on a Grid Core Test",
+  "description": "Identify congruent figures on grids using corresponding measurements and rigid transformations.",
+  "questions": [
+    {
+      "id": "course3-congruent-figures-grid-core-001",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 3, 4, 5. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle B with side lengths 3, 4, 5",
+        "Triangle C with side lengths 3, 4, 6",
+        "Triangle D with side lengths 2, 4, 5",
+        "Triangle E with side lengths 3, 5, 5"
+      ],
+      "correctAnswer": "Triangle B with side lengths 3, 4, 5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-002",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 5, 5, 8. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 5, 6, 8",
+        "Triangle D with side lengths 4, 5, 8",
+        "Triangle B with side lengths 5, 5, 8",
+        "Triangle E with side lengths 5, 5, 9"
+      ],
+      "correctAnswer": "Triangle B with side lengths 5, 5, 8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-003",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 2, 6, 6. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 3, 6, 6",
+        "Triangle B with side lengths 2, 6, 6",
+        "Triangle D with side lengths 2, 5, 6",
+        "Triangle E with side lengths 2, 6, 7"
+      ],
+      "correctAnswer": "Triangle B with side lengths 2, 6, 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-004",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 4, 7, 9. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 4, 7, 10",
+        "Triangle D with side lengths 4, 6, 9",
+        "Triangle E with side lengths 5, 7, 9",
+        "Triangle B with side lengths 4, 7, 9"
+      ],
+      "correctAnswer": "Triangle B with side lengths 4, 7, 9",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-005",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 6, 8, 10. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle B with side lengths 6, 8, 10",
+        "Triangle C with side lengths 6, 8, 12",
+        "Triangle D with side lengths 5, 8, 10",
+        "Triangle E with side lengths 6, 7, 10"
+      ],
+      "correctAnswer": "Triangle B with side lengths 6, 8, 10",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-006",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 7, 7, 4. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 7, 7, 5",
+        "Triangle D with side lengths 7, 6, 4",
+        "Triangle E with side lengths 8, 7, 4",
+        "Triangle B with side lengths 7, 7, 4"
+      ],
+      "correctAnswer": "Triangle B with side lengths 7, 7, 4",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-007",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 3, 3, 3. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 3, 3, 4",
+        "Triangle B with side lengths 3, 3, 3",
+        "Triangle D with side lengths 2, 3, 3",
+        "Triangle E with side lengths 3, 4, 4"
+      ],
+      "correctAnswer": "Triangle B with side lengths 3, 3, 3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-008",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 5, 12, 13. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 5, 12, 14",
+        "Triangle D with side lengths 6, 12, 13",
+        "Triangle B with side lengths 5, 12, 13",
+        "Triangle E with side lengths 5, 11, 13"
+      ],
+      "correctAnswer": "Triangle B with side lengths 5, 12, 13",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-009",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 4, 4, 6. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle B with side lengths 4, 4, 6",
+        "Triangle C with side lengths 4, 5, 6",
+        "Triangle D with side lengths 3, 4, 6",
+        "Triangle E with side lengths 4, 4, 7"
+      ],
+      "correctAnswer": "Triangle B with side lengths 4, 4, 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-010",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has side lengths 8, 9, 10. Which triangle is congruent to Triangle A?",
+      "options": [
+        "Triangle C with side lengths 8, 9, 11",
+        "Triangle B with side lengths 8, 9, 10",
+        "Triangle D with side lengths 7, 9, 10",
+        "Triangle E with side lengths 8, 10, 10"
+      ],
+      "correctAnswer": "Triangle B with side lengths 8, 9, 10",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "side-lengths",
+        "grid"
+      ],
+      "explanation": "Congruent triangles have matching corresponding side lengths."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-011",
+      "type": "multiple_choice",
+      "questionText": "A rectangle is 6 units by 4 units. Which rectangle is congruent to it?",
+      "options": [
+        "A rectangle that is 6 units by 5 units",
+        "A rectangle that is 12 units by 8 units",
+        "A rectangle that is 5 units by 4 units",
+        "A rectangle that is 4 units by 6 units"
+      ],
+      "correctAnswer": "A rectangle that is 4 units by 6 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-012",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 40, 60, and 80 degrees and side lengths 5, 7, and 9. Which triangle is congruent?",
+      "options": [
+        "A triangle with angles 40, 60, 80 degrees and side lengths 10, 14, 18",
+        "A triangle with angles 45, 55, 80 degrees and side lengths 5, 7, 9",
+        "A triangle with angles 80, 40, 60 degrees and side lengths 9, 5, 7",
+        "A triangle with angles 40, 60, 80 degrees and side lengths 5, 7, 10"
+      ],
+      "correctAnswer": "A triangle with angles 80, 40, 60 degrees and side lengths 9, 5, 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-013",
+      "type": "multiple_choice",
+      "questionText": "Figure A is translated 3 units right and 2 units down to make Figure B. What must be true?",
+      "options": [
+        "Figure B is larger than Figure A.",
+        "Figure A and Figure B are congruent.",
+        "Figure B is similar but not congruent.",
+        "Figure B has different angle measures."
+      ],
+      "correctAnswer": "Figure A and Figure B are congruent.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-014",
+      "type": "multiple_choice",
+      "questionText": "Figure A is reflected across the y-axis to make Figure B. What must be true?",
+      "options": [
+        "Corresponding side lengths are equal.",
+        "All x-coordinates stay the same.",
+        "The figure doubles in size.",
+        "Corresponding angles are cut in half."
+      ],
+      "correctAnswer": "Corresponding side lengths are equal.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-015",
+      "type": "multiple_choice",
+      "questionText": "Figure A is rotated 180 degrees to make Figure B. Which measurement is preserved?",
+      "options": [
+        "Only horizontal side lengths",
+        "Only vertical side lengths",
+        "Every angle measure",
+        "Only the coordinates"
+      ],
+      "correctAnswer": "Every angle measure",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-016",
+      "type": "multiple_choice",
+      "questionText": "A shape on a grid is stretched horizontally. Is the image congruent to the original?",
+      "options": [
+        "Yes, because the shape stays on the grid.",
+        "Yes, because orientation changed.",
+        "No, because translations are not rigid.",
+        "No, because a stretch changes distances."
+      ],
+      "correctAnswer": "No, because a stretch changes distances.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-017",
+      "type": "multiple_choice",
+      "questionText": "Two grid figures have the same shape but one has all side lengths doubled. What is true?",
+      "options": [
+        "They are congruent.",
+        "They are similar, but not congruent.",
+        "They have different angle measures only.",
+        "They are related by a reflection only."
+      ],
+      "correctAnswer": "They are similar, but not congruent.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-018",
+      "type": "multiple_choice",
+      "questionText": "Which evidence is strongest for congruence on a grid?",
+      "options": [
+        "Both figures are in Quadrant I.",
+        "Both figures have one horizontal side.",
+        "Both figures have vertices with integer coordinates.",
+        "A sequence of translations, rotations, and reflections maps one figure exactly onto the other."
+      ],
+      "correctAnswer": "A sequence of translations, rotations, and reflections maps one figure exactly onto the other.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-019",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC maps to triangle DEF. AB matches DE, BC matches EF, and AC matches DF. What else should match for congruence?",
+      "options": [
+        "Corresponding angle measures",
+        "Only the x-coordinates",
+        "Only the area of the grid",
+        "The names of the vertices"
+      ],
+      "correctAnswer": "Corresponding angle measures",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-020",
+      "type": "multiple_choice",
+      "questionText": "A figure is flipped and then slid. What can change?",
+      "options": [
+        "Its location and orientation",
+        "Its side lengths",
+        "Its angle measures",
+        "Its congruence to the original"
+      ],
+      "correctAnswer": "Its location and orientation",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-021",
+      "type": "multiple_choice",
+      "questionText": "Which transformation can create a congruent image?",
+      "options": [
+        "A dilation by 2",
+        "A horizontal stretch",
+        "A vertical compression",
+        "A rotation"
+      ],
+      "correctAnswer": "A rotation",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-022",
+      "type": "multiple_choice",
+      "questionText": "A polygon and its image have matching side lengths, but one angle is different. Are they congruent?",
+      "options": [
+        "No, corresponding angles must also match.",
+        "Yes, side lengths are enough for every polygon.",
+        "Yes, all grid figures are congruent.",
+        "No, congruent figures cannot move."
+      ],
+      "correctAnswer": "No, corresponding angles must also match.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-023",
+      "type": "multiple_choice",
+      "questionText": "A triangle is moved by a rigid transformation. What happens to its area?",
+      "options": [
+        "The area doubles.",
+        "The area becomes half.",
+        "The area stays the same.",
+        "The area cannot be compared."
+      ],
+      "correctAnswer": "The area stays the same.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-024",
+      "type": "multiple_choice",
+      "questionText": "Which pair must be congruent?",
+      "options": [
+        "A figure and its dilation by 3",
+        "A figure and its translation",
+        "A figure and a wider version of itself",
+        "A figure and a taller version of itself"
+      ],
+      "correctAnswer": "A figure and its translation",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-025",
+      "type": "multiple_choice",
+      "questionText": "If two figures are congruent, which statement is true?",
+      "options": [
+        "They must be in the same location.",
+        "They must face the same direction.",
+        "They must have positive coordinates.",
+        "They have the same size and shape."
+      ],
+      "correctAnswer": "They have the same size and shape.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-026",
+      "type": "multiple_choice",
+      "questionText": "A student says two figures are congruent because they both look like triangles. What is missing?",
+      "options": [
+        "Evidence that both are on paper",
+        "Evidence that both are colored",
+        "Evidence that corresponding sides and angles match",
+        "Evidence that both have labels"
+      ],
+      "correctAnswer": "Evidence that corresponding sides and angles match",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-027",
+      "type": "multiple_choice",
+      "questionText": "On a grid, Figure B is made by sliding Figure A. Which side of B matches a 5-unit side of A?",
+      "options": [
+        "Any 4-unit side",
+        "The longest side only",
+        "The corresponding 5-unit side",
+        "A side with a different length"
+      ],
+      "correctAnswer": "The corresponding 5-unit side",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-028",
+      "type": "multiple_choice",
+      "questionText": "A reflected image appears reversed. Why can it still be congruent?",
+      "options": [
+        "Reflection changes every length by the same factor.",
+        "Reflection preserves distances and angle measures.",
+        "Reflection keeps every coordinate unchanged.",
+        "Reflection is a dilation."
+      ],
+      "correctAnswer": "Reflection preserves distances and angle measures.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-029",
+      "type": "multiple_choice",
+      "questionText": "Two quadrilaterals have side lengths 3, 4, 3, 4 in order. One has right angles and one does not. Are they necessarily congruent?",
+      "options": [
+        "Yes, the sides are enough.",
+        "Yes, all quadrilaterals are congruent.",
+        "No, angle measures must match too.",
+        "No, because no quadrilaterals can be congruent."
+      ],
+      "correctAnswer": "No, angle measures must match too.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-030",
+      "type": "multiple_choice",
+      "questionText": "Which statement best describes congruent figures?",
+      "options": [
+        "They can only be matched by stretching.",
+        "They can be matched by rigid transformations.",
+        "They always have the same coordinates.",
+        "They always face the same way."
+      ],
+      "correctAnswer": "They can be matched by rigid transformations.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-031",
+      "type": "multiple_choice",
+      "questionText": "A shape is rotated on a grid. What happens to distances between vertices?",
+      "options": [
+        "They double.",
+        "They become negative.",
+        "They depend on the quadrant.",
+        "They stay the same."
+      ],
+      "correctAnswer": "They stay the same.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-032",
+      "type": "multiple_choice",
+      "questionText": "A figure has side lengths 2, 3, 4, and 5. Its image has side lengths 2, 3, 4, and 6. Are the figures congruent?",
+      "options": [
+        "No, one corresponding side length changed.",
+        "Yes, most side lengths match.",
+        "Yes, both are four-sided.",
+        "No, because figures cannot move on grids."
+      ],
+      "correctAnswer": "No, one corresponding side length changed.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-033",
+      "type": "multiple_choice",
+      "questionText": "A triangle and its image have the same side lengths and same angle measures. What can differ?",
+      "options": [
+        "Their size",
+        "Their shape",
+        "Their position on the grid",
+        "Their corresponding side lengths"
+      ],
+      "correctAnswer": "Their position on the grid",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-034",
+      "type": "multiple_choice",
+      "questionText": "Which move does not preserve congruence?",
+      "options": [
+        "Dilating by a scale factor of 2",
+        "Translating left 4",
+        "Reflecting across an axis",
+        "Rotating 90 degrees"
+      ],
+      "correctAnswer": "Dilating by a scale factor of 2",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-035",
+      "type": "multiple_choice",
+      "questionText": "A figure is congruent to its image. What transformation sequence could have made it?",
+      "options": [
+        "Dilate by 2, then translate",
+        "Stretch horizontally, then rotate",
+        "Compress vertically, then reflect",
+        "Reflect, then translate"
+      ],
+      "correctAnswer": "Reflect, then translate",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "grid",
+        "reasoning"
+      ],
+      "explanation": "Congruent figures have the same size and shape, even if position or orientation changes."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-036",
+      "type": "multiple_choice",
+      "questionText": "Figure A has vertices (1,1), (5,1), (5,4), (1,4). Figure B has vertices (-2,3), (-2,7), (-5,7), (-5,3). Which claim is best?",
+      "options": [
+        "The figures are not congruent because the coordinates are different.",
+        "The figures are congruent; a rotation or reflection can change orientation while preserving side lengths.",
+        "The figures are not congruent because one side is vertical.",
+        "The figures are congruent only if all vertices are positive."
+      ],
+      "correctAnswer": "The figures are congruent; a rotation or reflection can change orientation while preserving side lengths.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-037",
+      "type": "multiple_choice",
+      "questionText": "A triangle has side lengths 4, 6, and 7. Its image has side lengths 8, 12, and 14. What is true?",
+      "options": [
+        "The image is not congruent because the side lengths changed.",
+        "The image is congruent because the ratios match.",
+        "The image is congruent because the angles might match.",
+        "The image is congruent because it is still a triangle."
+      ],
+      "correctAnswer": "The image is not congruent because the side lengths changed.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-038",
+      "type": "multiple_choice",
+      "questionText": "Which observation rules out congruence?",
+      "options": [
+        "The image moved left.",
+        "The image turned 90 degrees.",
+        "The image was flipped.",
+        "One corresponding side changed from 5 units to 6 units."
+      ],
+      "correctAnswer": "One corresponding side changed from 5 units to 6 units.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-039",
+      "type": "multiple_choice",
+      "questionText": "A rigid sequence maps triangle ABC onto triangle XYZ. AB = 8 and angle B = 50 degrees. What must be true?",
+      "options": [
+        "The corresponding side is 16.",
+        "The corresponding angle is 100 degrees.",
+        "The corresponding side is 8 and the corresponding angle is 50 degrees.",
+        "Only the area is preserved."
+      ],
+      "correctAnswer": "The corresponding side is 8 and the corresponding angle is 50 degrees.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-040",
+      "type": "multiple_choice",
+      "questionText": "A student checks only the areas of two figures and says they are congruent. What is the problem?",
+      "options": [
+        "Congruent figures cannot have equal area.",
+        "Equal area alone does not guarantee matching side lengths and angles.",
+        "Area changes under every rigid transformation.",
+        "Only coordinates matter for congruence."
+      ],
+      "correctAnswer": "Equal area alone does not guarantee matching side lengths and angles.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-041",
+      "type": "multiple_choice",
+      "questionText": "Two grid figures have the same perimeter but different side lengths. Are they guaranteed congruent?",
+      "options": [
+        "No, equal perimeter is not enough.",
+        "Yes, perimeter proves congruence.",
+        "Yes, all grid figures with equal perimeter match.",
+        "No, because congruent figures have different perimeters."
+      ],
+      "correctAnswer": "No, equal perimeter is not enough.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-042",
+      "type": "multiple_choice",
+      "questionText": "A figure is reflected, rotated, and translated. Which statement is strongest?",
+      "options": [
+        "The final image is larger.",
+        "The final image is always in the same quadrant.",
+        "The final image is congruent to the original.",
+        "The final image has different angles."
+      ],
+      "correctAnswer": "The final image is congruent to the original.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-043",
+      "type": "multiple_choice",
+      "questionText": "Which evidence proves two quadrilaterals are not congruent?",
+      "options": [
+        "They are in different places.",
+        "One is rotated.",
+        "One is reflected.",
+        "One has a 90 degree angle where the corresponding angle is 80 degrees."
+      ],
+      "correctAnswer": "One has a 90 degree angle where the corresponding angle is 80 degrees.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-044",
+      "type": "multiple_choice",
+      "questionText": "A rectangle 3 by 8 and a rectangle 4 by 6 both have area 24. Are they congruent?",
+      "options": [
+        "Yes, their areas match.",
+        "No, their side lengths do not match.",
+        "Yes, both are rectangles.",
+        "No, rectangles cannot be congruent."
+      ],
+      "correctAnswer": "No, their side lengths do not match.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-045",
+      "type": "multiple_choice",
+      "questionText": "A triangle is translated, then dilated by 1/2. Is the final triangle congruent to the original?",
+      "options": [
+        "Yes, the translation makes it rigid.",
+        "Yes, all triangles after movement are congruent.",
+        "No, the dilation changes size.",
+        "No, translations change angles."
+      ],
+      "correctAnswer": "No, the dilation changes size.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-046",
+      "type": "multiple_choice",
+      "questionText": "Two figures are congruent. Which transformation sequence could map one onto the other?",
+      "options": [
+        "Dilate by 3, then rotate",
+        "Rotate 180 degrees, then translate",
+        "Stretch horizontally, then translate",
+        "Compress vertically, then reflect"
+      ],
+      "correctAnswer": "Rotate 180 degrees, then translate",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-047",
+      "type": "multiple_choice",
+      "questionText": "A polygon has a side of length 10. A possible congruent image has no side of length 10. What should you conclude?",
+      "options": [
+        "The image is not congruent to the polygon.",
+        "The image is congruent if the angles match.",
+        "The image is congruent if the area matches.",
+        "The image is congruent after any translation."
+      ],
+      "correctAnswer": "The image is not congruent to the polygon.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-048",
+      "type": "multiple_choice",
+      "questionText": "A figure and its image are congruent, but the image faces the opposite direction. Which move may have occurred?",
+      "options": [
+        "A dilation",
+        "A stretch",
+        "A scale change",
+        "A reflection"
+      ],
+      "correctAnswer": "A reflection",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-049",
+      "type": "multiple_choice",
+      "questionText": "A student says a rotated figure is not congruent because it faces a new direction. What is the correction?",
+      "options": [
+        "Rotations always change side lengths.",
+        "Direction can change; size and shape determine congruence.",
+        "Only translations preserve congruence.",
+        "Congruent figures must face the same way."
+      ],
+      "correctAnswer": "Direction can change; size and shape determine congruence.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    },
+    {
+      "id": "course3-congruent-figures-grid-core-050",
+      "type": "multiple_choice",
+      "questionText": "Which is the best final check after matching two grid figures?",
+      "options": [
+        "Verify all corresponding lengths and angles are preserved.",
+        "Check that both figures are above the x-axis.",
+        "Check that both figures use the same letters.",
+        "Check that both figures are drawn in the same color."
+      ],
+      "correctAnswer": "Verify all corresponding lengths and angles are preserved.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "A congruence claim needs preserved corresponding distances and angle measures, or a rigid transformation sequence."
+    }
+  ]
+}
