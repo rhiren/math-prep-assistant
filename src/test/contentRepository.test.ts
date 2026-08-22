@@ -81,6 +81,18 @@ function getTemplateStats(questions: Question[]) {
   };
 }
 
+function getDifficultyRank(question: Question) {
+  if (question.difficulty === "scaffold") {
+    return 0;
+  }
+
+  if (question.difficulty === "standard") {
+    return 1;
+  }
+
+  return 2;
+}
+
 function normalizeTutorialForSimilarity(tutorial: string) {
   return tutorial
     .replace(/^# .+$/m, "")
@@ -452,6 +464,13 @@ describe("content repository", () => {
     const course = await repository.getCourse("course-3");
     const conceptPacks = [
       {
+        conceptId: "concept-translations-coordinate-plane",
+        standards: ["8.G.1", "8.G.3"],
+        tutorialHeading: "# Translations on the Coordinate Plane",
+        coreTestId: "course3-translations-coordinate-plane-core",
+        reviewTestId: "course3-translations-coordinate-plane-review",
+      },
+      {
         conceptId: "concept-rational-irrational-numbers",
         standards: ["8.NS.1"],
         tutorialHeading: "# Rational and Irrational Numbers",
@@ -731,14 +750,16 @@ describe("content repository", () => {
     expect(course?.instructionalGrades).toEqual(["8"]);
     expect(course?.programPathways).toEqual(["accelerated"]);
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
-    expect(course?.units[0]?.id).toBe("course3-unit-real-numbers-exponents");
-    expect(course?.units[0]?.concepts).toHaveLength(12);
-    expect(course?.units[1]?.id).toBe("course3-unit-linear-equations");
-    expect(course?.units[1]?.concepts).toHaveLength(10);
-    expect(course?.units[2]?.id).toBe("course3-unit-lines-slope-linear-equations");
-    expect(course?.units[2]?.concepts).toHaveLength(12);
-    expect(course?.units[3]?.id).toBe("course3-unit-systems-linear-equations");
-    expect(course?.units[3]?.concepts).toHaveLength(5);
+    expect(course?.units[0]?.id).toBe("course3-unit-rigid-transformations-congruence");
+    expect(course?.units[0]?.concepts).toHaveLength(1);
+    expect(course?.units[1]?.id).toBe("course3-unit-real-numbers-exponents");
+    expect(course?.units[1]?.concepts).toHaveLength(12);
+    expect(course?.units[2]?.id).toBe("course3-unit-linear-equations");
+    expect(course?.units[2]?.concepts).toHaveLength(10);
+    expect(course?.units[3]?.id).toBe("course3-unit-lines-slope-linear-equations");
+    expect(course?.units[3]?.concepts).toHaveLength(12);
+    expect(course?.units[4]?.id).toBe("course3-unit-systems-linear-equations");
+    expect(course?.units[4]?.concepts).toHaveLength(5);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);
@@ -892,6 +913,28 @@ describe("content repository", () => {
             getTemplateStats(challengeQuestions).uniqueTemplateCount,
             `${testSet.id} challenge questions need varied reasoning forms`,
           ).toBeGreaterThanOrEqual(3);
+        }
+      }
+    }
+  });
+
+  it("keeps Course 3 question difficulty from regressing within a test set", async () => {
+    const repository = await createDefaultContentRepository();
+    const course = await repository.getCourse("course-3");
+    const concepts = course?.units.flatMap((unit) => unit.concepts) ?? [];
+
+    for (const concept of concepts) {
+      const testSets = await repository.getTestSetsForConcept(concept.id);
+
+      for (const testSet of testSets) {
+        const questions = await repository.getQuestionsForTestSet(testSet.id);
+        const difficultyRanks = questions.map(getDifficultyRank);
+
+        for (let index = 1; index < difficultyRanks.length; index += 1) {
+          expect(
+            difficultyRanks[index],
+            `${testSet.id} lowers difficulty from question ${index} to question ${index + 1}`,
+          ).toBeGreaterThanOrEqual(difficultyRanks[index - 1] ?? 0);
         }
       }
     }

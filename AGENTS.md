@@ -345,17 +345,21 @@ and tutorial paths when moving them into book-aligned units so existing local
 progress, Firebase sync, export/import, and parent reporting continue to attach
 to the same skills.
 
-The current active Course 3 manifest still contains 39 learner-ready concepts
-from the older standards-ordered sequence:
+The current active Course 3 manifest contains 40 learner-ready concepts:
 
+- Rigid Transformations and Congruence: 1 concept
 - Real Numbers and Exponents: 12 concepts
 - Linear Equations in One Variable: 10 concepts
 - Lines, Slope, and Linear Equations: 12 concepts
 - Systems of Linear Equations: 5 concepts
 
-The next Course 3 build target is book Unit 1, beginning with:
+The current book-aligned learner-ready sequence begins with:
 
 - `Translations on the Coordinate Plane`
+
+The next Course 3 build target is:
+
+- `Reflections on the Coordinate Plane`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in
@@ -369,6 +373,11 @@ question templates, one template dominating the bank, or challenge questions
 that do not vary their reasoning form. Existing template-variety debt is
 explicitly allowlisted in the test and should be reduced, not expanded, unless
 there is a deliberate documented reason.
+
+Course 3 questions should increase in difficulty within each test set: scaffold
+questions first, then standard questions, then challenge questions when present.
+The content repository regression tests should block future Course 3 banks that
+drop back to easier difficulty after harder questions have started.
 
 Course 3 tutorials must be concept-specific. Do not clone one tutorial body
 across multiple concepts with only the heading changed. The content repository

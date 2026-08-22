@@ -280,11 +280,15 @@ The learner-ready Unit 4 concepts are:
 4. Solve Systems by Elimination
 5. Systems with No Solution
 
+The learner-ready book-aligned Unit 1 concepts are:
+
+1. Translations on the Coordinate Plane
+
 Course 3 currently contains:
 
-- 39 active concepts
-- 78 assessment files
-- 2730 assessment questions
+- 40 active concepts
+- 80 assessment files
+- 2800 assessment questions
 - 50 core questions per concept
 - 20 review questions per concept
 
@@ -309,8 +313,9 @@ The complete course sequence and release order are in:
 
 As of 2026-08-22, Course 3 rollout planning has been realigned to the
 Amplify Desmos Math California Grade 8 book sequence used by the student's
-school. The active manifest has not yet been reordered; it still contains the
-39 learner-ready concepts listed above so existing progress remains stable.
+school. The active manifest now begins with the first book-aligned unit and
+keeps the previously built learner-ready concepts listed above so existing
+progress remains stable.
 Future build work should follow the book-aligned sequence in
 `docs/course3_concept_rollout_plan.md` and preserve existing concept/test IDs
 when reusable packs are moved into their book-aligned units.
@@ -358,6 +363,8 @@ For the current Course 3 working tree, the following passed:
 - unpredictable Course 3 multiple-choice correct-answer position sequencing,
   including a block on three-letter A/B/C-style mini-cycles
 - Course 3 template-variety quality gate for new banks
+- Course 3 difficulty-progression quality gate so questions do not drop back
+  to easier difficulty after harder questions begin
 - Course 3 tutorial uniqueness and minimum-length quality gate
 - unique option checks
 - known-correct mathematical spot checks
@@ -407,7 +414,7 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 The next Course 3 rollout task is book Unit 1:
 
-`Translations on the Coordinate Plane`
+`Reflections on the Coordinate Plane`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,
