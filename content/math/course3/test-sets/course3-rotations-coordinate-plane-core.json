@@ -53,7 +53,7 @@
         "(1, 6)",
         "(-6, 1)",
         "(-1, 6)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "(-6, 1)",
       "difficulty": "scaffold",
@@ -93,7 +93,7 @@
         "(7, 0)",
         "(-7, 0)",
         "(0, -7)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "(7, 0)",
       "difficulty": "scaffold",
@@ -111,8 +111,8 @@
       "questionText": "Point A is (4, 0). Rotate A 180 degrees about the origin. What is A'?",
       "options": [
         "(0, 4)",
-        "Not 2",
-        "Not 3",
+        "(0, 0)",
+        "(1, -1)",
         "(-4, 0)"
       ],
       "correctAnswer": "(-4, 0)",
@@ -173,7 +173,7 @@
         "(2, 5)",
         "(5, -2)",
         "(-5, -2)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "(2, 5)",
       "difficulty": "scaffold",
@@ -251,7 +251,7 @@
         "(x, y) -> (-y, x)",
         "(x, y) -> (-x, -y)",
         "(x, y) -> (x, -y)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "(x, y) -> (-x, -y)",
       "difficulty": "standard",
@@ -307,7 +307,7 @@
       "options": [
         "(x, y) -> (-y, x)",
         "(x, y) -> (x, -y)",
-        "Not 3",
+        "(0, 0)",
         "(x, y) -> (-x, -y)"
       ],
       "correctAnswer": "(x, y) -> (-x, -y)",
@@ -365,7 +365,7 @@
         "(x, y) -> (-x, -y)",
         "(x, y) -> (-y, x)",
         "(x, y) -> (x, -y)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "(x, y) -> (-x, -y)",
       "difficulty": "standard",
@@ -424,7 +424,7 @@
         "D'(-2, 1), E'(-6, 1), F'(-4, 4)",
         "D'(1, 2), E'(1, 6), F'(4, 4)",
         "D'(-1, 2), E'(-1, 6), F'(-4, 4)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "D'(-2, 1), E'(-6, 1), F'(-4, 4)",
       "difficulty": "standard",
@@ -504,7 +504,7 @@
         "(-1, -6)",
         "(1, -6)",
         "(6, -1)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "(6, -1)",
       "difficulty": "standard",

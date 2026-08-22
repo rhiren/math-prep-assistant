@@ -53,7 +53,7 @@
         "(-6, 1)",
         "(1, 6)",
         "(-1, 6)",
-        "Not 3"
+        "(0, 0)"
       ],
       "correctAnswer": "(-6, 1)",
       "difficulty": "scaffold",
@@ -92,7 +92,7 @@
       "options": [
         "(-7, 0)",
         "(0, -7)",
-        "Not 3",
+        "(0, 0)",
         "(7, 0)"
       ],
       "correctAnswer": "(7, 0)",
@@ -112,8 +112,8 @@
       "options": [
         "(0, 4)",
         "(-4, 0)",
-        "Not 2",
-        "Not 3"
+        "(0, 0)",
+        "(1, -1)"
       ],
       "correctAnswer": "(-4, 0)",
       "difficulty": "scaffold",
