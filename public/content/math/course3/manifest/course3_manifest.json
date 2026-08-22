@@ -302,6 +302,61 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-congruence-transformation-sequences",
+              "title": "Congruence from Transformation Sequences",
+              "description": "Use sequences of translations, reflections, and rotations as evidence that figures are congruent.",
+              "tags": [
+                "transformations",
+                "congruence",
+                "rigid-transformations",
+                "proof"
+              ],
+              "skillTags": [
+                "conceptual",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.1",
+                "8.G.2"
+              ],
+              "order": 6,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-congruence-transformation-sequences.md",
+              "tests": [
+                {
+                  "id": "course3-congruence-transformation-sequences-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-congruence-transformation-sequences-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-congruence-transformation-sequences-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-congruence-transformation-sequences-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },

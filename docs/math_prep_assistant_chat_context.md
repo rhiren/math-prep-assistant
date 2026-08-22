@@ -287,12 +287,13 @@ The learner-ready book-aligned Unit 1 concepts are:
 3. Rotations on the Coordinate Plane
 4. Sequences of Rigid Transformations
 5. Congruent Figures on a Grid
+6. Congruence from Transformation Sequences
 
 Course 3 currently contains:
 
-- 44 active concepts
-- 88 assessment files
-- 3080 assessment questions
+- 45 active concepts
+- 90 assessment files
+- 3150 assessment questions
 - 50 core questions per concept
 - 20 review questions per concept
 
@@ -418,7 +419,7 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 The next Course 3 rollout task is book Unit 1:
 
-`Congruence from Transformation Sequences`
+`Parallel Lines and Transversals`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,

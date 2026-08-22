@@ -524,6 +524,13 @@ describe("content repository", () => {
         reviewTestId: "course3-congruent-figures-grid-review",
       },
       {
+        conceptId: "concept-congruence-transformation-sequences",
+        standards: ["8.G.1", "8.G.2"],
+        tutorialHeading: "# Congruence from Transformation Sequences",
+        coreTestId: "course3-congruence-transformation-sequences-core",
+        reviewTestId: "course3-congruence-transformation-sequences-review",
+      },
+      {
         conceptId: "concept-rational-irrational-numbers",
         standards: ["8.NS.1"],
         tutorialHeading: "# Rational and Irrational Numbers",
@@ -804,7 +811,7 @@ describe("content repository", () => {
     expect(course?.programPathways).toEqual(["accelerated"]);
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
     expect(course?.units[0]?.id).toBe("course3-unit-rigid-transformations-congruence");
-    expect(course?.units[0]?.concepts).toHaveLength(5);
+    expect(course?.units[0]?.concepts).toHaveLength(6);
     expect(course?.units[1]?.id).toBe("course3-unit-real-numbers-exponents");
     expect(course?.units[1]?.concepts).toHaveLength(12);
     expect(course?.units[2]?.id).toBe("course3-unit-linear-equations");
