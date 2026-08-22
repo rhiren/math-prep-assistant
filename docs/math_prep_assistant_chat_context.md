@@ -284,12 +284,13 @@ The learner-ready book-aligned Unit 1 concepts are:
 
 1. Translations on the Coordinate Plane
 2. Reflections on the Coordinate Plane
+3. Rotations on the Coordinate Plane
 
 Course 3 currently contains:
 
-- 41 active concepts
-- 82 assessment files
-- 2870 assessment questions
+- 42 active concepts
+- 84 assessment files
+- 2940 assessment questions
 - 50 core questions per concept
 - 20 review questions per concept
 
@@ -415,7 +416,7 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 The next Course 3 rollout task is book Unit 1:
 
-`Rotations on the Coordinate Plane`
+`Sequences of Rigid Transformations`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,

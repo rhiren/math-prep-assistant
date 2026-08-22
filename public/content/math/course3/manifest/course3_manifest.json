@@ -134,6 +134,61 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-rotations-coordinate-plane",
+              "title": "Rotations on the Coordinate Plane",
+              "description": "Rotate points and figures around the origin using 90-degree clockwise, 90-degree counterclockwise, and 180-degree coordinate rules.",
+              "tags": [
+                "transformations",
+                "rotations",
+                "coordinate-plane"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.1",
+                "8.G.3"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-rotations-coordinate-plane.md",
+              "tests": [
+                {
+                  "id": "course3-rotations-coordinate-plane-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-rotations-coordinate-plane-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-rotations-coordinate-plane-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-rotations-coordinate-plane-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },
