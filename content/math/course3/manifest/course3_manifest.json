@@ -189,6 +189,63 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-sequences-rigid-transformations",
+              "title": "Sequences of Rigid Transformations",
+              "description": "Apply ordered sequences of translations, reflections, and rotations while tracking intermediate images and preserving congruence.",
+              "tags": [
+                "transformations",
+                "rigid-transformations",
+                "sequences",
+                "congruence"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.1",
+                "8.G.2",
+                "8.G.3"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-sequences-rigid-transformations.md",
+              "tests": [
+                {
+                  "id": "course3-sequences-rigid-transformations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-sequences-rigid-transformations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-sequences-rigid-transformations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-sequences-rigid-transformations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },
