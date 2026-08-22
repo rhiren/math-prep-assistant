@@ -30,11 +30,11 @@
       "questionText": "Triangle A has side lengths 5, 5, 8. Which triangle is congruent to Triangle A?",
       "options": [
         "Triangle B with side lengths 5, 6, 8",
-        "Triangle D with side lengths 4, 5, 8",
+        "Triangle C with side lengths 4, 5, 8",
         "Triangle E with side lengths 5, 5, 9",
-        "Triangle C with side lengths 5, 5, 8"
+        "Triangle D with side lengths 5, 5, 8"
       ],
-      "correctAnswer": "Triangle C with side lengths 5, 5, 8",
+      "correctAnswer": "Triangle D with side lengths 5, 5, 8",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
@@ -48,12 +48,12 @@
       "type": "multiple_choice",
       "questionText": "Triangle A has side lengths 2, 6, 6. Which triangle is congruent to Triangle A?",
       "options": [
-        "Triangle D with side lengths 2, 6, 6",
+        "Triangle E with side lengths 2, 6, 6",
         "Triangle B with side lengths 3, 6, 6",
         "Triangle C with side lengths 2, 5, 6",
-        "Triangle E with side lengths 2, 6, 7"
+        "Triangle D with side lengths 2, 6, 7"
       ],
-      "correctAnswer": "Triangle D with side lengths 2, 6, 6",
+      "correctAnswer": "Triangle E with side lengths 2, 6, 6",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
@@ -68,11 +68,11 @@
       "questionText": "Triangle A has side lengths 4, 7, 9. Which triangle is congruent to Triangle A?",
       "options": [
         "Triangle B with side lengths 4, 7, 10",
-        "Triangle C with side lengths 4, 6, 9",
-        "Triangle E with side lengths 4, 7, 9",
-        "Triangle D with side lengths 5, 7, 9"
+        "Triangle D with side lengths 4, 6, 9",
+        "Triangle C with side lengths 4, 7, 9",
+        "Triangle E with side lengths 5, 7, 9"
       ],
-      "correctAnswer": "Triangle E with side lengths 4, 7, 9",
+      "correctAnswer": "Triangle C with side lengths 4, 7, 9",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
@@ -86,12 +86,12 @@
       "type": "multiple_choice",
       "questionText": "Triangle A has side lengths 6, 8, 10. Which triangle is congruent to Triangle A?",
       "options": [
-        "Triangle D with side lengths 6, 8, 12",
-        "Triangle E with side lengths 5, 8, 10",
-        "Triangle C with side lengths 6, 7, 10",
-        "Triangle B with side lengths 6, 8, 10"
+        "Triangle B with side lengths 6, 8, 12",
+        "Triangle D with side lengths 5, 8, 10",
+        "Triangle E with side lengths 6, 7, 10",
+        "Triangle C with side lengths 6, 8, 10"
       ],
-      "correctAnswer": "Triangle B with side lengths 6, 8, 10",
+      "correctAnswer": "Triangle C with side lengths 6, 8, 10",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
@@ -105,12 +105,12 @@
       "type": "multiple_choice",
       "questionText": "Triangle A has side lengths 7, 7, 4. Which triangle is congruent to Triangle A?",
       "options": [
-        "Triangle D with side lengths 7, 7, 5",
-        "Triangle C with side lengths 7, 7, 4",
-        "Triangle B with side lengths 7, 6, 4",
-        "Triangle E with side lengths 8, 7, 4"
+        "Triangle B with side lengths 7, 7, 5",
+        "Triangle E with side lengths 7, 7, 4",
+        "Triangle C with side lengths 7, 6, 4",
+        "Triangle D with side lengths 8, 7, 4"
       ],
-      "correctAnswer": "Triangle C with side lengths 7, 7, 4",
+      "correctAnswer": "Triangle E with side lengths 7, 7, 4",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
@@ -124,12 +124,12 @@
       "type": "multiple_choice",
       "questionText": "Triangle A has side lengths 3, 3, 3. Which triangle is congruent to Triangle A?",
       "options": [
-        "Triangle E with side lengths 3, 3, 4",
-        "Triangle B with side lengths 2, 3, 3",
-        "Triangle D with side lengths 3, 3, 3",
-        "Triangle C with side lengths 3, 4, 4"
+        "Triangle C with side lengths 3, 3, 4",
+        "Triangle D with side lengths 2, 3, 3",
+        "Triangle B with side lengths 3, 3, 3",
+        "Triangle E with side lengths 3, 4, 4"
       ],
-      "correctAnswer": "Triangle D with side lengths 3, 3, 3",
+      "correctAnswer": "Triangle B with side lengths 3, 3, 3",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [
@@ -143,12 +143,12 @@
       "type": "multiple_choice",
       "questionText": "Triangle A has side lengths 5, 12, 13. Which triangle is congruent to Triangle A?",
       "options": [
-        "Triangle E with side lengths 5, 12, 13",
-        "Triangle C with side lengths 5, 12, 14",
-        "Triangle D with side lengths 6, 12, 13",
-        "Triangle B with side lengths 5, 11, 13"
+        "Triangle D with side lengths 5, 12, 13",
+        "Triangle B with side lengths 5, 12, 14",
+        "Triangle C with side lengths 6, 12, 13",
+        "Triangle E with side lengths 5, 11, 13"
       ],
-      "correctAnswer": "Triangle E with side lengths 5, 12, 13",
+      "correctAnswer": "Triangle D with side lengths 5, 12, 13",
       "difficulty": "scaffold",
       "answerType": "number",
       "skillTags": [

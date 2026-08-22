@@ -58,6 +58,31 @@ function getLongestSameAnswerRun(answerIndexes: number[]) {
   return longest;
 }
 
+function getLongestRepeatedCycle<T>(values: T[]) {
+  let longest = 0;
+
+  for (let cycleLength = 2; cycleLength <= 4; cycleLength += 1) {
+    for (let start = 0; start + cycleLength * 2 <= values.length; start += 1) {
+      const firstCycle = values.slice(start, start + cycleLength);
+      const secondCycle = values.slice(start + cycleLength, start + cycleLength * 2);
+
+      if (firstCycle.every((value, index) => value === secondCycle[index])) {
+        longest = Math.max(longest, cycleLength);
+      }
+    }
+  }
+
+  return longest;
+}
+
+function getVisibleCorrectAnswerLabel(question: Question) {
+  const match = question.correctAnswer.match(
+    /^(Triangle|Figure|Shape|Point|Line|Polygon|Rectangle) ([A-Z]) with\b/,
+  );
+
+  return match ? `${match[1]} ${match[2]}` : null;
+}
+
 function normalizeQuestionTemplate(prompt: string) {
   return prompt
     .replace(/-?\d+(?:\/\d+)?(?:\.\d+)?/g, "#")
@@ -905,6 +930,33 @@ describe("content repository", () => {
             `${testSet.id} overuses one answer position in questions ${start + 1}-${start + 8}`,
           ).toBeLessThanOrEqual(4);
         }
+      }
+    }
+  });
+
+  it("keeps Course 3 visible correct-answer labels from forming predictable cycles", async () => {
+    const repository = await createDefaultContentRepository();
+    const course = await repository.getCourse("course-3");
+    const concepts = course?.units.flatMap((unit) => unit.concepts) ?? [];
+
+    for (const concept of concepts) {
+      const testSets = await repository.getTestSetsForConcept(concept.id);
+
+      for (const testSet of testSets) {
+        const questions = await repository.getQuestionsForTestSet(testSet.id);
+        const visibleLabels = questions
+          .filter((question) => question.questionType === "multiple_choice")
+          .map(getVisibleCorrectAnswerLabel)
+          .filter((label): label is string => label !== null);
+
+        if (visibleLabels.length < 6) {
+          continue;
+        }
+
+        expect(
+          getLongestRepeatedCycle(visibleLabels),
+          `${testSet.id} has a predictable visible correct-answer label cycle`,
+        ).toBe(0);
       }
     }
   });
