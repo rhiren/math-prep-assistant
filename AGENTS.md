@@ -327,47 +327,35 @@ time:
 4. scoring / answer-key validation passes
 5. concept enters the active Course 3 manifest
 
-The current Course 3 learner-ready sequence is:
+The Course 3 roadmap should now align to the Amplify Desmos Math California
+Grade 8 book sequence used by the student's school:
 
-- `Rational and Irrational Numbers`
-- `Repeating Decimals as Fractions`
-- `Square Roots and Perfect Squares`
-- `Cube Roots and Perfect Cubes`
-- `Approximate Irrational Numbers`
-- `Compare and Order Real Numbers`
-- `Integer Exponents`
-- `Zero and Negative Exponents`
-- `Powers of Ten`
-- `Scientific Notation`
-- `Operations with Scientific Notation`
-- `Unit 1 Mixed Review`
-- `Review Equivalent Expressions`
-- `Solve Multi-Step Equations`
-- `Equations with the Distributive Property`
-- `Equations with Variables on Both Sides`
-- `Equations with Rational Coefficients`
-- `One Solution, No Solution, or Infinitely Many Solutions`
-- `Build Equations from Context`
-- `Linear Equation Word Problems`
-- `Check and Explain Equation Solutions`
-- `Unit 2 Mixed Review`
-- `Proportional Relationships as Lines`
-- `Understand Slope as Rate of Change`
-- `Find Slope from Graphs`
-- `Find Slope from Tables and Points`
-- `Compare Rates of Change`
-- `Similar Triangles and Constant Slope`
-- `Equations in the Form y = mx`
-- `Understand the y-Intercept`
-- `Equations in the Form y = mx + b`
-- `Graph Linear Equations`
-- `Write Linear Equations from Representations`
-- `Unit 3 Mixed Review`
-- `Understand Solutions to Systems`
-- `Solve Systems by Graphing`
-- `Solve Systems by Substitution`
-- `Solve Systems by Elimination`
-- `Systems with No Solution`
+1. `Rigid Transformations and Congruence`
+2. `Dilations, Similarity, and Slope`
+3. `Proportional and Linear Relationships`
+4. `Linear Equations and Linear Systems`
+5. `Functions and Volume`
+6. `Associations in Data`
+7. `Exponents and Scientific Notation`
+8. `The Pythagorean Theorem and Irrational Numbers`
+
+Existing Course 3 concepts that were built in the older standards-ordered
+sequence remain valid reusable assets. Preserve their concept IDs, test IDs,
+and tutorial paths when moving them into book-aligned units so existing local
+progress, Firebase sync, export/import, and parent reporting continue to attach
+to the same skills.
+
+The current active Course 3 manifest still contains 39 learner-ready concepts
+from the older standards-ordered sequence:
+
+- Real Numbers and Exponents: 12 concepts
+- Linear Equations in One Variable: 10 concepts
+- Lines, Slope, and Linear Equations: 12 concepts
+- Systems of Linear Equations: 5 concepts
+
+The next Course 3 build target is book Unit 1, beginning with:
+
+- `Translations on the Coordinate Plane`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in

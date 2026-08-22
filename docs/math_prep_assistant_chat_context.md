@@ -307,6 +307,14 @@ The complete course sequence and release order are in:
 
 `docs/course3_concept_rollout_plan.md`
 
+As of 2026-08-22, Course 3 rollout planning has been realigned to the
+Amplify Desmos Math California Grade 8 book sequence used by the student's
+school. The active manifest has not yet been reordered; it still contains the
+39 learner-ready concepts listed above so existing progress remains stable.
+Future build work should follow the book-aligned sequence in
+`docs/course3_concept_rollout_plan.md` and preserve existing concept/test IDs
+when reusable packs are moved into their book-aligned units.
+
 ### Recent learner-facing UI work
 
 Course navigation groups courses beneath their subject and presents Course 3
@@ -397,16 +405,18 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 ### Exact next task
 
-The next Course 3 rollout task is Unit 4:
+The next Course 3 rollout task is book Unit 1:
 
-`Systems with Infinitely Many Solutions`
+`Translations on the Coordinate Plane`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,
 50-question core bank, 20-question review bank, validation, then manifest
 unlock. Keep the answer-position balance guard green for every new Course 3
 test set, and keep the answer-sequence and template-variety guards green
-without adding new quality-debt exceptions.
+without adding new quality-debt exceptions. Do not rename existing Course 3
+concept IDs just to match the book order; move reusable concepts carefully
+after book Unit 1 has enough learner-ready content.
 
 ### Independent-session startup checklist
 
