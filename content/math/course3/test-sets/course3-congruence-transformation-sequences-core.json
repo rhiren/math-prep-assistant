@@ -1,0 +1,1059 @@
+{
+  "testId": "course3-congruence-transformation-sequences-core",
+  "conceptId": "concept-congruence-transformation-sequences",
+  "type": "concept",
+  "title": "Congruence from Transformation Sequences Core Test",
+  "description": "Use rigid transformation sequences to prove congruence, identify corresponding parts, and reject non-rigid evidence.",
+  "questions": [
+    {
+      "id": "course3-congruence-transformation-sequences-core-001",
+      "type": "multiple_choice",
+      "questionText": "Which sequence is made only of rigid transformations?",
+      "options": [
+        "Translate right 3, then rotate 90 degrees",
+        "Dilate by 2, then translate right 3",
+        "Stretch horizontally, then reflect",
+        "Enlarge the figure, then rotate"
+      ],
+      "correctAnswer": "Translate right 3, then rotate 90 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "rigid-transformations",
+        "congruence-proof"
+      ],
+      "explanation": "Translations and rotations are both rigid, so their sequence preserves congruence."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-002",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC is reflected across the x-axis to make triangle DEF. What must be true?",
+      "options": [
+        "Triangle DEF is twice as large.",
+        "Only the areas are preserved.",
+        "Triangle ABC is congruent to triangle DEF.",
+        "Corresponding angles are cut in half."
+      ],
+      "correctAnswer": "Triangle ABC is congruent to triangle DEF.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "reflections",
+        "congruence"
+      ],
+      "explanation": "A reflection is rigid, so it preserves size and shape."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-003",
+      "type": "multiple_choice",
+      "questionText": "A figure is translated 5 units left and then translated 2 units up. What conclusion is valid?",
+      "options": [
+        "The final figure is similar but not congruent.",
+        "The final figure is congruent to the original.",
+        "The final figure has doubled side lengths.",
+        "The final figure has changed angle measures."
+      ],
+      "correctAnswer": "The final figure is congruent to the original.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "translations",
+        "congruence"
+      ],
+      "explanation": "A sequence of translations is rigid."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-004",
+      "type": "multiple_choice",
+      "questionText": "Which move would break a congruence proof?",
+      "options": [
+        "Reflecting across the y-axis",
+        "Rotating 180 degrees",
+        "Translating down 4 units",
+        "Dilating by a scale factor of 3"
+      ],
+      "correctAnswer": "Dilating by a scale factor of 3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "dilations",
+        "non-rigid"
+      ],
+      "explanation": "A dilation with scale factor other than 1 changes size."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-005",
+      "type": "multiple_choice",
+      "questionText": "Quadrilateral PQRS maps to quadrilateral WXYZ by a rotation. Which pair of sides corresponds if P maps to W and Q maps to X?",
+      "options": [
+        "PQ and WX",
+        "PQ and XY",
+        "PS and YZ",
+        "QR and WZ"
+      ],
+      "correctAnswer": "PQ and WX",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "rotations"
+      ],
+      "explanation": "Corresponding vertices follow the mapping order."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-006",
+      "type": "multiple_choice",
+      "questionText": "A triangle is rotated and then reflected. What is preserved?",
+      "options": [
+        "Only horizontal lengths",
+        "Only the location",
+        "Only the vertex names",
+        "All side lengths and angle measures"
+      ],
+      "correctAnswer": "All side lengths and angle measures",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "rotations",
+        "reflections"
+      ],
+      "explanation": "Rotations and reflections are rigid transformations."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-007",
+      "type": "multiple_choice",
+      "questionText": "Which sentence best proves congruence?",
+      "options": [
+        "The figures are both drawn on grid paper.",
+        "A sequence of rigid transformations maps one figure onto the other.",
+        "The figures have the same color.",
+        "The figures are in the same quadrant."
+      ],
+      "correctAnswer": "A sequence of rigid transformations maps one figure onto the other.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "congruence-proof",
+        "evidence"
+      ],
+      "explanation": "A rigid mapping is strong evidence for congruence."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-008",
+      "type": "multiple_choice",
+      "questionText": "A sequence includes a reflection, a translation, and a rotation. What kind of sequence is it?",
+      "options": [
+        "A scaling sequence",
+        "A sequence that changes size",
+        "A rigid transformation sequence",
+        "A non-congruence sequence"
+      ],
+      "correctAnswer": "A rigid transformation sequence",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "rigid-transformations",
+        "sequences"
+      ],
+      "explanation": "Each listed move is rigid."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-009",
+      "type": "multiple_choice",
+      "questionText": "If triangle ABC maps to triangle JKL by rigid transformations, which angle matches angle B?",
+      "options": [
+        "angle K",
+        "angle J",
+        "angle L",
+        "angle C"
+      ],
+      "correctAnswer": "angle K",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "angles"
+      ],
+      "explanation": "The second vertex B corresponds to the second vertex K."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-010",
+      "type": "multiple_choice",
+      "questionText": "What is the main reason rigid transformations prove congruence?",
+      "options": [
+        "They always keep coordinates positive.",
+        "They always keep orientation the same.",
+        "They preserve distance and angle measure.",
+        "They change every side length by the same factor."
+      ],
+      "correctAnswer": "They preserve distance and angle measure.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "congruence-proof",
+        "properties"
+      ],
+      "explanation": "Congruence depends on preserved size and shape."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-011",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC is translated by <2, -5> and then reflected across the y-axis to make triangle A'B'C'. Which statement must be true?",
+      "options": [
+        "AB is twice A'B'",
+        "angle A is half of angle A'",
+        "The triangles cannot be congruent after a reflection.",
+        "AB = A'B'"
+      ],
+      "correctAnswer": "AB = A'B'",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "sequences"
+      ],
+      "explanation": "Both transformations are rigid, so corresponding side lengths match."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-012",
+      "type": "multiple_choice",
+      "questionText": "A student claims two figures are congruent because one can be rotated 180 degrees and then shifted onto the other. Is the claim justified?",
+      "options": [
+        "No, because a translation changes side lengths.",
+        "Yes, because both moves are rigid transformations.",
+        "No, because a 180 degree rotation changes angle measures.",
+        "Yes, but only if both figures are in Quadrant I."
+      ],
+      "correctAnswer": "Yes, because both moves are rigid transformations.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "congruence-proof",
+        "reasoning"
+      ],
+      "explanation": "Rotation and translation preserve distance and angle measure."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-013",
+      "type": "multiple_choice",
+      "questionText": "A rectangle is reflected across the y-axis, then dilated by 1/2. Is the final rectangle congruent to the original?",
+      "options": [
+        "No, because the dilation changes side lengths.",
+        "Yes, because the reflection is rigid.",
+        "Yes, because the final figure is still a rectangle.",
+        "No, because reflections change angle measures."
+      ],
+      "correctAnswer": "No, because the dilation changes side lengths.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "dilations",
+        "non-rigid"
+      ],
+      "explanation": "One non-rigid step is enough to break congruence."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-014",
+      "type": "multiple_choice",
+      "questionText": "Triangle MNO maps to triangle RST. If M maps to R, N maps to S, and O maps to T, which congruence statement is correctly ordered?",
+      "options": [
+        "triangle MNO congruent to triangle RTS",
+        "triangle MON congruent to triangle RST",
+        "triangle MNO congruent to triangle RST",
+        "triangle NMO congruent to triangle RST"
+      ],
+      "correctAnswer": "triangle MNO congruent to triangle RST",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "notation"
+      ],
+      "explanation": "Congruence statements must list corresponding vertices in matching order."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-015",
+      "type": "multiple_choice",
+      "questionText": "Figure A is reflected across a vertical line and then translated. Which property may change?",
+      "options": [
+        "Side lengths",
+        "Orientation",
+        "Angle measures",
+        "Congruence to the original"
+      ],
+      "correctAnswer": "Orientation",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "orientation",
+        "reflections"
+      ],
+      "explanation": "A reflection can reverse orientation, but rigid moves keep size and shape."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-016",
+      "type": "multiple_choice",
+      "questionText": "A polygon has side lengths 4, 5, 7, and 9. Its image after a transformation sequence has side lengths 4, 5, 7, and 9. What extra evidence best supports congruence?",
+      "options": [
+        "The image has different vertex names.",
+        "The image is farther from the origin.",
+        "The image is drawn with a darker line.",
+        "The image was made by translations, rotations, and reflections."
+      ],
+      "correctAnswer": "The image was made by translations, rotations, and reflections.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "evidence",
+        "congruence-proof"
+      ],
+      "explanation": "A rigid transformation sequence proves all corresponding parts are preserved."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-017",
+      "type": "multiple_choice",
+      "questionText": "Point A maps to D, point B maps to E, and point C maps to F after a rigid sequence. Which side corresponds to BC?",
+      "options": [
+        "EF",
+        "DE",
+        "DF",
+        "AB"
+      ],
+      "correctAnswer": "EF",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "sides"
+      ],
+      "explanation": "Match the endpoints: B maps to E and C maps to F."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-018",
+      "type": "multiple_choice",
+      "questionText": "A figure is translated, reflected, then stretched vertically. Which conclusion is correct?",
+      "options": [
+        "The sequence is rigid because it starts with a translation.",
+        "The final figure must be congruent.",
+        "The reflection cancels the stretch.",
+        "The sequence does not guarantee congruence."
+      ],
+      "correctAnswer": "The sequence does not guarantee congruence.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "non-rigid",
+        "reasoning"
+      ],
+      "explanation": "A stretch changes distances, so the full sequence is not rigid."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-019",
+      "type": "multiple_choice",
+      "questionText": "Two triangles are congruent because triangle ABC can be mapped exactly onto triangle XYZ by a rigid sequence. If angle C is 48 degrees, what is the corresponding angle measure?",
+      "options": [
+        "42 degrees",
+        "96 degrees",
+        "48 degrees",
+        "It cannot be known because the triangle moved."
+      ],
+      "correctAnswer": "48 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "angles",
+        "corresponding-parts"
+      ],
+      "explanation": "Rigid transformations preserve angle measure."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-020",
+      "type": "multiple_choice",
+      "questionText": "Which observation is not enough by itself to prove two figures are congruent?",
+      "options": [
+        "A translation maps one exactly onto the other.",
+        "Both figures have area 36 square units.",
+        "A rotation maps one exactly onto the other.",
+        "A reflection followed by a translation maps one exactly onto the other."
+      ],
+      "correctAnswer": "Both figures have area 36 square units.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "evidence",
+        "misconceptions"
+      ],
+      "explanation": "Equal area alone does not guarantee matching side lengths and angles."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-021",
+      "type": "multiple_choice",
+      "questionText": "A student writes: triangle ABC congruent to triangle DEF. Which detail must be checked?",
+      "options": [
+        "A matches D, B matches E, and C matches F.",
+        "A and D have the same x-coordinate.",
+        "Both triangles are above the x-axis.",
+        "The letters are alphabetically ordered."
+      ],
+      "correctAnswer": "A matches D, B matches E, and C matches F.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "notation",
+        "correspondence"
+      ],
+      "explanation": "The order of vertices communicates corresponding parts."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-022",
+      "type": "multiple_choice",
+      "questionText": "A trapezoid is rotated 90 degrees clockwise and then translated left. Which statement is always true?",
+      "options": [
+        "The trapezoid becomes similar but larger.",
+        "The trapezoid's angles all increase by 90 degrees.",
+        "The trapezoid remains congruent to its original image.",
+        "The trapezoid must stay in the same quadrant."
+      ],
+      "correctAnswer": "The trapezoid remains congruent to its original image.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "rotations",
+        "translations"
+      ],
+      "explanation": "A rotation followed by a translation is a rigid sequence."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-023",
+      "type": "multiple_choice",
+      "questionText": "Which sequence could prove triangle ABC is congruent to triangle A'B'C'?",
+      "options": [
+        "Dilate by 2, then rotate 90 degrees",
+        "Stretch horizontally, then translate up",
+        "Compress vertically, then reflect",
+        "Reflect across the x-axis, then translate right 6"
+      ],
+      "correctAnswer": "Reflect across the x-axis, then translate right 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "congruence-proof",
+        "rigid-transformations"
+      ],
+      "explanation": "Only the first sequence uses rigid transformations throughout."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-024",
+      "type": "multiple_choice",
+      "questionText": "A rigid sequence maps segment AB onto segment CD. If AB = 11 units, what is CD?",
+      "options": [
+        "5.5 units",
+        "11 units",
+        "22 units",
+        "Cannot be determined after movement"
+      ],
+      "correctAnswer": "11 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "distance",
+        "corresponding-parts"
+      ],
+      "explanation": "Rigid transformations preserve distance."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-025",
+      "type": "multiple_choice",
+      "questionText": "Why can a reflected figure still be congruent to the original?",
+      "options": [
+        "A reflection changes orientation but preserves side lengths and angles.",
+        "A reflection doubles every side length.",
+        "A reflection keeps every coordinate unchanged.",
+        "A reflection changes angle measures but not area."
+      ],
+      "correctAnswer": "A reflection changes orientation but preserves side lengths and angles.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "reflections",
+        "orientation"
+      ],
+      "explanation": "Congruence allows changed orientation."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-026",
+      "type": "multiple_choice",
+      "questionText": "A sequence maps quadrilateral ABCD to quadrilateral EFGH. Which angle corresponds to angle D?",
+      "options": [
+        "angle E",
+        "angle F",
+        "angle G",
+        "angle H"
+      ],
+      "correctAnswer": "angle H",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "angles"
+      ],
+      "explanation": "The fourth vertex D maps to the fourth vertex H."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-027",
+      "type": "multiple_choice",
+      "questionText": "A triangle is moved by two transformations. The first is a rotation and the second is unknown. Which second move keeps the final image congruent?",
+      "options": [
+        "Dilate by 4",
+        "Reflect across the y-axis",
+        "Stretch vertically",
+        "Scale by 1/3"
+      ],
+      "correctAnswer": "Reflect across the y-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "rigid-transformations",
+        "classification"
+      ],
+      "explanation": "A reflection is rigid; the other choices change size."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-028",
+      "type": "multiple_choice",
+      "questionText": "A figure and its image have matching side lengths and angles. Which statement would be the strongest explanation?",
+      "options": [
+        "The image is close to the original.",
+        "The image has the same number of vertices.",
+        "A rigid sequence maps the figure exactly onto its image.",
+        "The image is drawn on a square grid."
+      ],
+      "correctAnswer": "A rigid sequence maps the figure exactly onto its image.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "evidence",
+        "reasoning"
+      ],
+      "explanation": "The mapping explains why corresponding measurements match."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-029",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC is reflected and translated to triangle PQR. If AB corresponds to PQ and BC corresponds to QR, which side corresponds to AC?",
+      "options": [
+        "PR",
+        "PQ",
+        "QR",
+        "AB"
+      ],
+      "correctAnswer": "PR",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "sides"
+      ],
+      "explanation": "A and C map to P and R, so AC maps to PR."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-030",
+      "type": "multiple_choice",
+      "questionText": "A sequence of transformations maps one figure onto another, but one side changes from 8 units to 12 units. What can you conclude?",
+      "options": [
+        "The figures are definitely congruent.",
+        "Only the labels changed.",
+        "The sequence was not entirely rigid.",
+        "The side change proves a reflection occurred."
+      ],
+      "correctAnswer": "The sequence was not entirely rigid.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "non-rigid",
+        "evidence"
+      ],
+      "explanation": "Rigid transformations cannot change side length."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-031",
+      "type": "multiple_choice",
+      "questionText": "Which statement correctly compares congruent and similar figures?",
+      "options": [
+        "Congruent figures may be scaled by any factor.",
+        "Similar figures always have matching side lengths.",
+        "Congruent figures only need equal area.",
+        "Congruent figures need the same size and shape; similar figures may be scaled."
+      ],
+      "correctAnswer": "Congruent figures need the same size and shape; similar figures may be scaled.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "similarity",
+        "congruence"
+      ],
+      "explanation": "Congruence does not allow a size change."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-032",
+      "type": "multiple_choice",
+      "questionText": "If triangle ABC is congruent to triangle LMN, which side corresponds to LN?",
+      "options": [
+        "AB",
+        "AC",
+        "BC",
+        "MN"
+      ],
+      "correctAnswer": "AC",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "notation",
+        "corresponding-parts"
+      ],
+      "explanation": "The first and third vertices correspond: A to L and C to N."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-033",
+      "type": "multiple_choice",
+      "questionText": "A sequence includes only rotations around the origin and translations. What is preserved after the whole sequence?",
+      "options": [
+        "Perimeter and angle measures",
+        "Perimeter only, not angles",
+        "Angles only, not side lengths",
+        "Neither perimeter nor angles"
+      ],
+      "correctAnswer": "Perimeter and angle measures",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "properties",
+        "sequences"
+      ],
+      "explanation": "Rotations and translations are rigid, so both lengths and angles are preserved."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-034",
+      "type": "multiple_choice",
+      "questionText": "A student says every sequence of transformations proves congruence. What is the correction?",
+      "options": [
+        "Every transformation preserves size.",
+        "Dilations always preserve congruence.",
+        "Stretching proves congruence better than reflection.",
+        "Only sequences made entirely of rigid transformations prove congruence."
+      ],
+      "correctAnswer": "Only sequences made entirely of rigid transformations prove congruence.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "misconceptions",
+        "reasoning"
+      ],
+      "explanation": "Some transformations change size or shape."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-035",
+      "type": "multiple_choice",
+      "questionText": "A figure is reflected over the x-axis. Which later transformation would still keep the final image congruent?",
+      "options": [
+        "Dilate by 5",
+        "Stretch horizontally",
+        "Rotate 90 degrees",
+        "Compress vertically"
+      ],
+      "correctAnswer": "Rotate 90 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "classification",
+        "sequences"
+      ],
+      "explanation": "A rotation is rigid and preserves congruence."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-036",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has vertices A(1, 2), B(4, 2), C(1, 6). Triangle DEF is the image after a translation and reflection. Which evidence is strongest for congruence?",
+      "options": [
+        "Both triangles have vertices with integer coordinates.",
+        "A rigid sequence maps A to D, B to E, and C to F.",
+        "Both triangles are on the same coordinate plane.",
+        "Both triangles use three-letter names."
+      ],
+      "correctAnswer": "A rigid sequence maps A to D, B to E, and C to F.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "coordinate-plane",
+        "evidence"
+      ],
+      "explanation": "A rigid mapping with corresponding vertices proves congruence."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-037",
+      "type": "multiple_choice",
+      "questionText": "A sequence maps quadrilateral ABCD onto EFGH. AB = 6, BC = 9, angle C = 110 degrees. Which must be true?",
+      "options": [
+        "EF = 6, FG = 9, and angle G = 110 degrees.",
+        "EH = 6, FG = 18, and angle G = 55 degrees.",
+        "EF = 12, FG = 9, and angle C = 110 degrees.",
+        "AB = 6, BC = 9, and angle E = 110 degrees."
+      ],
+      "correctAnswer": "EF = 6, FG = 9, and angle G = 110 degrees.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "corresponding-parts",
+        "mixed-measurements"
+      ],
+      "explanation": "Corresponding parts follow the mapping order ABCD to EFGH."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-038",
+      "type": "multiple_choice",
+      "questionText": "A triangle is translated, rotated, reflected, and then dilated by scale factor 1. Which conclusion is valid?",
+      "options": [
+        "The final triangle is not congruent because every dilation changes size.",
+        "The final triangle has doubled side lengths.",
+        "The final triangle is congruent to the original.",
+        "The final triangle is congruent only if it stayed in the same quadrant."
+      ],
+      "correctAnswer": "The final triangle is congruent to the original.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "dilations",
+        "edge-cases"
+      ],
+      "explanation": "A dilation by scale factor 1 does not change size."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-039",
+      "type": "multiple_choice",
+      "questionText": "A figure is transformed by a sequence and the final image has all angles preserved but every side length doubled. What best describes the relationship?",
+      "options": [
+        "The figures are congruent.",
+        "The figures are unrelated because angles stayed the same.",
+        "The figures are congruent if the area also doubled.",
+        "The figures are similar but not congruent."
+      ],
+      "correctAnswer": "The figures are similar but not congruent.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "similarity",
+        "non-rigid"
+      ],
+      "explanation": "Congruence requires matching side lengths, not just matching angles."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-040",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC is congruent to triangle RQP. Which correspondence is correct?",
+      "options": [
+        "A corresponds to Q.",
+        "B corresponds to Q.",
+        "C corresponds to R.",
+        "AB corresponds to RP."
+      ],
+      "correctAnswer": "B corresponds to Q.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "notation",
+        "correspondence"
+      ],
+      "explanation": "The ordered statement pairs A with R, B with Q, and C with P."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-041",
+      "type": "multiple_choice",
+      "questionText": "A student proves congruence by saying: 'Both shapes have perimeter 30.' What is the flaw?",
+      "options": [
+        "Equal perimeter does not guarantee matching side lengths and angles.",
+        "Congruent figures can never have equal perimeter.",
+        "Perimeter changes under every translation.",
+        "Only area matters for congruence."
+      ],
+      "correctAnswer": "Equal perimeter does not guarantee matching side lengths and angles.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "evidence",
+        "misconceptions"
+      ],
+      "explanation": "Perimeter alone is too weak; different shapes can share a perimeter."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-042",
+      "type": "multiple_choice",
+      "questionText": "A reflection maps triangle ABC to triangle A'B'C'. Then a translation maps A'B'C' to triangle XYZ. Which statement is justified?",
+      "options": [
+        "triangle ABC is similar but not congruent to triangle XYZ",
+        "triangle ABC has half the area of triangle XYZ",
+        "triangle XYZ must face the same direction as triangle ABC",
+        "triangle ABC is congruent to triangle XYZ"
+      ],
+      "correctAnswer": "triangle ABC is congruent to triangle XYZ",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "multi-step",
+        "congruence-proof"
+      ],
+      "explanation": "The whole sequence is rigid, so the first and final triangles are congruent."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-043",
+      "type": "multiple_choice",
+      "questionText": "A rigid sequence maps point A to point D, B to E, and C to F. Which conclusion would be invalid?",
+      "options": [
+        "AB equals DE.",
+        "angle B equals angle E.",
+        "The area must change because the coordinates changed.",
+        "triangle ABC is congruent to triangle DEF."
+      ],
+      "correctAnswer": "The area must change because the coordinates changed.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "misconceptions",
+        "coordinate-plane"
+      ],
+      "explanation": "Changing coordinates does not imply changing size."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-044",
+      "type": "multiple_choice",
+      "questionText": "Which sequence cannot be used to prove congruence?",
+      "options": [
+        "Reflect, translate, then rotate",
+        "Rotate, translate, then dilate by 2",
+        "Translate, rotate, then reflect",
+        "Rotate 180 degrees, reflect, then translate"
+      ],
+      "correctAnswer": "Rotate, translate, then dilate by 2",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "classification",
+        "non-rigid"
+      ],
+      "explanation": "The dilation by 2 changes size."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-045",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC is congruent to triangle DEF. If DE = 14 and EF = 9, which original sides match those lengths?",
+      "options": [
+        "AB = 14 and BC = 9",
+        "AC = 14 and AB = 9",
+        "BC = 14 and AC = 9",
+        "DF = 14 and DE = 9"
+      ],
+      "correctAnswer": "AB = 14 and BC = 9",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "notation",
+        "sides"
+      ],
+      "explanation": "A maps to D, B maps to E, and C maps to F."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-046",
+      "type": "multiple_choice",
+      "questionText": "A figure is rotated 90 degrees clockwise and then reflected across the y-axis. What can you say about orientation and congruence?",
+      "options": [
+        "Orientation and side lengths must both change.",
+        "Congruence is lost because a reflection is not rigid.",
+        "Orientation may change, but congruence is preserved.",
+        "The figure is congruent only if orientation stays the same."
+      ],
+      "correctAnswer": "Orientation may change, but congruence is preserved.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "orientation",
+        "reasoning"
+      ],
+      "explanation": "Rigid transformations may change orientation without changing size or shape."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-047",
+      "type": "multiple_choice",
+      "questionText": "Two figures are congruent. Which explanation is most precise?",
+      "options": [
+        "They are both polygons.",
+        "They have the same approximate area.",
+        "They look alike when drawn small.",
+        "There exists a sequence of rigid transformations that maps one exactly onto the other."
+      ],
+      "correctAnswer": "There exists a sequence of rigid transformations that maps one exactly onto the other.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "precision",
+        "congruence-proof"
+      ],
+      "explanation": "Congruence is established by exact matching through rigid motion."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-048",
+      "type": "multiple_choice",
+      "questionText": "A transformation sequence maps a square of side 5 to a square of side 5 in a new location. Is that alone a complete proof of congruence?",
+      "options": [
+        "Yes, any two figures with one equal side are congruent.",
+        "No, but matching all sides and right angles or giving a rigid sequence would complete the proof.",
+        "No, squares can never be congruent after moving.",
+        "Yes, location alone proves congruence."
+      ],
+      "correctAnswer": "No, but matching all sides and right angles or giving a rigid sequence would complete the proof.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "proof-quality",
+        "reasoning"
+      ],
+      "explanation": "The explanation should establish all corresponding measurements or a rigid mapping."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-049",
+      "type": "multiple_choice",
+      "questionText": "A sequence maps pentagon ABCDE to pentagon VWXYZ. Which side corresponds to CD?",
+      "options": [
+        "XY",
+        "VW",
+        "WX",
+        "YZ"
+      ],
+      "correctAnswer": "XY",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "correspondence",
+        "polygons"
+      ],
+      "explanation": "C maps to X and D maps to Y, so CD maps to XY."
+    },
+    {
+      "id": "course3-congruence-transformation-sequences-core-050",
+      "type": "multiple_choice",
+      "questionText": "A student sees a figure reflected and says it cannot be congruent because clockwise order became counterclockwise. What should you say?",
+      "options": [
+        "The student is right because congruent figures must keep orientation.",
+        "Reflections can reverse orientation and still preserve congruence.",
+        "The image is congruent only if a dilation follows.",
+        "The reflection changes every angle measure."
+      ],
+      "correctAnswer": "Reflections can reverse orientation and still preserve congruence.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "congruence",
+        "transformation-sequences",
+        "orientation",
+        "reflections"
+      ],
+      "explanation": "Orientation can reverse while distances and angles stay the same."
+    }
+  ]
+}
