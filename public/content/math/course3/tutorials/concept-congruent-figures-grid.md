@@ -9,7 +9,7 @@ A figure can slide, flip, or turn and still be congruent to the original. The co
 ## What To Notice
 
 - Translations, reflections, and rotations make congruent images.
-- Conguent figures can be in different places on the grid.
+- Congruent figures can be in different places on the grid.
 - Congruent figures can face different directions.
 - Corresponding side lengths must match.
 - Corresponding angle measures must match.
