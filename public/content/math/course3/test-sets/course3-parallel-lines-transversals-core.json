@@ -1,0 +1,1033 @@
+{
+  "testId": "course3-parallel-lines-transversals-core",
+  "conceptId": "concept-parallel-lines-transversals",
+  "type": "concept",
+  "title": "Parallel Lines and Transversals Core Test",
+  "description": "Identify angle relationships created by parallel lines and transversals, then use them to solve for unknown angles.",
+  "questions": [
+    {
+      "id": "course3-parallel-lines-transversals-core-001",
+      "type": "multiple_choice",
+      "questionText": "Two parallel lines are cut by a transversal. An angle is 72 degrees. Its corresponding angle measures what?",
+      "options": [
+        "72 degrees",
+        "18 degrees",
+        "108 degrees",
+        "144 degrees"
+      ],
+      "correctAnswer": "72 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "corresponding-angles"
+      ],
+      "explanation": "Corresponding angles are equal when lines are parallel."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-002",
+      "type": "multiple_choice",
+      "questionText": "Two parallel lines are cut by a transversal. An angle is 64 degrees. Its alternate interior angle measures what?",
+      "options": [
+        "26 degrees",
+        "116 degrees",
+        "64 degrees",
+        "128 degrees"
+      ],
+      "correctAnswer": "64 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "alternate-interior"
+      ],
+      "explanation": "Alternate interior angles are equal for parallel lines."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-003",
+      "type": "multiple_choice",
+      "questionText": "Two parallel lines are cut by a transversal. An angle is 53 degrees. Its alternate exterior angle measures what?",
+      "options": [
+        "37 degrees",
+        "53 degrees",
+        "127 degrees",
+        "106 degrees"
+      ],
+      "correctAnswer": "53 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "alternate-exterior"
+      ],
+      "explanation": "Alternate exterior angles are equal for parallel lines."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-004",
+      "type": "multiple_choice",
+      "questionText": "Two same-side interior angles are formed by parallel lines and a transversal. One is 118 degrees. What is the other?",
+      "options": [
+        "118 degrees",
+        "72 degrees",
+        "242 degrees",
+        "62 degrees"
+      ],
+      "correctAnswer": "62 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "same-side-interior"
+      ],
+      "explanation": "Same-side interior angles are supplementary: 180 - 118 = 62."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-005",
+      "type": "multiple_choice",
+      "questionText": "A linear pair includes one angle of 47 degrees. What is the other angle?",
+      "options": [
+        "133 degrees",
+        "47 degrees",
+        "43 degrees",
+        "94 degrees"
+      ],
+      "correctAnswer": "133 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "linear-pair"
+      ],
+      "explanation": "A linear pair adds to 180 degrees."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-006",
+      "type": "multiple_choice",
+      "questionText": "Vertical angles are formed at an intersection. One angle is 109 degrees. What is the vertical angle?",
+      "options": [
+        "71 degrees",
+        "90 degrees",
+        "180 degrees",
+        "109 degrees"
+      ],
+      "correctAnswer": "109 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "vertical-angles"
+      ],
+      "explanation": "Vertical angles are equal."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-007",
+      "type": "multiple_choice",
+      "questionText": "Which angle pair is equal when two parallel lines are cut by a transversal?",
+      "options": [
+        "Same-side interior angles",
+        "Corresponding angles",
+        "A linear pair",
+        "Adjacent supplementary angles"
+      ],
+      "correctAnswer": "Corresponding angles",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "classification"
+      ],
+      "explanation": "Corresponding angles match in position and are equal."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-008",
+      "type": "multiple_choice",
+      "questionText": "Which angle pair adds to 180 degrees when the lines are parallel?",
+      "options": [
+        "Alternate interior angles",
+        "Alternate exterior angles",
+        "Same-side interior angles",
+        "Corresponding angles"
+      ],
+      "correctAnswer": "Same-side interior angles",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "classification"
+      ],
+      "explanation": "Same-side interior angles are supplementary."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-009",
+      "type": "multiple_choice",
+      "questionText": "A transversal crosses two lines. What extra fact lets you use corresponding angles as equal?",
+      "options": [
+        "The two crossed lines are parallel.",
+        "The transversal is vertical.",
+        "The diagram is drawn on graph paper.",
+        "The angles have letter names."
+      ],
+      "correctAnswer": "The two crossed lines are parallel.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "parallel-condition"
+      ],
+      "explanation": "Corresponding angle equality depends on parallel lines."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-010",
+      "type": "multiple_choice",
+      "questionText": "An angle is 84 degrees. The angle adjacent to it on a straight line is what?",
+      "options": [
+        "84 degrees",
+        "42 degrees",
+        "96 degrees",
+        "168 degrees"
+      ],
+      "correctAnswer": "96 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "linear-pair"
+      ],
+      "explanation": "Adjacent angles on a straight line form a linear pair."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-011",
+      "type": "multiple_choice",
+      "questionText": "Two parallel lines are cut by a transversal. Angle A and angle B are corresponding. If angle A = 3x + 8 and angle B = 68, what is x?",
+      "options": [
+        "12",
+        "25",
+        "60",
+        "20"
+      ],
+      "correctAnswer": "20",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "corresponding-angles"
+      ],
+      "explanation": "Corresponding angles are equal, so 3x + 8 = 68 and x = 20."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-012",
+      "type": "multiple_choice",
+      "questionText": "Alternate interior angles are labeled 5x - 10 and 85 degrees. What is x?",
+      "options": [
+        "15",
+        "19",
+        "17",
+        "95"
+      ],
+      "correctAnswer": "19",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "alternate-interior"
+      ],
+      "explanation": "Set 5x - 10 = 85, so 5x = 95 and x = 19."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-013",
+      "type": "multiple_choice",
+      "questionText": "Same-side interior angles measure x + 44 and 101 degrees. What is x?",
+      "options": [
+        "35",
+        "57",
+        "79",
+        "136"
+      ],
+      "correctAnswer": "35",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "same-side-interior"
+      ],
+      "explanation": "They add to 180: x + 44 + 101 = 180, so x = 35."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-014",
+      "type": "multiple_choice",
+      "questionText": "A corresponding angle is 124 degrees. What is the same-side interior angle paired with it on the same side of the transversal?",
+      "options": [
+        "124 degrees",
+        "66 degrees",
+        "56 degrees",
+        "236 degrees"
+      ],
+      "correctAnswer": "56 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "mixed-relationships"
+      ],
+      "explanation": "Same-side interior angles are supplementary: 180 - 124 = 56."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-015",
+      "type": "multiple_choice",
+      "questionText": "Two parallel lines are cut by a transversal. An angle of 38 degrees has a vertical angle at the same intersection. What is that vertical angle?",
+      "options": [
+        "52 degrees",
+        "38 degrees",
+        "142 degrees",
+        "76 degrees"
+      ],
+      "correctAnswer": "38 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "vertical-angles"
+      ],
+      "explanation": "Vertical angles are equal."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-016",
+      "type": "multiple_choice",
+      "questionText": "An alternate exterior angle is 117 degrees. What is the corresponding angle to that alternate exterior angle?",
+      "options": [
+        "63 degrees",
+        "27 degrees",
+        "234 degrees",
+        "117 degrees"
+      ],
+      "correctAnswer": "117 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "multi-step"
+      ],
+      "explanation": "Both relationships preserve equality in this parallel-line diagram."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-017",
+      "type": "multiple_choice",
+      "questionText": "Which statement is always true for parallel lines cut by a transversal?",
+      "options": [
+        "Alternate interior angles are equal.",
+        "Same-side interior angles are equal.",
+        "Linear pairs are equal.",
+        "All eight angles are equal."
+      ],
+      "correctAnswer": "Alternate interior angles are equal.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "classification"
+      ],
+      "explanation": "Alternate interior angles are equal; same-side interior and linear pairs are supplementary."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-018",
+      "type": "multiple_choice",
+      "questionText": "Angle 1 and angle 2 are same-side interior angles. Angle 1 is 7x and angle 2 is 5x. What is x?",
+      "options": [
+        "12",
+        "30",
+        "90",
+        "15"
+      ],
+      "correctAnswer": "15",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "same-side-interior"
+      ],
+      "explanation": "Same-side interior angles add to 180: 7x + 5x = 180."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-019",
+      "type": "multiple_choice",
+      "questionText": "A pair of alternate interior angles measures 4x + 11 and 2x + 53. What is x?",
+      "options": [
+        "16",
+        "32",
+        "21",
+        "64"
+      ],
+      "correctAnswer": "21",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "alternate-interior"
+      ],
+      "explanation": "Alternate interior angles are equal: 4x + 11 = 2x + 53."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-020",
+      "type": "multiple_choice",
+      "questionText": "A pair of corresponding angles measures 6x - 5 and 4x + 31. What is x?",
+      "options": [
+        "13",
+        "18",
+        "22",
+        "36"
+      ],
+      "correctAnswer": "18",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "corresponding-angles"
+      ],
+      "explanation": "Corresponding angles are equal: 6x - 5 = 4x + 31."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-021",
+      "type": "multiple_choice",
+      "questionText": "Same-side interior angles measure 2x + 20 and 3x + 35. What is x?",
+      "options": [
+        "25",
+        "20",
+        "29",
+        "125"
+      ],
+      "correctAnswer": "25",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "same-side-interior"
+      ],
+      "explanation": "Their sum is 180: 5x + 55 = 180."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-022",
+      "type": "multiple_choice",
+      "questionText": "A transversal forms a 143 degree angle with one parallel line. Which angle pair must measure 37 degrees?",
+      "options": [
+        "A vertical angle to the 143 degree angle",
+        "An alternate interior angle to the 143 degree angle",
+        "A linear pair with the 143 degree angle",
+        "A corresponding angle to the 143 degree angle"
+      ],
+      "correctAnswer": "A linear pair with the 143 degree angle",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "linear-pair",
+        "classification"
+      ],
+      "explanation": "A linear pair is supplementary: 180 - 143 = 37."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-023",
+      "type": "multiple_choice",
+      "questionText": "Two parallel lines are cut by a transversal. Angle A is 69 degrees. Angle B is alternate interior to angle A. Angle C forms a linear pair with B. What is angle C?",
+      "options": [
+        "69 degrees",
+        "21 degrees",
+        "138 degrees",
+        "111 degrees"
+      ],
+      "correctAnswer": "111 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "multi-step"
+      ],
+      "explanation": "B = 69, and C = 180 - 69 = 111."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-024",
+      "type": "multiple_choice",
+      "questionText": "Which evidence is enough to conclude two lines are parallel?",
+      "options": [
+        "A pair of adjacent angles add to 180 at one intersection.",
+        "A pair of alternate interior angles are equal.",
+        "Two angles in the same triangle add to 90.",
+        "One angle is obtuse."
+      ],
+      "correctAnswer": "A pair of alternate interior angles are equal.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "converse"
+      ],
+      "explanation": "The converse of the alternate interior angle relationship can prove lines parallel."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-025",
+      "type": "multiple_choice",
+      "questionText": "A pair of same-side interior angles are 80 degrees and 100 degrees. What can you conclude?",
+      "options": [
+        "The lines may be parallel because the angles are supplementary.",
+        "The lines cannot be parallel.",
+        "The angles must be corresponding.",
+        "The transversal is not a line."
+      ],
+      "correctAnswer": "The lines may be parallel because the angles are supplementary.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "converse"
+      ],
+      "explanation": "Same-side interior angles that add to 180 support parallel lines."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-026",
+      "type": "multiple_choice",
+      "questionText": "Two corresponding angles measure 2x + 14 and 5x - 40. If the lines are parallel, what is x?",
+      "options": [
+        "9",
+        "22",
+        "54",
+        "18"
+      ],
+      "correctAnswer": "18",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "corresponding-angles"
+      ],
+      "explanation": "Set the corresponding angles equal: 2x + 14 = 5x - 40."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-027",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle and its alternate exterior partner are labeled 8x - 7 and 5x + 29. What is x?",
+      "options": [
+        "9",
+        "12",
+        "18",
+        "36"
+      ],
+      "correctAnswer": "12",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "alternate-exterior"
+      ],
+      "explanation": "Alternate exterior angles are equal: 8x - 7 = 5x + 29."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-028",
+      "type": "multiple_choice",
+      "questionText": "If one angle in a parallel-line transversal diagram is 121 degrees, what are the measures that appear in the diagram?",
+      "options": [
+        "121 degrees only",
+        "59 degrees only",
+        "121 degrees and 59 degrees",
+        "121 degrees and 90 degrees"
+      ],
+      "correctAnswer": "121 degrees and 59 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "angle-families"
+      ],
+      "explanation": "Equal and supplementary relationships create only the angle and its supplement."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-029",
+      "type": "multiple_choice",
+      "questionText": "An angle is supplementary to 73 degrees and corresponding to angle M. What is angle M?",
+      "options": [
+        "107 degrees",
+        "73 degrees",
+        "17 degrees",
+        "146 degrees"
+      ],
+      "correctAnswer": "107 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "multi-step"
+      ],
+      "explanation": "The supplement is 107, and corresponding angles are equal."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-030",
+      "type": "multiple_choice",
+      "questionText": "A same-side interior pair is 4x + 2 and 6x - 12. What is x?",
+      "options": [
+        "17",
+        "20",
+        "19",
+        "38"
+      ],
+      "correctAnswer": "19",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "same-side-interior"
+      ],
+      "explanation": "They add to 180: 10x - 10 = 180."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-031",
+      "type": "multiple_choice",
+      "questionText": "Which angle pair is inside the parallel lines and on opposite sides of the transversal?",
+      "options": [
+        "Corresponding angles",
+        "Alternate exterior angles",
+        "Same-side exterior angles",
+        "Alternate interior angles"
+      ],
+      "correctAnswer": "Alternate interior angles",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "vocabulary"
+      ],
+      "explanation": "Inside plus opposite sides describes alternate interior angles."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-032",
+      "type": "multiple_choice",
+      "questionText": "Which angle pair is outside the parallel lines and on opposite sides of the transversal?",
+      "options": [
+        "Same-side interior angles",
+        "Alternate exterior angles",
+        "Vertical angles",
+        "Corresponding angles"
+      ],
+      "correctAnswer": "Alternate exterior angles",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "vocabulary"
+      ],
+      "explanation": "Outside plus opposite sides describes alternate exterior angles."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-033",
+      "type": "multiple_choice",
+      "questionText": "A corresponding angle pair is 88 degrees and 88 degrees. What must be true if those angles came from two lines and a transversal?",
+      "options": [
+        "The equal corresponding angles are evidence the two lines are parallel.",
+        "The transversal must be horizontal.",
+        "The lines must intersect at 88 degrees.",
+        "The angles form a linear pair."
+      ],
+      "correctAnswer": "The equal corresponding angles are evidence the two lines are parallel.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "converse"
+      ],
+      "explanation": "Equal corresponding angles can prove lines parallel."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-034",
+      "type": "multiple_choice",
+      "questionText": "A same-side interior pair is 93 degrees and 87 degrees. What is their relationship?",
+      "options": [
+        "They are vertical.",
+        "They are equal.",
+        "They are complementary.",
+        "They are supplementary."
+      ],
+      "correctAnswer": "They are supplementary.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "same-side-interior"
+      ],
+      "explanation": "93 + 87 = 180."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-035",
+      "type": "multiple_choice",
+      "questionText": "Two alternate interior angles are 3x + 6 and 75 degrees. What is x?",
+      "options": [
+        "21",
+        "27",
+        "23",
+        "69"
+      ],
+      "correctAnswer": "23",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "alternate-interior"
+      ],
+      "explanation": "Set 3x + 6 = 75."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-036",
+      "type": "multiple_choice",
+      "questionText": "A diagram has parallel lines cut by a transversal. Angle A corresponds to angle B, and angle B forms a linear pair with angle C. If angle A is 42 degrees, what is angle C?",
+      "options": [
+        "42 degrees",
+        "138 degrees",
+        "48 degrees",
+        "84 degrees"
+      ],
+      "correctAnswer": "138 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "multi-step",
+        "corresponding-angles"
+      ],
+      "explanation": "B = 42 by corresponding angles, so C = 180 - 42."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-037",
+      "type": "multiple_choice",
+      "questionText": "Same-side interior angles are labeled 3x + 15 and 7x - 5. What is the larger angle?",
+      "options": [
+        "114 degrees",
+        "66 degrees",
+        "117 degrees",
+        "122 degrees"
+      ],
+      "correctAnswer": "114 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "same-side-interior"
+      ],
+      "explanation": "Same-side interior angles add to 180: 10x + 10 = 180, so x = 17. The angles are 66 degrees and 114 degrees, so the larger angle is 114 degrees."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-038",
+      "type": "multiple_choice",
+      "questionText": "Alternate exterior angles measure 9x - 4 and 6x + 35. What is each angle?",
+      "options": [
+        "39 degrees",
+        "74 degrees",
+        "113 degrees",
+        "152 degrees"
+      ],
+      "correctAnswer": "113 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "alternate-exterior"
+      ],
+      "explanation": "Set 9x - 4 = 6x + 35, so x = 13 and each angle is 113."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-039",
+      "type": "multiple_choice",
+      "questionText": "A student says alternate interior angles are supplementary. Which counterexample uses parallel lines?",
+      "options": [
+        "A 70 degree angle and a linear-pair partner add to 180.",
+        "A 70 degree angle and a same-side interior partner add to 180.",
+        "A 70 degree angle and a 20 degree angle are complementary.",
+        "A 70 degree angle and its alternate interior partner are both 70 degrees."
+      ],
+      "correctAnswer": "A 70 degree angle and its alternate interior partner are both 70 degrees.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "misconceptions"
+      ],
+      "explanation": "Alternate interior angles are equal, not supplementary."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-040",
+      "type": "multiple_choice",
+      "questionText": "Two lines are cut by a transversal. A pair of same-side interior angles measure 2x + 30 and 4x - 12. If x = 27, what can you conclude?",
+      "options": [
+        "The lines are parallel because the angles are equal.",
+        "The lines are parallel because the same-side interior angles add to 180.",
+        "The lines are not parallel because one angle is obtuse.",
+        "No conclusion is possible because same-side interior angles never matter."
+      ],
+      "correctAnswer": "The lines are parallel because the same-side interior angles add to 180.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "converse",
+        "reasoning"
+      ],
+      "explanation": "The angles are 84 and 96, and 84 + 96 = 180."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-041",
+      "type": "multiple_choice",
+      "questionText": "Angle A is alternate interior to angle B. Angle B corresponds to angle C. If angle C is 128 degrees, what is angle A?",
+      "options": [
+        "128 degrees",
+        "52 degrees",
+        "64 degrees",
+        "232 degrees"
+      ],
+      "correctAnswer": "128 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "multi-step"
+      ],
+      "explanation": "Corresponding and alternate interior relationships are equal relationships."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-042",
+      "type": "multiple_choice",
+      "questionText": "A pair of corresponding angles are labeled 4x + 7 and 8x - 49. What is the supplement of either angle?",
+      "options": [
+        "56 degrees",
+        "63 degrees",
+        "124 degrees",
+        "117 degrees"
+      ],
+      "correctAnswer": "117 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "error-checking"
+      ],
+      "explanation": "Corresponding angles are equal, so x = 14 and each corresponding angle is 63 degrees. The supplement is 180 - 63 = 117 degrees."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-043",
+      "type": "multiple_choice",
+      "questionText": "A transversal cuts two parallel lines. One angle is 35 degrees. Which statement describes the whole diagram?",
+      "options": [
+        "All eight angles measure 35 degrees.",
+        "Four angles measure 70 degrees and four measure 110 degrees.",
+        "Four angles measure 35 degrees and four angles measure 145 degrees.",
+        "Only one angle measure can be known."
+      ],
+      "correctAnswer": "Four angles measure 35 degrees and four angles measure 145 degrees.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "angle-families"
+      ],
+      "explanation": "Vertical, corresponding, and alternate angle relationships create four equal acute angles and four supplements."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-044",
+      "type": "multiple_choice",
+      "questionText": "A same-side interior pair measures 11x - 2 and 6x + 12. What is the smaller angle?",
+      "options": [
+        "78 degrees",
+        "72 degrees",
+        "102 degrees",
+        "108 degrees"
+      ],
+      "correctAnswer": "72 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "same-side-interior"
+      ],
+      "explanation": "Same-side interior angles add to 180: 17x + 10 = 180, so x = 10. The angles are 108 degrees and 72 degrees, so the smaller angle is 72 degrees."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-045",
+      "type": "multiple_choice",
+      "questionText": "A pair of angles are equal, outside the parallel lines, and on opposite sides of the transversal. What are they?",
+      "options": [
+        "Alternate exterior angles",
+        "Same-side interior angles",
+        "Corresponding angles",
+        "Linear-pair angles"
+      ],
+      "correctAnswer": "Alternate exterior angles",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "vocabulary",
+        "classification"
+      ],
+      "explanation": "Outside and opposite sides describes alternate exterior angles."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-046",
+      "type": "multiple_choice",
+      "questionText": "A proof says: angle 1 equals angle 2 because they are same-side interior angles. What should be corrected?",
+      "options": [
+        "Same-side interior angles are never used with parallel lines.",
+        "Same-side interior angles are always vertical.",
+        "Same-side interior angles are supplementary, not equal.",
+        "Same-side interior angles are complementary."
+      ],
+      "correctAnswer": "Same-side interior angles are supplementary, not equal.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "proof-quality",
+        "misconceptions"
+      ],
+      "explanation": "Same-side interior angles add to 180 degrees."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-047",
+      "type": "multiple_choice",
+      "questionText": "If angle 1 and angle 2 are alternate interior angles, and angle 2 and angle 3 are a linear pair, which relationship connects angle 1 and angle 3?",
+      "options": [
+        "They are equal.",
+        "They are complementary.",
+        "They are both right angles.",
+        "They are supplementary."
+      ],
+      "correctAnswer": "They are supplementary.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "multi-step",
+        "reasoning"
+      ],
+      "explanation": "Angle 1 equals angle 2, and angle 2 plus angle 3 is 180."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-048",
+      "type": "multiple_choice",
+      "questionText": "Two corresponding angles are 5x + 20 and 9x - 36. What is the angle measure?",
+      "options": [
+        "14 degrees",
+        "90 degrees",
+        "70 degrees",
+        "110 degrees"
+      ],
+      "correctAnswer": "90 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "corresponding-angles"
+      ],
+      "explanation": "5x + 20 = 9x - 36 gives x = 14, so the angle is 90."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-049",
+      "type": "multiple_choice",
+      "questionText": "A pair of same-side interior angles are 12x + 4 and 5x + 6. What is x?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "85"
+      ],
+      "correctAnswer": "10",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "equations",
+        "same-side-interior"
+      ],
+      "explanation": "They add to 180: 17x + 10 = 180."
+    },
+    {
+      "id": "course3-parallel-lines-transversals-core-050",
+      "type": "multiple_choice",
+      "questionText": "A student concludes two lines are parallel because a pair of alternate interior angles are 64 degrees and 66 degrees. What is the issue?",
+      "options": [
+        "Alternate interior angles must add to 180.",
+        "The angles are not equal, so that evidence does not prove the lines are parallel.",
+        "The angles are too small to use.",
+        "Only corresponding angles can prove lines parallel."
+      ],
+      "correctAnswer": "The angles are not equal, so that evidence does not prove the lines are parallel.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "parallel-lines",
+        "transversals",
+        "converse",
+        "precision"
+      ],
+      "explanation": "Equal alternate interior angles can prove parallel lines; nearly equal is not enough."
+    }
+  ]
+}

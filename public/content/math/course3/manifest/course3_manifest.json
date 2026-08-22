@@ -357,6 +357,61 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-parallel-lines-transversals",
+              "title": "Parallel Lines and Transversals",
+              "description": "Use angle relationships formed by parallel lines and transversals to identify equal and supplementary angles.",
+              "tags": [
+                "geometry",
+                "parallel-lines",
+                "transversals",
+                "angle-relationships"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.5"
+              ],
+              "order": 7,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-parallel-lines-transversals.md",
+              "tests": [
+                {
+                  "id": "course3-parallel-lines-transversals-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-parallel-lines-transversals-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-parallel-lines-transversals-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-parallel-lines-transversals-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },

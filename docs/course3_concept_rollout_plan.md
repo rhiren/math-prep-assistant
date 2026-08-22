@@ -84,6 +84,7 @@ Current learner-ready packs:
 - Sequences of Rigid Transformations
 - Congruent Figures on a Grid
 - Congruence from Transformation Sequences
+- Parallel Lines and Transversals
 
 ### Unit 2 — Dilations, Similarity, and Slope
 
@@ -303,15 +304,15 @@ Use this sequence:
 ## Current Active Manifest State
 
 As of this update, the active Course 3 manifest still presents the previously
-built standards-ordered units plus the first six book-aligned Unit 1 concepts:
+built standards-ordered units plus the first seven book-aligned Unit 1 concepts:
 
-- Rigid Transformations and Congruence: 6 learner-ready concepts
+- Rigid Transformations and Congruence: 7 learner-ready concepts
 - Real Numbers and Exponents: 12 learner-ready concepts
 - Linear Equations in One Variable: 10 learner-ready concepts
 - Lines, Slope, and Linear Equations: 12 learner-ready concepts
 - Systems of Linear Equations: 5 learner-ready concepts
 
-Total active Course 3 concepts: 45.
+Total active Course 3 concepts: 46.
 
 These should be treated as reusable content assets during the transition, not
 as discarded work.
@@ -320,11 +321,10 @@ as discarded work.
 
 The next Course 3 build target is book Unit 1:
 
-- Parallel Lines and Transversals
+- Triangle Angle Relationships
 
 After that, continue through:
 
-- Triangle Angle Relationships
 - Exterior Angles of Triangles
 - Unit 1 Mixed Review
 
