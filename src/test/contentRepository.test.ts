@@ -810,6 +810,10 @@ describe("content repository", () => {
       for (const question of [...coreQuestions, ...reviewQuestions]) {
         expect(question.questionType).toBe("multiple_choice");
         expect(question.choices).toHaveLength(4);
+        expect(
+          question.choices?.some((choice) => /^Not \d+$/.test(choice.label)),
+          `${question.id} includes a placeholder distractor`,
+        ).toBe(false);
         expect(question.choices?.map((choice) => choice.value)).toContain(
           question.correctAnswer,
         );
