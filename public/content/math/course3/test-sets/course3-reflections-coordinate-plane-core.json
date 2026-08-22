@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-reflections-coordinate-plane-core",
+  "conceptId": "concept-reflections-coordinate-plane",
+  "type": "concept",
+  "title": "Reflections on the Coordinate Plane Core Test",
+  "description": "Reflect points and figures over coordinate axes, identify reflection rules, reason from image back to preimage, and analyze rigid-motion properties.",
+  "questions": [
+    {
+      "id": "course3-reflections-coordinate-plane-core-001",
+      "type": "multiple_choice",
+      "questionText": "Point A is (3, 4). Reflect A across the x-axis. What is A'?",
+      "options": [
+        "(3, -4)",
+        "(-3, 4)",
+        "(-3, -4)",
+        "(4, 3)"
+      ],
+      "correctAnswer": "(3, -4)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the x-axis changes the sign of y and keeps the other coordinate the same, so A' is (3, -4)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-002",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-2, 5). Reflect A across the y-axis. What is A'?",
+      "options": [
+        "(-2, -5)",
+        "(2, -5)",
+        "(5, -2)",
+        "(2, 5)"
+      ],
+      "correctAnswer": "(2, 5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the y-axis changes the sign of x and keeps the other coordinate the same, so A' is (2, 5)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-003",
+      "type": "multiple_choice",
+      "questionText": "Point A is (6, -1). Reflect A across the x-axis. What is A'?",
+      "options": [
+        "(-6, -1)",
+        "(6, 1)",
+        "(-6, 1)",
+        "(-1, 6)"
+      ],
+      "correctAnswer": "(6, 1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the x-axis changes the sign of y and keeps the other coordinate the same, so A' is (6, 1)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-004",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-4, -3). Reflect A across the y-axis. What is A'?",
+      "options": [
+        "(-4, 3)",
+        "(4, 3)",
+        "(-3, -4)",
+        "(4, -3)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the y-axis changes the sign of x and keeps the other coordinate the same, so A' is (4, -3)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-005",
+      "type": "multiple_choice",
+      "questionText": "Point A is (0, 7). Reflect A across the x-axis. What is A'?",
+      "options": [
+        "(0, 7)",
+        "(7, 0)",
+        "(0, -7)",
+        "(-7, 0)"
+      ],
+      "correctAnswer": "(0, -7)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the x-axis changes the sign of y and keeps the other coordinate the same, so A' is (0, -7)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-006",
+      "type": "multiple_choice",
+      "questionText": "Point A is (5, 0). Reflect A across the y-axis. What is A'?",
+      "options": [
+        "(-5, 0)",
+        "(5, 0)",
+        "(0, 5)",
+        "(0, -5)"
+      ],
+      "correctAnswer": "(-5, 0)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the y-axis changes the sign of x and keeps the other coordinate the same, so A' is (-5, 0)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-007",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-6, 2). Reflect A across the x-axis. What is A'?",
+      "options": [
+        "(6, 2)",
+        "(-6, -2)",
+        "(6, -2)",
+        "(2, -6)"
+      ],
+      "correctAnswer": "(-6, -2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the x-axis changes the sign of y and keeps the other coordinate the same, so A' is (-6, -2)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-008",
+      "type": "multiple_choice",
+      "questionText": "Point A is (1, -5). Reflect A across the y-axis. What is A'?",
+      "options": [
+        "(1, 5)",
+        "(-1, -5)",
+        "(-1, 5)",
+        "(-5, 1)"
+      ],
+      "correctAnswer": "(-1, -5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the y-axis changes the sign of x and keeps the other coordinate the same, so A' is (-1, -5)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-009",
+      "type": "multiple_choice",
+      "questionText": "Point A is (-3, -6). Reflect A across the x-axis. What is A'?",
+      "options": [
+        "(-3, 6)",
+        "(3, -6)",
+        "(3, 6)",
+        "(-6, -3)"
+      ],
+      "correctAnswer": "(-3, 6)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the x-axis changes the sign of y and keeps the other coordinate the same, so A' is (-3, 6)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-010",
+      "type": "multiple_choice",
+      "questionText": "Point A is (7, 3). Reflect A across the y-axis. What is A'?",
+      "options": [
+        "(7, -3)",
+        "(-7, -3)",
+        "(3, 7)",
+        "(-7, 3)"
+      ],
+      "correctAnswer": "(-7, 3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A reflection across the y-axis changes the sign of x and keeps the other coordinate the same, so A' is (-7, 3)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-011",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule represents a reflection across the x-axis?",
+      "options": [
+        "(x, y) -> (-x, y)",
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, x)"
+      ],
+      "correctAnswer": "(x, y) -> (x, -y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The rule for reflecting across the x-axis is (x, y) -> (x, -y)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-012",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule represents a reflection across the y-axis?",
+      "options": [
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (-x, y)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, x)"
+      ],
+      "correctAnswer": "(x, y) -> (-x, y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The rule for reflecting across the y-axis is (x, y) -> (-x, y)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-013",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule represents a reflection across the origin?",
+      "options": [
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (-x, y)",
+        "(x, y) -> (y, x)",
+        "(x, y) -> (-x, -y)"
+      ],
+      "correctAnswer": "(x, y) -> (-x, -y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The rule for reflecting across the origin is (x, y) -> (-x, -y)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-014",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule represents a reflection across the x-axis?",
+      "options": [
+        "(x, y) -> (-x, y)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, x)",
+        "(x, y) -> (x, -y)"
+      ],
+      "correctAnswer": "(x, y) -> (x, -y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The rule for reflecting across the x-axis is (x, y) -> (x, -y)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-015",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule represents a reflection across the y-axis?",
+      "options": [
+        "(x, y) -> (-x, y)",
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, x)"
+      ],
+      "correctAnswer": "(x, y) -> (-x, y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The rule for reflecting across the y-axis is (x, y) -> (-x, y)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-016",
+      "type": "multiple_choice",
+      "questionText": "Point (4, 3) reflects to (4, -3). Which reflection describes the move?",
+      "options": [
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "reflection across the x-axis",
+        "translation right or left"
+      ],
+      "correctAnswer": "reflection across the x-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "Compare signs: x stayed the same and y changed sign."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-017",
+      "type": "multiple_choice",
+      "questionText": "Point (-5, 2) reflects to (5, 2). Which reflection describes the move?",
+      "options": [
+        "reflection across the y-axis",
+        "reflection across the x-axis",
+        "reflection across the origin",
+        "translation right or left"
+      ],
+      "correctAnswer": "reflection across the y-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "Compare signs: y stayed the same and x changed sign."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-018",
+      "type": "multiple_choice",
+      "questionText": "Point (1, -6) reflects to (1, 6). Which reflection describes the move?",
+      "options": [
+        "reflection across the x-axis",
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "translation right or left"
+      ],
+      "correctAnswer": "reflection across the x-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "Compare signs: x stayed the same and y changed sign."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-019",
+      "type": "multiple_choice",
+      "questionText": "Point (-3, -4) reflects to (3, -4). Which reflection describes the move?",
+      "options": [
+        "reflection across the x-axis",
+        "reflection across the origin",
+        "reflection across the y-axis",
+        "translation right or left"
+      ],
+      "correctAnswer": "reflection across the y-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "Compare signs: y stayed the same and x changed sign."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-020",
+      "type": "multiple_choice",
+      "questionText": "Point (7, -2) reflects to (-7, 2). Which reflection describes the move?",
+      "options": [
+        "reflection across the x-axis",
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "translation right or left"
+      ],
+      "correctAnswer": "reflection across the origin",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "Compare signs: both coordinates changed sign."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-021",
+      "type": "multiple_choice",
+      "questionText": "After reflecting across the x-axis, point A' is (2, -7). Where was A before the reflection?",
+      "options": [
+        "(2, 7)",
+        "(-2, -7)",
+        "(-2, 7)",
+        "(-7, 2)"
+      ],
+      "correctAnswer": "(2, 7)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "preimage",
+        "coordinate-plane"
+      ],
+      "explanation": "A reflection is its own inverse, so reflect (2, -7) across the x-axis again to get (2, 7)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-022",
+      "type": "multiple_choice",
+      "questionText": "After reflecting across the y-axis, point A' is (-6, 1). Where was A before the reflection?",
+      "options": [
+        "(-6, -1)",
+        "(6, -1)",
+        "(1, -6)",
+        "(6, 1)"
+      ],
+      "correctAnswer": "(6, 1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "preimage",
+        "coordinate-plane"
+      ],
+      "explanation": "A reflection is its own inverse, so reflect (-6, 1) across the y-axis again to get (6, 1)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-023",
+      "type": "multiple_choice",
+      "questionText": "After reflecting across the x-axis, point A' is (5, 4). Where was A before the reflection?",
+      "options": [
+        "(-5, 4)",
+        "(5, -4)",
+        "(-5, -4)",
+        "(4, 5)"
+      ],
+      "correctAnswer": "(5, -4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "preimage",
+        "coordinate-plane"
+      ],
+      "explanation": "A reflection is its own inverse, so reflect (5, 4) across the x-axis again to get (5, -4)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-024",
+      "type": "multiple_choice",
+      "questionText": "After reflecting across the y-axis, point A' is (-3, -8). Where was A before the reflection?",
+      "options": [
+        "(-3, 8)",
+        "(3, 8)",
+        "(-8, -3)",
+        "(3, -8)"
+      ],
+      "correctAnswer": "(3, -8)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "preimage",
+        "coordinate-plane"
+      ],
+      "explanation": "A reflection is its own inverse, so reflect (-3, -8) across the y-axis again to get (3, -8)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-025",
+      "type": "multiple_choice",
+      "questionText": "After reflecting across the origin, point A' is (4, -5). Where was A before the reflection?",
+      "options": [
+        "(-4, -5)",
+        "(4, 5)",
+        "(-5, 4)",
+        "(-4, 5)"
+      ],
+      "correctAnswer": "(-4, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "preimage",
+        "coordinate-plane"
+      ],
+      "explanation": "A reflection is its own inverse, so reflect (4, -5) across the origin again to get (-4, 5)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-026",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has vertices A(-2, 1), B(3, 1), and C(0, 4). Reflect the triangle across the x-axis. What are A', B', and C'?",
+      "options": [
+        "(-2, -1), (3, -1), and (0, -4)",
+        "(2, 1), (-3, 1), and (0, 4)",
+        "(1, -2), (1, 3), and (4, 0)",
+        "(2, -1), (-3, -1), and (0, -4)"
+      ],
+      "correctAnswer": "(-2, -1), (3, -1), and (0, -4)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "vertices",
+        "coordinate-plane"
+      ],
+      "explanation": "Reflect each vertex using the same rule (x, y) -> (x, -y). The triangle keeps its side lengths but appears on the opposite side of the mirror line."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-027",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has vertices A(1, -3), B(5, -1), and C(2, 2). Reflect the triangle across the y-axis. What are A', B', and C'?",
+      "options": [
+        "(-1, -3), (-5, -1), and (-2, 2)",
+        "(1, 3), (5, 1), and (2, -2)",
+        "(-3, 1), (-1, 5), and (2, 2)",
+        "(-1, 3), (-5, 1), and (-2, -2)"
+      ],
+      "correctAnswer": "(-1, -3), (-5, -1), and (-2, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "vertices",
+        "coordinate-plane"
+      ],
+      "explanation": "Reflect each vertex using the same rule (x, y) -> (-x, y). The triangle keeps its side lengths but appears on the opposite side of the mirror line."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-028",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has vertices A(-4, -2), B(-1, 3), and C(-6, 1). Reflect the triangle across the x-axis. What are A', B', and C'?",
+      "options": [
+        "(4, -2), (1, 3), and (6, 1)",
+        "(-2, -4), (3, -1), and (1, -6)",
+        "(-4, 2), (-1, -3), and (-6, -1)",
+        "(4, 2), (1, -3), and (6, -1)"
+      ],
+      "correctAnswer": "(-4, 2), (-1, -3), and (-6, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "vertices",
+        "coordinate-plane"
+      ],
+      "explanation": "Reflect each vertex using the same rule (x, y) -> (x, -y). The triangle keeps its side lengths but appears on the opposite side of the mirror line."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-029",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has vertices A(2, 5), B(6, 5), and C(4, 1). Reflect the triangle across the y-axis. What are A', B', and C'?",
+      "options": [
+        "(2, -5), (6, -5), and (4, -1)",
+        "(-2, 5), (-6, 5), and (-4, 1)",
+        "(5, 2), (5, 6), and (1, 4)",
+        "(-2, -5), (-6, -5), and (-4, -1)"
+      ],
+      "correctAnswer": "(-2, 5), (-6, 5), and (-4, 1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "vertices",
+        "coordinate-plane"
+      ],
+      "explanation": "Reflect each vertex using the same rule (x, y) -> (-x, y). The triangle keeps its side lengths but appears on the opposite side of the mirror line."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-030",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has vertices A(-3, 0), B(1, -2), and C(2, 3). Reflect the triangle across the origin. What are A', B', and C'?",
+      "options": [
+        "(-3, 0), (1, 2), and (2, -3)",
+        "(0, -3), (-2, 1), and (3, 2)",
+        "(3, 0), (-1, 2), and (-2, -3)",
+        "(-3, 0), (1, -2), and (2, 3)"
+      ],
+      "correctAnswer": "(3, 0), (-1, 2), and (-2, -3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "vertices",
+        "coordinate-plane"
+      ],
+      "explanation": "Reflect each vertex using the same rule (x, y) -> (-x, -y). The triangle keeps its side lengths but appears on the opposite side of the mirror line."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-031",
+      "type": "multiple_choice",
+      "questionText": "A student reflected (3, -5) across the x-axis and got (-3, -5). What is the correct image?",
+      "options": [
+        "(-3, -5)",
+        "(3, 5)",
+        "(-3, 5)",
+        "(-5, 3)"
+      ],
+      "correctAnswer": "(3, 5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "error-analysis",
+        "coordinate-plane"
+      ],
+      "explanation": "The correct image is (3, 5). The student's answer is wrong because it changed x instead of y."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-032",
+      "type": "multiple_choice",
+      "questionText": "A student reflected (-4, 2) across the y-axis and got (-4, -2). What is the correct image?",
+      "options": [
+        "(-4, -2)",
+        "(4, -2)",
+        "(2, -4)",
+        "(4, 2)"
+      ],
+      "correctAnswer": "(4, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "error-analysis",
+        "coordinate-plane"
+      ],
+      "explanation": "The correct image is (4, 2). The student's answer is wrong because it changed y instead of x."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-033",
+      "type": "multiple_choice",
+      "questionText": "A student reflected (6, 1) across the x-axis and got (-6, -1). What is the correct image?",
+      "options": [
+        "(-6, -1)",
+        "(-6, 1)",
+        "(1, 6)",
+        "(6, -1)"
+      ],
+      "correctAnswer": "(6, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "error-analysis",
+        "coordinate-plane"
+      ],
+      "explanation": "The correct image is (6, -1). The student's answer is wrong because it changed both signs instead of only y."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-034",
+      "type": "multiple_choice",
+      "questionText": "A student reflected (-2, -7) across the y-axis and got (2, 7). What is the correct image?",
+      "options": [
+        "(2, 7)",
+        "(-2, 7)",
+        "(2, -7)",
+        "(-7, -2)"
+      ],
+      "correctAnswer": "(2, -7)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "error-analysis",
+        "coordinate-plane"
+      ],
+      "explanation": "The correct image is (2, -7). The student's answer is wrong because it changed both signs instead of only x."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-035",
+      "type": "multiple_choice",
+      "questionText": "A student reflected (5, -3) across the origin and got (-5, -3). What is the correct image?",
+      "options": [
+        "(-5, -3)",
+        "(5, 3)",
+        "(-5, 3)",
+        "(-3, 5)"
+      ],
+      "correctAnswer": "(-5, 3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "error-analysis",
+        "coordinate-plane"
+      ],
+      "explanation": "The correct image is (-5, 3). The student's answer is wrong because it changed only x instead of both coordinates."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-036",
+      "type": "multiple_choice",
+      "questionText": "Point (3, 5) is reflected across the x-axis. Which distance statement must be true?",
+      "options": [
+        "The preimage and image are each 5 units from the x-axis.",
+        "The image is 8 units from the x-axis.",
+        "The image must be on the same side of the x-axis.",
+        "The image is always closer to the origin."
+      ],
+      "correctAnswer": "The preimage and image are each 5 units from the x-axis.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "distance",
+        "reasoning"
+      ],
+      "explanation": "A reflection places the image the same perpendicular distance from the mirror line as the original point."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-037",
+      "type": "multiple_choice",
+      "questionText": "Point (-4, 6) is reflected across the y-axis. Which distance statement must be true?",
+      "options": [
+        "The preimage and image are each 4 units from the y-axis.",
+        "The image is 10 units from the y-axis.",
+        "The image must be on the same side of the y-axis.",
+        "The image is always closer to the origin."
+      ],
+      "correctAnswer": "The preimage and image are each 4 units from the y-axis.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "distance",
+        "reasoning"
+      ],
+      "explanation": "A reflection places the image the same perpendicular distance from the mirror line as the original point."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-038",
+      "type": "multiple_choice",
+      "questionText": "Point (7, -2) is reflected across the x-axis. Which distance statement must be true?",
+      "options": [
+        "The image is 9 units from the x-axis.",
+        "The image must be on the same side of the x-axis.",
+        "The image is always closer to the origin.",
+        "The preimage and image are each 2 units from the x-axis."
+      ],
+      "correctAnswer": "The preimage and image are each 2 units from the x-axis.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "distance",
+        "reasoning"
+      ],
+      "explanation": "A reflection places the image the same perpendicular distance from the mirror line as the original point."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-039",
+      "type": "multiple_choice",
+      "questionText": "Point (-8, -3) is reflected across the y-axis. Which distance statement must be true?",
+      "options": [
+        "The image is 11 units from the y-axis.",
+        "The preimage and image are each 8 units from the y-axis.",
+        "The image must be on the same side of the y-axis.",
+        "The image is always closer to the origin."
+      ],
+      "correctAnswer": "The preimage and image are each 8 units from the y-axis.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "distance",
+        "reasoning"
+      ],
+      "explanation": "A reflection places the image the same perpendicular distance from the mirror line as the original point."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-040",
+      "type": "multiple_choice",
+      "questionText": "Point (5, 5) is reflected across the origin. Which distance statement must be true?",
+      "options": [
+        "The image is 10 units from the origin.",
+        "The image must be on the same side of the origin.",
+        "The image is the same distance from the origin as the preimage.",
+        "The image is always closer to the origin."
+      ],
+      "correctAnswer": "The image is the same distance from the origin as the preimage.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "distance",
+        "reasoning"
+      ],
+      "explanation": "A reflection places the image the same perpendicular distance from the mirror line as the original point."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-041",
+      "type": "multiple_choice",
+      "questionText": "Point P(2, 3) is reflected across the x-axis, then across the y-axis. Where is the final image point?",
+      "options": [
+        "(2, -3)",
+        "(-2, 3)",
+        "(-2, -3)",
+        "(3, 2)"
+      ],
+      "correctAnswer": "(-2, -3)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "composition",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the reflections in order. After the first reflection the point is (2, -3); after the second it is (-2, -3)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-042",
+      "type": "multiple_choice",
+      "questionText": "Point P(-4, 1) is reflected across the y-axis, then across the x-axis. Where is the final image point?",
+      "options": [
+        "(4, 1)",
+        "(4, -1)",
+        "(-4, -1)",
+        "(1, -4)"
+      ],
+      "correctAnswer": "(4, -1)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "composition",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the reflections in order. After the first reflection the point is (4, 1); after the second it is (4, -1)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-043",
+      "type": "multiple_choice",
+      "questionText": "Point P(5, -2) is reflected across the x-axis, then across the x-axis. Where is the final image point?",
+      "options": [
+        "(5, 2)",
+        "(-5, 2)",
+        "(5, -2)",
+        "(-2, 5)"
+      ],
+      "correctAnswer": "(5, -2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "composition",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the reflections in order. After the first reflection the point is (5, 2); after the second it is (5, -2)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-044",
+      "type": "multiple_choice",
+      "questionText": "Point P(-3, -6) is reflected across the y-axis, then across the y-axis. Where is the final image point?",
+      "options": [
+        "(3, -6)",
+        "(-3, -6)",
+        "(3, 6)",
+        "(-6, -3)"
+      ],
+      "correctAnswer": "(-3, -6)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "composition",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the reflections in order. After the first reflection the point is (3, -6); after the second it is (-3, -6)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-045",
+      "type": "multiple_choice",
+      "questionText": "Point P(7, 4) is reflected across the origin, then across the x-axis. Where is the final image point?",
+      "options": [
+        "(-7, -4)",
+        "(7, -4)",
+        "(-7, 4)",
+        "(4, 7)"
+      ],
+      "correctAnswer": "(-7, 4)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "composition",
+        "coordinate-plane"
+      ],
+      "explanation": "Apply the reflections in order. After the first reflection the point is (-7, -4); after the second it is (-7, 4)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-046",
+      "type": "multiple_choice",
+      "questionText": "Segment AB has endpoints A(-2, 3) and B(4, 3). After reflecting across the x-axis, what must remain true?",
+      "options": [
+        "A'B' has the same length as AB.",
+        "A'B' must be longer than AB.",
+        "A'B' must be shorter than AB.",
+        "A'B' must pass through the origin."
+      ],
+      "correctAnswer": "A'B' has the same length as AB.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "invariants",
+        "reasoning"
+      ],
+      "explanation": "Reflections are rigid transformations, so distances and angle measures are preserved even though orientation may change."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-047",
+      "type": "multiple_choice",
+      "questionText": "Segment AB has endpoints A(1, -5) and B(1, 2). After reflecting across the y-axis, what must remain true?",
+      "options": [
+        "A'B' has the same length as AB.",
+        "A'B' must be longer than AB.",
+        "A'B' must be shorter than AB.",
+        "A'B' must pass through the origin."
+      ],
+      "correctAnswer": "A'B' has the same length as AB.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "invariants",
+        "reasoning"
+      ],
+      "explanation": "Reflections are rigid transformations, so distances and angle measures are preserved even though orientation may change."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-048",
+      "type": "multiple_choice",
+      "questionText": "Segment AB has endpoints A(-6, -1) and B(-2, 3). After reflecting across the x-axis, what must remain true?",
+      "options": [
+        "A'B' must be longer than AB.",
+        "A'B' has the same length as AB.",
+        "A'B' must be shorter than AB.",
+        "A'B' must pass through the origin."
+      ],
+      "correctAnswer": "A'B' has the same length as AB.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "invariants",
+        "reasoning"
+      ],
+      "explanation": "Reflections are rigid transformations, so distances and angle measures are preserved even though orientation may change."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-049",
+      "type": "multiple_choice",
+      "questionText": "Segment AB has endpoints A(3, 4) and B(8, 1). After reflecting across the y-axis, what must remain true?",
+      "options": [
+        "A'B' must be longer than AB.",
+        "A'B' must be shorter than AB.",
+        "A'B' must pass through the origin.",
+        "A'B' has the same length as AB."
+      ],
+      "correctAnswer": "A'B' has the same length as AB.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "invariants",
+        "reasoning"
+      ],
+      "explanation": "Reflections are rigid transformations, so distances and angle measures are preserved even though orientation may change."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-core-050",
+      "type": "multiple_choice",
+      "questionText": "Segment AB has endpoints A(-5, 2) and B(1, -4). After reflecting across the origin, what must remain true?",
+      "options": [
+        "A'B' must be longer than AB.",
+        "A'B' has the same length as AB.",
+        "A'B' must be shorter than AB.",
+        "A'B' must pass through the origin."
+      ],
+      "correctAnswer": "A'B' has the same length as AB.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "invariants",
+        "reasoning"
+      ],
+      "explanation": "Reflections are rigid transformations, so distances and angle measures are preserved even though orientation may change."
+    }
+  ]
+}
