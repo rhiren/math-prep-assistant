@@ -412,6 +412,61 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-triangle-angle-relationships",
+              "title": "Triangle Angle Relationships",
+              "description": "Use the triangle angle sum, special triangle relationships, and algebraic angle expressions to find missing angles and classify triangles.",
+              "tags": [
+                "geometry",
+                "triangles",
+                "angle-relationships",
+                "algebraic-angles"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.5"
+              ],
+              "order": 8,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-triangle-angle-relationships.md",
+              "tests": [
+                {
+                  "id": "course3-triangle-angle-relationships-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-triangle-angle-relationships-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-triangle-angle-relationships-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-triangle-angle-relationships-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },

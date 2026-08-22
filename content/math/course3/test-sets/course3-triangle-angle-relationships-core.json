@@ -1,0 +1,1014 @@
+{
+  "testId": "course3-triangle-angle-relationships-core",
+  "conceptId": "concept-triangle-angle-relationships",
+  "type": "concept",
+  "title": "Triangle Angle Relationships Core Test",
+  "description": "Use triangle angle sums, special triangle relationships, and algebraic angle expressions to find unknown measures and classify triangles.",
+  "questions": [
+    {
+      "id": "course3-triangle-angle-relationships-core-001",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles of 42 degrees and 71 degrees. What is the third angle?",
+      "options": [
+        "77 degrees",
+        "67 degrees",
+        "109 degrees",
+        "58 degrees"
+      ],
+      "correctAnswer": "67 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "angle-sum"
+      ],
+      "explanation": "Triangle angles add to 180 degrees. 180 - 42 - 71 = 67."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-002",
+      "type": "multiple_choice",
+      "questionText": "Two angles in a triangle measure 35 degrees and 88 degrees. What does the missing angle measure?",
+      "options": [
+        "57 degrees",
+        "47 degrees",
+        "145 degrees",
+        "92 degrees"
+      ],
+      "correctAnswer": "57 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "angle-sum"
+      ],
+      "explanation": "Subtract the known angles from 180: 180 - 35 - 88 = 57."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-003",
+      "type": "multiple_choice",
+      "questionText": "A right triangle has one acute angle of 31 degrees. What is the other acute angle?",
+      "options": [
+        "49 degrees",
+        "90 degrees",
+        "59 degrees",
+        "149 degrees"
+      ],
+      "correctAnswer": "59 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "right-triangles"
+      ],
+      "explanation": "The two acute angles in a right triangle add to 90 degrees, so 90 - 31 = 59."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-004",
+      "type": "multiple_choice",
+      "questionText": "An isosceles triangle has equal base angles of 54 degrees each. What is the vertex angle?",
+      "options": [
+        "54 degrees",
+        "126 degrees",
+        "36 degrees",
+        "72 degrees"
+      ],
+      "correctAnswer": "72 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "isosceles-triangles"
+      ],
+      "explanation": "The two base angles total 108 degrees, so the vertex angle is 180 - 108 = 72."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-005",
+      "type": "multiple_choice",
+      "questionText": "An equilateral triangle has three congruent angles. What is the measure of each angle?",
+      "options": [
+        "45 degrees",
+        "90 degrees",
+        "120 degrees",
+        "60 degrees"
+      ],
+      "correctAnswer": "60 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "equilateral-triangles"
+      ],
+      "explanation": "Three equal angles share 180 degrees equally: 180 / 3 = 60."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-006",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angle measures 25 degrees, 65 degrees, and 90 degrees. What kind of triangle is it by angle measure?",
+      "options": [
+        "acute triangle",
+        "right triangle",
+        "obtuse triangle",
+        "equilateral triangle"
+      ],
+      "correctAnswer": "right triangle",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "classification"
+      ],
+      "explanation": "A triangle with one 90 degree angle is a right triangle."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-007",
+      "type": "multiple_choice",
+      "questionText": "Which set of angle measures could form a triangle?",
+      "options": [
+        "50 degrees, 60 degrees, 70 degrees",
+        "40 degrees, 60 degrees, 90 degrees",
+        "30 degrees, 30 degrees, 130 degrees",
+        "75 degrees, 75 degrees, 40 degrees"
+      ],
+      "correctAnswer": "50 degrees, 60 degrees, 70 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "validity"
+      ],
+      "explanation": "A triangle's angles must add to exactly 180 degrees. 50 + 60 + 70 = 180."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-008",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles of 44 degrees, 46 degrees, and 90 degrees. Which statement is true?",
+      "options": [
+        "It is equilateral.",
+        "It is impossible.",
+        "It is obtuse.",
+        "It is a right triangle."
+      ],
+      "correctAnswer": "It is a right triangle.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "classification"
+      ],
+      "explanation": "The angles add to 180 degrees and include one 90 degree angle, so the triangle is right."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-009",
+      "type": "multiple_choice",
+      "questionText": "A triangle has two angles that measure 63 degrees and 63 degrees. What is the third angle?",
+      "options": [
+        "63 degrees",
+        "117 degrees",
+        "54 degrees",
+        "44 degrees"
+      ],
+      "correctAnswer": "54 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "isosceles-triangles"
+      ],
+      "explanation": "The equal angles total 126 degrees. 180 - 126 = 54."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-010",
+      "type": "multiple_choice",
+      "questionText": "In a triangle, one angle is 100 degrees and another is 38 degrees. What is the remaining angle?",
+      "options": [
+        "52 degrees",
+        "42 degrees",
+        "62 degrees",
+        "138 degrees"
+      ],
+      "correctAnswer": "42 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "angle-sum"
+      ],
+      "explanation": "Use the angle sum: 180 - 100 - 38 = 42."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-011",
+      "type": "multiple_choice",
+      "questionText": "A triangle's angles are x degrees, 64 degrees, and 79 degrees. What is x?",
+      "options": [
+        "37 degrees",
+        "47 degrees",
+        "101 degrees",
+        "116 degrees"
+      ],
+      "correctAnswer": "37 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "x + 64 + 79 = 180, so x = 37."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-012",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles of 2x degrees, 48 degrees, and 72 degrees. What is x?",
+      "options": [
+        "60 degrees",
+        "24 degrees",
+        "30 degrees",
+        "40 degrees"
+      ],
+      "correctAnswer": "30 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "2x + 48 + 72 = 180, so 2x = 60 and x = 30."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-013",
+      "type": "multiple_choice",
+      "questionText": "The angles of a triangle are x degrees, x degrees, and 84 degrees. What is x?",
+      "options": [
+        "42 degrees",
+        "48 degrees",
+        "96 degrees",
+        "54 degrees"
+      ],
+      "correctAnswer": "48 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "2x + 84 = 180, so 2x = 96 and x = 48."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-014",
+      "type": "multiple_choice",
+      "questionText": "An isosceles triangle has a vertex angle of 38 degrees. What is each base angle?",
+      "options": [
+        "52 degrees",
+        "76 degrees",
+        "142 degrees",
+        "71 degrees"
+      ],
+      "correctAnswer": "71 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "The base angles are equal and share 180 - 38 = 142 degrees. 142 / 2 = 71."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-015",
+      "type": "multiple_choice",
+      "questionText": "A right triangle has acute angles labeled x degrees and 3x - 10 degrees. What is x?",
+      "options": [
+        "35 degrees",
+        "25 degrees",
+        "20 degrees",
+        "50 degrees"
+      ],
+      "correctAnswer": "25 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "The acute angles add to 90: x + 3x - 10 = 90, so 4x = 100 and x = 25."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-016",
+      "type": "multiple_choice",
+      "questionText": "A triangle's angles are x + 12 degrees, 2x degrees, and 3x - 6 degrees. What is x?",
+      "options": [
+        "24 degrees",
+        "35 degrees",
+        "58 degrees",
+        "29 degrees"
+      ],
+      "correctAnswer": "29 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "Add the expressions: x + 12 + 2x + 3x - 6 = 180, so 6x + 6 = 180 and x = 29."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-017",
+      "type": "multiple_choice",
+      "questionText": "Two angles in a triangle are 4x degrees and 5x degrees. The third angle is 45 degrees. What is x?",
+      "options": [
+        "15 degrees",
+        "20 degrees",
+        "30 degrees",
+        "45 degrees"
+      ],
+      "correctAnswer": "15 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "4x + 5x + 45 = 180, so 9x = 135 and x = 15."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-018",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 3x + 4 degrees, x + 20 degrees, and 76 degrees. What is x?",
+      "options": [
+        "25 degrees",
+        "16 degrees",
+        "20 degrees",
+        "40 degrees"
+      ],
+      "correctAnswer": "20 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "3x + 4 + x + 20 + 76 = 180, so 4x + 100 = 180 and x = 20."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-019",
+      "type": "multiple_choice",
+      "questionText": "The angles in a triangle are consecutive multiples of x: x degrees, 2x degrees, and 3x degrees. What is the largest angle?",
+      "options": [
+        "90 degrees",
+        "60 degrees",
+        "30 degrees",
+        "120 degrees"
+      ],
+      "correctAnswer": "90 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "x + 2x + 3x = 180, so x = 30. The largest angle is 3x = 90."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-020",
+      "type": "multiple_choice",
+      "questionText": "An isosceles triangle has two congruent angles. The third angle is 112 degrees. What is each congruent angle?",
+      "options": [
+        "34 degrees",
+        "56 degrees",
+        "68 degrees",
+        "44 degrees"
+      ],
+      "correctAnswer": "34 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "The congruent angles share 180 - 112 = 68 degrees, so each is 34 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-021",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 7x degrees, 5x degrees, and 60 degrees. What is the smallest angle?",
+      "options": [
+        "35 degrees",
+        "60 degrees",
+        "70 degrees",
+        "50 degrees"
+      ],
+      "correctAnswer": "50 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "7x + 5x + 60 = 180, so x = 10. The angles are 70, 50, and 60 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-022",
+      "type": "multiple_choice",
+      "questionText": "A right triangle has one acute angle labeled 2x + 8 degrees and the other labeled x + 7 degrees. What is x?",
+      "options": [
+        "20 degrees",
+        "30 degrees",
+        "25 degrees",
+        "75 degrees"
+      ],
+      "correctAnswer": "25 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "The acute angles add to 90: 2x + 8 + x + 7 = 90, so 3x = 75 and x = 25."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-023",
+      "type": "multiple_choice",
+      "questionText": "A triangle's angles are x degrees, x + 15 degrees, and x + 30 degrees. What is the middle angle?",
+      "options": [
+        "45 degrees",
+        "60 degrees",
+        "75 degrees",
+        "90 degrees"
+      ],
+      "correctAnswer": "60 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "3x + 45 = 180, so x = 45. The middle angle is x + 15 = 60."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-024",
+      "type": "multiple_choice",
+      "questionText": "A triangle has two angles with a sum of 119 degrees. What is the third angle?",
+      "options": [
+        "61 degrees",
+        "59 degrees",
+        "71 degrees",
+        "119 degrees"
+      ],
+      "correctAnswer": "61 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "The third angle is 180 - 119 = 61 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-025",
+      "type": "multiple_choice",
+      "questionText": "A triangle has one angle of 24 degrees. The other two angles are equal. What is each equal angle?",
+      "options": [
+        "66 degrees",
+        "78 degrees",
+        "84 degrees",
+        "156 degrees"
+      ],
+      "correctAnswer": "78 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "The equal angles share 180 - 24 = 156 degrees, and 156 / 2 = 78."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-026",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles x degrees, 2x + 15 degrees, and 3x - 9 degrees. What is x?",
+      "options": [
+        "29 degrees",
+        "24 degrees",
+        "32 degrees",
+        "58 degrees"
+      ],
+      "correctAnswer": "29 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "x + 2x + 15 + 3x - 9 = 180, so 6x + 6 = 180 and x = 29."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-027",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 41 degrees, 64 degrees, and y degrees. Which equation correctly finds y?",
+      "options": [
+        "41 + 64 = y",
+        "180 + y = 105",
+        "y = 180 + 41 + 64",
+        "41 + 64 + y = 180"
+      ],
+      "correctAnswer": "41 + 64 + y = 180",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": 3
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-028",
+      "type": "multiple_choice",
+      "questionText": "A student claims angles 32 degrees, 68 degrees, and 90 degrees form a triangle. What is the best response?",
+      "options": [
+        "Yes, because it has a right angle.",
+        "No, because the sum is 190 degrees.",
+        "No, because every triangle needs equal angles.",
+        "Yes, because all angles are positive."
+      ],
+      "correctAnswer": "No, because the sum is 190 degrees.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": 1
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-029",
+      "type": "multiple_choice",
+      "questionText": "In a triangle, the largest angle is 92 degrees and the smallest angle is 39 degrees. What is the third angle?",
+      "options": [
+        "59 degrees",
+        "53 degrees",
+        "88 degrees",
+        "49 degrees"
+      ],
+      "correctAnswer": "49 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": "180 - 92 - 39 = 49 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-030",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angle measures x degrees, 4x degrees, and 5x degrees. What type of triangle is it by angle measure?",
+      "options": [
+        "acute triangle",
+        "obtuse triangle",
+        "right triangle",
+        "not a triangle"
+      ],
+      "correctAnswer": "right triangle",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": 2
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-031",
+      "type": "multiple_choice",
+      "questionText": "A triangle's angles are 2x degrees, 3x + 15 degrees, and 45 degrees. What is the largest angle?",
+      "options": [
+        "87 degrees",
+        "48 degrees",
+        "96 degrees",
+        "45 degrees"
+      ],
+      "correctAnswer": "87 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "algebraic-angles"
+      ],
+      "explanation": "2x + 3x + 15 + 45 = 180, so 5x + 60 = 180 and x = 24. The angles are 48, 87, and 45 degrees, so the largest is 87 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-032",
+      "type": "multiple_choice",
+      "questionText": "An isosceles triangle has base angles of 5x + 2 degrees each and a vertex angle of 56 degrees. What is x?",
+      "options": [
+        "12 degrees",
+        "10 degrees",
+        "24 degrees",
+        "34 degrees"
+      ],
+      "correctAnswer": "12 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": "2(5x + 2) + 56 = 180, so 10x + 60 = 180 and x = 12."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-033",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 2x + 10 degrees, 2x - 4 degrees, and 90 degrees. What is x?",
+      "options": [
+        "25 degrees",
+        "21 degrees",
+        "42 degrees",
+        "14 degrees"
+      ],
+      "correctAnswer": "21 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": "2x + 10 + 2x - 4 + 90 = 180, so 4x + 96 = 180 and x = 21."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-034",
+      "type": "multiple_choice",
+      "questionText": "The two smaller angles of a triangle are 27 degrees and 58 degrees. What can you conclude?",
+      "options": [
+        "The triangle is right.",
+        "The triangle is equilateral.",
+        "The triangle is impossible.",
+        "The triangle is obtuse."
+      ],
+      "correctAnswer": "The triangle is obtuse.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": 3
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-035",
+      "type": "multiple_choice",
+      "questionText": "A triangle has one angle twice as large as another. The third angle is 75 degrees, and the smaller of the related angles is x. What is x?",
+      "options": [
+        "35 degrees",
+        "30 degrees",
+        "70 degrees",
+        "105 degrees"
+      ],
+      "correctAnswer": "35 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "reasoning"
+      ],
+      "explanation": "x + 2x + 75 = 180, so 3x = 105 and x = 35."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-036",
+      "type": "multiple_choice",
+      "questionText": "A triangle's angles are x + 18 degrees, 2x - 7 degrees, and 3x + 1 degrees. What is the measure of the largest angle?",
+      "options": [
+        "46 degrees",
+        "49 degrees",
+        "85 degrees",
+        "91 degrees"
+      ],
+      "correctAnswer": "85 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "multi-step"
+      ],
+      "explanation": "The expressions add to 180: 6x + 12 = 180, so x = 28. The angles are 46, 49, and 85 degrees, so the largest is 85 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-037",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 4x - 5 degrees, 3x + 20 degrees, and 2x + 3 degrees. What is x?",
+      "options": [
+        "20 degrees",
+        "18 degrees",
+        "36 degrees",
+        "16 degrees"
+      ],
+      "correctAnswer": "18 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "multi-step"
+      ],
+      "explanation": "4x - 5 + 3x + 20 + 2x + 3 = 180, so 9x + 18 = 180 and x = 18."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-038",
+      "type": "multiple_choice",
+      "questionText": "A right triangle has acute angles 5x - 12 degrees and 2x + 25 degrees. What is the larger acute angle?",
+      "options": [
+        "43 degrees",
+        "61 degrees",
+        "90 degrees",
+        "47 degrees"
+      ],
+      "correctAnswer": "47 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "right-triangles",
+        "multi-step"
+      ],
+      "explanation": "The acute angles add to 90: 5x - 12 + 2x + 25 = 90, so 7x + 13 = 90 and x = 11. The larger acute angle is 47 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-039",
+      "type": "multiple_choice",
+      "questionText": "An isosceles triangle has congruent angles of 3x + 6 degrees each and a vertex angle of 4x - 12 degrees. What is the vertex angle?",
+      "options": [
+        "60 degrees",
+        "66 degrees",
+        "72 degrees",
+        "54 degrees"
+      ],
+      "correctAnswer": "60 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "isosceles-triangles",
+        "multi-step"
+      ],
+      "explanation": "2(3x + 6) + 4x - 12 = 180, so 10x = 180 and x = 18. The vertex angle is 4x - 12 = 60 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-040",
+      "type": "multiple_choice",
+      "questionText": "A student says a triangle with angles 2x, 3x, and 6x must be obtuse. Which exact value of x makes the angle measures fit a triangle?",
+      "options": [
+        "15 degrees",
+        "18 degrees",
+        "30 degrees",
+        "180/11 degrees"
+      ],
+      "correctAnswer": "180/11 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "proportional-reasoning"
+      ],
+      "explanation": "The angles add to 11x = 180, so x = 180/11 degrees. Then the largest angle is 6x, about 98.18 degrees, so the triangle is obtuse."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-041",
+      "type": "multiple_choice",
+      "questionText": "Angles in a triangle are in the ratio 2:3:7. What is the largest angle?",
+      "options": [
+        "90 degrees",
+        "75 degrees",
+        "105 degrees",
+        "120 degrees"
+      ],
+      "correctAnswer": "105 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "ratio-reasoning"
+      ],
+      "explanation": "The ratio has 12 parts. Each part is 180 / 12 = 15 degrees, so the largest angle is 7 x 15 = 105 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-042",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angle ratio 3:4:5. Which statement is true?",
+      "options": [
+        "The triangle is right.",
+        "The triangle is obtuse.",
+        "The triangle is impossible.",
+        "The triangle is acute."
+      ],
+      "correctAnswer": "The triangle is acute.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "ratio-reasoning",
+        "classification"
+      ],
+      "explanation": "There are 12 ratio parts, so each part is 15 degrees. The angles are 45, 60, and 75 degrees, all acute."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-043",
+      "type": "multiple_choice",
+      "questionText": "A triangle's angle measures are x, x + 20, and 2x - 8 degrees. Which equation should be solved first?",
+      "options": [
+        "x + x + 20 = 2x - 8",
+        "x + 20 + 2x - 8 = 90",
+        "x + (x + 20) + (2x - 8) = 180",
+        "180 + x = x + 20 + 2x - 8"
+      ],
+      "correctAnswer": "x + (x + 20) + (2x - 8) = 180",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "equation-modeling"
+      ],
+      "explanation": "All three interior angles must be included in the 180 degree sum."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-044",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 6x + 5 degrees, 4x - 1 degrees, and 3x + 7 degrees. What is the smallest angle?",
+      "options": [
+        "51 degrees",
+        "46 degrees",
+        "83 degrees",
+        "55 degrees"
+      ],
+      "correctAnswer": "46 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "multi-step"
+      ],
+      "explanation": "6x + 5 + 4x - 1 + 3x + 7 = 180, so 13x + 11 = 180 and x = 13. The angles are 83, 51, and 46 degrees, so 46 degrees is smallest."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-045",
+      "type": "multiple_choice",
+      "questionText": "An isosceles triangle has a vertex angle of 40 degrees. Which set could be its angle measures?",
+      "options": [
+        "40 degrees, 40 degrees, 100 degrees",
+        "40 degrees, 60 degrees, 90 degrees",
+        "40 degrees, 70 degrees, 70 degrees",
+        "40 degrees, 80 degrees, 80 degrees"
+      ],
+      "correctAnswer": "40 degrees, 70 degrees, 70 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "case-reasoning"
+      ],
+      "explanation": "If 40 degrees is the vertex angle, the equal base angles are 70 degrees each. That set adds to 180 and has two equal angles."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-046",
+      "type": "multiple_choice",
+      "questionText": "A triangle has two angles that differ by 24 degrees. The third angle is 72 degrees. What is the larger of the two unknown angles?",
+      "options": [
+        "66 degrees",
+        "42 degrees",
+        "54 degrees",
+        "78 degrees"
+      ],
+      "correctAnswer": "66 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "systems-thinking"
+      ],
+      "explanation": "The two unknown angles add to 108 degrees. If they differ by 24, the larger is (108 + 24) / 2 = 66 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-047",
+      "type": "multiple_choice",
+      "questionText": "A triangle's angles are 8x - 10 degrees, 5x + 14 degrees, and x + 8 degrees. What type of triangle is it?",
+      "options": [
+        "right triangle",
+        "obtuse triangle",
+        "acute triangle",
+        "not a triangle"
+      ],
+      "correctAnswer": "acute triangle",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "classification",
+        "multi-step"
+      ],
+      "explanation": "The sum gives 14x + 12 = 180, so x = 12. The angles are 86, 74, and 20 degrees; all are acute."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-048",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles a, b, and c. If a + b = 123 degrees, which statement must be true?",
+      "options": [
+        "c = 123 degrees",
+        "c = 57 degrees",
+        "a = b",
+        "The triangle is obtuse."
+      ],
+      "correctAnswer": "c = 57 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "generalization"
+      ],
+      "explanation": "Since a + b + c = 180, c = 180 - 123 = 57 degrees."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-049",
+      "type": "multiple_choice",
+      "questionText": "A designer wants a non-obtuse triangular brace with two angles of 28 degrees and 59 degrees. What is wrong with the sketch?",
+      "options": [
+        "The third angle is 83 degrees, so it is acute.",
+        "The angles only add to 87 degrees.",
+        "The third angle is 93 degrees, so the triangle is obtuse.",
+        "The brace must be equilateral."
+      ],
+      "correctAnswer": "The third angle is 93 degrees, so the triangle is obtuse.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "error-analysis"
+      ],
+      "explanation": "The third angle is 180 - 28 - 59 = 93 degrees, which is obtuse."
+    },
+    {
+      "id": "course3-triangle-angle-relationships-core-050",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 2x + 11 degrees, 3x - 4 degrees, and 5x - 7 degrees. Which angle is largest?",
+      "options": [
+        "2x + 11 degrees",
+        "5x - 7 degrees",
+        "3x - 4 degrees",
+        "All three are equal"
+      ],
+      "correctAnswer": "5x - 7 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "angle-relationships",
+        "comparison",
+        "multi-step"
+      ],
+      "explanation": "The sum gives 10x = 180, so x = 18. The angles are 47, 50, and 83 degrees; 5x - 7 is largest."
+    }
+  ]
+}
