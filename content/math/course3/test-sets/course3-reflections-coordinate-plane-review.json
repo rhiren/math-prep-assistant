@@ -1,0 +1,409 @@
+{
+  "testId": "course3-reflections-coordinate-plane-review",
+  "conceptId": "concept-reflections-coordinate-plane",
+  "type": "review",
+  "title": "Reflections on the Coordinate Plane Review Test",
+  "description": "Review reflections over the x-axis, y-axis, and origin using image points, rules, and transformation identification.",
+  "questions": [
+    {
+      "id": "course3-reflections-coordinate-plane-review-001",
+      "type": "multiple_choice",
+      "questionText": "Reflect (2, 5) across the x-axis. What is the image point?",
+      "options": [
+        "(-2, 5)",
+        "(-2, -5)",
+        "(2, -5)",
+        "(5, 2)"
+      ],
+      "correctAnswer": "(2, -5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the x-axis changes the sign of y only, giving (2, -5)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-002",
+      "type": "multiple_choice",
+      "questionText": "Reflect (-3, 4) across the y-axis. What is the image point?",
+      "options": [
+        "(-3, -4)",
+        "(3, -4)",
+        "(4, -3)",
+        "(3, 4)"
+      ],
+      "correctAnswer": "(3, 4)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the y-axis changes the sign of x only, giving (3, 4)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-003",
+      "type": "multiple_choice",
+      "questionText": "Reflect (6, -2) across the x-axis. What is the image point?",
+      "options": [
+        "(-6, -2)",
+        "(6, 2)",
+        "(-6, 2)",
+        "(-2, 6)"
+      ],
+      "correctAnswer": "(6, 2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the x-axis changes the sign of y only, giving (6, 2)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-004",
+      "type": "multiple_choice",
+      "questionText": "Reflect (-5, -1) across the y-axis. What is the image point?",
+      "options": [
+        "(-5, 1)",
+        "(5, -1)",
+        "(5, 1)",
+        "(-1, -5)"
+      ],
+      "correctAnswer": "(5, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the y-axis changes the sign of x only, giving (5, -1)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-005",
+      "type": "multiple_choice",
+      "questionText": "Reflect (0, 8) across the x-axis. What is the image point?",
+      "options": [
+        "(0, -8)",
+        "(0, 8)",
+        "(8, 0)",
+        "(-8, 0)"
+      ],
+      "correctAnswer": "(0, -8)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the x-axis changes the sign of y only, giving (0, -8)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-006",
+      "type": "multiple_choice",
+      "questionText": "Reflect (7, 0) across the y-axis. What is the image point?",
+      "options": [
+        "(7, 0)",
+        "(0, 7)",
+        "(0, -7)",
+        "(-7, 0)"
+      ],
+      "correctAnswer": "(-7, 0)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the y-axis changes the sign of x only, giving (-7, 0)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-007",
+      "type": "multiple_choice",
+      "questionText": "Reflect (-4, 3) across the x-axis. What is the image point?",
+      "options": [
+        "(4, 3)",
+        "(4, -3)",
+        "(3, -4)",
+        "(-4, -3)"
+      ],
+      "correctAnswer": "(-4, -3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the x-axis changes the sign of y only, giving (-4, -3)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-008",
+      "type": "multiple_choice",
+      "questionText": "Reflect (1, -6) across the y-axis. What is the image point?",
+      "options": [
+        "(1, 6)",
+        "(-1, -6)",
+        "(-1, 6)",
+        "(-6, 1)"
+      ],
+      "correctAnswer": "(-1, -6)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "Reflecting across the y-axis changes the sign of x only, giving (-1, -6)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-009",
+      "type": "multiple_choice",
+      "questionText": "Which rule reflects a point across the x-axis?",
+      "options": [
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (-x, y)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, x)"
+      ],
+      "correctAnswer": "(x, y) -> (x, -y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate rule for this reflection is (x, y) -> (x, -y)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-010",
+      "type": "multiple_choice",
+      "questionText": "Which rule reflects a point across the y-axis?",
+      "options": [
+        "(x, y) -> (-x, y)",
+        "(x, y) -> (x, -y)",
+        "(x, y) -> (-x, -y)",
+        "(x, y) -> (y, x)"
+      ],
+      "correctAnswer": "(x, y) -> (-x, y)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "coordinate-rule",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate rule for this reflection is (x, y) -> (-x, y)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-011",
+      "type": "multiple_choice",
+      "questionText": "Point (4, -3) maps to (4, 3). Which reflection caused this?",
+      "options": [
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "reflection across the x-axis",
+        "translation only"
+      ],
+      "correctAnswer": "reflection across the x-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the x-axis."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-012",
+      "type": "multiple_choice",
+      "questionText": "Point (-2, 5) maps to (2, 5). Which reflection caused this?",
+      "options": [
+        "reflection across the y-axis",
+        "reflection across the x-axis",
+        "reflection across the origin",
+        "translation only"
+      ],
+      "correctAnswer": "reflection across the y-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the y-axis."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-013",
+      "type": "multiple_choice",
+      "questionText": "Point (3, 6) maps to (-3, -6). Which reflection caused this?",
+      "options": [
+        "reflection across the x-axis",
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "translation only"
+      ],
+      "correctAnswer": "reflection across the origin",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the origin."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-014",
+      "type": "multiple_choice",
+      "questionText": "Point (-5, -4) maps to (-5, 4). Which reflection caused this?",
+      "options": [
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "reflection across the x-axis",
+        "translation only"
+      ],
+      "correctAnswer": "reflection across the x-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the x-axis."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-015",
+      "type": "multiple_choice",
+      "questionText": "Point (6, 2) maps to (-6, 2). Which reflection caused this?",
+      "options": [
+        "reflection across the x-axis",
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "translation only"
+      ],
+      "correctAnswer": "reflection across the y-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the y-axis."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-016",
+      "type": "multiple_choice",
+      "questionText": "Point (1, -7) maps to (1, 7). Which reflection caused this?",
+      "options": [
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "reflection across the x-axis",
+        "translation only"
+      ],
+      "correctAnswer": "reflection across the x-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the x-axis."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-017",
+      "type": "multiple_choice",
+      "questionText": "Point (-8, 3) maps to (8, 3). Which reflection caused this?",
+      "options": [
+        "reflection across the x-axis",
+        "reflection across the y-axis",
+        "reflection across the origin",
+        "translation only"
+      ],
+      "correctAnswer": "reflection across the y-axis",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the y-axis."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-018",
+      "type": "multiple_choice",
+      "questionText": "Point (2, 4) maps to (-2, -4). Which reflection caused this?",
+      "options": [
+        "reflection across the x-axis",
+        "reflection across the y-axis",
+        "translation only",
+        "reflection across the origin"
+      ],
+      "correctAnswer": "reflection across the origin",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "identify-transformation",
+        "coordinate-plane"
+      ],
+      "explanation": "The coordinate signs show a reflection across the origin."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-019",
+      "type": "multiple_choice",
+      "questionText": "After a reflection across the x-axis, the image is (5, -1). What was the preimage?",
+      "options": [
+        "(5, 1)",
+        "(-5, -1)",
+        "(-5, 1)",
+        "(-1, 5)"
+      ],
+      "correctAnswer": "(5, 1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "preimage",
+        "coordinate-plane"
+      ],
+      "explanation": "Reflect the image across the same axis again to get the preimage (5, 1)."
+    },
+    {
+      "id": "course3-reflections-coordinate-plane-review-020",
+      "type": "multiple_choice",
+      "questionText": "After a reflection across the y-axis, the image is (-6, 2). What was the preimage?",
+      "options": [
+        "(-6, -2)",
+        "(6, -2)",
+        "(2, -6)",
+        "(6, 2)"
+      ],
+      "correctAnswer": "(6, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reflections",
+        "preimage",
+        "coordinate-plane"
+      ],
+      "explanation": "Reflect the image across the same axis again to get the preimage (6, 2)."
+    }
+  ]
+}
