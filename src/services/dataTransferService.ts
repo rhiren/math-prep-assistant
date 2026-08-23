@@ -4,6 +4,7 @@ import type {
   PlacementProfile,
   ProgressRecord,
   StudentFeatureFlags,
+  StudentProfile,
   StudentProfileType,
   TestAttempt,
   TestSession,
@@ -204,6 +205,10 @@ export class DataTransferService {
 
   async exportProgress(): Promise<ProgressSnapshot> {
     const activeProfile = await this.studentProfileService.getActiveProfile();
+    return this.exportProgressForStudent(activeProfile);
+  }
+
+  async exportProgressForStudent(student: StudentProfile): Promise<ProgressSnapshot> {
     const [sessions, attempts, progress] = await Promise.all([
       this.storage.getAll<TestSession>(STORE_NAMES.sessions),
       this.storage.getAll<TestAttempt>(STORE_NAMES.attempts),
@@ -214,18 +219,18 @@ export class DataTransferService {
       appVersion: APP_VERSION,
       exportedAt: new Date().toISOString(),
       student: {
-        studentId: activeProfile.studentId,
-        displayName: activeProfile.displayName,
-        gradeLevel: activeProfile.gradeLevel,
-        homeGrade: activeProfile.homeGrade,
-        placementProfile: activeProfile.placementProfile,
-        profileType: activeProfile.profileType,
-        featureFlags: activeProfile.featureFlags,
+        studentId: student.studentId,
+        displayName: student.displayName,
+        gradeLevel: student.gradeLevel,
+        homeGrade: student.homeGrade,
+        placementProfile: student.placementProfile,
+        profileType: student.profileType,
+        featureFlags: student.featureFlags,
       },
       data: {
-        sessions: sessions.filter((session) => session.studentId === activeProfile.studentId),
-        attempts: attempts.filter((attempt) => attempt.studentId === activeProfile.studentId),
-        progress: progress.filter((record) => record.studentId === activeProfile.studentId),
+        sessions: sessions.filter((session) => session.studentId === student.studentId),
+        attempts: attempts.filter((attempt) => attempt.studentId === student.studentId),
+        progress: progress.filter((record) => record.studentId === student.studentId),
       },
     };
 

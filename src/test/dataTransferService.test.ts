@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { APP_VERSION } from "../app/version";
-import type { ProgressRecord, TestAttempt, TestSession } from "../domain/models";
+import type { ProgressRecord, StudentProfile, TestAttempt, TestSession } from "../domain/models";
 import { createDefaultContentRepository } from "../services/contentRepository";
 import { DataTransferService } from "../services/dataTransferService";
 import { DEFAULT_STUDENT_ID } from "../services/studentProfileService";
@@ -186,6 +186,56 @@ describe("DataTransferService", () => {
         smartRetry: true,
       },
     });
+  });
+
+  it("exports progress for a selected non-active student", async () => {
+    const storage = new MemoryStorageService();
+    const service = new DataTransferService(storage);
+    const daughterProfile: StudentProfile = {
+      studentId: "student-daughter",
+      displayName: "Kashish",
+      homeGrade: "7",
+      profileType: "production",
+      createdAt: "2026-04-12T00:00:00.000Z",
+      lastActiveAt: "2026-04-12T00:00:00.000Z",
+      isActive: false,
+    };
+    const daughterSession: TestSession = {
+      id: "session-daughter",
+      studentId: daughterProfile.studentId,
+      mode: "concept",
+      courseId: "course-2",
+      conceptId: "concept-ratios",
+      conceptIds: ["concept-ratios"],
+      questionIds: ["q1"],
+      answers: {},
+      currentQuestionIndex: 0,
+      status: "in_progress",
+      createdAt: "2026-04-12T00:00:00.000Z",
+      updatedAt: "2026-04-12T00:00:00.000Z",
+    };
+    const defaultSession: TestSession = {
+      ...daughterSession,
+      id: "session-default",
+      studentId: DEFAULT_STUDENT_ID,
+    };
+
+    await storage.set(
+      STORE_NAMES.sessions,
+      getStudentScopedKey(daughterProfile.studentId, daughterSession.id),
+      daughterSession,
+    );
+    await storage.set(
+      STORE_NAMES.sessions,
+      getStudentScopedKey(DEFAULT_STUDENT_ID, defaultSession.id),
+      defaultSession,
+    );
+
+    const snapshot = await service.exportProgressForStudent(daughterProfile);
+
+    expect(snapshot.student?.studentId).toBe(daughterProfile.studentId);
+    expect(snapshot.student?.displayName).toBe("Kashish");
+    expect(snapshot.data.sessions).toEqual([daughterSession]);
   });
 
   it("repairs stale multiple-choice attempt scoring while exporting snapshots", async () => {

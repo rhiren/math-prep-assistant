@@ -40,6 +40,7 @@ export function AppLayout() {
   } = useStudentProfiles();
   const [titleTapCount, setTitleTapCount] = useState(0);
   const [isAdminOpen, setIsAdminOpen] = useState(false);
+  const [adminReportStudentId, setAdminReportStudentId] = useState<string | null>(null);
   const [dailyReport, setDailyReport] = useState<DailyParentReport | null>(null);
   const [weeklyReport, setWeeklyReport] = useState<WeeklyParentReport | null>(null);
   const [isParentReportLoading, setIsParentReportLoading] = useState(false);
@@ -84,7 +85,28 @@ export function AppLayout() {
   }, [titleTapCount]);
 
   useEffect(() => {
-    if (!isAdminOpen || !activeProfile) {
+    if (!isAdminOpen) {
+      return;
+    }
+
+    if (adminReportStudentId && profiles.some((profile) => profile.studentId === adminReportStudentId)) {
+      return;
+    }
+
+    setAdminReportStudentId(activeProfile?.studentId ?? profiles[0]?.studentId ?? null);
+  }, [activeProfile?.studentId, adminReportStudentId, isAdminOpen, profiles]);
+
+  const adminReportProfile =
+    profiles.find((profile) => profile.studentId === adminReportStudentId) ??
+    activeProfile ??
+    profiles[0] ??
+    null;
+
+  useEffect(() => {
+    if (!isAdminOpen || !adminReportProfile) {
+      setDailyReport(null);
+      setWeeklyReport(null);
+      setIsParentReportLoading(false);
       return;
     }
 
@@ -92,15 +114,15 @@ export function AppLayout() {
     setIsParentReportLoading(true);
 
     void Promise.all([
-      dataTransferService.exportProgress(),
+      dataTransferService.exportProgressForStudent(adminReportProfile),
       contentRepository.listCourses(),
     ]).then(([snapshot, courses]) => {
       if (!isMounted) {
         return;
       }
 
-      setDailyReport(buildDailyParentReport(activeProfile, snapshot, courses));
-      setWeeklyReport(buildWeeklyParentReport(activeProfile, snapshot, courses));
+      setDailyReport(buildDailyParentReport(adminReportProfile, snapshot, courses));
+      setWeeklyReport(buildWeeklyParentReport(adminReportProfile, snapshot, courses));
       setIsParentReportLoading(false);
     }).catch(() => {
       if (!isMounted) {
@@ -116,7 +138,7 @@ export function AppLayout() {
       isMounted = false;
     };
   }, [
-    activeProfile,
+    adminReportProfile,
     contentRepository,
     dataTransferService,
     isAdminOpen,
@@ -304,6 +326,40 @@ export function AppLayout() {
                       </div>
                     ))
                   )}
+                </div>
+              </section>
+
+              <section className="rounded-2xl border border-stone-200 bg-white p-4 sm:col-span-2">
+                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+                  Parent Report Student
+                </div>
+                <div className="mt-3 rounded-2xl border border-stone-200 bg-stone-50 p-3">
+                  {profiles.length === 0 ? (
+                    <p className="text-sm text-stone-600">No student profiles available.</p>
+                  ) : (
+                    <label className="block text-sm font-medium text-ink" htmlFor="admin-report-student">
+                      Student profile
+                      <select
+                        className="mt-2 w-full rounded-xl border border-stone-300 bg-white px-3 py-2 text-sm text-ink"
+                        id="admin-report-student"
+                        onChange={(event) => setAdminReportStudentId(event.target.value || null)}
+                        value={adminReportProfile?.studentId ?? ""}
+                      >
+                        {profiles.map((profile) => (
+                          <option key={profile.studentId} value={profile.studentId}>
+                            {profile.displayName}
+                            {profile.isActive ? " (active learner)" : ""}
+                            {" - "}
+                            {profile.studentId}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                  )}
+                  <p className="mt-3 text-xs text-stone-500">
+                    Daily and weekly reports below use this selected profile. This does not switch
+                    the learner's active profile.
+                  </p>
                 </div>
               </section>
 

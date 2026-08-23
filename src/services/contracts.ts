@@ -70,6 +70,24 @@ export interface DataTransferServiceContract {
       progress: ProgressRecord[];
     };
   }>;
+  exportProgressForStudent(student: StudentProfile): Promise<{
+    appVersion: string;
+    exportedAt: string;
+    student?: {
+      studentId: string;
+      displayName: string;
+      gradeLevel?: string;
+      homeGrade?: string;
+      placementProfile?: PlacementProfile;
+      profileType?: StudentProfileType;
+      featureFlags?: StudentFeatureFlags;
+    };
+    data: {
+      sessions: TestSession[];
+      attempts: TestAttempt[];
+      progress: ProgressRecord[];
+    };
+  }>;
   importProgress(value: unknown): Promise<{
     appVersion: string;
     exportedAt: string;

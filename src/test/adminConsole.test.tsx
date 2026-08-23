@@ -1,7 +1,7 @@
 import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { RouterProvider, createMemoryRouter } from "react-router-dom";
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { APP_VERSION } from "../app/version";
 import { routes } from "../app/router";
 import { syncDiagnosticsStore } from "../services/syncDiagnostics";
@@ -16,6 +16,10 @@ describe("admin console", () => {
   beforeEach(() => {
     syncDiagnosticsStore.clear();
     window.localStorage.clear();
+  });
+
+  afterEach(() => {
+    vi.useRealTimers();
   });
 
   it("opens from the hidden title gesture and supports profile cleanup", async () => {
@@ -234,7 +238,7 @@ describe("admin console", () => {
     expect(screen.getByText(/permission-denied/)).toBeInTheDocument();
   });
 
-  it("shows daily and weekly parent report views for the active student in hidden admin", async () => {
+  it("shows daily and weekly parent report views for the selected admin report student", async () => {
     const user = userEvent.setup();
     const router = createMemoryRouter(routes, {
       initialEntries: ["/"],
@@ -252,9 +256,10 @@ describe("admin console", () => {
     await services.sessionService.saveAnswer(session.id, {
       questionId: question.id,
       response: question.correctAnswer,
-      answeredAt: "2026-04-24T10:02:00.000Z",
+      answeredAt: new Date().toISOString(),
     });
     await services.sessionService.submitSession(session.id);
+    await services.studentProfileService.setActiveStudent("student-1");
 
     render(
       <AppServicesProvider services={services}>
@@ -269,7 +274,14 @@ describe("admin console", () => {
       await user.click(titleButton);
     }
 
+    const reportStudentSelect = await screen.findByLabelText("Student profile");
+    expect(reportStudentSelect).toHaveValue("student-1");
+    expect(screen.getByText("No activity has been captured for this student today yet.")).toBeInTheDocument();
+
+    await user.selectOptions(reportStudentSelect, profile.studentId);
+
     expect(await screen.findByText("Today: 1 completed attempt(s), 1 concept(s) worked, 1 min of completed time, 0 in-progress session(s).")).toBeInTheDocument();
+    expect(screen.getAllByText("Kashish").length).toBeGreaterThan(0);
     expect(screen.getByText("Today's Concept Activity")).toBeInTheDocument();
     expect(screen.getByText("Reviewing the last 7 days of completed attempts and in-progress work.")).toBeInTheDocument();
     expect(screen.getAllByText("Mathematics").length).toBeGreaterThan(0);

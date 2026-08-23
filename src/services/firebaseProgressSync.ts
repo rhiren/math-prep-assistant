@@ -720,6 +720,10 @@ export class SyncingDataTransferService implements DataTransferServiceContract {
     return this.delegate.exportProgress();
   }
 
+  exportProgressForStudent(student: StudentProfile) {
+    return this.delegate.exportProgressForStudent(student);
+  }
+
   async importProgress(value: unknown) {
     const snapshot = await this.delegate.importProgress(value);
     this.syncManager.syncInBackground();
