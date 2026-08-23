@@ -1,0 +1,992 @@
+{
+  "testId": "course3-unit1-geometry-mixed-review-core",
+  "conceptId": "concept-course3-unit1-geometry-mixed-review",
+  "type": "concept",
+  "title": "Unit 1 Mixed Review Core Test",
+  "description": "Review rigid transformations, congruence, parallel-line angle relationships, triangle angles, and exterior angles.",
+  "questions": [
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-001",
+      "type": "multiple_choice",
+      "questionText": "Point A(3, -2) is translated 5 units left and 4 units up. What is A'?",
+      "options": [
+        "(8, 2)",
+        "(-2, 2)",
+        "(-2, -6)",
+        "(7, -7)"
+      ],
+      "correctAnswer": "(-2, 2)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "translations"
+      ],
+      "explanation": "Move left by subtracting 5 from x and move up by adding 4 to y: (3 - 5, -2 + 4) = (-2, 2)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-002",
+      "type": "multiple_choice",
+      "questionText": "Point B(-4, 7) is reflected across the x-axis. What is B'?",
+      "options": [
+        "(-4, -7)",
+        "(4, 7)",
+        "(4, -7)",
+        "(-7, 4)"
+      ],
+      "correctAnswer": "(-4, -7)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "reflections"
+      ],
+      "explanation": "A reflection across the x-axis keeps x the same and changes the sign of y."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-003",
+      "type": "multiple_choice",
+      "questionText": "Point C(6, -1) is reflected across the y-axis. What is C'?",
+      "options": [
+        "(6, 1)",
+        "(-6, 1)",
+        "(-6, -1)",
+        "(-1, 6)"
+      ],
+      "correctAnswer": "(-6, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "reflections"
+      ],
+      "explanation": "A reflection across the y-axis changes the sign of x and keeps y the same."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-004",
+      "type": "multiple_choice",
+      "questionText": "Point D(2, 5) is rotated 180 degrees about the origin. What is D'?",
+      "options": [
+        "(-5, 2)",
+        "(5, -2)",
+        "(2, -5)",
+        "(-2, -5)"
+      ],
+      "correctAnswer": "(-2, -5)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rotations"
+      ],
+      "explanation": "A 180 degree rotation about the origin sends (x, y) to (-x, -y)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-005",
+      "type": "multiple_choice",
+      "questionText": "Which transformation always preserves side lengths and angle measures?",
+      "options": [
+        "dilation with scale factor 2",
+        "horizontal stretch",
+        "vertical stretch",
+        "rotation"
+      ],
+      "correctAnswer": "rotation",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rigid-transformations"
+      ],
+      "explanation": "A rotation is a rigid transformation, so it preserves lengths and angle measures."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-006",
+      "type": "multiple_choice",
+      "questionText": "Two figures are congruent. Which statement must be true?",
+      "options": [
+        "The image is always larger.",
+        "Corresponding side lengths and angle measures are equal.",
+        "Only the areas are equal.",
+        "The figures must be in the same location."
+      ],
+      "correctAnswer": "Corresponding side lengths and angle measures are equal.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "congruence"
+      ],
+      "explanation": "Congruent figures have matching side lengths and matching angle measures."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-007",
+      "type": "multiple_choice",
+      "questionText": "Two parallel lines are cut by a transversal. One angle is 64 degrees. Its corresponding angle is what?",
+      "options": [
+        "64 degrees",
+        "116 degrees",
+        "26 degrees",
+        "128 degrees"
+      ],
+      "correctAnswer": "64 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "parallel-lines"
+      ],
+      "explanation": "Corresponding angles are equal when lines are parallel."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-008",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles of 42 degrees and 73 degrees. What is the third angle?",
+      "options": [
+        "75 degrees",
+        "115 degrees",
+        "55 degrees",
+        "65 degrees"
+      ],
+      "correctAnswer": "65 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles"
+      ],
+      "explanation": "Triangle angles add to 180 degrees: 180 - 42 - 73 = 65."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-009",
+      "type": "multiple_choice",
+      "questionText": "A triangle has remote interior angles of 51 degrees and 68 degrees. What is the exterior angle?",
+      "options": [
+        "61 degrees",
+        "129 degrees",
+        "119 degrees",
+        "109 degrees"
+      ],
+      "correctAnswer": "119 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles"
+      ],
+      "explanation": "An exterior angle equals the sum of the two remote interior angles: 51 + 68 = 119."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-010",
+      "type": "multiple_choice",
+      "questionText": "Which transformation is not rigid?",
+      "options": [
+        "translation",
+        "dilation",
+        "reflection",
+        "rotation"
+      ],
+      "correctAnswer": "dilation",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rigid-transformations"
+      ],
+      "explanation": "A dilation changes size unless the scale factor is 1, so it is not generally rigid."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-011",
+      "type": "multiple_choice",
+      "questionText": "Point P(-3, 4) is translated by (6, -5), then reflected across the y-axis. What is the final image?",
+      "options": [
+        "(-3, -1)",
+        "(3, -1)",
+        "(-9, -1)",
+        "(3, 1)"
+      ],
+      "correctAnswer": "(-3, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "sequences"
+      ],
+      "explanation": "Translate first: (-3 + 6, 4 - 5) = (3, -1). Reflect across the y-axis to get (-3, -1)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-012",
+      "type": "multiple_choice",
+      "questionText": "Point Q(2, -7) is reflected across the x-axis, then rotated 180 degrees about the origin. What is the final image?",
+      "options": [
+        "(-2, 7)",
+        "(2, 7)",
+        "(-2, -7)",
+        "(7, -2)"
+      ],
+      "correctAnswer": "(-2, -7)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "sequences"
+      ],
+      "explanation": "Reflect across the x-axis: (2, 7). Rotate 180 degrees: (-2, -7)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-013",
+      "type": "multiple_choice",
+      "questionText": "A point is translated from (5, -3) to (-2, 6). What translation was used?",
+      "options": [
+        "7 units right and 9 units up",
+        "7 units left and 9 units up",
+        "3 units left and 6 units down",
+        "9 units left and 7 units up"
+      ],
+      "correctAnswer": "7 units left and 9 units up",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "translations"
+      ],
+      "explanation": "The x-coordinate changes by -7 and the y-coordinate changes by +9."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-014",
+      "type": "multiple_choice",
+      "questionText": "Point R(-6, 2) is rotated 90 degrees clockwise about the origin. What is R'?",
+      "options": [
+        "(-2, -6)",
+        "(-2, 6)",
+        "(6, -2)",
+        "(2, 6)"
+      ],
+      "correctAnswer": "(2, 6)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rotations"
+      ],
+      "explanation": "A 90 degree clockwise rotation sends (x, y) to (y, -x)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-015",
+      "type": "multiple_choice",
+      "questionText": "Point S(-1, 5) is rotated 90 degrees counterclockwise about the origin. What is S'?",
+      "options": [
+        "(5, 1)",
+        "(-5, -1)",
+        "(5, -1)",
+        "(-1, -5)"
+      ],
+      "correctAnswer": "(-5, -1)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rotations"
+      ],
+      "explanation": "A 90 degree counterclockwise rotation sends (x, y) to (-y, x)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-016",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has side lengths 5, 8, and 10. Triangle DEF has side lengths 5, 8, and 11. Are the triangles congruent?",
+      "options": [
+        "Yes, because two side lengths match.",
+        "Yes, because all triangles are congruent after a translation.",
+        "No, because congruent figures must face the same way.",
+        "No, because one corresponding side length is different."
+      ],
+      "correctAnswer": "No, because one corresponding side length is different.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "congruence"
+      ],
+      "explanation": "Congruent triangles need all corresponding side lengths and angle measures to match."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-017",
+      "type": "multiple_choice",
+      "questionText": "A figure is reflected across the y-axis and then translated 4 units right. Which property is preserved?",
+      "options": [
+        "area",
+        "orientation",
+        "distance from the y-axis",
+        "x-coordinate of every point"
+      ],
+      "correctAnswer": "area",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rigid-transformations"
+      ],
+      "explanation": "Both reflection and translation are rigid transformations, so area is preserved."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-018",
+      "type": "multiple_choice",
+      "questionText": "Two same-side interior angles formed by parallel lines are 7x degrees and 5x degrees. What is x?",
+      "options": [
+        "12 degrees",
+        "30 degrees",
+        "15 degrees",
+        "20 degrees"
+      ],
+      "correctAnswer": "15 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "parallel-lines",
+        "algebra"
+      ],
+      "explanation": "Same-side interior angles are supplementary: 7x + 5x = 180, so x = 15."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-019",
+      "type": "multiple_choice",
+      "questionText": "Two alternate interior angles are 3x + 8 degrees and 5x - 20 degrees. What is x?",
+      "options": [
+        "14 degrees",
+        "28 degrees",
+        "12 degrees",
+        "16 degrees"
+      ],
+      "correctAnswer": "14 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "parallel-lines",
+        "algebra"
+      ],
+      "explanation": "Alternate interior angles are equal: 3x + 8 = 5x - 20, so x = 14."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-020",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles x degrees, x + 20 degrees, and 70 degrees. What is x?",
+      "options": [
+        "45 degrees",
+        "55 degrees",
+        "90 degrees",
+        "35 degrees"
+      ],
+      "correctAnswer": "45 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles",
+        "algebra"
+      ],
+      "explanation": "x + x + 20 + 70 = 180, so 2x = 90 and x = 45."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-021",
+      "type": "multiple_choice",
+      "questionText": "A right triangle has acute angles 2x + 6 degrees and x + 24 degrees. What is x?",
+      "options": [
+        "30 degrees",
+        "40 degrees",
+        "18 degrees",
+        "20 degrees"
+      ],
+      "correctAnswer": "20 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles",
+        "algebra"
+      ],
+      "explanation": "The acute angles add to 90: 2x + 6 + x + 24 = 90, so x = 20."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-022",
+      "type": "multiple_choice",
+      "questionText": "A triangle has an exterior angle of 128 degrees and one remote interior angle of 47 degrees. What is the other remote interior angle?",
+      "options": [
+        "71 degrees",
+        "175 degrees",
+        "81 degrees",
+        "91 degrees"
+      ],
+      "correctAnswer": "81 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles"
+      ],
+      "explanation": "The remote interior angles add to the exterior angle, so 128 - 47 = 81."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-023",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle is 4x + 6 degrees. Its remote interior angles are 2x + 10 degrees and 56 degrees. What is x?",
+      "options": [
+        "36 degrees",
+        "30 degrees",
+        "60 degrees",
+        "24 degrees"
+      ],
+      "correctAnswer": "30 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "algebra"
+      ],
+      "explanation": "4x + 6 = 2x + 10 + 56, so 2x = 60 and x = 30."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-024",
+      "type": "multiple_choice",
+      "questionText": "A triangle has adjacent interior angle 74 degrees. Its remote interior angles are 39 degrees and y degrees. What is y?",
+      "options": [
+        "67 degrees",
+        "74 degrees",
+        "106 degrees",
+        "57 degrees"
+      ],
+      "correctAnswer": "67 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "linear-pair"
+      ],
+      "explanation": "The exterior angle is 180 - 74 = 106. Then y = 106 - 39 = 67."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-025",
+      "type": "multiple_choice",
+      "questionText": "Which sequence maps (1, 2) to (-3, 6)?",
+      "options": [
+        "reflect across the x-axis",
+        "translate 4 units left and 4 units up",
+        "rotate 180 degrees",
+        "translate 2 units right and 8 units up"
+      ],
+      "correctAnswer": "translate 4 units left and 4 units up",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "translations"
+      ],
+      "explanation": "From (1, 2) to (-3, 6), x changes by -4 and y changes by +4."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-026",
+      "type": "multiple_choice",
+      "questionText": "A quadrilateral is translated, reflected, and rotated. What can you conclude about the image?",
+      "options": [
+        "It is congruent to the original quadrilateral.",
+        "It must be similar but not congruent.",
+        "It has double the area.",
+        "It must return to the same location."
+      ],
+      "correctAnswer": "It is congruent to the original quadrilateral.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "congruence",
+        "sequences"
+      ],
+      "explanation": "Translations, reflections, and rotations are all rigid transformations."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-027",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angle ratio 2:3:4. What is the largest angle?",
+      "options": [
+        "40 degrees",
+        "60 degrees",
+        "90 degrees",
+        "80 degrees"
+      ],
+      "correctAnswer": "80 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles",
+        "ratio"
+      ],
+      "explanation": "There are 9 parts, so each part is 20 degrees. The largest angle is 4 parts, or 80 degrees."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-028",
+      "type": "multiple_choice",
+      "questionText": "Remote interior angles are in the ratio 3:5, and the exterior angle is 144 degrees. What is the larger remote interior angle?",
+      "options": [
+        "54 degrees",
+        "90 degrees",
+        "72 degrees",
+        "108 degrees"
+      ],
+      "correctAnswer": "90 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "ratio"
+      ],
+      "explanation": "The ratio has 8 parts. Each part is 18 degrees, so the larger angle is 5 x 18 = 90 degrees."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-029",
+      "type": "multiple_choice",
+      "questionText": "A figure has vertices A(0, 1), B(3, 1), and C(0, 5). After a translation, A' is (4, -2). What is C'?",
+      "options": [
+        "(4, -6)",
+        "(0, 2)",
+        "(8, 2)",
+        "(4, 2)"
+      ],
+      "correctAnswer": "(4, 2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "translations",
+        "figures"
+      ],
+      "explanation": "The translation is 4 right and 3 down. Apply it to C(0, 5) to get (4, 2)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-030",
+      "type": "multiple_choice",
+      "questionText": "A triangle has two angles of 58 degrees and 58 degrees. What type of triangle is it by sides?",
+      "options": [
+        "equilateral",
+        "scalene",
+        "isosceles",
+        "right"
+      ],
+      "correctAnswer": "isosceles",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles",
+        "classification"
+      ],
+      "explanation": "Two equal angles mean the opposite sides are equal, so the triangle is isosceles."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-031",
+      "type": "multiple_choice",
+      "questionText": "A line pair is cut by a transversal. Corresponding angles measure 82 degrees and 82 degrees. What can you conclude?",
+      "options": [
+        "The lines could be parallel because corresponding angles are equal.",
+        "The lines cannot be parallel.",
+        "The angles must be same-side interior.",
+        "The exterior angle theorem applies."
+      ],
+      "correctAnswer": "The lines could be parallel because corresponding angles are equal.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "parallel-lines",
+        "reasoning"
+      ],
+      "explanation": "Equal corresponding angles are evidence that the crossed lines are parallel."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-032",
+      "type": "multiple_choice",
+      "questionText": "A point (a, b) is reflected across the x-axis. Which rule describes the image?",
+      "options": [
+        "(a, -b)",
+        "(-a, b)",
+        "(-a, -b)",
+        "(b, a)"
+      ],
+      "correctAnswer": "(a, -b)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "reflections",
+        "rules"
+      ],
+      "explanation": "Reflecting across the x-axis changes only the sign of the y-coordinate."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-033",
+      "type": "multiple_choice",
+      "questionText": "A point (a, b) is rotated 180 degrees about the origin. Which rule describes the image?",
+      "options": [
+        "(a, -b)",
+        "(-a, -b)",
+        "(-a, b)",
+        "(b, -a)"
+      ],
+      "correctAnswer": "(-a, -b)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rotations",
+        "rules"
+      ],
+      "explanation": "A 180 degree rotation changes the signs of both coordinates."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-034",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 5x - 5 degrees, 3x + 10 degrees, and 95 degrees. What is x?",
+      "options": [
+        "15 degrees",
+        "20 degrees",
+        "8 degrees",
+        "10 degrees"
+      ],
+      "correctAnswer": "10 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles",
+        "algebra"
+      ],
+      "explanation": "5x - 5 + 3x + 10 + 95 = 180, so 8x + 100 = 180 and x = 10."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-035",
+      "type": "multiple_choice",
+      "questionText": "An interior angle and exterior angle form a linear pair. The exterior angle is 3x degrees and the interior angle is 2x + 30 degrees. What is x?",
+      "options": [
+        "30 degrees",
+        "36 degrees",
+        "45 degrees",
+        "60 degrees"
+      ],
+      "correctAnswer": "30 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "linear-pair"
+      ],
+      "explanation": "3x + 2x + 30 = 180, so 5x = 150 and x = 30."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-036",
+      "type": "multiple_choice",
+      "questionText": "Point T(-2, 3) is reflected across the y-axis, translated 5 units down, then rotated 180 degrees about the origin. What is the final image?",
+      "options": [
+        "(2, -2)",
+        "(-2, -8)",
+        "(-2, 2)",
+        "(2, 8)"
+      ],
+      "correctAnswer": "(-2, 2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "sequences",
+        "rotations"
+      ],
+      "explanation": "Reflect to (2, 3), translate to (2, -2), then rotate 180 degrees to (-2, 2)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-037",
+      "type": "multiple_choice",
+      "questionText": "A student says a reflection and translation cannot prove congruence because the figure changes location. What is the best response?",
+      "options": [
+        "The student is correct because only rotations prove congruence.",
+        "Location can change; rigid transformations preserve size and shape.",
+        "The figures are congruent only if labels disappear.",
+        "Translations change all side lengths."
+      ],
+      "correctAnswer": "Location can change; rigid transformations preserve size and shape.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "congruence",
+        "explanation"
+      ],
+      "explanation": "Congruence depends on preserved side lengths and angle measures, not staying in the same place."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-038",
+      "type": "multiple_choice",
+      "questionText": "Two same-side interior angles are 4x + 17 degrees and 3x + 23 degrees. What is the larger angle?",
+      "options": [
+        "83 degrees",
+        "80 degrees",
+        "100 degrees",
+        "97 degrees"
+      ],
+      "correctAnswer": "97 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "parallel-lines",
+        "algebra"
+      ],
+      "explanation": "They add to 180: 7x + 40 = 180, so x = 20. The angles are 97 and 83 degrees."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-039",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle is 5x - 4 degrees. Its remote interior angles are 2x + 9 degrees and x + 35 degrees. What is x?",
+      "options": [
+        "24 degrees",
+        "20 degrees",
+        "48 degrees",
+        "28 degrees"
+      ],
+      "correctAnswer": "24 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "algebra"
+      ],
+      "explanation": "5x - 4 = 2x + 9 + x + 35, so 2x = 48 and x = 24."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-040",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles 2x + 10 degrees, 3x - 5 degrees, and 4x + 4 degrees. What is the largest angle?",
+      "options": [
+        "48 degrees",
+        "52 degrees",
+        "90 degrees",
+        "80 degrees"
+      ],
+      "correctAnswer": "80 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles",
+        "algebra"
+      ],
+      "explanation": "The sum is 9x + 9 = 180, so x = 19. The angles are 48, 52, and 80 degrees, so the largest is 80 degrees."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-041",
+      "type": "multiple_choice",
+      "questionText": "A triangle has exterior angle 126 degrees. One remote angle equals the adjacent interior angle. The other remote angle is 72 degrees. What is the equal angle?",
+      "options": [
+        "72 degrees",
+        "63 degrees",
+        "54 degrees",
+        "108 degrees"
+      ],
+      "correctAnswer": "54 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "structure"
+      ],
+      "explanation": "The adjacent interior angle is 180 - 126 = 54 degrees. The other remote angle is 126 - 72 = 54 degrees."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-042",
+      "type": "multiple_choice",
+      "questionText": "A sequence maps A(1, -4) to A'(-4, -1). Which single transformation does this?",
+      "options": [
+        "rotate 90 degrees counterclockwise about the origin",
+        "reflect across the x-axis",
+        "translate 5 units left and 3 units down",
+        "rotate 90 degrees clockwise about the origin"
+      ],
+      "correctAnswer": "rotate 90 degrees clockwise about the origin",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rotations",
+        "reasoning"
+      ],
+      "explanation": "A 90 degree clockwise rotation sends (x, y) to (y, -x). For (1, -4), that gives (-4, -1)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-043",
+      "type": "multiple_choice",
+      "questionText": "A quadrilateral has vertices (0, 0), (4, 0), (4, 3), and (0, 3). Which transformed image is definitely congruent?",
+      "options": [
+        "vertices (0, 0), (8, 0), (8, 6), and (0, 6)",
+        "vertices (0, 0), (4, 0), (4, 5), and (0, 5)",
+        "vertices (2, -1), (6, -1), (6, 2), and (2, 2)",
+        "vertices (0, 0), (3, 0), (3, 4), and (0, 4)"
+      ],
+      "correctAnswer": "vertices (2, -1), (6, -1), (6, 2), and (2, 2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "congruence",
+        "figures"
+      ],
+      "explanation": "The correct image is a translation 2 right and 1 down, preserving side lengths 4 and 3."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-044",
+      "type": "multiple_choice",
+      "questionText": "A student claims two figures are congruent because their corresponding angles are equal. What is missing?",
+      "options": [
+        "Evidence that the figures have different areas.",
+        "Evidence that corresponding side lengths are also equal.",
+        "Evidence that one figure is larger.",
+        "Evidence that labels are in alphabetical order."
+      ],
+      "correctAnswer": "Evidence that corresponding side lengths are also equal.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "congruence",
+        "error-analysis"
+      ],
+      "explanation": "Equal angles alone can show similarity, but congruence also needs matching side lengths."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-045",
+      "type": "multiple_choice",
+      "questionText": "A triangle has remote interior angles x + 18 degrees and 2x - 6 degrees. Its adjacent interior angle is 72 degrees. What is x?",
+      "options": [
+        "36 degrees",
+        "64 degrees",
+        "32 degrees",
+        "28 degrees"
+      ],
+      "correctAnswer": "32 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "linear-pair"
+      ],
+      "explanation": "The exterior angle is 108 degrees. x + 18 + 2x - 6 = 108, so 3x + 12 = 108 and x = 32."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-046",
+      "type": "multiple_choice",
+      "questionText": "Two alternate exterior angles are 6x - 11 degrees and 4x + 21 degrees. What is x?",
+      "options": [
+        "16 degrees",
+        "32 degrees",
+        "20 degrees",
+        "14 degrees"
+      ],
+      "correctAnswer": "16 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "parallel-lines",
+        "algebra"
+      ],
+      "explanation": "Alternate exterior angles are equal: 6x - 11 = 4x + 21, so x = 16."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-047",
+      "type": "multiple_choice",
+      "questionText": "A point is rotated 90 degrees clockwise, then reflected across the x-axis. What is the rule for (x, y)?",
+      "options": [
+        "(y, -x)",
+        "(-y, -x)",
+        "(y, x)",
+        "(-x, y)"
+      ],
+      "correctAnswer": "(y, x)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "rotations",
+        "reflections",
+        "rules"
+      ],
+      "explanation": "Clockwise rotation sends (x, y) to (y, -x). Reflecting across the x-axis changes the y-coordinate sign, giving (y, x)."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-048",
+      "type": "multiple_choice",
+      "questionText": "A student solves 48 + 67 + e = 180 to find an exterior angle. What should the equation be?",
+      "options": [
+        "e + 48 = 67",
+        "e = 48 + 67",
+        "e = 180 - 48",
+        "e + 67 = 180"
+      ],
+      "correctAnswer": "e = 48 + 67",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "exterior-angles",
+        "error-analysis"
+      ],
+      "explanation": "The exterior angle equals the sum of the two remote interior angles."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-049",
+      "type": "multiple_choice",
+      "questionText": "Triangle A'B'C' is produced from triangle ABC by a rotation and reflection. Which statement is strongest evidence of congruence?",
+      "options": [
+        "The image is farther from the origin.",
+        "The figures have different orientations.",
+        "Every corresponding side and angle matches after the rigid transformations.",
+        "The labels use prime marks."
+      ],
+      "correctAnswer": "Every corresponding side and angle matches after the rigid transformations.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "congruence",
+        "proof"
+      ],
+      "explanation": "Rigid transformations preserve all side lengths and angle measures, which is enough for congruence."
+    },
+    {
+      "id": "course3-unit1-geometry-mixed-review-core-050",
+      "type": "multiple_choice",
+      "questionText": "A triangle has angles in the ratio 3:4:5. One side is extended at the largest angle. What is that exterior angle?",
+      "options": [
+        "75 degrees",
+        "105 degrees",
+        "90 degrees",
+        "120 degrees"
+      ],
+      "correctAnswer": "105 degrees",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "unit-1-mixed-review",
+        "triangle-angles",
+        "exterior-angles",
+        "ratio"
+      ],
+      "explanation": "The angle ratio has 12 parts, so each part is 15 degrees. The largest interior angle is 75 degrees, and its adjacent exterior angle is 180 - 75 = 105 degrees."
+    }
+  ]
+}

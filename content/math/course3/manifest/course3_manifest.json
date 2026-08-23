@@ -522,6 +522,65 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-course3-unit1-geometry-mixed-review",
+              "title": "Unit 1 Mixed Review",
+              "description": "Review rigid transformations, congruence evidence, parallel-line angle relationships, triangle angle sums, and exterior angles.",
+              "tags": [
+                "geometry",
+                "transformations",
+                "congruence",
+                "angle-relationships",
+                "mixed-review"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.1",
+                "8.G.2",
+                "8.G.3",
+                "8.G.5"
+              ],
+              "order": 10,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-course3-unit1-geometry-mixed-review.md",
+              "tests": [
+                {
+                  "id": "course3-unit1-geometry-mixed-review-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-unit1-geometry-mixed-review-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-unit1-geometry-mixed-review-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-unit1-geometry-mixed-review-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },
