@@ -150,22 +150,21 @@
           ]
         },
         {
-          "id": "unit-growth-reproduction-energy",
-          "title": "Growth, Reproduction, and Energy",
-          "description": "Study reproduction, growth factors, photosynthesis, and matter and energy in organisms.",
+          "id": "unit-growth-energy-flow",
+          "title": "Growth and Energy Flow",
+          "description": "Study growth factors, photosynthesis, cellular respiration, and matter and energy in organisms.",
           "order": 3,
           "concepts": [
             {
-              "id": "concept-growth-reproduction-energy-flow",
-              "title": "Growth, Reproduction, and Energy Flow",
-              "description": "Use evidence to connect reproduction, growth, photosynthesis, and cellular respiration.",
+              "id": "concept-growth-photosynthesis-cellular-respiration",
+              "title": "Growth, Photosynthesis, and Cellular Respiration",
+              "description": "Use evidence to connect growth factors, photosynthesis, cellular respiration, matter, and energy flow.",
               "tags": [
                 "science",
                 "life-science",
-                "reproduction",
+                "growth",
                 "photosynthesis",
                 "cellular-respiration",
-                "MS-LS1-4",
                 "MS-LS1-5",
                 "MS-LS1-6",
                 "MS-LS1-7"
@@ -190,7 +189,7 @@
                 "CA NGSS"
               ],
               "order": 1,
-              "tutorial": "./content/tutorials/concept-growth-reproduction-energy-flow.md",
+              "tutorial": "./content/tutorials/concept-growth-photosynthesis-cellular-respiration.md",
               "tests": []
             }
           ]

@@ -2,13 +2,13 @@
 
 ## Hook
 
-Two puppies from the same parents look similar, but one has darker fur and one has lighter fur. They are related, but they are not identical.
+Two puppies from the same family look similar, but one has darker fur and one has lighter fur. They are related, but they are not identical.
 
 Why? Offspring inherit combinations of genetic information, and variation is normal.
 
 ## Big Idea
 
-Genes on chromosomes influence inherited traits. Variation helps explain why offspring differ from parents and from each other.
+Genes on chromosomes influence inherited traits. Variation helps explain why related organisms can differ from each other.
 
 Memory anchor: **Genes influence traits; variation creates differences.**
 
@@ -16,7 +16,7 @@ Memory anchor: **Genes influence traits; variation creates differences.**
 
 Chromosomes contain genes. Genes are instructions that influence traits.
 
-In sexual reproduction, offspring inherit genetic information from two parents. This creates new combinations of genes.
+In families, young organisms inherit genetic information from parent organisms. Different combinations of inherited information can lead to variation.
 
 Traits can be influenced by:
 
@@ -55,8 +55,8 @@ For many traits:
 
 - Trap: "All traits are only genetic."  
   Fix: Many traits are affected by environment too.
-- Trap: "Siblings should be identical."  
-  Fix: Sexual reproduction creates different gene combinations.
+- Trap: "Related organisms should be identical."  
+  Fix: Different combinations of inherited information can create variation.
 - Trap: "A single example proves a rule."  
   Fix: Use patterns in data from many organisms.
 
@@ -65,7 +65,7 @@ For many traits:
 Answer these without looking back:
 
 - What do genes influence?
-- Why are offspring from the same parents not always identical?
+- Why are related organisms not always identical?
 - How can environment affect an inherited trait?
 
 ## Apply It
@@ -79,7 +79,7 @@ If one grows shorter, the difference may be environmental, even though both inhe
 3 things to remember:
 
 - Genes are carried on chromosomes.
-- Offspring inherit genetic information from parents.
+- Young organisms inherit genetic information from parent organisms.
 - Variation is normal in populations.
 
 2 traps to avoid:
