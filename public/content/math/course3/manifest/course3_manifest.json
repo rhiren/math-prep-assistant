@@ -703,6 +703,62 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-similar-figures",
+              "title": "Similar Figures",
+              "description": "Identify similar figures using corresponding angles and proportional side lengths, then use scale factor to find missing measures and compare perimeter and area.",
+              "tags": [
+                "geometry",
+                "similarity",
+                "similar-figures",
+                "scale-factor",
+                "proportions"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.4"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-similar-figures.md",
+              "tests": [
+                {
+                  "id": "course3-similar-figures-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-similar-figures-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-similar-figures-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-similar-figures-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },

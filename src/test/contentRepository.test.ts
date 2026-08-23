@@ -573,6 +573,13 @@ describe("content repository", () => {
         reviewTestId: "course3-scale-factor-dilations-review",
       },
       {
+        conceptId: "concept-similar-figures",
+        standards: ["8.G.4"],
+        tutorialHeading: "# Similar Figures",
+        coreTestId: "course3-similar-figures-core",
+        reviewTestId: "course3-similar-figures-review",
+      },
+      {
         conceptId: "concept-rational-irrational-numbers",
         standards: ["8.NS.1"],
         tutorialHeading: "# Rational and Irrational Numbers",
@@ -855,7 +862,7 @@ describe("content repository", () => {
     expect(course?.units[0]?.id).toBe("course3-unit-rigid-transformations-congruence");
     expect(course?.units[0]?.concepts).toHaveLength(10);
     expect(course?.units[1]?.id).toBe("course3-unit-dilations-similarity-slope");
-    expect(course?.units[1]?.concepts).toHaveLength(2);
+    expect(course?.units[1]?.concepts).toHaveLength(3);
     expect(course?.units[2]?.id).toBe("course3-unit-real-numbers-exponents");
     expect(course?.units[2]?.concepts).toHaveLength(12);
     expect(course?.units[3]?.id).toBe("course3-unit-linear-equations");
