@@ -396,8 +396,8 @@ describe("content repository", () => {
     expect(cellsConcept?.tags).toEqual(
       expect.arrayContaining(["MS-LS1-1", "MS-LS1-2"]),
     );
-    expect(bodySystemsConcept?.hasTest).toBe(false);
-    expect(bodySystemsConcept?.meta?.assessable).toBe(false);
+    expect(bodySystemsConcept?.hasTest).toBe(true);
+    expect(bodySystemsConcept?.meta?.assessable).toBe(true);
     expect(tutorial).toContain("# Cells and Living Things");
     expect(testSets.map((testSet) => testSet.id)).toEqual([
       "science7-cells-living-things-core",
@@ -412,6 +412,51 @@ describe("content repository", () => {
     );
   });
 
+  it("loads the Grade 7 Body Systems and Information Processing concept pack", async () => {
+    const repository = await createDefaultContentRepository();
+    const concept = await repository.getConcept("concept-body-systems-information-processing");
+    const tutorial = await repository.getTutorialContent(
+      "concept-body-systems-information-processing",
+    );
+    const testSets = await repository.getTestSetsForConcept(
+      "concept-body-systems-information-processing",
+    );
+    const coreQuestions = await repository.getQuestionsForTestSet(
+      "science7-body-systems-information-processing-core",
+    );
+    const reviewQuestions = await repository.getQuestionsForTestSet(
+      "science7-body-systems-information-processing-review",
+    );
+
+    expect(concept?.hasTest).toBe(true);
+    expect(concept?.tags).toEqual(expect.arrayContaining(["MS-LS1-3", "MS-LS1-8"]));
+    expect(tutorial).toContain("# Body Systems and Information Processing");
+    expect(testSets.map((testSet) => testSet.id)).toEqual([
+      "science7-body-systems-information-processing-core",
+      "science7-body-systems-information-processing-review",
+    ]);
+    expect(coreQuestions).toHaveLength(25);
+    expect(reviewQuestions).toHaveLength(15);
+    expect(coreQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(6);
+    expect(coreQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(9);
+    expect(coreQuestions.filter((question) => question.difficulty === "challenge")).toHaveLength(10);
+    expect(reviewQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(4);
+    expect(reviewQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(6);
+    expect(reviewQuestions.filter((question) => question.difficulty === "challenge")).toHaveLength(5);
+    expect(coreQuestions.every((question) => question.questionType === "multiple_choice")).toBe(true);
+    expect(reviewQuestions.every((question) => (question.choices?.length ?? 0) === 4)).toBe(true);
+    expect([...coreQuestions, ...reviewQuestions].flatMap((question) => question.reasoningTags ?? [])).toEqual(
+      expect.arrayContaining([
+        "scenario-transfer",
+        "claim-evidence",
+        "model-interpretation",
+        "cause-effect",
+        "data-pattern",
+        "misconception-check",
+      ]),
+    );
+  });
+
   it("keeps Grade 7 Science practice-ready packs focused on transfer reasoning", async () => {
     const repository = await createDefaultContentRepository();
     const scienceCourse = await repository.getCourse("course-7-life-science");
@@ -422,6 +467,7 @@ describe("content repository", () => {
 
     expect(readyConcepts.map((concept) => concept.id)).toEqual([
       "concept-cells-living-things",
+      "concept-body-systems-information-processing",
     ]);
 
     for (const concept of readyConcepts) {

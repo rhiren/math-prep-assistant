@@ -110,7 +110,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -122,8 +122,30 @@
                 "CA NGSS"
               ],
               "order": 1,
+              "testQuestionCount": 25,
               "tutorial": "./content/tutorials/concept-body-systems-information-processing.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "science7-body-systems-information-processing-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-body-systems-information-processing-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-body-systems-information-processing-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-body-systems-information-processing-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ]
             }
           ]
         },

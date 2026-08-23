@@ -140,7 +140,7 @@ Target mix for a full review test:
 | Unit | Concept | Tutorial | Core Test | Review Test | Transfer Coverage | Status |
 |---|---|---:|---:|---:|---:|---|
 | Cells and Living Systems | Cells and Living Things | yes | yes | yes | yes | Practice ready |
-| Body Systems and Information Processing | Body Systems and Information Processing | scaffold | no | no | no | Coming soon |
+| Body Systems and Information Processing | Body Systems and Information Processing | yes | yes | yes | yes | Practice ready |
 | Growth, Reproduction, and Energy | Growth, Reproduction, and Energy Flow | scaffold | no | no | no | Coming soon |
 | Ecosystems | Ecosystem Interactions and Dynamics | scaffold | no | no | no | Coming soon |
 | Genetics and Inheritance | Genetics, Inheritance, and Variation | scaffold | no | no | no | Coming soon |
@@ -150,11 +150,10 @@ Target mix for a full review test:
 ## Recommended Build Order
 
 1. Expand `Cells and Living Things` to full-size core and review tests.
-2. Build `Body Systems and Information Processing`.
-3. Build `Growth, Reproduction, and Energy Flow`.
-4. Build `Ecosystem Interactions and Dynamics`.
-5. Build `Genetics, Inheritance, and Variation`.
-6. Build `Evolution and Life History`.
-7. Build `Biodiversity and Human Impact`.
+2. Build `Growth, Reproduction, and Energy Flow`.
+3. Build `Ecosystem Interactions and Dynamics`.
+4. Build `Genetics, Inheritance, and Variation`.
+5. Build `Evolution and Life History`.
+6. Build `Biodiversity and Human Impact`.
 
 Each step should be a complete concept pack rather than a broad partial unlock.
