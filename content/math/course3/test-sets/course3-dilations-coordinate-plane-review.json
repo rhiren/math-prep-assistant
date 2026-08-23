@@ -1,0 +1,420 @@
+{
+  "testId": "course3-dilations-coordinate-plane-review",
+  "conceptId": "concept-dilations-coordinate-plane",
+  "type": "review",
+  "title": "Dilations on the Coordinate Plane Review Test",
+  "description": "Review origin-centered dilations by finding image points, rules, scale factors, side lengths, and preimages.",
+  "questions": [
+    {
+      "id": "course3-dilations-coordinate-plane-review-001",
+      "type": "multiple_choice",
+      "questionText": "Dilate point A(3, 4) by scale factor 2 centered at the origin. What is A'?",
+      "options": [
+        "(6, 8)",
+        "(5, 6)",
+        "(6, 4)",
+        "(3, 8)"
+      ],
+      "correctAnswer": "(6, 8)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A dilation centered at the origin multiplies both coordinates by 2: (3, 4) becomes (6, 8)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-002",
+      "type": "multiple_choice",
+      "questionText": "A dilation centered at the origin uses scale factor 3. If B is (-2, 5), where is B'?",
+      "options": [
+        "(1, 8)",
+        "(-6, 5)",
+        "(-6, 15)",
+        "(-2, 15)"
+      ],
+      "correctAnswer": "(-6, 15)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A dilation centered at the origin multiplies both coordinates by 3: (-2, 5) becomes (-6, 15)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-003",
+      "type": "multiple_choice",
+      "questionText": "Dilate point A(8, -6) by scale factor 0.5 centered at the origin. What is A'?",
+      "options": [
+        "(8.5, -5.5)",
+        "(4, -3)",
+        "(4, -6)",
+        "(8, -3)"
+      ],
+      "correctAnswer": "(4, -3)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A dilation centered at the origin multiplies both coordinates by 0.5: (8, -6) becomes (4, -3)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-004",
+      "type": "multiple_choice",
+      "questionText": "A dilation centered at the origin uses scale factor 0.333. If B is (-9, -3), where is B'?",
+      "options": [
+        "(-8.667, -2.667)",
+        "(-3, -3)",
+        "(-9, -1)",
+        "(-3, -1)"
+      ],
+      "correctAnswer": "(-3, -1)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "image"
+      ],
+      "explanation": "A dilation centered at the origin multiplies both coordinates by 0.333: (-9, -3) becomes (-3, -1)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-005",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule represents a dilation centered at the origin with scale factor 4?",
+      "options": [
+        "(x, y) -> (4x, 4y)",
+        "(x, y) -> (x + 4, y + 4)",
+        "(x, y) -> (4y, 4x)",
+        "(x, y) -> (0.25x, 0.25y)"
+      ],
+      "correctAnswer": "(x, y) -> (4x, 4y)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "coordinate-rule"
+      ],
+      "explanation": "For a dilation centered at the origin, multiply x and y by the scale factor, so the rule is (x, y) -> (4x, 4y)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-006",
+      "type": "multiple_choice",
+      "questionText": "Which coordinate rule represents a dilation centered at the origin with scale factor 0.25?",
+      "options": [
+        "(x, y) -> (x + 0.25, y + 0.25)",
+        "(x, y) -> (0.25y, 0.25x)",
+        "(x, y) -> (4x, 4y)",
+        "(x, y) -> (0.25x, 0.25y)"
+      ],
+      "correctAnswer": "(x, y) -> (0.25x, 0.25y)",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "coordinate-rule"
+      ],
+      "explanation": "For a dilation centered at the origin, multiply x and y by the scale factor, so the rule is (x, y) -> (0.25x, 0.25y)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-007",
+      "type": "multiple_choice",
+      "questionText": "A dilation centered at the origin sends (2, 7) to (6, 21). What is the scale factor?",
+      "options": [
+        "10.5",
+        "3",
+        "0.333",
+        "4"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor"
+      ],
+      "explanation": "Compare corresponding coordinates: 6 / 2 = 3. The y-coordinates confirm the same factor."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-008",
+      "type": "multiple_choice",
+      "questionText": "A dilation centered at the origin sends (-12, 8) to (-3, 2). What is the scale factor?",
+      "options": [
+        "-0.167",
+        "4",
+        "0.25",
+        "9"
+      ],
+      "correctAnswer": "0.25",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor"
+      ],
+      "explanation": "Compare corresponding coordinates: -3 / -12 = 0.25. The y-coordinates confirm the same factor."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-009",
+      "type": "multiple_choice",
+      "questionText": "Dilate triangle JKL centered at the origin by scale factor 3. Which list gives the image vertices?",
+      "options": [
+        "J'(3, 3), K'(15, 3), L'(9, 12)",
+        "J'(4, 4), K'(8, 4), L'(6, 7)",
+        "J'(3, 1), K'(15, 1), L'(9, 4)",
+        "J'(0.333, 0.333), K'(1.667, 0.333), L'(1, 1.333)"
+      ],
+      "correctAnswer": "J'(3, 3), K'(15, 3), L'(9, 12)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "figures",
+        "image"
+      ],
+      "explanation": "Multiply every coordinate of every vertex by 3. That gives J'(3, 3), K'(15, 3), L'(9, 12)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-010",
+      "type": "multiple_choice",
+      "questionText": "Dilate triangle RST centered at the origin by scale factor 0.5. Which list gives the image vertices?",
+      "options": [
+        "R'(-7.5, -1.5), S'(-1.5, -1.5), T'(-3.5, -5.5)",
+        "R'(-4, -1), S'(-1, -1), T'(-2, -3)",
+        "R'(-4, -2), S'(-1, -2), T'(-2, -6)",
+        "R'(-16, -4), S'(-4, -4), T'(-8, -12)"
+      ],
+      "correctAnswer": "R'(-4, -1), S'(-1, -1), T'(-2, -3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "figures",
+        "image"
+      ],
+      "explanation": "Multiply every coordinate of every vertex by 0.5. That gives R'(-4, -1), S'(-1, -1), T'(-2, -3)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-011",
+      "type": "multiple_choice",
+      "questionText": "A dilation centered at the origin with scale factor 5 sends point A to A'(15, -10). What was A?",
+      "options": [
+        "(75, -50)",
+        "(20, -5)",
+        "(-3, 2)",
+        "(3, -2)"
+      ],
+      "correctAnswer": "(3, -2)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "preimage"
+      ],
+      "explanation": "Work backward by dividing both image coordinates by 5. The preimage is (3, -2)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-012",
+      "type": "multiple_choice",
+      "questionText": "Point A(-7, 4) is dilated from the origin by scale factor 2. If A' = (?, 8), what is the missing x-coordinate?",
+      "options": [
+        "-5",
+        "-7",
+        "-14",
+        "-3.5"
+      ],
+      "correctAnswer": "-14",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "image",
+        "missing-coordinate"
+      ],
+      "explanation": "Multiply the x-coordinate by 2 to get -14."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-013",
+      "type": "multiple_choice",
+      "questionText": "A dilation has scale factor 0.75. How should the image compare with the preimage?",
+      "options": [
+        "reduction",
+        "enlargement",
+        "translation",
+        "reflection"
+      ],
+      "correctAnswer": "reduction",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor",
+        "conceptual"
+      ],
+      "explanation": "Scale factors greater than 1 enlarge a figure; scale factors between 0 and 1 reduce it."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-014",
+      "type": "multiple_choice",
+      "questionText": "Segment AB is 9 units long. A dilation centered at the origin uses scale factor 4. How long is A'B'?",
+      "options": [
+        "13 units",
+        "2.25 units",
+        "36 units",
+        "9 units"
+      ],
+      "correctAnswer": "36 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "side-lengths",
+        "scale-factor"
+      ],
+      "explanation": "A dilation multiplies every length by the scale factor: 9 * 4 = 36 units."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-015",
+      "type": "multiple_choice",
+      "questionText": "Could a dilation centered at the origin send (4, 10) to (2, 5)?",
+      "options": [
+        "Yes, because both points are in the same quadrant.",
+        "No, because a dilation must keep every coordinate unchanged.",
+        "Yes, because the x-coordinate changed by the same amount as the y-coordinate.",
+        "Yes, both coordinates are multiplied by the same scale factor."
+      ],
+      "correctAnswer": "Yes, both coordinates are multiplied by the same scale factor.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "reasoning",
+        "scale-factor"
+      ],
+      "explanation": "The coordinate ratios match, so one scale factor works for both coordinates."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-016",
+      "type": "multiple_choice",
+      "questionText": "Could a dilation centered at the origin send (-3, 6) to (-9, 12)?",
+      "options": [
+        "Yes, because both points are in the same quadrant.",
+        "No, the x- and y-coordinates are not multiplied by the same scale factor.",
+        "No, because a dilation must keep every coordinate unchanged.",
+        "Yes, because the x-coordinate changed by the same amount as the y-coordinate."
+      ],
+      "correctAnswer": "No, the x- and y-coordinates are not multiplied by the same scale factor.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "reasoning",
+        "scale-factor"
+      ],
+      "explanation": "The coordinate ratios do not match, so this is not a dilation centered at the origin."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-017",
+      "type": "multiple_choice",
+      "questionText": "A map point at (6, -2) is dilated from the origin by scale factor 1.5 to make a scale drawing. Where does the point land?",
+      "options": [
+        "(7.5, -0.5)",
+        "(4, -1.333)",
+        "(-9, -3)",
+        "(9, -3)"
+      ],
+      "correctAnswer": "(9, -3)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "application",
+        "image"
+      ],
+      "explanation": "A scale drawing from the origin multiplies both coordinates by 1.5, giving (9, -3)."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-018",
+      "type": "multiple_choice",
+      "questionText": "A side length of 14 units becomes 35 units after a dilation. What is the scale factor?",
+      "options": [
+        "2.5",
+        "0.4",
+        "21",
+        "49"
+      ],
+      "correctAnswer": "2.5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "side-lengths",
+        "scale-factor"
+      ],
+      "explanation": "Image length divided by original length gives the scale factor: 35 / 14 = 2.5."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-019",
+      "type": "multiple_choice",
+      "questionText": "A figure has area 12 square units. It is dilated by scale factor 2. What is the image area?",
+      "options": [
+        "24 square units",
+        "6 square units",
+        "48 square units",
+        "16 square units"
+      ],
+      "correctAnswer": "48 square units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "area",
+        "scale-factor"
+      ],
+      "explanation": "Area changes by the square of the scale factor, so 12 * 2^2 = 48 square units."
+    },
+    {
+      "id": "course3-dilations-coordinate-plane-review-020",
+      "type": "multiple_choice",
+      "questionText": "Point (4, 1) is first dilated from the origin by scale factor 0.5, then translated by <-3, 6>. What is the final point?",
+      "options": [
+        "(0.5, 3.5)",
+        "(-1, 6.5)",
+        "(2, 0.5)",
+        "(1, 7)"
+      ],
+      "correctAnswer": "(-1, 6.5)",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "sequence",
+        "application"
+      ],
+      "explanation": "First multiply to get (2, 0.5). Then add the translation vector to get (-1, 6.5)."
+    }
+  ]
+}
