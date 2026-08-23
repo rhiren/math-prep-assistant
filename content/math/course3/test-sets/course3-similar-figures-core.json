@@ -1,0 +1,1058 @@
+{
+  "testId": "course3-similar-figures-core",
+  "conceptId": "concept-similar-figures",
+  "type": "concept",
+  "title": "Similar Figures Core Test",
+  "description": "Identify similar figures, use corresponding angles and proportional side lengths, find scale factors and missing sides, and reason about perimeter and area effects.",
+  "questions": [
+    {
+      "id": "course3-similar-figures-core-001",
+      "type": "multiple_choice",
+      "questionText": "Which statement must be true when two figures are similar?",
+      "options": [
+        "Corresponding side lengths are equal and corresponding angles may change.",
+        "Corresponding angles are equal and corresponding side lengths are proportional.",
+        "The figures have the same area and the same perimeter.",
+        "The figures have the same number of sides, but no other relationship is needed."
+      ],
+      "correctAnswer": "Corresponding angles are equal and corresponding side lengths are proportional.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "conceptual"
+      ],
+      "explanation": "Similar figures have matching angle measures and side lengths related by one scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-002",
+      "type": "multiple_choice",
+      "questionText": "A figure has side lengths 3, 4, 5. A similar image uses scale factor 2. Which list gives the image side lengths in matching order?",
+      "options": [
+        "6, 8, 10",
+        "5, 6, 7",
+        "1.5, 2, 2.5",
+        "10, 8, 6"
+      ],
+      "correctAnswer": "6, 8, 10",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "side-lengths",
+        "scale-factor"
+      ],
+      "explanation": "Multiply each corresponding side by 2."
+    },
+    {
+      "id": "course3-similar-figures-core-003",
+      "type": "multiple_choice",
+      "questionText": "A figure has side lengths 8, 10, 12. A similar image uses scale factor 0.5. Which list gives the image side lengths in matching order?",
+      "options": [
+        "8.5, 10.5, 12.5",
+        "16, 20, 24",
+        "4, 5, 6",
+        "6, 5, 4"
+      ],
+      "correctAnswer": "4, 5, 6",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "side-lengths",
+        "scale-factor"
+      ],
+      "explanation": "Multiply each corresponding side by 0.5."
+    },
+    {
+      "id": "course3-similar-figures-core-004",
+      "type": "multiple_choice",
+      "questionText": "One side of a figure is 6 units. The corresponding side in a similar figure is 18 units. What is the scale factor from the original to the image?",
+      "options": [
+        "0.333",
+        "12",
+        "24",
+        "3"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "scale-factor"
+      ],
+      "explanation": "Scale factor is image divided by original: 18 / 6 = 3."
+    },
+    {
+      "id": "course3-similar-figures-core-005",
+      "type": "multiple_choice",
+      "questionText": "One side of a figure is 20 units. The corresponding side in a similar figure is 5 units. What is the scale factor from the original to the image?",
+      "options": [
+        "4",
+        "-15",
+        "25",
+        "0.25"
+      ],
+      "correctAnswer": "0.25",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "scale-factor"
+      ],
+      "explanation": "Scale factor is image divided by original: 5 / 20 = 0.25."
+    },
+    {
+      "id": "course3-similar-figures-core-006",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar. A side of 4 units matches a side of 12 units. Another original side is 7 units. What is the matching image side?",
+      "options": [
+        "2.333 units",
+        "21 units",
+        "10 units",
+        "15 units"
+      ],
+      "correctAnswer": "21 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "missing-side",
+        "proportions"
+      ],
+      "explanation": "The scale factor is 3. Multiply 7 by 3 to get 21 units."
+    },
+    {
+      "id": "course3-similar-figures-core-007",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar. A side of 10 units matches a side of 4 units. Another original side is 15 units. What is the matching image side?",
+      "options": [
+        "6 units",
+        "37.5 units",
+        "15.4 units",
+        "9 units"
+      ],
+      "correctAnswer": "6 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "missing-side",
+        "proportions"
+      ],
+      "explanation": "The scale factor is 0.4. Multiply 15 by 0.4 to get 6 units."
+    },
+    {
+      "id": "course3-similar-figures-core-008",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has angle measures 50, 60, 70 degrees. Triangle DEF has corresponding angle measures 50, 60, 70 degrees. Do the angle measures support similarity?",
+      "options": [
+        "Yes, because all figures with three sides are similar.",
+        "No, because similar figures must have the same side lengths.",
+        "Yes, because the largest angles are in the same figure.",
+        "Yes, the corresponding angles match."
+      ],
+      "correctAnswer": "Yes, the corresponding angles match.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "angles",
+        "reasoning"
+      ],
+      "explanation": "Matching angle measures are evidence that triangles are similar."
+    },
+    {
+      "id": "course3-similar-figures-core-009",
+      "type": "multiple_choice",
+      "questionText": "Figures ABCD and WXYZ are similar in that order. If angle B measures 82 degrees, what is the measure of angle X?",
+      "options": [
+        "98 degrees",
+        "92 degrees",
+        "82 degrees",
+        "72 degrees"
+      ],
+      "correctAnswer": "82 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "angles",
+        "correspondence"
+      ],
+      "explanation": "The order ABCD ~ WXYZ means B corresponds to X, so their angle measures are equal."
+    },
+    {
+      "id": "course3-similar-figures-core-010",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 2, 3, 4. Figure B has corresponding side lengths 6, 9, 12. Are the figures similar based on side lengths?",
+      "options": [
+        "Yes, because the figures have the same number of sides.",
+        "Yes, all side ratios equal 3.",
+        "No, because similar figures must have equal side lengths.",
+        "No, the side ratios equal 0.333."
+      ],
+      "correctAnswer": "Yes, all side ratios equal 3.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "reasoning",
+        "side-lengths"
+      ],
+      "explanation": "Each image/original ratio is 3, so the side lengths are proportional."
+    },
+    {
+      "id": "course3-similar-figures-core-011",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 5, 7, 9. Figure B has corresponding side lengths 10, 14, 20. Are the figures similar based on side lengths?",
+      "options": [
+        "No, the corresponding side ratios are not all equal.",
+        "Yes, because the figures have the same number of sides.",
+        "No, because similar figures must have equal side lengths.",
+        "Yes, all side ratios equal 2."
+      ],
+      "correctAnswer": "No, the corresponding side ratios are not all equal.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "reasoning",
+        "side-lengths"
+      ],
+      "explanation": "At least one side ratio is different, so one scale factor cannot match all sides."
+    },
+    {
+      "id": "course3-similar-figures-core-012",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar with scale factor 3 from the first to the second. The first figure's perimeter is 24 units. What is the second figure's perimeter?",
+      "options": [
+        "216 units",
+        "27 units",
+        "72 units",
+        "8 units"
+      ],
+      "correctAnswer": "72 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "perimeter",
+        "scale-factor"
+      ],
+      "explanation": "Perimeter is a length measure, so it changes by the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-013",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar with scale factor 0.4 from the first to the second. The first figure's perimeter is 60 units. What is the second figure's perimeter?",
+      "options": [
+        "9.6 units",
+        "24 units",
+        "60.4 units",
+        "150 units"
+      ],
+      "correctAnswer": "24 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "perimeter",
+        "scale-factor"
+      ],
+      "explanation": "Perimeter is a length measure, so it changes by the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-014",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have side-length scale factor 2 from the first to the second. How does the area of the second compare with the first?",
+      "options": [
+        "2 times as large",
+        "0.5 times as large",
+        "5 times as large",
+        "4 times as large"
+      ],
+      "correctAnswer": "4 times as large",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "area",
+        "scale-factor"
+      ],
+      "explanation": "Area changes by the square of the side-length scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-015",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have side-length scale factor 0.5 from the first to the second. How does the area of the second compare with the first?",
+      "options": [
+        "0.5 times as large",
+        "0.25 times as large",
+        "2 times as large",
+        "1.25 times as large"
+      ],
+      "correctAnswer": "0.25 times as large",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "area",
+        "scale-factor"
+      ],
+      "explanation": "Area changes by the square of the side-length scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-016",
+      "type": "multiple_choice",
+      "questionText": "Which pair could represent corresponding side lengths for similar figures using scale factor 1.5?",
+      "options": [
+        "Figure A: 6, 8, 11 and Figure B: 7.5, 9.5, 12.5",
+        "Figure A: 6, 8, 11 and Figure B: 9, 13, 18.5",
+        "Figure A: 6, 8, 11 and Figure B: 16.5, 12, 9",
+        "Figure A: 6, 8, 11 and Figure B: 9, 12, 16.5"
+      ],
+      "correctAnswer": "Figure A: 6, 8, 11 and Figure B: 9, 12, 16.5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "correspondence",
+        "side-lengths"
+      ],
+      "explanation": "Each corresponding image side must equal the original side times the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-017",
+      "type": "multiple_choice",
+      "questionText": "Which pair could represent corresponding side lengths for similar figures using scale factor 0.25?",
+      "options": [
+        "Polygon P: 12, 18, 24 and Polygon Q: 3, 4.5, 6",
+        "Polygon P: 12, 18, 24 and Polygon Q: 12.25, 18.25, 24.25",
+        "Polygon P: 12, 18, 24 and Polygon Q: 3, 5.5, 8",
+        "Polygon P: 12, 18, 24 and Polygon Q: 6, 4.5, 3"
+      ],
+      "correctAnswer": "Polygon P: 12, 18, 24 and Polygon Q: 3, 4.5, 6",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "correspondence",
+        "side-lengths"
+      ],
+      "explanation": "Each corresponding image side must equal the original side times the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-018",
+      "type": "multiple_choice",
+      "questionText": "One rectangle on a grid is 4, 7 units wide and tall. Another is 12, 21 units wide and tall. Are they similar?",
+      "options": [
+        "No, the rectangles must have the same width and height.",
+        "Yes, because the area scales by 3.",
+        "Yes, the width and height both scale by 3.",
+        "No, only the widths are proportional."
+      ],
+      "correctAnswer": "Yes, the width and height both scale by 3.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "coordinate-plane",
+        "reasoning"
+      ],
+      "explanation": "The width ratio and height ratio are both 3, so the rectangles are similar."
+    },
+    {
+      "id": "course3-similar-figures-core-019",
+      "type": "multiple_choice",
+      "questionText": "One rectangle on a grid is 10, 6 units wide and tall. Another is 5, 3 units wide and tall. Are they similar?",
+      "options": [
+        "Yes, the width and height both scale by 0.5.",
+        "No, the rectangles must have the same width and height.",
+        "Yes, because the area scales by 0.5.",
+        "No, only the widths are proportional."
+      ],
+      "correctAnswer": "Yes, the width and height both scale by 0.5.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "coordinate-plane",
+        "reasoning"
+      ],
+      "explanation": "The width ratio and height ratio are both 0.5, so the rectangles are similar."
+    },
+    {
+      "id": "course3-similar-figures-core-020",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has angle measures 45, 55, 80 degrees. Triangle DEF has corresponding angle measures 45, 60, 75 degrees. Do the angle measures support similarity?",
+      "options": [
+        "No, at least one corresponding angle measure is different.",
+        "Yes, because all figures with three sides are similar.",
+        "No, because similar figures must have the same side lengths.",
+        "Yes, because the largest angles are in the same figure."
+      ],
+      "correctAnswer": "No, at least one corresponding angle measure is different.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "angles",
+        "reasoning"
+      ],
+      "explanation": "Corresponding angles must match for the figures to be similar."
+    },
+    {
+      "id": "course3-similar-figures-core-021",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar. A side of 7.5 units matches a side of 18 units. Another original side is 12.5 units. What is the matching image side?",
+      "options": [
+        "5.208 units",
+        "14.9 units",
+        "23 units",
+        "30 units"
+      ],
+      "correctAnswer": "30 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "missing-side",
+        "proportions"
+      ],
+      "explanation": "The scale factor is 2.4. Multiply 12.5 by 2.4 to get 30 units."
+    },
+    {
+      "id": "course3-similar-figures-core-022",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar. A side of 9 units matches a side of 6 units. Another original side is 21 units. What is the matching image side?",
+      "options": [
+        "31.5 units",
+        "21.667 units",
+        "14 units",
+        "18 units"
+      ],
+      "correctAnswer": "14 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "missing-side",
+        "proportions"
+      ],
+      "explanation": "The scale factor is 0.667. Multiply 21 by 0.667 to get 14 units."
+    },
+    {
+      "id": "course3-similar-figures-core-023",
+      "type": "multiple_choice",
+      "questionText": "One side of a figure is 2.4 units. The corresponding side in a similar figure is 9.6 units. What is the scale factor from the original to the image?",
+      "options": [
+        "0.25",
+        "4",
+        "7.2",
+        "12"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "scale-factor"
+      ],
+      "explanation": "Scale factor is image divided by original: 9.6 / 2.4 = 4."
+    },
+    {
+      "id": "course3-similar-figures-core-024",
+      "type": "multiple_choice",
+      "questionText": "One side of a figure is 15 units. The corresponding side in a similar figure is 22.5 units. What is the scale factor from the original to the image?",
+      "options": [
+        "1.5",
+        "0.667",
+        "7.5",
+        "37.5"
+      ],
+      "correctAnswer": "1.5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "scale-factor"
+      ],
+      "explanation": "Scale factor is image divided by original: 22.5 / 15 = 1.5."
+    },
+    {
+      "id": "course3-similar-figures-core-025",
+      "type": "multiple_choice",
+      "questionText": "A figure has side lengths 2.5, 4, 6.5, 8. A similar image uses scale factor 4. Which list gives the image side lengths in matching order?",
+      "options": [
+        "6.5, 8, 10.5, 12",
+        "10, 16, 26, 32",
+        "0.625, 1, 1.625, 2",
+        "32, 26, 16, 10"
+      ],
+      "correctAnswer": "10, 16, 26, 32",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "side-lengths",
+        "scale-factor"
+      ],
+      "explanation": "Multiply each corresponding side by 4."
+    },
+    {
+      "id": "course3-similar-figures-core-026",
+      "type": "multiple_choice",
+      "questionText": "A figure has side lengths 18, 30, 42. A similar image uses scale factor 0.2. Which list gives the image side lengths in matching order?",
+      "options": [
+        "3.6, 6, 8.4",
+        "18.2, 30.2, 42.2",
+        "90, 150, 210",
+        "8.4, 6, 3.6"
+      ],
+      "correctAnswer": "3.6, 6, 8.4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "side-lengths",
+        "scale-factor"
+      ],
+      "explanation": "Multiply each corresponding side by 0.2."
+    },
+    {
+      "id": "course3-similar-figures-core-027",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 8, 12, 16, 20. Figure B has corresponding side lengths 14, 21, 28, 35. Are the figures similar based on side lengths?",
+      "options": [
+        "Yes, because the figures have the same number of sides.",
+        "No, because similar figures must have equal side lengths.",
+        "No, the side ratios equal 0.571.",
+        "Yes, all side ratios equal 1.75."
+      ],
+      "correctAnswer": "Yes, all side ratios equal 1.75.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "reasoning",
+        "side-lengths"
+      ],
+      "explanation": "Each image/original ratio is 1.75, so the side lengths are proportional."
+    },
+    {
+      "id": "course3-similar-figures-core-028",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 3, 5, 8. Figure B has corresponding side lengths 9, 14, 24. Are the figures similar based on side lengths?",
+      "options": [
+        "Yes, because the figures have the same number of sides.",
+        "No, the corresponding side ratios are not all equal.",
+        "No, because similar figures must have equal side lengths.",
+        "Yes, all side ratios equal 3."
+      ],
+      "correctAnswer": "No, the corresponding side ratios are not all equal.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "reasoning",
+        "side-lengths"
+      ],
+      "explanation": "At least one side ratio is different, so one scale factor cannot match all sides."
+    },
+    {
+      "id": "course3-similar-figures-core-029",
+      "type": "multiple_choice",
+      "questionText": "Figures ABCD and WXYZ are similar in that order. If angle B measures 117 degrees, what is the measure of angle X?",
+      "options": [
+        "63 degrees",
+        "127 degrees",
+        "107 degrees",
+        "117 degrees"
+      ],
+      "correctAnswer": "117 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "angles",
+        "correspondence"
+      ],
+      "explanation": "The order ABCD ~ WXYZ means B corresponds to X, so their angle measures are equal."
+    },
+    {
+      "id": "course3-similar-figures-core-030",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar with scale factor 2.5 from the first to the second. The first figure's perimeter is 38 units. What is the second figure's perimeter?",
+      "options": [
+        "237.5 units",
+        "40.5 units",
+        "95 units",
+        "15.2 units"
+      ],
+      "correctAnswer": "95 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "perimeter",
+        "scale-factor"
+      ],
+      "explanation": "Perimeter is a length measure, so it changes by the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-031",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have side-length scale factor 3 from the first to the second. How does the area of the second compare with the first?",
+      "options": [
+        "9 times as large",
+        "3 times as large",
+        "0.333 times as large",
+        "10 times as large"
+      ],
+      "correctAnswer": "9 times as large",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "area",
+        "scale-factor"
+      ],
+      "explanation": "Area changes by the square of the side-length scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-032",
+      "type": "multiple_choice",
+      "questionText": "A student says two quadrilaterals are similar because they look like the same shape in a picture. What is the best feedback?",
+      "options": [
+        "Same shape is not enough by itself; corresponding angles and proportional side lengths must be checked.",
+        "The student is correct because any two figures with equal areas are similar.",
+        "The student is correct because similar figures must be congruent.",
+        "The student should add the side lengths instead of comparing ratios."
+      ],
+      "correctAnswer": "Same shape is not enough by itself; corresponding angles and proportional side lengths must be checked.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "error-analysis",
+        "reasoning"
+      ],
+      "explanation": "Same shape is not enough by itself; corresponding angles and proportional side lengths must be checked."
+    },
+    {
+      "id": "course3-similar-figures-core-033",
+      "type": "multiple_choice",
+      "questionText": "A student compares the shortest side of one figure to the longest side of another and claims the figures are not similar. What is the best feedback?",
+      "options": [
+        "The student is correct because any two figures with equal areas are similar.",
+        "The student compared non-corresponding sides; matching parts must be compared in the same order.",
+        "The student is correct because similar figures must be congruent.",
+        "The student should add the side lengths instead of comparing ratios."
+      ],
+      "correctAnswer": "The student compared non-corresponding sides; matching parts must be compared in the same order.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "error-analysis",
+        "reasoning"
+      ],
+      "explanation": "The student compared non-corresponding sides; matching parts must be compared in the same order."
+    },
+    {
+      "id": "course3-similar-figures-core-034",
+      "type": "multiple_choice",
+      "questionText": "Which pair could represent corresponding side lengths for similar figures using scale factor 2?",
+      "options": [
+        "Triangle M: 9, 10, 14 and Triangle N: 11, 12, 16",
+        "Triangle M: 9, 10, 14 and Triangle N: 18, 21, 30",
+        "Triangle M: 9, 10, 14 and Triangle N: 28, 20, 18",
+        "Triangle M: 9, 10, 14 and Triangle N: 18, 20, 28"
+      ],
+      "correctAnswer": "Triangle M: 9, 10, 14 and Triangle N: 18, 20, 28",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "correspondence",
+        "side-lengths"
+      ],
+      "explanation": "Each corresponding image side must equal the original side times the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-035",
+      "type": "multiple_choice",
+      "questionText": "One rectangle on a grid is 12, 9 units wide and tall. Another is 9, 6.75 units wide and tall. Are they similar?",
+      "options": [
+        "Yes, the width and height both scale by 0.75.",
+        "No, the rectangles must have the same width and height.",
+        "Yes, because the area scales by 0.75.",
+        "No, only the widths are proportional."
+      ],
+      "correctAnswer": "Yes, the width and height both scale by 0.75.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "coordinate-plane",
+        "reasoning"
+      ],
+      "explanation": "The width ratio and height ratio are both 0.75, so the rectangles are similar."
+    },
+    {
+      "id": "course3-similar-figures-core-036",
+      "type": "multiple_choice",
+      "questionText": "Similar figures have one corresponding side pair 6 -> 15. Another original side is 11, and the original perimeter is 34. Which result is correct?",
+      "options": [
+        "Missing side 4.4 units and image perimeter 85 units",
+        "Missing side 27.5 units and image perimeter 212.5 units",
+        "Missing side 27.5 units and image perimeter 85 units",
+        "Missing side 13.5 units and image perimeter 36.5 units"
+      ],
+      "correctAnswer": "Missing side 27.5 units and image perimeter 85 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "multi-step",
+        "proportions",
+        "perimeter"
+      ],
+      "explanation": "The scale factor is 2.5. Use it for both side length and perimeter."
+    },
+    {
+      "id": "course3-similar-figures-core-037",
+      "type": "multiple_choice",
+      "questionText": "Similar figures have one corresponding side pair 16 -> 6. Another original side is 20, and the original perimeter is 72. Which result is correct?",
+      "options": [
+        "Missing side 53.333 units and image perimeter 27 units",
+        "Missing side 7.5 units and image perimeter 27 units",
+        "Missing side 7.5 units and image perimeter 10.125 units",
+        "Missing side 20.375 units and image perimeter 72.375 units"
+      ],
+      "correctAnswer": "Missing side 7.5 units and image perimeter 27 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "multi-step",
+        "proportions",
+        "perimeter"
+      ],
+      "explanation": "The scale factor is 0.375. Use it for both side length and perimeter."
+    },
+    {
+      "id": "course3-similar-figures-core-038",
+      "type": "multiple_choice",
+      "questionText": "What evidence would best justify that two polygons are similar?",
+      "options": [
+        "Show that the figures have exactly the same area.",
+        "Show that one figure can slide onto the other without resizing.",
+        "Show that at least one pair of sides has the same length.",
+        "Show that corresponding angles are equal and corresponding side ratios are equal."
+      ],
+      "correctAnswer": "Show that corresponding angles are equal and corresponding side ratios are equal.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "proof",
+        "reasoning"
+      ],
+      "explanation": "Similarity needs angle correspondence and one consistent side-length scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-039",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 4.5, 6, 7.5. Figure B has corresponding side lengths 12, 16, 20. Are the figures similar based on side lengths?",
+      "options": [
+        "Yes, all side ratios equal 2.667.",
+        "Yes, because the figures have the same number of sides.",
+        "No, because similar figures must have equal side lengths.",
+        "No, the side ratios equal 0.375."
+      ],
+      "correctAnswer": "Yes, all side ratios equal 2.667.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "reasoning",
+        "side-lengths"
+      ],
+      "explanation": "Each image/original ratio is 2.667, so the side lengths are proportional."
+    },
+    {
+      "id": "course3-similar-figures-core-040",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 5, 8, 13. Figure B has corresponding side lengths 7.5, 12, 18. Are the figures similar based on side lengths?",
+      "options": [
+        "Yes, because the figures have the same number of sides.",
+        "No, because similar figures must have equal side lengths.",
+        "Yes, all side ratios equal 1.5.",
+        "No, the corresponding side ratios are not all equal."
+      ],
+      "correctAnswer": "No, the corresponding side ratios are not all equal.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "reasoning",
+        "side-lengths"
+      ],
+      "explanation": "At least one side ratio is different, so one scale factor cannot match all sides."
+    },
+    {
+      "id": "course3-similar-figures-core-041",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar. A side of 3.2 units matches a side of 12 units. Another original side is 8.4 units. What is the matching image side?",
+      "options": [
+        "2.24 units",
+        "12.15 units",
+        "31.5 units",
+        "17.2 units"
+      ],
+      "correctAnswer": "31.5 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "missing-side",
+        "proportions"
+      ],
+      "explanation": "The scale factor is 3.75. Multiply 8.4 by 3.75 to get 31.5 units."
+    },
+    {
+      "id": "course3-similar-figures-core-042",
+      "type": "multiple_choice",
+      "questionText": "Two figures are similar with scale factor 1.25 from the first to the second. The first figure's perimeter is 45.6 units. What is the second figure's perimeter?",
+      "options": [
+        "71.25 units",
+        "46.85 units",
+        "36.48 units",
+        "57 units"
+      ],
+      "correctAnswer": "57 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "perimeter",
+        "scale-factor"
+      ],
+      "explanation": "Perimeter is a length measure, so it changes by the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-043",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have side-length scale factor 1.5 from the first to the second. How does the area of the second compare with the first?",
+      "options": [
+        "1.5 times as large",
+        "0.667 times as large",
+        "2.25 times as large",
+        "3.25 times as large"
+      ],
+      "correctAnswer": "2.25 times as large",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "area",
+        "scale-factor"
+      ],
+      "explanation": "Area changes by the square of the side-length scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-044",
+      "type": "multiple_choice",
+      "questionText": "Which pair could represent corresponding side lengths for similar figures using scale factor 2.5?",
+      "options": [
+        "Shape R: 4.2, 6.3, 8.4, 10.5 and Shape S: 6.7, 8.8, 10.9, 13",
+        "Shape R: 4.2, 6.3, 8.4, 10.5 and Shape S: 10.5, 15.75, 21, 26.25",
+        "Shape R: 4.2, 6.3, 8.4, 10.5 and Shape S: 10.5, 16.75, 23, 29.25",
+        "Shape R: 4.2, 6.3, 8.4, 10.5 and Shape S: 26.25, 21, 15.75, 10.5"
+      ],
+      "correctAnswer": "Shape R: 4.2, 6.3, 8.4, 10.5 and Shape S: 10.5, 15.75, 21, 26.25",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "correspondence",
+        "side-lengths"
+      ],
+      "explanation": "Each corresponding image side must equal the original side times the same scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-045",
+      "type": "multiple_choice",
+      "questionText": "One rectangle on a grid is 2.5, 4.5 units wide and tall. Another is 8, 14.4 units wide and tall. Are they similar?",
+      "options": [
+        "No, the rectangles must have the same width and height.",
+        "Yes, because the area scales by 3.2.",
+        "Yes, the width and height both scale by 3.2.",
+        "No, only the widths are proportional."
+      ],
+      "correctAnswer": "Yes, the width and height both scale by 3.2.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "coordinate-plane",
+        "reasoning"
+      ],
+      "explanation": "The width ratio and height ratio are both 3.2, so the rectangles are similar."
+    },
+    {
+      "id": "course3-similar-figures-core-046",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC has angle measures 38, 64, 78 degrees. Triangle DEF has corresponding angle measures 38, 64, 78 degrees. Do the angle measures support similarity?",
+      "options": [
+        "Yes, the corresponding angles match.",
+        "Yes, because all figures with three sides are similar.",
+        "No, because similar figures must have the same side lengths.",
+        "Yes, because the largest angles are in the same figure."
+      ],
+      "correctAnswer": "Yes, the corresponding angles match.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "angles",
+        "reasoning"
+      ],
+      "explanation": "Matching angle measures are evidence that triangles are similar."
+    },
+    {
+      "id": "course3-similar-figures-core-047",
+      "type": "multiple_choice",
+      "questionText": "Similar figures have one corresponding side pair 7.5 -> 4.5. Another original side is 13, and the original perimeter is 55. Which result is correct?",
+      "options": [
+        "Missing side 21.667 units and image perimeter 33 units",
+        "Missing side 7.8 units and image perimeter 19.8 units",
+        "Missing side 7.8 units and image perimeter 33 units",
+        "Missing side 13.6 units and image perimeter 55.6 units"
+      ],
+      "correctAnswer": "Missing side 7.8 units and image perimeter 33 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "multi-step",
+        "proportions",
+        "perimeter"
+      ],
+      "explanation": "The scale factor is 0.6. Use it for both side length and perimeter."
+    },
+    {
+      "id": "course3-similar-figures-core-048",
+      "type": "multiple_choice",
+      "questionText": "A student compares the shortest side of one figure to the longest side of another and claims the figures are not similar. What is the best feedback?",
+      "options": [
+        "The student is correct because any two figures with equal areas are similar.",
+        "The student compared non-corresponding sides; matching parts must be compared in the same order.",
+        "The student is correct because similar figures must be congruent.",
+        "The student should add the side lengths instead of comparing ratios."
+      ],
+      "correctAnswer": "The student compared non-corresponding sides; matching parts must be compared in the same order.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "error-analysis",
+        "reasoning"
+      ],
+      "explanation": "The student compared non-corresponding sides; matching parts must be compared in the same order."
+    },
+    {
+      "id": "course3-similar-figures-core-049",
+      "type": "multiple_choice",
+      "questionText": "What evidence would best justify that two polygons are similar?",
+      "options": [
+        "Show that the figures have exactly the same area.",
+        "Show that one figure can slide onto the other without resizing.",
+        "Show that corresponding angles are equal and corresponding side ratios are equal.",
+        "Show that at least one pair of sides has the same length."
+      ],
+      "correctAnswer": "Show that corresponding angles are equal and corresponding side ratios are equal.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "proof",
+        "reasoning"
+      ],
+      "explanation": "Similarity needs angle correspondence and one consistent side-length scale factor."
+    },
+    {
+      "id": "course3-similar-figures-core-050",
+      "type": "multiple_choice",
+      "questionText": "Similar figures have one corresponding side pair 2.8 -> 9.8. Another original side is 6.4, and the original perimeter is 18.2. Which result is correct?",
+      "options": [
+        "Missing side 1.829 units and image perimeter 63.7 units",
+        "Missing side 22.4 units and image perimeter 63.7 units",
+        "Missing side 22.4 units and image perimeter 222.95 units",
+        "Missing side 9.9 units and image perimeter 21.7 units"
+      ],
+      "correctAnswer": "Missing side 22.4 units and image perimeter 63.7 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "similar-figures",
+        "similarity",
+        "multi-step",
+        "proportions",
+        "perimeter"
+      ],
+      "explanation": "The scale factor is 3.5. Use it for both side length and perimeter."
+    }
+  ]
+}
