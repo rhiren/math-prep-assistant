@@ -559,6 +559,13 @@ describe("content repository", () => {
         reviewTestId: "course3-unit1-geometry-mixed-review-review",
       },
       {
+        conceptId: "concept-dilations-coordinate-plane",
+        standards: ["8.G.3", "8.G.4"],
+        tutorialHeading: "# Dilations on the Coordinate Plane",
+        coreTestId: "course3-dilations-coordinate-plane-core",
+        reviewTestId: "course3-dilations-coordinate-plane-review",
+      },
+      {
         conceptId: "concept-rational-irrational-numbers",
         standards: ["8.NS.1"],
         tutorialHeading: "# Rational and Irrational Numbers",
@@ -840,14 +847,16 @@ describe("content repository", () => {
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
     expect(course?.units[0]?.id).toBe("course3-unit-rigid-transformations-congruence");
     expect(course?.units[0]?.concepts).toHaveLength(10);
-    expect(course?.units[1]?.id).toBe("course3-unit-real-numbers-exponents");
-    expect(course?.units[1]?.concepts).toHaveLength(12);
-    expect(course?.units[2]?.id).toBe("course3-unit-linear-equations");
-    expect(course?.units[2]?.concepts).toHaveLength(10);
-    expect(course?.units[3]?.id).toBe("course3-unit-lines-slope-linear-equations");
-    expect(course?.units[3]?.concepts).toHaveLength(12);
-    expect(course?.units[4]?.id).toBe("course3-unit-systems-linear-equations");
-    expect(course?.units[4]?.concepts).toHaveLength(5);
+    expect(course?.units[1]?.id).toBe("course3-unit-dilations-similarity-slope");
+    expect(course?.units[1]?.concepts).toHaveLength(1);
+    expect(course?.units[2]?.id).toBe("course3-unit-real-numbers-exponents");
+    expect(course?.units[2]?.concepts).toHaveLength(12);
+    expect(course?.units[3]?.id).toBe("course3-unit-linear-equations");
+    expect(course?.units[3]?.concepts).toHaveLength(10);
+    expect(course?.units[4]?.id).toBe("course3-unit-lines-slope-linear-equations");
+    expect(course?.units[4]?.concepts).toHaveLength(12);
+    expect(course?.units[5]?.id).toBe("course3-unit-systems-linear-equations");
+    expect(course?.units[5]?.concepts).toHaveLength(5);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

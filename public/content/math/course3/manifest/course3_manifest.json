@@ -585,10 +585,75 @@
           ]
         },
         {
+          "id": "course3-unit-dilations-similarity-slope",
+          "title": "Dilations, Similarity, and Slope",
+          "description": "Build the Amplify Unit 2 foundation by resizing figures with dilations, reasoning about scale factor and similarity, and connecting similar triangles to slope.",
+          "order": 2,
+          "concepts": [
+            {
+              "id": "concept-dilations-coordinate-plane",
+              "title": "Dilations on the Coordinate Plane",
+              "description": "Dilate points and figures from the origin, identify scale factors, and reason about enlargement, reduction, side lengths, and area change.",
+              "tags": [
+                "geometry",
+                "transformations",
+                "dilations",
+                "coordinate-plane",
+                "similarity"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.3",
+                "8.G.4"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-dilations-coordinate-plane.md",
+              "tests": [
+                {
+                  "id": "course3-dilations-coordinate-plane-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-dilations-coordinate-plane-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-dilations-coordinate-plane-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-dilations-coordinate-plane-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "course3-unit-real-numbers-exponents",
           "title": "Real Numbers and Exponents",
           "description": "Build a strong foundation with rational and irrational numbers before moving into radicals, exponents, and scientific notation.",
-          "order": 2,
+          "order": 3,
           "concepts": [
             {
               "id": "concept-rational-irrational-numbers",
@@ -1250,7 +1315,7 @@
           "id": "course3-unit-linear-equations",
           "title": "Linear Equations in One Variable",
           "description": "Build from equivalent expressions into multi-step linear equations, special solution cases, and equation modeling.",
-          "order": 3,
+          "order": 4,
           "concepts": [
             {
               "id": "concept-review-equivalent-expressions",
@@ -1798,7 +1863,7 @@
           "courseId": "course-3",
           "title": "Unit 3 — Lines, Slope, and Linear Equations",
           "description": "Understand slope, rate of change, proportional linear equations, and multiple representations of lines.",
-          "order": 4,
+          "order": 5,
           "concepts": [
             {
               "id": "concept-proportional-relationships-as-lines",
@@ -2454,7 +2519,7 @@
           "courseId": "course-3",
           "title": "Unit 4 — Systems of Linear Equations",
           "description": "Solve systems of linear equations using graphs and algebraic methods, and interpret the number of solutions.",
-          "order": 5,
+          "order": 6,
           "concepts": [
             {
               "id": "concept-understand-solutions-systems",
