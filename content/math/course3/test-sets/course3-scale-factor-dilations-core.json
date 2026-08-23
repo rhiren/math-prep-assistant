@@ -1,0 +1,1046 @@
+{
+  "testId": "course3-scale-factor-dilations-core",
+  "conceptId": "concept-scale-factor-dilations",
+  "type": "concept",
+  "title": "Scale Factor and Dilations Core Test",
+  "description": "Use scale factor to find image and preimage lengths, compare corresponding parts, and reason about length, perimeter, area, and coordinate effects.",
+  "questions": [
+    {
+      "id": "course3-scale-factor-dilations-core-001",
+      "type": "multiple_choice",
+      "questionText": "A segment that is 4 units long is dilated to 12 units. What is the scale factor?",
+      "options": [
+        "0.333",
+        "3",
+        "8",
+        "16"
+      ],
+      "correctAnswer": "3",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths"
+      ],
+      "explanation": "Scale factor = image length / original length = 12 / 4 = 3."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-002",
+      "type": "multiple_choice",
+      "questionText": "A segment that is 10 units long is dilated to 5 units. What is the scale factor?",
+      "options": [
+        "0.5",
+        "2",
+        "-5",
+        "15"
+      ],
+      "correctAnswer": "0.5",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths"
+      ],
+      "explanation": "Scale factor = image length / original length = 5 / 10 = 0.5."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-003",
+      "type": "multiple_choice",
+      "questionText": "A dilation uses scale factor 3. What does that scale factor do to the figure?",
+      "options": [
+        "reduction",
+        "reflection",
+        "enlargement",
+        "translation"
+      ],
+      "correctAnswer": "enlargement",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "interpretation"
+      ],
+      "explanation": "A scale factor greater than 1 enlarges; a scale factor between 0 and 1 reduces; a scale factor of 1 keeps the same size."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-004",
+      "type": "multiple_choice",
+      "questionText": "A dilation uses scale factor 0.25. What does that scale factor do to the figure?",
+      "options": [
+        "enlargement",
+        "reflection",
+        "translation",
+        "reduction"
+      ],
+      "correctAnswer": "reduction",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "interpretation"
+      ],
+      "explanation": "A scale factor greater than 1 enlarges; a scale factor between 0 and 1 reduces; a scale factor of 1 keeps the same size."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-005",
+      "type": "multiple_choice",
+      "questionText": "A side length of 7 units is dilated by scale factor 2. What is the image side length?",
+      "options": [
+        "9 units",
+        "3.5 units",
+        "5 units",
+        "14 units"
+      ],
+      "correctAnswer": "14 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths",
+        "image"
+      ],
+      "explanation": "Multiply the original side by the scale factor: 7 * 2 = 14."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-006",
+      "type": "multiple_choice",
+      "questionText": "A side length of 16 units is dilated by scale factor 0.5. What is the image side length?",
+      "options": [
+        "16.5 units",
+        "8 units",
+        "32 units",
+        "15.5 units"
+      ],
+      "correctAnswer": "8 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths",
+        "image"
+      ],
+      "explanation": "Multiply the original side by the scale factor: 16 * 0.5 = 8."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-007",
+      "type": "multiple_choice",
+      "questionText": "After a dilation with scale factor 3, an image side is 30 units long. What was the original side length?",
+      "options": [
+        "10 units",
+        "90 units",
+        "33 units",
+        "27 units"
+      ],
+      "correctAnswer": "10 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths",
+        "preimage"
+      ],
+      "explanation": "Work backward by dividing the image length by the scale factor: 30 / 3 = 10."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-008",
+      "type": "multiple_choice",
+      "questionText": "After a dilation with scale factor 0.25, an image side is 6 units long. What was the original side length?",
+      "options": [
+        "1.5 units",
+        "6.25 units",
+        "5.75 units",
+        "24 units"
+      ],
+      "correctAnswer": "24 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths",
+        "preimage"
+      ],
+      "explanation": "Work backward by dividing the image length by the scale factor: 6 / 0.25 = 24."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-009",
+      "type": "multiple_choice",
+      "questionText": "A side length changes from 8 units to 12 units. Write the scale factor as a fraction.",
+      "options": [
+        "8/12",
+        "4",
+        "12/8",
+        "20"
+      ],
+      "correctAnswer": "12/8",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "fractions",
+        "lengths"
+      ],
+      "explanation": "Scale factor = image / original = 12/8."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-010",
+      "type": "multiple_choice",
+      "questionText": "A side length changes from 15 units to 6 units. Write the scale factor as a fraction.",
+      "options": [
+        "15/6",
+        "6/15",
+        "-9",
+        "21"
+      ],
+      "correctAnswer": "6/15",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "fractions",
+        "lengths"
+      ],
+      "explanation": "Scale factor = image / original = 6/15."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-011",
+      "type": "multiple_choice",
+      "questionText": "A point moves from (2, 5) to (8, 20). Could this be a dilation centered at the origin?",
+      "options": [
+        "Yes, the scale factor is 4.",
+        "Yes, the scale factor is 0.25.",
+        "Yes, because both coordinates changed.",
+        "No, because dilations cannot move points between quadrants."
+      ],
+      "correctAnswer": "Yes, the scale factor is 4.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "reasoning"
+      ],
+      "explanation": "The x-ratio and y-ratio both equal 4, so one scale factor works."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-012",
+      "type": "multiple_choice",
+      "questionText": "A point moves from (-6, 9) to (-2, 3). Could this be a dilation centered at the origin?",
+      "options": [
+        "Yes, the scale factor is 3.",
+        "Yes, because both coordinates changed.",
+        "Yes, the scale factor is 0.333.",
+        "No, because dilations cannot move points between quadrants."
+      ],
+      "correctAnswer": "Yes, the scale factor is 0.333.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "reasoning"
+      ],
+      "explanation": "The x-ratio and y-ratio both equal 0.333, so one scale factor works."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-013",
+      "type": "multiple_choice",
+      "questionText": "A point moves from (3, 4) to (9, 10). Could this be a dilation centered at the origin?",
+      "options": [
+        "Yes, the scale factor is 0.333.",
+        "No, the coordinate ratios do not match.",
+        "Yes, because both coordinates changed.",
+        "No, because dilations cannot move points between quadrants."
+      ],
+      "correctAnswer": "No, the coordinate ratios do not match.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "reasoning"
+      ],
+      "explanation": "The x-ratio is 3 but the y-ratio is 2.5, so one scale factor does not work."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-014",
+      "type": "multiple_choice",
+      "questionText": "In a dilation, one side changes from 6 units to 15 units. Another original side is 8 units. What is its image length?",
+      "options": [
+        "3.2 units",
+        "17 units",
+        "8 units",
+        "20 units"
+      ],
+      "correctAnswer": "20 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "similarity",
+        "lengths"
+      ],
+      "explanation": "First find the scale factor: 15 / 6. Then multiply 8 by that factor."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-015",
+      "type": "multiple_choice",
+      "questionText": "In a dilation, one side changes from 20 units to 8 units. Another original side is 35 units. What is its image length?",
+      "options": [
+        "87.5 units",
+        "14 units",
+        "23 units",
+        "35 units"
+      ],
+      "correctAnswer": "14 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "similarity",
+        "lengths"
+      ],
+      "explanation": "First find the scale factor: 8 / 20. Then multiply 35 by that factor."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-016",
+      "type": "multiple_choice",
+      "questionText": "A polygon has perimeter 18 units. It is dilated by scale factor 4. What is the image perimeter?",
+      "options": [
+        "288 units",
+        "22 units",
+        "4.5 units",
+        "72 units"
+      ],
+      "correctAnswer": "72 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "perimeter"
+      ],
+      "explanation": "Perimeter is a length measure, so it multiplies by 4."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-017",
+      "type": "multiple_choice",
+      "questionText": "A polygon has perimeter 42 units. It is dilated by scale factor 0.5. What is the image perimeter?",
+      "options": [
+        "21 units",
+        "10.5 units",
+        "42.5 units",
+        "84 units"
+      ],
+      "correctAnswer": "21 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "perimeter"
+      ],
+      "explanation": "Perimeter is a length measure, so it multiplies by 0.5."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-018",
+      "type": "multiple_choice",
+      "questionText": "A figure has area 10 square units. It is dilated by scale factor 3. What is the image area?",
+      "options": [
+        "30 square units",
+        "3.333 square units",
+        "90 square units",
+        "13 square units"
+      ],
+      "correctAnswer": "90 square units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "area"
+      ],
+      "explanation": "Area multiplies by the square of the scale factor: 10 * 3^2."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-019",
+      "type": "multiple_choice",
+      "questionText": "A figure has area 64 square units. It is dilated by scale factor 0.25. What is the image area?",
+      "options": [
+        "4 square units",
+        "16 square units",
+        "256 square units",
+        "64.25 square units"
+      ],
+      "correctAnswer": "4 square units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "area"
+      ],
+      "explanation": "Area multiplies by the square of the scale factor: 64 * 0.25^2."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-020",
+      "type": "multiple_choice",
+      "questionText": "A scale drawing uses scale factor 12 from drawing to real object. A drawn length is 5 cm. What is the real length?",
+      "options": [
+        "60 cm",
+        "17 cm",
+        "0.417 cm",
+        "12 cm"
+      ],
+      "correctAnswer": "60 cm",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "application",
+        "scale-drawing"
+      ],
+      "explanation": "Multiply drawing length by the scale factor: 5 * 12."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-021",
+      "type": "multiple_choice",
+      "questionText": "A scale drawing uses scale factor 2.5 from drawing to real object. A drawn length is 3 inches. What is the real length?",
+      "options": [
+        "5.5 inches",
+        "1.2 inches",
+        "2.5 inches",
+        "7.5 inches"
+      ],
+      "correctAnswer": "7.5 inches",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "application",
+        "scale-drawing"
+      ],
+      "explanation": "Multiply drawing length by the scale factor: 3 * 2.5."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-022",
+      "type": "multiple_choice",
+      "questionText": "An original length is x. Which expression gives the image length after scale factor 2.5?",
+      "options": [
+        "x / 2.5",
+        "x + 2.5",
+        "2.5x",
+        "x - 2.5"
+      ],
+      "correctAnswer": "2.5x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "expressions"
+      ],
+      "explanation": "Image length equals original length times the scale factor."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-023",
+      "type": "multiple_choice",
+      "questionText": "An image length is x. Which expression gives the original length before scale factor 4?",
+      "options": [
+        "4x",
+        "x / 4",
+        "x + 4",
+        "x - 4"
+      ],
+      "correctAnswer": "x / 4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "expressions"
+      ],
+      "explanation": "Original length equals image length divided by the scale factor."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-024",
+      "type": "multiple_choice",
+      "questionText": "Original side lengths are 3, 5, 9. A dilation uses scale factor 2. Which list gives the image side lengths?",
+      "options": [
+        "6, 10, 18",
+        "5, 7, 11",
+        "1.5, 2.5, 4.5",
+        "3, 5, 9"
+      ],
+      "correctAnswer": "6, 10, 18",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "tables",
+        "application"
+      ],
+      "explanation": "Multiply every side length by the same scale factor, 2."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-025",
+      "type": "multiple_choice",
+      "questionText": "Original side lengths are 12, 20, 28. A dilation uses scale factor 0.25. Which list gives the image side lengths?",
+      "options": [
+        "12.25, 20.25, 28.25",
+        "3, 5, 7",
+        "48, 80, 112",
+        "12, 20, 28"
+      ],
+      "correctAnswer": "3, 5, 7",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "tables",
+        "application"
+      ],
+      "explanation": "Multiply every side length by the same scale factor, 0.25."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-026",
+      "type": "multiple_choice",
+      "questionText": "A side length of 2.4 units is dilated by scale factor 5. What is the image side length?",
+      "options": [
+        "12 units",
+        "7.4 units",
+        "0.48 units",
+        "-2.6 units"
+      ],
+      "correctAnswer": "12 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths",
+        "image"
+      ],
+      "explanation": "Multiply the original side by the scale factor: 2.4 * 5 = 12."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-027",
+      "type": "multiple_choice",
+      "questionText": "After a dilation with scale factor 0.7, an image side is 14 units long. What was the original side length?",
+      "options": [
+        "9.8 units",
+        "14.7 units",
+        "13.3 units",
+        "20 units"
+      ],
+      "correctAnswer": "20 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths",
+        "preimage"
+      ],
+      "explanation": "Work backward by dividing the image length by the scale factor: 14 / 0.7 = 20."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-028",
+      "type": "multiple_choice",
+      "questionText": "A segment that is 2.5 units long is dilated to 10 units. What is the scale factor?",
+      "options": [
+        "0.25",
+        "4",
+        "7.5",
+        "12.5"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths"
+      ],
+      "explanation": "Scale factor = image length / original length = 10 / 2.5 = 4."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-029",
+      "type": "multiple_choice",
+      "questionText": "A segment that is 18 units long is dilated to 27 units. What is the scale factor?",
+      "options": [
+        "0.667",
+        "9",
+        "45",
+        "1.5"
+      ],
+      "correctAnswer": "1.5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "lengths"
+      ],
+      "explanation": "Scale factor = image length / original length = 27 / 18 = 1.5."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-030",
+      "type": "multiple_choice",
+      "questionText": "A point moves from (-4, -7) to (-10, -17.5). Could this be a dilation centered at the origin?",
+      "options": [
+        "Yes, the scale factor is 0.4.",
+        "Yes, because both coordinates changed.",
+        "Yes, the scale factor is 2.5.",
+        "No, because dilations cannot move points between quadrants."
+      ],
+      "correctAnswer": "Yes, the scale factor is 2.5.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "reasoning"
+      ],
+      "explanation": "The x-ratio and y-ratio both equal 2.5, so one scale factor works."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-031",
+      "type": "multiple_choice",
+      "questionText": "In a dilation, one side changes from 9 units to 6 units. Another original side is 21 units. What is its image length?",
+      "options": [
+        "14 units",
+        "31.5 units",
+        "18 units",
+        "21 units"
+      ],
+      "correctAnswer": "14 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "similarity",
+        "lengths"
+      ],
+      "explanation": "First find the scale factor: 6 / 9. Then multiply 21 by that factor."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-032",
+      "type": "multiple_choice",
+      "questionText": "A polygon has perimeter 24 units. It is dilated by scale factor 1.5. What is the image perimeter?",
+      "options": [
+        "36 units",
+        "54 units",
+        "25.5 units",
+        "16 units"
+      ],
+      "correctAnswer": "36 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "perimeter"
+      ],
+      "explanation": "Perimeter is a length measure, so it multiplies by 1.5."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-033",
+      "type": "multiple_choice",
+      "questionText": "A figure has area 48 square units. It is dilated by scale factor 0.5. What is the image area?",
+      "options": [
+        "24 square units",
+        "12 square units",
+        "96 square units",
+        "48.5 square units"
+      ],
+      "correctAnswer": "12 square units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "area"
+      ],
+      "explanation": "Area multiplies by the square of the scale factor: 48 * 0.5^2."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-034",
+      "type": "multiple_choice",
+      "questionText": "A dilation uses scale factor 1. What does that scale factor do to the figure?",
+      "options": [
+        "enlargement",
+        "reflection",
+        "translation",
+        "same size"
+      ],
+      "correctAnswer": "same size",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "interpretation"
+      ],
+      "explanation": "A scale factor greater than 1 enlarges; a scale factor between 0 and 1 reduces; a scale factor of 1 keeps the same size."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-035",
+      "type": "multiple_choice",
+      "questionText": "A side length changes from 12 units to 30 units. Write the scale factor as a fraction.",
+      "options": [
+        "30/12",
+        "12/30",
+        "18",
+        "42"
+      ],
+      "correctAnswer": "30/12",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "fractions",
+        "lengths"
+      ],
+      "explanation": "Scale factor = image / original = 30/12."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-036",
+      "type": "multiple_choice",
+      "questionText": "A figure's area changes from 9 square units to 144 square units after a dilation. What positive scale factor was used?",
+      "options": [
+        "16",
+        "0.25",
+        "4",
+        "135"
+      ],
+      "correctAnswer": "4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "area",
+        "inverse"
+      ],
+      "explanation": "Area scale factor is k^2. Since 144 / 9 = 16, the length scale factor is 4."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-037",
+      "type": "multiple_choice",
+      "questionText": "A figure's area changes from 200 square units to 50 square units after a dilation. What positive scale factor was used?",
+      "options": [
+        "0.25",
+        "0.5",
+        "2",
+        "-150"
+      ],
+      "correctAnswer": "0.5",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "area",
+        "inverse"
+      ],
+      "explanation": "Area scale factor is k^2. Since 50 / 200 = 0.25, the length scale factor is 0.5."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-038",
+      "type": "multiple_choice",
+      "questionText": "Point (3, -2) is dilated from the origin by scale factor 3, then translated by <-4, 5>. What is the final point?",
+      "options": [
+        "(-3, 9)",
+        "(9, -6)",
+        "(-1, 3)",
+        "(5, -1)"
+      ],
+      "correctAnswer": "(5, -1)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "sequence"
+      ],
+      "explanation": "Dilate first to (9, -6), then add the translation vector to get (5, -1)."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-039",
+      "type": "multiple_choice",
+      "questionText": "Point (-8, 6) is dilated from the origin by scale factor 0.5, then translated by <7, -1>. What is the final point?",
+      "options": [
+        "(3, 2)",
+        "(-0.5, 2.5)",
+        "(-4, 3)",
+        "(-1, 5)"
+      ],
+      "correctAnswer": "(3, 2)",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "sequence"
+      ],
+      "explanation": "Dilate first to (-4, 3), then add the translation vector to get (3, 2)."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-040",
+      "type": "multiple_choice",
+      "questionText": "A figure is dilated by scale factor 3. Which statement correctly compares length and area effects?",
+      "options": [
+        "Side length and Area both change by 3.",
+        "Side length changes by 9, while Area changes by 3.",
+        "Side length and Area both stay unchanged.",
+        "Side length changes by 3, while Area changes by 9."
+      ],
+      "correctAnswer": "Side length changes by 3, while Area changes by 9.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "reasoning",
+        "area",
+        "lengths"
+      ],
+      "explanation": "Lengths use k; areas use k squared."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-041",
+      "type": "multiple_choice",
+      "questionText": "A figure is dilated by scale factor 0.5. Which statement correctly compares length and area effects?",
+      "options": [
+        "Perimeter and Area both change by 0.5.",
+        "Perimeter changes by 0.25, while Area changes by 0.5.",
+        "Perimeter changes by 0.5, while Area changes by 0.25.",
+        "Perimeter and Area both stay unchanged."
+      ],
+      "correctAnswer": "Perimeter changes by 0.5, while Area changes by 0.25.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "reasoning",
+        "area",
+        "lengths"
+      ],
+      "explanation": "Lengths use k; areas use k squared."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-042",
+      "type": "multiple_choice",
+      "questionText": "A student says an area of 20 becomes 80 after scale factor 4. What is the best feedback?",
+      "options": [
+        "The student used the reciprocal correctly.",
+        "The student is correct because dilations preserve all lengths.",
+        "The student reflected the figure instead of dilating it.",
+        "The student used the length scale factor for area; area should use the scale factor squared."
+      ],
+      "correctAnswer": "The student used the length scale factor for area; area should use the scale factor squared.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "error-analysis",
+        "reasoning"
+      ],
+      "explanation": "The student used the length scale factor for area; area should use the scale factor squared."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-043",
+      "type": "multiple_choice",
+      "questionText": "A student says a side of 11 becomes 14 after scale factor 3. What is the best feedback?",
+      "options": [
+        "The student used the reciprocal correctly.",
+        "The student is correct because dilations preserve all lengths.",
+        "The student added the scale factor instead of multiplying by it.",
+        "The student reflected the figure instead of dilating it."
+      ],
+      "correctAnswer": "The student added the scale factor instead of multiplying by it.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "error-analysis",
+        "reasoning"
+      ],
+      "explanation": "The student added the scale factor instead of multiplying by it."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-044",
+      "type": "multiple_choice",
+      "questionText": "A dilation uses scale factor 4. It acts on point (2, -5) and a side of length 6. Which combined result is correct?",
+      "options": [
+        "Scale factor 0.25, point image (0.5, -1.25), side image 1.5",
+        "Scale factor 4, point image (8, -20), side image 24",
+        "Scale factor 4, point image (6, -1), side image 10",
+        "Scale factor 16, point image (32, -80), side image 96"
+      ],
+      "correctAnswer": "Scale factor 4, point image (8, -20), side image 24",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "lengths",
+        "reasoning"
+      ],
+      "explanation": "Coordinates and side lengths both multiply by 4."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-045",
+      "type": "multiple_choice",
+      "questionText": "A dilation uses scale factor 0.25. It acts on point (-12, 8) and a side of length 18. Which combined result is correct?",
+      "options": [
+        "Scale factor 4, point image (-48, 32), side image 72",
+        "Scale factor 0.25, point image (-11.75, 8.25), side image 18.25",
+        "Scale factor 0.25, point image (-3, 2), side image 4.5",
+        "Scale factor 0.063, point image (-0.75, 0.5), side image 1.125"
+      ],
+      "correctAnswer": "Scale factor 0.25, point image (-3, 2), side image 4.5",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "lengths",
+        "reasoning"
+      ],
+      "explanation": "Coordinates and side lengths both multiply by 0.25."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-046",
+      "type": "multiple_choice",
+      "questionText": "In a dilation, one side changes from 7.5 units to 18 units. Another original side is 12.5 units. What is its image length?",
+      "options": [
+        "30 units",
+        "5.208 units",
+        "23 units",
+        "12.5 units"
+      ],
+      "correctAnswer": "30 units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "similarity",
+        "lengths"
+      ],
+      "explanation": "First find the scale factor: 18 / 7.5. Then multiply 12.5 by that factor."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-047",
+      "type": "multiple_choice",
+      "questionText": "A point moves from (2.5, -4) to (6.25, -10). Could this be a dilation centered at the origin?",
+      "options": [
+        "Yes, the scale factor is 0.4.",
+        "Yes, because both coordinates changed.",
+        "Yes, the scale factor is 2.5.",
+        "No, because dilations cannot move points between quadrants."
+      ],
+      "correctAnswer": "Yes, the scale factor is 2.5.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "coordinates",
+        "reasoning"
+      ],
+      "explanation": "The x-ratio and y-ratio both equal 2.5, so one scale factor works."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-048",
+      "type": "multiple_choice",
+      "questionText": "A figure has area 32 square units. It is dilated by scale factor 1.5. What is the image area?",
+      "options": [
+        "48 square units",
+        "72 square units",
+        "21.333 square units",
+        "33.5 square units"
+      ],
+      "correctAnswer": "72 square units",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "area"
+      ],
+      "explanation": "Area multiplies by the square of the scale factor: 32 * 1.5^2."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-049",
+      "type": "multiple_choice",
+      "questionText": "A scale drawing uses scale factor 3.5 from drawing to real object. A drawn length is 7.2 meters. What is the real length?",
+      "options": [
+        "10.7 meters",
+        "2.057 meters",
+        "25.2 meters",
+        "3.5 meters"
+      ],
+      "correctAnswer": "25.2 meters",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "application",
+        "scale-drawing"
+      ],
+      "explanation": "Multiply drawing length by the scale factor: 7.2 * 3.5."
+    },
+    {
+      "id": "course3-scale-factor-dilations-core-050",
+      "type": "multiple_choice",
+      "questionText": "An image length is x. Which expression gives the original length before scale factor 0.4?",
+      "options": [
+        "0.4x",
+        "x / 0.4",
+        "x + 0.4",
+        "x - 0.4"
+      ],
+      "correctAnswer": "x / 0.4",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "scale-factor",
+        "dilations",
+        "expressions"
+      ],
+      "explanation": "Original length equals image length divided by the scale factor."
+    }
+  ]
+}
