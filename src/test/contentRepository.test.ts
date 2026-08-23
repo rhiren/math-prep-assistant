@@ -552,6 +552,13 @@ describe("content repository", () => {
         reviewTestId: "course3-exterior-angles-triangles-review",
       },
       {
+        conceptId: "concept-course3-unit1-geometry-mixed-review",
+        standards: ["8.G.1", "8.G.2", "8.G.3", "8.G.5"],
+        tutorialHeading: "# Unit 1 Mixed Review",
+        coreTestId: "course3-unit1-geometry-mixed-review-core",
+        reviewTestId: "course3-unit1-geometry-mixed-review-review",
+      },
+      {
         conceptId: "concept-rational-irrational-numbers",
         standards: ["8.NS.1"],
         tutorialHeading: "# Rational and Irrational Numbers",
@@ -832,7 +839,7 @@ describe("content repository", () => {
     expect(course?.programPathways).toEqual(["accelerated"]);
     expect(course?.standardsFrameworks).toEqual(["CA-CCSSM"]);
     expect(course?.units[0]?.id).toBe("course3-unit-rigid-transformations-congruence");
-    expect(course?.units[0]?.concepts).toHaveLength(9);
+    expect(course?.units[0]?.concepts).toHaveLength(10);
     expect(course?.units[1]?.id).toBe("course3-unit-real-numbers-exponents");
     expect(course?.units[1]?.concepts).toHaveLength(12);
     expect(course?.units[2]?.id).toBe("course3-unit-linear-equations");
