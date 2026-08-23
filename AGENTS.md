@@ -345,9 +345,9 @@ and tutorial paths when moving them into book-aligned units so existing local
 progress, Firebase sync, export/import, and parent reporting continue to attach
 to the same skills.
 
-The current active Course 3 manifest contains 47 learner-ready concepts:
+The current active Course 3 manifest contains 48 learner-ready concepts:
 
-- Rigid Transformations and Congruence: 8 concepts
+- Rigid Transformations and Congruence: 9 concepts
 - Real Numbers and Exponents: 12 concepts
 - Linear Equations in One Variable: 10 concepts
 - Lines, Slope, and Linear Equations: 12 concepts
@@ -363,10 +363,11 @@ The current book-aligned learner-ready sequence begins with:
 - `Congruence from Transformation Sequences`
 - `Parallel Lines and Transversals`
 - `Triangle Angle Relationships`
+- `Exterior Angles of Triangles`
 
 The next Course 3 build target is:
 
-- `Exterior Angles of Triangles`
+- `Unit 1 Mixed Review`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in

@@ -467,6 +467,61 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-exterior-angles-triangles",
+              "title": "Exterior Angles of Triangles",
+              "description": "Use exterior angle relationships, remote interior angles, and linear pairs to solve for missing triangle angles.",
+              "tags": [
+                "geometry",
+                "triangles",
+                "exterior-angles",
+                "angle-relationships"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.5"
+              ],
+              "order": 9,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-exterior-angles-triangles.md",
+              "tests": [
+                {
+                  "id": "course3-exterior-angles-triangles-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-exterior-angles-triangles-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-exterior-angles-triangles-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-exterior-angles-triangles-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },

@@ -1,0 +1,409 @@
+{
+  "testId": "course3-exterior-angles-triangles-review",
+  "conceptId": "concept-exterior-angles-triangles",
+  "type": "review",
+  "title": "Exterior Angles of Triangles Review Test",
+  "description": "Review exterior angle theorem basics and common missing-angle reasoning.",
+  "questions": [
+    {
+      "id": "course3-exterior-angles-triangles-review-001",
+      "type": "multiple_choice",
+      "questionText": "A triangle has remote interior angles of 40 degrees and 75 degrees. What is the exterior angle?",
+      "options": [
+        "115 degrees",
+        "105 degrees",
+        "65 degrees",
+        "125 degrees"
+      ],
+      "correctAnswer": "115 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "exterior-angle-theorem"
+      ],
+      "explanation": "The exterior angle equals the remote interior sum: 40 + 75 = 115."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-002",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle is 128 degrees. One remote interior angle is 53 degrees. What is the other remote interior angle?",
+      "options": [
+        "65 degrees",
+        "181 degrees",
+        "75 degrees",
+        "85 degrees"
+      ],
+      "correctAnswer": "75 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "missing-remote-angle"
+      ],
+      "explanation": "128 - 53 = 75."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-003",
+      "type": "multiple_choice",
+      "questionText": "An interior angle is 84 degrees. What is the adjacent exterior angle?",
+      "options": [
+        "84 degrees",
+        "96 degrees",
+        "106 degrees",
+        "42 degrees"
+      ],
+      "correctAnswer": "96 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "linear-pair"
+      ],
+      "explanation": "180 - 84 = 96."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-004",
+      "type": "multiple_choice",
+      "questionText": "Which statement describes the exterior angle theorem?",
+      "options": [
+        "An exterior angle equals the adjacent interior angle.",
+        "All exterior angles are 90 degrees.",
+        "Remote interior angles always match.",
+        "An exterior angle equals the sum of the two remote interior angles."
+      ],
+      "correctAnswer": "An exterior angle equals the sum of the two remote interior angles.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "theorem-meaning"
+      ],
+      "explanation": "The theorem connects an exterior angle to the two non-adjacent interior angles."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-005",
+      "type": "multiple_choice",
+      "questionText": "A triangle has remote interior angles of 26 degrees and 89 degrees. What is the exterior angle?",
+      "options": [
+        "115 degrees",
+        "63 degrees",
+        "125 degrees",
+        "105 degrees"
+      ],
+      "correctAnswer": "115 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "exterior-angle-theorem"
+      ],
+      "explanation": "26 + 89 = 115."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-006",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle is 104 degrees. The adjacent interior angle is what?",
+      "options": [
+        "104 degrees",
+        "86 degrees",
+        "52 degrees",
+        "76 degrees"
+      ],
+      "correctAnswer": "76 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "linear-pair"
+      ],
+      "explanation": "Adjacent interior and exterior angles add to 180: 180 - 104 = 76."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-007",
+      "type": "multiple_choice",
+      "questionText": "A triangle has exterior angle 97 degrees and one remote interior angle 41 degrees. What is the other remote interior angle?",
+      "options": [
+        "46 degrees",
+        "56 degrees",
+        "138 degrees",
+        "66 degrees"
+      ],
+      "correctAnswer": "56 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "missing-remote-angle"
+      ],
+      "explanation": "97 - 41 = 56."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-008",
+      "type": "multiple_choice",
+      "questionText": "Remote interior angles are 62 degrees and 37 degrees. What is the exterior angle?",
+      "options": [
+        "81 degrees",
+        "109 degrees",
+        "99 degrees",
+        "136 degrees"
+      ],
+      "correctAnswer": "99 degrees",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "exterior-angle-theorem"
+      ],
+      "explanation": "62 + 37 = 99."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-009",
+      "type": "multiple_choice",
+      "questionText": "A triangle has remote interior angles x degrees and 68 degrees. The exterior angle is 113 degrees. What is x?",
+      "options": [
+        "45 degrees",
+        "55 degrees",
+        "181 degrees",
+        "35 degrees"
+      ],
+      "correctAnswer": "45 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "algebraic-exterior"
+      ],
+      "explanation": "x + 68 = 113, so x = 45."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-010",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle is 2x degrees. Its remote interior angles are 44 degrees and x - 4 degrees. What is x?",
+      "options": [
+        "48 degrees",
+        "40 degrees",
+        "80 degrees",
+        "36 degrees"
+      ],
+      "correctAnswer": "40 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "algebraic-exterior"
+      ],
+      "explanation": "2x = 44 + x - 4, so x = 40."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-011",
+      "type": "multiple_choice",
+      "questionText": "The adjacent interior angle is 67 degrees. The remote interior angles are 48 degrees and y degrees. What is y?",
+      "options": [
+        "57 degrees",
+        "113 degrees",
+        "75 degrees",
+        "65 degrees"
+      ],
+      "correctAnswer": "65 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "connect-theorems"
+      ],
+      "explanation": "The exterior angle is 180 - 67 = 113. Then y = 113 - 48 = 65."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-012",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle is 120 degrees. Its remote interior angles are equal. What is each remote interior angle?",
+      "options": [
+        "30 degrees",
+        "90 degrees",
+        "60 degrees",
+        "120 degrees"
+      ],
+      "correctAnswer": "60 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "structure"
+      ],
+      "explanation": "The two equal remote angles share 120 degrees, so each is 60 degrees."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-013",
+      "type": "multiple_choice",
+      "questionText": "A triangle has exterior angle 132 degrees and remote interior angles in the ratio 5:6. What is the larger remote interior angle?",
+      "options": [
+        "72 degrees",
+        "60 degrees",
+        "66 degrees",
+        "84 degrees"
+      ],
+      "correctAnswer": "72 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "ratio-reasoning"
+      ],
+      "explanation": "There are 11 parts, so each part is 12 degrees. The larger angle is 72 degrees."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-014",
+      "type": "multiple_choice",
+      "questionText": "A student writes 180 - 42 - 61 to find the exterior angle. What should they do instead?",
+      "options": [
+        "Subtract only 42 from 90.",
+        "Add all three interior angles.",
+        "Add 42 and 61.",
+        "Use 42 as the answer."
+      ],
+      "correctAnswer": "Add 42 and 61.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "error-analysis"
+      ],
+      "explanation": "The exterior angle equals the sum of the remote interior angles, so 42 + 61 = 103."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-015",
+      "type": "multiple_choice",
+      "questionText": "An exterior angle is 3x + 5 degrees. The remote interior angles are x + 25 degrees and 60 degrees. What is x?",
+      "options": [
+        "30 degrees",
+        "80 degrees",
+        "45 degrees",
+        "40 degrees"
+      ],
+      "correctAnswer": "40 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "algebraic-exterior"
+      ],
+      "explanation": "3x + 5 = x + 25 + 60, so 2x = 80 and x = 40."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-016",
+      "type": "multiple_choice",
+      "questionText": "Adjacent interior and exterior angles measure x + 20 degrees and 2x + 10 degrees. What is x?",
+      "options": [
+        "40 degrees",
+        "50 degrees",
+        "60 degrees",
+        "100 degrees"
+      ],
+      "correctAnswer": "50 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "linear-pair"
+      ],
+      "explanation": "x + 20 + 2x + 10 = 180, so 3x = 150 and x = 50."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-017",
+      "type": "multiple_choice",
+      "questionText": "A triangle has exterior angle 110 degrees. Its remote interior angles differ by 30 degrees. What is the smaller remote interior angle?",
+      "options": [
+        "55 degrees",
+        "70 degrees",
+        "80 degrees",
+        "40 degrees"
+      ],
+      "correctAnswer": "40 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "systems-thinking"
+      ],
+      "explanation": "The remote angles add to 110 and differ by 30, so the smaller is (110 - 30) / 2 = 40."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-018",
+      "type": "multiple_choice",
+      "questionText": "A triangle has adjacent interior angle 2x degrees and exterior angle 5x - 30 degrees. What is x?",
+      "options": [
+        "30 degrees",
+        "35 degrees",
+        "60 degrees",
+        "42 degrees"
+      ],
+      "correctAnswer": "30 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "linear-pair"
+      ],
+      "explanation": "2x + 5x - 30 = 180, so 7x = 210 and x = 30."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-019",
+      "type": "multiple_choice",
+      "questionText": "A triangle has remote interior angles 3x degrees and 2x + 15 degrees. The exterior angle is 115 degrees. What is x?",
+      "options": [
+        "25 degrees",
+        "40 degrees",
+        "20 degrees",
+        "35 degrees"
+      ],
+      "correctAnswer": "20 degrees",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "algebraic-exterior"
+      ],
+      "explanation": "3x + 2x + 15 = 115, so 5x = 100 and x = 20."
+    },
+    {
+      "id": "course3-exterior-angles-triangles-review-020",
+      "type": "multiple_choice",
+      "questionText": "A triangle has exterior angle e and adjacent interior angle i. Which must be true?",
+      "options": [
+        "e = i",
+        "e + i = 180",
+        "e + i = 90",
+        "e = 180 + i"
+      ],
+      "correctAnswer": "e + i = 180",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "triangles",
+        "exterior-angles",
+        "generalization"
+      ],
+      "explanation": "Adjacent interior and exterior angles form a linear pair, so they add to 180 degrees."
+    }
+  ]
+}
