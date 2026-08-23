@@ -117,6 +117,7 @@ Current learner-ready packs:
 - Dilations on the Coordinate Plane
 - Scale Factor and Dilations
 - Similar Figures
+- Missing Side Lengths in Similar Triangles
 
 ### Unit 3 — Proportional and Linear Relationships
 
@@ -313,18 +314,18 @@ Use this sequence:
 ## Current Active Manifest State
 
 As of this update, the active Course 3 manifest presents the complete
-ten-concept book-aligned Unit 1, the first three learner-ready book Unit 2
+ten-concept book-aligned Unit 1, the first four learner-ready book Unit 2
 concepts, and the previously built standards-ordered units that remain reusable
 assets:
 
 - Rigid Transformations and Congruence: 10 learner-ready concepts
-- Dilations, Similarity, and Slope: 3 learner-ready concepts
+- Dilations, Similarity, and Slope: 4 learner-ready concepts
 - Real Numbers and Exponents: 12 learner-ready concepts
 - Linear Equations in One Variable: 10 learner-ready concepts
 - Lines, Slope, and Linear Equations: 12 learner-ready concepts
 - Systems of Linear Equations: 5 learner-ready concepts
 
-Total active Course 3 concepts: 52.
+Total active Course 3 concepts: 53.
 
 These should be treated as reusable content assets during the transition, not
 as discarded work.
@@ -333,7 +334,7 @@ as discarded work.
 
 The next Course 3 build target is book Unit 2:
 
-- Missing Side Lengths in Similar Triangles
+- Angle-Angle Similarity
 
 ## Definition of Ready
 

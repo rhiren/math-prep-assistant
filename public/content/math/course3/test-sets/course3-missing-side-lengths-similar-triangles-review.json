@@ -1,0 +1,426 @@
+{
+  "testId": "course3-missing-side-lengths-similar-triangles-review",
+  "conceptId": "concept-missing-side-lengths-similar-triangles",
+  "type": "review",
+  "title": "Missing Side Lengths in Similar Triangles Review Test",
+  "description": "Review missing side lengths in similar triangles using corresponding sides, scale factor, proportions, and application problems.",
+  "questions": [
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-001",
+      "type": "multiple_choice",
+      "questionText": "Two triangles are similar. A side of 4 units in the smaller triangle matches a side of 12 units in the larger triangle. Another smaller-triangle side is 9 units. What is the matching larger-triangle side?",
+      "options": [
+        "27 units",
+        "3 units",
+        "12 units",
+        "17 units"
+      ],
+      "correctAnswer": "27 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "scale-factor",
+        "image-side"
+      ],
+      "explanation": "The scale factor is 12 / 4 = 3. Multiply 9 by 3 to get 27 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-002",
+      "type": "multiple_choice",
+      "questionText": "Two triangles are similar. A side of 10 units in the smaller triangle matches a side of 5 units in the larger triangle. Another smaller-triangle side is 14 units. What is the matching larger-triangle side?",
+      "options": [
+        "28 units",
+        "14.5 units",
+        "7 units",
+        "9 units"
+      ],
+      "correctAnswer": "7 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "scale-factor",
+        "image-side"
+      ],
+      "explanation": "The scale factor is 5 / 10 = 0.5. Multiply 14 by 0.5 to get 7 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-003",
+      "type": "multiple_choice",
+      "questionText": "Two triangles are similar with scale factor 3 from Triangle A to Triangle B. A side in Triangle B is 24 units. What is the matching side in Triangle A?",
+      "options": [
+        "72 units",
+        "8 units",
+        "27 units",
+        "21 units"
+      ],
+      "correctAnswer": "8 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "scale-factor",
+        "preimage-side"
+      ],
+      "explanation": "Work backward by dividing the image side by the scale factor: 24 / 3 = 8 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-004",
+      "type": "multiple_choice",
+      "questionText": "Similar triangles give the proportion 3 / 4 = x / 20. What is x?",
+      "options": [
+        "26.667 units",
+        "0.6 units",
+        "19 units",
+        "15 units"
+      ],
+      "correctAnswer": "15 units",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "proportions"
+      ],
+      "explanation": "Use cross products or scale factor: x = 3 * 20 / 4 = 15 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-005",
+      "type": "multiple_choice",
+      "questionText": "A 8 units side matches a 20 units side. A 12 units side matches x. Which proportion keeps corresponding sides in the same order?",
+      "options": [
+        "8 / 20 = 12 / x",
+        "8 / 12 = 20 / x",
+        "8 + 20 = 12 + x",
+        "20 / 8 = 12 / x"
+      ],
+      "correctAnswer": "8 / 20 = 12 / x",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "proportions",
+        "setup"
+      ],
+      "explanation": "Keep each ratio in original/image order: 8 / 20 = 12 / x."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-006",
+      "type": "multiple_choice",
+      "questionText": "Triangle ABC is similar to triangle DEF in that order. Which correspondence is correct?",
+      "options": [
+        "Side AC corresponds to side DE.",
+        "Side AB corresponds to side DF.",
+        "The side correspondence cannot be determined from the similarity statement.",
+        "Side AC corresponds to side DF."
+      ],
+      "correctAnswer": "Side AC corresponds to side DF.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "correspondence"
+      ],
+      "explanation": "The order ABC ~ DEF means A matches D, B matches E, and C matches F."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-007",
+      "type": "multiple_choice",
+      "questionText": "In similar triangles, side 7 corresponds to 21, and side 6 corresponds to x. What is x?",
+      "options": [
+        "x = 2",
+        "x = 18",
+        "x = 21",
+        "x = 15"
+      ],
+      "correctAnswer": "x = 18",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "algebra",
+        "scale-factor"
+      ],
+      "explanation": "Use the same scale factor, 3, on the corresponding side 6."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-008",
+      "type": "multiple_choice",
+      "questionText": "Why is it valid to solve a missing side in similar triangles using a proportion?",
+      "options": [
+        "The triangles have the same perimeter, so all sides are equal.",
+        "The missing side can be found by adding the known side lengths.",
+        "The known corresponding side ratios are equal, so the same scale factor can find the missing side.",
+        "The larger triangle's area scale factor should be used directly on side lengths."
+      ],
+      "correctAnswer": "The known corresponding side ratios are equal, so the same scale factor can find the missing side.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "reasoning",
+        "proof"
+      ],
+      "explanation": "Similar triangles have proportional corresponding sides, so equal ratios describe the same scale factor."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-009",
+      "type": "multiple_choice",
+      "questionText": "Two triangles are similar. A side of 5.5 units in the smaller triangle matches a side of 22 units in the larger triangle. Another smaller-triangle side is 7.25 units. What is the matching larger-triangle side?",
+      "options": [
+        "29 units",
+        "1.813 units",
+        "11.25 units",
+        "23.75 units"
+      ],
+      "correctAnswer": "29 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "scale-factor",
+        "image-side"
+      ],
+      "explanation": "The scale factor is 22 / 5.5 = 4. Multiply 7.25 by 4 to get 29 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-010",
+      "type": "multiple_choice",
+      "questionText": "Two triangles are similar with scale factor 0.4 from Triangle A to Triangle B. A side in Triangle B is 12 units. What is the matching side in Triangle A?",
+      "options": [
+        "4.8 units",
+        "30 units",
+        "12.4 units",
+        "11.6 units"
+      ],
+      "correctAnswer": "30 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "scale-factor",
+        "preimage-side"
+      ],
+      "explanation": "Work backward by dividing the image side by the scale factor: 12 / 0.4 = 30 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-011",
+      "type": "multiple_choice",
+      "questionText": "Two similar triangles have perimeters 32 units and 80 units. A side in the first triangle is 13 units. What is the matching side in the second triangle?",
+      "options": [
+        "5.2 units",
+        "15.5 units",
+        "61 units",
+        "32.5 units"
+      ],
+      "correctAnswer": "32.5 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "perimeter",
+        "scale-factor"
+      ],
+      "explanation": "Perimeters scale like side lengths. The scale factor is 2.5, so the matching side is 32.5 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-012",
+      "type": "multiple_choice",
+      "questionText": "Two similar right triangles are formed by objects and their shadows. A 4 units object casts a 6 units shadow. A taller object casts a 15 units shadow. How tall is the taller object?",
+      "options": [
+        "1.6 units",
+        "13 units",
+        "10 units",
+        "22.5 units"
+      ],
+      "correctAnswer": "10 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "application",
+        "proportions"
+      ],
+      "explanation": "The shadow scale factor is 15 / 6 = 2.5. Multiply the height by the same factor."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-013",
+      "type": "multiple_choice",
+      "questionText": "A student says if one side grows from 6 units to 15 units, then every side should increase by 9 units. What is the best feedback?",
+      "options": [
+        "The student added the change in side length, but similar triangles use multiplication by a scale factor.",
+        "The student is correct because similar triangles always have equal sides.",
+        "The student should use the area scale factor for side lengths.",
+        "The student should subtract the two known sides before setting up a ratio."
+      ],
+      "correctAnswer": "The student added the change in side length, but similar triangles use multiplication by a scale factor.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "error-analysis",
+        "reasoning"
+      ],
+      "explanation": "The student added the change in side length, but similar triangles use multiplication by a scale factor."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-014",
+      "type": "multiple_choice",
+      "questionText": "In similar triangles, side 9 corresponds to 13.5, and side 11 corresponds to x. What is x?",
+      "options": [
+        "x = 7.333",
+        "x = 18",
+        "x = 16.5",
+        "x = 15"
+      ],
+      "correctAnswer": "x = 16.5",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "algebra",
+        "scale-factor"
+      ],
+      "explanation": "Use the same scale factor, 1.5, on the corresponding side 11."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-015",
+      "type": "multiple_choice",
+      "questionText": "Similar triangles give the proportion 2.5 / 6 = x / 18. What is x?",
+      "options": [
+        "43.2 units",
+        "0.833 units",
+        "14.5 units",
+        "7.5 units"
+      ],
+      "correctAnswer": "7.5 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "proportions"
+      ],
+      "explanation": "Use cross products or scale factor: x = 2.5 * 18 / 6 = 7.5 units."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-016",
+      "type": "multiple_choice",
+      "questionText": "A 14 units side matches a 35 units side. A 9 units side matches x. Which proportion keeps corresponding sides in the same order?",
+      "options": [
+        "14 / 9 = 35 / x",
+        "14 / 35 = 9 / x",
+        "14 + 35 = 9 + x",
+        "35 / 14 = 9 / x"
+      ],
+      "correctAnswer": "14 / 35 = 9 / x",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "proportions",
+        "setup"
+      ],
+      "explanation": "Keep each ratio in original/image order: 14 / 35 = 9 / x."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-017",
+      "type": "multiple_choice",
+      "questionText": "Triangle A is similar to Triangle B. A side 5 units in A matches 12.5 units in B. Another side in B is 30 units, and Triangle A has perimeter 24 units. Which result is correct?",
+      "options": [
+        "Original missing side 75 units and image perimeter 60 units",
+        "Original missing side 12 units and image perimeter 150 units",
+        "Original missing side 27.5 units and image perimeter 26.5 units",
+        "Original missing side 12 units and image perimeter 60 units"
+      ],
+      "correctAnswer": "Original missing side 12 units and image perimeter 60 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "multi-step",
+        "perimeter"
+      ],
+      "explanation": "The scale factor from A to B is 2.5. Divide the B side by 2.5 to go backward, and multiply A's perimeter by 2.5."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-018",
+      "type": "multiple_choice",
+      "questionText": "Two similar right triangles are formed by objects and their shadows. A 7.5 units object casts a 12 units shadow. A taller object casts a 20 units shadow. How tall is the taller object?",
+      "options": [
+        "12.5 units",
+        "4.5 units",
+        "15.5 units",
+        "32 units"
+      ],
+      "correctAnswer": "12.5 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "application",
+        "proportions"
+      ],
+      "explanation": "The shadow scale factor is 20 / 12 = 1.667. Multiply the height by the same factor."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-019",
+      "type": "multiple_choice",
+      "questionText": "A student uses the shortest side of one triangle and the longest side of the other to find scale factor. What is the best feedback?",
+      "options": [
+        "The student is correct because similar triangles always have equal sides.",
+        "The student should use the area scale factor for side lengths.",
+        "The student compared non-corresponding sides, so the scale factor is not reliable.",
+        "The student should subtract the two known sides before setting up a ratio."
+      ],
+      "correctAnswer": "The student compared non-corresponding sides, so the scale factor is not reliable.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "error-analysis",
+        "reasoning"
+      ],
+      "explanation": "The student compared non-corresponding sides, so the scale factor is not reliable."
+    },
+    {
+      "id": "course3-missing-side-lengths-similar-triangles-review-020",
+      "type": "multiple_choice",
+      "questionText": "Two similar triangles have perimeters 54 units and 36 units. A side in the first triangle is 15 units. What is the matching side in the second triangle?",
+      "options": [
+        "22.5 units",
+        "10 units",
+        "15.667 units",
+        "-3 units"
+      ],
+      "correctAnswer": "10 units",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "similar-triangles",
+        "missing-sides",
+        "perimeter",
+        "scale-factor"
+      ],
+      "explanation": "Perimeters scale like side lengths. The scale factor is 0.667, so the matching side is 10 units."
+    }
+  ]
+}

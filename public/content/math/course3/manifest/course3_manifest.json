@@ -759,6 +759,62 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-missing-side-lengths-similar-triangles",
+              "title": "Missing Side Lengths in Similar Triangles",
+              "description": "Use corresponding sides, scale factors, and proportions to find missing side lengths in similar triangles and real-world shadow problems.",
+              "tags": [
+                "geometry",
+                "similarity",
+                "similar-triangles",
+                "missing-sides",
+                "proportions"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.4"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-missing-side-lengths-similar-triangles.md",
+              "tests": [
+                {
+                  "id": "course3-missing-side-lengths-similar-triangles-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-missing-side-lengths-similar-triangles-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-missing-side-lengths-similar-triangles-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-missing-side-lengths-similar-triangles-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },

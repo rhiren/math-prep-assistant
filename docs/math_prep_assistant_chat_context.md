@@ -298,12 +298,13 @@ The learner-ready book-aligned Unit 2 concepts are:
 1. Dilations on the Coordinate Plane
 2. Scale Factor and Dilations
 3. Similar Figures
+4. Missing Side Lengths in Similar Triangles
 
 Course 3 currently contains:
 
-- 52 active concepts
-- 104 assessment files
-- 3640 assessment questions
+- 53 active concepts
+- 106 assessment files
+- 3710 assessment questions
 - 50 core questions per concept
 - 20 review questions per concept
 
@@ -386,7 +387,7 @@ For the current Course 3 working tree, the following passed:
 - browser verification of the Course 3 grid, concept page, tutorial, and
   assessment counts
 
-The most recent Course 3 audit found 3640 questions and 3640 unique IDs.
+The most recent Course 3 audit found 3710 questions and 3710 unique IDs.
 An answer-position audit found that the old Course 3 banks had 1119 of 1120
 correct answers in option A. Course 3 answer choices were rebalanced so core
 banks use a 13/13/12/12 A/B/C/D split and review banks use a 5/5/5/5 split.
@@ -429,7 +430,7 @@ Do not treat those warnings as authorization for a broad rewrite.
 
 The next Course 3 rollout task is book Unit 2:
 
-`Missing Side Lengths in Similar Triangles`
+`Angle-Angle Similarity`
 
 Build it as one complete concept pack before adding it to the active Course 3
 manifest. Preserve the same Course 3 release discipline: tutorial first,
