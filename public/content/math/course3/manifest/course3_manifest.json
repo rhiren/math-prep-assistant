@@ -646,6 +646,63 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-scale-factor-dilations",
+              "title": "Scale Factor and Dilations",
+              "description": "Use scale factor to compare original and image lengths, find missing measures, and reason about length, perimeter, area, and coordinate effects.",
+              "tags": [
+                "geometry",
+                "dilations",
+                "scale-factor",
+                "similarity",
+                "measurement"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.3",
+                "8.G.4"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-scale-factor-dilations.md",
+              "tests": [
+                {
+                  "id": "course3-scale-factor-dilations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-scale-factor-dilations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-scale-factor-dilations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-scale-factor-dilations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },
