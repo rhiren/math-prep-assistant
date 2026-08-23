@@ -386,7 +386,7 @@ describe("content repository", () => {
     expect(scienceCourse?.units.map((unit) => unit.id)).toEqual([
       "unit-cells-living-systems",
       "unit-body-systems-information",
-      "unit-growth-reproduction-energy",
+      "unit-growth-energy-flow",
       "unit-ecosystems",
       "unit-genetics-inheritance",
       "unit-evolution-life-history",

@@ -1,14 +1,14 @@
-# Growth, Reproduction, and Energy Flow
+# Growth, Photosynthesis, and Cellular Respiration
 
 ## Hook
 
 Two identical plants are placed in different windows. One gets bright light and enough water. The other gets little light and dry soil. After two weeks, they look very different.
 
-Did their genes change? Probably not. Their environments changed how much they could grow.
+Did their genes change? Probably not. Their environments changed how much matter and energy were available for growth.
 
 ## Big Idea
 
-Growth, reproduction, and energy flow depend on both inherited information and environmental conditions.
+Growth depends on inherited information and environmental resources. Photosynthesis stores energy in sugars, and cellular respiration releases usable energy from food molecules.
 
 Memory anchor: **Growth needs instructions and resources.**
 
@@ -19,9 +19,9 @@ Growth can be affected by:
 - inherited factors, such as genes that influence size or development
 - environmental factors, such as light, water, food, space, temperature, and nutrients
 
-Reproduction can be supported by structures and behaviors. Flowers can attract pollinators. Seeds can be shaped for dispersal. Animals may use courtship, nesting, or care for young.
+Photosynthesis happens in plants, algae, and some microorganisms. It uses light energy, carbon dioxide, and water to make sugars.
 
-Photosynthesis uses light energy to make sugars from carbon dioxide and water. Cellular respiration releases usable energy from food molecules.
+Cellular respiration happens in cells. It rearranges food molecules and releases usable energy that cells need for work, repair, and growth.
 
 ## Build The Model
 
@@ -37,7 +37,7 @@ For growth explanations, use this chain:
 
 Example:
 
-`less light -> less photosynthesis -> less sugar available for growth`
+`less light -> less photosynthesis -> less sugar available -> less growth`
 
 ## Memory Anchors
 
@@ -48,13 +48,14 @@ Example:
 
 ## Evidence Rules
 
-When explaining growth, name the factor and the evidence.
+When explaining growth, name the factor and connect it to the evidence.
 
 | Evidence | Strong Explanation |
 |---|---|
 | plant with less light grew less | light affected photosynthesis and sugar production |
-| animal with less food gained less mass | food provided less matter and energy for growth |
-| seeds stuck to animal fur | seed structure helped dispersal |
+| plant with less water wilted | water shortage affected cell processes and growth |
+| yeast released more gas with sugar present | food molecules supported cellular respiration |
+| seedlings grew better with nutrients | materials in the environment supported growth |
 
 ## Common Traps
 

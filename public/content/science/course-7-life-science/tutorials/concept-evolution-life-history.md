@@ -16,13 +16,13 @@ The fossil record gives evidence about past life. Fossils can show when differen
 
 Similar structures may provide evidence that organisms share common ancestry. Embryo patterns and DNA can also show relatedness.
 
-Natural selection happens when inherited traits affect survival and reproduction in a particular environment. Helpful traits can become more common over generations.
+Natural selection happens when inherited traits affect which organisms survive and pass traits to future generations in a particular environment. Helpful traits can become more common over generations.
 
 ## Build The Model
 
 Use this natural selection chain:
 
-`variation -> environment -> survival/reproduction differences -> trait becomes more or less common`
+`variation -> environment -> survival differences -> trait becomes more or less common`
 
 Example:
 
@@ -67,7 +67,7 @@ Answer these without looking back:
 
 A population of beetles includes green and brown beetles. Birds more easily see green beetles on dark bark. Over many generations, brown beetles become more common.
 
-This is natural selection because an inherited trait affected survival and reproduction in that environment.
+This is natural selection because an inherited trait affected survival and became more common in that environment over generations.
 
 ## 3-2-1 Memory Check
 

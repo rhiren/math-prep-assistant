@@ -11,9 +11,10 @@ intended to keep the course coherent as we add one concept pack at a time.
 - Local pathway: SRVUSD
 - Standards framework: CA NGSS
 
-The course follows the SRVUSD / California Grade 7 life-science emphasis:
-cells, body systems, growth and reproduction, ecosystems, genetics, evolution,
-and biodiversity / human impact.
+The course follows the SRVUSD / California Grade 7 life-science emphasis while
+keeping reproduction-specific instruction teacher-led for now. The app sequence
+focuses on cells, body systems, growth, energy flow, ecosystems, genetics,
+evolution, and biodiversity / human impact.
 
 ## Design Rule
 
@@ -141,7 +142,7 @@ Target mix for a full review test:
 |---|---|---:|---:|---:|---:|---|
 | Cells and Living Systems | Cells and Living Things | yes | yes | yes | yes | Practice ready |
 | Body Systems and Information Processing | Body Systems and Information Processing | yes | yes | yes | yes | Practice ready |
-| Growth, Reproduction, and Energy | Growth, Reproduction, and Energy Flow | scaffold | no | no | no | Coming soon |
+| Growth and Energy Flow | Growth, Photosynthesis, and Cellular Respiration | scaffold | no | no | no | Coming soon |
 | Ecosystems | Ecosystem Interactions and Dynamics | scaffold | no | no | no | Coming soon |
 | Genetics and Inheritance | Genetics, Inheritance, and Variation | scaffold | no | no | no | Coming soon |
 | Evolution and Earth/Life History | Evolution and Life History | scaffold | no | no | no | Coming soon |
@@ -150,10 +151,17 @@ Target mix for a full review test:
 ## Recommended Build Order
 
 1. Expand `Cells and Living Things` to full-size core and review tests.
-2. Build `Growth, Reproduction, and Energy Flow`.
+2. Build `Growth, Photosynthesis, and Cellular Respiration`.
 3. Build `Ecosystem Interactions and Dynamics`.
 4. Build `Genetics, Inheritance, and Variation`.
 5. Build `Evolution and Life History`.
 6. Build `Biodiversity and Human Impact`.
 
 Each step should be a complete concept pack rather than a broad partial unlock.
+
+## Deferred Teacher-Led Content
+
+Reproduction-specific Grade 7 life-science topics are intentionally deferred
+from app-authored practice for now. Do not add reproduction-focused tutorials,
+test banks, question prompts, or `MS-LS1-4` practice coverage unless this
+decision is explicitly revisited.
