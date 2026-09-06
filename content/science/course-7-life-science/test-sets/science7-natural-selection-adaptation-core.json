@@ -1,0 +1,652 @@
+{
+  "id": "science7-natural-selection-adaptation-core",
+  "testId": "science7-natural-selection-adaptation-core",
+  "conceptId": "concept-natural-selection-adaptation",
+  "title": "Natural Selection and Adaptation Core Test",
+  "description": "Core practice for inherited variation, environmental pressures, adaptation, and population change.",
+  "questions": [
+    {
+      "id": "science7-natural-selection-adaptation-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What changes during natural selection?",
+      "questionText": "What changes during natural selection?",
+      "options": [
+        "trait frequencies in a population over generations",
+        "one individual changing all its traits by choice",
+        "rocks choosing better shapes",
+        "an organism becoming perfect during one day"
+      ],
+      "correctAnswer": "trait frequencies in a population over generations",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Natural selection explains population change over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q2",
+      "type": "multiple_choice",
+      "prompt": "Which condition must exist before natural selection can happen?",
+      "questionText": "Which condition must exist before natural selection can happen?",
+      "options": [
+        "all individuals being identical",
+        "variation in inherited traits",
+        "no environmental differences",
+        "no traits affecting survival"
+      ],
+      "correctAnswer": "variation in inherited traits",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Variation gives selection something to act on."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q3",
+      "type": "multiple_choice",
+      "prompt": "A beetle population has green and brown beetles on dark bark. Birds more easily see green beetles. Which trait may become more common over generations?",
+      "questionText": "A beetle population has green and brown beetles on dark bark. Birds more easily see green beetles. Which trait may become more common over generations?",
+      "options": [
+        "green coloration only",
+        "having no color",
+        "brown coloration",
+        "being seen more easily"
+      ],
+      "correctAnswer": "brown coloration",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Brown beetles are harder to see in this environment, so that trait may become more common over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q4",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows natural selection?",
+      "questionText": "Which model best shows natural selection?",
+      "options": [
+        "need -> individual chooses trait -> instant perfection",
+        "sunlight -> no variation -> no population",
+        "fossil -> rock -> no evidence",
+        "variation -> environmental pressure -> survival differences -> trait pattern changes"
+      ],
+      "correctAnswer": "variation -> environmental pressure -> survival differences -> trait pattern changes",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Natural selection depends on variation, environment, and population change over time."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Animals evolve because they try hard.\" What is the best correction?",
+      "questionText": "A student says, \"Animals evolve because they try hard.\" What is the best correction?",
+      "options": [
+        "Inherited variation already exists, and the environment affects which traits are helpful.",
+        "Trying hard creates new inherited traits instantly.",
+        "Environment never matters.",
+        "Populations do not change."
+      ],
+      "correctAnswer": "Inherited variation already exists, and the environment affects which traits are helpful.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Natural selection is not about effort or choice; it is about inherited variation and environmental effects."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q6",
+      "type": "multiple_choice",
+      "prompt": "In a dry year, finches with deeper beaks crack tough seeds better. Which claim is best supported if deeper-beaked finches become more common later?",
+      "questionText": "In a dry year, finches with deeper beaks crack tough seeds better. Which claim is best supported if deeper-beaked finches become more common later?",
+      "options": [
+        "Finches chose deeper beaks because they wanted them.",
+        "The dry environment favored a beak trait that helped with available food.",
+        "Tough seeds made every individual change beaks immediately.",
+        "Beak traits cannot affect feeding."
+      ],
+      "correctAnswer": "The dry environment favored a beak trait that helped with available food.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "The trait helped in that environment and became more common over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q7",
+      "type": "multiple_choice",
+      "prompt": "Which example is an adaptation?",
+      "questionText": "Which example is an adaptation?",
+      "options": [
+        "any feature an organism wishes for",
+        "a temporary injury",
+        "a heritable trait that helps organisms survive in a particular environment",
+        "a label written by a scientist"
+      ],
+      "correctAnswer": "a heritable trait that helps organisms survive in a particular environment",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "An adaptation is a heritable trait that improves success in a specific environment."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q8",
+      "type": "multiple_choice",
+      "prompt": "A light-colored mouse is easier for owls to see on dark lava rock. Which cause/effect chain is strongest?",
+      "questionText": "A light-colored mouse is easier for owls to see on dark lava rock. Which cause/effect chain is strongest?",
+      "options": [
+        "visible fur -> mouse chooses dark fur immediately",
+        "dark rock -> owls stop hunting",
+        "light fur -> no effect on survival",
+        "visible fur -> more likely eaten -> fewer light-fur traits in future generations"
+      ],
+      "correctAnswer": "visible fur -> more likely eaten -> fewer light-fur traits in future generations",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Visibility can affect predation and change trait frequencies over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Which data would best support natural selection in a bacteria population?",
+      "questionText": "Which data would best support natural selection in a bacteria population?",
+      "options": [
+        "After antibiotic exposure, the resistant-trait frequency increases.",
+        "The petri dish is round.",
+        "The bacteria have names.",
+        "The lab has bright lights."
+      ],
+      "correctAnswer": "After antibiotic exposure, the resistant-trait frequency increases.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "A trait becoming more common after an environmental pressure supports natural selection."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Why does natural selection not make organisms perfect?",
+      "questionText": "Why does natural selection not make organisms perfect?",
+      "options": [
+        "Every helpful trait is perfect everywhere.",
+        "Traits are helpful only in certain environments and involve tradeoffs.",
+        "All organisms choose the best trait.",
+        "Variation disappears before environments change."
+      ],
+      "correctAnswer": "Traits are helpful only in certain environments and involve tradeoffs.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Adaptations are context-dependent and may have tradeoffs."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q11",
+      "type": "multiple_choice",
+      "prompt": "A white fur trait helps in snowy habitats but stands out in dark forest soil. What does this show?",
+      "questionText": "A white fur trait helps in snowy habitats but stands out in dark forest soil. What does this show?",
+      "options": [
+        "White fur is always best.",
+        "Dark soil has no effect on visibility.",
+        "Whether a trait helps can depend on the environment.",
+        "Traits are never connected to survival."
+      ],
+      "correctAnswer": "Whether a trait helps can depend on the environment.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "A trait can be helpful in one environment and less helpful in another."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Which statement correctly compares individuals and populations?",
+      "questionText": "Which statement correctly compares individuals and populations?",
+      "options": [
+        "Individuals evolve completely during one lifetime.",
+        "Populations have no variation.",
+        "Traits are never measured in groups.",
+        "Individuals have traits; populations can change in trait frequency over generations."
+      ],
+      "correctAnswer": "Individuals have traits; populations can change in trait frequency over generations.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Evolution is described as population change over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q13",
+      "type": "multiple_choice",
+      "prompt": "A graph shows pesticide resistance rising from 5% to 60% over many insect generations. Which explanation fits?",
+      "questionText": "A graph shows pesticide resistance rising from 5% to 60% over many insect generations. Which explanation fits?",
+      "options": [
+        "Resistant insects survived the pesticide better, so the trait became more common.",
+        "Each insect decided to become resistant.",
+        "Pesticide made all insects identical instantly.",
+        "Resistance cannot be inherited."
+      ],
+      "correctAnswer": "Resistant insects survived the pesticide better, so the trait became more common.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "The population pattern supports selection for a resistant trait."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which investigation would best test whether camouflage affects survival?",
+      "questionText": "Which investigation would best test whether camouflage affects survival?",
+      "options": [
+        "Ask which model looks nicest.",
+        "Compare how often predators find models of different colors in the same habitat.",
+        "Use one model once without counting results.",
+        "Change color, size, shape, and location all at once."
+      ],
+      "correctAnswer": "Compare how often predators find models of different colors in the same habitat.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "A fair test compares color visibility while controlling other factors."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q15",
+      "type": "multiple_choice",
+      "prompt": "A drought changes available seeds from small soft seeds to large tough seeds. What trait might be favored?",
+      "questionText": "A drought changes available seeds from small soft seeds to large tough seeds. What trait might be favored?",
+      "options": [
+        "weaker beaks that cannot crack seeds",
+        "brighter feathers unrelated to feeding",
+        "beaks better at cracking tough seeds",
+        "shorter legs because seeds are tough"
+      ],
+      "correctAnswer": "beaks better at cracking tough seeds",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "A feeding trait that helps with the available food may be favored."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A student claims, \"Every trait that is common must be helpful.\" Which response is best?",
+      "questionText": "A student claims, \"Every trait that is common must be helpful.\" Which response is best?",
+      "options": [
+        "Common always means best.",
+        "Rare traits are always harmful.",
+        "Data are not needed.",
+        "A trait can be common for several reasons; evidence is needed to show it helps."
+      ],
+      "correctAnswer": "A trait can be common for several reasons; evidence is needed to show it helps.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Trait frequency alone does not prove a trait is adaptive."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q17",
+      "type": "multiple_choice",
+      "prompt": "Which model revision improves this chain: environment -> adaptation?",
+      "questionText": "Which model revision improves this chain: environment -> adaptation?",
+      "options": [
+        "environment -> survival differences among existing variations -> helpful trait becomes more common",
+        "environment -> organisms choose new traits",
+        "environment -> no variation -> adaptation",
+        "environment -> every individual becomes perfect"
+      ],
+      "correctAnswer": "environment -> survival differences among existing variations -> helpful trait becomes more common",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The improved model shows existing variation and population-level change."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q18",
+      "type": "multiple_choice",
+      "prompt": "A fish population includes fast and slow swimmers. A new predator catches slower fish more often. Which claim is most reasonable?",
+      "questionText": "A fish population includes fast and slow swimmers. A new predator catches slower fish more often. Which claim is most reasonable?",
+      "options": [
+        "Slow fish will choose fast traits instantly.",
+        "Fast-swimming traits may become more common if they are inherited.",
+        "Predators cannot affect populations.",
+        "Swimming speed can never matter."
+      ],
+      "correctAnswer": "Fast-swimming traits may become more common if they are inherited.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "If a heritable trait affects survival, its frequency may change over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken a natural-selection explanation for shell color?",
+      "questionText": "Which evidence would weaken a natural-selection explanation for shell color?",
+      "options": [
+        "Shell colors vary.",
+        "Predators eat some snails.",
+        "Shell color does not affect survival, and color frequency stays the same across generations.",
+        "Habitats have backgrounds."
+      ],
+      "correctAnswer": "Shell color does not affect survival, and color frequency stays the same across generations.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "No survival difference and no frequency change would weaken the explanation."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q20",
+      "type": "multiple_choice",
+      "prompt": "Why is inherited variation important in antibiotic resistance?",
+      "questionText": "Why is inherited variation important in antibiotic resistance?",
+      "options": [
+        "Every cell learns resistance by trying.",
+        "Antibiotics are food for all bacteria.",
+        "Resistance is unrelated to survival.",
+        "Resistant cells already present can survive and become a larger share of the population."
+      ],
+      "correctAnswer": "Resistant cells already present can survive and become a larger share of the population.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Selection can increase the frequency of existing resistant variants."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Which statement best handles tradeoffs?",
+      "questionText": "Which statement best handles tradeoffs?",
+      "options": [
+        "A trait that helps avoid predators might also require more energy or reduce success elsewhere.",
+        "Helpful traits never have costs.",
+        "Tradeoffs make evidence unnecessary.",
+        "Only harmful traits have effects."
+      ],
+      "correctAnswer": "A trait that helps avoid predators might also require more energy or reduce success elsewhere.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Adaptations can involve benefits and costs depending on context."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q22",
+      "type": "multiple_choice",
+      "prompt": "A graph shows dark moths increase after tree bark darkens from pollution. Later, light bark returns and light moths increase. What does this show?",
+      "questionText": "A graph shows dark moths increase after tree bark darkens from pollution. Later, light bark returns and light moths increase. What does this show?",
+      "options": [
+        "Moths choose color each morning.",
+        "Changing environments can change which trait is favored.",
+        "Only one trait can ever exist.",
+        "Natural selection has no connection to environment."
+      ],
+      "correctAnswer": "Changing environments can change which trait is favored.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The favored trait depends on environmental conditions."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which question would best test if a trait is heritable in a selection explanation?",
+      "questionText": "Which question would best test if a trait is heritable in a selection explanation?",
+      "options": [
+        "Is the trait easy to draw?",
+        "Does the trait have a long name?",
+        "Do related individuals tend to show similar forms of the trait?",
+        "Can the organism be seen from far away?"
+      ],
+      "correctAnswer": "Do related individuals tend to show similar forms of the trait?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Natural selection requires traits that can be passed across generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q24",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Natural selection always helps every individual.\" Which correction is best?",
+      "questionText": "A student says, \"Natural selection always helps every individual.\" Which correction is best?",
+      "options": [
+        "Every individual always benefits equally.",
+        "Populations never change.",
+        "Traits cannot affect survival.",
+        "Selection describes population patterns; some individuals survive less successfully."
+      ],
+      "correctAnswer": "Selection describes population patterns; some individuals survive less successfully.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Selection can favor some traits while individuals with other traits are less successful."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q25",
+      "type": "multiple_choice",
+      "prompt": "Which scenario best shows natural selection rather than learning?",
+      "questionText": "Which scenario best shows natural selection rather than learning?",
+      "options": [
+        "A shell-color trait becomes more common across many generations because predators spot one color more easily.",
+        "A dog learns a command.",
+        "A student memorizes a route home.",
+        "A plant bends toward light during one week."
+      ],
+      "correctAnswer": "A shell-color trait becomes more common across many generations because predators spot one color more easily.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Natural selection involves inherited trait frequencies changing over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q26",
+      "type": "multiple_choice",
+      "prompt": "A drought lasts five years. Birds with beaks matching the remaining seeds have higher survival. Which data would strengthen the explanation?",
+      "questionText": "A drought lasts five years. Birds with beaks matching the remaining seeds have higher survival. Which data would strengthen the explanation?",
+      "options": [
+        "one drawing of a bird",
+        "beak measurements and survival rates across several generations",
+        "a list of bird names only",
+        "the color of the measuring tape"
+      ],
+      "correctAnswer": "beak measurements and survival rates across several generations",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Trait and survival data across generations directly support selection."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best connects natural selection to biodiversity?",
+      "questionText": "Which explanation best connects natural selection to biodiversity?",
+      "options": [
+        "Natural selection removes all variety instantly.",
+        "Biodiversity means all organisms are identical.",
+        "Different environments can favor different traits, contributing to variety among populations.",
+        "Environments cannot affect trait patterns."
+      ],
+      "correctAnswer": "Different environments can favor different traits, contributing to variety among populations.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Selection in different environments can help explain differences among populations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q28",
+      "type": "multiple_choice",
+      "prompt": "A model includes variation, environment, survival, and trait-frequency change. What key natural-selection idea is still missing?",
+      "questionText": "A model includes variation, environment, survival, and trait-frequency change. What key natural-selection idea is still missing?",
+      "options": [
+        "the organism must choose the trait",
+        "the model must ignore evidence",
+        "the environment must stay exactly the same forever",
+        "the trait must be inherited to change future population patterns"
+      ],
+      "correctAnswer": "the trait must be inherited to change future population patterns",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Selection affects future populations when helpful traits are inherited."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which claim is most scientifically careful?",
+      "questionText": "Which claim is most scientifically careful?",
+      "options": [
+        "The data suggest the darker color trait was favored in the dark-bark environment.",
+        "Dark color is always best in every habitat.",
+        "All individuals changed color because they needed to.",
+        "One photo proves every generation."
+      ],
+      "correctAnswer": "The data suggest the darker color trait was favored in the dark-bark environment.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The careful claim stays tied to the specific evidence and environment."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which final summary best shows natural-selection understanding?",
+      "questionText": "Which final summary best shows natural-selection understanding?",
+      "options": [
+        "Individuals evolve by wanting new traits.",
+        "Existing inherited variation interacts with environmental pressures, causing helpful traits to become more or less common over generations.",
+        "Traits are never connected to survival.",
+        "Populations cannot change over time."
+      ],
+      "correctAnswer": "Existing inherited variation interacts with environmental pressures, causing helpful traits to become more or less common over generations.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This summary includes variation, environment, inheritance, and population change over generations."
+    }
+  ]
+}

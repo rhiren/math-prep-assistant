@@ -1,0 +1,655 @@
+{
+  "id": "science7-genetics-inheritance-variation-core",
+  "testId": "science7-genetics-inheritance-variation-core",
+  "conceptId": "concept-genetics-inheritance-variation",
+  "title": "Genetics, Inheritance, and Variation Core Test",
+  "description": "Core practice for chromosomes, genes, traits, inherited information, environment, and variation.",
+  "questions": [
+    {
+      "id": "science7-genetics-inheritance-variation-core-q1",
+      "type": "multiple_choice",
+      "prompt": "A pea plant has chromosomes in its cells. Which statement best describes chromosomes?",
+      "questionText": "A pea plant has chromosomes in its cells. Which statement best describes chromosomes?",
+      "options": [
+        "Chromosomes carry many genes that influence traits.",
+        "Chromosomes are only food molecules.",
+        "Chromosomes are the same as sunlight.",
+        "Chromosomes are nonliving rocks inside soil."
+      ],
+      "correctAnswer": "Chromosomes carry many genes that influence traits.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Chromosomes are structures that carry genes, and genes influence traits."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q2",
+      "type": "multiple_choice",
+      "prompt": "Two related tomato plants both inherited information for tall growth, but one receives little water. Which outcome is most reasonable?",
+      "questionText": "Two related tomato plants both inherited information for tall growth, but one receives little water. Which outcome is most reasonable?",
+      "options": [
+        "The low-water plant must change all of its genes.",
+        "The low-water plant may grow shorter because environment affects trait expression.",
+        "Water cannot affect any observed trait.",
+        "The plant with little water stops having cells."
+      ],
+      "correctAnswer": "The low-water plant may grow shorter because environment affects trait expression.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "An inherited growth pattern can be affected by environmental resources such as water."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows how inherited information can affect a trait?",
+      "questionText": "Which model best shows how inherited information can affect a trait?",
+      "options": [
+        "trait -> sunlight -> chromosome disappears",
+        "cell wall -> soil color -> no genes",
+        "chromosomes -> genes -> cell processes -> trait",
+        "organism chooses gene -> instant trait"
+      ],
+      "correctAnswer": "chromosomes -> genes -> cell processes -> trait",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Genes on chromosomes influence cell processes that can affect traits."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q4",
+      "type": "multiple_choice",
+      "prompt": "A class measures plant heights from the same seed variety grown with different light levels. Which claim can the data help test?",
+      "questionText": "A class measures plant heights from the same seed variety grown with different light levels. Which claim can the data help test?",
+      "options": [
+        "Light creates chromosomes from nothing.",
+        "All plants must become identical.",
+        "Measurements cannot be evidence.",
+        "Light can affect how much the inherited growth potential is expressed."
+      ],
+      "correctAnswer": "Light can affect how much the inherited growth potential is expressed.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Comparing growth under different light levels can test an environmental effect on an observed trait."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which statement best explains variation?",
+      "questionText": "Which statement best explains variation?",
+      "options": [
+        "Variation means individuals in a group are not all exactly alike.",
+        "Variation means every organism is identical.",
+        "Variation means traits are never inherited.",
+        "Variation means environments do not matter."
+      ],
+      "correctAnswer": "Variation means individuals in a group are not all exactly alike.",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Variation is the presence of differences among individuals."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"If a trait is inherited, the environment cannot affect it.\" Which evidence best challenges the statement?",
+      "questionText": "A student says, \"If a trait is inherited, the environment cannot affect it.\" Which evidence best challenges the statement?",
+      "options": [
+        "All plants are green.",
+        "Plants with similar inherited information grow to different heights when water differs.",
+        "Genes are found on chromosomes.",
+        "A pot can be plastic.",
+        "Some leaves are wide."
+      ],
+      "correctAnswer": "Plants with similar inherited information grow to different heights when water differs.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "The evidence shows the environment can affect how an inherited trait appears."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A model shows gene A affects pigment production in flower cells. What does the model help explain?",
+      "questionText": "A model shows gene A affects pigment production in flower cells. What does the model help explain?",
+      "options": [
+        "why flowers are not made of cells",
+        "why traits are unrelated to genes",
+        "how a gene can influence a visible trait through a cell process",
+        "why soil always decides flower color",
+        "why chromosomes are outside organisms"
+      ],
+      "correctAnswer": "how a gene can influence a visible trait through a cell process",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "The model connects a gene to a cell process and then to a trait."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which investigation best separates inherited and environmental influences on plant height?",
+      "questionText": "Which investigation best separates inherited and environmental influences on plant height?",
+      "options": [
+        "Ask which plant looks nicest.",
+        "Measure one plant once without recording conditions.",
+        "Use different seeds, different soil, different light, and different water all at once.",
+        "Grow the same plant variety under different water conditions and compare height."
+      ],
+      "correctAnswer": "Grow the same plant variety under different water conditions and compare height.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Changing one environmental factor while keeping inherited background similar makes the test stronger."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q9",
+      "type": "multiple_choice",
+      "prompt": "A family of dogs includes puppies with different fur shades. Which explanation fits Grade 7 genetics best without assuming the environment did everything?",
+      "questionText": "A family of dogs includes puppies with different fur shades. Which explanation fits Grade 7 genetics best without assuming the environment did everything?",
+      "options": [
+        "Related organisms can inherit different combinations of genetic information.",
+        "All related organisms must be identical.",
+        "Fur shade is never connected to inherited information.",
+        "Dogs choose chromosome combinations after birth."
+      ],
+      "correctAnswer": "Related organisms can inherit different combinations of genetic information.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Related organisms can share inherited information but still show variation."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which statement best distinguishes inherited information from an acquired feature?",
+      "questionText": "Which statement best distinguishes inherited information from an acquired feature?",
+      "options": [
+        "A scar is always a gene.",
+        "A gene affecting natural fur color is inherited; a scar from an injury is acquired.",
+        "Natural fur color cannot be inherited.",
+        "Acquired features are passed through chromosomes."
+      ],
+      "correctAnswer": "A gene affecting natural fur color is inherited; a scar from an injury is acquired.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Inherited traits are connected to genetic information; acquired features happen during life."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q11",
+      "type": "multiple_choice",
+      "prompt": "A table shows four related plants with leaf widths of 4 cm, 5 cm, 5 cm, and 7 cm. What does the table show?",
+      "questionText": "A table shows four related plants with leaf widths of 4 cm, 5 cm, 5 cm, and 7 cm. What does the table show?",
+      "options": [
+        "All plants have identical leaves.",
+        "Leaf width cannot be measured.",
+        "There is variation in leaf width among related plants.",
+        "No trait can vary within a group."
+      ],
+      "correctAnswer": "There is variation in leaf width among related plants.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "The measurements are not all the same, so they show variation."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Which claim is best supported if two groups of the same plant variety grow differently in high-nutrient and low-nutrient soil?",
+      "questionText": "Which claim is best supported if two groups of the same plant variety grow differently in high-nutrient and low-nutrient soil?",
+      "options": [
+        "Nutrients are chromosomes.",
+        "Inherited information is impossible to study.",
+        "All growth differences prove the plants are unrelated.",
+        "Nutrient availability can affect observed growth."
+      ],
+      "correctAnswer": "Nutrient availability can affect observed growth.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "A difference between nutrient conditions can support an environmental influence on growth."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Why are models useful for genetics?",
+      "questionText": "Why are models useful for genetics?",
+      "options": [
+        "They can show relationships among chromosomes, genes, cell processes, and traits.",
+        "They prove every trait has only one cause.",
+        "They replace the need for evidence.",
+        "They show that traits are unrelated to cells."
+      ],
+      "correctAnswer": "They can show relationships among chromosomes, genes, cell processes, and traits.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "A genetics model helps connect invisible inherited information to observable traits."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which example best shows a trait influenced by both inherited information and environment?",
+      "questionText": "Which example best shows a trait influenced by both inherited information and environment?",
+      "options": [
+        "A rock becomes smoother in a river.",
+        "A plant variety can grow tall, but drought keeps many plants shorter.",
+        "A desk is painted blue.",
+        "A shadow changes shape during the day."
+      ],
+      "correctAnswer": "A plant variety can grow tall, but drought keeps many plants shorter.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "The plant has inherited growth potential, but water availability affects the observed height."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q15",
+      "type": "multiple_choice",
+      "prompt": "A student claims, \"One example proves a trait is controlled only by genes.\" What is the best scientific response?",
+      "questionText": "A student claims, \"One example proves a trait is controlled only by genes.\" What is the best scientific response?",
+      "options": [
+        "One example is always enough.",
+        "Do not collect data.",
+        "Use data from many individuals and consider environmental conditions too.",
+        "Ignore the environment in every investigation."
+      ],
+      "correctAnswer": "Use data from many individuals and consider environmental conditions too.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Stronger claims use patterns across multiple data points and control possible variables."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q16",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports that a trait has an inherited influence?",
+      "questionText": "Which evidence best supports that a trait has an inherited influence?",
+      "options": [
+        "One organism changed color under a lamp.",
+        "The trait was hard to spell.",
+        "The organism lived near a window.",
+        "Related organisms show similar patterns for the trait across many examples."
+      ],
+      "correctAnswer": "Related organisms show similar patterns for the trait across many examples.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Repeated similarity among related organisms can support inherited influence."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A diagram shows chromosomes inside the nucleus. Which statement best interprets the diagram?",
+      "questionText": "A diagram shows chromosomes inside the nucleus. Which statement best interprets the diagram?",
+      "options": [
+        "Genetic information is stored inside cells, not floating outside the organism.",
+        "Genes are stored only in soil.",
+        "Chromosomes are outside all cells.",
+        "The nucleus is unrelated to inherited information."
+      ],
+      "correctAnswer": "Genetic information is stored inside cells, not floating outside the organism.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Chromosomes carrying genes are found inside cells, often in the nucleus of plant and animal cells."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q18",
+      "type": "multiple_choice",
+      "prompt": "A crop scientist compares two plant varieties in the same field. One variety remains shorter in every watered section. Which explanation is most reasonable?",
+      "questionText": "A crop scientist compares two plant varieties in the same field. One variety remains shorter in every watered section. Which explanation is most reasonable?",
+      "options": [
+        "Water must be the only factor.",
+        "Inherited differences between varieties may influence height.",
+        "The shorter plants do not contain cells.",
+        "All varieties have exactly the same genes."
+      ],
+      "correctAnswer": "Inherited differences between varieties may influence height.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "When environment is similar, inherited differences may explain a consistent trait pattern."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Which question would most improve an investigation of environment and traits?",
+      "questionText": "Which question would most improve an investigation of environment and traits?",
+      "options": [
+        "Were the plant labels pretty?",
+        "Did the classroom have a clock?",
+        "Were the plants from the same variety and grown with only one condition changed?",
+        "Did the scientist like tall plants better?"
+      ],
+      "correctAnswer": "Were the plants from the same variety and grown with only one condition changed?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A fair test controls inherited background and changes one environmental variable."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A trait-frequency chart shows 70% dark shells and 30% light shells in one snail population. What can the chart show?",
+      "questionText": "A trait-frequency chart shows 70% dark shells and 30% light shells in one snail population. What can the chart show?",
+      "options": [
+        "which snail chose its shell color",
+        "that environment never matters",
+        "that chromosomes disappeared",
+        "the pattern of variation for shell color in the population"
+      ],
+      "correctAnswer": "the pattern of variation for shell color in the population",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Trait-frequency data can describe variation within a population."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Why is it incomplete to say, \"Genes make traits\"?",
+      "questionText": "Why is it incomplete to say, \"Genes make traits\"?",
+      "options": [
+        "Genes influence traits through cell processes, and environment can also affect observed traits.",
+        "Genes are never involved in traits.",
+        "Environment creates all chromosomes.",
+        "Traits cannot be explained with models."
+      ],
+      "correctAnswer": "Genes influence traits through cell processes, and environment can also affect observed traits.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A stronger explanation includes pathways and possible environmental influences."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q22",
+      "type": "multiple_choice",
+      "prompt": "A model shows inherited information plus sunlight and water affecting plant height. What kind of trait explanation is this?",
+      "questionText": "A model shows inherited information plus sunlight and water affecting plant height. What kind of trait explanation is this?",
+      "options": [
+        "a genes-only explanation",
+        "a both-genes-and-environment explanation",
+        "an environment-only explanation",
+        "a nonliving-rock explanation"
+      ],
+      "correctAnswer": "a both-genes-and-environment explanation",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The model includes both inherited and environmental factors."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which data would weaken the claim that water alone determines plant height?",
+      "questionText": "Which data would weaken the claim that water alone determines plant height?",
+      "options": [
+        "Plants need water.",
+        "A ruler measures centimeters.",
+        "With equal water, different plant varieties still grow to different average heights.",
+        "Low-water plants are sometimes shorter."
+      ],
+      "correctAnswer": "With equal water, different plant varieties still grow to different average heights.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "If height differs when water is equal, other factors such as inherited information may matter."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q24",
+      "type": "multiple_choice",
+      "prompt": "A student sees that two related plants have different leaf spots and says one must be unhealthy. What is a better first explanation to test?",
+      "questionText": "A student sees that two related plants have different leaf spots and says one must be unhealthy. What is a better first explanation to test?",
+      "options": [
+        "Any difference always means disease.",
+        "Related organisms cannot vary.",
+        "Traits never need evidence.",
+        "The spots may be normal variation, but evidence is needed before deciding."
+      ],
+      "correctAnswer": "The spots may be normal variation, but evidence is needed before deciding.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Variation can be normal, and scientific conclusions should use evidence."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q25",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best uses the chain chromosomes -> genes -> traits?",
+      "questionText": "Which explanation best uses the chain chromosomes -> genes -> traits?",
+      "options": [
+        "Chromosomes carry genes; genes influence cell processes; cell processes can affect traits.",
+        "Traits carry chromosomes outside cells.",
+        "Genes are the same as all environments.",
+        "Chromosomes are made only when traits are measured."
+      ],
+      "correctAnswer": "Chromosomes carry genes; genes influence cell processes; cell processes can affect traits.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The chain connects inherited information to observable traits."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q26",
+      "type": "multiple_choice",
+      "prompt": "A plant has genes for purple flowers but produces pale flowers in poor soil. What is the best explanation?",
+      "questionText": "A plant has genes for purple flowers but produces pale flowers in poor soil. What is the best explanation?",
+      "options": [
+        "Poor soil changed every chromosome into water.",
+        "The inherited trait pattern may be affected by environmental conditions.",
+        "Genes cannot influence color.",
+        "Flower color proves the plant is nonliving."
+      ],
+      "correctAnswer": "The inherited trait pattern may be affected by environmental conditions.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Environmental conditions can affect how an inherited trait appears."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which is the strongest claim for a genetics investigation?",
+      "questionText": "Which is the strongest claim for a genetics investigation?",
+      "options": [
+        "The tallest plant proves all traits are environmental.",
+        "Genes are never involved.",
+        "The data suggest both inherited variety and light level affected plant height.",
+        "One plant proves all plant growth rules."
+      ],
+      "correctAnswer": "The data suggest both inherited variety and light level affected plant height.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The strongest claim is careful and matches evidence without overgeneralizing."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q28",
+      "type": "multiple_choice",
+      "prompt": "A student wants to explain why related organisms are similar but not identical. Which idea is most important?",
+      "questionText": "A student wants to explain why related organisms are similar but not identical. Which idea is most important?",
+      "options": [
+        "They have no inherited information.",
+        "They must all live in identical environments.",
+        "They cannot show variation.",
+        "They share some inherited information but can have different combinations and environmental experiences."
+      ],
+      "correctAnswer": "They share some inherited information but can have different combinations and environmental experiences.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Similarity and variation can both be explained by inherited information and environment."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which review statement best captures genetics and variation?",
+      "questionText": "Which review statement best captures genetics and variation?",
+      "options": [
+        "Genes on chromosomes influence traits, and variation comes from inherited differences plus environmental effects.",
+        "Genes are unrelated to traits.",
+        "Environment never changes observed traits.",
+        "All related organisms are identical."
+      ],
+      "correctAnswer": "Genes on chromosomes influence traits, and variation comes from inherited differences plus environmental effects.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This statement connects genes, chromosomes, traits, variation, and environment."
+    },
+    {
+      "id": "science7-genetics-inheritance-variation-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which evidence should make a scientist revise a simple genes-only model for a trait?",
+      "questionText": "Which evidence should make a scientist revise a simple genes-only model for a trait?",
+      "options": [
+        "The model has arrows.",
+        "The same plant variety shows different trait values under different temperatures.",
+        "The plants are measured in centimeters.",
+        "The trait has a name."
+      ],
+      "correctAnswer": "The same plant variety shows different trait values under different temperatures.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Environmental temperature affecting the same variety suggests the model needs environment too."
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "id": "science7-evolution-life-history-core",
+  "testId": "science7-evolution-life-history-core",
+  "conceptId": "concept-evolution-life-history",
+  "title": "Evolution Evidence and Life History Core Test",
+  "description": "Core practice for fossils, common ancestry, shared structures, and evidence across time.",
+  "questions": [
+    {
+      "id": "science7-evolution-life-history-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What does the fossil record provide evidence about?",
+      "questionText": "What does the fossil record provide evidence about?",
+      "options": [
+        "past life and changes in organisms over time",
+        "how organisms choose traits instantly",
+        "why all rocks contain DNA",
+        "why every species is unchanged forever"
+      ],
+      "correctAnswer": "past life and changes in organisms over time",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Fossils preserve clues about organisms that lived in the past."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q2",
+      "type": "multiple_choice",
+      "prompt": "A fossil is found in a deeper rock layer than another fossil. What is often a reasonable first inference?",
+      "questionText": "A fossil is found in a deeper rock layer than another fossil. What is often a reasonable first inference?",
+      "options": [
+        "The deeper fossil must be alive now.",
+        "The deeper fossil may be older, depending on the rock history.",
+        "The deeper fossil has no scientific value.",
+        "Depth always shows the fossil is younger."
+      ],
+      "correctAnswer": "The deeper fossil may be older, depending on the rock history.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Relative rock layers can help scientists infer age patterns when the layers are undisturbed."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Which evidence can support common ancestry?",
+      "questionText": "Which evidence can support common ancestry?",
+      "options": [
+        "different classroom labels",
+        "the color of a notebook",
+        "similar bone patterns in different organisms",
+        "one animal being larger than another"
+      ],
+      "correctAnswer": "similar bone patterns in different organisms",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Shared structural patterns can be evidence that organisms share ancestry."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q4",
+      "type": "multiple_choice",
+      "prompt": "A whale flipper, bat wing, and human arm have similar bone arrangements. Which claim does this evidence support?",
+      "questionText": "A whale flipper, bat wing, and human arm have similar bone arrangements. Which claim does this evidence support?",
+      "options": [
+        "The organisms are the same species.",
+        "Bones are not useful evidence.",
+        "All three structures have identical functions.",
+        "These organisms may share common ancestry."
+      ],
+      "correctAnswer": "These organisms may share common ancestry.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Similar underlying structures with different functions can suggest common ancestry."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which model best represents evidence for life changing over time?",
+      "questionText": "Which model best represents evidence for life changing over time?",
+      "options": [
+        "older fossils -> transitional patterns -> newer fossils",
+        "newer fossils -> no past life -> no evidence",
+        "one fossil -> every answer",
+        "organism choice -> instant fossil"
+      ],
+      "correctAnswer": "older fossils -> transitional patterns -> newer fossils",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Patterns across older and newer fossils can show change over time."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"One fossil proves the whole history of a group.\" What is the best correction?",
+      "questionText": "A student says, \"One fossil proves the whole history of a group.\" What is the best correction?",
+      "options": [
+        "One fossil always proves every detail.",
+        "Scientists look for patterns across many fossils and other evidence.",
+        "Fossils cannot be compared.",
+        "Evidence from rocks is never useful."
+      ],
+      "correctAnswer": "Scientists look for patterns across many fossils and other evidence.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Strong scientific explanations use multiple lines of evidence."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A rock layer contains marine shell fossils in a desert region. What claim can this support?",
+      "questionText": "A rock layer contains marine shell fossils in a desert region. What claim can this support?",
+      "options": [
+        "Shells prove the desert is underwater today.",
+        "Fossils cannot show past environments.",
+        "The environment in that area may have been different in the past.",
+        "The shells must be plastic."
+      ],
+      "correctAnswer": "The environment in that area may have been different in the past.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Marine fossils can show that the past environment differed from today."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would best support that two species are closely related?",
+      "questionText": "Which evidence would best support that two species are closely related?",
+      "options": [
+        "different names in a textbook",
+        "one species living farther north",
+        "one species being photographed first",
+        "similar DNA patterns and similar body structures"
+      ],
+      "correctAnswer": "similar DNA patterns and similar body structures",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Multiple shared evidence patterns strengthen a relatedness claim."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q9",
+      "type": "multiple_choice",
+      "prompt": "A diagram compares embryo stages of several vertebrates and shows early similarities. What can this evidence help support?",
+      "questionText": "A diagram compares embryo stages of several vertebrates and shows early similarities. What can this evidence help support?",
+      "options": [
+        "related developmental patterns among organisms",
+        "that all adult organisms are identical",
+        "that embryos are rocks",
+        "that development never changes"
+      ],
+      "correctAnswer": "related developmental patterns among organisms",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Embryo similarities can be one line of evidence for relatedness."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which statement best distinguishes a fossil from a living organism?",
+      "questionText": "Which statement best distinguishes a fossil from a living organism?",
+      "options": [
+        "A fossil is always currently alive.",
+        "A fossil is preserved evidence of past life, not the living organism itself.",
+        "A fossil is a type of weather.",
+        "A fossil cannot be evidence."
+      ],
+      "correctAnswer": "A fossil is preserved evidence of past life, not the living organism itself.",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fossils preserve traces or remains of past organisms."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q11",
+      "type": "multiple_choice",
+      "prompt": "A sequence of horse fossils shows gradual changes in toe structure across rock layers. Which claim is best supported?",
+      "questionText": "A sequence of horse fossils shows gradual changes in toe structure across rock layers. Which claim is best supported?",
+      "options": [
+        "Every individual horse changed its toes during life.",
+        "Fossils show no patterns.",
+        "Some body structures changed in that lineage over time.",
+        "Rock layers are unrelated to time."
+      ],
+      "correctAnswer": "Some body structures changed in that lineage over time.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "A fossil sequence can show population-level changes across long time spans."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern best supports common ancestry among three organisms?",
+      "questionText": "Which data pattern best supports common ancestry among three organisms?",
+      "options": [
+        "They live in three different habitats.",
+        "They are drawn on the same page.",
+        "They have different adult sizes.",
+        "They share many DNA similarities and a similar limb-bone pattern."
+      ],
+      "correctAnswer": "They share many DNA similarities and a similar limb-bone pattern.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Independent similarities in DNA and anatomy can support common ancestry."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q13",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Similar function always means common ancestry.\" Which example shows why that is too simple?",
+      "questionText": "A student says, \"Similar function always means common ancestry.\" Which example shows why that is too simple?",
+      "options": [
+        "Bird wings and insect wings both fly but have very different structures.",
+        "All wings are drawn with arrows.",
+        "Birds have feathers.",
+        "Insects are small."
+      ],
+      "correctAnswer": "Bird wings and insect wings both fly but have very different structures.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Similar function alone is weaker than similar underlying structure and other evidence."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Why do scientists compare fossils with modern organisms?",
+      "questionText": "Why do scientists compare fossils with modern organisms?",
+      "options": [
+        "to avoid using evidence",
+        "to identify patterns of similarity, difference, and change over time",
+        "to prove all organisms are identical",
+        "to turn fossils into living organisms"
+      ],
+      "correctAnswer": "to identify patterns of similarity, difference, and change over time",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Comparisons help connect past and present life."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Which fossil discovery would most improve a model of transition between two groups?",
+      "questionText": "Which fossil discovery would most improve a model of transition between two groups?",
+      "options": [
+        "a rock with no preserved structures",
+        "a fossil from an unknown layer with no details",
+        "a fossil with a mix of traits found in older and newer groups",
+        "a drawing with no measurements"
+      ],
+      "correctAnswer": "a fossil with a mix of traits found in older and newer groups",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "A fossil with mixed traits can help fill a gap in a change-over-time model."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A fossil jaw has tooth shapes similar to a modern herbivore. What is a careful inference?",
+      "questionText": "A fossil jaw has tooth shapes similar to a modern herbivore. What is a careful inference?",
+      "options": [
+        "The fossil organism was identical to the modern herbivore.",
+        "Teeth cannot provide evidence.",
+        "The organism chose new teeth because it needed them.",
+        "The fossil organism may have eaten plant material, but more evidence would strengthen the claim."
+      ],
+      "correctAnswer": "The fossil organism may have eaten plant material, but more evidence would strengthen the claim.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Tooth structure can support feeding inferences, but careful science avoids overclaiming."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A model groups organisms by shared structures. What would make the model stronger?",
+      "questionText": "A model groups organisms by shared structures. What would make the model stronger?",
+      "options": [
+        "including DNA, fossil, and developmental evidence when available",
+        "removing all evidence",
+        "using only organism names",
+        "choosing the largest organism as ancestor"
+      ],
+      "correctAnswer": "including DNA, fossil, and developmental evidence when available",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Multiple evidence types make ancestry models stronger."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which claim goes beyond the evidence if only one footprint fossil is found?",
+      "questionText": "Which claim goes beyond the evidence if only one footprint fossil is found?",
+      "options": [
+        "An organism passed through this area.",
+        "The species definitely lived in large herds every year.",
+        "The organism had a foot that left a mark.",
+        "The rock preserved a trace of past life."
+      ],
+      "correctAnswer": "The species definitely lived in large herds every year.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "One footprint can support presence, but not detailed herd behavior by itself."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q19",
+      "type": "multiple_choice",
+      "prompt": "A fossil layer has many fern fossils and no cactus fossils. A newer layer has dry-land plant fossils. Which claim is reasonable?",
+      "questionText": "A fossil layer has many fern fossils and no cactus fossils. A newer layer has dry-land plant fossils. Which claim is reasonable?",
+      "options": [
+        "Plants cannot fossilize.",
+        "The older layer must be younger.",
+        "The local environment may have changed over time.",
+        "All plants vanished from Earth."
+      ],
+      "correctAnswer": "The local environment may have changed over time.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Changes in fossil types across layers can suggest environmental change."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q20",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best uses both similarities and differences?",
+      "questionText": "Which explanation best uses both similarities and differences?",
+      "options": [
+        "Only differences matter.",
+        "Only identical organisms can be related.",
+        "Similarities are never evidence.",
+        "Shared structures can support relatedness, while differences can show later changes in form or function."
+      ],
+      "correctAnswer": "Shared structures can support relatedness, while differences can show later changes in form or function.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evolution evidence often depends on patterns of both similarity and difference."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q21",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Fossils are useless because they are incomplete.\" What is the best response?",
+      "questionText": "A student says, \"Fossils are useless because they are incomplete.\" What is the best response?",
+      "options": [
+        "Fossils are incomplete, but patterns across many fossils can still provide strong evidence.",
+        "Incomplete evidence can never be useful.",
+        "Scientists never compare fossils.",
+        "Only living organisms can be evidence."
+      ],
+      "correctAnswer": "Fossils are incomplete, but patterns across many fossils can still provide strong evidence.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Science often uses partial evidence carefully and combines many lines of evidence."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Which question would best evaluate a common-ancestry claim?",
+      "questionText": "Which question would best evaluate a common-ancestry claim?",
+      "options": [
+        "Which organism is more famous?",
+        "Do the organisms share detailed structures, DNA patterns, or developmental features?",
+        "Which organism has the shortest name?",
+        "Can the organisms be drawn in color?"
+      ],
+      "correctAnswer": "Do the organisms share detailed structures, DNA patterns, or developmental features?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Common ancestry claims need relevant evidence, not popularity or labels."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q23",
+      "type": "multiple_choice",
+      "prompt": "A fossil shows limb bones where a modern species has a reduced structure. Which claim could this support?",
+      "questionText": "A fossil shows limb bones where a modern species has a reduced structure. Which claim could this support?",
+      "options": [
+        "Structures never change.",
+        "Modern organisms have no history.",
+        "A structure may have changed size or function over time.",
+        "Reduced structures cannot be evidence."
+      ],
+      "correctAnswer": "A structure may have changed size or function over time.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Changed or reduced structures can provide evidence about evolutionary history."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q24",
+      "type": "multiple_choice",
+      "prompt": "Which statement avoids overclaiming from fossil evidence?",
+      "questionText": "Which statement avoids overclaiming from fossil evidence?",
+      "options": [
+        "The fossils prove every exact event.",
+        "No conclusion can ever be made.",
+        "The newest fossil created the oldest fossil.",
+        "The fossils support a possible change-over-time pattern, but more evidence could refine the model."
+      ],
+      "correctAnswer": "The fossils support a possible change-over-time pattern, but more evidence could refine the model.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Strong scientific reasoning matches the strength of the evidence."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q25",
+      "type": "multiple_choice",
+      "prompt": "A fossil series shows body armor becoming less common over time in a lineage. What does the pattern directly show?",
+      "questionText": "A fossil series shows body armor becoming less common over time in a lineage. What does the pattern directly show?",
+      "options": [
+        "a change in a trait pattern across time",
+        "why every individual changed during life",
+        "that environments never matter",
+        "that fossils are not evidence"
+      ],
+      "correctAnswer": "a change in a trait pattern across time",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Trait patterns across fossil layers can show change over time."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows common ancestry?",
+      "questionText": "Which model best shows common ancestry?",
+      "options": [
+        "one straight line saying every organism becomes stronger",
+        "branching lines from shared ancestors to related groups",
+        "a circle showing no change",
+        "a list sorted only by body size"
+      ],
+      "correctAnswer": "branching lines from shared ancestors to related groups",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Branching models represent related groups sharing ancestors."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q27",
+      "type": "multiple_choice",
+      "prompt": "A scientist compares two fossils but does not know their rock-layer ages. What evidence is missing?",
+      "questionText": "A scientist compares two fossils but does not know their rock-layer ages. What evidence is missing?",
+      "options": [
+        "the fossil color only",
+        "the name of the museum gift shop",
+        "time-order evidence that helps place fossils in sequence",
+        "whether the fossils are popular"
+      ],
+      "correctAnswer": "time-order evidence that helps place fossils in sequence",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Age or relative order helps interpret change over time."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best connects fossils to evolution?",
+      "questionText": "Which explanation best connects fossils to evolution?",
+      "options": [
+        "Fossils show that populations never change.",
+        "Fossils replace all other evidence.",
+        "Fossils are unrelated to past life.",
+        "Fossils provide evidence of past organisms and patterns of change across long time spans."
+      ],
+      "correctAnswer": "Fossils provide evidence of past organisms and patterns of change across long time spans.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The fossil record is a major line of evidence for evolution."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q29",
+      "type": "multiple_choice",
+      "prompt": "A student builds a claim from fossils, DNA, and body-structure comparisons. Why is this stronger than using fossils alone?",
+      "questionText": "A student builds a claim from fossils, DNA, and body-structure comparisons. Why is this stronger than using fossils alone?",
+      "options": [
+        "Different kinds of evidence can support the same explanation from multiple directions.",
+        "More evidence always means no reasoning is needed.",
+        "DNA removes the need to interpret fossils carefully.",
+        "Body structures are never useful."
+      ],
+      "correctAnswer": "Different kinds of evidence can support the same explanation from multiple directions.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Converging evidence makes explanations stronger."
+    },
+    {
+      "id": "science7-evolution-life-history-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which final summary best shows understanding of evolution evidence?",
+      "questionText": "Which final summary best shows understanding of evolution evidence?",
+      "options": [
+        "One fossil tells every detail.",
+        "Patterns in fossils, structures, embryos, and DNA help explain common ancestry and change over time.",
+        "Similar function is the only evidence needed.",
+        "Evolution evidence is not based on patterns."
+      ],
+      "correctAnswer": "Patterns in fossils, structures, embryos, and DNA help explain common ancestry and change over time.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This summary connects several evidence types to common ancestry and change over time."
+    }
+  ]
+}

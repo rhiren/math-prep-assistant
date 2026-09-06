@@ -14,7 +14,7 @@ Memory anchor: **Cells are the evidence.**
 
 ## Learn It
 
-A living thing is made of one or more cells. It also uses energy and matter, responds to its environment, grows, and reproduces as part of a life cycle.
+A living thing is made of one or more cells. It also uses energy and matter, responds to its environment, grows, and participates in life cycles.
 
 Important cell parts:
 

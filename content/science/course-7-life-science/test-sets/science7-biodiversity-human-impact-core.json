@@ -1,0 +1,655 @@
+{
+  "id": "science7-biodiversity-human-impact-core",
+  "testId": "science7-biodiversity-human-impact-core",
+  "conceptId": "concept-biodiversity-human-impact",
+  "title": "Biodiversity and Human Impact Core Test",
+  "description": "Core practice for biodiversity, ecosystem services, human impacts, evidence-based solutions, and tradeoffs.",
+  "questions": [
+    {
+      "id": "science7-biodiversity-human-impact-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What does biodiversity mean?",
+      "questionText": "What does biodiversity mean?",
+      "options": [
+        "the variety of life in an ecosystem",
+        "the amount of sunlight only",
+        "one organism living alone",
+        "the number of buildings near a habitat"
+      ],
+      "correctAnswer": "the variety of life in an ecosystem",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Biodiversity means variety of life, including species, genetic variation, and ecosystem roles."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q2",
+      "type": "multiple_choice",
+      "prompt": "Which ecosystem likely has higher biodiversity?",
+      "questionText": "Which ecosystem likely has higher biodiversity?",
+      "options": [
+        "a lawn with one grass species only",
+        "a meadow with many plant, insect, bird, and soil organism species",
+        "a parking lot with no plants",
+        "a sealed jar with only sand"
+      ],
+      "correctAnswer": "a meadow with many plant, insect, bird, and soil organism species",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The meadow has more kinds of organisms and roles."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Which is an ecosystem service?",
+      "questionText": "Which is an ecosystem service?",
+      "options": [
+        "plastic wrappers entering a stream",
+        "a road splitting habitat",
+        "wetlands filtering water",
+        "a pollutant killing algae"
+      ],
+      "correctAnswer": "wetlands filtering water",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Ecosystem services are benefits ecosystems provide, such as clean water."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q4",
+      "type": "multiple_choice",
+      "prompt": "A garden with many plant species survives a disease better than a one-species garden. Which claim is best supported?",
+      "questionText": "A garden with many plant species survives a disease better than a one-species garden. Which claim is best supported?",
+      "options": [
+        "Biodiversity always prevents every problem.",
+        "One species is always safest.",
+        "Disease proves plants are nonliving.",
+        "Biodiversity can make a system more resilient."
+      ],
+      "correctAnswer": "Biodiversity can make a system more resilient.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Variety can provide resilience when one species is affected."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows human impact on biodiversity?",
+      "questionText": "Which model best shows human impact on biodiversity?",
+      "options": [
+        "human action -> habitat/resource change -> population effects -> possible solution",
+        "biodiversity -> no organisms -> no evidence",
+        "solution -> no problem -> no data",
+        "species -> road -> no interactions"
+      ],
+      "correctAnswer": "human action -> habitat/resource change -> population effects -> possible solution",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A useful model connects actions, ecosystem changes, effects, and solutions."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A wetland receives fertilizer runoff. Algae increases, oxygen drops, and fish decrease. What solution targets the cause most directly?",
+      "questionText": "A wetland receives fertilizer runoff. Algae increases, oxygen drops, and fish decrease. What solution targets the cause most directly?",
+      "options": [
+        "paint the fish a brighter color",
+        "reduce nutrient runoff before it enters the wetland",
+        "count fish without changing runoff",
+        "add more road signs near the wetland"
+      ],
+      "correctAnswer": "reduce nutrient runoff before it enters the wetland",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "The cause is nutrient runoff, so a strong solution targets runoff."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q7",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best shows a biodiversity loss?",
+      "questionText": "Which evidence best shows a biodiversity loss?",
+      "options": [
+        "A map uses green ink.",
+        "The park has a new sign.",
+        "The number of native plant species drops from 18 to 6 after development.",
+        "One bird is photographed twice."
+      ],
+      "correctAnswer": "The number of native plant species drops from 18 to 6 after development.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "A drop in species count is evidence of biodiversity loss."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q8",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Biodiversity only means number of species.\" Which correction is best?",
+      "questionText": "A student says, \"Biodiversity only means number of species.\" Which correction is best?",
+      "options": [
+        "It means only the number of rocks.",
+        "It means only the amount of water.",
+        "It means all organisms are identical.",
+        "It also includes genetic variation and different ecosystem roles."
+      ],
+      "correctAnswer": "It also includes genetic variation and different ecosystem roles.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Biodiversity includes more than species count."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Which design solution best addresses animals being hit while crossing a road through habitat?",
+      "questionText": "Which design solution best addresses animals being hit while crossing a road through habitat?",
+      "options": [
+        "a wildlife crossing placed where tracking data show animals cross",
+        "a poster far from the road only",
+        "removing all plants from the habitat",
+        "counting cars without changing the crossing problem"
+      ],
+      "correctAnswer": "a wildlife crossing placed where tracking data show animals cross",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "A wildlife crossing targets habitat fragmentation and should be placed using evidence."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which tradeoff should be considered before building a wildlife crossing?",
+      "questionText": "Which tradeoff should be considered before building a wildlife crossing?",
+      "options": [
+        "whether the word crossing has two syllables",
+        "cost, location, and whether animals will actually use it",
+        "whether all ecosystems are identical",
+        "whether evidence should be ignored"
+      ],
+      "correctAnswer": "cost, location, and whether animals will actually use it",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Engineering solutions should consider tradeoffs and evidence."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q11",
+      "type": "multiple_choice",
+      "prompt": "An invasive plant shades native pond plants. Insects that rely on native plants decrease. Which chain best explains the effect?",
+      "questionText": "An invasive plant shades native pond plants. Insects that rely on native plants decrease. Which chain best explains the effect?",
+      "options": [
+        "invasive plant -> more native light -> more insects only",
+        "insects choose to become plants",
+        "invasive plant -> less light for natives -> fewer native plants -> fewer insects",
+        "shade creates new fish from nothing"
+      ],
+      "correctAnswer": "invasive plant -> less light for natives -> fewer native plants -> fewer insects",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "The invasive species changes resources, which affects other populations."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would best test whether a restoration project is working?",
+      "questionText": "Which evidence would best test whether a restoration project is working?",
+      "options": [
+        "the color of the project folder",
+        "one person's favorite animal",
+        "the number of pencils used",
+        "native species counts before restoration and for several seasons after"
+      ],
+      "correctAnswer": "native species counts before restoration and for several seasons after",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Before-and-after species data can show whether biodiversity changes."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q13",
+      "type": "multiple_choice",
+      "prompt": "A forest has many tree species. A pest attacks one tree species. Why might the forest keep more functions than a one-species forest?",
+      "questionText": "A forest has many tree species. A pest attacks one tree species. Why might the forest keep more functions than a one-species forest?",
+      "options": [
+        "Other tree species can still provide habitat and resources.",
+        "All pests disappear in diverse forests.",
+        "Only one species ever matters.",
+        "Tree species do not interact with ecosystems."
+      ],
+      "correctAnswer": "Other tree species can still provide habitat and resources.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Diversity can provide alternate resources and roles."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which human action most directly fragments habitat?",
+      "questionText": "Which human action most directly fragments habitat?",
+      "options": [
+        "recording bird songs",
+        "building a highway through a continuous forest",
+        "planting native shrubs",
+        "removing litter from a stream"
+      ],
+      "correctAnswer": "building a highway through a continuous forest",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "A highway can split a habitat into smaller pieces."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Which claim is strongest for a proposed solution to runoff?",
+      "questionText": "Which claim is strongest for a proposed solution to runoff?",
+      "options": [
+        "The solution sounds nice.",
+        "The solution has a short name.",
+        "Buffer plants near streams reduced nitrate levels in similar test sites.",
+        "The solution is shown in blue ink."
+      ],
+      "correctAnswer": "Buffer plants near streams reduced nitrate levels in similar test sites.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Evidence from similar tests strengthens a design claim."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A city replaces native plants with pavement. Which impact is most likely?",
+      "questionText": "A city replaces native plants with pavement. Which impact is most likely?",
+      "options": [
+        "more nesting places for every species",
+        "no change to water flow or habitat",
+        "instant increase in all biodiversity",
+        "less habitat and fewer resources for some local organisms"
+      ],
+      "correctAnswer": "less habitat and fewer resources for some local organisms",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Pavement can reduce habitat and change water movement."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q17",
+      "type": "multiple_choice",
+      "prompt": "Which model revision improves this chain: people build houses -> fewer animals?",
+      "questionText": "Which model revision improves this chain: people build houses -> fewer animals?",
+      "options": [
+        "houses -> habitat loss and fragmentation -> fewer resources and movement paths -> some populations decrease",
+        "houses -> animals choose to vanish",
+        "houses -> more forest inside every yard",
+        "houses -> no ecosystem changes"
+      ],
+      "correctAnswer": "houses -> habitat loss and fragmentation -> fewer resources and movement paths -> some populations decrease",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The improved model explains the mechanisms connecting development to population effects."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q18",
+      "type": "multiple_choice",
+      "prompt": "A student claims, \"Any solution that helps one species is automatically best.\" What is the best response?",
+      "questionText": "A student claims, \"Any solution that helps one species is automatically best.\" What is the best response?",
+      "options": [
+        "Helping one species always solves every ecosystem problem.",
+        "A solution should consider ecosystem effects, evidence, and tradeoffs.",
+        "Tradeoffs are never part of design.",
+        "Evidence makes solutions worse."
+      ],
+      "correctAnswer": "A solution should consider ecosystem effects, evidence, and tradeoffs.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Solutions can have tradeoffs and should be evaluated with evidence."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern suggests pollution may be reducing stream biodiversity?",
+      "questionText": "Which data pattern suggests pollution may be reducing stream biodiversity?",
+      "options": [
+        "The stream name changes.",
+        "The sampling jars are the same size.",
+        "Sensitive insect species decrease as pollutant levels increase.",
+        "The stream is shown on a map."
+      ],
+      "correctAnswer": "Sensitive insect species decrease as pollutant levels increase.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A pattern linking pollution increase and sensitive species decrease supports the claim."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q20",
+      "type": "multiple_choice",
+      "prompt": "Why can genetic variation within one species matter for conservation?",
+      "questionText": "Why can genetic variation within one species matter for conservation?",
+      "options": [
+        "It makes every individual identical.",
+        "It removes the need for habitat.",
+        "It proves ecosystems have no interactions.",
+        "It can help a population include traits that may handle future changes."
+      ],
+      "correctAnswer": "It can help a population include traits that may handle future changes.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Variation within a species can support resilience when conditions change."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q21",
+      "type": "multiple_choice",
+      "prompt": "A wetland restoration increases native plants, insects, and nesting birds over three years. Which claim is best supported?",
+      "questionText": "A wetland restoration increases native plants, insects, and nesting birds over three years. Which claim is best supported?",
+      "options": [
+        "The restoration may be improving habitat and biodiversity.",
+        "The restoration harmed every species.",
+        "Only one organism changed once.",
+        "The data are unrelated to biodiversity."
+      ],
+      "correctAnswer": "The restoration may be improving habitat and biodiversity.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Multiple native groups increasing over time supports improvement."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Which question best evaluates an engineering design for fish passage around a dam?",
+      "questionText": "Which question best evaluates an engineering design for fish passage around a dam?",
+      "options": [
+        "Is the dam name easy to remember?",
+        "Do fish counts upstream increase after the passage is installed?",
+        "What color is the sign?",
+        "Can the passage be drawn in one line?"
+      ],
+      "correctAnswer": "Do fish counts upstream increase after the passage is installed?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Fish movement data directly tests whether the passage helps."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which scenario shows a human action protecting biodiversity?",
+      "questionText": "Which scenario shows a human action protecting biodiversity?",
+      "options": [
+        "draining a wetland for parking",
+        "releasing an invasive plant",
+        "planting connected native habitat corridors between isolated patches",
+        "dumping fertilizer into a pond"
+      ],
+      "correctAnswer": "planting connected native habitat corridors between isolated patches",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Habitat corridors can support movement and connected populations."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q24",
+      "type": "multiple_choice",
+      "prompt": "A solution removes all dead logs from a forest to make it look tidy. Which ecosystem role might be harmed?",
+      "questionText": "A solution removes all dead logs from a forest to make it look tidy. Which ecosystem role might be harmed?",
+      "options": [
+        "sunlight itself",
+        "rock layers only",
+        "the number of road lanes",
+        "decomposers and organisms that use dead wood as habitat"
+      ],
+      "correctAnswer": "decomposers and organisms that use dead wood as habitat",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Dead wood supports decomposers and habitat for many organisms."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q25",
+      "type": "multiple_choice",
+      "prompt": "Which statement best handles uncertainty in human-impact claims?",
+      "questionText": "Which statement best handles uncertainty in human-impact claims?",
+      "options": [
+        "The data suggest a link, but more controlled evidence can test the cause.",
+        "A pattern always proves the exact cause.",
+        "Uncertainty means no evidence matters.",
+        "Controlled comparisons are useless."
+      ],
+      "correctAnswer": "The data suggest a link, but more controlled evidence can test the cause.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Careful science distinguishes patterns from proven causes."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q26",
+      "type": "multiple_choice",
+      "prompt": "A biodiversity index rises after native plants are restored. What does the index most likely summarize?",
+      "questionText": "A biodiversity index rises after native plants are restored. What does the index most likely summarize?",
+      "options": [
+        "only the color of flowers",
+        "variety and relative abundance of organisms in the ecosystem",
+        "only the number of park benches",
+        "only the amount of pavement"
+      ],
+      "correctAnswer": "variety and relative abundance of organisms in the ecosystem",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Biodiversity measures often summarize variety and abundance."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which solution best addresses an invasive fish reducing native fish populations?",
+      "questionText": "Which solution best addresses an invasive fish reducing native fish populations?",
+      "options": [
+        "add more invasive fish",
+        "ignore population data",
+        "remove or control the invasive fish while monitoring native populations",
+        "remove all water from every habitat"
+      ],
+      "correctAnswer": "remove or control the invasive fish while monitoring native populations",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The solution targets the cause and includes monitoring evidence."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q28",
+      "type": "multiple_choice",
+      "prompt": "A city wants both flood protection and wildlife habitat. Which design is most aligned with ecosystem services?",
+      "questionText": "A city wants both flood protection and wildlife habitat. Which design is most aligned with ecosystem services?",
+      "options": [
+        "pave the entire floodplain",
+        "remove all streamside plants",
+        "build only walls and never monitor effects",
+        "restore wetlands that absorb floodwater and support native species"
+      ],
+      "correctAnswer": "restore wetlands that absorb floodwater and support native species",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Wetlands can provide flood control and habitat benefits."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken the claim that a new park design improved biodiversity?",
+      "questionText": "Which evidence would weaken the claim that a new park design improved biodiversity?",
+      "options": [
+        "Species richness stayed the same and several native populations declined after installation.",
+        "The park has a sign.",
+        "The design map is colorful.",
+        "Visitors like the walking path."
+      ],
+      "correctAnswer": "Species richness stayed the same and several native populations declined after installation.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "No improvement or declining native populations would weaken the biodiversity claim."
+    },
+    {
+      "id": "science7-biodiversity-human-impact-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation best shows biodiversity and human-impact understanding?",
+      "questionText": "Which final explanation best shows biodiversity and human-impact understanding?",
+      "options": [
+        "Biodiversity is just one species count.",
+        "Biodiversity supports ecosystem resilience, human actions can change habitats and resources, and strong solutions use evidence plus tradeoff analysis.",
+        "Any helpful-sounding action is best.",
+        "Human impacts never ripple through ecosystems."
+      ],
+      "correctAnswer": "Biodiversity supports ecosystem resilience, human actions can change habitats and resources, and strong solutions use evidence plus tradeoff analysis.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects biodiversity, impact chains, evidence, and design tradeoffs."
+    }
+  ]
+}

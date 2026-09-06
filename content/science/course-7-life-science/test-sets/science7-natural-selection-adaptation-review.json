@@ -1,0 +1,330 @@
+{
+  "id": "science7-natural-selection-adaptation-review",
+  "testId": "science7-natural-selection-adaptation-review",
+  "conceptId": "concept-natural-selection-adaptation",
+  "title": "Natural Selection and Adaptation Review Test",
+  "description": "Review practice for natural selection, adaptation, trait-frequency data, and misconceptions.",
+  "questions": [
+    {
+      "id": "science7-natural-selection-adaptation-review-q1",
+      "type": "multiple_choice",
+      "prompt": "What changes during natural selection?",
+      "questionText": "What changes during natural selection?",
+      "options": [
+        "trait frequencies in a population over generations",
+        "one individual changing all its traits by choice",
+        "rocks choosing better shapes",
+        "an organism becoming perfect during one day"
+      ],
+      "correctAnswer": "trait frequencies in a population over generations",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Natural selection explains population change over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q2",
+      "type": "multiple_choice",
+      "prompt": "Which condition must exist before natural selection can happen?",
+      "questionText": "Which condition must exist before natural selection can happen?",
+      "options": [
+        "all individuals being identical",
+        "variation in inherited traits",
+        "no environmental differences",
+        "no traits affecting survival"
+      ],
+      "correctAnswer": "variation in inherited traits",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Variation gives selection something to act on."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q3",
+      "type": "multiple_choice",
+      "prompt": "A beetle population has green and brown beetles on dark bark. Birds more easily see green beetles. Which trait may become more common over generations?",
+      "questionText": "A beetle population has green and brown beetles on dark bark. Birds more easily see green beetles. Which trait may become more common over generations?",
+      "options": [
+        "green coloration only",
+        "having no color",
+        "brown coloration",
+        "being seen more easily"
+      ],
+      "correctAnswer": "brown coloration",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Brown beetles are harder to see in this environment, so that trait may become more common over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q4",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows natural selection?",
+      "questionText": "Which model best shows natural selection?",
+      "options": [
+        "need -> individual chooses trait -> instant perfection",
+        "sunlight -> no variation -> no population",
+        "fossil -> rock -> no evidence",
+        "variation -> environmental pressure -> survival differences -> trait pattern changes"
+      ],
+      "correctAnswer": "variation -> environmental pressure -> survival differences -> trait pattern changes",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Natural selection depends on variation, environment, and population change over time."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Animals evolve because they try hard.\" What is the best correction?",
+      "questionText": "A student says, \"Animals evolve because they try hard.\" What is the best correction?",
+      "options": [
+        "Inherited variation already exists, and the environment affects which traits are helpful.",
+        "Trying hard creates new inherited traits instantly.",
+        "Environment never matters.",
+        "Populations do not change."
+      ],
+      "correctAnswer": "Inherited variation already exists, and the environment affects which traits are helpful.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Natural selection is not about effort or choice; it is about inherited variation and environmental effects."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q6",
+      "type": "multiple_choice",
+      "prompt": "In a dry year, finches with deeper beaks crack tough seeds better. Which claim is best supported if deeper-beaked finches become more common later?",
+      "questionText": "In a dry year, finches with deeper beaks crack tough seeds better. Which claim is best supported if deeper-beaked finches become more common later?",
+      "options": [
+        "Finches chose deeper beaks because they wanted them.",
+        "The dry environment favored a beak trait that helped with available food.",
+        "Tough seeds made every individual change beaks immediately.",
+        "Beak traits cannot affect feeding."
+      ],
+      "correctAnswer": "The dry environment favored a beak trait that helped with available food.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "The trait helped in that environment and became more common over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q7",
+      "type": "multiple_choice",
+      "prompt": "Which example is an adaptation?",
+      "questionText": "Which example is an adaptation?",
+      "options": [
+        "any feature an organism wishes for",
+        "a temporary injury",
+        "a heritable trait that helps organisms survive in a particular environment",
+        "a label written by a scientist"
+      ],
+      "correctAnswer": "a heritable trait that helps organisms survive in a particular environment",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "An adaptation is a heritable trait that improves success in a specific environment."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q8",
+      "type": "multiple_choice",
+      "prompt": "A light-colored mouse is easier for owls to see on dark lava rock. Which cause/effect chain is strongest?",
+      "questionText": "A light-colored mouse is easier for owls to see on dark lava rock. Which cause/effect chain is strongest?",
+      "options": [
+        "visible fur -> mouse chooses dark fur immediately",
+        "dark rock -> owls stop hunting",
+        "light fur -> no effect on survival",
+        "visible fur -> more likely eaten -> fewer light-fur traits in future generations"
+      ],
+      "correctAnswer": "visible fur -> more likely eaten -> fewer light-fur traits in future generations",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Visibility can affect predation and change trait frequencies over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q9",
+      "type": "multiple_choice",
+      "prompt": "Which data would best support natural selection in a bacteria population?",
+      "questionText": "Which data would best support natural selection in a bacteria population?",
+      "options": [
+        "After antibiotic exposure, the resistant-trait frequency increases.",
+        "The petri dish is round.",
+        "The bacteria have names.",
+        "The lab has bright lights."
+      ],
+      "correctAnswer": "After antibiotic exposure, the resistant-trait frequency increases.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "A trait becoming more common after an environmental pressure supports natural selection."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q10",
+      "type": "multiple_choice",
+      "prompt": "Why does natural selection not make organisms perfect?",
+      "questionText": "Why does natural selection not make organisms perfect?",
+      "options": [
+        "Every helpful trait is perfect everywhere.",
+        "Traits are helpful only in certain environments and involve tradeoffs.",
+        "All organisms choose the best trait.",
+        "Variation disappears before environments change."
+      ],
+      "correctAnswer": "Traits are helpful only in certain environments and involve tradeoffs.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Adaptations are context-dependent and may have tradeoffs."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q11",
+      "type": "multiple_choice",
+      "prompt": "A white fur trait helps in snowy habitats but stands out in dark forest soil. What does this show?",
+      "questionText": "A white fur trait helps in snowy habitats but stands out in dark forest soil. What does this show?",
+      "options": [
+        "White fur is always best.",
+        "Dark soil has no effect on visibility.",
+        "Whether a trait helps can depend on the environment.",
+        "Traits are never connected to survival."
+      ],
+      "correctAnswer": "Whether a trait helps can depend on the environment.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A trait can be helpful in one environment and less helpful in another."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Which statement correctly compares individuals and populations?",
+      "questionText": "Which statement correctly compares individuals and populations?",
+      "options": [
+        "Individuals evolve completely during one lifetime.",
+        "Populations have no variation.",
+        "Traits are never measured in groups.",
+        "Individuals have traits; populations can change in trait frequency over generations."
+      ],
+      "correctAnswer": "Individuals have traits; populations can change in trait frequency over generations.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evolution is described as population change over generations."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q13",
+      "type": "multiple_choice",
+      "prompt": "A graph shows pesticide resistance rising from 5% to 60% over many insect generations. Which explanation fits?",
+      "questionText": "A graph shows pesticide resistance rising from 5% to 60% over many insect generations. Which explanation fits?",
+      "options": [
+        "Resistant insects survived the pesticide better, so the trait became more common.",
+        "Each insect decided to become resistant.",
+        "Pesticide made all insects identical instantly.",
+        "Resistance cannot be inherited."
+      ],
+      "correctAnswer": "Resistant insects survived the pesticide better, so the trait became more common.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The population pattern supports selection for a resistant trait."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Which investigation would best test whether camouflage affects survival?",
+      "questionText": "Which investigation would best test whether camouflage affects survival?",
+      "options": [
+        "Ask which model looks nicest.",
+        "Compare how often predators find models of different colors in the same habitat.",
+        "Use one model once without counting results.",
+        "Change color, size, shape, and location all at once."
+      ],
+      "correctAnswer": "Compare how often predators find models of different colors in the same habitat.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A fair test compares color visibility while controlling other factors."
+    },
+    {
+      "id": "science7-natural-selection-adaptation-review-q15",
+      "type": "multiple_choice",
+      "prompt": "A drought changes available seeds from small soft seeds to large tough seeds. What trait might be favored?",
+      "questionText": "A drought changes available seeds from small soft seeds to large tough seeds. What trait might be favored?",
+      "options": [
+        "weaker beaks that cannot crack seeds",
+        "brighter feathers unrelated to feeding",
+        "beaks better at cracking tough seeds",
+        "shorter legs because seeds are tough"
+      ],
+      "correctAnswer": "beaks better at cracking tough seeds",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A feeding trait that helps with the available food may be favored."
+    }
+  ]
+}
