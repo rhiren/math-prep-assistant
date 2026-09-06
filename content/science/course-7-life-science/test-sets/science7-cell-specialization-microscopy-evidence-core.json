@@ -1,0 +1,653 @@
+{
+  "id": "science7-cell-specialization-microscopy-evidence-core",
+  "testId": "science7-cell-specialization-microscopy-evidence-core",
+  "conceptId": "concept-cell-specialization-microscopy-evidence",
+  "title": "Cell Specialization and Microscopy Evidence Core Test",
+  "description": "Use microscope evidence, models, and structure-function reasoning to explain specialized cells.",
+  "questions": [
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q1",
+      "type": "multiple_choice",
+      "prompt": "A microscope image shows flat cells lining a surface and long cells that can contract. Which idea best explains the different shapes?",
+      "questionText": "A microscope image shows flat cells lining a surface and long cells that can contract. Which idea best explains the different shapes?",
+      "options": [
+        "Cell structure is related to cell function.",
+        "All cells must have the same shape.",
+        "Cell shape is never useful evidence.",
+        "Only nonliving things have structures."
+      ],
+      "correctAnswer": "Cell structure is related to cell function.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Different cell shapes can support different jobs."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q2",
+      "type": "multiple_choice",
+      "prompt": "Which observation is strongest evidence that a tissue is made of specialized cells?",
+      "questionText": "Which observation is strongest evidence that a tissue is made of specialized cells?",
+      "options": [
+        "The tissue is placed near a window.",
+        "The cells have similar shapes and work together for one function.",
+        "The sample is labeled with a marker.",
+        "The slide has a clear cover."
+      ],
+      "correctAnswer": "The cells have similar shapes and work together for one function.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A tissue is made of similar specialized cells that work together."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q3",
+      "type": "multiple_choice",
+      "prompt": "A nerve cell has long branches. Which function does this structure most likely support?",
+      "questionText": "A nerve cell has long branches. Which function does this structure most likely support?",
+      "options": [
+        "storing sunlight",
+        "making a stiff cell wall",
+        "sending signals over distance",
+        "turning into a mineral"
+      ],
+      "correctAnswer": "sending signals over distance",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Long branches help nerve cells connect and send signals."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q4",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows the relationship among cells, tissues, and organs?",
+      "questionText": "Which model best shows the relationship among cells, tissues, and organs?",
+      "options": [
+        "organs -> sunlight -> no cells",
+        "tissues -> rocks -> organisms",
+        "cells -> no organization -> organ system",
+        "specialized cells -> tissues -> organs with larger functions"
+      ],
+      "correctAnswer": "specialized cells -> tissues -> organs with larger functions",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Specialized cells form tissues, and tissues form organs."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"All cells in the body do the same job.\" Which evidence best challenges that claim?",
+      "questionText": "A student says, \"All cells in the body do the same job.\" Which evidence best challenges that claim?",
+      "options": [
+        "Muscle cells contract, while nerve cells carry signals.",
+        "All cells are very small.",
+        "Many cells have membranes.",
+        "Cells can be viewed with microscopes."
+      ],
+      "correctAnswer": "Muscle cells contract, while nerve cells carry signals.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Different specialized cells perform different jobs."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A cell has many mitochondria compared with nearby cells. Which inference is most reasonable?",
+      "questionText": "A cell has many mitochondria compared with nearby cells. Which inference is most reasonable?",
+      "options": [
+        "The cell cannot use energy.",
+        "The cell may need a lot of usable energy for its work.",
+        "The cell is definitely nonliving.",
+        "The cell has no membrane."
+      ],
+      "correctAnswer": "The cell may need a lot of usable energy for its work.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "More mitochondria can support higher energy needs."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A model of a leaf shows many cells with chloroplasts near the surface. What does this arrangement help explain?",
+      "questionText": "A model of a leaf shows many cells with chloroplasts near the surface. What does this arrangement help explain?",
+      "options": [
+        "why leaves do not contain cells",
+        "why chloroplasts are found only in animals",
+        "how leaf structure supports photosynthesis",
+        "why plants never need light"
+      ],
+      "correctAnswer": "how leaf structure supports photosynthesis",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Leaf cells with chloroplasts near light can support sugar production."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which investigation best tests whether a microscope model is accurate?",
+      "questionText": "Which investigation best tests whether a microscope model is accurate?",
+      "options": [
+        "Choose the prettiest drawing.",
+        "Ask whether the drawing uses green ink.",
+        "Ignore the slide and use only memory.",
+        "Compare the drawing with several clear microscope observations."
+      ],
+      "correctAnswer": "Compare the drawing with several clear microscope observations.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Models should be checked against evidence."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q9",
+      "type": "multiple_choice",
+      "prompt": "A blood sample has many small cells shaped to move through narrow vessels. Which statement best connects structure and function?",
+      "questionText": "A blood sample has many small cells shaped to move through narrow vessels. Which statement best connects structure and function?",
+      "options": [
+        "The shape helps the cells travel and exchange materials efficiently.",
+        "The shape proves the cells are not living.",
+        "The cells are organs.",
+        "The shape prevents all movement."
+      ],
+      "correctAnswer": "The shape helps the cells travel and exchange materials efficiently.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cell structure can support the job the cell performs."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q10",
+      "type": "multiple_choice",
+      "prompt": "A student labels a diagram: cells -> organs -> tissues -> organ systems. What is the best correction?",
+      "questionText": "A student labels a diagram: cells -> organs -> tissues -> organ systems. What is the best correction?",
+      "options": [
+        "Cells should be removed.",
+        "Tissues should come before organs.",
+        "Organ systems should come before cells.",
+        "Tissues are larger than organ systems."
+      ],
+      "correctAnswer": "Tissues should come before organs.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cells form tissues, tissues form organs, and organs form organ systems."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q11",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would support that a cell is specialized for absorbing materials?",
+      "questionText": "Which evidence would support that a cell is specialized for absorbing materials?",
+      "options": [
+        "It is drawn with a thick border.",
+        "It is named Cell A.",
+        "It has a folded surface that increases contact area.",
+        "It is next to a ruler."
+      ],
+      "correctAnswer": "It has a folded surface that increases contact area.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "A folded surface can increase area for absorption."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Why is a tissue not the same thing as one cell?",
+      "questionText": "Why is a tissue not the same thing as one cell?",
+      "options": [
+        "A tissue is always nonliving.",
+        "A tissue contains no cells.",
+        "A tissue is smaller than a single molecule.",
+        "A tissue is a group of cells working together."
+      ],
+      "correctAnswer": "A tissue is a group of cells working together.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "Tissues are made of cells with related functions."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q13",
+      "type": "multiple_choice",
+      "prompt": "A scientist sees cells arranged in tight layers with few gaps. Which function might this structure support?",
+      "questionText": "A scientist sees cells arranged in tight layers with few gaps. Which function might this structure support?",
+      "options": [
+        "forming a protective barrier",
+        "carrying nerve signals across a body",
+        "making sunlight",
+        "breaking rocks into sand"
+      ],
+      "correctAnswer": "forming a protective barrier",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Tightly packed cells can help create a barrier."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which question would best deepen a model of cell specialization?",
+      "questionText": "Which question would best deepen a model of cell specialization?",
+      "options": [
+        "What color is the model title?",
+        "How does each cell structure help the cell's specific job?",
+        "Can the diagram be made larger?",
+        "How many letters are in the cell name?"
+      ],
+      "correctAnswer": "How does each cell structure help the cell's specific job?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "A strong model connects structures to functions."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q15",
+      "type": "multiple_choice",
+      "prompt": "A slide is blurry, and a student claims the cells have no nucleus. What is the best response?",
+      "questionText": "A slide is blurry, and a student claims the cells have no nucleus. What is the best response?",
+      "options": [
+        "Accept the claim because blurry evidence is strongest.",
+        "Throw out all microscope evidence forever.",
+        "Improve the observation before using it as evidence.",
+        "Decide that all cells lack nuclei."
+      ],
+      "correctAnswer": "Improve the observation before using it as evidence.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Poor observations should not support strong claims."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A plant root cell has a long extension into soil. Which function does that structure likely support?",
+      "questionText": "A plant root cell has a long extension into soil. Which function does that structure likely support?",
+      "options": [
+        "detecting sound",
+        "making a bone",
+        "storing memories",
+        "absorbing water and minerals"
+      ],
+      "correctAnswer": "absorbing water and minerals",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Root extensions increase contact with soil for absorption."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q17",
+      "type": "multiple_choice",
+      "prompt": "Which statement best explains why specialization matters in multicellular organisms?",
+      "questionText": "Which statement best explains why specialization matters in multicellular organisms?",
+      "options": [
+        "Different cell types do different jobs that help the whole organism function.",
+        "Every cell doing the same job is always more efficient.",
+        "Specialization means cells stop working together.",
+        "Only single-celled organisms have specialized cells."
+      ],
+      "correctAnswer": "Different cell types do different jobs that help the whole organism function.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Specialization supports complex body functions."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q18",
+      "type": "multiple_choice",
+      "prompt": "A model leaves out interactions among cell types in an organ. What weakness does the model have?",
+      "questionText": "A model leaves out interactions among cell types in an organ. What weakness does the model have?",
+      "options": [
+        "It has too much evidence.",
+        "It may show parts but miss how the organ works as a system.",
+        "It proves organs are nonliving.",
+        "It explains all functions perfectly."
+      ],
+      "correctAnswer": "It may show parts but miss how the organ works as a system.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Organs work through interactions among tissues and cells."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern would support a structure-function claim?",
+      "questionText": "Which data pattern would support a structure-function claim?",
+      "options": [
+        "All slides were stored in the same drawer.",
+        "The microscope was black.",
+        "Cells with more folded surface absorb dye faster than cells with smooth surfaces.",
+        "The labels used capital letters."
+      ],
+      "correctAnswer": "Cells with more folded surface absorb dye faster than cells with smooth surfaces.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The pattern links a structure difference to a function difference."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"If cells are specialized, they cannot depend on other cells.\" Which correction is best?",
+      "questionText": "A student says, \"If cells are specialized, they cannot depend on other cells.\" Which correction is best?",
+      "options": [
+        "Specialized cells are independent organisms.",
+        "Specialization removes the need for systems.",
+        "Cells in tissues never interact.",
+        "Specialized cells still work with other cells in tissues and organs."
+      ],
+      "correctAnswer": "Specialized cells still work with other cells in tissues and organs.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Specialized cells depend on larger systems."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Which model best connects this concept to body systems?",
+      "questionText": "Which model best connects this concept to body systems?",
+      "options": [
+        "specialized cells -> tissues -> organs -> interacting organ systems",
+        "cells -> no tissues -> no organs -> no body",
+        "organ systems -> single cell only",
+        "rocks -> tissues -> organs"
+      ],
+      "correctAnswer": "specialized cells -> tissues -> organs -> interacting organ systems",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This sequence links cell specialization to body organization."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q22",
+      "type": "multiple_choice",
+      "prompt": "A cell is shaped like a flat tile and found in a sheet. Which claim is strongest?",
+      "questionText": "A cell is shaped like a flat tile and found in a sheet. Which claim is strongest?",
+      "options": [
+        "The cell must store all body energy.",
+        "The cell may help cover or line a surface.",
+        "The cell cannot be living.",
+        "The cell must be a whole organ."
+      ],
+      "correctAnswer": "The cell may help cover or line a surface.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Flat cells in sheets often support lining or covering functions."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken a claim that all cells in a sample have the same function?",
+      "questionText": "Which evidence would weaken a claim that all cells in a sample have the same function?",
+      "options": [
+        "The slide is rectangular.",
+        "The microscope has a light.",
+        "The sample contains cells with very different shapes and structures.",
+        "The sample name is written neatly."
+      ],
+      "correctAnswer": "The sample contains cells with very different shapes and structures.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Different shapes and structures can suggest different functions."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q24",
+      "type": "multiple_choice",
+      "prompt": "A student compares cells to tools in a toolbox. Which part of the analogy is strongest?",
+      "questionText": "A student compares cells to tools in a toolbox. Which part of the analogy is strongest?",
+      "options": [
+        "Tools and cells are both nonliving.",
+        "All tools do the same job.",
+        "A toolbox is an organ system.",
+        "Different tools have structures suited to different jobs, like specialized cells."
+      ],
+      "correctAnswer": "Different tools have structures suited to different jobs, like specialized cells.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The useful part of the analogy is structure matched to job."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q25",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best links microscope evidence to a claim about living systems?",
+      "questionText": "Which explanation best links microscope evidence to a claim about living systems?",
+      "options": [
+        "Microscope observations reveal cells, and cell structures can show how living systems perform functions.",
+        "Microscopes replace the need for reasoning.",
+        "Any blurry picture proves a claim.",
+        "Cells are unrelated to living systems."
+      ],
+      "correctAnswer": "Microscope observations reveal cells, and cell structures can show how living systems perform functions.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Microscope evidence can support claims when interpreted carefully."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q26",
+      "type": "multiple_choice",
+      "prompt": "A diagram shows a muscle tissue with parallel fibers. Which function is best supported?",
+      "questionText": "A diagram shows a muscle tissue with parallel fibers. Which function is best supported?",
+      "options": [
+        "photosynthesis",
+        "coordinated contraction",
+        "filtering light into colors",
+        "storing rocks"
+      ],
+      "correctAnswer": "coordinated contraction",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Parallel muscle fibers can support coordinated contraction."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q27",
+      "type": "multiple_choice",
+      "prompt": "What makes an explanation stronger than a label in a cell diagram?",
+      "questionText": "What makes an explanation stronger than a label in a cell diagram?",
+      "options": [
+        "It uses more colors only.",
+        "It avoids mentioning function.",
+        "It connects the labeled structure to evidence and function.",
+        "It replaces evidence with guesses."
+      ],
+      "correctAnswer": "It connects the labeled structure to evidence and function.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Science explanations need relationships, not labels alone."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q28",
+      "type": "multiple_choice",
+      "prompt": "A student claims a cell with many chloroplasts is from a plant surface receiving light. Which evidence would strengthen the claim?",
+      "questionText": "A student claims a cell with many chloroplasts is from a plant surface receiving light. Which evidence would strengthen the claim?",
+      "options": [
+        "The cell was drawn in pencil.",
+        "The slide is next to a notebook.",
+        "The microscope lens is round.",
+        "The cell is in leaf tissue and near a light-exposed surface."
+      ],
+      "correctAnswer": "The cell is in leaf tissue and near a light-exposed surface.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Location and chloroplast evidence together support the claim."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation best shows understanding of cell specialization?",
+      "questionText": "Which final explanation best shows understanding of cell specialization?",
+      "options": [
+        "Cell structures provide evidence about function, and specialized cells work together in tissues, organs, and systems.",
+        "All cells do the same job.",
+        "Microscope labels are stronger than evidence.",
+        "Tissues are unrelated to cells."
+      ],
+      "correctAnswer": "Cell structures provide evidence about function, and specialized cells work together in tissues, organs, and systems.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects evidence, structure, function, and levels of organization."
+    },
+    {
+      "id": "science7-cell-specialization-microscopy-evidence-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which question would make a student think beyond memorizing cell parts?",
+      "questionText": "Which question would make a student think beyond memorizing cell parts?",
+      "options": [
+        "What is the first letter of the structure name?",
+        "How would the cell's job be affected if this structure were missing or changed?",
+        "Is the diagram printed in color?",
+        "Can the word cell be spelled backward?"
+      ],
+      "correctAnswer": "How would the cell's job be affected if this structure were missing or changed?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Changing a structure asks the student to reason about function."
+    }
+  ]
+}

@@ -81,6 +81,65 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-cell-specialization-microscopy-evidence",
+              "title": "Cell Specialization and Microscopy Evidence",
+              "description": "Use microscope evidence and structure-function reasoning to explain how specialized cells support tissues and organs.",
+              "tags": [
+                "science",
+                "life-science",
+                "cells",
+                "specialization",
+                "structure-function",
+                "models",
+                "MS-LS1-1",
+                "MS-LS1-2"
+              ],
+              "skillTags": [
+                "conceptual",
+                "visual",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-cell-specialization-microscopy-evidence.md",
+              "tests": [
+                {
+                  "id": "science7-cell-specialization-microscopy-evidence-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-cell-specialization-microscopy-evidence-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-cell-specialization-microscopy-evidence-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-cell-specialization-microscopy-evidence-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
@@ -146,6 +205,65 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-homeostasis-feedback-body-systems",
+              "title": "Homeostasis and Feedback in Body Systems",
+              "description": "Model how receptors, signals, and interacting body systems help maintain workable internal conditions.",
+              "tags": [
+                "science",
+                "life-science",
+                "body-systems",
+                "homeostasis",
+                "feedback",
+                "information-processing",
+                "MS-LS1-3",
+                "MS-LS1-8"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning",
+                "visual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-homeostasis-feedback-body-systems.md",
+              "tests": [
+                {
+                  "id": "science7-homeostasis-feedback-body-systems-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-homeostasis-feedback-body-systems-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-homeostasis-feedback-body-systems-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-homeostasis-feedback-body-systems-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
@@ -205,6 +323,67 @@
                   "id": "science7-growth-photosynthesis-cellular-respiration-review",
                   "type": "review",
                   "path": "./content/test-sets/science7-growth-photosynthesis-cellular-respiration-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
+              "id": "concept-matter-energy-transfer-organisms",
+              "title": "Matter and Energy Transfer in Organisms",
+              "description": "Connect photosynthesis, respiration, food webs, matter cycling, and energy flow using evidence and models.",
+              "tags": [
+                "science",
+                "life-science",
+                "matter",
+                "energy-flow",
+                "photosynthesis",
+                "cellular-respiration",
+                "food-webs",
+                "MS-LS1-6",
+                "MS-LS1-7",
+                "MS-LS2-3"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning",
+                "visual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-matter-energy-transfer-organisms.md",
+              "tests": [
+                {
+                  "id": "science7-matter-energy-transfer-organisms-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-matter-energy-transfer-organisms-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-matter-energy-transfer-organisms-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-matter-energy-transfer-organisms-review.json",
                   "difficultyProfile": {
                     "scaffold": true,
                     "standard": true,
@@ -273,6 +452,67 @@
                   "id": "science7-ecosystem-interactions-dynamics-review",
                   "type": "review",
                   "path": "./content/test-sets/science7-ecosystem-interactions-dynamics-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
+              "id": "concept-population-data-ecosystem-stability",
+              "title": "Population Data and Ecosystem Stability",
+              "description": "Interpret population data, resource limits, and food-web models to reason about ecosystem stability.",
+              "tags": [
+                "science",
+                "life-science",
+                "ecosystems",
+                "population-data",
+                "resource-limits",
+                "stability",
+                "MS-LS2-1",
+                "MS-LS2-2",
+                "MS-LS2-4",
+                "MS-LS2-5"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning",
+                "visual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-population-data-ecosystem-stability.md",
+              "tests": [
+                {
+                  "id": "science7-population-data-ecosystem-stability-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-population-data-ecosystem-stability-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-population-data-ecosystem-stability-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-population-data-ecosystem-stability-review.json",
                   "difficultyProfile": {
                     "scaffold": true,
                     "standard": true,
