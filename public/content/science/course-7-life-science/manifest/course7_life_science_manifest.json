@@ -57,7 +57,7 @@
                 "CA NGSS"
               ],
               "order": 1,
-              "testQuestionCount": 10,
+              "testQuestionCount": 30,
               "tutorial": "./content/tutorials/concept-cells-living-things.md",
               "tests": [
                 {
@@ -122,7 +122,7 @@
                 "CA NGSS"
               ],
               "order": 1,
-              "testQuestionCount": 25,
+              "testQuestionCount": 30,
               "tutorial": "./content/tutorials/concept-body-systems-information-processing.md",
               "tests": [
                 {
@@ -177,7 +177,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -190,7 +190,29 @@
               ],
               "order": 1,
               "tutorial": "./content/tutorials/concept-growth-photosynthesis-cellular-respiration.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "science7-growth-photosynthesis-cellular-respiration-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-growth-photosynthesis-cellular-respiration-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-growth-photosynthesis-cellular-respiration-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-growth-photosynthesis-cellular-respiration-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
@@ -223,7 +245,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -236,7 +258,29 @@
               ],
               "order": 1,
               "tutorial": "./content/tutorials/concept-ecosystem-interactions-dynamics.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "science7-ecosystem-interactions-dynamics-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-ecosystem-interactions-dynamics-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-ecosystem-interactions-dynamics-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-ecosystem-interactions-dynamics-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },

@@ -362,7 +362,7 @@ describe("content repository", () => {
     }
   });
 
-  it("loads the Grade 7 Life Science scaffold with the starter cells concept pack", async () => {
+  it("loads the Grade 7 Life Science scaffold with the cells concept pack", async () => {
     const repository = await createDefaultContentRepository();
     const scienceCourse = await repository.getCourse("course-7-life-science");
     const cellsConcept = await repository.getConcept("concept-cells-living-things");
@@ -403,8 +403,9 @@ describe("content repository", () => {
       "science7-cells-living-things-core",
       "science7-cells-living-things-review",
     ]);
-    expect(coreQuestions).toHaveLength(10);
-    expect(reviewQuestions).toHaveLength(10);
+    expect(cellsConcept?.testQuestionCount).toBe(30);
+    expect(coreQuestions).toHaveLength(30);
+    expect(reviewQuestions).toHaveLength(15);
     expect(coreQuestions.every((question) => question.questionType === "multiple_choice")).toBe(true);
     expect(reviewQuestions.every((question) => (question.choices?.length ?? 0) === 4)).toBe(true);
     expect(coreQuestions.flatMap((question) => question.reasoningTags ?? [])).toEqual(
@@ -435,11 +436,12 @@ describe("content repository", () => {
       "science7-body-systems-information-processing-core",
       "science7-body-systems-information-processing-review",
     ]);
-    expect(coreQuestions).toHaveLength(25);
+    expect(concept?.testQuestionCount).toBe(30);
+    expect(coreQuestions).toHaveLength(30);
     expect(reviewQuestions).toHaveLength(15);
     expect(coreQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(6);
     expect(coreQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(9);
-    expect(coreQuestions.filter((question) => question.difficulty === "challenge")).toHaveLength(10);
+    expect(coreQuestions.filter((question) => question.difficulty === "challenge")).toHaveLength(15);
     expect(reviewQuestions.filter((question) => question.difficulty === "scaffold")).toHaveLength(4);
     expect(reviewQuestions.filter((question) => question.difficulty === "standard")).toHaveLength(6);
     expect(reviewQuestions.filter((question) => question.difficulty === "challenge")).toHaveLength(5);
@@ -468,6 +470,8 @@ describe("content repository", () => {
     expect(readyConcepts.map((concept) => concept.id)).toEqual([
       "concept-cells-living-things",
       "concept-body-systems-information-processing",
+      "concept-growth-photosynthesis-cellular-respiration",
+      "concept-ecosystem-interactions-dynamics",
     ]);
 
     for (const concept of readyConcepts) {
@@ -483,7 +487,9 @@ describe("content repository", () => {
 
       expect(testSets.some((testSet) => testSet.type === "concept")).toBe(true);
       expect(testSets.some((testSet) => testSet.type === "review")).toBe(true);
-      expect(allQuestions.length).toBeGreaterThanOrEqual(20);
+      expect(concept.testQuestionCount).toBe(30);
+      expect(await repository.getQuestionsForTestSet(testSets.find((testSet) => testSet.type === "concept")?.id ?? "")).toHaveLength(30);
+      expect(allQuestions.length).toBeGreaterThanOrEqual(45);
       expect(skillTags.size).toBeGreaterThanOrEqual(3);
       expect(skillTags).not.toEqual(new Set(["vocabulary"]));
       expect(reasoningTags).toEqual(

@@ -214,6 +214,114 @@
       ],
       "difficulty": "standard",
       "explanation": "Many cells are microscopic, so microscopes help scientists observe them."
+    },
+    {
+      "id": "science7-cells-living-things-review-q11",
+      "type": "multiple_choice",
+      "prompt": "A student finds a sample that moves in water but has no visible cells after careful microscope observation. What should the student conclude?",
+      "questionText": "A student finds a sample that moves in water but has no visible cells after careful microscope observation. What should the student conclude?",
+      "options": [
+        "Movement alone is not enough evidence; more cell evidence is needed.",
+        "Anything that moves is definitely alive.",
+        "The sample must be a plant cell.",
+        "Microscopes cannot help study living things."
+      ],
+      "correctAnswer": "Movement alone is not enough evidence; more cell evidence is needed.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Some nonliving things can move. Cells are stronger evidence for life."
+    },
+    {
+      "id": "science7-cells-living-things-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Which pair best compares plant and animal cells?",
+      "questionText": "Which pair best compares plant and animal cells?",
+      "options": [
+        "Both have membranes; plant cells often also have cell walls and chloroplasts.",
+        "Only animal cells have membranes.",
+        "Only plant cells use energy.",
+        "Both always have chloroplasts."
+      ],
+      "correctAnswer": "Both have membranes; plant cells often also have cell walls and chloroplasts.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Plant and animal cells share some structures but differ in others."
+    },
+    {
+      "id": "science7-cells-living-things-review-q13",
+      "type": "multiple_choice",
+      "prompt": "A model leaves out the cell membrane. Which function is hardest to explain with that missing part?",
+      "questionText": "A model leaves out the cell membrane. Which function is hardest to explain with that missing part?",
+      "options": [
+        "how the cell controls what enters and leaves",
+        "how a plant cell wall gives support",
+        "how chloroplasts use light",
+        "how microscopes make objects look larger"
+      ],
+      "correctAnswer": "how the cell controls what enters and leaves",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "The cell membrane is the controlled boundary of the cell."
+    },
+    {
+      "id": "science7-cells-living-things-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern best supports that a sample contains living cells?",
+      "questionText": "Which data pattern best supports that a sample contains living cells?",
+      "options": [
+        "More cells are visible after time in a nutrient solution.",
+        "The sample's container is round.",
+        "The sample is stored near a window.",
+        "The sample makes no pattern under a microscope."
+      ],
+      "correctAnswer": "More cells are visible after time in a nutrient solution.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "An increase in visible cells in nutrients supports growth of living cells."
+    },
+    {
+      "id": "science7-cells-living-things-review-q15",
+      "type": "multiple_choice",
+      "prompt": "Which statement is the strongest review summary?",
+      "questionText": "Which statement is the strongest review summary?",
+      "options": [
+        "Living things are made of cells, and cell structures help cells perform needed functions.",
+        "All cells are identical in shape and job.",
+        "Cells matter only in plants.",
+        "The largest structure is always the most important one."
+      ],
+      "correctAnswer": "Living things are made of cells, and cell structures help cells perform needed functions.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This summary connects the core evidence for life with structure and function."
     }
   ]
 }

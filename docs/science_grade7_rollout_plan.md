@@ -116,12 +116,13 @@ Before a Grade 7 Science concept becomes learner-ready:
 
 ## Test Shape
 
-Core tests should eventually contain 20-25 questions. Review tests should
-eventually contain 15-20 questions. A smaller starter pack may be used only for
-the first scaffold of a concept, but it should still include transfer,
-evidence, model, and misconception reasoning.
+Core tests should contain 30 questions for each learner-ready concept. Review
+tests should contain at least 15 questions for spaced reinforcement. A smaller
+starter pack may be used only while a concept remains `Coming soon`; it should
+not be marked learner-ready until the 30-question core practice, review test,
+and transfer coverage are in place.
 
-Target mix for a full core test:
+Target mix for a full 30-question core test:
 
 - 20-25% vocabulary or basic concept checks
 - 25-30% scenario transfer
@@ -142,20 +143,17 @@ Target mix for a full review test:
 |---|---|---:|---:|---:|---:|---|
 | Cells and Living Systems | Cells and Living Things | yes | yes | yes | yes | Practice ready |
 | Body Systems and Information Processing | Body Systems and Information Processing | yes | yes | yes | yes | Practice ready |
-| Growth and Energy Flow | Growth, Photosynthesis, and Cellular Respiration | scaffold | no | no | no | Coming soon |
-| Ecosystems | Ecosystem Interactions and Dynamics | scaffold | no | no | no | Coming soon |
+| Growth and Energy Flow | Growth, Photosynthesis, and Cellular Respiration | yes | yes | yes | yes | Practice ready |
+| Ecosystems | Ecosystem Interactions and Dynamics | yes | yes | yes | yes | Practice ready |
 | Genetics and Inheritance | Genetics, Inheritance, and Variation | scaffold | no | no | no | Coming soon |
 | Evolution and Earth/Life History | Evolution and Life History | scaffold | no | no | no | Coming soon |
 | Biodiversity and Human Impact | Biodiversity and Human Impact | scaffold | no | no | no | Coming soon |
 
 ## Recommended Build Order
 
-1. Expand `Cells and Living Things` to full-size core and review tests.
-2. Build `Growth, Photosynthesis, and Cellular Respiration`.
-3. Build `Ecosystem Interactions and Dynamics`.
-4. Build `Genetics, Inheritance, and Variation`.
-5. Build `Evolution and Life History`.
-6. Build `Biodiversity and Human Impact`.
+1. Build `Genetics, Inheritance, and Variation`.
+2. Build `Evolution and Life History`.
+3. Build `Biodiversity and Human Impact`.
 
 Each step should be a complete concept pack rather than a broad partial unlock.
 

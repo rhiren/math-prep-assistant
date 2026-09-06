@@ -1,0 +1,655 @@
+{
+  "id": "science7-growth-photosynthesis-cellular-respiration-core",
+  "testId": "science7-growth-photosynthesis-cellular-respiration-core",
+  "conceptId": "concept-growth-photosynthesis-cellular-respiration",
+  "title": "Growth, Photosynthesis, and Cellular Respiration Core Test",
+  "description": "Core practice for growth factors, photosynthesis, cellular respiration, matter, and energy flow.",
+  "questions": [
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q1",
+      "type": "multiple_choice",
+      "prompt": "Two genetically similar bean plants are grown for two weeks. One gets light and water, while the other gets little light. Which claim is best supported if the low-light plant grows less?",
+      "questionText": "Two genetically similar bean plants are grown for two weeks. One gets light and water, while the other gets little light. Which claim is best supported if the low-light plant grows less?",
+      "options": [
+        "Light availability can affect growth by affecting sugar production.",
+        "Genes never affect growth.",
+        "Plants grow less only because soil disappears.",
+        "Light changes water into new genes."
+      ],
+      "correctAnswer": "Light availability can affect growth by affecting sugar production.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Light is needed for photosynthesis, which produces sugars used for growth."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q2",
+      "type": "multiple_choice",
+      "prompt": "What is the main role of photosynthesis in plants?",
+      "questionText": "What is the main role of photosynthesis in plants?",
+      "options": [
+        "to use light energy to make sugar molecules",
+        "to break bones into minerals",
+        "to carry nerve signals",
+        "to remove all matter from cells"
+      ],
+      "correctAnswer": "to use light energy to make sugar molecules",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Photosynthesis uses light energy, carbon dioxide, and water to make sugars."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q3",
+      "type": "multiple_choice",
+      "prompt": "What is the main role of cellular respiration?",
+      "questionText": "What is the main role of cellular respiration?",
+      "options": [
+        "to release usable energy from food molecules",
+        "to make sunlight",
+        "to make a cell wall disappear",
+        "to sort animals into groups"
+      ],
+      "correctAnswer": "to release usable energy from food molecules",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Cellular respiration releases usable energy from food molecules in cells."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q4",
+      "type": "multiple_choice",
+      "prompt": "Which model correctly shows energy flow in a plant cell?",
+      "questionText": "Which model correctly shows energy flow in a plant cell?",
+      "options": [
+        "light -> photosynthesis -> sugar -> cellular respiration -> usable energy",
+        "sugar -> light -> water disappears -> no cell work",
+        "cell wall -> sunlight -> nucleus -> oxygen only",
+        "usable energy -> photosynthesis stops -> sugar destroyed"
+      ],
+      "correctAnswer": "light -> photosynthesis -> sugar -> cellular respiration -> usable energy",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Photosynthesis stores energy in sugars; cellular respiration releases usable energy from those food molecules."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which materials are used during photosynthesis?",
+      "questionText": "Which materials are used during photosynthesis?",
+      "options": [
+        "carbon dioxide and water, with light energy",
+        "oxygen and sugar only",
+        "muscle and bone",
+        "sound and heat only"
+      ],
+      "correctAnswer": "carbon dioxide and water, with light energy",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Photosynthesis uses carbon dioxide, water, and light energy."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A sealed plant chamber has less carbon dioxide after several hours in bright light. Which process most likely used the carbon dioxide?",
+      "questionText": "A sealed plant chamber has less carbon dioxide after several hours in bright light. Which process most likely used the carbon dioxide?",
+      "options": [
+        "photosynthesis",
+        "hearing",
+        "digestion in the stomach",
+        "bone growth only"
+      ],
+      "correctAnswer": "photosynthesis",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Plants use carbon dioxide during photosynthesis."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Plants do not need cellular respiration because they do photosynthesis.\" Which response is most accurate?",
+      "questionText": "A student says, \"Plants do not need cellular respiration because they do photosynthesis.\" Which response is most accurate?",
+      "options": [
+        "Plants also use cellular respiration to release usable energy from sugars.",
+        "Plants cannot make sugars.",
+        "Only animal cells need energy.",
+        "Photosynthesis and respiration are the same process."
+      ],
+      "correctAnswer": "Plants also use cellular respiration to release usable energy from sugars.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Plants make sugars through photosynthesis and use cellular respiration to release usable energy from food molecules."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports that water shortage can reduce plant growth?",
+      "questionText": "Which evidence best supports that water shortage can reduce plant growth?",
+      "options": [
+        "Plants with equal light but less water are shorter after two weeks.",
+        "Plants in different pots have different labels.",
+        "The classroom has windows.",
+        "A ruler is made of plastic."
+      ],
+      "correctAnswer": "Plants with equal light but less water are shorter after two weeks.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "This comparison isolates water as a factor affecting growth."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q9",
+      "type": "multiple_choice",
+      "prompt": "A model shows sugar molecules being rearranged in cells and usable energy being released. Which process does the model show?",
+      "questionText": "A model shows sugar molecules being rearranged in cells and usable energy being released. Which process does the model show?",
+      "options": [
+        "cellular respiration",
+        "photosynthesis only",
+        "competition",
+        "information processing"
+      ],
+      "correctAnswer": "cellular respiration",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cellular respiration rearranges food molecules and releases usable energy."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which statement best separates matter and energy?",
+      "questionText": "Which statement best separates matter and energy?",
+      "options": [
+        "Matter is the stuff molecules are made of; energy flows as it is stored and released.",
+        "Matter and energy are exactly the same thing.",
+        "Energy has mass but matter does not.",
+        "Matter disappears whenever energy flows."
+      ],
+      "correctAnswer": "Matter is the stuff molecules are made of; energy flows as it is stored and released.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Matter cycles through systems, while energy flows and changes form."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q11",
+      "type": "multiple_choice",
+      "prompt": "A plant grows more slowly in soil lacking key minerals, even with enough light and water. Which explanation best fits?",
+      "questionText": "A plant grows more slowly in soil lacking key minerals, even with enough light and water. Which explanation best fits?",
+      "options": [
+        "Growth needs materials from the environment as well as energy.",
+        "Light is never important for growth.",
+        "Minerals replace the need for cells.",
+        "Plants get all matter from sunlight."
+      ],
+      "correctAnswer": "Growth needs materials from the environment as well as energy.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Growth depends on matter and energy resources, including nutrients needed to build cells."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Which cause/effect chain best explains why a shaded plant may have less growth?",
+      "questionText": "Which cause/effect chain best explains why a shaded plant may have less growth?",
+      "options": [
+        "less light -> less photosynthesis -> less sugar available -> less growth",
+        "less light -> more sugar -> more growth",
+        "less light -> no cells -> instant death always",
+        "shade -> more carbon dioxide made from sunlight"
+      ],
+      "correctAnswer": "less light -> less photosynthesis -> less sugar available -> less growth",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "The chain connects the environmental factor to the process and then the growth result."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Yeast cells release more gas when sugar is available. Which claim is best supported?",
+      "questionText": "Yeast cells release more gas when sugar is available. Which claim is best supported?",
+      "options": [
+        "Sugar can provide food molecules for cellular respiration.",
+        "Sugar prevents all cell activity.",
+        "Yeast cells do not use energy.",
+        "Gas production proves photosynthesis happened."
+      ],
+      "correctAnswer": "Sugar can provide food molecules for cellular respiration.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Yeast can use sugar in cellular respiration, releasing gas as evidence of the process."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which organism is most likely able to use photosynthesis?",
+      "questionText": "Which organism is most likely able to use photosynthesis?",
+      "options": [
+        "algae in a sunny pond",
+        "a running dog",
+        "a mushroom in dark soil",
+        "a classroom desk"
+      ],
+      "correctAnswer": "algae in a sunny pond",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Algae can photosynthesize when light is available."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q15",
+      "type": "multiple_choice",
+      "prompt": "A student claims plants get most of their food from soil. Which evidence best corrects the claim?",
+      "questionText": "A student claims plants get most of their food from soil. Which evidence best corrects the claim?",
+      "options": [
+        "Plants use carbon dioxide and water to make sugars during photosynthesis.",
+        "Soil is usually brown.",
+        "Roots can hold a plant in place.",
+        "Some plants grow in pots."
+      ],
+      "correctAnswer": "Plants use carbon dioxide and water to make sugars during photosynthesis.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Soil provides minerals and support, but plants make sugars through photosynthesis."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A plant is moved from bright light to darkness. Which outcome is most likely after several days if other conditions stay the same?",
+      "questionText": "A plant is moved from bright light to darkness. Which outcome is most likely after several days if other conditions stay the same?",
+      "options": [
+        "The plant makes less sugar by photosynthesis.",
+        "The plant makes more sugar from light.",
+        "The plant stops containing cells.",
+        "The plant no longer needs energy."
+      ],
+      "correctAnswer": "The plant makes less sugar by photosynthesis.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Less light means less energy available for photosynthesis."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q17",
+      "type": "multiple_choice",
+      "prompt": "Which table result best supports the idea that light affects photosynthesis?",
+      "questionText": "Which table result best supports the idea that light affects photosynthesis?",
+      "options": [
+        "bright light: many oxygen bubbles; dim light: few oxygen bubbles",
+        "red pot: 12 cm tall; blue pot: 12 cm tall",
+        "Monday: cloudy; Tuesday: sunny",
+        "plant A: green; plant B: green"
+      ],
+      "correctAnswer": "bright light: many oxygen bubbles; dim light: few oxygen bubbles",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Oxygen bubbles can be evidence of photosynthesis, and the pattern changes with light level."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows matter cycling through living systems?",
+      "questionText": "Which model best shows matter cycling through living systems?",
+      "options": [
+        "carbon dioxide enters plants, sugar becomes body material or food, wastes and decay return matter",
+        "sunlight becomes soil and never changes",
+        "energy cycles forever without loss",
+        "cells make matter disappear during growth"
+      ],
+      "correctAnswer": "carbon dioxide enters plants, sugar becomes body material or food, wastes and decay return matter",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Matter moves through organisms and the environment; it does not simply disappear."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q19",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"If a plant grows taller, only energy was added.\" What is the best correction?",
+      "questionText": "A student says, \"If a plant grows taller, only energy was added.\" What is the best correction?",
+      "options": [
+        "Growth also requires matter to build new cell material.",
+        "Growth requires no materials.",
+        "Energy has weight and becomes the whole plant.",
+        "Cells do not matter in growth."
+      ],
+      "correctAnswer": "Growth also requires matter to build new cell material.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "New growth requires matter to build more cell structures."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q20",
+      "type": "multiple_choice",
+      "prompt": "Which question would best test whether carbon dioxide affects plant sugar production?",
+      "questionText": "Which question would best test whether carbon dioxide affects plant sugar production?",
+      "options": [
+        "Do plants with different carbon dioxide levels produce different amounts of sugar when light and water are controlled?",
+        "Which plant has the prettiest leaf?",
+        "Can a plant survive in any classroom?",
+        "Do all pots weigh the same before planting?"
+      ],
+      "correctAnswer": "Do plants with different carbon dioxide levels produce different amounts of sugar when light and water are controlled?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A fair test changes carbon dioxide while controlling other major factors."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q21",
+      "type": "multiple_choice",
+      "prompt": "A model shows oxygen entering animal cells and carbon dioxide leaving them. Which process is most directly connected to this exchange?",
+      "questionText": "A model shows oxygen entering animal cells and carbon dioxide leaving them. Which process is most directly connected to this exchange?",
+      "options": [
+        "cellular respiration",
+        "photosynthesis in animal cells",
+        "pollination",
+        "erosion"
+      ],
+      "correctAnswer": "cellular respiration",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Animal cells use oxygen in cellular respiration and release carbon dioxide."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best connects inherited factors and environment to growth?",
+      "questionText": "Which explanation best connects inherited factors and environment to growth?",
+      "options": [
+        "Genes can influence growth potential, while resources affect how that potential develops.",
+        "Environment is the only factor in every growth difference.",
+        "Inherited information cannot affect living things.",
+        "Sunlight replaces inherited information."
+      ],
+      "correctAnswer": "Genes can influence growth potential, while resources affect how that potential develops.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Growth is influenced by both inherited information and environmental resources."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Two plants have the same light and water, but one variety is naturally shorter. Which factor best explains the difference?",
+      "questionText": "Two plants have the same light and water, but one variety is naturally shorter. Which factor best explains the difference?",
+      "options": [
+        "inherited information",
+        "different sunlight",
+        "different water",
+        "lack of cells"
+      ],
+      "correctAnswer": "inherited information",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "If environmental factors are controlled, inherited differences may explain the growth pattern."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q24",
+      "type": "multiple_choice",
+      "prompt": "Which choice best explains why animals depend on photosynthesis, even though animal cells do not photosynthesize?",
+      "questionText": "Which choice best explains why animals depend on photosynthesis, even though animal cells do not photosynthesize?",
+      "options": [
+        "Photosynthesis makes food molecules that enter food webs.",
+        "Animal cells turn sunlight directly into bones.",
+        "Photosynthesis happens only inside nerves.",
+        "Animals do not need food molecules."
+      ],
+      "correctAnswer": "Photosynthesis makes food molecules that enter food webs.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Photosynthesis produces sugars that support producers and food webs that animals depend on."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q25",
+      "type": "multiple_choice",
+      "prompt": "A class compares radish growth in full nutrients and low nutrients. Which result would best support the claim that nutrients affect growth?",
+      "questionText": "A class compares radish growth in full nutrients and low nutrients. Which result would best support the claim that nutrients affect growth?",
+      "options": [
+        "full nutrients: taller average plants; low nutrients: shorter average plants",
+        "both groups watered at the same time",
+        "both groups used the same tray color",
+        "full nutrients had labels written in pen"
+      ],
+      "correctAnswer": "full nutrients: taller average plants; low nutrients: shorter average plants",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A consistent height difference between nutrient conditions supports the claim."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which statement best describes energy in photosynthesis and respiration?",
+      "questionText": "Which statement best describes energy in photosynthesis and respiration?",
+      "options": [
+        "Photosynthesis stores energy in sugars; respiration releases usable energy from sugars.",
+        "Both processes only destroy matter.",
+        "Photosynthesis releases energy from sugar in all animals.",
+        "Respiration stores sunlight inside chloroplasts."
+      ],
+      "correctAnswer": "Photosynthesis stores energy in sugars; respiration releases usable energy from sugars.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The two processes are connected but have different roles in energy flow."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q27",
+      "type": "multiple_choice",
+      "prompt": "A pond plant makes fewer oxygen bubbles when a shade screen is added. Which explanation best fits?",
+      "questionText": "A pond plant makes fewer oxygen bubbles when a shade screen is added. Which explanation best fits?",
+      "options": [
+        "The shade screen reduced light, lowering the rate of photosynthesis.",
+        "The shade screen added more carbon dioxide.",
+        "Oxygen bubbles prove the plant stopped being alive.",
+        "The plant started using sound instead of light."
+      ],
+      "correctAnswer": "The shade screen reduced light, lowering the rate of photosynthesis.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Reduced light can reduce photosynthesis, and fewer oxygen bubbles are evidence of that change."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Which model revision would improve this chain: light -> growth?",
+      "questionText": "Which model revision would improve this chain: light -> growth?",
+      "options": [
+        "light -> photosynthesis -> sugar molecules -> cell materials and energy needs -> growth",
+        "light -> no matter -> no cells -> growth",
+        "light -> bones -> nerves -> growth",
+        "light -> labels -> pots -> growth"
+      ],
+      "correctAnswer": "light -> photosynthesis -> sugar molecules -> cell materials and energy needs -> growth",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A stronger model shows the processes between the cause and the growth result."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken the claim that light alone determines plant growth?",
+      "questionText": "Which evidence would weaken the claim that light alone determines plant growth?",
+      "options": [
+        "Two plants with equal light grow differently when one lacks water.",
+        "A plant in light is green.",
+        "A lamp is placed above a plant.",
+        "A ruler can measure plant height."
+      ],
+      "correctAnswer": "Two plants with equal light grow differently when one lacks water.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "If water changes growth when light is equal, light is not the only factor."
+    },
+    {
+      "id": "science7-growth-photosynthesis-cellular-respiration-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation best shows fundamental understanding of growth and energy flow?",
+      "questionText": "Which final explanation best shows fundamental understanding of growth and energy flow?",
+      "options": [
+        "Organisms grow when cells have inherited instructions plus matter and energy resources; photosynthesis stores energy in sugars and respiration releases usable energy.",
+        "Growth happens only when organisms are placed near windows.",
+        "Energy and matter disappear after photosynthesis.",
+        "Respiration is needed only by animals that run."
+      ],
+      "correctAnswer": "Organisms grow when cells have inherited instructions plus matter and energy resources; photosynthesis stores energy in sugars and respiration releases usable energy.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This explanation connects inherited factors, resources, matter, photosynthesis, respiration, and growth."
+    }
+  ]
+}
