@@ -4,7 +4,7 @@
 
 Two puppies from the same family look similar, but one has darker fur and one has lighter fur. They are related, but they are not identical.
 
-Why? Offspring inherit combinations of genetic information, and variation is normal.
+Why? Related organisms can inherit different combinations of genetic information, and variation is normal.
 
 ## Big Idea
 

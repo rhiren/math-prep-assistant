@@ -472,6 +472,10 @@ describe("content repository", () => {
       "concept-body-systems-information-processing",
       "concept-growth-photosynthesis-cellular-respiration",
       "concept-ecosystem-interactions-dynamics",
+      "concept-genetics-inheritance-variation",
+      "concept-evolution-life-history",
+      "concept-natural-selection-adaptation",
+      "concept-biodiversity-human-impact",
     ]);
 
     for (const concept of readyConcepts) {

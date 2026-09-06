@@ -2,13 +2,13 @@
 
 ## Hook
 
-A fossil fish and a modern fish have similar body structures. A fossil whale has bones that look like parts of hind limbs. These clues are not random facts; they are evidence about life changing over time.
+A fossil fish and a modern fish have similar body structures. A fossil whale has bones that look like parts of hind limbs. These clues are not random facts; they are evidence about past life and change over time.
 
 ## Big Idea
 
-Evolution explains how populations change over generations. Scientists use evidence from fossils, body structures, embryos, DNA, and populations.
+Scientists use evidence from fossils, body structures, embryos, DNA, and populations to explain common ancestry and change over time.
 
-Memory anchor: **Evolution is population change over time.**
+Memory anchor: **Evidence connects past and present life.**
 
 ## Learn It
 
@@ -16,24 +16,22 @@ The fossil record gives evidence about past life. Fossils can show when differen
 
 Similar structures may provide evidence that organisms share common ancestry. Embryo patterns and DNA can also show relatedness.
 
-Natural selection happens when inherited traits affect which organisms survive and pass traits to future generations in a particular environment. Helpful traits can become more common over generations.
-
 ## Build The Model
 
-Use this natural selection chain:
+Use this evidence chain:
 
-`variation -> environment -> survival differences -> trait becomes more or less common`
+`fossil or structure -> pattern across organisms or time -> claim about relatedness or change`
 
 Example:
 
-`some insects are harder to see -> birds eat fewer of them -> those insects reproduce more -> camouflage trait becomes more common`
+`similar limb bones -> same bone pattern in different animals -> evidence for common ancestry`
 
 ## Memory Anchors
 
-- **Populations evolve, not one individual.**
-- **Variation comes first.**
-- **Environment selects; organisms do not choose traits.**
 - **Evidence connects past and present life.**
+- **Fossils show clues from long ago.**
+- **Shared structures can show relatedness.**
+- **Patterns are stronger than single examples.**
 
 ## Evidence Rules
 
@@ -59,29 +57,29 @@ Strong evolution explanations use evidence across time or across groups.
 
 Answer these without looking back:
 
-- What changes in evolution: an individual or a population?
-- Why does variation matter for natural selection?
 - What kind of evidence can fossils provide?
+- How can similar body structures support common ancestry?
+- Why is a pattern across many fossils stronger than one fossil alone?
 
 ## Apply It
 
-A population of beetles includes green and brown beetles. Birds more easily see green beetles on dark bark. Over many generations, brown beetles become more common.
+A fossil layer contains shell fossils in a place that is dry land today. This evidence can support the idea that the local environment was different in the past.
 
-This is natural selection because an inherited trait affected survival and became more common in that environment over generations.
+A stronger explanation would compare rock layers, fossil types, and other evidence.
 
 ## 3-2-1 Memory Check
 
 3 things to remember:
 
-- Evolution is population change over generations.
-- Natural selection depends on inherited variation.
-- Fossils and structures provide evidence.
+- Fossils provide evidence of past life.
+- Shared structures can support common ancestry.
+- Multiple evidence patterns make claims stronger.
 
 2 traps to avoid:
 
-- Do not say one individual evolved.
-- Do not say organisms choose new traits because they need them.
+- Do not overclaim from one fossil.
+- Do not use similar function alone as the only evidence.
 
 1 explain-it prompt:
 
-- How can an environment make one inherited trait more common over time?
+- How can fossils and body structures help scientists explain common ancestry?

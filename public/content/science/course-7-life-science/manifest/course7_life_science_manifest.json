@@ -311,7 +311,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -324,7 +324,29 @@
               ],
               "order": 1,
               "tutorial": "./content/tutorials/concept-genetics-inheritance-variation.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "science7-genetics-inheritance-variation-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-genetics-inheritance-variation-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-genetics-inheritance-variation-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-genetics-inheritance-variation-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
@@ -336,19 +358,17 @@
           "concepts": [
             {
               "id": "concept-evolution-life-history",
-              "title": "Evolution and Life History",
-              "description": "Interpret fossil and organism evidence to explain common ancestry, adaptation, and natural selection.",
+              "title": "Evolution Evidence and Life History",
+              "description": "Interpret fossil and organism evidence to explain common ancestry and change over time.",
               "tags": [
                 "science",
                 "life-science",
                 "evolution",
                 "fossils",
-                "natural-selection",
+                "common-ancestry",
                 "MS-LS4-1",
                 "MS-LS4-2",
-                "MS-LS4-3",
-                "MS-LS4-4",
-                "MS-LS4-6"
+                "MS-LS4-3"
               ],
               "skillTags": [
                 "conceptual",
@@ -358,7 +378,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -371,7 +391,87 @@
               ],
               "order": 1,
               "tutorial": "./content/tutorials/concept-evolution-life-history.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "science7-evolution-life-history-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-evolution-life-history-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-evolution-life-history-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-evolution-life-history-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
+              "id": "concept-natural-selection-adaptation",
+              "title": "Natural Selection and Adaptation",
+              "description": "Use scenarios and data to explain inherited variation, environmental pressures, adaptation, and population change.",
+              "tags": [
+                "science",
+                "life-science",
+                "evolution",
+                "natural-selection",
+                "adaptation",
+                "MS-LS4-4",
+                "MS-LS4-6"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning",
+                "visual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-natural-selection-adaptation.md",
+              "tests": [
+                {
+                  "id": "science7-natural-selection-adaptation-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-natural-selection-adaptation-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-natural-selection-adaptation-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-natural-selection-adaptation-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
@@ -402,7 +502,7 @@
               ],
               "meta": {
                 "type": "application",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -415,7 +515,29 @@
               ],
               "order": 1,
               "tutorial": "./content/tutorials/concept-biodiversity-human-impact.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "science7-biodiversity-human-impact-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-biodiversity-human-impact-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-biodiversity-human-impact-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-biodiversity-human-impact-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         }

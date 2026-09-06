@@ -145,15 +145,16 @@ Target mix for a full review test:
 | Body Systems and Information Processing | Body Systems and Information Processing | yes | yes | yes | yes | Practice ready |
 | Growth and Energy Flow | Growth, Photosynthesis, and Cellular Respiration | yes | yes | yes | yes | Practice ready |
 | Ecosystems | Ecosystem Interactions and Dynamics | yes | yes | yes | yes | Practice ready |
-| Genetics and Inheritance | Genetics, Inheritance, and Variation | scaffold | no | no | no | Coming soon |
-| Evolution and Earth/Life History | Evolution and Life History | scaffold | no | no | no | Coming soon |
-| Biodiversity and Human Impact | Biodiversity and Human Impact | scaffold | no | no | no | Coming soon |
+| Genetics and Inheritance | Genetics, Inheritance, and Variation | yes | yes | yes | yes | Practice ready |
+| Evolution and Earth/Life History | Evolution Evidence and Life History | yes | yes | yes | yes | Practice ready |
+| Evolution and Earth/Life History | Natural Selection and Adaptation | yes | yes | yes | yes | Practice ready |
+| Biodiversity and Human Impact | Biodiversity and Human Impact | yes | yes | yes | yes | Practice ready |
 
 ## Recommended Build Order
 
-1. Build `Genetics, Inheritance, and Variation`.
-2. Build `Evolution and Life History`.
-3. Build `Biodiversity and Human Impact`.
+All currently scaffolded Grade 7 Science concepts are now practice-ready.
+Future build work should add complete concept packs only when there is a clear
+need for deeper review, benchmark preparation, or teacher-aligned enrichment.
 
 Each step should be a complete concept pack rather than a broad partial unlock.
 
