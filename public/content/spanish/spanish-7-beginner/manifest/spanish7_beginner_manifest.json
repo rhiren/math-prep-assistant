@@ -1,0 +1,401 @@
+{
+  "courses": [
+    {
+      "id": "spanish-7-beginner",
+      "subjectId": "spanish",
+      "subjectTitle": "Spanish",
+      "courseId": "spanish-7-beginner",
+      "courseTitle": "Grade 7 Beginner Spanish",
+      "title": "Grade 7 Beginner Spanish",
+      "description": "A first-year middle-school Spanish course scaffold focused on classroom language, pronunciation, greetings, basic questions, people, school life, and everyday communication.",
+      "instructionalGrades": [
+        "7"
+      ],
+      "programPathways": [
+        "beginner"
+      ],
+      "standardsFrameworks": [
+        "ACTFL World-Readiness"
+      ],
+      "order": 4,
+      "units": [
+        {
+          "id": "spanish7-unit-foundations",
+          "title": "Foundations for First Spanish Class",
+          "description": "Build confidence with Spanish sounds, classroom phrases, greetings, introductions, and simple yes-or-no communication.",
+          "order": 1,
+          "concepts": [
+            {
+              "id": "concept-spanish-sounds-pronunciation",
+              "title": "Spanish Sounds and Pronunciation",
+              "description": "Learn the vowel sounds, stress patterns, accent marks, and pronunciation habits that make Spanish easier to read aloud.",
+              "tags": [
+                "spanish",
+                "pronunciation",
+                "listening",
+                "speaking",
+                "foundations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "vocabulary",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Comparisons"
+              ],
+              "order": 1,
+              "tutorial": "./content/tutorials/concept-spanish-sounds-pronunciation.md",
+              "tests": []
+            },
+            {
+              "id": "concept-spanish-classroom-phrases",
+              "title": "Classroom Phrases",
+              "description": "Understand and use useful phrases for asking for help, following directions, and participating in Spanish class.",
+              "tags": [
+                "spanish",
+                "classroom-language",
+                "listening",
+                "speaking",
+                "school"
+              ],
+              "skillTags": [
+                "vocabulary",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-spanish-classroom-phrases.md",
+              "tests": []
+            },
+            {
+              "id": "concept-spanish-greetings-introductions",
+              "title": "Greetings and Introductions",
+              "description": "Greet people, say your name, ask someone's name, and choose language that fits formal and informal situations.",
+              "tags": [
+                "spanish",
+                "greetings",
+                "introductions",
+                "speaking",
+                "interpersonal"
+              ],
+              "skillTags": [
+                "vocabulary",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Cultures"
+              ],
+              "order": 3,
+              "tutorial": "./content/tutorials/concept-spanish-greetings-introductions.md",
+              "tests": []
+            },
+            {
+              "id": "concept-spanish-para-empezar-practice",
+              "title": "Para Empezar Practice Test",
+              "description": "Practice the first classroom packet: greetings, how-are-you phrases, goodbyes, classroom objects, months, numbers, and the Esteban reading.",
+              "tags": [
+                "spanish",
+                "para-empezar",
+                "greetings",
+                "classroom-language",
+                "numbers",
+                "months",
+                "reading"
+              ],
+              "skillTags": [
+                "vocabulary",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Connections"
+              ],
+              "order": 4,
+              "testQuestionCount": 30,
+              "tutorial": "./content/tutorials/concept-spanish-para-empezar-practice.md",
+              "tests": [
+                {
+                  "id": "spanish7-para-empezar-practice-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-para-empezar-practice-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "spanish7-unit-people-and-identity",
+          "title": "People and Identity",
+          "description": "Use simple language to describe yourself and others through pronouns, ser, adjectives, numbers, and basic personal information.",
+          "order": 2,
+          "concepts": [
+            {
+              "id": "concept-spanish-subject-pronouns-ser",
+              "title": "Subject Pronouns and Ser",
+              "description": "Connect Spanish subject pronouns to forms of ser so you can say who someone is.",
+              "tags": [
+                "spanish",
+                "grammar",
+                "ser",
+                "pronouns",
+                "identity"
+              ],
+              "skillTags": [
+                "conceptual",
+                "vocabulary",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Comparisons"
+              ],
+              "order": 1,
+              "tutorial": "./content/tutorials/concept-spanish-subject-pronouns-ser.md",
+              "tests": []
+            },
+            {
+              "id": "concept-spanish-adjectives-agreement",
+              "title": "Adjectives and Agreement",
+              "description": "Describe people and things while matching adjective endings to the nouns they describe.",
+              "tags": [
+                "spanish",
+                "grammar",
+                "adjectives",
+                "agreement",
+                "descriptions"
+              ],
+              "skillTags": [
+                "conceptual",
+                "vocabulary",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Comparisons"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-spanish-adjectives-agreement.md",
+              "tests": []
+            },
+            {
+              "id": "concept-spanish-numbers-age-origin",
+              "title": "Numbers, Age, and Origin",
+              "description": "Use numbers, tener, and de to share age, origin, and simple personal information.",
+              "tags": [
+                "spanish",
+                "numbers",
+                "tener",
+                "origin",
+                "personal-information"
+              ],
+              "skillTags": [
+                "vocabulary",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication"
+              ],
+              "order": 3,
+              "tutorial": "./content/tutorials/concept-spanish-numbers-age-origin.md",
+              "tests": []
+            }
+          ]
+        },
+        {
+          "id": "spanish7-unit-school-and-everyday-life",
+          "title": "School and Everyday Life",
+          "description": "Practice language for classes, schedules, likes and dislikes, regular present-tense verbs, and simple everyday questions.",
+          "order": 3,
+          "concepts": [
+            {
+              "id": "concept-spanish-school-schedule",
+              "title": "School Subjects and Schedules",
+              "description": "Name school subjects, talk about schedules, and answer simple questions about classes.",
+              "tags": [
+                "spanish",
+                "school",
+                "schedule",
+                "questions",
+                "interpersonal"
+              ],
+              "skillTags": [
+                "vocabulary",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Connections"
+              ],
+              "order": 1,
+              "tutorial": "./content/tutorials/concept-spanish-school-schedule.md",
+              "tests": []
+            },
+            {
+              "id": "concept-spanish-likes-dislikes-gustar",
+              "title": "Likes and Dislikes with Gustar",
+              "description": "Use me gusta, no me gusta, and te gusta to talk about preferences and respond to classmates.",
+              "tags": [
+                "spanish",
+                "gustar",
+                "preferences",
+                "conversation",
+                "interpersonal"
+              ],
+              "skillTags": [
+                "conceptual",
+                "vocabulary",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Cultures"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-spanish-likes-dislikes-gustar.md",
+              "tests": []
+            },
+            {
+              "id": "concept-spanish-present-tense-regular-verbs",
+              "title": "Present Tense Regular Verbs",
+              "description": "Recognize and build simple present-tense sentences with regular -ar, -er, and -ir verbs.",
+              "tags": [
+                "spanish",
+                "grammar",
+                "present-tense",
+                "regular-verbs",
+                "communication"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": false
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Comparisons"
+              ],
+              "order": 3,
+              "tutorial": "./content/tutorials/concept-spanish-present-tense-regular-verbs.md",
+              "tests": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

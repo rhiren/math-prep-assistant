@@ -1,0 +1,667 @@
+{
+  "id": "spanish7-para-empezar-practice-core",
+  "testId": "spanish7-para-empezar-practice-core",
+  "conceptId": "concept-spanish-para-empezar-practice",
+  "title": "Para Empezar Practice Test",
+  "description": "Practice for the first Spanish packet: greetings, classroom phrases, classroom objects, months, numbers, and the Esteban reading.",
+  "questions": [
+    {
+      "id": "spanish7-para-empezar-practice-core-q01",
+      "type": "multiple_choice",
+      "questionText": "What does \"Buenos días\" mean?",
+      "options": [
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Goodbye"
+      ],
+      "correctAnswer": "Good morning",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "explanation": "\"Buenos días\" is the greeting for good morning."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish phrase means \"What is your name?\"",
+      "options": [
+        "¿Qué tal?",
+        "¿Cómo te llamas?",
+        "Hasta mañana.",
+        "Me llamo..."
+      ],
+      "correctAnswer": "¿Cómo te llamas?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "greetings",
+        "introductions"
+      ],
+      "explanation": "\"¿Cómo te llamas?\" asks someone what their name is."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q03",
+      "type": "multiple_choice",
+      "questionText": "A classmate asks, \"¿Cómo estás?\" Which answer from the packet fits?",
+      "options": [
+        "Hasta luego.",
+        "El lápiz.",
+        "Muy bien, gracias.",
+        "Enero."
+      ],
+      "correctAnswer": "Muy bien, gracias.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "how-are-you"
+      ],
+      "explanation": "\"¿Cómo estás?\" asks how you are, so \"Muy bien, gracias\" is a fitting response."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"See you tomorrow\"?",
+      "options": [
+        "Nos vemos.",
+        "Adiós.",
+        "Hasta luego.",
+        "Hasta mañana."
+      ],
+      "correctAnswer": "Hasta mañana.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "goodbyes"
+      ],
+      "explanation": "\"Hasta mañana\" means see you tomorrow."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q05",
+      "type": "multiple_choice",
+      "questionText": "What does \"señorita\" mean?",
+      "options": [
+        "sir",
+        "madam",
+        "miss",
+        "student"
+      ],
+      "correctAnswer": "miss",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "greetings",
+        "titles"
+      ],
+      "explanation": "\"Señorita\" is used for miss."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Which word means \"nothing\"?",
+      "options": [
+        "regular",
+        "nada",
+        "gracias",
+        "encantado"
+      ],
+      "correctAnswer": "nada",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "how-are-you"
+      ],
+      "explanation": "\"Nada\" means nothing."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Which classroom object is \"el bolígrafo\"?",
+      "options": [
+        "pencil",
+        "folder",
+        "notebook",
+        "pen"
+      ],
+      "correctAnswer": "pen",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom"
+      ],
+      "explanation": "\"El bolígrafo\" means pen."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q08",
+      "type": "multiple_choice",
+      "questionText": "What does \"la carpeta\" mean?",
+      "options": [
+        "folder",
+        "sheet of paper",
+        "desk",
+        "book"
+      ],
+      "correctAnswer": "folder",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom"
+      ],
+      "explanation": "\"La carpeta\" means folder."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q09",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish word means \"pencil\"?",
+      "options": [
+        "el libro",
+        "el lápiz",
+        "el pupitre",
+        "el cuaderno"
+      ],
+      "correctAnswer": "el lápiz",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom"
+      ],
+      "explanation": "\"El lápiz\" means pencil."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q10",
+      "type": "multiple_choice",
+      "questionText": "What does \"la sala de clases\" mean?",
+      "options": [
+        "student desk",
+        "notebook",
+        "teacher",
+        "classroom"
+      ],
+      "correctAnswer": "classroom",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom"
+      ],
+      "explanation": "\"La sala de clases\" means classroom."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q11",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"How many?\"",
+      "options": [
+        "¿Cuántos, -as?",
+        "Por favor",
+        "Hay",
+        "En"
+      ],
+      "correctAnswer": "¿Cuántos, -as?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "question-words"
+      ],
+      "explanation": "\"¿Cuántos, -as?\" asks how many."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q12",
+      "type": "multiple_choice",
+      "questionText": "What does \"hay\" mean?",
+      "options": [
+        "please",
+        "in",
+        "there is / there are",
+        "how many"
+      ],
+      "correctAnswer": "there is / there are",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "conceptual"
+      ],
+      "tags": [
+        "useful-words"
+      ],
+      "explanation": "\"Hay\" can mean there is or there are, depending on context."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q13",
+      "type": "multiple_choice",
+      "questionText": "Which month is \"agosto\"?",
+      "options": [
+        "April",
+        "August",
+        "October",
+        "December"
+      ],
+      "correctAnswer": "August",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "months"
+      ],
+      "explanation": "\"Agosto\" means August."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q14",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish month means \"January\"?",
+      "options": [
+        "marzo",
+        "abril",
+        "enero",
+        "junio"
+      ],
+      "correctAnswer": "enero",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "months"
+      ],
+      "explanation": "\"Enero\" means January."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q15",
+      "type": "multiple_choice",
+      "questionText": "What number is \"dieciséis\"?",
+      "options": [
+        "15",
+        "17",
+        "16",
+        "26"
+      ],
+      "correctAnswer": "16",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "explanation": "\"Dieciséis\" means 16."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q16",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish number means \"twenty-five\"?",
+      "options": [
+        "veinticinco",
+        "veinticuatro",
+        "veintiséis",
+        "treinta"
+      ],
+      "correctAnswer": "veinticinco",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "numbers"
+      ],
+      "explanation": "\"Veinticinco\" means twenty-five."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q17",
+      "type": "multiple_choice",
+      "questionText": "In the reading, what does \"vive\" mean?",
+      "options": [
+        "has",
+        "likes",
+        "makes",
+        "lives"
+      ],
+      "correctAnswer": "lives",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "\"Vive\" means lives."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q18",
+      "type": "multiple_choice",
+      "questionText": "In the reading, what does \"tiene\" mean?",
+      "options": [
+        "lives",
+        "has",
+        "says",
+        "visits"
+      ],
+      "correctAnswer": "has",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "\"Tiene\" means has."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q19",
+      "type": "multiple_choice",
+      "questionText": "Read: \"Hay un chico. Se llama Esteban.\" What is the best meaning?",
+      "options": [
+        "There is a teacher. Her name is Esteban.",
+        "There is a notebook. It is Esteban's.",
+        "There is a boy. His name is Esteban.",
+        "There is a lake. It is Esteban."
+      ],
+      "correctAnswer": "There is a boy. His name is Esteban.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "application"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "\"Hay\" means there is, \"chico\" means boy, and \"se llama\" tells his name."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q20",
+      "type": "multiple_choice",
+      "questionText": "According to the Esteban reading, where is Esteban from?",
+      "options": [
+        "California",
+        "Guatemala",
+        "Spain",
+        "Mexico"
+      ],
+      "correctAnswer": "Guatemala",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "The reading says, \"Esteban es de Guatemala.\""
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q21",
+      "type": "multiple_choice",
+      "questionText": "According to the reading, Esteban's birthday is on the 26th of which month?",
+      "options": [
+        "junio",
+        "septiembre",
+        "agosto",
+        "noviembre"
+      ],
+      "correctAnswer": "agosto",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "vocabulary"
+      ],
+      "tags": [
+        "reading",
+        "months",
+        "esteban"
+      ],
+      "explanation": "The reading says, \"El cumpleaños de Esteban es el 26 de agosto.\""
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q22",
+      "type": "multiple_choice",
+      "questionText": "Read: \"Esteban tiene tres hermanas.\" What does this tell us?",
+      "options": [
+        "Esteban has three sisters.",
+        "Esteban has three pencils.",
+        "Esteban likes three fish.",
+        "Esteban lives near three lakes."
+      ],
+      "correctAnswer": "Esteban has three sisters.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "vocabulary"
+      ],
+      "tags": [
+        "reading",
+        "numbers",
+        "esteban"
+      ],
+      "explanation": "\"Tiene\" means has, \"tres\" means three, and \"hermanas\" means sisters."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q23",
+      "type": "multiple_choice",
+      "questionText": "In the reading, what does \"el lago\" mean?",
+      "options": [
+        "the water",
+        "the classroom",
+        "the fish",
+        "the lake"
+      ],
+      "correctAnswer": "the lake",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "\"El lago\" means the lake."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q24",
+      "type": "multiple_choice",
+      "questionText": "What does \"A Esteban le gusta el lago\" mean?",
+      "options": [
+        "Esteban likes the lake.",
+        "Esteban has the lake.",
+        "Esteban lives in the lake.",
+        "Esteban says the lake."
+      ],
+      "correctAnswer": "Esteban likes the lake.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "tags": [
+        "reading",
+        "gustar",
+        "esteban"
+      ],
+      "explanation": "In this sentence, \"le gusta\" means he likes."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q25",
+      "type": "multiple_choice",
+      "questionText": "Read: \"Le gusta el agua porque es azul.\" Why does he like the water?",
+      "options": [
+        "because it is near",
+        "because it is blue",
+        "because it is new",
+        "because it is a fish"
+      ],
+      "correctAnswer": "because it is blue",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "\"Porque\" means because, and \"azul\" means blue."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q26",
+      "type": "multiple_choice",
+      "questionText": "Which sentence from the reading tells that there are many fish in the lake?",
+      "options": [
+        "Hay muchos peces en el lago.",
+        "Esteban dice hola.",
+        "Tiene una familia grande.",
+        "Deetya responde."
+      ],
+      "correctAnswer": "Hay muchos peces en el lago.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "vocabulary"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "\"Hay muchos peces en el lago\" means there are many fish in the lake."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q27",
+      "type": "multiple_choice",
+      "questionText": "In the dialogue, Esteban says, \"Hola, me llamo Esteban. ¿Cómo te llamas?\" What is he asking?",
+      "options": [
+        "Where are you from?",
+        "How old are you?",
+        "What class do you have?",
+        "What is your name?"
+      ],
+      "correctAnswer": "What is your name?",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "tags": [
+        "reading",
+        "greetings",
+        "esteban"
+      ],
+      "explanation": "\"¿Cómo te llamas?\" means what is your name?"
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q28",
+      "type": "multiple_choice",
+      "questionText": "What does \"¿De dónde eres?\" mean?",
+      "options": [
+        "Where are you from?",
+        "What is your name?",
+        "How are you?",
+        "See you later."
+      ],
+      "correctAnswer": "Where are you from?",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "application"
+      ],
+      "tags": [
+        "reading",
+        "origin"
+      ],
+      "explanation": "\"¿De dónde eres?\" asks where someone is from."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q29",
+      "type": "multiple_choice",
+      "questionText": "In the reading, what does \"hace\" mean?",
+      "options": [
+        "visits",
+        "explains",
+        "makes",
+        "likes"
+      ],
+      "correctAnswer": "makes",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "\"Hace\" means makes."
+    },
+    {
+      "id": "spanish7-para-empezar-practice-core-q30",
+      "type": "multiple_choice",
+      "questionText": "At the end of the Esteban story, what happens?",
+      "options": [
+        "Esteban makes a new friend.",
+        "Esteban loses his notebook.",
+        "Esteban moves to California.",
+        "Esteban says goodbye to his sisters."
+      ],
+      "correctAnswer": "Esteban makes a new friend.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning"
+      ],
+      "tags": [
+        "reading",
+        "esteban"
+      ],
+      "explanation": "The reading says, \"Al final Esteban hace una nueva amiga.\" That means Esteban makes a new friend."
+    }
+  ]
+}

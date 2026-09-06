@@ -9,6 +9,18 @@ interface SubjectCourseGroup {
   courses: Course[];
 }
 
+function getSubjectIcon(subjectId: string) {
+  if (subjectId === "science") {
+    return "🧪";
+  }
+
+  if (subjectId === "spanish") {
+    return "💬";
+  }
+
+  return "📘";
+}
+
 export function CoursesPage() {
   const { contentRepository } = useAppServices();
   const [courses, setCourses] = useState<Course[]>([]);
@@ -50,7 +62,7 @@ export function CoursesPage() {
       </div>
 
       {subjectGroups.map((group) => {
-        const subjectIcon = group.subjectId === "science" ? "🧪" : "📘";
+        const subjectIcon = getSubjectIcon(group.subjectId);
         const sortedCourses = [...group.courses].sort(
           (left, right) => left.order - right.order || left.title.localeCompare(right.title),
         );
