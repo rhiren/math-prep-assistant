@@ -1,0 +1,397 @@
+{
+  "id": "spanish7-greetings-introductions-core",
+  "testId": "spanish7-greetings-introductions-core",
+  "conceptId": "concept-spanish-greetings-introductions",
+  "title": "Greetings and Introductions Core Test",
+  "description": "Core practice for greetings, introductions, how-are-you questions, titles, and goodbyes.",
+  "questions": [
+    {
+      "id": "spanish7-greetings-introductions-core-q01",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish greeting means \"Good afternoon\"?",
+      "options": [
+        "Buenos días.",
+        "Buenas noches.",
+        "Buenas tardes.",
+        "Hasta luego."
+      ],
+      "correctAnswer": "Buenas tardes.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "explanation": "\"Buenas tardes\" means good afternoon."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q02",
+      "type": "multiple_choice",
+      "questionText": "What does \"¡Hola!\" mean?",
+      "options": [
+        "Hello!",
+        "Goodbye!",
+        "Thank you!",
+        "See you tomorrow!"
+      ],
+      "correctAnswer": "Hello!",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "explanation": "\"¡Hola!\" means hello."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q03",
+      "type": "multiple_choice",
+      "questionText": "Which phrase asks \"How are you?\" in a familiar way?",
+      "options": [
+        "¿Cómo está Ud.?",
+        "¿Cómo estás?",
+        "¿Cómo te llamas?",
+        "¿De dónde eres?"
+      ],
+      "correctAnswer": "¿Cómo estás?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "conceptual"
+      ],
+      "tags": [
+        "how-are-you"
+      ],
+      "explanation": "\"¿Cómo estás?\" is the familiar way to ask how someone is."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which phrase asks \"How are you?\" in a formal way?",
+      "options": [
+        "¿Qué pasa?",
+        "¿Y tú?",
+        "¿Cómo está Ud.?",
+        "Me llamo..."
+      ],
+      "correctAnswer": "¿Cómo está Ud.?",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "conceptual"
+      ],
+      "tags": [
+        "how-are-you",
+        "formal"
+      ],
+      "explanation": "\"Ud.\" stands for usted, so \"¿Cómo está Ud.?\" is formal."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q05",
+      "type": "multiple_choice",
+      "questionText": "A person says, \"¿Cómo te llamas?\" What should you answer?",
+      "options": [
+        "Me llamo Maya.",
+        "Hasta mañana.",
+        "Muy bien.",
+        "El cuaderno."
+      ],
+      "correctAnswer": "Me llamo Maya.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "introductions"
+      ],
+      "explanation": "\"¿Cómo te llamas?\" asks your name, so \"Me llamo Maya\" answers with a name."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"Pleased to meet you\"?",
+      "options": [
+        "Nada.",
+        "Mucho gusto.",
+        "Gracias.",
+        "¿Qué tal?"
+      ],
+      "correctAnswer": "Mucho gusto.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "introductions"
+      ],
+      "explanation": "\"Mucho gusto\" means pleased to meet you."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q07",
+      "type": "multiple_choice",
+      "questionText": "After someone says \"Mucho gusto,\" which response means \"Likewise\"?",
+      "options": [
+        "Igualmente.",
+        "Señor.",
+        "Buenas noches.",
+        "Regular."
+      ],
+      "correctAnswer": "Igualmente.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "introductions"
+      ],
+      "explanation": "\"Igualmente\" means likewise."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q08",
+      "type": "multiple_choice",
+      "questionText": "What does \"¿Qué pasa?\" mean?",
+      "options": [
+        "What is your name?",
+        "What is happening?",
+        "Where are you from?",
+        "See you later."
+      ],
+      "correctAnswer": "What is happening?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "how-are-you"
+      ],
+      "explanation": "\"¿Qué pasa?\" means what is happening."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q09",
+      "type": "multiple_choice",
+      "questionText": "Which answer means \"so-so\" or \"okay\"?",
+      "options": [
+        "Regular.",
+        "Encantada.",
+        "Hasta luego.",
+        "Señora."
+      ],
+      "correctAnswer": "Regular.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "how-are-you"
+      ],
+      "explanation": "\"Regular\" can mean okay or so-so."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q10",
+      "type": "multiple_choice",
+      "questionText": "Which word means \"thank you\"?",
+      "options": [
+        "Gracias.",
+        "Nada.",
+        "Adiós.",
+        "Señor."
+      ],
+      "correctAnswer": "Gracias.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "politeness"
+      ],
+      "explanation": "\"Gracias\" means thank you."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q11",
+      "type": "multiple_choice",
+      "questionText": "Which title means \"sir\" or \"Mr.\"?",
+      "options": [
+        "Señorita",
+        "Señora",
+        "Señor",
+        "Estudiante"
+      ],
+      "correctAnswer": "Señor",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "titles"
+      ],
+      "explanation": "\"Señor\" means sir or Mr."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q12",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"See you later\"?",
+      "options": [
+        "Hasta mañana.",
+        "Nos vemos.",
+        "Hasta luego.",
+        "Buenos días."
+      ],
+      "correctAnswer": "Hasta luego.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "goodbyes"
+      ],
+      "explanation": "\"Hasta luego\" means see you later."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q13",
+      "type": "multiple_choice",
+      "questionText": "Choose the best short conversation.",
+      "options": [
+        "A: ¿Cómo te llamas? B: Me llamo Ana.",
+        "A: ¿Cómo te llamas? B: Hasta mañana.",
+        "A: ¿Cómo te llamas? B: El libro.",
+        "A: ¿Cómo te llamas? B: Enero."
+      ],
+      "correctAnswer": "A: ¿Cómo te llamas? B: Me llamo Ana.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "tags": [
+        "introductions",
+        "conversation"
+      ],
+      "explanation": "The question asks for a name, and \"Me llamo Ana\" gives a name."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q14",
+      "type": "multiple_choice",
+      "questionText": "Your teacher enters class in the morning. Which greeting fits best?",
+      "options": [
+        "Buenas noches.",
+        "Buenos días.",
+        "Hasta luego.",
+        "Nos vemos."
+      ],
+      "correctAnswer": "Buenos días.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "greetings"
+      ],
+      "explanation": "In the morning, use \"Buenos días.\""
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q15",
+      "type": "multiple_choice",
+      "questionText": "Which phrase would you use to ask \"And you?\" after answering how you are?",
+      "options": [
+        "¿Y tú?",
+        "Nada.",
+        "Me llamo...",
+        "¡Adiós!"
+      ],
+      "correctAnswer": "¿Y tú?",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "conversation",
+        "how-are-you"
+      ],
+      "explanation": "\"¿Y tú?\" means and you."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q16",
+      "type": "multiple_choice",
+      "questionText": "Which word means \"madam\" or \"Mrs.\"?",
+      "options": [
+        "Señor",
+        "Señora",
+        "Señorita",
+        "Igualmente"
+      ],
+      "correctAnswer": "Señora",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "titles"
+      ],
+      "explanation": "\"Señora\" means madam or Mrs."
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q17",
+      "type": "multiple_choice",
+      "questionText": "Which response best completes this dialogue? A: \"Mucho gusto.\" B: \"____\"",
+      "options": [
+        "Igualmente.",
+        "¿Qué pasa?",
+        "Buenas tardes.",
+        "Señorita."
+      ],
+      "correctAnswer": "Igualmente.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "tags": [
+        "conversation",
+        "introductions"
+      ],
+      "explanation": "\"Igualmente\" is a natural response to \"Mucho gusto.\""
+    },
+    {
+      "id": "spanish7-greetings-introductions-core-q18",
+      "type": "multiple_choice",
+      "questionText": "Which sequence makes sense for meeting someone?",
+      "options": [
+        "Goodbye -> name question -> hello",
+        "Hello -> name question -> pleased to meet you",
+        "Thank you -> month -> pencil",
+        "So-so -> see you tomorrow -> notebook"
+      ],
+      "correctAnswer": "Hello -> name question -> pleased to meet you",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "application"
+      ],
+      "tags": [
+        "conversation",
+        "introductions"
+      ],
+      "explanation": "A meeting usually starts with a greeting, then names, then a polite response like \"Mucho gusto.\""
+    }
+  ]
+}
