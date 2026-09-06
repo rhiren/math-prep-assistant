@@ -1,0 +1,654 @@
+{
+  "id": "science7-homeostasis-feedback-body-systems-core",
+  "testId": "science7-homeostasis-feedback-body-systems-core",
+  "conceptId": "concept-homeostasis-feedback-body-systems",
+  "title": "Homeostasis and Feedback in Body Systems Core Test",
+  "description": "Use feedback models, data, and system interactions to explain how bodies keep cells working.",
+  "questions": [
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q1",
+      "type": "multiple_choice",
+      "prompt": "A runner's heart rate rises during exercise and lowers during rest. What does this pattern show?",
+      "questionText": "A runner's heart rate rises during exercise and lowers during rest. What does this pattern show?",
+      "options": [
+        "Body systems can adjust to changing cell needs.",
+        "The circulatory system disappears during rest.",
+        "Cells stop needing materials during exercise.",
+        "Heart rate is unrelated to activity."
+      ],
+      "correctAnswer": "Body systems can adjust to changing cell needs.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Heart rate changes help deliver materials when cells need more energy."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q2",
+      "type": "multiple_choice",
+      "prompt": "Which sequence best shows a feedback pathway for body temperature?",
+      "questionText": "Which sequence best shows a feedback pathway for body temperature?",
+      "options": [
+        "response -> no stimulus -> no receptors",
+        "stimulus -> receptors -> signals -> control center -> response",
+        "digestion -> bone -> light -> response",
+        "control center -> no signals -> no body change"
+      ],
+      "correctAnswer": "stimulus -> receptors -> signals -> control center -> response",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Feedback uses detection, signaling, processing, and response."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q3",
+      "type": "multiple_choice",
+      "prompt": "A person sweats on a hot day. Which function does sweating support?",
+      "questionText": "A person sweats on a hot day. Which function does sweating support?",
+      "options": [
+        "making food molecules",
+        "turning bones into muscles",
+        "helping cool the body",
+        "stopping all cell activity"
+      ],
+      "correctAnswer": "helping cool the body",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Sweating helps remove heat as water evaporates from skin."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q4",
+      "type": "multiple_choice",
+      "prompt": "Which body systems interact when breathing rate increases during exercise?",
+      "questionText": "Which body systems interact when breathing rate increases during exercise?",
+      "options": [
+        "only the skeletal system",
+        "only the digestive system",
+        "no body systems",
+        "respiratory, circulatory, muscular, and nervous systems"
+      ],
+      "correctAnswer": "respiratory, circulatory, muscular, and nervous systems",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Exercise responses involve several interacting systems."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"The body responds randomly to changes.\" Which evidence best challenges that claim?",
+      "questionText": "A student says, \"The body responds randomly to changes.\" Which evidence best challenges that claim?",
+      "options": [
+        "Heart rate and breathing rate predictably rise during activity.",
+        "Shoes can be different colors.",
+        "A stopwatch has buttons.",
+        "Exercise can happen outdoors."
+      ],
+      "correctAnswer": "Heart rate and breathing rate predictably rise during activity.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Predictable changes show coordinated responses."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A model shows low water level in the body -> thirst -> drinking water. What does the model show?",
+      "questionText": "A model shows low water level in the body -> thirst -> drinking water. What does the model show?",
+      "options": [
+        "a food web",
+        "a response that helps restore internal balance",
+        "photosynthesis in cells",
+        "common ancestry"
+      ],
+      "correctAnswer": "a response that helps restore internal balance",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Thirst can help the body respond to low water levels."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q7",
+      "type": "multiple_choice",
+      "prompt": "Which evidence supports that the nervous system helps regulate responses?",
+      "questionText": "Which evidence supports that the nervous system helps regulate responses?",
+      "options": [
+        "The nervous system is always visible from outside.",
+        "Bones create nerve signals without cells.",
+        "Signals from receptors are processed before muscles or glands respond.",
+        "All responses happen without detection."
+      ],
+      "correctAnswer": "Signals from receptors are processed before muscles or glands respond.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Receptors and signals help the body detect and respond to changes."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q8",
+      "type": "multiple_choice",
+      "prompt": "A person shivers in cold air. Which explanation best connects systems and cells?",
+      "questionText": "A person shivers in cold air. Which explanation best connects systems and cells?",
+      "options": [
+        "Shivering makes cells unnecessary.",
+        "Cold air creates new muscles.",
+        "The response has no purpose.",
+        "Muscle activity produces heat that helps maintain conditions for cells."
+      ],
+      "correctAnswer": "Muscle activity produces heat that helps maintain conditions for cells.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Shivering uses muscles to produce heat."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Which data would best show that the body responds to exercise?",
+      "questionText": "Which data would best show that the body responds to exercise?",
+      "options": [
+        "pulse and breathing rate before, during, and after exercise",
+        "favorite sport survey only",
+        "shoe size before exercise",
+        "number of windows in the gym"
+      ],
+      "correctAnswer": "pulse and breathing rate before, during, and after exercise",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Pulse and breathing rate track body responses to changing activity."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q10",
+      "type": "multiple_choice",
+      "prompt": "A student writes: stimulus -> response -> receptor -> brain. What correction is best?",
+      "questionText": "A student writes: stimulus -> response -> receptor -> brain. What correction is best?",
+      "options": [
+        "The response should happen before detection.",
+        "Receptors detect the stimulus before the response.",
+        "The receptor should be removed.",
+        "The brain is always first before any stimulus exists."
+      ],
+      "correctAnswer": "Receptors detect the stimulus before the response.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Detection comes before processing and response."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q11",
+      "type": "multiple_choice",
+      "prompt": "Why is feedback important for multicellular organisms?",
+      "questionText": "Why is feedback important for multicellular organisms?",
+      "options": [
+        "It prevents cells from needing materials.",
+        "It makes every system work alone.",
+        "It helps keep internal conditions within workable ranges for cells.",
+        "It stops all responses to the environment."
+      ],
+      "correctAnswer": "It helps keep internal conditions within workable ranges for cells.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cells need stable internal conditions to function."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q12",
+      "type": "multiple_choice",
+      "prompt": "A person smells smoke and leaves a room. Which part of the pathway is the stimulus?",
+      "questionText": "A person smells smoke and leaves a room. Which part of the pathway is the stimulus?",
+      "options": [
+        "walking out of the room",
+        "stored memory only",
+        "leg muscle contraction only",
+        "smoke chemicals in the air"
+      ],
+      "correctAnswer": "smoke chemicals in the air",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "The stimulus is the environmental information detected by receptors."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Which claim is supported when body temperature stays near 37 C in a warm and cool room?",
+      "questionText": "Which claim is supported when body temperature stays near 37 C in a warm and cool room?",
+      "options": [
+        "The body can regulate internal temperature across different external conditions.",
+        "The room has no effect on the body.",
+        "Cells do not need stable conditions.",
+        "Temperature cannot be measured."
+      ],
+      "correctAnswer": "The body can regulate internal temperature across different external conditions.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Maintaining similar internal temperature suggests regulation."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q14",
+      "type": "multiple_choice",
+      "prompt": "A model leaves out blood flow during temperature regulation. What weakness does it have?",
+      "questionText": "A model leaves out blood flow during temperature regulation. What weakness does it have?",
+      "options": [
+        "It includes too many cells.",
+        "It misses one way heat can be moved around the body.",
+        "It explains food webs perfectly.",
+        "It proves blood is not involved in systems."
+      ],
+      "correctAnswer": "It misses one way heat can be moved around the body.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Blood flow helps move heat and materials."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Which example best shows a body response matching a stimulus?",
+      "questionText": "Which example best shows a body response matching a stimulus?",
+      "options": [
+        "hunger -> pupil color changes permanently",
+        "sound -> bones disappear",
+        "bright light -> pupils get smaller",
+        "exercise -> cells stop using oxygen"
+      ],
+      "correctAnswer": "bright light -> pupils get smaller",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Pupil size can respond to light level."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Fast responses do not use the nervous system.\" Which evidence best corrects the idea?",
+      "questionText": "A student says, \"Fast responses do not use the nervous system.\" Which evidence best corrects the idea?",
+      "options": [
+        "Fast means no signals exist.",
+        "The digestive system controls every fast response.",
+        "Receptors are used only in slow responses.",
+        "Some nervous-system pathways can trigger responses very quickly."
+      ],
+      "correctAnswer": "Some nervous-system pathways can trigger responses very quickly.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fast responses can still depend on nerves and receptors."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q17",
+      "type": "multiple_choice",
+      "prompt": "Which question would best test whether sweating helps cooling?",
+      "questionText": "Which question would best test whether sweating helps cooling?",
+      "options": [
+        "Does skin temperature change after sweating under controlled conditions?",
+        "What color is the towel?",
+        "Which day of the week is warmest?",
+        "Can the word sweat be spelled correctly?"
+      ],
+      "correctAnswer": "Does skin temperature change after sweating under controlled conditions?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A controlled measurement can test the cooling effect."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q18",
+      "type": "multiple_choice",
+      "prompt": "A graph shows blood sugar rising after a meal and later returning toward normal. Which claim is best supported?",
+      "questionText": "A graph shows blood sugar rising after a meal and later returning toward normal. Which claim is best supported?",
+      "options": [
+        "Blood sugar never changes.",
+        "Body systems help regulate internal nutrient levels.",
+        "Meals stop all regulation.",
+        "Cells do not use nutrients."
+      ],
+      "correctAnswer": "Body systems help regulate internal nutrient levels.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A rise and return pattern suggests regulation."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Which model revision would improve: exercise -> tired?",
+      "questionText": "Which model revision would improve: exercise -> tired?",
+      "options": [
+        "exercise -> no oxygen -> no systems",
+        "exercise -> bones make food",
+        "exercise -> muscle cell energy demand increases -> breathing and heart rate rise -> materials move faster",
+        "exercise -> cells stop needing energy"
+      ],
+      "correctAnswer": "exercise -> muscle cell energy demand increases -> breathing and heart rate rise -> materials move faster",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The improved model explains intermediate system interactions."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A person is dehydrated. Which response would most directly help restore water balance?",
+      "questionText": "A person is dehydrated. Which response would most directly help restore water balance?",
+      "options": [
+        "breathing less oxygen forever",
+        "stopping all nerve signals",
+        "turning food into sunlight",
+        "feeling thirsty and drinking water"
+      ],
+      "correctAnswer": "feeling thirsty and drinking water",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Drinking water addresses low water level."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken the claim that heart rate changes are unrelated to activity?",
+      "questionText": "Which evidence would weaken the claim that heart rate changes are unrelated to activity?",
+      "options": [
+        "Repeated trials show heart rate rises during exercise and returns near resting after rest.",
+        "A heart has chambers.",
+        "The student used a pencil.",
+        "Exercise can be done outside."
+      ],
+      "correctAnswer": "Repeated trials show heart rate rises during exercise and returns near resting after rest.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A repeated pattern linked to activity weakens the claim."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Why is one body system alone usually not enough to explain exercise?",
+      "questionText": "Why is one body system alone usually not enough to explain exercise?",
+      "options": [
+        "Exercise does not involve cells.",
+        "Cells need oxygen, food molecules, signals, support, and waste removal from multiple systems.",
+        "Only bones use energy.",
+        "The nervous system replaces oxygen."
+      ],
+      "correctAnswer": "Cells need oxygen, food molecules, signals, support, and waste removal from multiple systems.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Exercise requires several systems interacting to support cells."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q23",
+      "type": "multiple_choice",
+      "prompt": "A student claims feedback always makes a condition increase. What is the best correction?",
+      "questionText": "A student claims feedback always makes a condition increase. What is the best correction?",
+      "options": [
+        "Feedback can only increase everything.",
+        "Feedback never changes body conditions.",
+        "Some feedback responses reduce a change and help restore balance.",
+        "Responses happen before stimuli."
+      ],
+      "correctAnswer": "Some feedback responses reduce a change and help restore balance.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Many regulation responses counteract a change."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q24",
+      "type": "multiple_choice",
+      "prompt": "Which scenario best shows regulation rather than random change?",
+      "questionText": "Which scenario best shows regulation rather than random change?",
+      "options": [
+        "a notebook falls off a table",
+        "a rock sits in sunlight",
+        "a label is moved to another desk",
+        "breathing rate increases when carbon dioxide rises during activity"
+      ],
+      "correctAnswer": "breathing rate increases when carbon dioxide rises during activity",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The response matches an internal condition created by activity."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q25",
+      "type": "multiple_choice",
+      "prompt": "A model includes stimulus and response but not receptors. What key idea is missing?",
+      "questionText": "A model includes stimulus and response but not receptors. What key idea is missing?",
+      "options": [
+        "how the body detects the change",
+        "how fossils form",
+        "how producers make sugar",
+        "how populations change over generations"
+      ],
+      "correctAnswer": "how the body detects the change",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Receptors detect stimuli and start information flow."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best connects feedback to homeostasis?",
+      "questionText": "Which explanation best connects feedback to homeostasis?",
+      "options": [
+        "Homeostasis means nothing changes anywhere.",
+        "Feedback uses information and responses to keep internal conditions in a workable range.",
+        "Feedback removes the need for cells.",
+        "Responses never depend on information."
+      ],
+      "correctAnswer": "Feedback uses information and responses to keep internal conditions in a workable range.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Homeostasis is maintaining workable internal conditions."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q27",
+      "type": "multiple_choice",
+      "prompt": "A person moves from shade into strong sunlight. Which response is most directly related to light detection?",
+      "questionText": "A person moves from shade into strong sunlight. Which response is most directly related to light detection?",
+      "options": [
+        "stomach digests faster because light is loud",
+        "bones make eye signals",
+        "pupils get smaller after eye receptors detect bright light",
+        "cells stop using energy"
+      ],
+      "correctAnswer": "pupils get smaller after eye receptors detect bright light",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Eye receptors detect light, and pupil size can respond."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern best supports a feedback explanation?",
+      "questionText": "Which data pattern best supports a feedback explanation?",
+      "options": [
+        "A variable is never measured.",
+        "Only one unrelated number is recorded.",
+        "The labels are alphabetical.",
+        "A variable moves away from normal, a response occurs, and the variable moves back toward normal."
+      ],
+      "correctAnswer": "A variable moves away from normal, a response occurs, and the variable moves back toward normal.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Feedback often shows a change followed by a response and partial return."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation best shows understanding of body feedback?",
+      "questionText": "Which final explanation best shows understanding of body feedback?",
+      "options": [
+        "Body systems use receptors, signals, and responses to adjust conditions so cells can keep working.",
+        "Body systems respond randomly.",
+        "Cells do not depend on internal conditions.",
+        "Receptors act after responses are finished."
+      ],
+      "correctAnswer": "Body systems use receptors, signals, and responses to adjust conditions so cells can keep working.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects feedback pathways, body systems, and cell needs."
+    },
+    {
+      "id": "science7-homeostasis-feedback-body-systems-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which question pushes beyond memorizing the pathway?",
+      "questionText": "Which question pushes beyond memorizing the pathway?",
+      "options": [
+        "How many letters are in receptor?",
+        "What would happen to the response if the receptor could not detect the stimulus?",
+        "Is the diagram colorful?",
+        "Can the arrows be longer?"
+      ],
+      "correctAnswer": "What would happen to the response if the receptor could not detect the stimulus?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Changing one part of the model tests understanding of the system."
+    }
+  ]
+}

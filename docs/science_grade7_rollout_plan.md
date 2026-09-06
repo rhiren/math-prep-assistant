@@ -142,9 +142,13 @@ Target mix for a full review test:
 | Unit | Concept | Tutorial | Core Test | Review Test | Transfer Coverage | Status |
 |---|---|---:|---:|---:|---:|---|
 | Cells and Living Systems | Cells and Living Things | yes | yes | yes | yes | Practice ready |
+| Cells and Living Systems | Cell Specialization and Microscopy Evidence | yes | yes | yes | yes | Practice ready |
 | Body Systems and Information Processing | Body Systems and Information Processing | yes | yes | yes | yes | Practice ready |
+| Body Systems and Information Processing | Homeostasis and Feedback in Body Systems | yes | yes | yes | yes | Practice ready |
 | Growth and Energy Flow | Growth, Photosynthesis, and Cellular Respiration | yes | yes | yes | yes | Practice ready |
+| Growth and Energy Flow | Matter and Energy Transfer in Organisms | yes | yes | yes | yes | Practice ready |
 | Ecosystems | Ecosystem Interactions and Dynamics | yes | yes | yes | yes | Practice ready |
+| Ecosystems | Population Data and Ecosystem Stability | yes | yes | yes | yes | Practice ready |
 | Genetics and Inheritance | Genetics, Inheritance, and Variation | yes | yes | yes | yes | Practice ready |
 | Evolution and Earth/Life History | Evolution Evidence and Life History | yes | yes | yes | yes | Practice ready |
 | Evolution and Earth/Life History | Natural Selection and Adaptation | yes | yes | yes | yes | Practice ready |

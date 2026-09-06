@@ -1,0 +1,652 @@
+{
+  "id": "science7-population-data-ecosystem-stability-core",
+  "testId": "science7-population-data-ecosystem-stability-core",
+  "conceptId": "concept-population-data-ecosystem-stability",
+  "title": "Population Data and Ecosystem Stability Core Test",
+  "description": "Interpret population graphs, resource limits, food-web ripple effects, and ecosystem stability.",
+  "questions": [
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What is a population?",
+      "questionText": "What is a population?",
+      "options": [
+        "members of the same species living in the same area",
+        "all nonliving parts of an ecosystem",
+        "every organism on Earth",
+        "only the largest predator"
+      ],
+      "correctAnswer": "members of the same species living in the same area",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A population is one species in a defined area."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q2",
+      "type": "multiple_choice",
+      "prompt": "A pond has limited nesting space. Which interaction may increase?",
+      "questionText": "A pond has limited nesting space. Which interaction may increase?",
+      "options": [
+        "photosynthesis",
+        "competition",
+        "fossilization",
+        "cell specialization"
+      ],
+      "correctAnswer": "competition",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Limited resources can increase competition."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Which data best shows a population trend?",
+      "questionText": "Which data best shows a population trend?",
+      "options": [
+        "one drawing of a leaf",
+        "the color of a notebook",
+        "deer count each year for ten years",
+        "a list of ecosystem vocabulary"
+      ],
+      "correctAnswer": "deer count each year for ten years",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Counts over time can show a trend."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q4",
+      "type": "multiple_choice",
+      "prompt": "A food web shows grass -> rabbits -> foxes. If grass decreases after drought, what may happen first?",
+      "questionText": "A food web shows grass -> rabbits -> foxes. If grass decreases after drought, what may happen first?",
+      "options": [
+        "foxes begin photosynthesis",
+        "rabbits stop needing energy",
+        "grass becomes a predator",
+        "rabbits may have less food available"
+      ],
+      "correctAnswer": "rabbits may have less food available",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A producer decrease can reduce food for herbivores."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"A population always grows if no predators are present.\" Which correction is best?",
+      "questionText": "A student says, \"A population always grows if no predators are present.\" Which correction is best?",
+      "options": [
+        "Food, water, space, disease, and other factors can also limit growth.",
+        "Predators are the only limit.",
+        "Resources never matter.",
+        "Populations cannot change."
+      ],
+      "correctAnswer": "Food, water, space, disease, and other factors can also limit growth.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Many factors can limit population size."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A graph shows a population rising quickly, then leveling off. Which explanation is most reasonable?",
+      "questionText": "A graph shows a population rising quickly, then leveling off. Which explanation is most reasonable?",
+      "options": [
+        "The graph proves resources are unlimited.",
+        "The population may be approaching a resource limit.",
+        "The population stopped being living.",
+        "The x-axis controls the ecosystem."
+      ],
+      "correctAnswer": "The population may be approaching a resource limit.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Leveling off can suggest carrying capacity or resource limits."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q7",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows a ripple effect?",
+      "questionText": "Which model best shows a ripple effect?",
+      "options": [
+        "drought -> more water -> more fish",
+        "plants -> no consumers -> no food web",
+        "drought -> fewer plants -> fewer insects -> fewer insect-eating birds",
+        "birds -> sunlight -> no resources"
+      ],
+      "correctAnswer": "drought -> fewer plants -> fewer insects -> fewer insect-eating birds",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "A change can ripple through connected populations."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which evidence supports that a predator affected a prey population?",
+      "questionText": "Which evidence supports that a predator affected a prey population?",
+      "options": [
+        "The predator has a short name.",
+        "The habitat has rocks.",
+        "The graph title is bold.",
+        "Prey numbers dropped after predator numbers increased, while food supply stayed similar."
+      ],
+      "correctAnswer": "Prey numbers dropped after predator numbers increased, while food supply stayed similar.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "A timing pattern with food controlled can support a predator effect."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q9",
+      "type": "multiple_choice",
+      "prompt": "A lake receives extra nutrients, algae increases, oxygen drops, and fish decrease. Which factor directly stresses fish?",
+      "questionText": "A lake receives extra nutrients, algae increases, oxygen drops, and fish decrease. Which factor directly stresses fish?",
+      "options": [
+        "lower dissolved oxygen",
+        "more labels",
+        "larger graph paper",
+        "shorter ecosystem name"
+      ],
+      "correctAnswer": "lower dissolved oxygen",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fish need dissolved oxygen, so low oxygen can stress them."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which investigation best tests whether food limits a population?",
+      "questionText": "Which investigation best tests whether food limits a population?",
+      "options": [
+        "Count one organism once.",
+        "Compare population growth in similar habitats with different food amounts.",
+        "Use habitats that differ in every possible way.",
+        "Ask which habitat looks nicer."
+      ],
+      "correctAnswer": "Compare population growth in similar habitats with different food amounts.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "A fair comparison changes food while keeping other factors similar."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q11",
+      "type": "multiple_choice",
+      "prompt": "What does biodiversity often add to ecosystem stability?",
+      "questionText": "What does biodiversity often add to ecosystem stability?",
+      "options": [
+        "guaranteed protection from every disturbance",
+        "no need for producers",
+        "alternative roles and resources when one population changes",
+        "all populations becoming identical"
+      ],
+      "correctAnswer": "alternative roles and resources when one population changes",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Diversity can provide backup interactions and resources."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q12",
+      "type": "multiple_choice",
+      "prompt": "A student sees two populations rising together and claims one caused the other. What should they ask?",
+      "questionText": "A student sees two populations rising together and claims one caused the other. What should they ask?",
+      "options": [
+        "Which line color is better?",
+        "Can the graph be printed larger?",
+        "Do both species have names?",
+        "Is there evidence of a direct interaction or another factor affecting both?"
+      ],
+      "correctAnswer": "Is there evidence of a direct interaction or another factor affecting both?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Correlation alone does not prove cause."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern could show predator-prey cycling?",
+      "questionText": "Which data pattern could show predator-prey cycling?",
+      "options": [
+        "prey increases, predator increases later, prey decreases, predator decreases later",
+        "both lines stay blank",
+        "only one count is recorded",
+        "the graph has no axis labels"
+      ],
+      "correctAnswer": "prey increases, predator increases later, prey decreases, predator decreases later",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Predator and prey populations can affect each other with time delays."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q14",
+      "type": "multiple_choice",
+      "prompt": "A habitat corridor connects two separated forest patches. Which population effect might it support?",
+      "questionText": "A habitat corridor connects two separated forest patches. Which population effect might it support?",
+      "options": [
+        "all competition disappears",
+        "organisms can move between patches more easily",
+        "resources become unlimited",
+        "predators stop needing food"
+      ],
+      "correctAnswer": "organisms can move between patches more easily",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Corridors can increase movement between habitat patches."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Which model revision improves: pollution -> population decrease?",
+      "questionText": "Which model revision improves: pollution -> population decrease?",
+      "options": [
+        "pollution -> no cause -> population decrease",
+        "pollution -> more habitat -> decrease",
+        "pollution -> water quality change -> lower survival or resources -> population decrease",
+        "pollution -> organisms choose to leave data"
+      ],
+      "correctAnswer": "pollution -> water quality change -> lower survival or resources -> population decrease",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "A stronger model names the mechanism connecting cause and effect."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q16",
+      "type": "multiple_choice",
+      "prompt": "Which claim is best supported if plant cover decreases and soil temperature rises?",
+      "questionText": "Which claim is best supported if plant cover decreases and soil temperature rises?",
+      "options": [
+        "Plants never affect nonliving factors.",
+        "Soil temperature cannot be evidence.",
+        "Plant cover is unrelated to ecosystems.",
+        "Plant cover may help regulate habitat conditions."
+      ],
+      "correctAnswer": "Plant cover may help regulate habitat conditions.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Plant cover can influence shade and soil temperature."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A population grows beyond available food. Which outcome is likely?",
+      "questionText": "A population grows beyond available food. Which outcome is likely?",
+      "options": [
+        "survival or growth may decrease as competition increases",
+        "food becomes unlimited",
+        "competition disappears",
+        "all organisms stop needing matter"
+      ],
+      "correctAnswer": "survival or growth may decrease as competition increases",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Resource limits can reduce survival or growth."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken the claim that drought caused a population decline?",
+      "questionText": "Which evidence would weaken the claim that drought caused a population decline?",
+      "options": [
+        "Drought can reduce water.",
+        "The population declined before the drought and food availability stayed high.",
+        "The habitat had plants.",
+        "The population was counted yearly."
+      ],
+      "correctAnswer": "The population declined before the drought and food availability stayed high.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Timing and unchanged resources can weaken a drought-cause claim."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q19",
+      "type": "multiple_choice",
+      "prompt": "A graph shows stable total plant cover even after one species decreases because other species increase. What idea does this support?",
+      "questionText": "A graph shows stable total plant cover even after one species decreases because other species increase. What idea does this support?",
+      "options": [
+        "only one species matters",
+        "plants are not part of ecosystems",
+        "biodiversity can support stability through replacement roles",
+        "data cannot show stability"
+      ],
+      "correctAnswer": "biodiversity can support stability through replacement roles",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Other species can partly maintain ecosystem function."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q20",
+      "type": "multiple_choice",
+      "prompt": "Which question best evaluates whether an ecosystem is resilient after a disturbance?",
+      "questionText": "Which question best evaluates whether an ecosystem is resilient after a disturbance?",
+      "options": [
+        "Is the ecosystem name short?",
+        "Is the graph printed in color?",
+        "Can one organism be photographed?",
+        "Do key populations and functions recover over time?"
+      ],
+      "correctAnswer": "Do key populations and functions recover over time?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Resilience is about recovery of populations and functions."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q21",
+      "type": "multiple_choice",
+      "prompt": "A food web model has arrows but no population data. What can it show, and what can it not show?",
+      "questionText": "A food web model has arrows but no population data. What can it show, and what can it not show?",
+      "options": [
+        "It can show feeding relationships, but not how population sizes changed.",
+        "It proves every population trend.",
+        "It cannot show any relationship.",
+        "It shows exact birth dates."
+      ],
+      "correctAnswer": "It can show feeding relationships, but not how population sizes changed.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Food webs show relationships; population data show changes over time."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Why might removing one predator increase some prey but decrease certain plants?",
+      "questionText": "Why might removing one predator increase some prey but decrease certain plants?",
+      "options": [
+        "Predators make sunlight.",
+        "More prey may eat more plants, creating an indirect effect.",
+        "Plants choose to disappear.",
+        "Prey never affect plants."
+      ],
+      "correctAnswer": "More prey may eat more plants, creating an indirect effect.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Food-web changes can ripple indirectly."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which scenario best shows a resource limit rather than predation?",
+      "questionText": "Which scenario best shows a resource limit rather than predation?",
+      "options": [
+        "A hawk catches a mouse.",
+        "A fossil is found in rock.",
+        "Seedlings grow poorly when light is reduced by dense shade.",
+        "A nerve sends a signal."
+      ],
+      "correctAnswer": "Seedlings grow poorly when light is reduced by dense shade.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Light is a resource for plants; reduced light can limit growth."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q24",
+      "type": "multiple_choice",
+      "prompt": "A student claims ecosystem stability means nothing changes. What is the best correction?",
+      "questionText": "A student claims ecosystem stability means nothing changes. What is the best correction?",
+      "options": [
+        "Stability means every organism count is identical forever.",
+        "Stable ecosystems have no interactions.",
+        "Only nonliving systems can be stable.",
+        "Stable ecosystems can change but keep key functions within a workable range."
+      ],
+      "correctAnswer": "Stable ecosystems can change but keep key functions within a workable range.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Stability does not mean no change; it means maintaining functions or recovering."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q25",
+      "type": "multiple_choice",
+      "prompt": "Which data would best compare two ecosystems' stability?",
+      "questionText": "Which data would best compare two ecosystems' stability?",
+      "options": [
+        "population and resource measurements before, during, and after a disturbance",
+        "one photo from each ecosystem",
+        "names of two parks",
+        "the number of letters in each species name"
+      ],
+      "correctAnswer": "population and resource measurements before, during, and after a disturbance",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Stability is best judged across time and disturbance."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q26",
+      "type": "multiple_choice",
+      "prompt": "A model predicts fish will recover if stream shade is restored. Which evidence would test the model?",
+      "questionText": "A model predicts fish will recover if stream shade is restored. Which evidence would test the model?",
+      "options": [
+        "the color of the restoration sign",
+        "water temperature, oxygen levels, and fish counts after restoration",
+        "one person's favorite fish",
+        "the number of rocks in a drawing"
+      ],
+      "correctAnswer": "water temperature, oxygen levels, and fish counts after restoration",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The evidence measures the mechanism and outcome."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best connects population dynamics to energy flow?",
+      "questionText": "Which explanation best connects population dynamics to energy flow?",
+      "options": [
+        "Energy flow is unrelated to organisms.",
+        "Populations change only in diagrams.",
+        "Population changes can alter how much energy moves through feeding relationships.",
+        "Food webs have no arrows."
+      ],
+      "correctAnswer": "Population changes can alter how much energy moves through feeding relationships.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Feeding relationships transfer energy, so population changes affect transfer patterns."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q28",
+      "type": "multiple_choice",
+      "prompt": "A population of algae grows rapidly after nutrients enter a pond. Which later outcome would be important to monitor?",
+      "questionText": "A population of algae grows rapidly after nutrients enter a pond. Which later outcome would be important to monitor?",
+      "options": [
+        "the spelling of the pond name",
+        "the notebook color",
+        "whether algae has five letters",
+        "dissolved oxygen levels and populations that need oxygen"
+      ],
+      "correctAnswer": "dissolved oxygen levels and populations that need oxygen",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Algae blooms can affect oxygen and other populations."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which final summary best shows ecosystem data reasoning?",
+      "questionText": "Which final summary best shows ecosystem data reasoning?",
+      "options": [
+        "Population patterns, resource limits, and food-web models help explain how changes ripple and whether ecosystems remain stable.",
+        "One data point proves every cause.",
+        "Food webs show exact population size.",
+        "Stability means no changes ever occur."
+      ],
+      "correctAnswer": "Population patterns, resource limits, and food-web models help explain how changes ripple and whether ecosystems remain stable.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects data, resources, food webs, ripple effects, and stability."
+    },
+    {
+      "id": "science7-population-data-ecosystem-stability-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which question makes a student think beyond naming interactions?",
+      "questionText": "Which question makes a student think beyond naming interactions?",
+      "options": [
+        "What is the vocabulary word?",
+        "What evidence would show whether this interaction changed the population over time?",
+        "Can the graph use blue ink?",
+        "Is the species name short?"
+      ],
+      "correctAnswer": "What evidence would show whether this interaction changed the population over time?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evidence over time is needed to connect interactions to population change."
+    }
+  ]
+}

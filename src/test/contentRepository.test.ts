@@ -469,9 +469,13 @@ describe("content repository", () => {
 
     expect(readyConcepts.map((concept) => concept.id)).toEqual([
       "concept-cells-living-things",
+      "concept-cell-specialization-microscopy-evidence",
       "concept-body-systems-information-processing",
+      "concept-homeostasis-feedback-body-systems",
       "concept-growth-photosynthesis-cellular-respiration",
+      "concept-matter-energy-transfer-organisms",
       "concept-ecosystem-interactions-dynamics",
+      "concept-population-data-ecosystem-stability",
       "concept-genetics-inheritance-variation",
       "concept-evolution-life-history",
       "concept-natural-selection-adaptation",

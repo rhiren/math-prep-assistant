@@ -1,0 +1,328 @@
+{
+  "id": "science7-matter-energy-transfer-organisms-review",
+  "testId": "science7-matter-energy-transfer-organisms-review",
+  "conceptId": "concept-matter-energy-transfer-organisms",
+  "title": "Matter and Energy Transfer in Organisms Review Test",
+  "description": "Review practice for matter and energy transfer in organisms.",
+  "questions": [
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q1",
+      "type": "multiple_choice",
+      "prompt": "Which statement best explains where most matter for plant growth comes from?",
+      "questionText": "Which statement best explains where most matter for plant growth comes from?",
+      "options": [
+        "carbon dioxide and water are rearranged into sugar and plant materials",
+        "sunlight turns directly into matter",
+        "soil disappears into leaves only",
+        "plants grow without atoms"
+      ],
+      "correctAnswer": "carbon dioxide and water are rearranged into sugar and plant materials",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Plants use carbon dioxide and water during photosynthesis to make sugars and build materials."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q2",
+      "type": "multiple_choice",
+      "prompt": "Which model best connects photosynthesis and food webs?",
+      "questionText": "Which model best connects photosynthesis and food webs?",
+      "options": [
+        "consumers make sunlight -> producers disappear",
+        "light -> producers make sugars -> consumers get food molecules",
+        "rocks -> sugar -> no organisms",
+        "oxygen -> no matter -> food web"
+      ],
+      "correctAnswer": "light -> producers make sugars -> consumers get food molecules",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Producers make food molecules that support food webs."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q3",
+      "type": "multiple_choice",
+      "prompt": "A sealed plant chamber loses carbon dioxide in bright light. Which claim is best supported?",
+      "questionText": "A sealed plant chamber loses carbon dioxide in bright light. Which claim is best supported?",
+      "options": [
+        "The plant stopped containing cells.",
+        "Carbon dioxide became sunlight.",
+        "Photosynthesis used carbon dioxide.",
+        "Respiration cannot happen in plants."
+      ],
+      "correctAnswer": "Photosynthesis used carbon dioxide.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Carbon dioxide is a reactant in photosynthesis."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q4",
+      "type": "multiple_choice",
+      "prompt": "Which process releases usable energy from food molecules in cells?",
+      "questionText": "Which process releases usable energy from food molecules in cells?",
+      "options": [
+        "microscopy",
+        "competition",
+        "fossilization",
+        "cellular respiration"
+      ],
+      "correctAnswer": "cellular respiration",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Cellular respiration releases usable energy from food molecules."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Energy cycles through ecosystems exactly like matter.\" What is the best correction?",
+      "questionText": "A student says, \"Energy cycles through ecosystems exactly like matter.\" What is the best correction?",
+      "options": [
+        "Matter cycles, while energy flows and changes form.",
+        "Matter disappears but energy has mass.",
+        "Energy and matter are identical.",
+        "Food webs show no energy movement."
+      ],
+      "correctAnswer": "Matter cycles, while energy flows and changes form.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Matter cycles; energy flows through systems."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q6",
+      "type": "multiple_choice",
+      "prompt": "A food web starts with grass, then grasshoppers, then frogs. What happens to energy?",
+      "questionText": "A food web starts with grass, then grasshoppers, then frogs. What happens to energy?",
+      "options": [
+        "Energy starts with frogs and becomes sunlight.",
+        "Energy flows from grass to grasshoppers to frogs.",
+        "Energy disappears before grasshoppers eat.",
+        "Energy does not move through feeding."
+      ],
+      "correctAnswer": "Energy flows from grass to grasshoppers to frogs.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Energy transfers as organisms eat food molecules."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q7",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports that plants need light for sugar production?",
+      "questionText": "Which evidence best supports that plants need light for sugar production?",
+      "options": [
+        "Leaves are green.",
+        "The classroom has a window.",
+        "Leaves in bright light produce more starch than leaves kept in darkness.",
+        "The pot is round."
+      ],
+      "correctAnswer": "Leaves in bright light produce more starch than leaves kept in darkness.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Starch evidence can show sugar production related to light."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q8",
+      "type": "multiple_choice",
+      "prompt": "A student claims animals do not depend on photosynthesis. Which evidence best challenges this?",
+      "questionText": "A student claims animals do not depend on photosynthesis. Which evidence best challenges this?",
+      "options": [
+        "Animals can move.",
+        "Some animals have eyes.",
+        "Animals do not have chloroplasts.",
+        "Animals eat plants or organisms that ate plants, gaining food molecules from producers."
+      ],
+      "correctAnswer": "Animals eat plants or organisms that ate plants, gaining food molecules from producers.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Food webs connect animals to producers directly or indirectly."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q9",
+      "type": "multiple_choice",
+      "prompt": "Which cause/effect chain explains low oxygen in a crowded yeast flask?",
+      "questionText": "Which cause/effect chain explains low oxygen in a crowded yeast flask?",
+      "options": [
+        "more cells -> more respiration -> more oxygen use",
+        "more cells -> less need for food",
+        "yeast -> photosynthesis only",
+        "oxygen -> no energy use"
+      ],
+      "correctAnswer": "more cells -> more respiration -> more oxygen use",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Respiring cells use oxygen to release energy from food molecules."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q10",
+      "type": "multiple_choice",
+      "prompt": "Why is sunlight not considered matter for plant growth?",
+      "questionText": "Why is sunlight not considered matter for plant growth?",
+      "options": [
+        "Sunlight has more mass than soil.",
+        "Sunlight is energy, not atoms used to build plant structures.",
+        "Sunlight is made of plant cells.",
+        "Sunlight is a mineral nutrient."
+      ],
+      "correctAnswer": "Sunlight is energy, not atoms used to build plant structures.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Matter is made of atoms; sunlight provides energy."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q11",
+      "type": "multiple_choice",
+      "prompt": "A model says: sugar -> usable energy + carbon dioxide + water. Which process is modeled?",
+      "questionText": "A model says: sugar -> usable energy + carbon dioxide + water. Which process is modeled?",
+      "options": [
+        "photosynthesis only",
+        "erosion",
+        "cellular respiration",
+        "natural selection"
+      ],
+      "correctAnswer": "cellular respiration",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Respiration breaks down food molecules and releases usable energy."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern would support that respiration increases with activity?",
+      "questionText": "Which data pattern would support that respiration increases with activity?",
+      "options": [
+        "active cells have labels",
+        "resting cells are drawn smaller",
+        "oxygen cannot be measured",
+        "active cells use oxygen faster than resting cells"
+      ],
+      "correctAnswer": "active cells use oxygen faster than resting cells",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Higher oxygen use can indicate more cellular respiration."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q13",
+      "type": "multiple_choice",
+      "prompt": "How do decomposers connect to matter cycling?",
+      "questionText": "How do decomposers connect to matter cycling?",
+      "options": [
+        "They break down dead material and return matter to the environment.",
+        "They create sunlight from nothing.",
+        "They remove all atoms forever.",
+        "They stop food webs from using matter."
+      ],
+      "correctAnswer": "They break down dead material and return matter to the environment.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Decomposers recycle matter from dead organisms and wastes."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Which model revision improves: plant -> animal?",
+      "questionText": "Which model revision improves: plant -> animal?",
+      "options": [
+        "plant -> no matter -> animal",
+        "light -> plant sugars -> animal food molecules -> respiration in animal cells",
+        "animal -> sunlight only -> plant",
+        "plant -> animal chooses energy"
+      ],
+      "correctAnswer": "light -> plant sugars -> animal food molecules -> respiration in animal cells",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A stronger model traces food molecules and energy release."
+    },
+    {
+      "id": "science7-matter-energy-transfer-organisms-review-q15",
+      "type": "multiple_choice",
+      "prompt": "A student says plants get all their food from soil. Which response best uses evidence?",
+      "questionText": "A student says plants get all their food from soil. Which response best uses evidence?",
+      "options": [
+        "Soil is never useful.",
+        "Plants do not need carbon dioxide.",
+        "Plants make sugars from carbon dioxide and water using light energy; soil supplies some minerals.",
+        "Light becomes atoms directly."
+      ],
+      "correctAnswer": "Plants make sugars from carbon dioxide and water using light energy; soil supplies some minerals.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Plants make food molecules through photosynthesis, while soil can provide minerals."
+    }
+  ]
+}
