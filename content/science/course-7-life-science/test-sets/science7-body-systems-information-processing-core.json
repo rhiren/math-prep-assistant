@@ -10,10 +10,20 @@
       "type": "multiple_choice",
       "prompt": "Which sequence correctly shows increasing organization in a multicellular organism?",
       "questionText": "Which sequence correctly shows increasing organization in a multicellular organism?",
-      "options": ["cell, tissue, organ, organ system", "organ, cell, tissue, organ system", "tissue, organ system, cell, organ", "organ system, organ, tissue, cell"],
+      "options": [
+        "cell, tissue, organ, organ system",
+        "organ, cell, tissue, organ system",
+        "tissue, organ system, cell, organ",
+        "organ system, organ, tissue, cell"
+      ],
       "correctAnswer": "cell, tissue, organ, organ system",
-      "skillTags": ["conceptual"],
-      "reasoningTags": ["recall", "model-interpretation"],
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall",
+        "model-interpretation"
+      ],
       "difficulty": "scaffold",
       "explanation": "Cells are the smallest level listed. Similar cells form tissues, tissues form organs, and organs work together in organ systems."
     },
@@ -22,10 +32,19 @@
       "type": "multiple_choice",
       "prompt": "A group of similar muscle cells works together to contract. What level of organization is this group?",
       "questionText": "A group of similar muscle cells works together to contract. What level of organization is this group?",
-      "options": ["tissue", "organ", "organ system", "organism"],
+      "options": [
+        "tissue",
+        "organ",
+        "organ system",
+        "organism"
+      ],
       "correctAnswer": "tissue",
-      "skillTags": ["vocabulary"],
-      "reasoningTags": ["scenario-transfer"],
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
       "difficulty": "scaffold",
       "explanation": "A tissue is a group of similar cells that work together for a function."
     },
@@ -34,10 +53,19 @@
       "type": "multiple_choice",
       "prompt": "Which body system is most directly responsible for detecting light, sound, pressure, and temperature information?",
       "questionText": "Which body system is most directly responsible for detecting light, sound, pressure, and temperature information?",
-      "options": ["nervous system", "digestive system", "skeletal system", "respiratory system"],
+      "options": [
+        "nervous system",
+        "digestive system",
+        "skeletal system",
+        "respiratory system"
+      ],
       "correctAnswer": "nervous system",
-      "skillTags": ["vocabulary"],
-      "reasoningTags": ["recall"],
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
       "difficulty": "scaffold",
       "explanation": "The nervous system includes sensory receptors and carries signals that help the body respond."
     },
@@ -46,10 +74,19 @@
       "type": "multiple_choice",
       "prompt": "Which job belongs mainly to the circulatory system?",
       "questionText": "Which job belongs mainly to the circulatory system?",
-      "options": ["moving oxygen, food molecules, and wastes around the body", "breaking food into useful smaller molecules", "bringing oxygen into the lungs", "detecting changes in the environment"],
+      "options": [
+        "moving oxygen, food molecules, and wastes around the body",
+        "breaking food into useful smaller molecules",
+        "bringing oxygen into the lungs",
+        "detecting changes in the environment"
+      ],
       "correctAnswer": "moving oxygen, food molecules, and wastes around the body",
-      "skillTags": ["vocabulary"],
-      "reasoningTags": ["recall"],
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
       "difficulty": "scaffold",
       "explanation": "The circulatory system transports materials through the body."
     },
@@ -58,10 +95,19 @@
       "type": "multiple_choice",
       "prompt": "Which example best shows two body systems interacting?",
       "questionText": "Which example best shows two body systems interacting?",
-      "options": ["The respiratory system brings oxygen into the body, and the circulatory system carries it to cells.", "A bone has a hard outer surface.", "A single nerve cell sends a signal.", "A stomach contains acid."],
+      "options": [
+        "The respiratory system brings oxygen into the body, and the circulatory system carries it to cells.",
+        "A bone has a hard outer surface.",
+        "A single nerve cell sends a signal.",
+        "A stomach contains acid."
+      ],
       "correctAnswer": "The respiratory system brings oxygen into the body, and the circulatory system carries it to cells.",
-      "skillTags": ["conceptual"],
-      "reasoningTags": ["model-interpretation"],
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
       "difficulty": "scaffold",
       "explanation": "This choice explains how two systems work together to move oxygen from air to body cells."
     },
@@ -70,10 +116,20 @@
       "type": "multiple_choice",
       "prompt": "A student touches an ice cube and quickly notices that it is cold. Which event happens first in the information-processing pathway?",
       "questionText": "A student touches an ice cube and quickly notices that it is cold. Which event happens first in the information-processing pathway?",
-      "options": ["Temperature receptors in the skin detect the cold stimulus.", "The brain stores a long-term memory.", "Muscles move the hand away.", "Blood carries oxygen to the hand."],
+      "options": [
+        "Temperature receptors in the skin detect the cold stimulus.",
+        "The brain stores a long-term memory.",
+        "Muscles move the hand away.",
+        "Blood carries oxygen to the hand."
+      ],
       "correctAnswer": "Temperature receptors in the skin detect the cold stimulus.",
-      "skillTags": ["conceptual"],
-      "reasoningTags": ["cause-effect", "scenario-transfer"],
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
       "difficulty": "scaffold",
       "explanation": "A receptor must detect the stimulus before a signal can travel and before a response can happen."
     },
@@ -82,10 +138,20 @@
       "type": "multiple_choice",
       "prompt": "A runner breathes faster during a sprint. Which explanation best connects body systems to this change?",
       "questionText": "A runner breathes faster during a sprint. Which explanation best connects body systems to this change?",
-      "options": ["Muscles need more energy, so the respiratory and circulatory systems help deliver more oxygen.", "The digestive system stops all other systems from working.", "The skeletal system creates oxygen for the muscles.", "The nervous system replaces the need for oxygen."],
+      "options": [
+        "Muscles need more energy, so the respiratory and circulatory systems help deliver more oxygen.",
+        "The digestive system stops all other systems from working.",
+        "The skeletal system creates oxygen for the muscles.",
+        "The nervous system replaces the need for oxygen."
+      ],
       "correctAnswer": "Muscles need more energy, so the respiratory and circulatory systems help deliver more oxygen.",
-      "skillTags": ["application"],
-      "reasoningTags": ["cause-effect", "scenario-transfer"],
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
       "difficulty": "standard",
       "explanation": "During exercise, muscle cells need more energy. Oxygen brought in by the respiratory system and carried by the circulatory system supports cellular respiration."
     },
@@ -94,10 +160,19 @@
       "type": "multiple_choice",
       "prompt": "A model shows this pathway: bright light -> eye receptors -> nerve signals -> brain -> pupil gets smaller. What does the model best explain?",
       "questionText": "A model shows this pathway: bright light -> eye receptors -> nerve signals -> brain -> pupil gets smaller. What does the model best explain?",
-      "options": ["how sensory information can lead to a response", "how the digestive system breaks down food", "how bones make blood cells", "how muscles store genetic instructions"],
+      "options": [
+        "how sensory information can lead to a response",
+        "how the digestive system breaks down food",
+        "how bones make blood cells",
+        "how muscles store genetic instructions"
+      ],
       "correctAnswer": "how sensory information can lead to a response",
-      "skillTags": ["visual"],
-      "reasoningTags": ["model-interpretation"],
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
       "difficulty": "standard",
       "explanation": "The pathway traces a stimulus through receptors and nerve signals to a body response."
     },
@@ -106,10 +181,20 @@
       "type": "multiple_choice",
       "prompt": "A student claims the muscular system alone explains why a person can run. Which evidence best challenges the claim?",
       "questionText": "A student claims the muscular system alone explains why a person can run. Which evidence best challenges the claim?",
-      "options": ["Running also requires oxygen delivery, heart activity, skeletal support, and nerve coordination.", "Muscles are made of cells.", "Some muscles can contract quickly.", "Leg muscles are larger than finger muscles."],
+      "options": [
+        "Running also requires oxygen delivery, heart activity, skeletal support, and nerve coordination.",
+        "Muscles are made of cells.",
+        "Some muscles can contract quickly.",
+        "Leg muscles are larger than finger muscles."
+      ],
       "correctAnswer": "Running also requires oxygen delivery, heart activity, skeletal support, and nerve coordination.",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["claim-evidence", "misconception-check"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
       "difficulty": "standard",
       "explanation": "The claim says one system is enough. Evidence that several systems are required directly challenges it."
     },
@@ -118,10 +203,19 @@
       "type": "multiple_choice",
       "prompt": "Which statement best explains why the heart is an organ instead of a tissue?",
       "questionText": "Which statement best explains why the heart is an organ instead of a tissue?",
-      "options": ["It contains different tissues that work together to pump blood.", "It is made of only one cell.", "It is a group of identical cells with one job.", "It includes every organ system in the body."],
+      "options": [
+        "It contains different tissues that work together to pump blood.",
+        "It is made of only one cell.",
+        "It is a group of identical cells with one job.",
+        "It includes every organ system in the body."
+      ],
       "correctAnswer": "It contains different tissues that work together to pump blood.",
-      "skillTags": ["conceptual"],
-      "reasoningTags": ["model-interpretation"],
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
       "difficulty": "standard",
       "explanation": "An organ contains multiple tissue types working together for a larger function."
     },
@@ -130,10 +224,20 @@
       "type": "multiple_choice",
       "prompt": "A person smells smoke and leaves a room. Which sequence best represents the information flow?",
       "questionText": "A person smells smoke and leaves a room. Which sequence best represents the information flow?",
-      "options": ["chemical stimulus -> nose receptors -> nerve signals -> brain -> movement response", "brain -> smoke appears -> nose receptors disappear -> movement stops", "muscles -> bones -> smoke stimulus -> digestion", "blood -> stomach -> smoke -> memory"],
+      "options": [
+        "chemical stimulus -> nose receptors -> nerve signals -> brain -> movement response",
+        "brain -> smoke appears -> nose receptors disappear -> movement stops",
+        "muscles -> bones -> smoke stimulus -> digestion",
+        "blood -> stomach -> smoke -> memory"
+      ],
       "correctAnswer": "chemical stimulus -> nose receptors -> nerve signals -> brain -> movement response",
-      "skillTags": ["application"],
-      "reasoningTags": ["cause-effect", "model-interpretation"],
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "model-interpretation"
+      ],
       "difficulty": "standard",
       "explanation": "Smell begins as a chemical stimulus detected by receptors. Signals are processed, then the body responds."
     },
@@ -142,10 +246,20 @@
       "type": "multiple_choice",
       "prompt": "A table shows heart rate before exercise: 78 beats/min, during exercise: 142 beats/min, after rest: 86 beats/min. Which claim is best supported?",
       "questionText": "A table shows heart rate before exercise: 78 beats/min, during exercise: 142 beats/min, after rest: 86 beats/min. Which claim is best supported?",
-      "options": ["The circulatory system responds to increased activity and then moves back toward resting level.", "The skeletal system stops working during exercise.", "The digestive system directly controls every heartbeat.", "The body cannot change after exercise begins."],
+      "options": [
+        "The circulatory system responds to increased activity and then moves back toward resting level.",
+        "The skeletal system stops working during exercise.",
+        "The digestive system directly controls every heartbeat.",
+        "The body cannot change after exercise begins."
+      ],
       "correctAnswer": "The circulatory system responds to increased activity and then moves back toward resting level.",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["data-pattern", "claim-evidence"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
       "difficulty": "standard",
       "explanation": "The data show heart rate rising during exercise and decreasing after rest, which supports a response to activity."
     },
@@ -154,10 +268,19 @@
       "type": "multiple_choice",
       "prompt": "Which example best shows a receptor specialized for one kind of information?",
       "questionText": "Which example best shows a receptor specialized for one kind of information?",
-      "options": ["light-sensitive cells in the eye detect light", "the stomach stores all memories", "bones detect every sound in a room", "the lungs choose which muscles move"],
+      "options": [
+        "light-sensitive cells in the eye detect light",
+        "the stomach stores all memories",
+        "bones detect every sound in a room",
+        "the lungs choose which muscles move"
+      ],
       "correctAnswer": "light-sensitive cells in the eye detect light",
-      "skillTags": ["conceptual"],
-      "reasoningTags": ["scenario-transfer"],
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
       "difficulty": "standard",
       "explanation": "Different receptors detect different stimuli. Light-sensitive cells are specialized for light."
     },
@@ -166,10 +289,20 @@
       "type": "multiple_choice",
       "prompt": "A student says, \"Digestion gives muscles energy directly, so no other systems are needed.\" Which revision is most accurate?",
       "questionText": "A student says, \"Digestion gives muscles energy directly, so no other systems are needed.\" Which revision is most accurate?",
-      "options": ["Digestion breaks food down, but circulatory and respiratory systems also help cells get materials needed to release energy.", "Digestion creates oxygen inside the stomach.", "Muscles can release energy without food or oxygen.", "The digestive system is the same thing as the nervous system."],
+      "options": [
+        "Digestion breaks food down, but circulatory and respiratory systems also help cells get materials needed to release energy.",
+        "Digestion creates oxygen inside the stomach.",
+        "Muscles can release energy without food or oxygen.",
+        "The digestive system is the same thing as the nervous system."
+      ],
       "correctAnswer": "Digestion breaks food down, but circulatory and respiratory systems also help cells get materials needed to release energy.",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["misconception-check", "claim-evidence"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
       "difficulty": "standard",
       "explanation": "Food molecules, oxygen, and transport all matter. The accurate explanation includes interactions among systems."
     },
@@ -178,10 +311,20 @@
       "type": "multiple_choice",
       "prompt": "A diagram shows several organs connected by blood vessels. Which question would best help determine whether they are part of an organ system?",
       "questionText": "A diagram shows several organs connected by blood vessels. Which question would best help determine whether they are part of an organ system?",
-      "options": ["Do the organs work together to perform a major body function?", "Are all organs exactly the same size?", "Are the organs made of nonliving material?", "Do the organs have no connection to cells?"],
+      "options": [
+        "Do the organs work together to perform a major body function?",
+        "Are all organs exactly the same size?",
+        "Are the organs made of nonliving material?",
+        "Do the organs have no connection to cells?"
+      ],
       "correctAnswer": "Do the organs work together to perform a major body function?",
-      "skillTags": ["visual"],
-      "reasoningTags": ["model-interpretation", "claim-evidence"],
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
       "difficulty": "standard",
       "explanation": "An organ system is defined by organs working together for a body function."
     },
@@ -190,10 +333,20 @@
       "type": "multiple_choice",
       "prompt": "A person damages nerves between the spinal cord and a leg muscle. Which outcome is most likely?",
       "questionText": "A person damages nerves between the spinal cord and a leg muscle. Which outcome is most likely?",
-      "options": ["The muscle may not receive signals needed for normal movement.", "The muscle will become a bone.", "The digestive system will make the leg move normally.", "The leg will no longer contain cells."],
+      "options": [
+        "The muscle may not receive signals needed for normal movement.",
+        "The muscle will become a bone.",
+        "The digestive system will make the leg move normally.",
+        "The leg will no longer contain cells."
+      ],
       "correctAnswer": "The muscle may not receive signals needed for normal movement.",
-      "skillTags": ["application"],
-      "reasoningTags": ["cause-effect", "scenario-transfer"],
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
       "difficulty": "challenge",
       "explanation": "Nerves carry signals. Damage to the pathway can interfere with signals reaching the muscle."
     },
@@ -202,10 +355,20 @@
       "type": "multiple_choice",
       "prompt": "A class tests reaction time with and without loud background music. Average reaction time is slower during loud music. Which explanation best uses the evidence?",
       "questionText": "A class tests reaction time with and without loud background music. Average reaction time is slower during loud music. Which explanation best uses the evidence?",
-      "options": ["Extra sound information may have affected how quickly the nervous system processed the task.", "Music made the circulatory system disappear.", "Reaction time is never connected to the nervous system.", "The data prove that muscles do not need nerve signals."],
+      "options": [
+        "Extra sound information may have affected how quickly the nervous system processed the task.",
+        "Music made the circulatory system disappear.",
+        "Reaction time is never connected to the nervous system.",
+        "The data prove that muscles do not need nerve signals."
+      ],
       "correctAnswer": "Extra sound information may have affected how quickly the nervous system processed the task.",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["data-pattern", "claim-evidence"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
       "difficulty": "challenge",
       "explanation": "The data compare conditions and support a claim about processing sensory information during the task."
     },
@@ -214,10 +377,20 @@
       "type": "multiple_choice",
       "prompt": "A model of exercise includes only bones and muscles. What important interaction is missing from the model?",
       "questionText": "A model of exercise includes only bones and muscles. What important interaction is missing from the model?",
-      "options": ["systems that bring and transport oxygen and food molecules to working cells", "the idea that bones are nonliving", "the claim that muscles do not use energy", "the belief that cells are larger than organs"],
+      "options": [
+        "systems that bring and transport oxygen and food molecules to working cells",
+        "the idea that bones are nonliving",
+        "the claim that muscles do not use energy",
+        "the belief that cells are larger than organs"
+      ],
       "correctAnswer": "systems that bring and transport oxygen and food molecules to working cells",
-      "skillTags": ["visual"],
-      "reasoningTags": ["model-interpretation", "misconception-check"],
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "misconception-check"
+      ],
       "difficulty": "challenge",
       "explanation": "A complete exercise model should include respiratory and circulatory support for working muscle cells."
     },
@@ -226,10 +399,19 @@
       "type": "multiple_choice",
       "prompt": "Which evidence best supports the claim that organ systems are interdependent?",
       "questionText": "Which evidence best supports the claim that organ systems are interdependent?",
-      "options": ["Cells in muscles need oxygen from the respiratory system and transport by the circulatory system.", "The names of body systems are different words.", "Every organ system has exactly one organ.", "A tissue is smaller than an organ."],
+      "options": [
+        "Cells in muscles need oxygen from the respiratory system and transport by the circulatory system.",
+        "The names of body systems are different words.",
+        "Every organ system has exactly one organ.",
+        "A tissue is smaller than an organ."
+      ],
       "correctAnswer": "Cells in muscles need oxygen from the respiratory system and transport by the circulatory system.",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["claim-evidence"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
       "difficulty": "challenge",
       "explanation": "Interdependent means systems depend on each other. This evidence connects muscle, respiratory, and circulatory functions."
     },
@@ -238,10 +420,20 @@
       "type": "multiple_choice",
       "prompt": "A student writes: stimulus -> brain -> receptor -> response. What is the best correction?",
       "questionText": "A student writes: stimulus -> brain -> receptor -> response. What is the best correction?",
-      "options": ["The receptor should come before the brain because it detects the stimulus first.", "The response should happen before the stimulus.", "The receptor should be removed because receptors are not used.", "The brain should be replaced with the stomach."],
+      "options": [
+        "The receptor should come before the brain because it detects the stimulus first.",
+        "The response should happen before the stimulus.",
+        "The receptor should be removed because receptors are not used.",
+        "The brain should be replaced with the stomach."
+      ],
       "correctAnswer": "The receptor should come before the brain because it detects the stimulus first.",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["model-interpretation", "misconception-check"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "misconception-check"
+      ],
       "difficulty": "challenge",
       "explanation": "The correct pathway begins when receptors detect a stimulus, then signals travel for processing and response."
     },
@@ -250,10 +442,20 @@
       "type": "multiple_choice",
       "prompt": "After smelling a familiar food, a student remembers eating it at a family party. Which explanation best connects sensory information and memory?",
       "questionText": "After smelling a familiar food, a student remembers eating it at a family party. Which explanation best connects sensory information and memory?",
-      "options": ["Smell receptors send signals that the brain can connect with stored memories.", "The nose stores all memories by itself.", "The digestive system creates memories before sensory signals arrive.", "Memories prove that receptors are unnecessary."],
+      "options": [
+        "Smell receptors send signals that the brain can connect with stored memories.",
+        "The nose stores all memories by itself.",
+        "The digestive system creates memories before sensory signals arrive.",
+        "Memories prove that receptors are unnecessary."
+      ],
       "correctAnswer": "Smell receptors send signals that the brain can connect with stored memories.",
-      "skillTags": ["application"],
-      "reasoningTags": ["cause-effect", "scenario-transfer"],
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
       "difficulty": "challenge",
       "explanation": "Sensory receptors detect odor chemicals, and the brain can process those signals with stored memories."
     },
@@ -262,10 +464,21 @@
       "type": "multiple_choice",
       "prompt": "A hospital monitor shows that a patient's oxygen level drops, and then heart rate rises. Which claim is most reasonable?",
       "questionText": "A hospital monitor shows that a patient's oxygen level drops, and then heart rate rises. Which claim is most reasonable?",
-      "options": ["The respiratory and circulatory systems may be interacting to respond to lower oxygen.", "The skeletal system is turning oxygen into bone.", "The nervous system has stopped all signals.", "The digestive system is the only system involved in oxygen levels."],
+      "options": [
+        "The respiratory and circulatory systems may be interacting to respond to lower oxygen.",
+        "The skeletal system is turning oxygen into bone.",
+        "The nervous system has stopped all signals.",
+        "The digestive system is the only system involved in oxygen levels."
+      ],
       "correctAnswer": "The respiratory and circulatory systems may be interacting to respond to lower oxygen.",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["data-pattern", "claim-evidence", "cause-effect"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence",
+        "cause-effect"
+      ],
       "difficulty": "challenge",
       "explanation": "The pattern connects oxygen level and heart rate, suggesting interaction between respiratory and circulatory systems."
     },
@@ -274,10 +487,20 @@
       "type": "multiple_choice",
       "prompt": "Which question would best test whether a sensory receptor is needed for a response?",
       "questionText": "Which question would best test whether a sensory receptor is needed for a response?",
-      "options": ["Does blocking the receptor change whether the organism detects the stimulus?", "What color is the organism?", "How many bones does the organism have?", "Does the organism contain water?"],
+      "options": [
+        "Does blocking the receptor change whether the organism detects the stimulus?",
+        "What color is the organism?",
+        "How many bones does the organism have?",
+        "Does the organism contain water?"
+      ],
       "correctAnswer": "Does blocking the receptor change whether the organism detects the stimulus?",
-      "skillTags": ["reasoning"],
-      "reasoningTags": ["claim-evidence", "scenario-transfer"],
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
       "difficulty": "challenge",
       "explanation": "This test directly examines whether the receptor is required to detect the stimulus."
     },
@@ -286,10 +509,20 @@
       "type": "multiple_choice",
       "prompt": "A model shows food molecules entering the blood after digestion. Which system interaction does this model show?",
       "questionText": "A model shows food molecules entering the blood after digestion. Which system interaction does this model show?",
-      "options": ["digestive and circulatory systems working together to move materials to cells", "nervous and skeletal systems making food", "respiratory system removing all nutrients", "muscular system storing memories"],
+      "options": [
+        "digestive and circulatory systems working together to move materials to cells",
+        "nervous and skeletal systems making food",
+        "respiratory system removing all nutrients",
+        "muscular system storing memories"
+      ],
       "correctAnswer": "digestive and circulatory systems working together to move materials to cells",
-      "skillTags": ["visual"],
-      "reasoningTags": ["model-interpretation", "cause-effect"],
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
       "difficulty": "challenge",
       "explanation": "Digestion breaks food into useful molecules, and the circulatory system transports those molecules."
     },
@@ -298,12 +531,132 @@
       "type": "multiple_choice",
       "prompt": "Which explanation best shows that cells are connected to organ-system function?",
       "questionText": "Which explanation best shows that cells are connected to organ-system function?",
-      "options": ["Organ systems work because specialized cells in tissues and organs perform jobs that support the whole organism.", "Organ systems do not contain cells.", "Cells are larger than organs, so they control organs from outside the body.", "Only single-celled organisms have cells."],
+      "options": [
+        "Organ systems work because specialized cells in tissues and organs perform jobs that support the whole organism.",
+        "Organ systems do not contain cells.",
+        "Cells are larger than organs, so they control organs from outside the body.",
+        "Only single-celled organisms have cells."
+      ],
       "correctAnswer": "Organ systems work because specialized cells in tissues and organs perform jobs that support the whole organism.",
-      "skillTags": ["conceptual"],
-      "reasoningTags": ["model-interpretation", "scenario-transfer"],
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
       "difficulty": "challenge",
       "explanation": "This connects the levels of organization from specialized cells to tissues, organs, systems, and the organism."
+    },
+    {
+      "id": "science7-body-systems-information-processing-core-q26",
+      "type": "multiple_choice",
+      "prompt": "A swimmer holds her breath underwater, then breathes quickly at the surface. Which body systems are most directly involved in restoring oxygen supply?",
+      "questionText": "A swimmer holds her breath underwater, then breathes quickly at the surface. Which body systems are most directly involved in restoring oxygen supply?",
+      "options": [
+        "respiratory and circulatory systems",
+        "skeletal and digestive systems only",
+        "integumentary and skeletal systems only",
+        "digestive and sensory systems only"
+      ],
+      "correctAnswer": "respiratory and circulatory systems",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The respiratory system brings oxygen in, and the circulatory system transports it to cells."
+    },
+    {
+      "id": "science7-body-systems-information-processing-core-q27",
+      "type": "multiple_choice",
+      "prompt": "A chart shows that reaction time improves after several practice trials. Which explanation best connects the data to information processing?",
+      "questionText": "A chart shows that reaction time improves after several practice trials. Which explanation best connects the data to information processing?",
+      "options": [
+        "The nervous system can process signals more efficiently with practice.",
+        "The digestive system stores all reaction-time memories.",
+        "Practice removes the need for receptors.",
+        "The skeletal system changes light into nerve signals."
+      ],
+      "correctAnswer": "The nervous system can process signals more efficiently with practice.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The data show a changing response time, which can be explained by nervous-system processing and learning."
+    },
+    {
+      "id": "science7-body-systems-information-processing-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Which model best explains why a fever can affect the whole body?",
+      "questionText": "Which model best explains why a fever can affect the whole body?",
+      "options": [
+        "body systems interact, so a change in one process can affect cells and other systems",
+        "each body system works completely alone",
+        "cells are not involved in body responses",
+        "organs stop being made of tissues during fever"
+      ],
+      "correctAnswer": "body systems interact, so a change in one process can affect cells and other systems",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Body systems are interconnected, so changes can affect multiple functions."
+    },
+    {
+      "id": "science7-body-systems-information-processing-core-q29",
+      "type": "multiple_choice",
+      "prompt": "A student claims the brain detects light directly without the eyes. Which evidence best revises the claim?",
+      "questionText": "A student claims the brain detects light directly without the eyes. Which evidence best revises the claim?",
+      "options": [
+        "Light receptors in the eyes detect light, then signals travel to the brain.",
+        "The stomach sends light to the eyes.",
+        "Bones detect colors before the brain.",
+        "Muscles store light patterns."
+      ],
+      "correctAnswer": "Light receptors in the eyes detect light, then signals travel to the brain.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Sensory receptors detect stimuli before information is processed by the brain."
+    },
+    {
+      "id": "science7-body-systems-information-processing-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best connects body systems back to cells during exercise?",
+      "questionText": "Which explanation best connects body systems back to cells during exercise?",
+      "options": [
+        "Systems deliver oxygen and food molecules so muscle cells can release energy for contraction.",
+        "Muscles contract without cells.",
+        "The skeletal system creates food molecules from bone.",
+        "Exercise means cells stop needing materials."
+      ],
+      "correctAnswer": "Systems deliver oxygen and food molecules so muscle cells can release energy for contraction.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Exercise depends on interactions among respiratory, circulatory, digestive, muscular, and nervous systems to support cells."
     }
   ]
 }

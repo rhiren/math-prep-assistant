@@ -1,0 +1,332 @@
+{
+  "id": "science7-ecosystem-interactions-dynamics-review",
+  "testId": "science7-ecosystem-interactions-dynamics-review",
+  "conceptId": "concept-ecosystem-interactions-dynamics",
+  "title": "Ecosystem Interactions and Dynamics Review Test",
+  "description": "Review practice for ecosystem systems, food webs, resource limits, and ripple effects.",
+  "questions": [
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q1",
+      "type": "multiple_choice",
+      "prompt": "A pond has algae, insects, small fish, and herons. Review: which part is a producer?",
+      "questionText": "A pond has algae, insects, small fish, and herons. Review: which part is a producer?",
+      "options": [
+        "algae",
+        "small fish",
+        "heron",
+        "insect larva"
+      ],
+      "correctAnswer": "algae",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Algae can make sugars using photosynthesis, so they are producers."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q2",
+      "type": "multiple_choice",
+      "prompt": "Which interaction is competition?",
+      "questionText": "Which interaction is competition?",
+      "options": [
+        "two organisms needing the same limited resource",
+        "one organism making sunlight",
+        "a rock changing shape",
+        "a cell membrane controlling materials"
+      ],
+      "correctAnswer": "two organisms needing the same limited resource",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Competition happens when organisms need the same limited resource."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q3",
+      "type": "multiple_choice",
+      "prompt": "A drought lowers pond water levels. Insects that need shallow plants decrease. Review: what is the best first cause in the chain?",
+      "questionText": "A drought lowers pond water levels. Insects that need shallow plants decrease. Review: what is the best first cause in the chain?",
+      "options": [
+        "less available water and habitat",
+        "more sunlight made by insects",
+        "fish becoming producers",
+        "decomposers stopping all matter cycling"
+      ],
+      "correctAnswer": "less available water and habitat",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The drought changes a nonliving factor: water and habitat availability."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q4",
+      "type": "multiple_choice",
+      "prompt": "Which model best shows energy flow?",
+      "questionText": "Which model best shows energy flow?",
+      "options": [
+        "grass -> rabbit -> fox",
+        "fox -> sunlight -> grass",
+        "rock -> water -> air only",
+        "rabbit -> grass -> sunlight"
+      ],
+      "correctAnswer": "grass -> rabbit -> fox",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Energy flows from producers to consumers through feeding relationships."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q5",
+      "type": "multiple_choice",
+      "prompt": "What happens to many populations when a needed resource becomes limited?",
+      "questionText": "What happens to many populations when a needed resource becomes limited?",
+      "options": [
+        "competition may increase and some populations may decrease",
+        "all populations always increase",
+        "organisms stop needing resources",
+        "energy begins cycling exactly like matter"
+      ],
+      "correctAnswer": "competition may increase and some populations may decrease",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Limited resources can increase competition and limit population size."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q6",
+      "type": "multiple_choice",
+      "prompt": "A food web shows mice eaten by snakes and hawks. If mice decrease sharply, which claim is reasonable?",
+      "questionText": "A food web shows mice eaten by snakes and hawks. If mice decrease sharply, which claim is reasonable?",
+      "options": [
+        "Snakes and hawks may have less food available.",
+        "Snakes and hawks must both increase immediately.",
+        "Mice are not connected to the food web.",
+        "Producers will stop using sunlight."
+      ],
+      "correctAnswer": "Snakes and hawks may have less food available.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "A decrease in prey can reduce food available to predators."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q7",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports mutualism?",
+      "questionText": "Which evidence best supports mutualism?",
+      "options": [
+        "Bees get nectar from flowers while flowers receive pollen transfer.",
+        "A hawk eats a mouse.",
+        "Two plants need the same sunlight.",
+        "A fish hides under a rock."
+      ],
+      "correctAnswer": "Bees get nectar from flowers while flowers receive pollen transfer.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Mutualism is an interaction where both organisms benefit."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q8",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Only predators matter in ecosystems.\" Review: which evidence best challenges the claim?",
+      "questionText": "A student says, \"Only predators matter in ecosystems.\" Review: which evidence best challenges the claim?",
+      "options": [
+        "Producers capture energy, decomposers recycle matter, and many organisms interact.",
+        "Predators are often animals.",
+        "Some predators have sharp teeth.",
+        "Food webs can be drawn with arrows."
+      ],
+      "correctAnswer": "Producers capture energy, decomposers recycle matter, and many organisms interact.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Ecosystems depend on many roles, not predators alone."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q9",
+      "type": "multiple_choice",
+      "prompt": "A table shows rabbit population rises, then fox population rises later. Review: which explanation best fits?",
+      "questionText": "A table shows rabbit population rises, then fox population rises later. Review: which explanation best fits?",
+      "options": [
+        "More rabbits may provide more food for foxes, allowing foxes to increase later.",
+        "Foxes make rabbits by photosynthesis.",
+        "Rabbits are nonliving resources.",
+        "Predator and prey populations cannot affect each other."
+      ],
+      "correctAnswer": "More rabbits may provide more food for foxes, allowing foxes to increase later.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Predator populations can respond after prey availability changes."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q10",
+      "type": "multiple_choice",
+      "prompt": "Which arrow direction in a food web is most useful for showing energy transfer?",
+      "questionText": "Which arrow direction in a food web is most useful for showing energy transfer?",
+      "options": [
+        "from food source to organism that eats it",
+        "from predator to sunlight only",
+        "from larger organism to smaller organism always",
+        "from decomposer to rock only"
+      ],
+      "correctAnswer": "from food source to organism that eats it",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Food-web arrows usually show the direction energy moves as one organism eats another."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q11",
+      "type": "multiple_choice",
+      "prompt": "An invasive plant grows quickly and blocks sunlight from native plants. Review: which chain is most likely?",
+      "questionText": "An invasive plant grows quickly and blocks sunlight from native plants. Review: which chain is most likely?",
+      "options": [
+        "less light for natives -> fewer native plants -> less food for some insects",
+        "more shade -> more sunlight -> more native plants",
+        "invasive plants become animals",
+        "insects stop needing food"
+      ],
+      "correctAnswer": "less light for natives -> fewer native plants -> less food for some insects",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The invasive plant changes light availability, which can ripple to plants and insects."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports that a population is limited by food?",
+      "questionText": "Which evidence best supports that a population is limited by food?",
+      "options": [
+        "When seed supply decreases, finch survival and population size decrease.",
+        "The birds have feathers.",
+        "The island has rocks.",
+        "The scientist used a notebook."
+      ],
+      "correctAnswer": "When seed supply decreases, finch survival and population size decrease.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A matching decrease in food and population supports food limitation."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q13",
+      "type": "multiple_choice",
+      "prompt": "Which organism role helps return matter from dead organisms to the ecosystem?",
+      "questionText": "Which organism role helps return matter from dead organisms to the ecosystem?",
+      "options": [
+        "decomposer",
+        "top predator",
+        "sunlight",
+        "habitat"
+      ],
+      "correctAnswer": "decomposer",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Decomposers break down dead material and return matter to the ecosystem."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q14",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Matter disappears when organisms are eaten.\" Review: what is the best correction?",
+      "questionText": "A student says, \"Matter disappears when organisms are eaten.\" Review: what is the best correction?",
+      "options": [
+        "Matter is transferred and eventually cycled through organisms and the environment.",
+        "Matter becomes nothing immediately.",
+        "Only energy can be eaten.",
+        "Food webs do not involve matter."
+      ],
+      "correctAnswer": "Matter is transferred and eventually cycled through organisms and the environment.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Matter is conserved and moves through living and nonliving parts of ecosystems."
+    },
+    {
+      "id": "science7-ecosystem-interactions-dynamics-review-q15",
+      "type": "multiple_choice",
+      "prompt": "Which question would best investigate competition between two plant species?",
+      "questionText": "Which question would best investigate competition between two plant species?",
+      "options": [
+        "Do both species grow less when planted together with limited light?",
+        "Which species has a shorter name?",
+        "Can either plant be drawn in a diagram?",
+        "Does the pot have a label?"
+      ],
+      "correctAnswer": "Do both species grow less when planted together with limited light?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A fair investigation would test whether sharing a limited resource affects growth."
+    }
+  ]
+}

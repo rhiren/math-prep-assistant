@@ -217,6 +217,439 @@
       ],
       "difficulty": "standard",
       "explanation": "Cells form tissues, tissues form organs, and organs work together in organ systems."
+    },
+    {
+      "id": "science7-cells-living-things-core-q11",
+      "type": "multiple_choice",
+      "prompt": "A microscope view shows many box-like plant cells. Most boxes have a dark round structure near the center. Which structure is the dark round part most likely showing?",
+      "questionText": "A microscope view shows many box-like plant cells. Most boxes have a dark round structure near the center. Which structure is the dark round part most likely showing?",
+      "options": [
+        "nucleus",
+        "cell wall",
+        "chloroplast",
+        "cell membrane"
+      ],
+      "correctAnswer": "nucleus",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The nucleus is often drawn or seen as a darker structure inside the cell because it contains genetic information."
+    },
+    {
+      "id": "science7-cells-living-things-core-q12",
+      "type": "multiple_choice",
+      "prompt": "A student compares a classroom to a cell. The classroom door controls what enters and leaves. Which cell structure has the most similar job?",
+      "questionText": "A student compares a classroom to a cell. The classroom door controls what enters and leaves. Which cell structure has the most similar job?",
+      "options": [
+        "cell membrane",
+        "mitochondrion",
+        "chloroplast",
+        "vacuole"
+      ],
+      "correctAnswer": "cell membrane",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The membrane controls movement of materials into and out of a cell, like a door controls movement into and out of a room."
+    },
+    {
+      "id": "science7-cells-living-things-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would best support the claim that a pond sample contains living organisms?",
+      "questionText": "Which evidence would best support the claim that a pond sample contains living organisms?",
+      "options": [
+        "The sample contains microscopic cells with visible boundaries.",
+        "The sample is green.",
+        "The sample came from outdoors.",
+        "The sample has small pieces of sand."
+      ],
+      "correctAnswer": "The sample contains microscopic cells with visible boundaries.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cells are direct evidence for living things. Color and location alone are weaker evidence."
+    },
+    {
+      "id": "science7-cells-living-things-core-q14",
+      "type": "multiple_choice",
+      "prompt": "A single-celled organism takes in food particles through its boundary. Which structure must be working to control what crosses that boundary?",
+      "questionText": "A single-celled organism takes in food particles through its boundary. Which structure must be working to control what crosses that boundary?",
+      "options": [
+        "cell membrane",
+        "cell wall",
+        "nucleus",
+        "chloroplast"
+      ],
+      "correctAnswer": "cell membrane",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "The cell membrane controls movement across the cell boundary."
+    },
+    {
+      "id": "science7-cells-living-things-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Which model best represents a multicellular organism as a system?",
+      "questionText": "Which model best represents a multicellular organism as a system?",
+      "options": [
+        "many specialized cells forming tissues, organs, and organ systems",
+        "one cell part doing every job alone",
+        "minerals attaching to a rock surface",
+        "a single organ floating without cells"
+      ],
+      "correctAnswer": "many specialized cells forming tissues, organs, and organ systems",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Multicellular organisms are organized systems built from specialized cells."
+    },
+    {
+      "id": "science7-cells-living-things-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"All cells have chloroplasts because all cells need energy.\" Which evidence best corrects the idea?",
+      "questionText": "A student says, \"All cells have chloroplasts because all cells need energy.\" Which evidence best corrects the idea?",
+      "options": [
+        "Animal cells use energy but usually do not have chloroplasts.",
+        "Plant cells are usually larger than atoms.",
+        "Cells can be seen with microscopes.",
+        "Some cells have membranes."
+      ],
+      "correctAnswer": "Animal cells use energy but usually do not have chloroplasts.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Many cells use energy without chloroplasts. Chloroplasts are common in plant cells that make sugars using light."
+    },
+    {
+      "id": "science7-cells-living-things-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A table lists two samples: Sample A has cells and uses energy. Sample B has no cells and does not use energy. Which claim is best supported?",
+      "questionText": "A table lists two samples: Sample A has cells and uses energy. Sample B has no cells and does not use energy. Which claim is best supported?",
+      "options": [
+        "Sample A is more likely living than Sample B.",
+        "Sample B is more likely living because it has fewer parts.",
+        "Both samples must be plants.",
+        "Neither sample can be studied with evidence."
+      ],
+      "correctAnswer": "Sample A is more likely living than Sample B.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "The data show stronger life evidence for Sample A because cells and energy use are features of living things."
+    },
+    {
+      "id": "science7-cells-living-things-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which structure-function match is accurate?",
+      "questionText": "Which structure-function match is accurate?",
+      "options": [
+        "mitochondrion: helps release usable energy from food molecules",
+        "nucleus: makes the stiff outer wall of plants",
+        "cell membrane: stores all genetic instructions in chromosomes",
+        "chloroplast: controls every material entering animal cells"
+      ],
+      "correctAnswer": "mitochondrion: helps release usable energy from food molecules",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Mitochondria help cells release usable energy from food molecules."
+    },
+    {
+      "id": "science7-cells-living-things-core-q19",
+      "type": "multiple_choice",
+      "prompt": "A plant wilts when its cells lose water. Which cell structure helps plant cells stay rigid when water is available?",
+      "questionText": "A plant wilts when its cells lose water. Which cell structure helps plant cells stay rigid when water is available?",
+      "options": [
+        "cell wall",
+        "nucleus",
+        "mitochondrion",
+        "cell membrane only"
+      ],
+      "correctAnswer": "cell wall",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "The cell wall gives plant cells support and helps them keep shape."
+    },
+    {
+      "id": "science7-cells-living-things-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A student claims, \"A microscope is useful only for nonliving things.\" Which evidence best challenges the claim?",
+      "questionText": "A student claims, \"A microscope is useful only for nonliving things.\" Which evidence best challenges the claim?",
+      "options": [
+        "Microscopes can reveal cells in onion skin and cheek samples.",
+        "Microscopes are made of glass and metal.",
+        "Some rocks are shiny under light.",
+        "A microscope can sit on a table."
+      ],
+      "correctAnswer": "Microscopes can reveal cells in onion skin and cheek samples.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cells in living samples are often too small to see without a microscope."
+    },
+    {
+      "id": "science7-cells-living-things-core-q21",
+      "type": "multiple_choice",
+      "prompt": "A diagram labels a cell wall outside a cell membrane. Which statement best interprets the model?",
+      "questionText": "A diagram labels a cell wall outside a cell membrane. Which statement best interprets the model?",
+      "options": [
+        "A plant cell can have both a supportive wall and a selective membrane.",
+        "The wall replaces the need for a membrane.",
+        "Only animal cells have cell walls.",
+        "The membrane is outside the wall in all cells."
+      ],
+      "correctAnswer": "A plant cell can have both a supportive wall and a selective membrane.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Plant cells commonly have a cell wall outside the membrane; the two structures have different jobs."
+    },
+    {
+      "id": "science7-cells-living-things-core-q22",
+      "type": "multiple_choice",
+      "prompt": "A scientist finds an unknown organism made of one cell with no chloroplasts. Which conclusion is most reasonable?",
+      "questionText": "A scientist finds an unknown organism made of one cell with no chloroplasts. Which conclusion is most reasonable?",
+      "options": [
+        "It may still be living because not all living cells have chloroplasts.",
+        "It cannot be living because every cell needs chloroplasts.",
+        "It must be a plant leaf cell.",
+        "It is an organ system."
+      ],
+      "correctAnswer": "It may still be living because not all living cells have chloroplasts.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Some living cells, including many single-celled organisms and animal cells, do not have chloroplasts."
+    },
+    {
+      "id": "science7-cells-living-things-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which investigation would best test whether a mystery sample is made of cells?",
+      "questionText": "Which investigation would best test whether a mystery sample is made of cells?",
+      "options": [
+        "Prepare a slide and observe the sample under a microscope.",
+        "Measure the color of the container.",
+        "Ask whether the sample came from a garden.",
+        "Shake the sample and listen for sound."
+      ],
+      "correctAnswer": "Prepare a slide and observe the sample under a microscope.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Direct observation with a microscope can provide evidence for cells."
+    },
+    {
+      "id": "science7-cells-living-things-core-q24",
+      "type": "multiple_choice",
+      "prompt": "A model shows nucleus -> instructions, chloroplast -> sugar-making, mitochondrion -> energy release, membrane -> controlled boundary. What does the model emphasize?",
+      "questionText": "A model shows nucleus -> instructions, chloroplast -> sugar-making, mitochondrion -> energy release, membrane -> controlled boundary. What does the model emphasize?",
+      "options": [
+        "Cell parts have different jobs that support the whole cell.",
+        "Every cell part has exactly the same function.",
+        "Cells do not need materials from the environment.",
+        "Only one part of a cell is living."
+      ],
+      "correctAnswer": "Cell parts have different jobs that support the whole cell.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The model connects several structures to functions that help the cell work as a system."
+    },
+    {
+      "id": "science7-cells-living-things-core-q25",
+      "type": "multiple_choice",
+      "prompt": "A student argues that a chicken egg from a grocery store is a complete multicellular organism because it is large. What is the best scientific response?",
+      "questionText": "A student argues that a chicken egg from a grocery store is a complete multicellular organism because it is large. What is the best scientific response?",
+      "options": [
+        "Size alone is not enough; evidence such as cells, organization, and life processes matters.",
+        "Anything large must be a full organism.",
+        "Only small things can be living.",
+        "Cells are not relevant to living things."
+      ],
+      "correctAnswer": "Size alone is not enough; evidence such as cells, organization, and life processes matters.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Large size does not prove something is a complete living organism. Scientific claims need relevant evidence."
+    },
+    {
+      "id": "science7-cells-living-things-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which observation best links cell structure to survival?",
+      "questionText": "Which observation best links cell structure to survival?",
+      "options": [
+        "A membrane lets needed materials enter while helping keep harmful materials out.",
+        "A cell is always square.",
+        "A cell wall makes all organisms move faster.",
+        "A nucleus is found outside the cell."
+      ],
+      "correctAnswer": "A membrane lets needed materials enter while helping keep harmful materials out.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Selective movement across the membrane helps a cell maintain conditions needed for life."
+    },
+    {
+      "id": "science7-cells-living-things-core-q27",
+      "type": "multiple_choice",
+      "prompt": "A tissue sample contracts when stimulated. What is the best connection to cells?",
+      "questionText": "A tissue sample contracts when stimulated. What is the best connection to cells?",
+      "options": [
+        "The tissue contains specialized cells whose structures support contraction.",
+        "The tissue cannot be living because tissues do not contain cells.",
+        "Only the whole organ can have specialized cells.",
+        "Contraction proves it is made of minerals."
+      ],
+      "correctAnswer": "The tissue contains specialized cells whose structures support contraction.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Tissues are groups of specialized cells working together."
+    },
+    {
+      "id": "science7-cells-living-things-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Which question would best deepen a model of how a cell works as a system?",
+      "questionText": "Which question would best deepen a model of how a cell works as a system?",
+      "options": [
+        "How do the cell parts interact to meet the cell's needs?",
+        "What is the prettiest color in the diagram?",
+        "Can the diagram be drawn larger?",
+        "What is the name of the classroom?"
+      ],
+      "correctAnswer": "How do the cell parts interact to meet the cell's needs?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A system model should show relationships and interactions, not only labels."
+    },
+    {
+      "id": "science7-cells-living-things-core-q29",
+      "type": "multiple_choice",
+      "prompt": "A student sees a cell with a cell wall, chloroplasts, a nucleus, and a membrane. Which claim is best supported?",
+      "questionText": "A student sees a cell with a cell wall, chloroplasts, a nucleus, and a membrane. Which claim is best supported?",
+      "options": [
+        "The cell is most likely from a plant or plant-like organism.",
+        "The cell must be an animal muscle cell.",
+        "The cell has no structures with functions.",
+        "The cell cannot use energy."
+      ],
+      "correctAnswer": "The cell is most likely from a plant or plant-like organism.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Cell walls and chloroplasts are strong evidence for plant or plant-like cells."
+    },
+    {
+      "id": "science7-cells-living-things-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best connects cells to the larger organism?",
+      "questionText": "Which explanation best connects cells to the larger organism?",
+      "options": [
+        "Cells carry out jobs; groups of specialized cells form structures that help the organism function.",
+        "Cells are unrelated to tissues and organs.",
+        "Organs make cells unnecessary.",
+        "A living thing is living only if it has one cell."
+      ],
+      "correctAnswer": "Cells carry out jobs; groups of specialized cells form structures that help the organism function.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects cell function to tissues, organs, organ systems, and the whole organism."
     }
   ]
 }

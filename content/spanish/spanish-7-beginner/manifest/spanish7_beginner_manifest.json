@@ -43,7 +43,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -88,8 +88,30 @@
                 "ACTFL Communication"
               ],
               "order": 2,
+              "testQuestionCount": 30,
               "tutorial": "./content/tutorials/concept-spanish-classroom-phrases.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "spanish7-classroom-phrases-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-classroom-phrases-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-classroom-phrases-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-classroom-phrases-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             },
             {
               "id": "concept-spanish-greetings-introductions",
@@ -109,7 +131,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -122,8 +144,30 @@
                 "ACTFL Cultures"
               ],
               "order": 3,
+              "testQuestionCount": 30,
               "tutorial": "./content/tutorials/concept-spanish-greetings-introductions.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "spanish7-greetings-introductions-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-greetings-introductions-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-greetings-introductions-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-greetings-introductions-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             },
             {
               "id": "concept-spanish-para-empezar-practice",

@@ -1,0 +1,395 @@
+{
+  "id": "spanish7-classroom-phrases-core",
+  "testId": "spanish7-classroom-phrases-core",
+  "conceptId": "concept-spanish-classroom-phrases",
+  "title": "Classroom Phrases Core Test",
+  "description": "Core practice for classroom objects, classroom directions, help phrases, and useful question words.",
+  "questions": [
+    {
+      "id": "spanish7-classroom-phrases-core-q01",
+      "type": "multiple_choice",
+      "questionText": "What does \"el cuaderno\" mean?",
+      "options": [
+        "notebook",
+        "folder",
+        "pen",
+        "teacher"
+      ],
+      "correctAnswer": "notebook",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"El cuaderno\" means notebook."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish word means \"book\"?",
+      "options": [
+        "el lápiz",
+        "la carpeta",
+        "el libro",
+        "el pupitre"
+      ],
+      "correctAnswer": "el libro",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"El libro\" means book."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q03",
+      "type": "multiple_choice",
+      "questionText": "What does \"la hoja de papel\" mean?",
+      "options": [
+        "sheet of paper",
+        "student desk",
+        "classroom",
+        "pencil"
+      ],
+      "correctAnswer": "sheet of paper",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"La hoja de papel\" means sheet of paper."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish phrase means \"student desk\"?",
+      "options": [
+        "la sala de clases",
+        "el pupitre",
+        "el profesor",
+        "la estudiante"
+      ],
+      "correctAnswer": "el pupitre",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"El pupitre\" means student desk."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q05",
+      "type": "multiple_choice",
+      "questionText": "Which pair means \"teacher\"?",
+      "options": [
+        "el estudiante / la estudiante",
+        "el profesor / la profesora",
+        "el bolígrafo / el lápiz",
+        "el libro / el cuaderno"
+      ],
+      "correctAnswer": "el profesor / la profesora",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "conceptual"
+      ],
+      "tags": [
+        "classroom-people"
+      ],
+      "explanation": "\"El profesor\" and \"la profesora\" mean teacher."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Which pair means \"student\"?",
+      "options": [
+        "el estudiante / la estudiante",
+        "el profesor / la profesora",
+        "la carpeta / el cuaderno",
+        "el pupitre / la sala de clases"
+      ],
+      "correctAnswer": "el estudiante / la estudiante",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "conceptual"
+      ],
+      "tags": [
+        "classroom-people"
+      ],
+      "explanation": "\"El estudiante\" and \"la estudiante\" mean student."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q07",
+      "type": "multiple_choice",
+      "questionText": "What does \"por favor\" mean?",
+      "options": [
+        "please",
+        "in",
+        "how many",
+        "there are"
+      ],
+      "correctAnswer": "please",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "politeness"
+      ],
+      "explanation": "\"Por favor\" means please."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q08",
+      "type": "multiple_choice",
+      "questionText": "What does \"en\" mean?",
+      "options": [
+        "in",
+        "please",
+        "there is",
+        "how many"
+      ],
+      "correctAnswer": "in",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "useful-words"
+      ],
+      "explanation": "\"En\" means in."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q09",
+      "type": "multiple_choice",
+      "questionText": "Which phrase asks \"How many?\"",
+      "options": [
+        "¿Cuántos, -as?",
+        "No entiendo.",
+        "Tengo una pregunta.",
+        "Gracias."
+      ],
+      "correctAnswer": "¿Cuántos, -as?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "question-words"
+      ],
+      "explanation": "\"¿Cuántos, -as?\" means how many."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q10",
+      "type": "multiple_choice",
+      "questionText": "A teacher says, \"Escuchen.\" What should students do?",
+      "options": [
+        "Listen.",
+        "Write.",
+        "Read.",
+        "Answer."
+      ],
+      "correctAnswer": "Listen.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "classroom-directions"
+      ],
+      "explanation": "\"Escuchen\" means listen."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q11",
+      "type": "multiple_choice",
+      "questionText": "A teacher says, \"Escriban.\" What should students do?",
+      "options": [
+        "Repeat.",
+        "Write.",
+        "Listen.",
+        "Ask."
+      ],
+      "correctAnswer": "Write.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "classroom-directions"
+      ],
+      "explanation": "\"Escriban\" means write."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q12",
+      "type": "multiple_choice",
+      "questionText": "Which phrase should you use when you do not understand?",
+      "options": [
+        "No entiendo.",
+        "Hasta luego.",
+        "El bolígrafo.",
+        "Muy bien."
+      ],
+      "correctAnswer": "No entiendo.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "help-phrases"
+      ],
+      "explanation": "\"No entiendo\" means I do not understand."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q13",
+      "type": "multiple_choice",
+      "questionText": "Which phrase asks the teacher to repeat?",
+      "options": [
+        "Repita, por favor.",
+        "Tengo una pregunta.",
+        "¿Cuántos?",
+        "La carpeta."
+      ],
+      "correctAnswer": "Repita, por favor.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "help-phrases"
+      ],
+      "explanation": "\"Repita, por favor\" means repeat, please."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q14",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"I have a question\"?",
+      "options": [
+        "Tengo una pregunta.",
+        "¿Cómo estás?",
+        "Hasta mañana.",
+        "El lápiz."
+      ],
+      "correctAnswer": "Tengo una pregunta.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "application"
+      ],
+      "tags": [
+        "help-phrases"
+      ],
+      "explanation": "\"Tengo una pregunta\" means I have a question."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q15",
+      "type": "multiple_choice",
+      "questionText": "Which object would you write with?",
+      "options": [
+        "el bolígrafo",
+        "la sala de clases",
+        "el profesor",
+        "la estudiante"
+      ],
+      "correctAnswer": "el bolígrafo",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "application"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "A bolígrafo is a pen, which is used for writing."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q16",
+      "type": "multiple_choice",
+      "questionText": "Which word names the place where class happens?",
+      "options": [
+        "el cuaderno",
+        "la sala de clases",
+        "la hoja de papel",
+        "el lápiz"
+      ],
+      "correctAnswer": "la sala de clases",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"La sala de clases\" means classroom."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q17",
+      "type": "multiple_choice",
+      "questionText": "Choose the best classroom request if you missed the directions.",
+      "options": [
+        "Repita, por favor.",
+        "Buenas noches.",
+        "Nos vemos.",
+        "Me llamo..."
+      ],
+      "correctAnswer": "Repita, por favor.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "application"
+      ],
+      "tags": [
+        "help-phrases",
+        "classroom-directions"
+      ],
+      "explanation": "If you missed directions, asking the teacher to repeat is the useful classroom move."
+    },
+    {
+      "id": "spanish7-classroom-phrases-core-q18",
+      "type": "multiple_choice",
+      "questionText": "Which answer best explains why classroom phrases matter for a beginner?",
+      "options": [
+        "They help you ask for help and follow class directions.",
+        "They only help you memorize months.",
+        "They replace the need to listen.",
+        "They are only used after class ends."
+      ],
+      "correctAnswer": "They help you ask for help and follow class directions.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "tags": [
+        "classroom-language"
+      ],
+      "explanation": "Classroom phrases help a beginner participate, ask for clarification, and understand directions."
+    }
+  ]
+}

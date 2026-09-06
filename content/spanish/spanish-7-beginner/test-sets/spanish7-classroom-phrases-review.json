@@ -1,0 +1,269 @@
+{
+  "id": "spanish7-classroom-phrases-review",
+  "testId": "spanish7-classroom-phrases-review",
+  "conceptId": "concept-spanish-classroom-phrases",
+  "title": "Classroom Phrases Review",
+  "description": "Short review for classroom objects, useful words, and help phrases.",
+  "questions": [
+    {
+      "id": "spanish7-classroom-phrases-review-q01",
+      "type": "multiple_choice",
+      "questionText": "What does \"el lápiz\" mean?",
+      "options": [
+        "pencil",
+        "pen",
+        "folder",
+        "classroom"
+      ],
+      "correctAnswer": "pencil",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"El lápiz\" means pencil."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q02",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish phrase means \"folder\"?",
+      "options": [
+        "la carpeta",
+        "el cuaderno",
+        "el libro",
+        "el pupitre"
+      ],
+      "correctAnswer": "la carpeta",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"La carpeta\" means folder."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q03",
+      "type": "multiple_choice",
+      "questionText": "What does \"hay\" mean?",
+      "options": [
+        "there is / there are",
+        "please",
+        "student",
+        "notebook"
+      ],
+      "correctAnswer": "there is / there are",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary",
+        "conceptual"
+      ],
+      "tags": [
+        "useful-words"
+      ],
+      "explanation": "\"Hay\" means there is or there are."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"please\"?",
+      "options": [
+        "en",
+        "por favor",
+        "hay",
+        "¿cuántos?"
+      ],
+      "correctAnswer": "por favor",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "politeness"
+      ],
+      "explanation": "\"Por favor\" means please."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q05",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish word means \"pen\"?",
+      "options": [
+        "el bolígrafo",
+        "el lápiz",
+        "el libro",
+        "la hoja de papel"
+      ],
+      "correctAnswer": "el bolígrafo",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": [
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"El bolígrafo\" means pen."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q06",
+      "type": "multiple_choice",
+      "questionText": "A teacher says, \"Lean.\" What should students do?",
+      "options": [
+        "Read.",
+        "Listen.",
+        "Repeat.",
+        "Write."
+      ],
+      "correctAnswer": "Read.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "classroom-directions"
+      ],
+      "explanation": "\"Lean\" means read."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q07",
+      "type": "multiple_choice",
+      "questionText": "Which phrase helps you ask for help?",
+      "options": [
+        "No entiendo.",
+        "Hasta luego.",
+        "Buenos días.",
+        "El libro."
+      ],
+      "correctAnswer": "No entiendo.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application"
+      ],
+      "tags": [
+        "help-phrases"
+      ],
+      "explanation": "\"No entiendo\" tells the teacher you do not understand."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q08",
+      "type": "multiple_choice",
+      "questionText": "Which word pair correctly matches Spanish to English?",
+      "options": [
+        "el cuaderno = notebook",
+        "el libro = pencil",
+        "la carpeta = teacher",
+        "el pupitre = pen"
+      ],
+      "correctAnswer": "el cuaderno = notebook",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-objects"
+      ],
+      "explanation": "\"El cuaderno\" means notebook."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q09",
+      "type": "multiple_choice",
+      "questionText": "Which question word would help you ask about the number of pencils?",
+      "options": [
+        "¿Cuántos?",
+        "¿Cómo?",
+        "¿Qué pasa?",
+        "¿Y tú?"
+      ],
+      "correctAnswer": "¿Cuántos?",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application",
+        "vocabulary"
+      ],
+      "tags": [
+        "question-words",
+        "classroom-objects"
+      ],
+      "explanation": "\"¿Cuántos?\" asks how many."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q10",
+      "type": "multiple_choice",
+      "questionText": "Choose the best phrase if you want the teacher to repeat something politely.",
+      "options": [
+        "Repita, por favor.",
+        "Adiós.",
+        "Me llamo...",
+        "Regular."
+      ],
+      "correctAnswer": "Repita, por favor.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "application",
+        "reasoning"
+      ],
+      "tags": [
+        "help-phrases"
+      ],
+      "explanation": "\"Repita, por favor\" is a polite request for repetition."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q11",
+      "type": "multiple_choice",
+      "questionText": "Which option names a person in the classroom?",
+      "options": [
+        "la estudiante",
+        "la carpeta",
+        "el cuaderno",
+        "el bolígrafo"
+      ],
+      "correctAnswer": "la estudiante",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": [
+        "reasoning",
+        "vocabulary"
+      ],
+      "tags": [
+        "classroom-people"
+      ],
+      "explanation": "\"La estudiante\" means the student, a person in the classroom."
+    },
+    {
+      "id": "spanish7-classroom-phrases-review-q12",
+      "type": "multiple_choice",
+      "questionText": "Which choice is most useful when you are confused during Spanish class?",
+      "options": [
+        "Stay silent and guess.",
+        "Use a help phrase like \"No entiendo.\"",
+        "Only memorize the months.",
+        "Say a goodbye phrase."
+      ],
+      "correctAnswer": "Use a help phrase like \"No entiendo.\"",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": [
+        "conceptual",
+        "reasoning"
+      ],
+      "tags": [
+        "classroom-language",
+        "help-phrases"
+      ],
+      "explanation": "A help phrase lets a beginner ask for clarification and keep participating."
+    }
+  ]
+}
