@@ -477,9 +477,13 @@ describe("content repository", () => {
       "concept-ecosystem-interactions-dynamics",
       "concept-population-data-ecosystem-stability",
       "concept-genetics-inheritance-variation",
+      "concept-dna-genes-chromosomes-traits",
       "concept-evolution-life-history",
+      "concept-fossil-record-rock-layer-evidence",
       "concept-natural-selection-adaptation",
+      "concept-comparative-anatomy-evolution-relationships",
       "concept-biodiversity-human-impact",
+      "concept-biodiversity-solutions-tradeoffs",
     ]);
 
     for (const concept of readyConcepts) {

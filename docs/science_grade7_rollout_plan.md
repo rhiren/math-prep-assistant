@@ -150,9 +150,13 @@ Target mix for a full review test:
 | Ecosystems | Ecosystem Interactions and Dynamics | yes | yes | yes | yes | Practice ready |
 | Ecosystems | Population Data and Ecosystem Stability | yes | yes | yes | yes | Practice ready |
 | Genetics and Inheritance | Genetics, Inheritance, and Variation | yes | yes | yes | yes | Practice ready |
+| Genetics and Inheritance | DNA, Genes, Chromosomes, and Traits | yes | yes | yes | yes | Practice ready |
 | Evolution and Earth/Life History | Evolution Evidence and Life History | yes | yes | yes | yes | Practice ready |
+| Evolution and Earth/Life History | Fossil Record and Rock Layer Evidence | yes | yes | yes | yes | Practice ready |
 | Evolution and Earth/Life History | Natural Selection and Adaptation | yes | yes | yes | yes | Practice ready |
+| Evolution and Earth/Life History | Comparative Anatomy and Evolutionary Relationships | yes | yes | yes | yes | Practice ready |
 | Biodiversity and Human Impact | Biodiversity and Human Impact | yes | yes | yes | yes | Practice ready |
+| Biodiversity and Human Impact | Biodiversity Solutions and Tradeoffs | yes | yes | yes | yes | Practice ready |
 
 ## Recommended Build Order
 

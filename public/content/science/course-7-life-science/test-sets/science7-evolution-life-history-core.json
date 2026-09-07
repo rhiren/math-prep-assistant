@@ -178,15 +178,15 @@
     {
       "id": "science7-evolution-life-history-core-q9",
       "type": "multiple_choice",
-      "prompt": "A diagram compares embryo stages of several vertebrates and shows early similarities. What can this evidence help support?",
-      "questionText": "A diagram compares embryo stages of several vertebrates and shows early similarities. What can this evidence help support?",
+      "prompt": "A diagram compares DNA sequence patterns from several vertebrates and shows many shared sections. What can this evidence help support?",
+      "questionText": "A diagram compares DNA sequence patterns from several vertebrates and shows many shared sections. What can this evidence help support?",
       "options": [
-        "related developmental patterns among organisms",
+        "relatedness patterns among organisms",
         "that all adult organisms are identical",
-        "that embryos are rocks",
-        "that development never changes"
+        "that DNA evidence is a rock layer",
+        "that DNA patterns never vary"
       ],
-      "correctAnswer": "related developmental patterns among organisms",
+      "correctAnswer": "relatedness patterns among organisms",
       "skillTags": [
         "visual"
       ],
@@ -194,7 +194,7 @@
         "model-interpretation"
       ],
       "difficulty": "standard",
-      "explanation": "Embryo similarities can be one line of evidence for relatedness."
+      "explanation": "DNA similarities can be one line of evidence for relatedness."
     },
     {
       "id": "science7-evolution-life-history-core-q10",
@@ -630,11 +630,11 @@
       "questionText": "Which final summary best shows understanding of evolution evidence?",
       "options": [
         "One fossil tells every detail.",
-        "Patterns in fossils, structures, embryos, and DNA help explain common ancestry and change over time.",
+        "Patterns in fossils, structures, DNA, and population data help explain common ancestry and change over time.",
         "Similar function is the only evidence needed.",
         "Evolution evidence is not based on patterns."
       ],
-      "correctAnswer": "Patterns in fossils, structures, embryos, and DNA help explain common ancestry and change over time.",
+      "correctAnswer": "Patterns in fossils, structures, DNA, and population data help explain common ancestry and change over time.",
       "skillTags": [
         "reasoning"
       ],

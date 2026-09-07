@@ -1,0 +1,643 @@
+{
+  "id": "science7-biodiversity-solutions-tradeoffs-core",
+  "testId": "science7-biodiversity-solutions-tradeoffs-core",
+  "conceptId": "concept-biodiversity-solutions-tradeoffs",
+  "title": "Biodiversity Solutions and Tradeoffs Core Test",
+  "description": "Core practice for evaluate human-impact solutions using biodiversity data, constraints, tradeoffs, and evidence-based design reasoning.",
+  "questions": [
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What should an evidence-based biodiversity solution include?",
+      "questionText": "What should an evidence-based biodiversity solution include?",
+      "options": [
+        "data about the problem and data to check whether the solution helps",
+        "only a catchy name",
+        "only the cheapest material",
+        "only a drawing with no measurements"
+      ],
+      "correctAnswer": "data about the problem and data to check whether the solution helps",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Solutions need evidence before and after."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q2",
+      "type": "multiple_choice",
+      "prompt": "A town compares two wetland path designs. Which evidence matters most for biodiversity?",
+      "questionText": "A town compares two wetland path designs. Which evidence matters most for biodiversity?",
+      "options": [
+        "which path name is shorter",
+        "which sign color is brighter",
+        "which map has bigger arrows",
+        "how each path affects nesting areas and species counts"
+      ],
+      "correctAnswer": "how each path affects nesting areas and species counts",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Biodiversity evidence should connect to organisms and habitat."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Why do engineers consider constraints?",
+      "questionText": "Why do engineers consider constraints?",
+      "options": [
+        "Constraints prove no solution can help.",
+        "Constraints are only opinions.",
+        "Real solutions must work within limits like cost, safety, time, and space.",
+        "Constraints make evidence unnecessary."
+      ],
+      "correctAnswer": "Real solutions must work within limits like cost, safety, time, and space.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Constraints are real design limits."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q4",
+      "type": "multiple_choice",
+      "prompt": "A plan protects more habitat but costs more. What concept does this show?",
+      "questionText": "A plan protects more habitat but costs more. What concept does this show?",
+      "options": [
+        "a chromosome",
+        "a tradeoff",
+        "a food chain only",
+        "a fossil sequence"
+      ],
+      "correctAnswer": "a tradeoff",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A tradeoff means gaining one benefit while accepting a cost or limitation."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which model best fits solution design?",
+      "questionText": "Which model best fits solution design?",
+      "options": [
+        "impact data -> goal -> solution options -> tradeoff comparison -> monitoring",
+        "favorite solution -> no data -> done",
+        "organism name -> exact answer",
+        "cost only -> ignore impact"
+      ],
+      "correctAnswer": "impact data -> goal -> solution options -> tradeoff comparison -> monitoring",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The model follows evidence-based design."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A park installs native plants to support pollinators. Which data would best test success?",
+      "questionText": "A park installs native plants to support pollinators. Which data would best test success?",
+      "options": [
+        "number of letters on the sign",
+        "color of the park benches",
+        "how many students like flowers",
+        "pollinator counts before and after planting"
+      ],
+      "correctAnswer": "pollinator counts before and after planting",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Before-and-after counts can test the design."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"The cheapest plan is automatically best.\" What is the best correction?",
+      "questionText": "A student says, \"The cheapest plan is automatically best.\" What is the best correction?",
+      "options": [
+        "Evidence should be ignored.",
+        "The most expensive plan always wins.",
+        "Cost is one constraint, but effectiveness and ecosystem impact also matter.",
+        "Cost is never important."
+      ],
+      "correctAnswer": "Cost is one constraint, but effectiveness and ecosystem impact also matter.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "A best design balances evidence and constraints."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which claim is strongest?",
+      "questionText": "Which claim is strongest?",
+      "options": [
+        "All plans are equally supported.",
+        "Plan B is better because it preserves 80% more nesting habitat while staying within the budget.",
+        "Plan B is better because I like it.",
+        "Plan A is better because its name is short."
+      ],
+      "correctAnswer": "Plan B is better because it preserves 80% more nesting habitat while staying within the budget.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "The strong claim uses data and a constraint."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q9",
+      "type": "multiple_choice",
+      "prompt": "A solution reduces pesticide use but requires more hand-weeding. What should the team discuss?",
+      "questionText": "A solution reduces pesticide use but requires more hand-weeding. What should the team discuss?",
+      "options": [
+        "whether the biodiversity benefit is worth the labor tradeoff",
+        "whether all insects disappear",
+        "whether fossils are older",
+        "whether genes are sections of DNA"
+      ],
+      "correctAnswer": "whether the biodiversity benefit is worth the labor tradeoff",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "The team should compare benefit and cost."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which observation would show possible biodiversity decline?",
+      "questionText": "Which observation would show possible biodiversity decline?",
+      "options": [
+        "the same trail map is used twice",
+        "a sign is repainted",
+        "the weather changes for one afternoon",
+        "fewer different species recorded in the same habitat over several years"
+      ],
+      "correctAnswer": "fewer different species recorded in the same habitat over several years",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Species richness over time is biodiversity evidence."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q11",
+      "type": "multiple_choice",
+      "prompt": "Why is monitoring important after a solution is built?",
+      "questionText": "Why is monitoring important after a solution is built?",
+      "options": [
+        "It proves every solution is perfect.",
+        "It only makes the project longer.",
+        "It shows whether the solution actually changes the outcome.",
+        "It replaces the need for a problem."
+      ],
+      "correctAnswer": "It shows whether the solution actually changes the outcome.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Monitoring connects design to results."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q12",
+      "type": "multiple_choice",
+      "prompt": "A wildlife crossing is proposed over a road. Which evidence best supports the need?",
+      "questionText": "A wildlife crossing is proposed over a road. Which evidence best supports the need?",
+      "options": [
+        "the number of cones in a photo",
+        "animal movement data showing the road blocks habitat connections",
+        "road paint color",
+        "bridge name choices"
+      ],
+      "correctAnswer": "animal movement data showing the road blocks habitat connections",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Need evidence should match the problem."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Which design goal is clearest?",
+      "questionText": "Which design goal is clearest?",
+      "options": [
+        "Increase native plant cover by 30% in one year to support pollinators.",
+        "Make nature better somehow.",
+        "Do a project outside.",
+        "Have a nice-looking garden."
+      ],
+      "correctAnswer": "Increase native plant cover by 30% in one year to support pollinators.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Clear goals are measurable."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q14",
+      "type": "multiple_choice",
+      "prompt": "A solution helps one species but reduces habitat for another. What should happen next?",
+      "questionText": "A solution helps one species but reduces habitat for another. What should happen next?",
+      "options": [
+        "Declare the plan perfect.",
+        "Ignore the harmed species.",
+        "Stop using evidence.",
+        "Compare the impacts and revise the design if needed."
+      ],
+      "correctAnswer": "Compare the impacts and revise the design if needed.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Tradeoffs should lead to evaluation and revision."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Which data table would be most useful?",
+      "questionText": "Which data table would be most useful?",
+      "options": [
+        "alphabetical list of plant names only",
+        "unlabeled photos with no measurements",
+        "species counts, habitat area protected, cost, and maintenance needs for each plan",
+        "favorite colors for each plan"
+      ],
+      "correctAnswer": "species counts, habitat area protected, cost, and maintenance needs for each plan",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "A useful table compares benefits and constraints."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q16",
+      "type": "multiple_choice",
+      "prompt": "Why does biodiversity matter for ecosystem stability?",
+      "questionText": "Why does biodiversity matter for ecosystem stability?",
+      "options": [
+        "Variety always removes all problems.",
+        "More variety can help ecosystems continue functioning when conditions change.",
+        "Biodiversity means every organism is identical.",
+        "Stability means nothing ever changes."
+      ],
+      "correctAnswer": "More variety can help ecosystems continue functioning when conditions change.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Variety can support resilience, though it is not magic."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A school replaces lawn with native plants. Which result best supports success?",
+      "questionText": "A school replaces lawn with native plants. Which result best supports success?",
+      "options": [
+        "more native pollinator visits and lower water use after installation",
+        "the garden has a longer nickname",
+        "students walk past it quickly",
+        "the old lawn was green"
+      ],
+      "correctAnswer": "more native pollinator visits and lower water use after installation",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This combines biodiversity and constraint data."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which statement avoids the perfect-solution trap?",
+      "questionText": "Which statement avoids the perfect-solution trap?",
+      "options": [
+        "A design must solve every problem completely.",
+        "Any tradeoff means failure.",
+        "Evidence is optional if the idea sounds kind.",
+        "A design can be worth using if evidence shows improvement and tradeoffs are acceptable."
+      ],
+      "correctAnswer": "A design can be worth using if evidence shows improvement and tradeoffs are acceptable.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Engineering often improves outcomes within limits."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q19",
+      "type": "multiple_choice",
+      "prompt": "A creek restoration plan removes invasive plants but may disturb soil for a week. What question is best?",
+      "questionText": "A creek restoration plan removes invasive plants but may disturb soil for a week. What question is best?",
+      "options": [
+        "Does the creek have a short name?",
+        "Are all plants equally helpful everywhere?",
+        "Will long-term habitat gains outweigh short-term disturbance?",
+        "Can we ignore all effects?"
+      ],
+      "correctAnswer": "Will long-term habitat gains outweigh short-term disturbance?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The question weighs tradeoffs over time."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q20",
+      "type": "multiple_choice",
+      "prompt": "Which cause/effect chain is strongest?",
+      "questionText": "Which cause/effect chain is strongest?",
+      "options": [
+        "shorter path -> no ecosystem",
+        "less habitat fragmentation -> easier movement -> more connected populations",
+        "more signs -> more fossils -> more DNA",
+        "higher cost -> automatic biodiversity"
+      ],
+      "correctAnswer": "less habitat fragmentation -> easier movement -> more connected populations",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Connected habitat can support movement and populations."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q21",
+      "type": "multiple_choice",
+      "prompt": "A plan is popular but data shows no increase in species richness after two years. What should the team do?",
+      "questionText": "A plan is popular but data shows no increase in species richness after two years. What should the team do?",
+      "options": [
+        "revise the plan using the monitoring evidence",
+        "keep it unchanged because popularity is enough",
+        "ignore the data",
+        "claim success without evidence"
+      ],
+      "correctAnswer": "revise the plan using the monitoring evidence",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Monitoring data should guide revision."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Which solution is most targeted?",
+      "questionText": "Which solution is most targeted?",
+      "options": [
+        "plant random species anywhere",
+        "paint rocks near the creek",
+        "rename the stream",
+        "install shaded streamside plants where temperature data shows overheating"
+      ],
+      "correctAnswer": "install shaded streamside plants where temperature data shows overheating",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Targeted solutions match evidence to cause."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Why compare multiple solutions?",
+      "questionText": "Why compare multiple solutions?",
+      "options": [
+        "Comparison weakens evidence.",
+        "All constraints disappear after comparison.",
+        "Different designs can meet the same goal with different benefits and tradeoffs.",
+        "Only the first idea can work."
+      ],
+      "correctAnswer": "Different designs can meet the same goal with different benefits and tradeoffs.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Comparison supports stronger design choices."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q24",
+      "type": "multiple_choice",
+      "prompt": "A bird nesting area is declining near a trail. Which design change best fits the evidence?",
+      "questionText": "A bird nesting area is declining near a trail. Which design change best fits the evidence?",
+      "options": [
+        "remove all signs about the area",
+        "reroute the trail away from nesting habitat during sensitive seasons",
+        "add louder music near nests",
+        "increase traffic through the habitat"
+      ],
+      "correctAnswer": "reroute the trail away from nesting habitat during sensitive seasons",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Reducing disturbance near nests matches the problem."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q25",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken a claimed solution?",
+      "questionText": "Which evidence would weaken a claimed solution?",
+      "options": [
+        "species counts continue falling after the solution and no other data shows improvement",
+        "maintenance stayed within budget",
+        "habitat area increased",
+        "water use decreased while pollinators increased"
+      ],
+      "correctAnswer": "species counts continue falling after the solution and no other data shows improvement",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A solution claim needs outcome evidence."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q26",
+      "type": "multiple_choice",
+      "prompt": "A team chooses a moderate-cost plan because it protects much more habitat than the cheap plan and is safer than the expensive plan. What reasoning is this?",
+      "questionText": "A team chooses a moderate-cost plan because it protects much more habitat than the cheap plan and is safer than the expensive plan. What reasoning is this?",
+      "options": [
+        "choosing randomly",
+        "ignoring constraints",
+        "using vocabulary only",
+        "balancing evidence, constraints, and tradeoffs"
+      ],
+      "correctAnswer": "balancing evidence, constraints, and tradeoffs",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The team compares multiple criteria."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which question pushes deeper thinking?",
+      "questionText": "Which question pushes deeper thinking?",
+      "options": [
+        "Can the plan be named quickly?",
+        "Which poster looks nicest?",
+        "What evidence would convince us the solution helped biodiversity without creating a worse tradeoff?",
+        "Is biodiversity a long word?"
+      ],
+      "correctAnswer": "What evidence would convince us the solution helped biodiversity without creating a worse tradeoff?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "It asks for evidence and tradeoffs."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Why should a solution name the organisms affected?",
+      "questionText": "Why should a solution name the organisms affected?",
+      "options": [
+        "Affected organisms do not matter.",
+        "Different organisms may respond differently, so the evidence must be specific.",
+        "All organisms always respond the same way.",
+        "Names replace data."
+      ],
+      "correctAnswer": "Different organisms may respond differently, so the evidence must be specific.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Specific affected groups make claims testable."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation shows strong understanding?",
+      "questionText": "Which final explanation shows strong understanding?",
+      "options": [
+        "The best biodiversity solution is supported by data, meets the goal, and manages constraints and tradeoffs.",
+        "The best solution is whichever sounds kind.",
+        "The cheapest solution always wins.",
+        "Any solution with a tradeoff fails."
+      ],
+      "correctAnswer": "The best biodiversity solution is supported by data, meets the goal, and manages constraints and tradeoffs.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This captures evidence-based design."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which investigation would improve a wetland plan?",
+      "questionText": "Which investigation would improve a wetland plan?",
+      "options": [
+        "Ask only which path is shortest",
+        "Ignore nesting data",
+        "Choose before collecting evidence",
+        "Measure species counts, nesting success, path safety, and cost for each design option."
+      ],
+      "correctAnswer": "Measure species counts, nesting success, path safety, and cost for each design option.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Good investigations compare ecological outcomes and constraints."
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "id": "science7-dna-genes-chromosomes-traits-core",
+  "testId": "science7-dna-genes-chromosomes-traits-core",
+  "conceptId": "concept-dna-genes-chromosomes-traits",
+  "title": "DNA, Genes, Chromosomes, and Traits Core Test",
+  "description": "Core practice for use models to connect DNA, genes, chromosomes, proteins, and observable traits without reducing genetics to memorized vocabulary.",
+  "questions": [
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q1",
+      "type": "multiple_choice",
+      "prompt": "Which statement best connects DNA and traits?",
+      "questionText": "Which statement best connects DNA and traits?",
+      "options": [
+        "DNA stores information that cells can use in processes that affect traits.",
+        "Traits are tiny chromosomes outside cells.",
+        "DNA is only a visible body part.",
+        "Genes erase all cell processes."
+      ],
+      "correctAnswer": "DNA stores information that cells can use in processes that affect traits.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Traits are visible results connected to information and cell activity."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q2",
+      "type": "multiple_choice",
+      "prompt": "A model shows a long strand labeled chromosome with several highlighted sections. What do the highlighted sections most likely represent?",
+      "questionText": "A model shows a long strand labeled chromosome with several highlighted sections. What do the highlighted sections most likely represent?",
+      "options": [
+        "separate organisms",
+        "food molecules",
+        "empty spaces with no information",
+        "genes on a chromosome"
+      ],
+      "correctAnswer": "genes on a chromosome",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Genes are sections of DNA located on chromosomes."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q3",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"One chromosome is one gene.\" Which correction is best?",
+      "questionText": "A student says, \"One chromosome is one gene.\" Which correction is best?",
+      "options": [
+        "Chromosomes are never in cells.",
+        "Genes and traits are always the same object.",
+        "A chromosome is a DNA package that usually contains many genes.",
+        "A gene contains many separate organisms."
+      ],
+      "correctAnswer": "A chromosome is a DNA package that usually contains many genes.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The package can hold many useful DNA sections."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q4",
+      "type": "multiple_choice",
+      "prompt": "A flower-color model says: gene difference -> pigment protein difference -> pigment amount -> flower color. What makes this a strong model?",
+      "questionText": "A flower-color model says: gene difference -> pigment protein difference -> pigment amount -> flower color. What makes this a strong model?",
+      "options": [
+        "It explains only the spelling of the word gene.",
+        "It connects information, cell process, and observable trait.",
+        "It skips every cell process.",
+        "It treats color as the DNA molecule."
+      ],
+      "correctAnswer": "It connects information, cell process, and observable trait.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Good models connect levels instead of naming one vocabulary word."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would best support a claim that a gene affects a trait?",
+      "questionText": "Which evidence would best support a claim that a gene affects a trait?",
+      "options": [
+        "Plants with different versions of the gene consistently make different pigment amounts.",
+        "All plants are watered on Tuesday.",
+        "The leaves are drawn with green marker.",
+        "The gene name has five letters."
+      ],
+      "correctAnswer": "Plants with different versions of the gene consistently make different pigment amounts.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The evidence links gene variation with a trait-related cell outcome."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A cell uses a gene instruction to make a protein. The protein changes how much starch the seed stores. What is the best cause/effect chain?",
+      "questionText": "A cell uses a gene instruction to make a protein. The protein changes how much starch the seed stores. What is the best cause/effect chain?",
+      "options": [
+        "seed starch -> no cells -> no instructions",
+        "protein activity -> chromosome disappears -> sunlight",
+        "trait name -> notebook color -> gene",
+        "gene instruction -> protein activity -> seed starch trait"
+      ],
+      "correctAnswer": "gene instruction -> protein activity -> seed starch trait",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The gene affects a protein, which can affect a trait."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q7",
+      "type": "multiple_choice",
+      "prompt": "Which comparison is most accurate?",
+      "questionText": "Which comparison is most accurate?",
+      "options": [
+        "A trait stores genes inside chromosomes.",
+        "Chromosomes are behaviors learned from practice.",
+        "DNA is like stored information; a trait is like evidence of how information was used.",
+        "DNA and traits are always identical objects."
+      ],
+      "correctAnswer": "DNA is like stored information; a trait is like evidence of how information was used.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "The analogy separates instruction from observable result."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q8",
+      "type": "multiple_choice",
+      "prompt": "In a diagram, chromosomes are shown inside the nucleus of a plant cell. Why is the cell level important?",
+      "questionText": "In a diagram, chromosomes are shown inside the nucleus of a plant cell. Why is the cell level important?",
+      "options": [
+        "Chromosomes are only outside organisms.",
+        "Genetic information is stored and used by cells, not floating as a trait by itself.",
+        "Traits are never related to cells.",
+        "The nucleus is a separate plant."
+      ],
+      "correctAnswer": "Genetic information is stored and used by cells, not floating as a trait by itself.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cell structures organize and use genetic information."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Which question would test understanding better than memorizing a definition?",
+      "questionText": "Which question would test understanding better than memorizing a definition?",
+      "options": [
+        "How could a gene change alter a cell process and then a trait?",
+        "How many letters are in DNA?",
+        "Can the diagram be blue?",
+        "Is gene a short word?"
+      ],
+      "correctAnswer": "How could a gene change alter a cell process and then a trait?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "This asks the learner to transfer the model to a cause/effect explanation."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q10",
+      "type": "multiple_choice",
+      "prompt": "A student claims, \"If two organisms have the same trait, their DNA must be exactly identical.\" What is the best response?",
+      "questionText": "A student claims, \"If two organisms have the same trait, their DNA must be exactly identical.\" What is the best response?",
+      "options": [
+        "Visible traits prove every DNA base is identical.",
+        "Traits never relate to DNA.",
+        "Environment controls chromosomes by choice.",
+        "The same visible trait can sometimes result from different genetic or environmental paths."
+      ],
+      "correctAnswer": "The same visible trait can sometimes result from different genetic or environmental paths.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Many traits are complex, so identical appearance does not prove identical DNA."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q11",
+      "type": "multiple_choice",
+      "prompt": "A table shows Gene Version A: high enzyme activity, Gene Version B: low enzyme activity. Which trait evidence would best match this data if the enzyme makes pigment?",
+      "questionText": "A table shows Gene Version A: high enzyme activity, Gene Version B: low enzyme activity. Which trait evidence would best match this data if the enzyme makes pigment?",
+      "options": [
+        "Version B makes every trait disappear.",
+        "The table title is longer for Version A.",
+        "Version A cells show more pigment than Version B cells.",
+        "Both versions have no cells."
+      ],
+      "correctAnswer": "Version A cells show more pigment than Version B cells.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern",
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "The data predicts a difference in pigment amount."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Which model is missing an important level?",
+      "questionText": "Which model is missing an important level?",
+      "options": [
+        "gene variation -> enzyme difference -> visible color",
+        "gene -> trait, with no cell process shown",
+        "DNA -> gene -> protein -> trait",
+        "chromosome -> gene locations -> cell process"
+      ],
+      "correctAnswer": "gene -> trait, with no cell process shown",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "A direct gene-to-trait arrow can hide the cell process."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q13",
+      "type": "multiple_choice",
+      "prompt": "A person can build muscle through training, but training does not rewrite every inherited instruction for muscle structure. What distinction does this scenario test?",
+      "questionText": "A person can build muscle through training, but training does not rewrite every inherited instruction for muscle structure. What distinction does this scenario test?",
+      "options": [
+        "Traits can involve both genetic information and environmental effects.",
+        "Genes are unrelated to cells.",
+        "All acquired changes become DNA instructions.",
+        "Chromosomes are exercise equipment."
+      ],
+      "correctAnswer": "Traits can involve both genetic information and environmental effects.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Some traits are influenced by environment while genetic information still matters."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which statement uses the word gene most carefully?",
+      "questionText": "Which statement uses the word gene most carefully?",
+      "options": [
+        "A gene is any visible feature.",
+        "A gene is one whole organism.",
+        "A gene is a memory learned at school.",
+        "A gene is a DNA section that can help affect a trait through cell processes."
+      ],
+      "correctAnswer": "A gene is a DNA section that can help affect a trait through cell processes.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "This keeps gene, organism, and trait levels separate."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q15",
+      "type": "multiple_choice",
+      "prompt": "A chromosome model has three genes labeled A, B, and C. Gene B is related to leaf shape. What can you infer?",
+      "questionText": "A chromosome model has three genes labeled A, B, and C. Gene B is related to leaf shape. What can you infer?",
+      "options": [
+        "Leaf shape is the chromosome itself.",
+        "Genes A and C must have no possible function.",
+        "The chromosome carries multiple genes, and one highlighted gene may connect to one trait model.",
+        "Gene B is the only DNA on the chromosome."
+      ],
+      "correctAnswer": "The chromosome carries multiple genes, and one highlighted gene may connect to one trait model.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "The model shows organization, not a one-gene chromosome."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q16",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would be weakest for a gene-trait claim?",
+      "questionText": "Which evidence would be weakest for a gene-trait claim?",
+      "options": [
+        "Changing a gene in a model changes the predicted protein.",
+        "The organism's name starts with the same letter as the trait.",
+        "A gene version predicts enzyme activity.",
+        "Cells with one gene version make more pigment."
+      ],
+      "correctAnswer": "The organism's name starts with the same letter as the trait.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Matching letters are not biological evidence."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A mutation changes one gene's instruction. The organism's cells make a protein with a different shape. Which outcome is most scientifically reasonable?",
+      "questionText": "A mutation changes one gene's instruction. The organism's cells make a protein with a different shape. Which outcome is most scientifically reasonable?",
+      "options": [
+        "The related trait might change if that protein affects the trait.",
+        "Every trait must become perfect.",
+        "No cell process can ever change.",
+        "The chromosome turns into a visible trait."
+      ],
+      "correctAnswer": "The related trait might change if that protein affects the trait.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A changed protein can affect a trait if it participates in that trait process."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best avoids the trap of vocabulary-only thinking?",
+      "questionText": "Which explanation best avoids the trap of vocabulary-only thinking?",
+      "options": [
+        "The trait happens because the answer is gene.",
+        "The gene is correct because genes are genes.",
+        "The chromosome is purple because the word says color.",
+        "The gene matters because its information changes a protein that changes pigment in cells."
+      ],
+      "correctAnswer": "The gene matters because its information changes a protein that changes pigment in cells.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The best explanation names the mechanism."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q19",
+      "type": "multiple_choice",
+      "prompt": "A diagram labels DNA, gene, chromosome, cell, and trait. Which order moves from information package toward evidence?",
+      "questionText": "A diagram labels DNA, gene, chromosome, cell, and trait. Which order moves from information package toward evidence?",
+      "options": [
+        "cell disappears -> trait stores all genes",
+        "gene name -> no process -> no evidence",
+        "chromosome with genes in a cell -> gene instruction used -> trait observed",
+        "trait observed -> chromosome becomes a cell-free rock"
+      ],
+      "correctAnswer": "chromosome with genes in a cell -> gene instruction used -> trait observed",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This order connects location, use, and observation."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A seedling grown in low light is shorter than the same variety grown in bright light. What should a careful genetics explanation include?",
+      "questionText": "A seedling grown in low light is shorter than the same variety grown in bright light. What should a careful genetics explanation include?",
+      "options": [
+        "The shorter seedling chose a short gene.",
+        "Environment can affect trait expression, so the trait difference is not automatically a gene difference.",
+        "Light changes all chromosomes into new organs.",
+        "Short plants have no DNA."
+      ],
+      "correctAnswer": "Environment can affect trait expression, so the trait difference is not automatically a gene difference.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Environmental conditions can influence observed traits."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Which claim is best supported by evidence that cells with Gene Version X make a working enzyme and cells with Version Y do not?",
+      "questionText": "Which claim is best supported by evidence that cells with Gene Version X make a working enzyme and cells with Version Y do not?",
+      "options": [
+        "Gene versions can affect cell processes that contribute to traits.",
+        "Genes never affect proteins.",
+        "Enzymes are unrelated to cells.",
+        "Traits happen without any molecules."
+      ],
+      "correctAnswer": "Gene versions can affect cell processes that contribute to traits.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The evidence links gene information to enzyme function."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Why might scientists use a model instead of only saying \"DNA controls traits\"?",
+      "questionText": "Why might scientists use a model instead of only saying \"DNA controls traits\"?",
+      "options": [
+        "Models remove evidence from science.",
+        "Models prove every trait has one cause.",
+        "Models are only decorations.",
+        "A model can show the steps between stored information and the observed trait."
+      ],
+      "correctAnswer": "A model can show the steps between stored information and the observed trait.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Models make hidden relationships visible."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q23",
+      "type": "multiple_choice",
+      "prompt": "A student sees stripes on leaves and says, \"The stripes are the gene.\" What is the best correction?",
+      "questionText": "A student sees stripes on leaves and says, \"The stripes are the gene.\" What is the best correction?",
+      "options": [
+        "Genes are never related to traits.",
+        "The leaf has no cells.",
+        "The stripes are the observed trait; a gene may help explain the cell process behind them.",
+        "The stripes are chromosomes in the air."
+      ],
+      "correctAnswer": "The stripes are the observed trait; a gene may help explain the cell process behind them.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A visible pattern is evidence, not the DNA section itself."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q24",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern most strongly suggests a gene is involved in a trait?",
+      "questionText": "Which data pattern most strongly suggests a gene is involved in a trait?",
+      "options": [
+        "The graph colors match the classroom wall.",
+        "A specific gene version repeatedly appears with a specific cell-process difference.",
+        "The measurement dates are all Mondays.",
+        "The plant pots are arranged alphabetically."
+      ],
+      "correctAnswer": "A specific gene version repeatedly appears with a specific cell-process difference.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Repeated association with a biological process is stronger evidence."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q25",
+      "type": "multiple_choice",
+      "prompt": "In a protein-building model, what would happen if the gene instruction changed but the protein still worked the same way?",
+      "questionText": "In a protein-building model, what would happen if the gene instruction changed but the protein still worked the same way?",
+      "options": [
+        "The visible trait might not change.",
+        "The organism would have no chromosomes.",
+        "Every trait would instantly change.",
+        "Cells would stop containing DNA."
+      ],
+      "correctAnswer": "The visible trait might not change.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect",
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Not every DNA change produces an observable trait difference."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which statement best handles uncertainty in a genetics explanation?",
+      "questionText": "Which statement best handles uncertainty in a genetics explanation?",
+      "options": [
+        "One clue proves everything about the organism.",
+        "Genes can only be discussed with no evidence.",
+        "Environment always erases DNA.",
+        "The evidence suggests this gene affects the trait, but other genes or environment may also matter."
+      ],
+      "correctAnswer": "The evidence suggests this gene affects the trait, but other genes or environment may also matter.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Strong scientific claims match the strength and limits of the evidence."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q27",
+      "type": "multiple_choice",
+      "prompt": "A model compares two gene versions and two protein shapes. Which added observation would best complete the model?",
+      "questionText": "A model compares two gene versions and two protein shapes. Which added observation would best complete the model?",
+      "options": [
+        "the number of letters in chromosome",
+        "a picture with no labels",
+        "a trait measurement connected to the protein difference",
+        "a random classroom seating chart"
+      ],
+      "correctAnswer": "a trait measurement connected to the protein difference",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The model needs observed evidence at the trait level."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Why is \"DNA -> trait\" sometimes too simple?",
+      "questionText": "Why is \"DNA -> trait\" sometimes too simple?",
+      "options": [
+        "Cells do not use molecules.",
+        "It can hide the cell processes and environmental effects between information and observation.",
+        "DNA never stores information.",
+        "Traits are always packages of DNA."
+      ],
+      "correctAnswer": "It can hide the cell processes and environmental effects between information and observation.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The missing middle steps are often the scientific explanation."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation shows the deepest understanding?",
+      "questionText": "Which final explanation shows the deepest understanding?",
+      "options": [
+        "A gene is a DNA section on a chromosome; cells use its information in processes that can affect traits.",
+        "A trait is a gene because both are science words.",
+        "Chromosomes are learned behaviors.",
+        "DNA means the organism has no environment."
+      ],
+      "correctAnswer": "A gene is a DNA section on a chromosome; cells use its information in processes that can affect traits.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects the levels in the system."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which investigation question would push the model forward?",
+      "questionText": "Which investigation question would push the model forward?",
+      "options": [
+        "Can the chromosome label be larger?",
+        "Does the word DNA have three letters?",
+        "Are all diagrams equally colorful?",
+        "Do cells with different gene versions show different protein activity and trait evidence?"
+      ],
+      "correctAnswer": "Do cells with different gene versions show different protein activity and trait evidence?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This asks for evidence across gene, cell process, and trait."
+    }
+  ]
+}
