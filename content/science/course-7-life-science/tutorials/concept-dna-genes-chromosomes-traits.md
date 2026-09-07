@@ -71,6 +71,10 @@ A lab model shows a chromosome with one highlighted gene. A plant with one versi
 
 A strong explanation connects the highlighted gene to a cell process and then to the visible flower color.
 
+## Try At Home
+
+Build a paper model: a long strip is a chromosome, highlighted sections are genes, and a sticky note is the observed trait. Practice explaining why the sticky note is evidence, not the DNA itself.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

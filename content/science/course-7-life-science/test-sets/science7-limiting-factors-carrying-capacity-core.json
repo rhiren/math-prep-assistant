@@ -1,0 +1,642 @@
+{
+  "id": "science7-limiting-factors-carrying-capacity-core",
+  "testId": "science7-limiting-factors-carrying-capacity-core",
+  "conceptId": "concept-limiting-factors-carrying-capacity",
+  "title": "Limiting Factors and Carrying Capacity Core Test",
+  "description": "Core practice for interpret population data to explain how resources and limiting factors affect carrying capacity.",
+  "questions": [
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What is a limiting factor?",
+      "questionText": "What is a limiting factor?",
+      "options": [
+        "something that restricts population growth",
+        "a chromosome section",
+        "a food-web arrow color",
+        "a fossil layer only"
+      ],
+      "correctAnswer": "something that restricts population growth",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Limiting factors slow or restrict populations."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q2",
+      "type": "multiple_choice",
+      "prompt": "What is carrying capacity?",
+      "questionText": "What is carrying capacity?",
+      "options": [
+        "the size of one organism's backpack",
+        "the exact age of a fossil",
+        "the number of genes on one chromosome",
+        "the population size an environment can support over time"
+      ],
+      "correctAnswer": "the population size an environment can support over time",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Capacity depends on resources and conditions."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q3",
+      "type": "multiple_choice",
+      "prompt": "A rabbit population rises, slows, and levels off. What might this suggest?",
+      "questionText": "A rabbit population rises, slows, and levels off. What might this suggest?",
+      "options": [
+        "the graph is unrelated to resources",
+        "every rabbit changed traits by choice",
+        "the population is approaching carrying capacity",
+        "rabbits no longer need food"
+      ],
+      "correctAnswer": "the population is approaching carrying capacity",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Leveling off can show resource limits."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q4",
+      "type": "multiple_choice",
+      "prompt": "Which model is strongest?",
+      "questionText": "Which model is strongest?",
+      "options": [
+        "rock layer -> carrying capacity",
+        "less food -> lower survival -> slower population growth",
+        "less food -> unlimited growth",
+        "more labels -> more deer"
+      ],
+      "correctAnswer": "less food -> lower survival -> slower population growth",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The chain connects resource to population."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says populations can grow forever. What is best?",
+      "questionText": "A student says populations can grow forever. What is best?",
+      "options": [
+        "Resources and other limiting factors eventually restrict growth.",
+        "The student is always correct.",
+        "Food and space never matter.",
+        "Predators increase unlimited growth."
+      ],
+      "correctAnswer": "Resources and other limiting factors eventually restrict growth.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Growth is limited by conditions."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q6",
+      "type": "multiple_choice",
+      "prompt": "Which is a possible limiting factor?",
+      "questionText": "Which is a possible limiting factor?",
+      "options": [
+        "organism name length",
+        "graph color",
+        "textbook page number",
+        "water availability"
+      ],
+      "correctAnswer": "water availability",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Water can limit survival and growth."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A plant population drops during drought. Which claim fits?",
+      "questionText": "A plant population drops during drought. Which claim fits?",
+      "options": [
+        "water is never related to plants",
+        "drought creates unlimited resources",
+        "water may have become a limiting factor",
+        "plants chose to disappear"
+      ],
+      "correctAnswer": "water may have become a limiting factor",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Drought can reduce water availability."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q8",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports a predator limiting factor?",
+      "questionText": "Which evidence best supports a predator limiting factor?",
+      "options": [
+        "prey are drawn smaller",
+        "prey numbers drop after predator numbers increase, with other conditions similar",
+        "the predator name is longer",
+        "the graph has a title"
+      ],
+      "correctAnswer": "prey numbers drop after predator numbers increase, with other conditions similar",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Timing and controlled conditions matter."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Why can carrying capacity fluctuate?",
+      "questionText": "Why can carrying capacity fluctuate?",
+      "options": [
+        "resources and conditions can change over time",
+        "capacity is always a fixed magic number",
+        "organisms stop needing resources",
+        "graphs cannot change"
+      ],
+      "correctAnswer": "resources and conditions can change over time",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Environmental conditions vary."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which graph pattern shows overshoot?",
+      "questionText": "Which graph pattern shows overshoot?",
+      "options": [
+        "population label gets bigger",
+        "no data is shown",
+        "population is exactly zero forever",
+        "population rises above supportable level and then drops"
+      ],
+      "correctAnswer": "population rises above supportable level and then drops",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Overshoot can be followed by decline."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q11",
+      "type": "multiple_choice",
+      "prompt": "A crowded seed cup has shorter sprouts than a less crowded cup. What limiting factor might be involved?",
+      "questionText": "A crowded seed cup has shorter sprouts than a less crowded cup. What limiting factor might be involved?",
+      "options": [
+        "fossil age",
+        "wing bone pattern",
+        "space or resource competition",
+        "common ancestry"
+      ],
+      "correctAnswer": "space or resource competition",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Crowding can increase competition."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Which question asks for evidence?",
+      "questionText": "Which question asks for evidence?",
+      "options": [
+        "How long is capacity?",
+        "What resource changed before the population growth slowed?",
+        "Is the graph pretty?",
+        "Can rabbits count?"
+      ],
+      "correctAnswer": "What resource changed before the population growth slowed?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Evidence should connect cause and pattern."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q13",
+      "type": "multiple_choice",
+      "prompt": "What happens to growth rate near carrying capacity?",
+      "questionText": "What happens to growth rate near carrying capacity?",
+      "options": [
+        "it often slows or fluctuates",
+        "it always becomes infinite",
+        "it ignores resources",
+        "it becomes a chromosome"
+      ],
+      "correctAnswer": "it often slows or fluctuates",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "Growth slows as limits matter more."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which claim overreaches?",
+      "questionText": "Which claim overreaches?",
+      "options": [
+        "Disease can be a limiting factor.",
+        "Food can limit growth.",
+        "Evidence is needed to identify cause.",
+        "A population drop always has exactly the same cause."
+      ],
+      "correctAnswer": "A population drop always has exactly the same cause.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Different causes can produce declines."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q15",
+      "type": "multiple_choice",
+      "prompt": "If nesting sites increase, what might happen?",
+      "questionText": "If nesting sites increase, what might happen?",
+      "options": [
+        "carrying capacity must drop",
+        "food webs stop moving energy",
+        "a bird population may increase if nesting sites were limiting",
+        "all predators vanish"
+      ],
+      "correctAnswer": "a bird population may increase if nesting sites were limiting",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Removing a limit can raise supportable population."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q16",
+      "type": "multiple_choice",
+      "prompt": "Which data table is useful?",
+      "questionText": "Which data table is useful?",
+      "options": [
+        "unlabeled dots",
+        "year, population size, food amount, water amount, predator count",
+        "year and favorite color",
+        "animal names only"
+      ],
+      "correctAnswer": "year, population size, food amount, water amount, predator count",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Population and resource data support reasoning."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A population levels off even though food is plentiful. What should scientists do?",
+      "questionText": "A population levels off even though food is plentiful. What should scientists do?",
+      "options": [
+        "look for other limiting factors such as space, disease, or predators",
+        "declare food the only possible factor",
+        "ignore the graph",
+        "assume unlimited growth"
+      ],
+      "correctAnswer": "look for other limiting factors such as space, disease, or predators",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "More than one factor can limit growth."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Why compare two equal-size areas when counting organisms?",
+      "questionText": "Why compare two equal-size areas when counting organisms?",
+      "options": [
+        "to change every variable",
+        "to avoid data",
+        "to prove all habitats identical",
+        "to make population-density evidence fairer"
+      ],
+      "correctAnswer": "to make population-density evidence fairer",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Equal sampling supports comparison."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Which cause/effect chain fits disease?",
+      "questionText": "Which cause/effect chain fits disease?",
+      "options": [
+        "crowding -> no interactions -> no effects",
+        "disease -> fossils only",
+        "crowding increases contact -> disease spreads faster -> survival decreases",
+        "disease -> unlimited resources -> more space"
+      ],
+      "correctAnswer": "crowding increases contact -> disease spreads faster -> survival decreases",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Crowding can affect disease transmission."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q20",
+      "type": "multiple_choice",
+      "prompt": "What does a carrying-capacity line on a graph represent?",
+      "questionText": "What does a carrying-capacity line on a graph represent?",
+      "options": [
+        "the number of food-web arrows",
+        "an estimated supportable population level under current conditions",
+        "an exact unchanging law for all time",
+        "the age of each organism"
+      ],
+      "correctAnswer": "an estimated supportable population level under current conditions",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "It is an estimate based on conditions."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Which result weakens a water-limitation claim?",
+      "questionText": "Which result weakens a water-limitation claim?",
+      "options": [
+        "population drops while water increases and disease evidence appears",
+        "population drops during drought",
+        "survival improves after watering",
+        "plants wilt when water is low"
+      ],
+      "correctAnswer": "population drops while water increases and disease evidence appears",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Other evidence may point to a different cause."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q22",
+      "type": "multiple_choice",
+      "prompt": "How does this concept connect to ecosystems?",
+      "questionText": "How does this concept connect to ecosystems?",
+      "options": [
+        "populations are separate from ecosystems",
+        "resources never connect organisms",
+        "carrying capacity only applies to rocks",
+        "population changes can affect food webs and resource use"
+      ],
+      "correctAnswer": "population changes can affect food webs and resource use",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Population patterns affect systems."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which final summary is strongest?",
+      "questionText": "Which final summary is strongest?",
+      "options": [
+        "Capacity never changes.",
+        "Any drop has the same cause.",
+        "Limiting factors shape population graphs by changing survival, growth, and the supportable population size.",
+        "Populations always grow forever."
+      ],
+      "correctAnswer": "Limiting factors shape population graphs by changing survival, growth, and the supportable population size.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects factors, data, and population patterns."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q24",
+      "type": "multiple_choice",
+      "prompt": "What is the best next investigation?",
+      "questionText": "What is the best next investigation?",
+      "options": [
+        "choose the nicest graph",
+        "change one resource while keeping other conditions similar and track population growth",
+        "change all conditions at once",
+        "skip measuring population"
+      ],
+      "correctAnswer": "change one resource while keeping other conditions similar and track population growth",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A controlled investigation can test a limiting factor."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q25",
+      "type": "multiple_choice",
+      "prompt": "Why does evidence matter before naming the limiting factor?",
+      "questionText": "Why does evidence matter before naming the limiting factor?",
+      "options": [
+        "different limiting factors can create similar population patterns",
+        "evidence makes claims weaker",
+        "all factors are identical",
+        "graphs cannot support claims"
+      ],
+      "correctAnswer": "different limiting factors can create similar population patterns",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Similar effects can have different causes."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best avoids memorizing only vocabulary?",
+      "questionText": "Which explanation best avoids memorizing only vocabulary?",
+      "options": [
+        "It repeats the bold word only.",
+        "It ignores data.",
+        "It chooses the shortest answer.",
+        "It connects the model, evidence, and cause/effect relationship."
+      ],
+      "correctAnswer": "It connects the model, evidence, and cause/effect relationship.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Understanding means using the idea."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which type of evidence would make the claim stronger?",
+      "questionText": "Which type of evidence would make the claim stronger?",
+      "options": [
+        "a favorite opinion",
+        "a result with no measurement",
+        "repeated observations under controlled conditions",
+        "one unlabeled picture"
+      ],
+      "correctAnswer": "repeated observations under controlled conditions",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Repeated controlled observations strengthen claims."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q28",
+      "type": "multiple_choice",
+      "prompt": "What should a careful scientist avoid?",
+      "questionText": "What should a careful scientist avoid?",
+      "options": [
+        "comparing evidence",
+        "changing several variables and then claiming one cause with certainty",
+        "recording data",
+        "using a model"
+      ],
+      "correctAnswer": "changing several variables and then claiming one cause with certainty",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Fair tests protect conclusions."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which prompt asks for transfer?",
+      "questionText": "Which prompt asks for transfer?",
+      "options": [
+        "How would the model apply if the organism, material, or ecosystem changed?",
+        "What is the first letter of the topic?",
+        "Can the page be colored?",
+        "Is the title long?"
+      ],
+      "correctAnswer": "How would the model apply if the organism, material, or ecosystem changed?",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Transfer means applying the idea to new details."
+    },
+    {
+      "id": "science7-limiting-factors-carrying-capacity-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which final habit helps in science?",
+      "questionText": "Which final habit helps in science?",
+      "options": [
+        "choose first and ignore evidence",
+        "memorize labels only",
+        "avoid models",
+        "explain the evidence before choosing the claim"
+      ],
+      "correctAnswer": "explain the evidence before choosing the claim",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Claims should follow evidence."
+    }
+  ]
+}

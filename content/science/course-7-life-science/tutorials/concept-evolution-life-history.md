@@ -67,6 +67,10 @@ A fossil layer contains shell fossils in a place that is dry land today. This ev
 
 A stronger explanation would compare rock layers, fossil types, and other evidence.
 
+## Try At Home
+
+Make three paper "rock layers" and place different drawn fossils in each layer. Practice making careful claims from position evidence, then add a "fault" line and explain why the claim becomes more cautious.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

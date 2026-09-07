@@ -72,6 +72,10 @@ A fossil with simple limb bones appears in an older layer. A fossil with similar
 
 A careful claim says the younger fossil may show a later form with related structures, and the claim should stay tied to the layer evidence.
 
+## Try At Home
+
+Stack three clear cups or containers with different dry materials such as rice, lentils, and cereal crumbs. Hide paper fossil symbols in layers, then infer relative age from layer position.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

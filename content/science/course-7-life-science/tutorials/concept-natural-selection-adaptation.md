@@ -70,6 +70,10 @@ A bird population has different beak shapes. During a drought, only large tough 
 
 If deeper beaks become more common over many generations, the evidence supports natural selection.
 
+## Try At Home
+
+Use two spoon types to pick up two small safe objects, such as cotton balls and dry beans, for 20 seconds. Compare which tool works better in which "environment" and connect that to trait fit, not effort.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

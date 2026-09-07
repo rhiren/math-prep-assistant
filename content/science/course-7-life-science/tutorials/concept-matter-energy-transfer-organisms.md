@@ -62,6 +62,10 @@ Answer these without looking back:
 
 A pond receives extra nutrients. Algae grow rapidly, then decomposers break down dead algae and use oxygen. Fish may decline if dissolved oxygen drops. The explanation connects matter movement, energy use, and ecosystem effects.
 
+## Try At Home
+
+Track a simple meal backward: list one food item, the plant or producer source behind it, and where matter and energy move next in your body. This is a model-building investigation, not a nutrition judgment.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

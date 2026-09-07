@@ -74,6 +74,10 @@ Two pea plants inherit genes for tall growth. One receives enough water and ligh
 
 If one grows shorter, the difference may be environmental, even though both inherited similar growth potential.
 
+## Try At Home
+
+Sort a handful of dried beans, buttons, or beads by one visible trait such as color or size. Make a frequency table and explain how variation in a group can be measured without saying where it came from.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

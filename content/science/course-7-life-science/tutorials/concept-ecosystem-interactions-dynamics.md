@@ -74,6 +74,10 @@ An invasive plant grows quickly and blocks sunlight from native pond plants. Ins
 
 The likely chain is: invasive plant blocks sunlight, native plants decrease, insects lose food, insect population decreases.
 
+## Try At Home
+
+Observe a small outdoor area for 10 minutes and make a mini interaction map: producer, consumer, decomposer clue, shelter, water, or light. Look without touching plants or animals.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

@@ -62,6 +62,10 @@ Answer these without looking back:
 
 A root cell has a long extension into soil. A strong explanation connects the extension to more contact with soil, which supports water and mineral absorption.
 
+## Try At Home
+
+Compare the shape of three safe household materials: a paper towel, a sponge, and a smooth plastic sheet. Ask which structure is best for absorbing water, then connect the idea to specialized cells: structure helps function.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

@@ -80,6 +80,10 @@ A class grows radish plants. One group gets enough water, and one group gets ver
 
 A strong explanation connects evidence to mechanism: water shortage affected cell processes and limited growth.
 
+## Try At Home
+
+Place two similar small plants or sprouting beans in different light conditions for several days. Keep water the same and measure height or leaf number. The goal is not a perfect result; it is controlling one variable.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

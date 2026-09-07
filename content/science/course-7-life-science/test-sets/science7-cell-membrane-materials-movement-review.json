@@ -1,0 +1,327 @@
+{
+  "id": "science7-cell-membrane-materials-movement-review",
+  "testId": "science7-cell-membrane-materials-movement-review",
+  "conceptId": "concept-cell-membrane-materials-movement",
+  "title": "Cell Membrane and Materials Movement Review Test",
+  "description": "Spaced review for model how cell membranes help cells exchange materials while maintaining workable internal conditions.",
+  "questions": [
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q1",
+      "type": "multiple_choice",
+      "prompt": "What is one main role of the cell membrane?",
+      "questionText": "What is one main role of the cell membrane?",
+      "options": [
+        "to help control what moves into and out of a cell",
+        "to make the cell invisible",
+        "to turn water into DNA",
+        "to stop every material forever"
+      ],
+      "correctAnswer": "to help control what moves into and out of a cell",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The membrane is a selective boundary."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q2",
+      "type": "multiple_choice",
+      "prompt": "Which model is strongest?",
+      "questionText": "Which model is strongest?",
+      "options": [
+        "cell color -> favorite food -> no data",
+        "membrane -> blocks everything -> no exchange",
+        "salt -> DNA -> fossil",
+        "outside condition -> concentration difference -> membrane movement -> cell effect"
+      ],
+      "correctAnswer": "outside condition -> concentration difference -> membrane movement -> cell effect",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The chain connects cause and cell effect."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q3",
+      "type": "multiple_choice",
+      "prompt": "A student says the membrane blocks all materials. What is the best correction?",
+      "questionText": "A student says the membrane blocks all materials. What is the best correction?",
+      "options": [
+        "Cells need no materials.",
+        "Membranes are only decorations.",
+        "Cells exchange materials through controlled movement across the membrane.",
+        "The student is fully correct."
+      ],
+      "correctAnswer": "Cells exchange materials through controlled movement across the membrane.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Cells must take in and release materials."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q4",
+      "type": "multiple_choice",
+      "prompt": "Why should the cucumber slices be the same size?",
+      "questionText": "Why should the cucumber slices be the same size?",
+      "options": [
+        "so cells stop working",
+        "to control variables so the water movement comparison is fair",
+        "so they look prettier",
+        "so salt disappears"
+      ],
+      "correctAnswer": "to control variables so the water movement comparison is fair",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Fair tests change one main variable."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q5",
+      "type": "multiple_choice",
+      "prompt": "Which question tests understanding?",
+      "questionText": "Which question tests understanding?",
+      "options": [
+        "How would the result change if the outside solution were less salty?",
+        "How long is the word membrane?",
+        "Is the cup colorful?",
+        "Can the label be bigger?"
+      ],
+      "correctAnswer": "How would the result change if the outside solution were less salty?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Changing the condition tests the model."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q6",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern supports diffusion?",
+      "questionText": "Which data pattern supports diffusion?",
+      "options": [
+        "color stays only in the label",
+        "no observations are recorded",
+        "the cup changes names",
+        "color is darkest near the drop at first, then spreads outward over time"
+      ],
+      "correctAnswer": "color is darkest near the drop at first, then spreads outward over time",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Spreading over time is a diffusion pattern."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q7",
+      "type": "multiple_choice",
+      "prompt": "Which claim overreaches?",
+      "questionText": "Which claim overreaches?",
+      "options": [
+        "Mass change can be evidence.",
+        "More trials would strengthen the claim.",
+        "This one cucumber test proves every membrane moves every material the same way.",
+        "The salty condition may cause water loss."
+      ],
+      "correctAnswer": "This one cucumber test proves every membrane moves every material the same way.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "One test should not be overgeneralized."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q8",
+      "type": "multiple_choice",
+      "prompt": "What should a graph of potato mass in salty water show if water leaves cells?",
+      "questionText": "What should a graph of potato mass in salty water show if water leaves cells?",
+      "options": [
+        "mass increases because labels are bigger",
+        "mass decreases over time",
+        "mass becomes fossil age",
+        "mass is never measured"
+      ],
+      "correctAnswer": "mass decreases over time",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Water loss can reduce mass."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q9",
+      "type": "multiple_choice",
+      "prompt": "Which result would weaken the salt-water claim?",
+      "questionText": "Which result would weaken the salt-water claim?",
+      "options": [
+        "all slices changed the same way, including the no-salt control",
+        "the salty slice lost mass",
+        "repeated trials showed similar water loss",
+        "the salty slice became more flexible"
+      ],
+      "correctAnswer": "all slices changed the same way, including the no-salt control",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "If the control changes the same way, salt may not be the cause."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q10",
+      "type": "multiple_choice",
+      "prompt": "Which explanation is most scientific?",
+      "questionText": "Which explanation is most scientific?",
+      "options": [
+        "The cucumber disliked salt.",
+        "Water wanted to escape.",
+        "The plate pulled out the water with feelings.",
+        "The salt outside created a concentration difference that led to water movement out of cells."
+      ],
+      "correctAnswer": "The salt outside created a concentration difference that led to water movement out of cells.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Scientific explanations use mechanisms."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q11",
+      "type": "multiple_choice",
+      "prompt": "Which evidence combines model and data?",
+      "questionText": "Which evidence combines model and data?",
+      "options": [
+        "a sketch with no labels and no measurements",
+        "a list of unrelated organisms",
+        "a diagram of water leaving cells plus measured mass loss",
+        "a funny title only"
+      ],
+      "correctAnswer": "a diagram of water leaving cells plus measured mass loss",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Models and measurements support each other."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Why is the membrane not the same as a wall around a room?",
+      "questionText": "Why is the membrane not the same as a wall around a room?",
+      "options": [
+        "it is made of desk wood",
+        "it is a living boundary involved in selective material exchange",
+        "it blocks absolutely everything",
+        "it has no relationship to cells"
+      ],
+      "correctAnswer": "it is a living boundary involved in selective material exchange",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The analogy has limits."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q13",
+      "type": "multiple_choice",
+      "prompt": "What would be the best next investigation?",
+      "questionText": "What would be the best next investigation?",
+      "options": [
+        "compare several salt concentrations while keeping sample size and time constant",
+        "change every variable at once",
+        "measure only plate color",
+        "skip the control sample"
+      ],
+      "correctAnswer": "compare several salt concentrations while keeping sample size and time constant",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A range of concentrations tests the model."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Which strategy helps remember the concept?",
+      "questionText": "Which strategy helps remember the concept?",
+      "options": [
+        "repeat only the title",
+        "skip the model",
+        "ignore the scenario",
+        "say the memory anchor, then explain one evidence example"
+      ],
+      "correctAnswer": "say the memory anchor, then explain one evidence example",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Retrieval plus evidence supports retention."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-review-q15",
+      "type": "multiple_choice",
+      "prompt": "Which answer style is strongest?",
+      "questionText": "Which answer style is strongest?",
+      "options": [
+        "a vocabulary word alone",
+        "the shortest option",
+        "a claim supported by a model and data pattern",
+        "a guess without evidence"
+      ],
+      "correctAnswer": "a claim supported by a model and data pattern",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Strong answers connect claim, model, and evidence."
+    }
+  ]
+}
