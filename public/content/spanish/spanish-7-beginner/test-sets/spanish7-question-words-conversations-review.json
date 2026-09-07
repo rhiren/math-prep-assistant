@@ -1,0 +1,64 @@
+{
+  "id": "spanish7-question-words-conversations-review",
+  "testId": "spanish7-question-words-conversations-review",
+  "conceptId": "concept-spanish-question-words-conversations",
+  "title": "Question Words and Simple Conversations Review",
+  "description": "Short review for Spanish question words and matching answers.",
+  "questions": [
+    {
+      "id": "spanish7-question-words-conversations-review-q01",
+      "type": "multiple_choice",
+      "questionText": "Which question word asks \"who\"?",
+      "options": ["¿Quién?", "¿Qué?", "¿Dónde?", "¿Cuándo?"],
+      "correctAnswer": "¿Quién?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"¿Quién?\" means who?"
+    },
+    {
+      "id": "spanish7-question-words-conversations-review-q02",
+      "type": "multiple_choice",
+      "questionText": "What does \"¿Por qué?\" mean?",
+      "options": ["why", "where", "what", "how many"],
+      "correctAnswer": "why",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"¿Por qué?\" means why?"
+    },
+    {
+      "id": "spanish7-question-words-conversations-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which answer fits \"¿Te gusta la clase?\"",
+      "options": ["Sí, me gusta.", "Me llamo Luis.", "Soy de Guatemala.", "Tengo trece años."],
+      "correctAnswer": "Sí, me gusta.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"¿Te gusta...?\" asks if you like something."
+    },
+    {
+      "id": "spanish7-question-words-conversations-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which answer fits \"¿De dónde eres?\"",
+      "options": ["Soy de California.", "Estoy regular.", "Tengo español.", "Hasta luego."],
+      "correctAnswer": "Soy de California.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"¿De dónde eres?\" asks for origin."
+    },
+    {
+      "id": "spanish7-question-words-conversations-review-q05",
+      "type": "multiple_choice",
+      "questionText": "What is the best first step when answering a Spanish question?",
+      "options": ["Listen for the question word.", "Ignore the first word.", "Always answer with your age.", "Translate only the last word."],
+      "correctAnswer": "Listen for the question word.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "The question word tells you what kind of answer is needed."
+    }
+  ]
+}

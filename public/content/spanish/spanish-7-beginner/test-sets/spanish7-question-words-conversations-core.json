@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-question-words-conversations-core",
+  "testId": "spanish7-question-words-conversations-core",
+  "conceptId": "concept-spanish-question-words-conversations",
+  "title": "Question Words and Simple Conversations Core Test",
+  "description": "Core practice for Spanish question words and short conversation exchanges.",
+  "questions": [
+    {
+      "id": "spanish7-question-words-conversations-core-q01",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish question word means \"what\"?",
+      "options": ["¿Qué?", "¿Dónde?", "¿Cuándo?", "¿Quién?"],
+      "correctAnswer": "¿Qué?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"¿Qué?\" means what?"
+    },
+    {
+      "id": "spanish7-question-words-conversations-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which question word asks \"where\"?",
+      "options": ["¿Cómo?", "¿Dónde?", "¿Cuántos?", "¿Por qué?"],
+      "correctAnswer": "¿Dónde?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"¿Dónde?\" asks where?"
+    },
+    {
+      "id": "spanish7-question-words-conversations-core-q03",
+      "type": "multiple_choice",
+      "questionText": "What does \"¿Cuándo?\" ask?",
+      "options": ["when", "who", "how many", "why"],
+      "correctAnswer": "when",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"¿Cuándo?\" means when?"
+    },
+    {
+      "id": "spanish7-question-words-conversations-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which phrase asks \"Where are you from?\"",
+      "options": ["¿De dónde eres?", "¿Cómo estás?", "¿Qué clase tienes?", "¿Cuántos años tienes?"],
+      "correctAnswer": "¿De dónde eres?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "application"],
+      "explanation": "\"¿De dónde eres?\" asks where someone is from."
+    },
+    {
+      "id": "spanish7-question-words-conversations-core-q05",
+      "type": "multiple_choice",
+      "questionText": "A classmate asks, \"¿Cómo te llamas?\" Which answer fits?",
+      "options": ["Me llamo Sofia.", "Tengo matemáticas.", "Soy de aquí.", "Son las tres."],
+      "correctAnswer": "Me llamo Sofia.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"¿Cómo te llamas?\" asks for your name."
+    },
+    {
+      "id": "spanish7-question-words-conversations-core-q06",
+      "type": "multiple_choice",
+      "questionText": "A classmate asks, \"¿Cuántos años tienes?\" Which answer fits?",
+      "options": ["Tengo doce años.", "Me llamo Ana.", "Estoy bien.", "Hasta mañana."],
+      "correctAnswer": "Tengo doce años.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"¿Cuántos años tienes?\" asks how old you are."
+    },
+    {
+      "id": "spanish7-question-words-conversations-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Which question should you ask if you want to know someone's class?",
+      "options": ["¿Qué clase tienes?", "¿Quién es?", "¿Cuándo es tu cumpleaños?", "¿Por qué te gusta?"],
+      "correctAnswer": "¿Qué clase tienes?",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "\"¿Qué clase tienes?\" asks what class someone has."
+    },
+    {
+      "id": "spanish7-question-words-conversations-core-q08",
+      "type": "multiple_choice",
+      "questionText": "Which short exchange is most logical?",
+      "options": ["¿De dónde eres? Soy de California.", "¿Cómo te llamas? Tengo español.", "¿Cuántos años tienes? Me gusta el lago.", "¿Qué clase tienes? Son las ocho."],
+      "correctAnswer": "¿De dónde eres? Soy de California.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "The question asks for origin, and \"Soy de California\" answers with an origin."
+    }
+  ]
+}
