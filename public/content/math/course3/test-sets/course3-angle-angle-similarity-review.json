@@ -1,0 +1,409 @@
+{
+  "testId": "course3-angle-angle-similarity-review",
+  "conceptId": "concept-angle-angle-similarity",
+  "type": "review",
+  "title": "Angle-Angle Similarity Review Test",
+  "description": "Review Angle-Angle similarity through missing angles, proof evidence, correspondence, and parallel-line reasoning.",
+  "questions": [
+    {
+      "id": "course3-angle-angle-similarity-review-001",
+      "type": "multiple_choice",
+      "questionText": "In a drawing for a ramp model, Triangle J has angles 42 degrees and 68 degrees. Triangle K has angles 68 degrees and 70 degrees. What is the best conclusion?",
+      "options": [
+        "The triangles must be congruent by AA.",
+        "The triangles are similar by AA.",
+        "The triangles are similar only if all side lengths are equal.",
+        "The triangles are not similar because one angle is missing."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "similarity"
+      ],
+      "explanation": "The third angles are 70 degrees and 42 degrees, so two angle pairs match. That proves similarity by AA."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-002",
+      "type": "multiple_choice",
+      "questionText": "During a shadow measurement lab, Triangle J has angles 35 degrees and 85 degrees. Triangle K has angles 35 degrees and 60 degrees. What is the best conclusion?",
+      "options": [
+        "The triangles are similar by AA.",
+        "The triangles must be congruent by AA.",
+        "The triangles are similar because every pair of triangles has angle sum 180 degrees.",
+        "The information does not prove the triangles are similar by AA."
+      ],
+      "correctAnswer": "The information does not prove the triangles are similar by AA.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "similarity"
+      ],
+      "explanation": "The angle sets do not create two matching angle pairs. Triangle angle sums alone do not prove similarity."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-003",
+      "type": "multiple_choice",
+      "questionText": "On a coordinate-grid sketch, Triangle J has angles 50 degrees and 50 degrees. Triangle K has angles 80 degrees and 50 degrees. What is the best conclusion?",
+      "options": [
+        "The triangles are similar by AA.",
+        "The triangles must be congruent by AA.",
+        "The triangles are similar only if all side lengths are equal.",
+        "The triangles are not similar because one angle is missing."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "similarity"
+      ],
+      "explanation": "The third angles are 80 degrees and 50 degrees, so two angle pairs match. That proves similarity by AA."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-004",
+      "type": "multiple_choice",
+      "questionText": "In a folded-paper diagram, Triangle J has angles 48 degrees and 72 degrees. Triangle K has angles 60 degrees and 48 degrees. What is the best conclusion?",
+      "options": [
+        "The triangles must be congruent by AA.",
+        "The triangles are similar only if all side lengths are equal.",
+        "The triangles are similar by AA.",
+        "The triangles are not similar because one angle is missing."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "similarity"
+      ],
+      "explanation": "The third angles are 60 degrees and 72 degrees, so two angle pairs match. That proves similarity by AA."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-005",
+      "type": "multiple_choice",
+      "questionText": "While checking a scale drawing, One triangle has angles 38 degrees, 74 degrees, and 68 degrees. A second triangle has one angle 38 degrees. What other angle would prove similarity by AA?",
+      "options": [
+        "78 degrees",
+        "74 degrees",
+        "142 degrees",
+        "66 degrees"
+      ],
+      "correctAnswer": "74 degrees",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "missing-angle",
+        "angle-sums"
+      ],
+      "explanation": "AA needs two matching angle pairs. The second triangle already matches 38 degrees, so a 74 degree angle would give a second matching pair."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-006",
+      "type": "multiple_choice",
+      "questionText": "In a bridge-truss diagram, One triangle has angles 45 degrees, 65 degrees, and 70 degrees. A second triangle has one angle 70 degrees. What other angle would prove similarity by AA?",
+      "options": [
+        "80 degrees",
+        "110 degrees",
+        "37 degrees",
+        "45 degrees"
+      ],
+      "correctAnswer": "45 degrees",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "missing-angle",
+        "angle-sums"
+      ],
+      "explanation": "AA needs two matching angle pairs. The second triangle already matches 70 degrees, so a 45 degree angle would give a second matching pair."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-007",
+      "type": "multiple_choice",
+      "questionText": "During a geometry warm-up, One triangle has angles 52 degrees, 58 degrees, and 70 degrees. A second triangle has one angle 52 degrees. What other angle would prove similarity by AA?",
+      "options": [
+        "70 degrees",
+        "80 degrees",
+        "128 degrees",
+        "62 degrees"
+      ],
+      "correctAnswer": "70 degrees",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "missing-angle",
+        "angle-sums"
+      ],
+      "explanation": "AA needs two matching angle pairs. The second triangle already matches 52 degrees, so a 70 degree angle would give a second matching pair."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-008",
+      "type": "multiple_choice",
+      "questionText": "In a map inset problem, A student wants to prove two triangles are similar. The diagram shows a 40 degree angle in each triangle and a 75 degree angle in each triangle. Is that enough for AA similarity?",
+      "options": [
+        "No, AA also requires proportional side lengths.",
+        "No, AA can prove congruence but not similarity.",
+        "Yes, two angle pairs are known to match.",
+        "Yes, because every triangle has the same side lengths."
+      ],
+      "correctAnswer": "Yes, two angle pairs are known to match.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "proof",
+        "reasoning"
+      ],
+      "explanation": "Two matching angle pairs prove the triangles are similar by AA; proportional sides then follow."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-009",
+      "type": "multiple_choice",
+      "questionText": "In a drawing for a ramp model, Triangle ABC is similar to triangle DEF by AA. Angle A matches angle D, and angle B matches angle E. Which side correspondence follows?",
+      "options": [
+        "Side AB corresponds to side EF.",
+        "Side AB corresponds to side DE.",
+        "Side AC corresponds to side DE.",
+        "Side BC corresponds to side DF."
+      ],
+      "correctAnswer": "Side AB corresponds to side DE.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "correspondence",
+        "similar-triangles"
+      ],
+      "explanation": "The order of the matching angles determines the order of corresponding vertices, so the matching sides must connect matching vertices."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-010",
+      "type": "multiple_choice",
+      "questionText": "During a shadow measurement lab, Two triangles already have one pair of matching angles. Another pair is labeled 3x + 12 degrees and 60 degrees. What value of x would complete an AA similarity proof?",
+      "options": [
+        "x = 18",
+        "x = 15",
+        "x = 19",
+        "x = 16"
+      ],
+      "correctAnswer": "x = 16",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "algebra",
+        "proof"
+      ],
+      "explanation": "Set the matching angles equal: 3x + 12 = 60, so x = 16."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-011",
+      "type": "multiple_choice",
+      "questionText": "On a coordinate-grid sketch, Segment MN is parallel to a side of a larger triangle, creating a smaller triangle inside it. Which reason can prove the two triangles are similar?",
+      "options": [
+        "Corresponding angles from parallel lines match, giving AA similarity.",
+        "The smaller triangle was translated, so the triangles are congruent.",
+        "Parallel lines make all side lengths equal.",
+        "The triangles are similar only after measuring every side."
+      ],
+      "correctAnswer": "Corresponding angles from parallel lines match, giving AA similarity.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "parallel-lines",
+        "proof"
+      ],
+      "explanation": "Parallel lines create matching corresponding angles. With the shared angle, there are two matching angle pairs, so AA proves similarity."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-012",
+      "type": "multiple_choice",
+      "questionText": "In a folded-paper diagram, A scale factor between two triangles is 5/2. Which extra evidence would prove the triangles are similar by AA instead of only comparing side lengths?",
+      "options": [
+        "One side in each triangle has the same length.",
+        "The triangles are drawn facing the same direction.",
+        "Two pairs of corresponding angles are congruent.",
+        "The perimeters have different values."
+      ],
+      "correctAnswer": "Two pairs of corresponding angles are congruent.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "evidence",
+        "similarity"
+      ],
+      "explanation": "AA similarity is based on matching angles. Two corresponding angle pairs are enough to prove the triangles are similar."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-013",
+      "type": "multiple_choice",
+      "questionText": "While checking a scale drawing, Triangle R has angles 44 degrees, 71 degrees, and one unknown angle. Triangle S has angles 44 degrees and 65 degrees. What conclusion follows?",
+      "options": [
+        "The triangles are congruent because two angles match.",
+        "The triangles are similar by AA.",
+        "The triangles are not similar because one angle is unknown.",
+        "The triangles are similar only if their longest sides match exactly."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "indirect-reasoning"
+      ],
+      "explanation": "The unknown angle in Triangle R is 65 degrees. That gives two matching angle pairs, so AA proves similarity."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-014",
+      "type": "multiple_choice",
+      "questionText": "In a bridge-truss diagram, A student says, \"These triangles share one angle, so they must be similar.\" Which response best evaluates the proof?",
+      "options": [
+        "The proof is complete because one angle pair proves AA.",
+        "The proof is complete only if both triangles are right triangles.",
+        "The proof is wrong because similar triangles cannot share angles.",
+        "The proof is incomplete because one matching angle pair is not enough."
+      ],
+      "correctAnswer": "The proof is incomplete because one matching angle pair is not enough.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "critique",
+        "proof"
+      ],
+      "explanation": "AA requires two matching angle pairs. A shared angle gives only one pair unless another angle match is established."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-015",
+      "type": "multiple_choice",
+      "questionText": "During a geometry warm-up, Triangle J has angles 36 degrees and 84 degrees. Triangle K has angles 60 degrees and 84 degrees. What is the best conclusion?",
+      "options": [
+        "The triangles are similar by AA.",
+        "The triangles must be congruent by AA.",
+        "The triangles are similar only if all side lengths are equal.",
+        "The triangles are not similar because one angle is missing."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "similarity"
+      ],
+      "explanation": "The third angles are 60 degrees and 36 degrees, so two angle pairs match. That proves similarity by AA."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-016",
+      "type": "multiple_choice",
+      "questionText": "In a map inset problem, One triangle has angles 29 degrees, 91 degrees, and 60 degrees. A second triangle has one angle 60 degrees. What other angle would prove similarity by AA?",
+      "options": [
+        "70 degrees",
+        "120 degrees",
+        "29 degrees",
+        "21 degrees"
+      ],
+      "correctAnswer": "29 degrees",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "missing-angle",
+        "angle-sums"
+      ],
+      "explanation": "AA needs two matching angle pairs. The second triangle already matches 60 degrees, so a 29 degree angle would give a second matching pair."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-017",
+      "type": "multiple_choice",
+      "questionText": "While comparing two roof supports, Two triangles already have one pair of matching angles. Another pair is labeled 4x + 7 degrees and 51 degrees. What value of x would complete an AA similarity proof?",
+      "options": [
+        "x = 13",
+        "x = 11",
+        "x = 10",
+        "x = 15"
+      ],
+      "correctAnswer": "x = 11",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "algebra",
+        "proof"
+      ],
+      "explanation": "Set the matching angles equal: 4x + 7 = 51, so x = 11."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-018",
+      "type": "multiple_choice",
+      "questionText": "In a triangle proof card, Segment PQ is parallel to a side of a larger triangle, creating a smaller triangle inside it. Which reason can prove the two triangles are similar?",
+      "options": [
+        "The smaller triangle was translated, so the triangles are congruent.",
+        "Parallel lines make all side lengths equal.",
+        "The triangles are similar only after measuring every side.",
+        "Corresponding angles from parallel lines match, giving AA similarity."
+      ],
+      "correctAnswer": "Corresponding angles from parallel lines match, giving AA similarity.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "parallel-lines",
+        "proof"
+      ],
+      "explanation": "Parallel lines create matching corresponding angles. With the shared angle, there are two matching angle pairs, so AA proves similarity."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-019",
+      "type": "multiple_choice",
+      "questionText": "In a drawing for a ramp model, A student says, \"Both triangles have angle sums of 180 degrees, so they are similar.\" Which response best evaluates the proof?",
+      "options": [
+        "The proof is invalid because every triangle has angle sum 180 degrees.",
+        "The proof is valid because 180 degrees is a matching angle.",
+        "The proof is valid only when the triangles are acute.",
+        "The proof proves congruence instead of similarity."
+      ],
+      "correctAnswer": "The proof is invalid because every triangle has angle sum 180 degrees.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "critique",
+        "proof"
+      ],
+      "explanation": "All triangles have angle sum 180 degrees. AA needs specific corresponding angles to match."
+    },
+    {
+      "id": "course3-angle-angle-similarity-review-020",
+      "type": "multiple_choice",
+      "questionText": "During a shadow measurement lab, Triangle R has angles 57 degrees, 38 degrees, and one unknown angle. Triangle S has angles 57 degrees and 85 degrees. What conclusion follows?",
+      "options": [
+        "The triangles are congruent because two angles match.",
+        "The triangles are not similar because one angle is unknown.",
+        "The triangles are similar by AA.",
+        "The triangles are similar only if their longest sides match exactly."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "indirect-reasoning"
+      ],
+      "explanation": "The unknown angle in Triangle R is 85 degrees. That gives two matching angle pairs, so AA proves similarity."
+    }
+  ]
+}

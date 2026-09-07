@@ -345,10 +345,10 @@ and tutorial paths when moving them into book-aligned units so existing local
 progress, Firebase sync, export/import, and parent reporting continue to attach
 to the same skills.
 
-The current active Course 3 manifest contains 53 learner-ready concepts:
+The current active Course 3 manifest contains 54 learner-ready concepts:
 
 - Rigid Transformations and Congruence: 10 concepts
-- Dilations, Similarity, and Slope: 4 concepts
+- Dilations, Similarity, and Slope: 5 concepts
 - Real Numbers and Exponents: 12 concepts
 - Linear Equations in One Variable: 10 concepts
 - Lines, Slope, and Linear Equations: 12 concepts
@@ -370,10 +370,11 @@ The current book-aligned learner-ready sequence begins with:
 - `Scale Factor and Dilations`
 - `Similar Figures`
 - `Missing Side Lengths in Similar Triangles`
+- `Angle-Angle Similarity`
 
 The next Course 3 build target is:
 
-- `Angle-Angle Similarity`
+- `Similar Triangles and Constant Slope`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in
