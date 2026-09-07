@@ -1,0 +1,324 @@
+{
+  "id": "science7-fossil-record-rock-layer-evidence-review",
+  "testId": "science7-fossil-record-rock-layer-evidence-review",
+  "conceptId": "concept-fossil-record-rock-layer-evidence",
+  "title": "Fossil Record and Rock Layer Evidence Review Test",
+  "description": "Spaced review for interpret fossil placement, rock layers, and anatomical patterns to reason about life history over time.",
+  "questions": [
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the usual age pattern in undisturbed rock layers?",
+      "questionText": "What is the usual age pattern in undisturbed rock layers?",
+      "options": [
+        "lower layers are older than upper layers",
+        "upper layers are always oldest",
+        "all layers are the same age",
+        "age depends only on fossil size"
+      ],
+      "correctAnswer": "lower layers are older than upper layers",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "This is the basic relative-age rule."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q2",
+      "type": "multiple_choice",
+      "prompt": "A fossil is below another fossil. What claim is best if layers are undisturbed?",
+      "questionText": "A fossil is below another fossil. What claim is best if layers are undisturbed?",
+      "options": [
+        "The lower fossil is always alive.",
+        "The upper fossil must be fake.",
+        "Both fossils are the same object.",
+        "The lower fossil is probably older."
+      ],
+      "correctAnswer": "The lower fossil is probably older.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Layer position supports relative age."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q3",
+      "type": "multiple_choice",
+      "prompt": "Which evidence is strongest?",
+      "questionText": "Which evidence is strongest?",
+      "options": [
+        "a fossil name written twice",
+        "a colorful diagram with no labels",
+        "the same fossil sequence repeated in several rock formations",
+        "one fossil with no location"
+      ],
+      "correctAnswer": "the same fossil sequence repeated in several rock formations",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Repeated patterns are stronger."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q4",
+      "type": "multiple_choice",
+      "prompt": "Why check for folding or faults?",
+      "questionText": "Why check for folding or faults?",
+      "options": [
+        "They turn fossils into living organisms.",
+        "They can disturb the original order of layers.",
+        "They make fossils impossible.",
+        "They prove all layers are young."
+      ],
+      "correctAnswer": "They can disturb the original order of layers.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Disturbance can alter position."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q5",
+      "type": "multiple_choice",
+      "prompt": "Which is a trace fossil?",
+      "questionText": "Which is a trace fossil?",
+      "options": [
+        "a preserved footprint",
+        "a living plant",
+        "a plastic toy bone",
+        "a random pencil mark"
+      ],
+      "correctAnswer": "a preserved footprint",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "A trace fossil preserves evidence of activity."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q6",
+      "type": "multiple_choice",
+      "prompt": "A table shows Trait X absent in old layers and common in young layers. What does that show?",
+      "questionText": "A table shows Trait X absent in old layers and common in young layers. What does that show?",
+      "options": [
+        "no evidence at all",
+        "proof the trait was chosen instantly",
+        "that rocks have traits",
+        "a pattern that may support change over time"
+      ],
+      "correctAnswer": "a pattern that may support change over time",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Trait counts across layers can show trends."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q7",
+      "type": "multiple_choice",
+      "prompt": "What is a careful fossil claim?",
+      "questionText": "What is a careful fossil claim?",
+      "options": [
+        "Layer evidence never matters.",
+        "Fossils are only guesses.",
+        "The evidence supports this age relationship, but more samples could strengthen it.",
+        "One fossil proves everything."
+      ],
+      "correctAnswer": "The evidence supports this age relationship, but more samples could strengthen it.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Careful claims match evidence strength."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q8",
+      "type": "multiple_choice",
+      "prompt": "Why is the fossil record incomplete?",
+      "questionText": "Why is the fossil record incomplete?",
+      "options": [
+        "Only museums make fossils.",
+        "Not every organism is preserved as a fossil.",
+        "No organisms lived in the past.",
+        "All fossils disappear immediately."
+      ],
+      "correctAnswer": "Not every organism is preserved as a fossil.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fossilization needs special conditions."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q9",
+      "type": "multiple_choice",
+      "prompt": "Which model is best?",
+      "questionText": "Which model is best?",
+      "options": [
+        "layer order -> fossil comparison -> evidence-based claim",
+        "favorite fossil -> final answer",
+        "fossil color -> exact age",
+        "rock smell -> life history"
+      ],
+      "correctAnswer": "layer order -> fossil comparison -> evidence-based claim",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "This model follows evidence."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q10",
+      "type": "multiple_choice",
+      "prompt": "A student says one fossil changed into the fossil above it. What is better?",
+      "questionText": "A student says one fossil changed into the fossil above it. What is better?",
+      "options": [
+        "That is exactly how fossils work.",
+        "Fossils are never useful.",
+        "The upper fossil chose to evolve.",
+        "The fossils provide evidence about related forms or populations over time."
+      ],
+      "correctAnswer": "The fossils provide evidence about related forms or populations over time.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fossils are evidence, not living-changing individuals."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q11",
+      "type": "multiple_choice",
+      "prompt": "Which data would support diversity change?",
+      "questionText": "Which data would support diversity change?",
+      "options": [
+        "student favorite layer",
+        "rock color alone",
+        "number of different fossil types in each layer",
+        "font size of the labels"
+      ],
+      "correctAnswer": "number of different fossil types in each layer",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Diversity is about counts/types."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q12",
+      "type": "multiple_choice",
+      "prompt": "What should scientists do with a faulted rock sequence?",
+      "questionText": "What should scientists do with a faulted rock sequence?",
+      "options": [
+        "throw out all fossil evidence",
+        "study how the fault moved layers before making an age claim",
+        "ignore the fault",
+        "assume every top layer is oldest"
+      ],
+      "correctAnswer": "study how the fault moved layers before making an age claim",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Faults require careful interpretation."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q13",
+      "type": "multiple_choice",
+      "prompt": "Which statement avoids overclaiming?",
+      "questionText": "Which statement avoids overclaiming?",
+      "options": [
+        "This fossil pattern is evidence for a change, not a complete story by itself.",
+        "This one fossil proves the entire history of life.",
+        "No fossils can support claims.",
+        "All fossils form in the same year."
+      ],
+      "correctAnswer": "This fossil pattern is evidence for a change, not a complete story by itself.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evidence supports claims with limits."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Why are hard shells often fossilized more than soft tissues?",
+      "questionText": "Why are hard shells often fossilized more than soft tissues?",
+      "options": [
+        "Hard parts are newer.",
+        "Soft organisms never lived.",
+        "Shells choose rock layers.",
+        "Hard parts preserve more easily."
+      ],
+      "correctAnswer": "Hard parts preserve more easily.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Material affects preservation."
+    },
+    {
+      "id": "science7-fossil-record-rock-layer-evidence-review-q15",
+      "type": "multiple_choice",
+      "prompt": "How can the fossil idea transfer to a new site?",
+      "questionText": "How can the fossil idea transfer to a new site?",
+      "options": [
+        "Ignore layer order.",
+        "Assume one fossil proves everything.",
+        "Look for layer order, fossil patterns, and disturbance evidence before making claims.",
+        "Pick the largest fossil only."
+      ],
+      "correctAnswer": "Look for layer order, fossil patterns, and disturbance evidence before making claims.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The same evidence rules apply in a new place."
+    }
+  ]
+}

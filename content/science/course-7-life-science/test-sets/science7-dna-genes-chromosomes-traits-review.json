@@ -1,0 +1,324 @@
+{
+  "id": "science7-dna-genes-chromosomes-traits-review",
+  "testId": "science7-dna-genes-chromosomes-traits-review",
+  "conceptId": "concept-dna-genes-chromosomes-traits",
+  "title": "DNA, Genes, Chromosomes, and Traits Review Test",
+  "description": "Spaced review for use models to connect DNA, genes, chromosomes, proteins, and observable traits without reducing genetics to memorized vocabulary.",
+  "questions": [
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q1",
+      "type": "multiple_choice",
+      "prompt": "Which phrase best summarizes the concept?",
+      "questionText": "Which phrase best summarizes the concept?",
+      "options": [
+        "DNA is information that cells use in ways that can affect traits.",
+        "Traits are DNA packages.",
+        "Genes are learned by practice.",
+        "Chromosomes exist outside all cells."
+      ],
+      "correctAnswer": "DNA is information that cells use in ways that can affect traits.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "This keeps information, cells, and traits connected."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q2",
+      "type": "multiple_choice",
+      "prompt": "A model labels one section of DNA on a chromosome. What is that section?",
+      "questionText": "A model labels one section of DNA on a chromosome. What is that section?",
+      "options": [
+        "a whole population",
+        "a visible trait",
+        "an ecosystem",
+        "a gene"
+      ],
+      "correctAnswer": "a gene",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A gene is a DNA section."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q3",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports a gene-to-trait explanation?",
+      "questionText": "Which evidence best supports a gene-to-trait explanation?",
+      "options": [
+        "The diagram has a title.",
+        "The trait name is easy to spell.",
+        "Different gene versions lead to different protein activity and different pigment amounts.",
+        "The organism was observed after lunch."
+      ],
+      "correctAnswer": "Different gene versions lead to different protein activity and different pigment amounts.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Evidence should connect information, cell process, and trait."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q4",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"The trait is inside the chromosome.\" What correction is best?",
+      "questionText": "A student says, \"The trait is inside the chromosome.\" What correction is best?",
+      "options": [
+        "Traits are unrelated to evidence.",
+        "The chromosome stores DNA; the trait is observed in the organism.",
+        "The trait stores the chromosome.",
+        "Chromosomes are never in cells."
+      ],
+      "correctAnswer": "The chromosome stores DNA; the trait is observed in the organism.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Separate the information package from the observed result."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q5",
+      "type": "multiple_choice",
+      "prompt": "Why can two environments produce different trait measurements in similar plants?",
+      "questionText": "Why can two environments produce different trait measurements in similar plants?",
+      "options": [
+        "Environment can affect how traits are expressed.",
+        "Environment removes all genes.",
+        "Plants have no cell processes.",
+        "Chromosomes choose the weather."
+      ],
+      "correctAnswer": "Environment can affect how traits are expressed.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Observed traits can depend on conditions."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q6",
+      "type": "multiple_choice",
+      "prompt": "Which chain is strongest?",
+      "questionText": "Which chain is strongest?",
+      "options": [
+        "trait -> no cell -> random word -> gene",
+        "chromosome -> ecosystem -> weather -> no evidence",
+        "protein -> no DNA -> no trait",
+        "DNA -> gene -> protein or cell process -> trait"
+      ],
+      "correctAnswer": "DNA -> gene -> protein or cell process -> trait",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "The chain connects the main levels."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q7",
+      "type": "multiple_choice",
+      "prompt": "A table shows one gene version makes no working enzyme. What might happen?",
+      "questionText": "A table shows one gene version makes no working enzyme. What might happen?",
+      "options": [
+        "The organism has no cells.",
+        "The chromosome becomes a protein.",
+        "A trait connected to that enzyme may be different.",
+        "Every trait must disappear."
+      ],
+      "correctAnswer": "A trait connected to that enzyme may be different.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "A cell-process change can affect related traits."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q8",
+      "type": "multiple_choice",
+      "prompt": "Which statement is most careful?",
+      "questionText": "Which statement is most careful?",
+      "options": [
+        "All visible traits are chromosomes.",
+        "A gene may affect a trait, but the evidence should show how.",
+        "Any trait proves exactly one gene caused it.",
+        "DNA is never related to traits."
+      ],
+      "correctAnswer": "A gene may affect a trait, but the evidence should show how.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Scientific explanations need mechanism and evidence."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q9",
+      "type": "multiple_choice",
+      "prompt": "What does a chromosome do in this model?",
+      "questionText": "What does a chromosome do in this model?",
+      "options": [
+        "organizes a long DNA molecule that contains genes",
+        "chooses a behavior",
+        "replaces all cells",
+        "acts as the visible trait"
+      ],
+      "correctAnswer": "organizes a long DNA molecule that contains genes",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "Chromosomes organize DNA."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q10",
+      "type": "multiple_choice",
+      "prompt": "Which question is most scientific?",
+      "questionText": "Which question is most scientific?",
+      "options": [
+        "Is the gene label pretty?",
+        "Can we rename chromosome?",
+        "How loud is the trait?",
+        "What cell-process difference is connected to this gene version?"
+      ],
+      "correctAnswer": "What cell-process difference is connected to this gene version?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "It asks for a mechanism."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q11",
+      "type": "multiple_choice",
+      "prompt": "A diagram skips from gene directly to flower color. What should be added?",
+      "questionText": "A diagram skips from gene directly to flower color. What should be added?",
+      "options": [
+        "a larger arrow only",
+        "a rock layer",
+        "a cell process such as pigment protein activity",
+        "a lunch menu"
+      ],
+      "correctAnswer": "a cell process such as pigment protein activity",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The middle mechanism matters."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Which is a misconception?",
+      "questionText": "Which is a misconception?",
+      "options": [
+        "Cells use genetic information.",
+        "Organisms can choose new inherited genes because they need a trait.",
+        "Genes are DNA sections.",
+        "Traits can be evidence."
+      ],
+      "correctAnswer": "Organisms can choose new inherited genes because they need a trait.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Inherited genetic information is not chosen by need."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q13",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern supports a real relationship?",
+      "questionText": "Which data pattern supports a real relationship?",
+      "options": [
+        "The same gene version repeatedly matches the same protein activity pattern.",
+        "The same pen was used each day.",
+        "The graph has four grid lines.",
+        "All labels are capitalized."
+      ],
+      "correctAnswer": "The same gene version repeatedly matches the same protein activity pattern.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Repeated biological association matters."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Why is the word 'may' useful in gene-trait claims?",
+      "questionText": "Why is the word 'may' useful in gene-trait claims?",
+      "options": [
+        "Science avoids all evidence.",
+        "Genes never matter.",
+        "Traits cannot be measured.",
+        "Many traits can involve several genes, cell processes, or environmental effects."
+      ],
+      "correctAnswer": "Many traits can involve several genes, cell processes, or environmental effects.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Careful claims leave room for complexity."
+    },
+    {
+      "id": "science7-dna-genes-chromosomes-traits-review-q15",
+      "type": "multiple_choice",
+      "prompt": "Which answer best transfers the idea to a new trait?",
+      "questionText": "Which answer best transfers the idea to a new trait?",
+      "options": [
+        "Assume the color is the DNA.",
+        "Ignore all cell evidence.",
+        "For a seed coat trait, look for gene differences, cell-process differences, and seed coat evidence.",
+        "Only memorize the trait name."
+      ],
+      "correctAnswer": "For a seed coat trait, look for gene differences, cell-process differences, and seed coat evidence.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The same model can be used with a new trait."
+    }
+  ]
+}

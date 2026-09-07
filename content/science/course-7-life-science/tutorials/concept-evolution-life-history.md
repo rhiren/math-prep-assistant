@@ -6,7 +6,7 @@ A fossil fish and a modern fish have similar body structures. A fossil whale has
 
 ## Big Idea
 
-Scientists use evidence from fossils, body structures, embryos, DNA, and populations to explain common ancestry and change over time.
+Scientists use evidence from fossils, body structures, DNA, and populations to explain common ancestry and change over time.
 
 Memory anchor: **Evidence connects past and present life.**
 
@@ -14,7 +14,7 @@ Memory anchor: **Evidence connects past and present life.**
 
 The fossil record gives evidence about past life. Fossils can show when different organisms lived, how body forms changed, and when some groups disappeared.
 
-Similar structures may provide evidence that organisms share common ancestry. Embryo patterns and DNA can also show relatedness.
+Similar structures may provide evidence that organisms share common ancestry. DNA patterns can also show relatedness.
 
 ## Build The Model
 
@@ -41,7 +41,7 @@ Strong evolution explanations use evidence across time or across groups.
 |---|---|
 | fossils in older and newer rock layers | change over time |
 | similar bone structures | possible common ancestry |
-| embryo similarities | related developmental patterns |
+| DNA similarities | relatedness patterns |
 | trait frequency data | population change |
 
 ## Common Traps

@@ -587,13 +587,73 @@
                 }
               ],
               "testQuestionCount": 30
+            },
+            {
+              "id": "concept-dna-genes-chromosomes-traits",
+              "title": "DNA, Genes, Chromosomes, and Traits",
+              "description": "Use models to connect DNA, genes, chromosomes, proteins, and observable traits without reducing genetics to memorized vocabulary.",
+              "tags": [
+                "science",
+                "life-science",
+                "genetics",
+                "dna",
+                "genes",
+                "chromosomes",
+                "traits",
+                "models",
+                "MS-LS3-1"
+              ],
+              "skillTags": [
+                "conceptual",
+                "visual",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-dna-genes-chromosomes-traits.md",
+              "tests": [
+                {
+                  "id": "science7-dna-genes-chromosomes-traits-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-dna-genes-chromosomes-traits-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-dna-genes-chromosomes-traits-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-dna-genes-chromosomes-traits-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
         {
           "id": "unit-evolution-life-history",
           "title": "Evolution and Earth/Life History",
-          "description": "Use evidence from fossils, anatomy, embryos, and populations to reason about evolution.",
+              "description": "Use evidence from fossils, anatomy, DNA, and populations to reason about evolution.",
           "order": 6,
           "concepts": [
             {
@@ -656,6 +716,65 @@
               "testQuestionCount": 30
             },
             {
+              "id": "concept-fossil-record-rock-layer-evidence",
+              "title": "Fossil Record and Rock Layer Evidence",
+              "description": "Interpret fossil placement, rock layers, and anatomical patterns to reason about life history over time.",
+              "tags": [
+                "science",
+                "life-science",
+                "evolution",
+                "fossils",
+                "rock-layers",
+                "evidence",
+                "patterns",
+                "MS-LS4-1"
+              ],
+              "skillTags": [
+                "conceptual",
+                "visual",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-fossil-record-rock-layer-evidence.md",
+              "tests": [
+                {
+                  "id": "science7-fossil-record-rock-layer-evidence-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-fossil-record-rock-layer-evidence-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-fossil-record-rock-layer-evidence-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-fossil-record-rock-layer-evidence-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
               "id": "concept-natural-selection-adaptation",
               "title": "Natural Selection and Adaptation",
               "description": "Use scenarios and data to explain inherited variation, environmental pressures, adaptation, and population change.",
@@ -687,7 +806,7 @@
               "standardsFrameworks": [
                 "CA NGSS"
               ],
-              "order": 2,
+              "order": 3,
               "tutorial": "./content/tutorials/concept-natural-selection-adaptation.md",
               "tests": [
                 {
@@ -704,6 +823,65 @@
                   "id": "science7-natural-selection-adaptation-review",
                   "type": "review",
                   "path": "./content/test-sets/science7-natural-selection-adaptation-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
+              "id": "concept-comparative-anatomy-evolution-relationships",
+              "title": "Comparative Anatomy and Evolutionary Relationships",
+              "description": "Compare body structures and hidden anatomical patterns to evaluate evidence for evolutionary relationships.",
+              "tags": [
+                "science",
+                "life-science",
+                "evolution",
+                "comparative-anatomy",
+                "homologous-structures",
+                "relationships",
+                "MS-LS4-2",
+                "MS-LS4-3"
+              ],
+              "skillTags": [
+                "conceptual",
+                "visual",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 4,
+              "tutorial": "./content/tutorials/concept-comparative-anatomy-evolution-relationships.md",
+              "tests": [
+                {
+                  "id": "science7-comparative-anatomy-evolution-relationships-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-comparative-anatomy-evolution-relationships-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-comparative-anatomy-evolution-relationships-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-comparative-anatomy-evolution-relationships-review.json",
                   "difficultyProfile": {
                     "scaffold": true,
                     "standard": true,
@@ -770,6 +948,66 @@
                   "id": "science7-biodiversity-human-impact-review",
                   "type": "review",
                   "path": "./content/test-sets/science7-biodiversity-human-impact-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
+              "id": "concept-biodiversity-solutions-tradeoffs",
+              "title": "Biodiversity Solutions and Tradeoffs",
+              "description": "Evaluate human-impact solutions using biodiversity data, constraints, tradeoffs, and evidence-based design reasoning.",
+              "tags": [
+                "science",
+                "life-science",
+                "biodiversity",
+                "human-impact",
+                "engineering-design",
+                "tradeoffs",
+                "data",
+                "MS-LS2-5",
+                "MS-LS4-5"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning",
+                "word-problem"
+              ],
+              "meta": {
+                "type": "application",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 2,
+              "tutorial": "./content/tutorials/concept-biodiversity-solutions-tradeoffs.md",
+              "tests": [
+                {
+                  "id": "science7-biodiversity-solutions-tradeoffs-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-biodiversity-solutions-tradeoffs-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-biodiversity-solutions-tradeoffs-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-biodiversity-solutions-tradeoffs-review.json",
                   "difficultyProfile": {
                     "scaffold": true,
                     "standard": true,

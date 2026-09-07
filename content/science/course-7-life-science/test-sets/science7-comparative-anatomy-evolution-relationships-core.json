@@ -1,0 +1,640 @@
+{
+  "id": "science7-comparative-anatomy-evolution-relationships-core",
+  "testId": "science7-comparative-anatomy-evolution-relationships-core",
+  "conceptId": "concept-comparative-anatomy-evolution-relationships",
+  "title": "Comparative Anatomy and Evolutionary Relationships Core Test",
+  "description": "Core practice for compare body structures and development patterns to evaluate evidence for evolutionary relationships.",
+  "questions": [
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What does comparative anatomy compare?",
+      "questionText": "What does comparative anatomy compare?",
+      "options": [
+        "body structures among organisms",
+        "weather patterns only",
+        "student opinions",
+        "rock color with no fossils"
+      ],
+      "correctAnswer": "body structures among organisms",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Comparative anatomy uses structure evidence."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q2",
+      "type": "multiple_choice",
+      "prompt": "A bat wing and whale flipper share a similar bone order. What claim can this support?",
+      "questionText": "A bat wing and whale flipper share a similar bone order. What claim can this support?",
+      "options": [
+        "They must do the same job.",
+        "They are the same organism.",
+        "Bone order never matters.",
+        "They may have related underlying structures."
+      ],
+      "correctAnswer": "They may have related underlying structures.",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Shared pattern can be relationship evidence."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Why can function alone mislead?",
+      "questionText": "Why can function alone mislead?",
+      "options": [
+        "Only outside color matters.",
+        "No structures have functions.",
+        "Different structures can evolve similar jobs in similar environments.",
+        "Function is always unrelated to survival."
+      ],
+      "correctAnswer": "Different structures can evolve similar jobs in similar environments.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Similar jobs do not always mean close relationship."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q4",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports common ancestry?",
+      "questionText": "Which evidence best supports common ancestry?",
+      "options": [
+        "two organisms are drawn on the same page",
+        "several organisms share the same underlying forelimb bone pattern",
+        "two organisms live near water",
+        "two organisms have names with the same first letter"
+      ],
+      "correctAnswer": "several organisms share the same underlying forelimb bone pattern",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Underlying pattern is stronger than surface association."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q5",
+      "type": "multiple_choice",
+      "prompt": "Which model is strongest?",
+      "questionText": "Which model is strongest?",
+      "options": [
+        "bone pattern -> compare function -> evaluate evidence -> relationship claim",
+        "favorite animal -> relationship claim",
+        "same habitat -> exact ancestry",
+        "body size -> no comparison"
+      ],
+      "correctAnswer": "bone pattern -> compare function -> evaluate evidence -> relationship claim",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The model follows evidence."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q6",
+      "type": "multiple_choice",
+      "prompt": "A bird wing and insect wing both fly but have very different internal structures. What should a scientist infer?",
+      "questionText": "A bird wing and insect wing both fly but have very different internal structures. What should a scientist infer?",
+      "options": [
+        "They must be closest relatives.",
+        "Wings cannot be compared.",
+        "Flight proves identical bones.",
+        "Similar function alone is not enough to claim close relationship."
+      ],
+      "correctAnswer": "Similar function alone is not enough to claim close relationship.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Different structures with the same function can be misleading."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q7",
+      "type": "multiple_choice",
+      "prompt": "A human arm, cat leg, whale flipper, and bat wing share the same sequence of major bones. What phrase summarizes this evidence?",
+      "questionText": "A human arm, cat leg, whale flipper, and bat wing share the same sequence of major bones. What phrase summarizes this evidence?",
+      "options": [
+        "different pattern, identical organism",
+        "no evidence",
+        "same pattern, different jobs",
+        "same job, no pattern"
+      ],
+      "correctAnswer": "same pattern, different jobs",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "The structures can be modified for different functions."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q8",
+      "type": "multiple_choice",
+      "prompt": "A student groups organisms only by whether they swim. What is the weakness?",
+      "questionText": "A student groups organisms only by whether they swim. What is the weakness?",
+      "options": [
+        "Function is always more reliable than structure.",
+        "Swimming is a function or behavior, not enough structure evidence by itself.",
+        "Swimming proves no organism has bones.",
+        "All swimming organisms are one species."
+      ],
+      "correctAnswer": "Swimming is a function or behavior, not enough structure evidence by itself.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "The grouping needs underlying structure evidence."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Which data table would help compare anatomy?",
+      "questionText": "Which data table would help compare anatomy?",
+      "options": [
+        "organisms listed with matching bone positions and functions",
+        "organisms listed by favorite colors",
+        "organisms listed by classroom seats",
+        "organisms listed with no structure data"
+      ],
+      "correctAnswer": "organisms listed with matching bone positions and functions",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Structure data supports comparison."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q10",
+      "type": "multiple_choice",
+      "prompt": "A fossil limb has the same bone arrangement as several modern forelimbs. Why is that useful?",
+      "questionText": "A fossil limb has the same bone arrangement as several modern forelimbs. Why is that useful?",
+      "options": [
+        "It proves the fossil is alive.",
+        "It makes all functions identical.",
+        "It removes the need for comparison.",
+        "It can connect past and present structure evidence."
+      ],
+      "correctAnswer": "It can connect past and present structure evidence.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fossils can extend anatomical evidence through time."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q11",
+      "type": "multiple_choice",
+      "prompt": "Which claim overreaches?",
+      "questionText": "Which claim overreaches?",
+      "options": [
+        "Other evidence can strengthen anatomy evidence.",
+        "Function alone can mislead.",
+        "One similar bone proves the entire family tree with no other evidence.",
+        "Similar bone patterns can support a relationship claim."
+      ],
+      "correctAnswer": "One similar bone proves the entire family tree with no other evidence.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "One clue rarely proves a complete tree."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q12",
+      "type": "multiple_choice",
+      "prompt": "A diagram shows similar external shape but different internal bone pattern. What should scientists be cautious about?",
+      "questionText": "A diagram shows similar external shape but different internal bone pattern. What should scientists be cautious about?",
+      "options": [
+        "asking for more data",
+        "assuming close relationship from outside shape alone",
+        "using any evidence",
+        "comparing structures"
+      ],
+      "correctAnswer": "assuming close relationship from outside shape alone",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Surface similarity may not match underlying relationship."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would strengthen an anatomy-based relationship claim?",
+      "questionText": "Which evidence would strengthen an anatomy-based relationship claim?",
+      "options": [
+        "DNA or fossil evidence supports the same grouping",
+        "the diagram uses bright colors",
+        "the organisms live in the same zoo",
+        "their names rhyme"
+      ],
+      "correctAnswer": "DNA or fossil evidence supports the same grouping",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Multiple evidence lines are stronger."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q14",
+      "type": "multiple_choice",
+      "prompt": "A bat wing is used for flight and a human arm for grasping, but they share a bone pattern. What is the best explanation?",
+      "questionText": "A bat wing is used for flight and a human arm for grasping, but they share a bone pattern. What is the best explanation?",
+      "options": [
+        "Different jobs mean no relationship is possible.",
+        "The wing chose to become an arm.",
+        "Function erases structure.",
+        "Related structures can be modified for different functions."
+      ],
+      "correctAnswer": "Related structures can be modified for different functions.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Structure pattern can persist while function changes."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Which comparison focuses on underlying structure?",
+      "questionText": "Which comparison focuses on underlying structure?",
+      "options": [
+        "choosing the larger organism",
+        "grouping by habitat only",
+        "counting and matching bones in the same positions",
+        "noticing both animals are fast"
+      ],
+      "correctAnswer": "counting and matching bones in the same positions",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Underlying anatomy uses internal arrangement."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q16",
+      "type": "multiple_choice",
+      "prompt": "Why are homologous structures useful evidence?",
+      "questionText": "Why are homologous structures useful evidence?",
+      "options": [
+        "They prove organisms never change.",
+        "They share an underlying pattern that may reflect common ancestry.",
+        "They always do identical jobs.",
+        "They are made of rock layers."
+      ],
+      "correctAnswer": "They share an underlying pattern that may reflect common ancestry.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Homologous structures point to relationship through pattern."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A student says, \"Different functions prove the structures are unrelated.\" Which response is best?",
+      "questionText": "A student says, \"Different functions prove the structures are unrelated.\" Which response is best?",
+      "options": [
+        "The same underlying structure can be adapted for different functions.",
+        "Different function always means no shared history.",
+        "Function is the only evidence needed.",
+        "Bones cannot change position."
+      ],
+      "correctAnswer": "The same underlying structure can be adapted for different functions.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Different function does not erase shared pattern."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which graph pattern would support an anatomical grouping?",
+      "questionText": "Which graph pattern would support an anatomical grouping?",
+      "options": [
+        "all organisms have the same label length",
+        "organisms are sorted alphabetically",
+        "matching structures were not measured",
+        "organisms in the proposed group share more matching structures than organisms outside it"
+      ],
+      "correctAnswer": "organisms in the proposed group share more matching structures than organisms outside it",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Shared structure counts can support grouping."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Why compare similarities and differences?",
+      "questionText": "Why compare similarities and differences?",
+      "options": [
+        "Similarities always prove exact identity.",
+        "Comparison is not evidence.",
+        "Both help evaluate how strong a relationship claim is.",
+        "Differences should always be ignored."
+      ],
+      "correctAnswer": "Both help evaluate how strong a relationship claim is.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Good explanations consider the whole pattern."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A dolphin fin and shark fin have similar streamlined shapes but different skeletal histories. What idea does this illustrate?",
+      "questionText": "A dolphin fin and shark fin have similar streamlined shapes but different skeletal histories. What idea does this illustrate?",
+      "options": [
+        "skeletons cannot be compared",
+        "similar function or environment can produce surface similarity without close ancestry",
+        "all fins prove identical ancestry",
+        "shape is never useful"
+      ],
+      "correctAnswer": "similar function or environment can produce surface similarity without close ancestry",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Similar environments can favor similar forms."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Which question pushes beyond memorizing vocabulary?",
+      "questionText": "Which question pushes beyond memorizing vocabulary?",
+      "options": [
+        "Do these organisms share an internal structure pattern even when the function differs?",
+        "How many letters are in anatomy?",
+        "Which picture is prettier?",
+        "Can the labels be blue?"
+      ],
+      "correctAnswer": "Do these organisms share an internal structure pattern even when the function differs?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "It asks the learner to apply the evidence rule."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q22",
+      "type": "multiple_choice",
+      "prompt": "A model tree groups three organisms together because they share a hidden bone pattern. What would be a good next test?",
+      "questionText": "A model tree groups three organisms together because they share a hidden bone pattern. What would be a good next test?",
+      "options": [
+        "Erase all structure data.",
+        "Group by favorite animal.",
+        "Assume the model cannot change.",
+        "Check whether other evidence supports the same grouping."
+      ],
+      "correctAnswer": "Check whether other evidence supports the same grouping.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Models improve when tested with more evidence."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Which is the best evidence-based claim?",
+      "questionText": "Which is the best evidence-based claim?",
+      "options": [
+        "They are unrelated because their jobs differ.",
+        "They are identical because they have limbs.",
+        "The shared forelimb pattern supports the idea that these organisms have related structures.",
+        "They are related because they both look cool."
+      ],
+      "correctAnswer": "The shared forelimb pattern supports the idea that these organisms have related structures.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The claim names the evidence and avoids overreach."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q24",
+      "type": "multiple_choice",
+      "prompt": "What should a scientist do if structure and DNA evidence disagree?",
+      "questionText": "What should a scientist do if structure and DNA evidence disagree?",
+      "options": [
+        "Assume DNA always wins without analysis.",
+        "Investigate more evidence and revise the model if needed.",
+        "Ignore the conflict.",
+        "Assume structure always wins."
+      ],
+      "correctAnswer": "Investigate more evidence and revise the model if needed.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Conflicting evidence should be investigated."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q25",
+      "type": "multiple_choice",
+      "prompt": "A fossil has a partial limb. Why is the claim more limited than with a complete limb?",
+      "questionText": "A fossil has a partial limb. Why is the claim more limited than with a complete limb?",
+      "options": [
+        "Missing parts reduce how much structure can be compared.",
+        "Partial fossils are never evidence.",
+        "Missing parts prove no relationship.",
+        "Incomplete fossils are always younger."
+      ],
+      "correctAnswer": "Missing parts reduce how much structure can be compared.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evidence limits affect claim strength."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which statement best explains adaptation of structures?",
+      "questionText": "Which statement best explains adaptation of structures?",
+      "options": [
+        "Individuals choose new bones during life.",
+        "Structures never affect survival.",
+        "All structures have no history.",
+        "Inherited structures can change across generations and become suited to different functions."
+      ],
+      "correctAnswer": "Inherited structures can change across generations and become suited to different functions.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evolution changes populations over generations."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q27",
+      "type": "multiple_choice",
+      "prompt": "A table lists forelimb bone order for five organisms. Four share the same order; one differs. What is a reasonable first inference?",
+      "questionText": "A table lists forelimb bone order for five organisms. Four share the same order; one differs. What is a reasonable first inference?",
+      "options": [
+        "All five are identical.",
+        "Bone order is useless.",
+        "The four may be more closely related by that structure evidence.",
+        "The one that differs is not alive."
+      ],
+      "correctAnswer": "The four may be more closely related by that structure evidence.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The shared pattern supports a grouping."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q28",
+      "type": "multiple_choice",
+      "prompt": "Why should students avoid saying 'same function means same ancestry'?",
+      "questionText": "Why should students avoid saying 'same function means same ancestry'?",
+      "options": [
+        "Because all functions are identical.",
+        "Because similar functions can arise from different underlying structures.",
+        "Because function never matters at all.",
+        "Because ancestry cannot be studied."
+      ],
+      "correctAnswer": "Because similar functions can arise from different underlying structures.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Function alone is not enough."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation shows strong understanding?",
+      "questionText": "Which final explanation shows strong understanding?",
+      "options": [
+        "Shared underlying structures, especially with other evidence, can support evolutionary relationship claims even when functions differ.",
+        "Same habitat proves closest relationship.",
+        "One outside similarity proves all ancestry.",
+        "Different function means no evidence."
+      ],
+      "correctAnswer": "Shared underlying structures, especially with other evidence, can support evolutionary relationship claims even when functions differ.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects structure, evidence, and careful claims."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which investigation would best extend the lesson?",
+      "questionText": "Which investigation would best extend the lesson?",
+      "options": [
+        "Choose animals by favorite color.",
+        "Ignore all hidden structures.",
+        "Ask only whether they swim.",
+        "Compare limb bone patterns, fossil evidence, and DNA evidence for the same organisms."
+      ],
+      "correctAnswer": "Compare limb bone patterns, fossil evidence, and DNA evidence for the same organisms.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Using multiple evidence types tests the relationship model."
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "science7-comparative-anatomy-evolution-relationships-review",
+  "testId": "science7-comparative-anatomy-evolution-relationships-review",
+  "conceptId": "concept-comparative-anatomy-evolution-relationships",
+  "title": "Comparative Anatomy and Evolutionary Relationships Review Test",
+  "description": "Spaced review for compare body structures and development patterns to evaluate evidence for evolutionary relationships.",
+  "questions": [
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q1",
+      "type": "multiple_choice",
+      "prompt": "What is comparative anatomy?",
+      "questionText": "What is comparative anatomy?",
+      "options": [
+        "comparing body structures among organisms",
+        "comparing test scores",
+        "sorting rocks by color only",
+        "measuring weather"
+      ],
+      "correctAnswer": "comparing body structures among organisms",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "It uses anatomy evidence."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q2",
+      "type": "multiple_choice",
+      "prompt": "A wing and flipper share similar bones but different jobs. What does this show?",
+      "questionText": "A wing and flipper share similar bones but different jobs. What does this show?",
+      "options": [
+        "different jobs always mean no relationship",
+        "function erases structure",
+        "bones are unrelated to evidence",
+        "same underlying pattern can have different functions"
+      ],
+      "correctAnswer": "same underlying pattern can have different functions",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Same pattern, different job is the anchor."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q3",
+      "type": "multiple_choice",
+      "prompt": "Why is function alone not enough?",
+      "questionText": "Why is function alone not enough?",
+      "options": [
+        "Structure never matters.",
+        "Organisms have no body parts.",
+        "Different structures can perform similar functions.",
+        "Function always proves exact ancestry."
+      ],
+      "correctAnswer": "Different structures can perform similar functions.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Similar job can mislead."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q4",
+      "type": "multiple_choice",
+      "prompt": "Which evidence is strongest?",
+      "questionText": "Which evidence is strongest?",
+      "options": [
+        "same picture size",
+        "shared internal bone pattern plus DNA evidence supporting the same group",
+        "same habitat only",
+        "same first letter in names"
+      ],
+      "correctAnswer": "shared internal bone pattern plus DNA evidence supporting the same group",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Multiple evidence types strengthen claims."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q5",
+      "type": "multiple_choice",
+      "prompt": "What should a scientist compare in a limb diagram?",
+      "questionText": "What should a scientist compare in a limb diagram?",
+      "options": [
+        "bone arrangement and position",
+        "only label color",
+        "only organism cuteness",
+        "only page number"
+      ],
+      "correctAnswer": "bone arrangement and position",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Internal arrangement matters."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q6",
+      "type": "multiple_choice",
+      "prompt": "A student groups dolphins and sharks only because both swim. What is weak?",
+      "questionText": "A student groups dolphins and sharks only because both swim. What is weak?",
+      "options": [
+        "Swimming proves all ancestry.",
+        "Dolphins have no structures.",
+        "Sharks cannot be compared.",
+        "The grouping uses function without enough structure evidence."
+      ],
+      "correctAnswer": "The grouping uses function without enough structure evidence.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Function alone is incomplete."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q7",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern supports a group?",
+      "questionText": "Which data pattern supports a group?",
+      "options": [
+        "members appear on the same worksheet",
+        "structure data is missing",
+        "members share more matching structures with each other than with outsiders",
+        "members have the same font"
+      ],
+      "correctAnswer": "members share more matching structures with each other than with outsiders",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Shared structure count supports grouping."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q8",
+      "type": "multiple_choice",
+      "prompt": "How can fossils help comparative anatomy?",
+      "questionText": "How can fossils help comparative anatomy?",
+      "options": [
+        "They only show opinions.",
+        "They show structure evidence from organisms that lived in the past.",
+        "They make all modern organisms identical.",
+        "They remove the need for evidence."
+      ],
+      "correctAnswer": "They show structure evidence from organisms that lived in the past.",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fossils extend comparisons through time."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q9",
+      "type": "multiple_choice",
+      "prompt": "Which claim is careful?",
+      "questionText": "Which claim is careful?",
+      "options": [
+        "The shared pattern supports a relationship, but more evidence would strengthen it.",
+        "One bone proves the whole tree.",
+        "No structure is useful.",
+        "Same function is always enough."
+      ],
+      "correctAnswer": "The shared pattern supports a relationship, but more evidence would strengthen it.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Careful claims keep limits visible."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q10",
+      "type": "multiple_choice",
+      "prompt": "What is a homologous structure?",
+      "questionText": "What is a homologous structure?",
+      "options": [
+        "any two structures with the same job",
+        "a rock layer",
+        "a learned behavior",
+        "a structure with a shared underlying pattern that may have different functions"
+      ],
+      "correctAnswer": "a structure with a shared underlying pattern that may have different functions",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "The underlying pattern matters."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q11",
+      "type": "multiple_choice",
+      "prompt": "If DNA and anatomy support the same grouping, what happens to the claim?",
+      "questionText": "If DNA and anatomy support the same grouping, what happens to the claim?",
+      "options": [
+        "It no longer needs evidence.",
+        "It proves exact dates.",
+        "It becomes stronger.",
+        "It becomes weaker automatically."
+      ],
+      "correctAnswer": "It becomes stronger.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Independent evidence can strengthen confidence."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q12",
+      "type": "multiple_choice",
+      "prompt": "A partial fossil limb is found. What is a fair caution?",
+      "questionText": "A partial fossil limb is found. What is a fair caution?",
+      "options": [
+        "All partial fossils are fake.",
+        "The missing parts limit the comparison.",
+        "Partial fossils can never help.",
+        "Missing bones prove no organism existed."
+      ],
+      "correctAnswer": "The missing parts limit the comparison.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evidence limits shape claim strength."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q13",
+      "type": "multiple_choice",
+      "prompt": "Which question transfers the idea?",
+      "questionText": "Which question transfers the idea?",
+      "options": [
+        "Do these different-looking limbs share the same internal pattern?",
+        "Are the labels colorful?",
+        "Which organism is fastest?",
+        "How long is the word limb?"
+      ],
+      "correctAnswer": "Do these different-looking limbs share the same internal pattern?",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The question applies the structure rule."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Why compare differences too?",
+      "questionText": "Why compare differences too?",
+      "options": [
+        "Differences must be ignored.",
+        "Differences prove nothing lived.",
+        "Differences erase all similarities.",
+        "Differences help test how strong or limited a relationship claim is."
+      ],
+      "correctAnswer": "Differences help test how strong or limited a relationship claim is.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Both similarities and differences matter."
+    },
+    {
+      "id": "science7-comparative-anatomy-evolution-relationships-review-q15",
+      "type": "multiple_choice",
+      "prompt": "What is the main memory anchor?",
+      "questionText": "What is the main memory anchor?",
+      "options": [
+        "Same habitat, exact ancestry.",
+        "Different job, no evidence.",
+        "Same pattern, different job.",
+        "Same color, same species."
+      ],
+      "correctAnswer": "Same pattern, different job.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "That phrase captures the concept."
+    }
+  ]
+}

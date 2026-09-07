@@ -1,0 +1,324 @@
+{
+  "id": "science7-biodiversity-solutions-tradeoffs-review",
+  "testId": "science7-biodiversity-solutions-tradeoffs-review",
+  "conceptId": "concept-biodiversity-solutions-tradeoffs",
+  "title": "Biodiversity Solutions and Tradeoffs Review Test",
+  "description": "Spaced review for evaluate human-impact solutions using biodiversity data, constraints, tradeoffs, and evidence-based design reasoning.",
+  "questions": [
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q1",
+      "type": "multiple_choice",
+      "prompt": "What makes a biodiversity solution evidence-based?",
+      "questionText": "What makes a biodiversity solution evidence-based?",
+      "options": [
+        "It uses data to identify the problem and test the result.",
+        "It has a nice name only.",
+        "It avoids all measurements.",
+        "It ignores organisms."
+      ],
+      "correctAnswer": "It uses data to identify the problem and test the result.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Evidence is needed before and after."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q2",
+      "type": "multiple_choice",
+      "prompt": "What is a tradeoff?",
+      "questionText": "What is a tradeoff?",
+      "options": [
+        "a fossil layer",
+        "a gene section",
+        "a perfect solution with no limits",
+        "a choice where one benefit comes with a cost or limitation"
+      ],
+      "correctAnswer": "a choice where one benefit comes with a cost or limitation",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Tradeoffs are normal in design."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q3",
+      "type": "multiple_choice",
+      "prompt": "Which data best tests a native garden project?",
+      "questionText": "Which data best tests a native garden project?",
+      "options": [
+        "garden nickname",
+        "number of clipboards",
+        "pollinator counts before and after planting",
+        "poster color"
+      ],
+      "correctAnswer": "pollinator counts before and after planting",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Before-and-after data tests impact."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q4",
+      "type": "multiple_choice",
+      "prompt": "A plan is cheap but damages nesting habitat. What should be considered?",
+      "questionText": "A plan is cheap but damages nesting habitat. What should be considered?",
+      "options": [
+        "the shortest plan name",
+        "cost and habitat impact together",
+        "cost only",
+        "habitat never matters"
+      ],
+      "correctAnswer": "cost and habitat impact together",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Design choices require multiple criteria."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q5",
+      "type": "multiple_choice",
+      "prompt": "Which model is best?",
+      "questionText": "Which model is best?",
+      "options": [
+        "impact data -> goal -> options -> tradeoff comparison -> monitor results",
+        "idea -> done",
+        "cost -> ignore evidence",
+        "poster -> claim"
+      ],
+      "correctAnswer": "impact data -> goal -> options -> tradeoff comparison -> monitor results",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "The model follows design reasoning."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q6",
+      "type": "multiple_choice",
+      "prompt": "Why monitor after building?",
+      "questionText": "Why monitor after building?",
+      "options": [
+        "to avoid making a claim",
+        "to prove all solutions are perfect",
+        "to replace the original goal",
+        "to see whether the solution actually works"
+      ],
+      "correctAnswer": "to see whether the solution actually works",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Monitoring checks outcomes."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q7",
+      "type": "multiple_choice",
+      "prompt": "Which claim is strongest?",
+      "questionText": "Which claim is strongest?",
+      "options": [
+        "Plan C has a short title.",
+        "Plan C was first on the list.",
+        "Plan C increased native plant cover by 35% and stayed under budget.",
+        "Plan C feels good."
+      ],
+      "correctAnswer": "Plan C increased native plant cover by 35% and stayed under budget.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Strong claims use data and constraints."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q8",
+      "type": "multiple_choice",
+      "prompt": "What is the cheapest-plan misconception?",
+      "questionText": "What is the cheapest-plan misconception?",
+      "options": [
+        "monitoring results",
+        "assuming lowest cost automatically means best solution",
+        "using evidence",
+        "comparing tradeoffs"
+      ],
+      "correctAnswer": "assuming lowest cost automatically means best solution",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cost matters but is not the only criterion."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q9",
+      "type": "multiple_choice",
+      "prompt": "Which result suggests revision is needed?",
+      "questionText": "Which result suggests revision is needed?",
+      "options": [
+        "target species continue declining after the solution",
+        "the plan met safety rules",
+        "habitat area improved",
+        "monitoring found more pollinators"
+      ],
+      "correctAnswer": "target species continue declining after the solution",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Poor outcome data suggests revision."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q10",
+      "type": "multiple_choice",
+      "prompt": "How can a wildlife crossing help?",
+      "questionText": "How can a wildlife crossing help?",
+      "options": [
+        "by changing fossils",
+        "by creating chromosomes",
+        "by removing all constraints",
+        "by reconnecting habitat separated by roads"
+      ],
+      "correctAnswer": "by reconnecting habitat separated by roads",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Crossings can reduce fragmentation."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q11",
+      "type": "multiple_choice",
+      "prompt": "Which goal is measurable?",
+      "questionText": "Which goal is measurable?",
+      "options": [
+        "Help nature somehow.",
+        "Do an outdoor project.",
+        "Reduce invasive plant cover from 40% to 15% by spring.",
+        "Make the park nicer."
+      ],
+      "correctAnswer": "Reduce invasive plant cover from 40% to 15% by spring.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Measurable goals can be tested."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Why identify affected organisms?",
+      "questionText": "Why identify affected organisms?",
+      "options": [
+        "Names are better than data.",
+        "A solution may help some organisms more than others.",
+        "All species respond identically.",
+        "Organisms are unrelated to biodiversity."
+      ],
+      "correctAnswer": "A solution may help some organisms more than others.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Specific evidence improves claims."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q13",
+      "type": "multiple_choice",
+      "prompt": "Which question transfers the design rule?",
+      "questionText": "Which question transfers the design rule?",
+      "options": [
+        "Which option best meets the goal with evidence and acceptable tradeoffs?",
+        "Which option sounds coolest?",
+        "Which option has the most words?",
+        "Which option ignores constraints?"
+      ],
+      "correctAnswer": "Which option best meets the goal with evidence and acceptable tradeoffs?",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This applies the design decision rule."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Why is an imperfect solution sometimes useful?",
+      "questionText": "Why is an imperfect solution sometimes useful?",
+      "options": [
+        "Any limitation means failure.",
+        "Evidence is unnecessary.",
+        "Tradeoffs prove no benefit.",
+        "It can improve outcomes while managing real limits."
+      ],
+      "correctAnswer": "It can improve outcomes while managing real limits.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Useful designs can have tradeoffs."
+    },
+    {
+      "id": "science7-biodiversity-solutions-tradeoffs-review-q15",
+      "type": "multiple_choice",
+      "prompt": "What is the memory anchor?",
+      "questionText": "What is the memory anchor?",
+      "options": [
+        "Data does not matter.",
+        "Perfect or useless.",
+        "Best solution means evidence plus tradeoffs.",
+        "Cheapest always wins."
+      ],
+      "correctAnswer": "Best solution means evidence plus tradeoffs.",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The anchor captures the concept."
+    }
+  ]
+}
