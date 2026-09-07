@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-time-and-dates-core",
+  "testId": "spanish7-time-and-dates-core",
+  "conceptId": "concept-spanish-time-and-dates",
+  "title": "Telling Time and Dates Core Test",
+  "description": "Core practice for Spanish dates, months, time questions, and schedule times.",
+  "questions": [
+    {
+      "id": "spanish7-time-and-dates-core-q01",
+      "type": "multiple_choice",
+      "questionText": "What does \"la fecha\" mean?",
+      "options": ["the date", "the class", "the book", "the teacher"],
+      "correctAnswer": "the date",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"La fecha\" means the date."
+    },
+    {
+      "id": "spanish7-time-and-dates-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which month is \"agosto\"?",
+      "options": ["August", "April", "October", "January"],
+      "correctAnswer": "August",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Agosto\" means August."
+    },
+    {
+      "id": "spanish7-time-and-dates-core-q03",
+      "type": "multiple_choice",
+      "questionText": "What does \"hoy\" mean?",
+      "options": ["today", "tomorrow", "birthday", "schedule"],
+      "correctAnswer": "today",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Hoy\" means today."
+    },
+    {
+      "id": "spanish7-time-and-dates-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which question asks \"What time is it?\"",
+      "options": ["¿Qué hora es?", "¿Cuál es la fecha?", "¿Cómo te llamas?", "¿De dónde eres?"],
+      "correctAnswer": "¿Qué hora es?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "application"],
+      "explanation": "\"¿Qué hora es?\" asks what time it is."
+    },
+    {
+      "id": "spanish7-time-and-dates-core-q05",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"It is one o'clock\"?",
+      "options": ["Es la una.", "Son las una.", "Son las dos.", "A las una."],
+      "correctAnswer": "Es la una.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "One o'clock uses the singular frame \"Es la una.\""
+    },
+    {
+      "id": "spanish7-time-and-dates-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"It is four o'clock\"?",
+      "options": ["Son las cuatro.", "Es la cuatro.", "Tengo cuatro.", "El cuatro de mayo."],
+      "correctAnswer": "Son las cuatro.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "Most times use \"Son las\" plus the hour."
+    },
+    {
+      "id": "spanish7-time-and-dates-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish date means \"August 26\"?",
+      "options": ["el 26 de agosto", "agosto de 26", "el agosto 26", "veintiséis en agosto"],
+      "correctAnswer": "el 26 de agosto",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "Spanish dates use \"el + day + de + month.\""
+    },
+    {
+      "id": "spanish7-time-and-dates-core-q08",
+      "type": "multiple_choice",
+      "questionText": "Which sentence best says \"I have Spanish at nine\"?",
+      "options": ["Tengo español a las nueve.", "Son las nueve español.", "Me gusta nueve español.", "Hoy es español nueve."],
+      "correctAnswer": "Tengo español a las nueve.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "\"A las nueve\" means at nine for a schedule time."
+    }
+  ]
+}

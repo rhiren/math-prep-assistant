@@ -420,7 +420,7 @@
         {
           "id": "spanish7-unit-school-and-everyday-life",
           "title": "School and Everyday Life",
-          "description": "Practice language for classes, schedules, likes and dislikes, regular present-tense verbs, and simple everyday questions.",
+          "description": "Practice language for classes, schedules, likes and dislikes, regular present-tense verbs, simple questions, time, dates, and everyday conversations.",
           "order": 3,
           "concepts": [
             {
@@ -583,6 +583,118 @@
                   "id": "spanish7-present-tense-regular-verbs-review",
                   "type": "review",
                   "path": "./content/test-sets/spanish7-present-tense-regular-verbs-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-spanish-question-words-conversations",
+              "title": "Question Words and Simple Conversations",
+              "description": "Use common question words to understand and build short Spanish conversations about name, origin, age, classes, likes, and schedule.",
+              "tags": [
+                "spanish",
+                "question-words",
+                "conversation",
+                "interpersonal",
+                "communication"
+              ],
+              "skillTags": [
+                "vocabulary",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Comparisons"
+              ],
+              "order": 4,
+              "testQuestionCount": 13,
+              "tutorial": "./content/tutorials/concept-spanish-question-words-conversations.md",
+              "tests": [
+                {
+                  "id": "spanish7-question-words-conversations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-question-words-conversations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-question-words-conversations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-question-words-conversations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-spanish-time-and-dates",
+              "title": "Telling Time and Dates",
+              "description": "Use numbers, months, days, and time phrases to talk about dates, birthdays, and simple schedules.",
+              "tags": [
+                "spanish",
+                "time",
+                "dates",
+                "months",
+                "schedule"
+              ],
+              "skillTags": [
+                "vocabulary",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "beginner"
+              ],
+              "standardsFrameworks": [
+                "ACTFL Communication",
+                "ACTFL Connections"
+              ],
+              "order": 5,
+              "testQuestionCount": 13,
+              "tutorial": "./content/tutorials/concept-spanish-time-and-dates.md",
+              "tests": [
+                {
+                  "id": "spanish7-time-and-dates-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-time-and-dates-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-time-and-dates-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-time-and-dates-review.json",
                   "difficultyProfile": {
                     "scaffold": true,
                     "standard": true,

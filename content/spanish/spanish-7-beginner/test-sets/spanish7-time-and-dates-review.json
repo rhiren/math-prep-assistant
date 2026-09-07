@@ -1,0 +1,64 @@
+{
+  "id": "spanish7-time-and-dates-review",
+  "testId": "spanish7-time-and-dates-review",
+  "conceptId": "concept-spanish-time-and-dates",
+  "title": "Telling Time and Dates Review",
+  "description": "Short review for Spanish time, dates, and calendar phrases.",
+  "questions": [
+    {
+      "id": "spanish7-time-and-dates-review-q01",
+      "type": "multiple_choice",
+      "questionText": "Which question asks \"What is the date?\"",
+      "options": ["¿Cuál es la fecha?", "¿Qué hora es?", "¿Qué clase tienes?", "¿Cómo estás?"],
+      "correctAnswer": "¿Cuál es la fecha?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"¿Cuál es la fecha?\" asks what the date is."
+    },
+    {
+      "id": "spanish7-time-and-dates-review-q02",
+      "type": "multiple_choice",
+      "questionText": "What does \"mañana\" mean?",
+      "options": ["tomorrow", "today", "month", "clock"],
+      "correctAnswer": "tomorrow",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Mañana\" means tomorrow."
+    },
+    {
+      "id": "spanish7-time-and-dates-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"Today is September 15\"?",
+      "options": ["Hoy es el 15 de septiembre.", "Hoy son las quince de septiembre.", "Septiembre es hoy quince.", "Tengo quince septiembre."],
+      "correctAnswer": "Hoy es el 15 de septiembre.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "The date frame is \"Hoy es el + day + de + month.\""
+    },
+    {
+      "id": "spanish7-time-and-dates-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which answer fits \"¿Qué hora es?\"",
+      "options": ["Son las dos.", "Hoy es lunes.", "Me llamo Ana.", "Tengo ciencia."],
+      "correctAnswer": "Son las dos.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"¿Qué hora es?\" asks for the time."
+    },
+    {
+      "id": "spanish7-time-and-dates-review-q05",
+      "type": "multiple_choice",
+      "questionText": "Why does Spanish use \"Es la una\" but \"Son las dos\"?",
+      "options": ["One o'clock is singular; most other hours are plural.", "All times use the same verb.", "Dates never use numbers.", "Months decide the verb."],
+      "correctAnswer": "One o'clock is singular; most other hours are plural.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual", "reasoning"],
+      "explanation": "\"Una\" is singular, while most other hour expressions use plural \"son las.\""
+    }
+  ]
+}
