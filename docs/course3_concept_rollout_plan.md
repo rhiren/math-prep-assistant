@@ -147,6 +147,76 @@ Current reusable packs:
 - Write Linear Equations from Representations
 - Unit 3 Mixed Review
 
+### Unit 3 Execution Plan
+
+Goal: make book Unit 3 learner-ready in the active Course 3 sequence while
+preserving existing progress by reusing the already-built concept IDs, test
+IDs, and tutorial paths.
+
+Current asset audit:
+
+| Book order | Concept | Existing concept ID | Asset state |
+| --- | --- | --- | --- |
+| 1 | Proportional Relationships as Lines | `concept-proportional-relationships-as-lines` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 2 | Equations in the Form `y = mx` | `concept-equations-y-equals-mx` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 3 | Understand the `y`-Intercept | `concept-understand-y-intercept` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 4 | Equations in the Form `y = mx + b` | `concept-equations-y-equals-mx-plus-b` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 5 | Find Slope from Tables and Points | `concept-find-slope-tables-points` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 6 | Compare Rates of Change | `concept-compare-rates-of-change` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 7 | Graph Linear Equations | `concept-graph-linear-equations` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 8 | Write Linear Equations from Representations | `concept-write-linear-equations-representations` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+| 9 | Unit 3 Mixed Review | `concept-unit-3-mixed-review` | Reusable pack exists: tutorial, 50-question core, 20-question review |
+
+Execution sequence:
+
+1. Tutorial freshness pass
+   - Read all 9 tutorials in book Unit 3 order.
+   - Remove stale references to the older standards-ordered unit sequence if
+     present.
+   - Strengthen the through-line from Unit 2 slope to Unit 3 linear
+     relationships: proportional relationships, `y = mx`, intercepts, tables,
+     graphs, and representations.
+   - Keep each tutorial concept-specific; do not clone shared language across
+     concepts.
+
+2. Manifest realignment
+   - Move the 9 existing Unit 3 concepts from the older
+     `course3-unit-lines-slope-linear-equations` position into the book-aligned
+     Unit 3 slot immediately after `Dilations, Similarity, and Slope`.
+   - Preserve every existing concept ID, tutorial path, core test ID, and
+     review test ID.
+   - Rename the learner-facing unit title to
+     `Proportional and Linear Relationships`.
+   - Renumber later active units only as needed to keep the course sequence
+     coherent.
+
+3. Test and context updates
+   - Update `src/test/contentRepository.test.ts` expectations for the new
+     book-aligned unit order and counts.
+   - Update `AGENTS.md` and this rollout plan with the new active manifest
+     state.
+   - Keep the existing Course 3 quality gates active for answer balance,
+     answer unpredictability, visible answer-label cycles, template variety,
+     difficulty progression, tutorial uniqueness, and scoring correctness.
+
+4. Validation gates before release
+   - Run `npm test -- src/test/contentRepository.test.ts`.
+   - Run `npm test`.
+   - Run `npm run build`.
+   - Spot-check that Unit 3 appears directly after Unit 2 and contains exactly
+     the 9 book Unit 3 concepts in order.
+
+5. Release
+   - Commit the realignment and any tutorial freshness fixes.
+   - Push to `origin master`.
+   - Publish with `npm run deploy`.
+   - Verify the GitHub Pages URL returns HTTP 200.
+
+Expected implementation size: mostly manifest, documentation, and test
+expectation changes. New question-bank generation is not expected unless the
+tutorial freshness or quality-gate pass uncovers content debt in one of the
+existing reusable packs.
+
 ### Unit 4 — Linear Equations and Linear Systems
 
 Amplify focus: single-variable equations with parentheses and systems solved
