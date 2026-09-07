@@ -815,6 +815,63 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "concept-angle-angle-similarity",
+              "title": "Angle-Angle Similarity",
+              "description": "Prove triangles are similar using two matching angle pairs, triangle angle sums, parallel-line angle relationships, and correct vertex correspondence.",
+              "tags": [
+                "geometry",
+                "similarity",
+                "similar-triangles",
+                "angle-angle",
+                "proof"
+              ],
+              "skillTags": [
+                "conceptual",
+                "reasoning",
+                "proof",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.G.4",
+                "8.G.5"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-angle-angle-similarity.md",
+              "tests": [
+                {
+                  "id": "course3-angle-angle-similarity-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-angle-angle-similarity-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-angle-angle-similarity-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-angle-angle-similarity-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         },
