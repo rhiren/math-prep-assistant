@@ -106,18 +106,17 @@ Standards: `8.G.3-5`, `8.EE.5-6`
 8. Find Slope from Graphs
 9. Unit 2 Mixed Review
 
-Current reusable packs:
-
-- Similar Triangles and Constant Slope
-- Understand Slope as Rate of Change
-- Find Slope from Graphs
-
 Current learner-ready packs:
 
 - Dilations on the Coordinate Plane
 - Scale Factor and Dilations
 - Similar Figures
 - Missing Side Lengths in Similar Triangles
+- Angle-Angle Similarity
+- Similar Triangles and Constant Slope
+- Understand Slope as Rate of Change
+- Find Slope from Graphs
+- Unit 2 Mixed Review
 
 ### Unit 3 — Proportional and Linear Relationships
 
@@ -314,27 +313,26 @@ Use this sequence:
 ## Current Active Manifest State
 
 As of this update, the active Course 3 manifest presents the complete
-ten-concept book-aligned Unit 1, the first five learner-ready book Unit 2
-concepts, and the previously built standards-ordered units that remain reusable
-assets:
+ten-concept book-aligned Unit 1, the complete nine-concept book Unit 2,
+and the previously built standards-ordered units that remain reusable assets:
 
 - Rigid Transformations and Congruence: 10 learner-ready concepts
-- Dilations, Similarity, and Slope: 5 learner-ready concepts
+- Dilations, Similarity, and Slope: 9 learner-ready concepts
 - Real Numbers and Exponents: 12 learner-ready concepts
 - Linear Equations in One Variable: 10 learner-ready concepts
-- Lines, Slope, and Linear Equations: 12 learner-ready concepts
+- Lines, Slope, and Linear Equations: 9 learner-ready concepts
 - Systems of Linear Equations: 5 learner-ready concepts
 
-Total active Course 3 concepts: 54.
+Total active Course 3 concepts: 55.
 
 These should be treated as reusable content assets during the transition, not
 as discarded work.
 
 ## Next Build Target
 
-The next Course 3 build target is book Unit 2:
+The next Course 3 build target is book Unit 3:
 
-- Similar Triangles and Constant Slope
+- Proportional Relationships as Lines
 
 ## Definition of Ready
 

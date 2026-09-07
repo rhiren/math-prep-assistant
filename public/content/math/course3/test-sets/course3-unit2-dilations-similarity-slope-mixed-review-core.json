@@ -1,0 +1,1009 @@
+{
+  "testId": "course3-unit2-dilations-similarity-slope-mixed-review-core",
+  "conceptId": "concept-course3-unit2-dilations-similarity-slope-mixed-review",
+  "type": "concept",
+  "title": "Unit 2 Mixed Review Core Test",
+  "description": "Review book Unit 2: dilations, scale factor, similar figures, similar triangles, AA similarity, constant slope, rate of change, and graph slope.",
+  "questions": [
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-001",
+      "type": "multiple_choice",
+      "questionText": "A point (3, 4) is dilated from the origin by scale factor 2. What is the image point?",
+      "options": [
+        "(6, 8)",
+        "(5, 6)",
+        "(3, 8)",
+        "(8, 6)"
+      ],
+      "correctAnswer": "(6, 8)",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor"
+      ],
+      "explanation": "A dilation from the origin multiplies both coordinates by 2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-002",
+      "type": "multiple_choice",
+      "questionText": "A point (1, 5) is dilated from the origin by scale factor 3. What is the image point?",
+      "options": [
+        "(4, 8)",
+        "(3, 15)",
+        "(1, 15)",
+        "(15, 3)"
+      ],
+      "correctAnswer": "(3, 15)",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor"
+      ],
+      "explanation": "A dilation from the origin multiplies both coordinates by 3."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-003",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have corresponding sides 4 and 8. A matching side on the first figure is 6. What is the side on the second figure?",
+      "options": [
+        "12 units",
+        "10 units",
+        "3 units",
+        "14 units"
+      ],
+      "correctAnswer": "12 units",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "similarity",
+        "scale-factor",
+        "missing-sides"
+      ],
+      "explanation": "The scale factor is 8 / 4 = 2. Multiply 6 by 2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-004",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 3 and 5. Figure B has corresponding side lengths 6 and 10. What can you conclude?",
+      "options": [
+        "The figures must be congruent.",
+        "The figures cannot be similar because the sides differ.",
+        "The side ratios are consistent, so this supports similarity.",
+        "Only the longer sides matter."
+      ],
+      "correctAnswer": "The side ratios are consistent, so this supports similarity.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "similar-figures",
+        "proportional-sides",
+        "reasoning"
+      ],
+      "explanation": "Compare matching ratios: 3/6 and 5/10. Similar figures need one consistent scale relationship."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-005",
+      "type": "multiple_choice",
+      "questionText": "Triangle R has angles 40 degrees and 70 degrees. Triangle S has angles 70 degrees and 70 degrees. Which statement is best?",
+      "options": [
+        "The triangles are congruent by AA.",
+        "The triangles are similar by AA.",
+        "The triangles are similar only if their side lengths are equal.",
+        "The triangles are not similar because one angle is hidden."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "proof"
+      ],
+      "explanation": "The missing angles are 70 degrees and 40 degrees. AA needs two matching angle pairs."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-006",
+      "type": "multiple_choice",
+      "questionText": "One slope triangle has rise 2 and run 3. Another has rise 4 and run 6. What does this show?",
+      "options": [
+        "The larger triangle is always steeper.",
+        "The slope is found by adding rise and run.",
+        "The triangles prove the line is horizontal.",
+        "The triangles have the same rise/run ratio, so they can represent the same line slope."
+      ],
+      "correctAnswer": "The triangles have the same rise/run ratio, so they can represent the same line slope.",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "similar-triangles",
+        "constant-slope",
+        "rise-run"
+      ],
+      "explanation": "Compare 2/3 and 4/6. Constant slope means the ratios match, not that the triangles are the same size."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-007",
+      "type": "multiple_choice",
+      "questionText": "A quantity changes from 10 to 22 in 3 hours. What is the rate of change?",
+      "options": [
+        "4 per hour",
+        "7.3 per hour",
+        "15 per hour",
+        "3.3333333333333335 per hour"
+      ],
+      "correctAnswer": "4 per hour",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "rate-of-change",
+        "context"
+      ],
+      "explanation": "Rate of change is change in output divided by change in input: (22 - 10) / 3 = 4."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-008",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (1, 2) and (4, 8). What is its slope?",
+      "options": [
+        "3/6",
+        "9",
+        "2",
+        "-2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "graphs",
+        "coordinate-plane"
+      ],
+      "explanation": "Slope is rise over run: (8 - 2) / (4 - 1) = 6/3, which simplifies to 2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-009",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have corresponding sides 5 and 15. A matching side on the first figure is 7. What is the side on the second figure?",
+      "options": [
+        "17 units",
+        "21 units",
+        "2.3333333333333335 units",
+        "23 units"
+      ],
+      "correctAnswer": "21 units",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "similarity",
+        "scale-factor",
+        "missing-sides"
+      ],
+      "explanation": "The scale factor is 15 / 5 = 3. Multiply 7 by 3."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-010",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (0, 1) and (2, 5). What is its slope?",
+      "options": [
+        "2",
+        "2/4",
+        "6",
+        "-2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "scaffold",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "graphs",
+        "coordinate-plane"
+      ],
+      "explanation": "Slope is rise over run: (5 - 1) / (2 - 0) = 4/2, which simplifies to 2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-011",
+      "type": "multiple_choice",
+      "questionText": "A point (8, 6) is dilated from the origin by scale factor 0.5. What is the image point?",
+      "options": [
+        "(8.5, 6.5)",
+        "(8, 3)",
+        "(3, 4)",
+        "(4, 3)"
+      ],
+      "correctAnswer": "(4, 3)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor"
+      ],
+      "explanation": "A dilation from the origin multiplies both coordinates by 0.5."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-012",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 4 and 6. Figure B has corresponding side lengths 10 and 15. What can you conclude?",
+      "options": [
+        "The figures must be congruent.",
+        "The side ratios are consistent, so this supports similarity.",
+        "The figures cannot be similar because the sides differ.",
+        "Only the longer sides matter."
+      ],
+      "correctAnswer": "The side ratios are consistent, so this supports similarity.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-figures",
+        "proportional-sides",
+        "reasoning"
+      ],
+      "explanation": "Compare matching ratios: 4/10 and 6/15. Similar figures need one consistent scale relationship."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-013",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 5 and 8. Figure B has corresponding side lengths 12 and 20. What can you conclude?",
+      "options": [
+        "The side ratios are consistent, so this supports similarity.",
+        "The figures must be similar because both have two sides.",
+        "The side ratios are not consistent, so this does not prove similarity.",
+        "The figures are congruent because the differences match."
+      ],
+      "correctAnswer": "The side ratios are not consistent, so this does not prove similarity.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-figures",
+        "proportional-sides",
+        "reasoning"
+      ],
+      "explanation": "Compare matching ratios: 5/12 and 8/20. Similar figures need one consistent scale relationship."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-014",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have corresponding sides 9 and 6. A matching side on the first figure is 12. What is the side on the second figure?",
+      "options": [
+        "8 units",
+        "9 units",
+        "18 units",
+        "10 units"
+      ],
+      "correctAnswer": "8 units",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similarity",
+        "scale-factor",
+        "missing-sides"
+      ],
+      "explanation": "The scale factor is 6 / 9 = 0.6666666666666666. Multiply 12 by 0.6666666666666666."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-015",
+      "type": "multiple_choice",
+      "questionText": "Triangle R has angles 35 degrees and 85 degrees. Triangle S has angles 35 degrees and 60 degrees. Which statement is best?",
+      "options": [
+        "The triangles are congruent by AA.",
+        "The triangles are similar only if their side lengths are equal.",
+        "The triangles are not similar because one angle is hidden.",
+        "The triangles are similar by AA."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "proof"
+      ],
+      "explanation": "The missing angles are 60 degrees and 85 degrees. AA needs two matching angle pairs."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-016",
+      "type": "multiple_choice",
+      "questionText": "Triangle R has angles 48 degrees and 72 degrees. Triangle S has angles 60 degrees and 48 degrees. Which statement is best?",
+      "options": [
+        "The triangles are congruent by AA.",
+        "The triangles are similar by AA.",
+        "The triangles are similar only if their side lengths are equal.",
+        "The triangles are not similar because one angle is hidden."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "proof"
+      ],
+      "explanation": "The missing angles are 60 degrees and 72 degrees. AA needs two matching angle pairs."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-017",
+      "type": "multiple_choice",
+      "questionText": "One slope triangle has rise 3 and run 5. Another has rise 9 and run 15. What does this show?",
+      "options": [
+        "The larger triangle is always steeper.",
+        "The slope is found by adding rise and run.",
+        "The triangles prove the line is horizontal.",
+        "The triangles have the same rise/run ratio, so they can represent the same line slope."
+      ],
+      "correctAnswer": "The triangles have the same rise/run ratio, so they can represent the same line slope.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-triangles",
+        "constant-slope",
+        "rise-run"
+      ],
+      "explanation": "Compare 3/5 and 9/15. Constant slope means the ratios match, not that the triangles are the same size."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-018",
+      "type": "multiple_choice",
+      "questionText": "One slope triangle has rise 4 and run 7. Another has rise 8 and run 15. What does this show?",
+      "options": [
+        "The triangles have the same rise/run ratio, so they can represent the same line slope.",
+        "The triangles must be congruent.",
+        "The rise/run ratios differ, so they do not show the same constant slope.",
+        "The larger run automatically makes the slope larger."
+      ],
+      "correctAnswer": "The rise/run ratios differ, so they do not show the same constant slope.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-triangles",
+        "constant-slope",
+        "rise-run"
+      ],
+      "explanation": "Compare 4/7 and 8/15. Constant slope means the ratios match, not that the triangles are the same size."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-019",
+      "type": "multiple_choice",
+      "questionText": "A quantity changes from 50 to 38 in 3 minutes. What is the rate of change?",
+      "options": [
+        "-4 per minute",
+        "12.7 per minute",
+        "4 per minute",
+        "-9 per minute"
+      ],
+      "correctAnswer": "-4 per minute",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "rate-of-change",
+        "context"
+      ],
+      "explanation": "Rate of change is change in output divided by change in input: (38 - 50) / 3 = -4."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-020",
+      "type": "multiple_choice",
+      "questionText": "A quantity changes from 12 to 30 in 6 weeks. What is the rate of change?",
+      "options": [
+        "5.0 per week",
+        "3 per week",
+        "24 per week",
+        "2 per week"
+      ],
+      "correctAnswer": "3 per week",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "rate-of-change",
+        "context"
+      ],
+      "explanation": "Rate of change is change in output divided by change in input: (30 - 12) / 6 = 3."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-021",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (2, 9) and (6, 3). What is its slope?",
+      "options": [
+        "4/-6",
+        "-2",
+        "3/2",
+        "-3/2"
+      ],
+      "correctAnswer": "-3/2",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "graphs",
+        "coordinate-plane"
+      ],
+      "explanation": "Slope is rise over run: (3 - 9) / (6 - 2) = -6/4, which simplifies to -3/2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-022",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (-1, 4) and (5, 16). What is its slope?",
+      "options": [
+        "6/12",
+        "18",
+        "2",
+        "-2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "graphs",
+        "coordinate-plane"
+      ],
+      "explanation": "Slope is rise over run: (16 - 4) / (5 - -1) = 12/6, which simplifies to 2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-023",
+      "type": "multiple_choice",
+      "questionText": "A point (-2, 3) is dilated from the origin by scale factor 4. What is the image point?",
+      "options": [
+        "(2, 7)",
+        "(-8, 12)",
+        "(-2, 12)",
+        "(12, -8)"
+      ],
+      "correctAnswer": "(-8, 12)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor"
+      ],
+      "explanation": "A dilation from the origin multiplies both coordinates by 4."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-024",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have corresponding sides 6 and 14. A matching side on the first figure is 9. What is the side on the second figure?",
+      "options": [
+        "21 units",
+        "17 units",
+        "3.8571428571428568 units",
+        "23 units"
+      ],
+      "correctAnswer": "21 units",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similarity",
+        "scale-factor",
+        "missing-sides"
+      ],
+      "explanation": "The scale factor is 14 / 6 = 2.3333333333333335. Multiply 9 by 2.3333333333333335."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-025",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 7 and 4. Figure B has corresponding side lengths 21 and 12. What can you conclude?",
+      "options": [
+        "The figures must be congruent.",
+        "The figures cannot be similar because the sides differ.",
+        "The side ratios are consistent, so this supports similarity.",
+        "Only the longer sides matter."
+      ],
+      "correctAnswer": "The side ratios are consistent, so this supports similarity.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-figures",
+        "proportional-sides",
+        "reasoning"
+      ],
+      "explanation": "Compare matching ratios: 7/21 and 4/12. Similar figures need one consistent scale relationship."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-026",
+      "type": "multiple_choice",
+      "questionText": "Triangle R has angles 52 degrees and 58 degrees. Triangle S has angles 52 degrees and 70 degrees. Which statement is best?",
+      "options": [
+        "The triangles are congruent by AA.",
+        "The triangles are similar only if their side lengths are equal.",
+        "The triangles are not similar because one angle is hidden.",
+        "The triangles are similar by AA."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "proof"
+      ],
+      "explanation": "The missing angles are 70 degrees and 58 degrees. AA needs two matching angle pairs."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-027",
+      "type": "multiple_choice",
+      "questionText": "One slope triangle has rise 5 and run 8. Another has rise 15 and run 24. What does this show?",
+      "options": [
+        "The larger triangle is always steeper.",
+        "The triangles have the same rise/run ratio, so they can represent the same line slope.",
+        "The slope is found by adding rise and run.",
+        "The triangles prove the line is horizontal."
+      ],
+      "correctAnswer": "The triangles have the same rise/run ratio, so they can represent the same line slope.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-triangles",
+        "constant-slope",
+        "rise-run"
+      ],
+      "explanation": "Compare 5/8 and 15/24. Constant slope means the ratios match, not that the triangles are the same size."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-028",
+      "type": "multiple_choice",
+      "questionText": "A quantity changes from 8 to -4 in 4 seconds. What is the rate of change?",
+      "options": [
+        "-3 per second",
+        "-1.0 per second",
+        "3 per second",
+        "-8 per second"
+      ],
+      "correctAnswer": "-3 per second",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "rate-of-change",
+        "context"
+      ],
+      "explanation": "Rate of change is change in output divided by change in input: (-4 - 8) / 4 = -3."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-029",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (-3, -2) and (1, 6). What is its slope?",
+      "options": [
+        "4/8",
+        "12",
+        "2",
+        "-2"
+      ],
+      "correctAnswer": "2",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "graphs",
+        "coordinate-plane"
+      ],
+      "explanation": "Slope is rise over run: (6 - -2) / (1 - -3) = 8/4, which simplifies to 2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-030",
+      "type": "multiple_choice",
+      "questionText": "A point (4, 2) is dilated from the origin by scale factor 1.5. What is the image point?",
+      "options": [
+        "(6, 3)",
+        "(5.5, 3.5)",
+        "(4, 3)",
+        "(3, 6)"
+      ],
+      "correctAnswer": "(6, 3)",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "coordinate-plane",
+        "scale-factor"
+      ],
+      "explanation": "A dilation from the origin multiplies both coordinates by 1.5."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-031",
+      "type": "multiple_choice",
+      "questionText": "Two similar figures have corresponding sides 10 and 4. A matching side on the first figure is 15. What is the side on the second figure?",
+      "options": [
+        "9 units",
+        "37.5 units",
+        "8 units",
+        "6 units"
+      ],
+      "correctAnswer": "6 units",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similarity",
+        "scale-factor",
+        "missing-sides"
+      ],
+      "explanation": "The scale factor is 4 / 10 = 0.4. Multiply 15 by 0.4."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-032",
+      "type": "multiple_choice",
+      "questionText": "Figure A has side lengths 6 and 9. Figure B has corresponding side lengths 8 and 12. What can you conclude?",
+      "options": [
+        "The figures must be congruent.",
+        "The side ratios are consistent, so this supports similarity.",
+        "The figures cannot be similar because the sides differ.",
+        "Only the longer sides matter."
+      ],
+      "correctAnswer": "The side ratios are consistent, so this supports similarity.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-figures",
+        "proportional-sides",
+        "reasoning"
+      ],
+      "explanation": "Compare matching ratios: 6/8 and 9/12. Similar figures need one consistent scale relationship."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-033",
+      "type": "multiple_choice",
+      "questionText": "Triangle R has angles 28 degrees and 64 degrees. Triangle S has angles 88 degrees and 28 degrees. Which statement is best?",
+      "options": [
+        "The triangles are congruent by AA.",
+        "The triangles are similar only if their side lengths are equal.",
+        "The triangles are similar by AA.",
+        "The triangles are not similar because one angle is hidden."
+      ],
+      "correctAnswer": "The triangles are similar by AA.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "angle-sums",
+        "proof"
+      ],
+      "explanation": "The missing angles are 88 degrees and 64 degrees. AA needs two matching angle pairs."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-034",
+      "type": "multiple_choice",
+      "questionText": "One slope triangle has rise 6 and run 10. Another has rise 9 and run 16. What does this show?",
+      "options": [
+        "The rise/run ratios differ, so they do not show the same constant slope.",
+        "The triangles have the same rise/run ratio, so they can represent the same line slope.",
+        "The triangles must be congruent.",
+        "The larger run automatically makes the slope larger."
+      ],
+      "correctAnswer": "The rise/run ratios differ, so they do not show the same constant slope.",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "similar-triangles",
+        "constant-slope",
+        "rise-run"
+      ],
+      "explanation": "Compare 6/10 and 9/16. Constant slope means the ratios match, not that the triangles are the same size."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-035",
+      "type": "multiple_choice",
+      "questionText": "A line passes through (3, -1) and (9, 7). What is its slope?",
+      "options": [
+        "6/8",
+        "14",
+        "-4/3",
+        "4/3"
+      ],
+      "correctAnswer": "4/3",
+      "difficulty": "standard",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "graphs",
+        "coordinate-plane"
+      ],
+      "explanation": "Slope is rise over run: (7 - -1) / (9 - 3) = 8/6, which simplifies to 4/3."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-036",
+      "type": "multiple_choice",
+      "questionText": "A student says a dilation by 3 makes every angle three times as large. Which response is best?",
+      "options": [
+        "Yes. Every measurement triples under a dilation.",
+        "No. Dilations preserve length but change angles.",
+        "No. Dilations multiply lengths, but angle measures stay the same.",
+        "Yes, but only for triangles."
+      ],
+      "correctAnswer": "No. Dilations multiply lengths, but angle measures stay the same.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "misconception",
+        "similarity"
+      ],
+      "explanation": "Dilations change size while preserving shape, so side lengths scale but angle measures remain equal."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-037",
+      "type": "multiple_choice",
+      "questionText": "A small triangle inside a larger triangle has one side parallel to the larger triangle's base. Why are the triangles similar?",
+      "options": [
+        "They are congruent because the bases are parallel.",
+        "They share one angle and have a second matching angle from parallel lines, so AA applies.",
+        "They are similar because all nested triangles are similar.",
+        "They are not similar unless all side lengths are measured."
+      ],
+      "correctAnswer": "They share one angle and have a second matching angle from parallel lines, so AA applies.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "parallel-lines",
+        "proof"
+      ],
+      "explanation": "Parallel lines create corresponding angle matches. With the shared angle, two angle pairs match."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-038",
+      "type": "multiple_choice",
+      "questionText": "Two slope triangles on a line have rise/run ratios 6/9 and 10/15. What is the strongest conclusion?",
+      "options": [
+        "The second triangle is steeper because 10 is larger than 6.",
+        "The slope changes because the triangles are different sizes.",
+        "The slope is 16/24 because rises and runs should be added.",
+        "Both simplify to 2/3, so they support a constant slope of 2/3."
+      ],
+      "correctAnswer": "Both simplify to 2/3, so they support a constant slope of 2/3.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "constant-slope",
+        "equivalent-ratios",
+        "reasoning"
+      ],
+      "explanation": "Equivalent rise/run ratios describe the same steepness, even when the slope triangles are different sizes."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-039",
+      "type": "multiple_choice",
+      "questionText": "A graph shows points (1, 9), (4, 3), and (7, -3) on one line. What is the rate of change?",
+      "options": [
+        "-2",
+        "2",
+        "-6",
+        "3"
+      ],
+      "correctAnswer": "-2",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "graphs",
+        "rate-of-change"
+      ],
+      "explanation": "Each time x increases by 3, y decreases by 6. The slope is -6/3 = -2."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-040",
+      "type": "multiple_choice",
+      "questionText": "Two similar signs have perimeters 18 inches and 45 inches. A side on the smaller sign is 7 inches. What is the matching side on the larger sign?",
+      "options": [
+        "14 inches",
+        "34 inches",
+        "17.5 inches",
+        "70 inches"
+      ],
+      "correctAnswer": "17.5 inches",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "similarity",
+        "perimeter-scale",
+        "missing-sides"
+      ],
+      "explanation": "Perimeters scale like side lengths. The scale factor is 45/18 = 2.5, so 7 * 2.5 = 17.5."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-041",
+      "type": "multiple_choice",
+      "questionText": "A point is dilated from the origin to (12, -8). The scale factor was 4. What was the original point?",
+      "options": [
+        "(48, -32)",
+        "(3, -2)",
+        "(8, -12)",
+        "(16, -4)"
+      ],
+      "correctAnswer": "(3, -2)",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "working-backward",
+        "coordinate-plane"
+      ],
+      "explanation": "Work backward by dividing both image coordinates by 4: (12/4, -8/4) = (3, -2)."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-042",
+      "type": "multiple_choice",
+      "questionText": "A line represents dollars earned over hours worked. Its slope is 18. What does that mean?",
+      "options": [
+        "The worker starts with $18.",
+        "The worker earns $18 total.",
+        "The graph goes right 18 for every 1 up.",
+        "The earnings increase by $18 for each hour worked."
+      ],
+      "correctAnswer": "The earnings increase by $18 for each hour worked.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "rate-of-change",
+        "interpretation"
+      ],
+      "explanation": "Slope is change in earnings divided by change in hours, so the unit rate is dollars per hour."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-043",
+      "type": "multiple_choice",
+      "questionText": "Triangle A has angles 43 degrees and 72 degrees. Triangle B has angles 65 degrees and 43 degrees. What connects this to side ratios?",
+      "options": [
+        "AA proves the triangles are congruent, so all side lengths are equal.",
+        "AA proves the triangles are similar, so corresponding side lengths are proportional.",
+        "The triangles are unrelated because no side lengths are shown.",
+        "Only the longest sides are proportional."
+      ],
+      "correctAnswer": "AA proves the triangles are similar, so corresponding side lengths are proportional.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "proportional-sides",
+        "reasoning"
+      ],
+      "explanation": "Triangle A's third angle is 65 degrees. Two angle pairs match, so similarity follows and corresponding sides are proportional."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-044",
+      "type": "multiple_choice",
+      "questionText": "A student uses points (2, 5) and (8, 17) and says the slope is 6/12. What correction is needed?",
+      "options": [
+        "The student switched run and rise; the slope is 12/6 = 2.",
+        "The student should add the coordinates instead.",
+        "The slope is correct because 6/12 simplifies to 1/2.",
+        "The line has no slope because neither point is the origin."
+      ],
+      "correctAnswer": "The student switched run and rise; the slope is 12/6 = 2.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "error-analysis",
+        "graphs"
+      ],
+      "explanation": "Rise is 17 - 5 = 12 and run is 8 - 2 = 6. Slope is rise/run."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-045",
+      "type": "multiple_choice",
+      "questionText": "Two figures have matching angles, and one side pair has scale factor 4. What must be checked before using that scale factor on every side?",
+      "options": [
+        "The figures must be congruent.",
+        "The scale factor must be added to every side.",
+        "The figures must be known to be similar with correct corresponding sides.",
+        "Only the largest side pair matters."
+      ],
+      "correctAnswer": "The figures must be known to be similar with correct corresponding sides.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "similarity",
+        "correspondence",
+        "reasoning"
+      ],
+      "explanation": "A scale factor applies to all corresponding side lengths only after the similarity and side correspondence are clear."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-046",
+      "type": "multiple_choice",
+      "questionText": "A bike moves from 4 miles to 19 miles during a 1.5 hour interval. What is the rate of change?",
+      "options": [
+        "15 miles per hour",
+        "12.7 miles per hour",
+        "23 miles per hour",
+        "10 miles per hour"
+      ],
+      "correctAnswer": "10 miles per hour",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "rate-of-change",
+        "decimal",
+        "context"
+      ],
+      "explanation": "The distance change is 15 miles. Divide by 1.5 hours to get 10 miles per hour."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-047",
+      "type": "multiple_choice",
+      "questionText": "A dilation has scale factor 2.5. Which statement must be true about a figure and its image?",
+      "options": [
+        "Corresponding angles are multiplied by 2.5.",
+        "Corresponding side lengths are multiplied by 2.5, and corresponding angles stay equal.",
+        "Only horizontal lengths are multiplied by 2.5.",
+        "The image is congruent to the original."
+      ],
+      "correctAnswer": "Corresponding side lengths are multiplied by 2.5, and corresponding angles stay equal.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "dilations",
+        "similarity",
+        "properties"
+      ],
+      "explanation": "Dilations preserve angle measures and multiply all lengths by the scale factor."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-048",
+      "type": "multiple_choice",
+      "questionText": "A line goes through (-2, 7) and (4, -5). Which slope triangle correctly represents the line from left to right?",
+      "options": [
+        "rise -12 and run 6",
+        "rise 12 and run 6",
+        "rise 6 and run -12",
+        "rise -5 and run 7"
+      ],
+      "correctAnswer": "rise -12 and run 6",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "negative-slope",
+        "graphs"
+      ],
+      "explanation": "From x = -2 to x = 4, run is 6. y changes from 7 to -5, so rise is -12."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-049",
+      "type": "multiple_choice",
+      "questionText": "A triangle pair has angles 30, 60, 90 and 45, 45, 90. Why is one matching right angle not enough?",
+      "options": [
+        "Right triangles can never be similar.",
+        "One matching angle proves congruence instead.",
+        "The triangles are similar because all right triangles are similar.",
+        "Many non-similar right triangles share a 90 degree angle; AA needs a second matching angle pair."
+      ],
+      "correctAnswer": "Many non-similar right triangles share a 90 degree angle; AA needs a second matching angle pair.",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "angle-angle-similarity",
+        "misconception",
+        "proof"
+      ],
+      "explanation": "One angle pair is not enough. These triangles have different acute angles, so AA similarity is not proven."
+    },
+    {
+      "id": "course3-unit2-dilations-similarity-slope-mixed-review-core-050",
+      "type": "multiple_choice",
+      "questionText": "A graph's slope is -3/4. Which movement matches that slope?",
+      "options": [
+        "up 3 and right 4",
+        "down 4 and right 3",
+        "down 3 and right 4",
+        "right 3 and down 4"
+      ],
+      "correctAnswer": "down 3 and right 4",
+      "difficulty": "challenge",
+      "answerType": "text",
+      "skillTags": [
+        "slope",
+        "rise-run",
+        "interpretation"
+      ],
+      "explanation": "A negative slope means the line falls from left to right. Rise/run = -3/4 means down 3, right 4."
+    }
+  ]
+}
