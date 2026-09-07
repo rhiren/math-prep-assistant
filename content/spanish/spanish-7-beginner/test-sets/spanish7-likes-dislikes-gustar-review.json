@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-likes-dislikes-gustar-review",
+  "testId": "spanish7-likes-dislikes-gustar-review",
+  "conceptId": "concept-spanish-likes-dislikes-gustar",
+  "title": "Likes and Dislikes with Gustar Review",
+  "description": "Short review for preference phrases with gustar.",
+  "questions": [
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q01",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"I like\"?",
+      "options": ["me gusta", "te gusta", "le gusta", "no me gusta"],
+      "correctAnswer": "me gusta",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Me gusta\" means I like."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q02",
+      "type": "multiple_choice",
+      "questionText": "Which phrase asks \"Do you like...?\"",
+      "options": ["¿Te gusta...?", "Me gusta...", "No le gusta...", "Le gustan..."],
+      "correctAnswer": "¿Te gusta...?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"¿Te gusta...?\" asks do you like."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"I like science\"?",
+      "options": ["Me gusta la ciencia.", "No me gusta la ciencia.", "Le gusta la ciencia.", "¿Te gusta la ciencia?"],
+      "correctAnswer": "Me gusta la ciencia.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Me gusta la ciencia\" means I like science."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which sentence uses \"gustan\" correctly?",
+      "options": ["Me gustan los deportes.", "Me gustan el lago.", "Me gustan la música.", "Me gustan el arte."],
+      "correctAnswer": "Me gustan los deportes.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "\"Los deportes\" is plural, so \"gustan\" fits."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q05",
+      "type": "multiple_choice",
+      "questionText": "What does \"No me gusta la historia\" mean?",
+      "options": ["I do not like history.", "I like history.", "History likes me.", "Do you like history?"],
+      "correctAnswer": "I do not like history.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"No me gusta\" means I do not like."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q06",
+      "type": "multiple_choice",
+      "questionText": "What does \"A Deetya le gusta el lago\" mean?",
+      "options": ["Deetya likes the lake.", "Deetya has the lake.", "Deetya is from the lake.", "Deetya says lake."],
+      "correctAnswer": "Deetya likes the lake.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "\"A Deetya le gusta...\" means Deetya likes."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q07",
+      "type": "multiple_choice",
+      "questionText": "Which word means \"the fish\"?",
+      "options": ["los peces", "el agua", "el lago", "la música"],
+      "correctAnswer": "los peces",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Los peces\" means the fish."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-review-q08",
+      "type": "multiple_choice",
+      "questionText": "Which answer fits \"¿Te gusta la música?\"",
+      "options": ["Sí, me gusta la música.", "Tengo música.", "Soy de música.", "Hasta luego música."],
+      "correctAnswer": "Sí, me gusta la música.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "The question asks whether you like music, so answering with \"me gusta\" fits."
+    }
+  ]
+}

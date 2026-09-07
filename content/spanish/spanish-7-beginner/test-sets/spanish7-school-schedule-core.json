@@ -1,0 +1,141 @@
+{
+  "id": "spanish7-school-schedule-core",
+  "testId": "spanish7-school-schedule-core",
+  "conceptId": "concept-spanish-school-schedule",
+  "title": "School Subjects and Schedules Core Test",
+  "description": "Core practice for school subject vocabulary and simple schedule sentences.",
+  "questions": [
+    {
+      "id": "spanish7-school-schedule-core-q01",
+      "type": "multiple_choice",
+      "questionText": "What does \"el español\" mean?",
+      "options": ["Spanish", "English", "history", "art"],
+      "correctAnswer": "Spanish",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"El español\" means Spanish."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish class name means \"math\"?",
+      "options": ["la ciencia", "las matemáticas", "la historia", "la música"],
+      "correctAnswer": "las matemáticas",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Las matemáticas\" means math."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q03",
+      "type": "multiple_choice",
+      "questionText": "What does \"la educación física\" mean?",
+      "options": ["physical education", "science", "technology", "lunch"],
+      "correctAnswer": "physical education",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"La educación física\" means physical education."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which word means \"schedule\"?",
+      "options": ["el horario", "la clase", "el arte", "el inglés"],
+      "correctAnswer": "el horario",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"El horario\" means schedule."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q05",
+      "type": "multiple_choice",
+      "questionText": "What does \"¿Qué clase tienes?\" mean?",
+      "options": ["What class do you have?", "How old are you?", "Where are you from?", "Do you like class?"],
+      "correctAnswer": "What class do you have?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "application"],
+      "explanation": "\"¿Qué clase tienes?\" asks what class someone has."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"I have Spanish\"?",
+      "options": ["Tengo español.", "Soy español.", "Me llamo español.", "Hay español."],
+      "correctAnswer": "Tengo español.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Tengo español\" means I have Spanish."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q07",
+      "type": "multiple_choice",
+      "questionText": "What does \"Tengo matemáticas a las nueve\" mean?",
+      "options": ["I have math at nine.", "I like math at nine.", "Math is my ninth class.", "I am from math class."],
+      "correctAnswer": "I have math at nine.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "\"Tengo\" means I have, and \"a las nueve\" means at nine."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q08",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"My favorite class is science\"?",
+      "options": ["Mi clase favorita es ciencia.", "Tengo ciencia a las nueve.", "La ciencia empieza.", "Después tengo ciencia."],
+      "correctAnswer": "Mi clase favorita es ciencia.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Mi clase favorita es ciencia\" means my favorite class is science."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q09",
+      "type": "multiple_choice",
+      "questionText": "What does \"Primero tengo inglés\" mean?",
+      "options": ["First I have English.", "Afterward I have English.", "My favorite class is English.", "English starts at one."],
+      "correctAnswer": "First I have English.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "application"],
+      "explanation": "\"Primero\" means first."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q10",
+      "type": "multiple_choice",
+      "questionText": "What does \"Después tengo historia\" mean?",
+      "options": ["First I have history.", "Afterward I have history.", "History is my favorite.", "I do not have history."],
+      "correctAnswer": "Afterward I have history.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "application"],
+      "explanation": "\"Después\" means afterward."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q11",
+      "type": "multiple_choice",
+      "questionText": "A classmate asks, \"¿Qué clase tienes?\" Which response fits best?",
+      "options": ["Tengo música.", "Tengo trece años.", "Soy de California.", "Mucho gusto."],
+      "correctAnswer": "Tengo música.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "The question asks what class you have, so an answer with \"Tengo\" plus a class fits."
+    },
+    {
+      "id": "spanish7-school-schedule-core-q12",
+      "type": "multiple_choice",
+      "questionText": "Which schedule order makes sense for \"first\" and \"afterward\"?",
+      "options": ["Primero tengo español. Después tengo arte.", "Después tengo español. Primero tengo arte.", "Tengo trece años. Después soy de aquí.", "Me gusta español. Primero hasta luego."],
+      "correctAnswer": "Primero tengo español. Después tengo arte.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "\"Primero\" sets the first class, and \"después\" tells what comes afterward."
+    }
+  ]
+}

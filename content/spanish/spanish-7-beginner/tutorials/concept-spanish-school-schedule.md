@@ -24,6 +24,10 @@ Common school subjects:
 | la educación física | physical education |
 | el arte | art |
 | la música | music |
+| la tecnología | technology |
+| el almuerzo | lunch |
+| la clase | class |
+| el horario | schedule |
 
 Useful schedule phrases:
 
@@ -31,6 +35,9 @@ Useful schedule phrases:
 - Mi clase favorita es ciencia. = My favorite class is science.
 - ¿Qué clase tienes? = What class do you have?
 - Tengo matemáticas a las nueve. = I have math at nine.
+- Primero tengo inglés. = First I have English.
+- Después tengo historia. = Afterward I have history.
+- La clase empieza a las ocho. = Class starts at eight.
 
 ## Build The Model
 
@@ -42,11 +49,21 @@ Example:
 
 `Tengo historia a las diez.`
 
+Build an order sentence like this:
+
+`Primero / Después -> tengo -> class`
+
+Example:
+
+`Primero tengo español. Después tengo arte.`
+
 ## Memory Anchors
 
 - **Tengo** can mean I have.
 - **¿Qué clase tienes?** asks what class you have.
 - **a las** introduces the time for many class schedules.
+- **Primero** means first.
+- **Después** means afterward.
 
 ## Common Traps
 
@@ -62,6 +79,7 @@ Example:
 - How do you say "I have Spanish"?
 - What phrase asks "What class do you have?"
 - How would you say you have math at nine?
+- Which word means schedule?
 
 ## Apply It
 
@@ -70,6 +88,8 @@ Write three class sentences:
 - Tengo ____.
 - Tengo ____ a las ____.
 - Mi clase favorita es ____.
+- Primero tengo ____.
+- Después tengo ____.
 
 ## 3-2-1 Memory Check
 
