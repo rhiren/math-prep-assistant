@@ -1,0 +1,64 @@
+{
+  "id": "spanish7-adjectives-agreement-review",
+  "testId": "spanish7-adjectives-agreement-review",
+  "conceptId": "concept-spanish-adjectives-agreement",
+  "title": "Adjectives and Agreement Review",
+  "description": "Short review for matching adjectives to nouns.",
+  "questions": [
+    {
+      "id": "spanish7-adjectives-agreement-review-q01",
+      "type": "multiple_choice",
+      "questionText": "Choose the matching adjective: el chico ____.",
+      "options": ["alto", "alta", "altas", "inteligentes"],
+      "correctAnswer": "alto",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"El chico\" is masculine singular, so use \"alto.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-review-q02",
+      "type": "multiple_choice",
+      "questionText": "Choose the matching adjective: las chicas ____.",
+      "options": ["alto", "alta", "altos", "altas"],
+      "correctAnswer": "altas",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Las chicas\" is feminine plural, so use \"altas.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which adjective can describe either a boy or a girl without changing for gender?",
+      "options": ["inteligente", "alto", "alta", "altas"],
+      "correctAnswer": "inteligente",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "Many adjectives ending in -e, like \"inteligente,\" do not change for gender."
+    },
+    {
+      "id": "spanish7-adjectives-agreement-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which pair is matched correctly?",
+      "options": ["chicos altos = tall boys", "chicos altas = tall boys", "chica alto = tall girl", "chicas alto = tall girls"],
+      "correctAnswer": "chicos altos = tall boys",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "\"Chicos altos\" is masculine plural."
+    },
+    {
+      "id": "spanish7-adjectives-agreement-review-q05",
+      "type": "multiple_choice",
+      "questionText": "Which strategy should you use before choosing an adjective ending?",
+      "options": ["Check the noun first.", "Ignore the noun.", "Always choose -o.", "Always choose -a."],
+      "correctAnswer": "Check the noun first.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "conceptual"],
+      "explanation": "The noun tells you the gender and number signals."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-present-tense-regular-verbs-core",
+  "testId": "spanish7-present-tense-regular-verbs-core",
+  "conceptId": "concept-spanish-present-tense-regular-verbs",
+  "title": "Present Tense Regular Verbs Core Test",
+  "description": "Core practice for regular -ar, -er, and -ir present-tense verbs.",
+  "questions": [
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q01",
+      "type": "multiple_choice",
+      "questionText": "What are the three common Spanish infinitive endings?",
+      "options": ["-ar, -er, -ir", "-a, -e, -i", "-o, -s, -n", "-yo, -tú, -él"],
+      "correctAnswer": "-ar, -er, -ir",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "conceptual"],
+      "explanation": "Spanish infinitives often end in -ar, -er, or -ir."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q02",
+      "type": "multiple_choice",
+      "questionText": "What is the stem of \"hablar\"?",
+      "options": ["habl-", "hablar-", "-ar", "lar"],
+      "correctAnswer": "habl-",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "Drop -ar from hablar to get the stem habl-."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q03",
+      "type": "multiple_choice",
+      "questionText": "Which form means \"I speak\"?",
+      "options": ["yo hablo", "tú hablas", "ella habla", "ellos hablan"],
+      "correctAnswer": "yo hablo",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Yo hablo\" means I speak."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which form means \"you eat\" with tú?",
+      "options": ["yo como", "tú comes", "ella come", "ustedes comen"],
+      "correctAnswer": "tú comes",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Tú comes\" means you eat."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q05",
+      "type": "multiple_choice",
+      "questionText": "Which form means \"we live\"?",
+      "options": ["yo vivo", "tú vives", "él vive", "nosotros vivimos"],
+      "correctAnswer": "nosotros vivimos",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Nosotros vivimos\" means we live."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Choose the correct form: yo + estudiar",
+      "options": ["yo estudio", "yo estudias", "yo estudia", "yo estudian"],
+      "correctAnswer": "yo estudio",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "The yo form of regular -ar verbs ends in -o."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Choose the correct form: ella + vivir",
+      "options": ["ella vivo", "ella vives", "ella vive", "ella vivimos"],
+      "correctAnswer": "ella vive",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "The él/ella/usted form of regular -ir verbs ends in -e."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-core-q08",
+      "type": "multiple_choice",
+      "questionText": "Which answer best describes how to conjugate a regular verb?",
+      "options": ["Drop the infinitive ending and add the subject ending.", "Keep the infinitive unchanged every time.", "Add English endings to Spanish verbs.", "Use ser for every action."],
+      "correctAnswer": "Drop the infinitive ending and add the subject ending.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["conceptual", "reasoning"],
+      "explanation": "Regular verbs follow the pattern: drop the ending, add the matching ending."
+    }
+  ]
+}

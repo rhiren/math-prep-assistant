@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-sounds-pronunciation-core",
+  "testId": "spanish7-sounds-pronunciation-core",
+  "conceptId": "concept-spanish-sounds-pronunciation",
+  "title": "Spanish Sounds and Pronunciation Core Test",
+  "description": "Core practice for Spanish vowels, syllables, stress, and accent marks.",
+  "questions": [
+    {
+      "id": "spanish7-sounds-pronunciation-core-q01",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish vowel is usually pronounced like \"ee\" in \"see\"?",
+      "options": ["a", "e", "i", "o"],
+      "correctAnswer": "i",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "The Spanish vowel i is usually pronounced like ee in see."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish vowel is usually pronounced like \"oo\" in \"food\"?",
+      "options": ["u", "a", "e", "i"],
+      "correctAnswer": "u",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "The Spanish vowel u is usually pronounced like oo in food."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-core-q03",
+      "type": "multiple_choice",
+      "questionText": "What do accent marks usually help show in Spanish?",
+      "options": ["where the stress goes", "where to add English letters", "that a word is plural", "that a word is a question"],
+      "correctAnswer": "where the stress goes",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "Accent marks often show which syllable is stressed."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which word has a written accent mark?",
+      "options": ["familia", "telefono", "teléfono", "amigo"],
+      "correctAnswer": "teléfono",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Teléfono\" has an accent mark over the first e."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-core-q05",
+      "type": "multiple_choice",
+      "questionText": "Which is the best beginner pronunciation habit?",
+      "options": ["Say Spanish vowels clearly and steadily.", "Change vowels the way English does.", "Skip accent marks.", "Try to speak fast before speaking clearly."],
+      "correctAnswer": "Say Spanish vowels clearly and steadily.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "conceptual"],
+      "explanation": "Clear, steady vowels are a strong Spanish pronunciation habit."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Which routine helps you read a new Spanish word aloud?",
+      "options": ["word -> vowel sounds -> syllables -> stress -> meaning", "meaning -> guess -> skip vowels -> speed", "English spelling -> English stress -> Spanish meaning", "plural ending -> question mark -> accent"],
+      "correctAnswer": "word -> vowel sounds -> syllables -> stress -> meaning",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "The tutorial gives this as the read-aloud routine."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Which statement is true about many Spanish letters and sounds?",
+      "options": ["They are usually more consistent than English.", "They change randomly in every word.", "They must be silent at the end of every word.", "They never use vowel sounds."],
+      "correctAnswer": "They are usually more consistent than English.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "Spanish pronunciation is often more consistent than English pronunciation."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-core-q08",
+      "type": "multiple_choice",
+      "questionText": "Why is speaking slowly useful when practicing Spanish pronunciation?",
+      "options": ["It helps you hear vowels and stress clearly.", "It makes accent marks unnecessary.", "It changes the meaning of every word.", "It removes syllables from words."],
+      "correctAnswer": "It helps you hear vowels and stress clearly.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "Slower practice helps beginners control clear sounds before adding speed."
+    }
+  ]
+}

@@ -43,7 +43,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -56,8 +56,30 @@
                 "ACTFL Comparisons"
               ],
               "order": 1,
+              "testQuestionCount": 13,
               "tutorial": "./content/tutorials/concept-spanish-sounds-pronunciation.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "spanish7-sounds-pronunciation-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-sounds-pronunciation-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-sounds-pronunciation-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-sounds-pronunciation-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             },
             {
               "id": "concept-spanish-classroom-phrases",
@@ -243,7 +265,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -256,8 +278,30 @@
                 "ACTFL Comparisons"
               ],
               "order": 1,
+              "testQuestionCount": 13,
               "tutorial": "./content/tutorials/concept-spanish-subject-pronouns-ser.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "spanish7-subject-pronouns-ser-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-subject-pronouns-ser-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-subject-pronouns-ser-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-subject-pronouns-ser-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             },
             {
               "id": "concept-spanish-adjectives-agreement",
@@ -278,7 +322,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -291,8 +335,30 @@
                 "ACTFL Comparisons"
               ],
               "order": 2,
+              "testQuestionCount": 13,
               "tutorial": "./content/tutorials/concept-spanish-adjectives-agreement.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "spanish7-adjectives-agreement-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-adjectives-agreement-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-adjectives-agreement-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-adjectives-agreement-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             },
             {
               "id": "concept-spanish-numbers-age-origin",
@@ -487,7 +553,7 @@
               ],
               "meta": {
                 "type": "core",
-                "assessable": false
+                "assessable": true
               },
               "instructionalGrades": [
                 "7"
@@ -500,8 +566,30 @@
                 "ACTFL Comparisons"
               ],
               "order": 3,
+              "testQuestionCount": 13,
               "tutorial": "./content/tutorials/concept-spanish-present-tense-regular-verbs.md",
-              "tests": []
+              "tests": [
+                {
+                  "id": "spanish7-present-tense-regular-verbs-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/spanish7-present-tense-regular-verbs-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "spanish7-present-tense-regular-verbs-review",
+                  "type": "review",
+                  "path": "./content/test-sets/spanish7-present-tense-regular-verbs-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
             }
           ]
         }

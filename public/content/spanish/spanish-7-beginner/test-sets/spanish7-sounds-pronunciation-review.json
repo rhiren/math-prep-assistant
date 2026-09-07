@@ -1,0 +1,64 @@
+{
+  "id": "spanish7-sounds-pronunciation-review",
+  "testId": "spanish7-sounds-pronunciation-review",
+  "conceptId": "concept-spanish-sounds-pronunciation",
+  "title": "Spanish Sounds and Pronunciation Review",
+  "description": "Short review for vowels, accent marks, and pronunciation habits.",
+  "questions": [
+    {
+      "id": "spanish7-sounds-pronunciation-review-q01",
+      "type": "multiple_choice",
+      "questionText": "Which vowel sounds like the a in \"father\"?",
+      "options": ["a", "e", "i", "u"],
+      "correctAnswer": "a",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "Spanish a is pronounced like the a in father."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-review-q02",
+      "type": "multiple_choice",
+      "questionText": "Accent marks are best understood as...",
+      "options": ["helpful pronunciation clues", "random decoration", "English punctuation", "plural markers"],
+      "correctAnswer": "helpful pronunciation clues",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "Accent marks help show pronunciation and stress."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which word is broken into syllables correctly?",
+      "options": ["a-mi-go", "am-ig-o", "ami-g-o", "a-mig-o"],
+      "correctAnswer": "a-mi-go",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Amigo\" can be broken into a-mi-go."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which choice is the strongest practice strategy?",
+      "options": ["Listen, repeat, and keep vowels steady.", "Ignore vowels.", "Only read silently forever.", "Speak as fast as possible."],
+      "correctAnswer": "Listen, repeat, and keep vowels steady.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "Pronunciation practice is listening plus speaking with clear vowel sounds."
+    },
+    {
+      "id": "spanish7-sounds-pronunciation-review-q05",
+      "type": "multiple_choice",
+      "questionText": "Which sentence matches the memory anchor?",
+      "options": ["Say what you see, then check the stress.", "Translate every letter into English.", "Stress never matters.", "Accent marks are only for names."],
+      "correctAnswer": "Say what you see, then check the stress.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "The memory anchor is: Say what you see, then check the stress."
+    }
+  ]
+}

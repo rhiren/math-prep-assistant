@@ -1,0 +1,64 @@
+{
+  "id": "spanish7-subject-pronouns-ser-review",
+  "testId": "spanish7-subject-pronouns-ser-review",
+  "conceptId": "concept-spanish-subject-pronouns-ser",
+  "title": "Subject Pronouns and Ser Review",
+  "description": "Short review for pronouns and ser forms.",
+  "questions": [
+    {
+      "id": "spanish7-subject-pronouns-ser-review-q01",
+      "type": "multiple_choice",
+      "questionText": "What does \"tú\" mean?",
+      "options": ["you, informal", "I", "he", "we"],
+      "correctAnswer": "you, informal",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Tú\" means you in an informal or familiar way."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-review-q02",
+      "type": "multiple_choice",
+      "questionText": "Which form means \"they are\"?",
+      "options": ["ellos son", "ellos somos", "ellos es", "ellos soy"],
+      "correctAnswer": "ellos son",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Ellos son\" means they are."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which sentence is correct?",
+      "options": ["Usted es profesor.", "Usted eres profesor.", "Usted soy profesor.", "Usted son profesor."],
+      "correctAnswer": "Usted es profesor.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Usted\" uses \"es.\""
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which pair is matched correctly?",
+      "options": ["yo soy = I am", "tú son = you are", "ella somos = she is", "nosotros es = we are"],
+      "correctAnswer": "yo soy = I am",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "\"Yo soy\" means I am."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-review-q05",
+      "type": "multiple_choice",
+      "questionText": "Which sentence best completes this pattern: subject -> ser form -> description?",
+      "options": ["Nosotras somos estudiantes.", "Nosotras estudiante somos.", "Somos nosotras estudiantes.", "Estudiantes nosotras."],
+      "correctAnswer": "Nosotras somos estudiantes.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "The sentence matches subject, ser form, and description."
+    }
+  ]
+}
