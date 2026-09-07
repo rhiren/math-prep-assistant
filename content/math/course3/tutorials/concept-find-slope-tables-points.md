@@ -2,35 +2,54 @@
 
 ## Big Idea
 
-Unit 3 connects rates, graphs, tables, and equations. A line's slope describes how fast y changes when x changes. For proportional relationships, the line goes through the origin and can be written as `y = mx`.
+Slope is the constant rate of change between two points on a line. From a table
+or from coordinate pairs, calculate slope by comparing how `y` changes to how
+`x` changes.
+
+Formula:
+
+`slope = change in y / change in x`
 
 ## What To Notice
 
-- Slope is `change in y / change in x`.
-- Positive slope rises from left to right; negative slope falls from left to right.
-- A proportional relationship has a graph through `(0, 0)`.
-- The same slope can appear in a graph, table, equation, or story.
-- Equivalent rise/run ratios describe the same steepness.
+- From points, subtract the y-values and x-values in the same order.
+- From tables, choose two rows and compare the changes.
+- A positive slope means `y` increases as `x` increases.
+- A negative slope means `y` decreases as `x` increases.
+- For a linear relationship, any two rows should give the same slope.
 
 ## Worked Example
 
-From (1, 5) to (4, 11), change in y is 6 and change in x is 3, so slope = 2.
+Find the slope from `(1, 5)` to `(4, 11)`.
 
-Any two rows on the same line should give the same slope.
+- change in `y`: `11 - 5 = 6`
+- change in `x`: `4 - 1 = 3`
+- slope: `6 / 3 = 2`
 
-## Strategy
+So the line changes by 2 units in `y` for every 1 unit in `x`.
 
-| Representation | How to find the rate or slope |
+## Table Example
+
+| x | y |
 | --- | --- |
-| Graph | choose two points and use rise/run |
-| Table | divide change in y by change in x |
-| Equation `y = mx` | read m as the slope |
-| Context | divide output change by input change |
+| 2 | 7 |
+| 5 | 16 |
+| 8 | 25 |
 
-## Common Mistake
+From the first row to the second, `x` increases by `3` and `y` increases by
+`9`, so the slope is `9 / 3 = 3`.
 
-Do not switch rise and run. Slope is vertical change divided by horizontal change: `change in y / change in x`.
+From the second row to the third, the slope is also `9 / 3 = 3`, confirming
+constant change.
+
+## Common Traps
+
+- Do not subtract the x-values in one order and the y-values in the opposite
+  order.
+- Do not use only one row from a table; slope needs a change between two rows.
+- Do not assume a table is linear until the rate of change stays consistent.
 
 ## Quick Self-Check
 
-Ask whether the answer makes sense in context. If x increases, should y increase, decrease, or stay the same?
+Say the slope in words: "For every 1 increase in `x`, `y` changes by ___." If
+that sentence does not match the table or points, recalculate.
