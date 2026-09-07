@@ -72,6 +72,10 @@ A diagram shows four forelimbs. Three share the same bone order even though one 
 
 A careful claim groups the first three by underlying structure, not just by what the limbs do.
 
+## Try At Home
+
+Compare your hand, a printed bird wing diagram, and a printed whale flipper diagram. Circle matching positions if you can find them, and write why function alone is not enough.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

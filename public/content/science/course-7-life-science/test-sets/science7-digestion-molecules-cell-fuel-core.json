@@ -1,0 +1,642 @@
+{
+  "id": "science7-digestion-molecules-cell-fuel-core",
+  "testId": "science7-digestion-molecules-cell-fuel-core",
+  "conceptId": "concept-digestion-molecules-cell-fuel",
+  "title": "Digestion, Molecules, and Cell Fuel Core Test",
+  "description": "Core practice for trace how digestive, circulatory, and cellular processes turn food into usable materials and energy access for cells.",
+  "questions": [
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What does digestion do to large food molecules?",
+      "questionText": "What does digestion do to large food molecules?",
+      "options": [
+        "breaks them into smaller molecules cells can use",
+        "turns them into fossils",
+        "keeps them whole forever",
+        "changes them into chromosomes"
+      ],
+      "correctAnswer": "breaks them into smaller molecules cells can use",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Digestion makes food materials usable."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q2",
+      "type": "multiple_choice",
+      "prompt": "Which sequence best traces food to cells?",
+      "questionText": "Which sequence best traces food to cells?",
+      "options": [
+        "cell -> fossil -> food label -> no transport",
+        "food -> whole sandwich in muscle",
+        "blood -> no molecules -> digestion",
+        "food -> digestion -> absorbed molecules -> blood transport -> cell use"
+      ],
+      "correctAnswer": "food -> digestion -> absorbed molecules -> blood transport -> cell use",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The model connects systems."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q3",
+      "type": "multiple_choice",
+      "prompt": "A cracker tastes sweeter after chewing. What is a reasonable explanation?",
+      "questionText": "A cracker tastes sweeter after chewing. What is a reasonable explanation?",
+      "options": [
+        "the cracker becomes a living cell",
+        "sweetness proves no digestion",
+        "starch begins breaking into smaller sugar molecules",
+        "teeth make DNA"
+      ],
+      "correctAnswer": "starch begins breaking into smaller sugar molecules",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Chemical digestion can begin in the mouth."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q4",
+      "type": "multiple_choice",
+      "prompt": "Which systems interact to deliver glucose to muscle cells?",
+      "questionText": "Which systems interact to deliver glucose to muscle cells?",
+      "options": [
+        "no systems",
+        "digestive and circulatory systems",
+        "only skeletal system",
+        "only skin"
+      ],
+      "correctAnswer": "digestive and circulatory systems",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Digestion absorbs; circulation transports."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says the stomach gives energy directly to muscles. What is best?",
+      "questionText": "A student says the stomach gives energy directly to muscles. What is best?",
+      "options": [
+        "Food molecules are broken down and transported before cells release usable energy.",
+        "The stomach sends whole food into muscles.",
+        "Muscles never use molecules.",
+        "Digestion is unrelated to cells."
+      ],
+      "correctAnswer": "Food molecules are broken down and transported before cells release usable energy.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Cells release usable energy from molecules."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q6",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would support digestion of starch?",
+      "questionText": "Which evidence would support digestion of starch?",
+      "options": [
+        "the plate is round",
+        "the food name is short",
+        "the napkin is white",
+        "a test shows starch decreases and smaller sugars increase over time"
+      ],
+      "correctAnswer": "a test shows starch decreases and smaller sugars increase over time",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "data-pattern"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Chemical evidence can show breakdown."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q7",
+      "type": "multiple_choice",
+      "prompt": "Why does blood matter in the model?",
+      "questionText": "Why does blood matter in the model?",
+      "options": [
+        "it stores fossils",
+        "it replaces digestion",
+        "it transports absorbed molecules to cells throughout the body",
+        "it chews food"
+      ],
+      "correctAnswer": "it transports absorbed molecules to cells throughout the body",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Blood connects organs to cells."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q8",
+      "type": "multiple_choice",
+      "prompt": "What do active muscle cells usually need more of?",
+      "questionText": "What do active muscle cells usually need more of?",
+      "options": [
+        "empty arrows",
+        "glucose and oxygen",
+        "rock layers",
+        "paper labels"
+      ],
+      "correctAnswer": "glucose and oxygen",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cellular respiration uses glucose and oxygen."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Which question pushes beyond recall?",
+      "questionText": "Which question pushes beyond recall?",
+      "options": [
+        "How would cell demand change during exercise and why?",
+        "How many letters are in glucose?",
+        "Is the diagram colorful?",
+        "Can pasta be spelled backward?"
+      ],
+      "correctAnswer": "How would cell demand change during exercise and why?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "It asks for transfer and cause/effect."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q10",
+      "type": "multiple_choice",
+      "prompt": "Which model has a missing step?",
+      "questionText": "Which model has a missing step?",
+      "options": [
+        "food -> digestion -> blood -> cell",
+        "starch -> glucose -> transport",
+        "oxygen plus glucose -> cellular respiration",
+        "food -> muscle cell, with no digestion or transport shown"
+      ],
+      "correctAnswer": "food -> muscle cell, with no digestion or transport shown",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "The missing steps are the explanation."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q11",
+      "type": "multiple_choice",
+      "prompt": "Food provides matter as well as energy-related molecules. Which evidence fits matter use?",
+      "questionText": "Food provides matter as well as energy-related molecules. Which evidence fits matter use?",
+      "options": [
+        "food has no atoms",
+        "cells use only labels",
+        "amino acids from food are used to build body proteins",
+        "matter disappears completely"
+      ],
+      "correctAnswer": "amino acids from food are used to build body proteins",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Food atoms can become body materials."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q12",
+      "type": "multiple_choice",
+      "prompt": "What is cellular respiration?",
+      "questionText": "What is cellular respiration?",
+      "options": [
+        "the same as chewing",
+        "a cell process that releases usable energy from molecules such as glucose",
+        "breathing air into a sandwich",
+        "a fossil process"
+      ],
+      "correctAnswer": "a cell process that releases usable energy from molecules such as glucose",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "Respiration is a cell-level chemical process."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q13",
+      "type": "multiple_choice",
+      "prompt": "A runner breathes faster after sprinting. How does that connect?",
+      "questionText": "A runner breathes faster after sprinting. How does that connect?",
+      "options": [
+        "muscle cells need more oxygen for cellular respiration",
+        "breathing makes fossils younger",
+        "oxygen is a food web arrow",
+        "muscles stop needing molecules"
+      ],
+      "correctAnswer": "muscle cells need more oxygen for cellular respiration",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Breathing supports oxygen delivery."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q14",
+      "type": "multiple_choice",
+      "prompt": "Which table would best test system interaction?",
+      "questionText": "Which table would best test system interaction?",
+      "options": [
+        "favorite food color only",
+        "shoe size after lunch",
+        "organ names with no process",
+        "food molecule, digestion product, blood transport, cell use"
+      ],
+      "correctAnswer": "food molecule, digestion product, blood transport, cell use",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "The table connects evidence across levels."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q15",
+      "type": "multiple_choice",
+      "prompt": "Why is saying 'food turns into energy' too simple?",
+      "questionText": "Why is saying 'food turns into energy' too simple?",
+      "options": [
+        "energy is a sandwich chunk",
+        "cells do not use chemistry",
+        "food molecules are matter, and cells transform energy during chemical reactions",
+        "food has no matter"
+      ],
+      "correctAnswer": "food molecules are matter, and cells transform energy during chemical reactions",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "The better explanation separates matter and energy."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q16",
+      "type": "multiple_choice",
+      "prompt": "Which scenario best shows transfer?",
+      "questionText": "Which scenario best shows transfer?",
+      "options": [
+        "drawing a plate with no labels",
+        "explaining how rice starch can become glucose delivered to cells",
+        "counting letters in rice",
+        "choosing a favorite snack"
+      ],
+      "correctAnswer": "explaining how rice starch can become glucose delivered to cells",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "It applies the model to a new food."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q17",
+      "type": "multiple_choice",
+      "prompt": "A diagram ends at absorbed glucose in blood. What should be added?",
+      "questionText": "A diagram ends at absorbed glucose in blood. What should be added?",
+      "options": [
+        "delivery to cells and use in cell processes",
+        "a fossil layer",
+        "a predator arrow only",
+        "a chromosome package"
+      ],
+      "correctAnswer": "delivery to cells and use in cell processes",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The concept continues to cells."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern supports higher cell demand during activity?",
+      "questionText": "Which data pattern supports higher cell demand during activity?",
+      "options": [
+        "labels are alphabetical",
+        "food names are longer",
+        "no measurements change",
+        "heart and breathing rates rise during exercise and recover after rest"
+      ],
+      "correctAnswer": "heart and breathing rates rise during exercise and recover after rest",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Body responses support increased delivery needs."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q19",
+      "type": "multiple_choice",
+      "prompt": "What is the role of oxygen in this model?",
+      "questionText": "What is the role of oxygen in this model?",
+      "options": [
+        "it makes food stay whole",
+        "it is a rock layer",
+        "it is used with glucose in cellular respiration",
+        "it stores all genes"
+      ],
+      "correctAnswer": "it is used with glucose in cellular respiration",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Oxygen is a reactant in respiration."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A student claims one body system works alone. Which evidence challenges it?",
+      "questionText": "A student claims one body system works alone. Which evidence challenges it?",
+      "options": [
+        "a diagram uses one color",
+        "digestion products appear in blood and are used by cells",
+        "one organ has a name",
+        "food sits on a plate"
+      ],
+      "correctAnswer": "digestion products appear in blood and are used by cells",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Evidence connects multiple systems."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q21",
+      "type": "multiple_choice",
+      "prompt": "If absorption in the small intestine decreases, what cell-level effect is possible?",
+      "questionText": "If absorption in the small intestine decreases, what cell-level effect is possible?",
+      "options": [
+        "fewer useful molecules reach cells",
+        "cells receive more fossils",
+        "all food bypasses digestion perfectly",
+        "oxygen turns into a chromosome"
+      ],
+      "correctAnswer": "fewer useful molecules reach cells",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Less absorption can reduce delivery."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q22",
+      "type": "multiple_choice",
+      "prompt": "Which explanation handles both matter and energy?",
+      "questionText": "Which explanation handles both matter and energy?",
+      "options": [
+        "Food is only a feeling of energy.",
+        "Matter is destroyed during chewing.",
+        "Cells never build materials.",
+        "Food molecules provide atoms for building and glucose for cells to release usable energy."
+      ],
+      "correctAnswer": "Food molecules provide atoms for building and glucose for cells to release usable energy.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This explains both roles."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Why is chewing part of the model?",
+      "questionText": "Why is chewing part of the model?",
+      "options": [
+        "it moves glucose through blood by itself",
+        "it creates rock layers",
+        "it increases breakdown and exposes food to digestive chemicals",
+        "it completes all cellular respiration"
+      ],
+      "correctAnswer": "it increases breakdown and exposes food to digestive chemicals",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Mechanical and chemical digestion can work together."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q24",
+      "type": "multiple_choice",
+      "prompt": "Which final summary is best?",
+      "questionText": "Which final summary is best?",
+      "options": [
+        "Cells do not need molecules.",
+        "Digestion, circulation, and cells interact so food molecules become useful materials and fuel for cell processes.",
+        "Food goes whole into muscles.",
+        "Only the stomach gives all energy."
+      ],
+      "correctAnswer": "Digestion, circulation, and cells interact so food molecules become useful materials and fuel for cell processes.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This connects systems and cells."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q25",
+      "type": "multiple_choice",
+      "prompt": "What investigation could extend the cracker observation?",
+      "questionText": "What investigation could extend the cracker observation?",
+      "options": [
+        "compare taste change over chewing time while keeping cracker type the same",
+        "change food, time, and observer all at once",
+        "measure only plate color",
+        "skip observations"
+      ],
+      "correctAnswer": "compare taste change over chewing time while keeping cracker type the same",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Controlling variables makes the observation more useful."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best avoids memorizing only vocabulary?",
+      "questionText": "Which explanation best avoids memorizing only vocabulary?",
+      "options": [
+        "It repeats the bold word only.",
+        "It ignores data.",
+        "It chooses the shortest answer.",
+        "It connects the model, evidence, and cause/effect relationship."
+      ],
+      "correctAnswer": "It connects the model, evidence, and cause/effect relationship.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Understanding means using the idea."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which type of evidence would make the claim stronger?",
+      "questionText": "Which type of evidence would make the claim stronger?",
+      "options": [
+        "a favorite opinion",
+        "a result with no measurement",
+        "repeated observations under controlled conditions",
+        "one unlabeled picture"
+      ],
+      "correctAnswer": "repeated observations under controlled conditions",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Repeated controlled observations strengthen claims."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q28",
+      "type": "multiple_choice",
+      "prompt": "What should a careful scientist avoid?",
+      "questionText": "What should a careful scientist avoid?",
+      "options": [
+        "comparing evidence",
+        "changing several variables and then claiming one cause with certainty",
+        "recording data",
+        "using a model"
+      ],
+      "correctAnswer": "changing several variables and then claiming one cause with certainty",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Fair tests protect conclusions."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which prompt asks for transfer?",
+      "questionText": "Which prompt asks for transfer?",
+      "options": [
+        "How would the model apply if the organism, material, or ecosystem changed?",
+        "What is the first letter of the topic?",
+        "Can the page be colored?",
+        "Is the title long?"
+      ],
+      "correctAnswer": "How would the model apply if the organism, material, or ecosystem changed?",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Transfer means applying the idea to new details."
+    },
+    {
+      "id": "science7-digestion-molecules-cell-fuel-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which final habit helps in science?",
+      "questionText": "Which final habit helps in science?",
+      "options": [
+        "choose first and ignore evidence",
+        "memorize labels only",
+        "avoid models",
+        "explain the evidence before choosing the claim"
+      ],
+      "correctAnswer": "explain the evidence before choosing the claim",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Claims should follow evidence."
+    }
+  ]
+}

@@ -76,6 +76,10 @@ A scientist finds a tiny pond organism. It is one cell, uses energy, responds to
 
 This is probably living because it has cellular evidence and carries out life processes. It does not need many cells to be alive.
 
+## Try At Home
+
+Use a phone camera or magnifying glass to compare a thin onion skin, a lettuce edge, and a strand of hair. Sketch what you can observe and label which evidence suggests something was once living. Do not taste samples, and wash hands after handling them.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

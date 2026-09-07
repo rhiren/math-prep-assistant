@@ -1,0 +1,328 @@
+{
+  "id": "science7-energy-pyramids-food-web-efficiency-review",
+  "testId": "science7-energy-pyramids-food-web-efficiency-review",
+  "conceptId": "concept-energy-pyramids-food-web-efficiency",
+  "title": "Energy Pyramids and Food Web Efficiency Review Test",
+  "description": "Spaced review for use energy pyramid and food-web models to explain why energy decreases at higher feeding levels.",
+  "questions": [
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q1",
+      "type": "multiple_choice",
+      "prompt": "Where are producers usually placed in an energy pyramid?",
+      "questionText": "Where are producers usually placed in an energy pyramid?",
+      "options": [
+        "at the base",
+        "at the top only",
+        "outside the ecosystem",
+        "wherever predators are"
+      ],
+      "correctAnswer": "at the base",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Producers capture energy that supports the system."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q2",
+      "type": "multiple_choice",
+      "prompt": "Which model is strongest?",
+      "questionText": "Which model is strongest?",
+      "options": [
+        "hawk -> no producers -> unlimited energy",
+        "grass -> fossil -> chromosome",
+        "frog -> sunlight disappears",
+        "grass -> grasshopper -> frog -> hawk, with less available energy each step"
+      ],
+      "correctAnswer": "grass -> grasshopper -> frog -> hawk, with less available energy each step",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The model shows transfer and decrease."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q3",
+      "type": "multiple_choice",
+      "prompt": "A student says all energy passes to the next level. What is the best correction?",
+      "questionText": "A student says all energy passes to the next level. What is the best correction?",
+      "options": [
+        "No energy ever moves.",
+        "Heat is stored as predators.",
+        "Only some energy becomes available to the next level; much is used or released as heat.",
+        "The student is correct."
+      ],
+      "correctAnswer": "Only some energy becomes available to the next level; much is used or released as heat.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Transfers are inefficient."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q4",
+      "type": "multiple_choice",
+      "prompt": "If algae decline in a pond, what may happen to fish later?",
+      "questionText": "If algae decline in a pond, what may happen to fish later?",
+      "options": [
+        "algae become mammals",
+        "less energy may be available to organisms above algae",
+        "fish gain unlimited energy",
+        "the food web no longer has arrows"
+      ],
+      "correctAnswer": "less energy may be available to organisms above algae",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Shrinking the base can affect higher levels."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q5",
+      "type": "multiple_choice",
+      "prompt": "Which question tests deeper understanding?",
+      "questionText": "Which question tests deeper understanding?",
+      "options": [
+        "Why can a field support many plants but only a few top predators?",
+        "How many letters are in hawk?",
+        "Is the pyramid green?",
+        "Which animal is cutest?"
+      ],
+      "correctAnswer": "Why can a field support many plants but only a few top predators?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "It asks for energy-transfer reasoning."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q6",
+      "type": "multiple_choice",
+      "prompt": "Which data would best compare feeding levels?",
+      "questionText": "Which data would best compare feeding levels?",
+      "options": [
+        "organism name length",
+        "paper size",
+        "student preference",
+        "estimated energy or biomass at each level"
+      ],
+      "correctAnswer": "estimated energy or biomass at each level",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "standard",
+      "explanation": "Energy and biomass data support pyramid claims."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q7",
+      "type": "multiple_choice",
+      "prompt": "What does the 'missing' energy mostly become?",
+      "questionText": "What does the 'missing' energy mostly become?",
+      "options": [
+        "rock layers",
+        "empty space with no explanation",
+        "heat released during life processes",
+        "new chromosomes only"
+      ],
+      "correctAnswer": "heat released during life processes",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "Energy is transformed and released as heat."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q8",
+      "type": "multiple_choice",
+      "prompt": "A deer eats grass, and a wolf eats deer. Which level receives less energy from the original producers?",
+      "questionText": "A deer eats grass, and a wolf eats deer. Which level receives less energy from the original producers?",
+      "options": [
+        "soil minerals as energy",
+        "wolf",
+        "grass",
+        "sunlight before producers"
+      ],
+      "correctAnswer": "wolf",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Energy decreases up the chain."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q9",
+      "type": "multiple_choice",
+      "prompt": "If producer biomass doubles, what should scientists avoid assuming?",
+      "questionText": "If producer biomass doubles, what should scientists avoid assuming?",
+      "options": [
+        "that every consumer level will instantly double too",
+        "that producers matter",
+        "that energy enters food webs",
+        "that consumers need food"
+      ],
+      "correctAnswer": "that every consumer level will instantly double too",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "Responses can be delayed and limited by other factors."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q10",
+      "type": "multiple_choice",
+      "prompt": "Why is an energy pyramid different from a food web?",
+      "questionText": "Why is an energy pyramid different from a food web?",
+      "options": [
+        "they are always identical",
+        "food webs show no relationships",
+        "pyramids show gene locations",
+        "a pyramid emphasizes energy amount by level; a food web emphasizes feeding connections"
+      ],
+      "correctAnswer": "a pyramid emphasizes energy amount by level; a food web emphasizes feeding connections",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Different models answer different questions."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q11",
+      "type": "multiple_choice",
+      "prompt": "Which evidence would weaken a simple energy-only explanation?",
+      "questionText": "Which evidence would weaken a simple energy-only explanation?",
+      "options": [
+        "higher levels had lower biomass",
+        "heat loss was included",
+        "consumer decline happened while producer biomass stayed high and disease evidence increased",
+        "producer decline happened first"
+      ],
+      "correctAnswer": "consumer decline happened while producer biomass stayed high and disease evidence increased",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Other causes can explain population change."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q12",
+      "type": "multiple_choice",
+      "prompt": "Which final explanation is strongest?",
+      "questionText": "Which final explanation is strongest?",
+      "options": [
+        "Consumers create producers.",
+        "Energy enters through producers and becomes less available at each feeding transfer, shaping pyramid patterns.",
+        "Top predators get the most energy from sunlight directly.",
+        "All energy cycles like matter."
+      ],
+      "correctAnswer": "Energy enters through producers and becomes less available at each feeding transfer, shaping pyramid patterns.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This summarizes energy flow and availability."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q13",
+      "type": "multiple_choice",
+      "prompt": "Which investigation question is best?",
+      "questionText": "Which investigation question is best?",
+      "options": [
+        "How does changing producer amount affect predicted energy at higher levels?",
+        "What is the prettiest pyramid?",
+        "Can we skip producers?",
+        "How long is the word energy?"
+      ],
+      "correctAnswer": "How does changing producer amount affect predicted energy at higher levels?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "It tests the pyramid model."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q14",
+      "type": "multiple_choice",
+      "prompt": "Which strategy helps remember the concept?",
+      "questionText": "Which strategy helps remember the concept?",
+      "options": [
+        "repeat only the title",
+        "skip the model",
+        "ignore the scenario",
+        "say the memory anchor, then explain one evidence example"
+      ],
+      "correctAnswer": "say the memory anchor, then explain one evidence example",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Retrieval plus evidence supports retention."
+    },
+    {
+      "id": "science7-energy-pyramids-food-web-efficiency-review-q15",
+      "type": "multiple_choice",
+      "prompt": "Which answer style is strongest?",
+      "questionText": "Which answer style is strongest?",
+      "options": [
+        "a vocabulary word alone",
+        "the shortest option",
+        "a claim supported by a model and data pattern",
+        "a guess without evidence"
+      ],
+      "correctAnswer": "a claim supported by a model and data pattern",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Strong answers connect claim, model, and evidence."
+    }
+  ]
+}

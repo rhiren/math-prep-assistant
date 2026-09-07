@@ -71,6 +71,10 @@ Answer these without looking back:
 
 A school notices fewer native bees near campus. Students propose replacing part of a lawn with native flowers. A strong test compares bee counts before and after, while also considering cost, water use, and maintenance.
 
+## Try At Home
+
+Design a tiny pollinator-help plan for a balcony, yard, or school edge. Score two options by evidence, cost, water use, maintenance, and possible habitat benefit.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

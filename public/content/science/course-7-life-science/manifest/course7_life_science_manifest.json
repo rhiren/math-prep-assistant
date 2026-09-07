@@ -140,6 +140,65 @@
                 }
               ],
               "testQuestionCount": 30
+            },
+            {
+              "id": "concept-cell-membrane-materials-movement",
+              "title": "Cell Membrane and Materials Movement",
+              "description": "Model how cell membranes help cells exchange materials while maintaining workable internal conditions.",
+              "tags": [
+                "science",
+                "life-science",
+                "cells",
+                "cell-membrane",
+                "materials",
+                "homeostasis",
+                "models",
+                "MS-LS1-2"
+              ],
+              "skillTags": [
+                "conceptual",
+                "visual",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 3,
+              "tutorial": "./content/tutorials/concept-cell-membrane-materials-movement.md",
+              "tests": [
+                {
+                  "id": "science7-cell-membrane-materials-movement-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-cell-membrane-materials-movement-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-cell-membrane-materials-movement-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-cell-membrane-materials-movement-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
@@ -256,6 +315,65 @@
                   "id": "science7-homeostasis-feedback-body-systems-review",
                   "type": "review",
                   "path": "./content/test-sets/science7-homeostasis-feedback-body-systems-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
+              "id": "concept-digestion-molecules-cell-fuel",
+              "title": "Digestion, Molecules, and Cell Fuel",
+              "description": "Trace how digestive, circulatory, and cellular processes turn food into usable materials and energy access for cells.",
+              "tags": [
+                "science",
+                "life-science",
+                "body-systems",
+                "digestion",
+                "molecules",
+                "cellular-respiration",
+                "MS-LS1-3",
+                "MS-LS1-7"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning",
+                "visual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 3,
+              "tutorial": "./content/tutorials/concept-digestion-molecules-cell-fuel.md",
+              "tests": [
+                {
+                  "id": "science7-digestion-molecules-cell-fuel-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-digestion-molecules-cell-fuel-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-digestion-molecules-cell-fuel-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-digestion-molecules-cell-fuel-review.json",
                   "difficultyProfile": {
                     "scaffold": true,
                     "standard": true,
@@ -521,6 +639,125 @@
                 }
               ],
               "testQuestionCount": 30
+            },
+            {
+              "id": "concept-energy-pyramids-food-web-efficiency",
+              "title": "Energy Pyramids and Food Web Efficiency",
+              "description": "Use energy pyramid and food-web models to explain why energy decreases at higher feeding levels.",
+              "tags": [
+                "science",
+                "life-science",
+                "ecosystems",
+                "energy-pyramids",
+                "food-webs",
+                "matter-energy",
+                "models",
+                "MS-LS2-3"
+              ],
+              "skillTags": [
+                "conceptual",
+                "visual",
+                "application",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 3,
+              "tutorial": "./content/tutorials/concept-energy-pyramids-food-web-efficiency.md",
+              "tests": [
+                {
+                  "id": "science7-energy-pyramids-food-web-efficiency-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-energy-pyramids-food-web-efficiency-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-energy-pyramids-food-web-efficiency-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-energy-pyramids-food-web-efficiency-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
+            },
+            {
+              "id": "concept-limiting-factors-carrying-capacity",
+              "title": "Limiting Factors and Carrying Capacity",
+              "description": "Interpret population data to explain how resources and limiting factors affect carrying capacity.",
+              "tags": [
+                "science",
+                "life-science",
+                "ecosystems",
+                "populations",
+                "limiting-factors",
+                "carrying-capacity",
+                "data",
+                "MS-LS2-1",
+                "MS-LS2-2"
+              ],
+              "skillTags": [
+                "conceptual",
+                "application",
+                "reasoning",
+                "visual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "7"
+              ],
+              "programPathways": [
+                "SRVUSD"
+              ],
+              "standardsFrameworks": [
+                "CA NGSS"
+              ],
+              "order": 4,
+              "tutorial": "./content/tutorials/concept-limiting-factors-carrying-capacity.md",
+              "tests": [
+                {
+                  "id": "science7-limiting-factors-carrying-capacity-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/science7-limiting-factors-carrying-capacity-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "science7-limiting-factors-carrying-capacity-review",
+                  "type": "review",
+                  "path": "./content/test-sets/science7-limiting-factors-carrying-capacity-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                }
+              ],
+              "testQuestionCount": 30
             }
           ]
         },
@@ -653,7 +890,7 @@
         {
           "id": "unit-evolution-life-history",
           "title": "Evolution and Earth/Life History",
-              "description": "Use evidence from fossils, anatomy, DNA, and populations to reason about evolution.",
+          "description": "Use evidence from fossils, anatomy, DNA, and populations to reason about evolution.",
           "order": 6,
           "concepts": [
             {

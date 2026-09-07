@@ -39,7 +39,8 @@ Each Grade 7 Science tutorial should use a retention-focused learning loop:
 7. Common traps and misconception fixes
 8. Pause-and-think retrieval prompts
 9. Apply-it scenario
-10. 3-2-1 memory check
+10. optional safe at-home investigation
+11. 3-2-1 memory check
 
 Keep tutorials concept-specific. Do not clone a generic tutorial body across
 concepts with only the heading changed.
@@ -61,6 +62,7 @@ Each tutorial should include these learner-facing sections:
 - `## Common Traps`
 - `## Pause And Think`
 - `## Apply It`
+- `## Try At Home` when a safe, low-material investigation fits
 - `## 3-2-1 Memory Check`
 
 Use the same rhythm across concepts so the learner recognizes the pattern:
@@ -143,12 +145,16 @@ Target mix for a full review test:
 |---|---|---:|---:|---:|---:|---|
 | Cells and Living Systems | Cells and Living Things | yes | yes | yes | yes | Practice ready |
 | Cells and Living Systems | Cell Specialization and Microscopy Evidence | yes | yes | yes | yes | Practice ready |
+| Cells and Living Systems | Cell Membrane and Materials Movement | yes | yes | yes | yes | Practice ready |
 | Body Systems and Information Processing | Body Systems and Information Processing | yes | yes | yes | yes | Practice ready |
 | Body Systems and Information Processing | Homeostasis and Feedback in Body Systems | yes | yes | yes | yes | Practice ready |
+| Body Systems and Information Processing | Digestion, Molecules, and Cell Fuel | yes | yes | yes | yes | Practice ready |
 | Growth and Energy Flow | Growth, Photosynthesis, and Cellular Respiration | yes | yes | yes | yes | Practice ready |
 | Growth and Energy Flow | Matter and Energy Transfer in Organisms | yes | yes | yes | yes | Practice ready |
 | Ecosystems | Ecosystem Interactions and Dynamics | yes | yes | yes | yes | Practice ready |
 | Ecosystems | Population Data and Ecosystem Stability | yes | yes | yes | yes | Practice ready |
+| Ecosystems | Energy Pyramids and Food Web Efficiency | yes | yes | yes | yes | Practice ready |
+| Ecosystems | Limiting Factors and Carrying Capacity | yes | yes | yes | yes | Practice ready |
 | Genetics and Inheritance | Genetics, Inheritance, and Variation | yes | yes | yes | yes | Practice ready |
 | Genetics and Inheritance | DNA, Genes, Chromosomes, and Traits | yes | yes | yes | yes | Practice ready |
 | Evolution and Earth/Life History | Evolution Evidence and Life History | yes | yes | yes | yes | Practice ready |

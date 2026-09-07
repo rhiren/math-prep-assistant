@@ -74,6 +74,10 @@ A student runs across a field. Her breathing speeds up, her heart beats faster, 
 
 This shows system interaction: respiratory brings in oxygen, circulatory moves oxygen and food molecules, and muscles use energy to move.
 
+## Try At Home
+
+Measure resting pulse for 15 seconds, then step in place for one minute and measure again. Record how pulse changes after 0, 1, and 3 minutes of rest. Stop if dizzy or uncomfortable.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

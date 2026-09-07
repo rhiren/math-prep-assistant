@@ -73,6 +73,10 @@ A wetland is losing frogs after nearby runoff increases algae growth and lowers 
 
 A strong solution should target runoff or water quality, not just move frogs away without fixing the cause.
 
+## Try At Home
+
+Choose a window view, yard, or sidewalk strip and list as many different living things or living-thing clues as you can. Repeat on another day and compare variety, not just total count.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

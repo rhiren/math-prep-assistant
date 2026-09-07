@@ -62,6 +62,10 @@ Answer these without looking back:
 
 If body temperature rises, sweating and changes in blood flow can help cool the body. A strong model shows the stimulus, detection, response, and movement back toward balance.
 
+## Try At Home
+
+Hold an ice-cold cup wrapped in a towel for 20 seconds, then notice what your hand senses after you let go. Write the pathway: stimulus, receptor, signal, response. Keep the cold brief and comfortable.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

@@ -62,6 +62,10 @@ Answer these without looking back:
 
 If algae increase after nutrient runoff and fish later decrease, a strong explanation checks oxygen data, algae data, fish counts, and the timing of each change before claiming a cause.
 
+## Try At Home
+
+Count one repeated outdoor sign of life, such as weeds in sidewalk cracks or insects visiting flowers, in two equal-size areas. Compare the counts and list possible resource differences.
+
 ## 3-2-1 Memory Check
 
 3 things to remember:

@@ -1,0 +1,642 @@
+{
+  "id": "science7-cell-membrane-materials-movement-core",
+  "testId": "science7-cell-membrane-materials-movement-core",
+  "conceptId": "concept-cell-membrane-materials-movement",
+  "title": "Cell Membrane and Materials Movement Core Test",
+  "description": "Core practice for model how cell membranes help cells exchange materials while maintaining workable internal conditions.",
+  "questions": [
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q1",
+      "type": "multiple_choice",
+      "prompt": "What is one main role of the cell membrane?",
+      "questionText": "What is one main role of the cell membrane?",
+      "options": [
+        "to help control what moves into and out of a cell",
+        "to make the cell invisible",
+        "to turn water into DNA",
+        "to stop every material forever"
+      ],
+      "correctAnswer": "to help control what moves into and out of a cell",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The membrane is a selective boundary."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q2",
+      "type": "multiple_choice",
+      "prompt": "A potato slice loses mass in salty water. Which explanation best fits?",
+      "questionText": "A potato slice loses mass in salty water. Which explanation best fits?",
+      "options": [
+        "The potato chose to shrink.",
+        "Salt made new cells instantly.",
+        "Water turned into starch.",
+        "Water moved out of cells because the outside was saltier."
+      ],
+      "correctAnswer": "Water moved out of cells because the outside was saltier.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence",
+        "cause-effect"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The outside condition can drive water movement."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q3",
+      "type": "multiple_choice",
+      "prompt": "Which model is strongest?",
+      "questionText": "Which model is strongest?",
+      "options": [
+        "membrane -> blocks everything -> no exchange",
+        "salt -> DNA -> fossil",
+        "outside condition -> concentration difference -> membrane movement -> cell effect",
+        "cell color -> favorite food -> no data"
+      ],
+      "correctAnswer": "outside condition -> concentration difference -> membrane movement -> cell effect",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "The chain connects cause and cell effect."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q4",
+      "type": "multiple_choice",
+      "prompt": "What does diffusion describe?",
+      "questionText": "What does diffusion describe?",
+      "options": [
+        "all water stopping",
+        "particles spreading from more crowded to less crowded areas",
+        "particles making choices",
+        "cells becoming fossils"
+      ],
+      "correctAnswer": "particles spreading from more crowded to less crowded areas",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Diffusion follows concentration patterns."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q5",
+      "type": "multiple_choice",
+      "prompt": "A student says the membrane blocks all materials. What is the best correction?",
+      "questionText": "A student says the membrane blocks all materials. What is the best correction?",
+      "options": [
+        "Cells exchange materials through controlled movement across the membrane.",
+        "The student is fully correct.",
+        "Cells need no materials.",
+        "Membranes are only decorations."
+      ],
+      "correctAnswer": "Cells exchange materials through controlled movement across the membrane.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "Cells must take in and release materials."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q6",
+      "type": "multiple_choice",
+      "prompt": "Which evidence best supports water movement?",
+      "questionText": "Which evidence best supports water movement?",
+      "options": [
+        "the plate color is different",
+        "one slice has a longer name",
+        "the room has a window",
+        "same-size cucumber slices have different mass after salt and plain-water treatments"
+      ],
+      "correctAnswer": "same-size cucumber slices have different mass after salt and plain-water treatments",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "scaffold",
+      "explanation": "A controlled before-and-after comparison is evidence."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q7",
+      "type": "multiple_choice",
+      "prompt": "Why should the cucumber slices be the same size?",
+      "questionText": "Why should the cucumber slices be the same size?",
+      "options": [
+        "so salt disappears",
+        "so cells stop working",
+        "to control variables so the water movement comparison is fair",
+        "so they look prettier"
+      ],
+      "correctAnswer": "to control variables so the water movement comparison is fair",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Fair tests change one main variable."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q8",
+      "type": "multiple_choice",
+      "prompt": "A cell placed in plain water swells. What likely moved?",
+      "questionText": "A cell placed in plain water swells. What likely moved?",
+      "options": [
+        "DNA left the planet",
+        "water moved into the cell",
+        "chromosomes moved into rock",
+        "food web arrows moved backward"
+      ],
+      "correctAnswer": "water moved into the cell",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "standard",
+      "explanation": "Water movement can change cell size."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q9",
+      "type": "multiple_choice",
+      "prompt": "Which question tests understanding?",
+      "questionText": "Which question tests understanding?",
+      "options": [
+        "How would the result change if the outside solution were less salty?",
+        "How long is the word membrane?",
+        "Is the cup colorful?",
+        "Can the label be bigger?"
+      ],
+      "correctAnswer": "How would the result change if the outside solution were less salty?",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "standard",
+      "explanation": "Changing the condition tests the model."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q10",
+      "type": "multiple_choice",
+      "prompt": "A dye drop spreads through still water. What concept does this model?",
+      "questionText": "A dye drop spreads through still water. What concept does this model?",
+      "options": [
+        "carrying capacity",
+        "common ancestry",
+        "digestion",
+        "diffusion"
+      ],
+      "correctAnswer": "diffusion",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "The dye spreads from high to low concentration."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q11",
+      "type": "multiple_choice",
+      "prompt": "Which data pattern supports diffusion?",
+      "questionText": "Which data pattern supports diffusion?",
+      "options": [
+        "no observations are recorded",
+        "the cup changes names",
+        "color is darkest near the drop at first, then spreads outward over time",
+        "color stays only in the label"
+      ],
+      "correctAnswer": "color is darkest near the drop at first, then spreads outward over time",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Spreading over time is a diffusion pattern."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q12",
+      "type": "multiple_choice",
+      "prompt": "Why do cells need oxygen to move in?",
+      "questionText": "Why do cells need oxygen to move in?",
+      "options": [
+        "cells never use oxygen",
+        "oxygen is used by cells during cellular respiration",
+        "oxygen is a chromosome",
+        "oxygen makes fossils"
+      ],
+      "correctAnswer": "oxygen is used by cells during cellular respiration",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "recall"
+      ],
+      "difficulty": "standard",
+      "explanation": "Cells need materials for processes."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q13",
+      "type": "multiple_choice",
+      "prompt": "Which claim overreaches?",
+      "questionText": "Which claim overreaches?",
+      "options": [
+        "This one cucumber test proves every membrane moves every material the same way.",
+        "The salty condition may cause water loss.",
+        "Mass change can be evidence.",
+        "More trials would strengthen the claim."
+      ],
+      "correctAnswer": "This one cucumber test proves every membrane moves every material the same way.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "standard",
+      "explanation": "One test should not be overgeneralized."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q14",
+      "type": "multiple_choice",
+      "prompt": "A membrane lets water through more easily than large starch molecules. What does selective mean?",
+      "questionText": "A membrane lets water through more easily than large starch molecules. What does selective mean?",
+      "options": [
+        "nothing can ever cross",
+        "everything crosses equally",
+        "the membrane has no role",
+        "some materials cross more easily than others"
+      ],
+      "correctAnswer": "some materials cross more easily than others",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "standard",
+      "explanation": "Selective boundaries do not treat all materials the same."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q15",
+      "type": "multiple_choice",
+      "prompt": "What should a graph of potato mass in salty water show if water leaves cells?",
+      "questionText": "What should a graph of potato mass in salty water show if water leaves cells?",
+      "options": [
+        "mass is never measured",
+        "mass increases because labels are bigger",
+        "mass decreases over time",
+        "mass becomes fossil age"
+      ],
+      "correctAnswer": "mass decreases over time",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "data-pattern"
+      ],
+      "difficulty": "standard",
+      "explanation": "Water loss can reduce mass."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q16",
+      "type": "multiple_choice",
+      "prompt": "A freshwater organism is moved to very salty water and cells lose water. What might happen?",
+      "questionText": "A freshwater organism is moved to very salty water and cells lose water. What might happen?",
+      "options": [
+        "the membrane vanishes",
+        "cell processes may be stressed because internal conditions change",
+        "the organism becomes a producer",
+        "all cells get unlimited water"
+      ],
+      "correctAnswer": "cell processes may be stressed because internal conditions change",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Water balance matters for cell function."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q17",
+      "type": "multiple_choice",
+      "prompt": "Which result would weaken the salt-water claim?",
+      "questionText": "Which result would weaken the salt-water claim?",
+      "options": [
+        "all slices changed the same way, including the no-salt control",
+        "the salty slice lost mass",
+        "repeated trials showed similar water loss",
+        "the salty slice became more flexible"
+      ],
+      "correctAnswer": "all slices changed the same way, including the no-salt control",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "If the control changes the same way, salt may not be the cause."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q18",
+      "type": "multiple_choice",
+      "prompt": "Why connect membrane movement to homeostasis?",
+      "questionText": "Why connect membrane movement to homeostasis?",
+      "options": [
+        "homeostasis means nothing moves",
+        "membranes only exist in ecosystems",
+        "cells do not need conditions",
+        "controlled exchange helps cells keep workable internal conditions"
+      ],
+      "correctAnswer": "controlled exchange helps cells keep workable internal conditions",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Material movement supports internal balance."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q19",
+      "type": "multiple_choice",
+      "prompt": "Which explanation is most scientific?",
+      "questionText": "Which explanation is most scientific?",
+      "options": [
+        "Water wanted to escape.",
+        "The plate pulled out the water with feelings.",
+        "The salt outside created a concentration difference that led to water movement out of cells.",
+        "The cucumber disliked salt."
+      ],
+      "correctAnswer": "The salt outside created a concentration difference that led to water movement out of cells.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Scientific explanations use mechanisms."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q20",
+      "type": "multiple_choice",
+      "prompt": "A student changes both salt amount and slice thickness. What problem does this create?",
+      "questionText": "A student changes both salt amount and slice thickness. What problem does this create?",
+      "options": [
+        "It proves diffusion cannot happen.",
+        "It is harder to know which variable caused the result.",
+        "It makes the result automatically perfect.",
+        "It removes all need for data."
+      ],
+      "correctAnswer": "It is harder to know which variable caused the result.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Multiple changed variables weaken claims."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q21",
+      "type": "multiple_choice",
+      "prompt": "Which evidence combines model and data?",
+      "questionText": "Which evidence combines model and data?",
+      "options": [
+        "a diagram of water leaving cells plus measured mass loss",
+        "a funny title only",
+        "a sketch with no labels and no measurements",
+        "a list of unrelated organisms"
+      ],
+      "correctAnswer": "a diagram of water leaving cells plus measured mass loss",
+      "skillTags": [
+        "visual"
+      ],
+      "reasoningTags": [
+        "model-interpretation",
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Models and measurements support each other."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q22",
+      "type": "multiple_choice",
+      "prompt": "If oxygen is higher outside a cell than inside, which movement is likely?",
+      "questionText": "If oxygen is higher outside a cell than inside, which movement is likely?",
+      "options": [
+        "oxygen becomes water",
+        "oxygen always moves out",
+        "oxygen stops at the label",
+        "oxygen tends to diffuse into the cell"
+      ],
+      "correctAnswer": "oxygen tends to diffuse into the cell",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "cause-effect"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Diffusion tends from high to low concentration."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q23",
+      "type": "multiple_choice",
+      "prompt": "Why is the membrane not the same as a wall around a room?",
+      "questionText": "Why is the membrane not the same as a wall around a room?",
+      "options": [
+        "it has no relationship to cells",
+        "it is made of desk wood",
+        "it is a living boundary involved in selective material exchange",
+        "it blocks absolutely everything"
+      ],
+      "correctAnswer": "it is a living boundary involved in selective material exchange",
+      "skillTags": [
+        "conceptual"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "The analogy has limits."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q24",
+      "type": "multiple_choice",
+      "prompt": "Which final summary is best?",
+      "questionText": "Which final summary is best?",
+      "options": [
+        "Salt always creates DNA.",
+        "Cell membranes help manage material movement, and concentration differences can affect cell conditions.",
+        "Cells never exchange materials.",
+        "Particles move because they choose goals."
+      ],
+      "correctAnswer": "Cell membranes help manage material movement, and concentration differences can affect cell conditions.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "This captures boundary, movement, and effect."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q25",
+      "type": "multiple_choice",
+      "prompt": "What would be the best next investigation?",
+      "questionText": "What would be the best next investigation?",
+      "options": [
+        "compare several salt concentrations while keeping sample size and time constant",
+        "change every variable at once",
+        "measure only plate color",
+        "skip the control sample"
+      ],
+      "correctAnswer": "compare several salt concentrations while keeping sample size and time constant",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "scenario-transfer",
+        "data-pattern"
+      ],
+      "difficulty": "challenge",
+      "explanation": "A range of concentrations tests the model."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q26",
+      "type": "multiple_choice",
+      "prompt": "Which explanation best avoids memorizing only vocabulary?",
+      "questionText": "Which explanation best avoids memorizing only vocabulary?",
+      "options": [
+        "It repeats the bold word only.",
+        "It ignores data.",
+        "It chooses the shortest answer.",
+        "It connects the model, evidence, and cause/effect relationship."
+      ],
+      "correctAnswer": "It connects the model, evidence, and cause/effect relationship.",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "model-interpretation"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Understanding means using the idea."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q27",
+      "type": "multiple_choice",
+      "prompt": "Which type of evidence would make the claim stronger?",
+      "questionText": "Which type of evidence would make the claim stronger?",
+      "options": [
+        "a favorite opinion",
+        "a result with no measurement",
+        "repeated observations under controlled conditions",
+        "one unlabeled picture"
+      ],
+      "correctAnswer": "repeated observations under controlled conditions",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Repeated controlled observations strengthen claims."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q28",
+      "type": "multiple_choice",
+      "prompt": "What should a careful scientist avoid?",
+      "questionText": "What should a careful scientist avoid?",
+      "options": [
+        "comparing evidence",
+        "changing several variables and then claiming one cause with certainty",
+        "recording data",
+        "using a model"
+      ],
+      "correctAnswer": "changing several variables and then claiming one cause with certainty",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "misconception-check"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Fair tests protect conclusions."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q29",
+      "type": "multiple_choice",
+      "prompt": "Which prompt asks for transfer?",
+      "questionText": "Which prompt asks for transfer?",
+      "options": [
+        "How would the model apply if the organism, material, or ecosystem changed?",
+        "What is the first letter of the topic?",
+        "Can the page be colored?",
+        "Is the title long?"
+      ],
+      "correctAnswer": "How would the model apply if the organism, material, or ecosystem changed?",
+      "skillTags": [
+        "application"
+      ],
+      "reasoningTags": [
+        "scenario-transfer"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Transfer means applying the idea to new details."
+    },
+    {
+      "id": "science7-cell-membrane-materials-movement-core-q30",
+      "type": "multiple_choice",
+      "prompt": "Which final habit helps in science?",
+      "questionText": "Which final habit helps in science?",
+      "options": [
+        "choose first and ignore evidence",
+        "memorize labels only",
+        "avoid models",
+        "explain the evidence before choosing the claim"
+      ],
+      "correctAnswer": "explain the evidence before choosing the claim",
+      "skillTags": [
+        "reasoning"
+      ],
+      "reasoningTags": [
+        "claim-evidence"
+      ],
+      "difficulty": "challenge",
+      "explanation": "Claims should follow evidence."
+    }
+  ]
+}
