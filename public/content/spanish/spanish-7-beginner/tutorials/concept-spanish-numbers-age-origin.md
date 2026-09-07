@@ -31,16 +31,34 @@ Useful numbers:
 | trece | thirteen |
 | catorce | fourteen |
 | quince | fifteen |
+| dieciséis | sixteen |
+| diecisiete | seventeen |
+| dieciocho | eighteen |
+| diecinueve | nineteen |
+| veinte | twenty |
+| veintiuno | twenty-one |
+| veintidós | twenty-two |
+| veintitrés | twenty-three |
+| veinticuatro | twenty-four |
+| veinticinco | twenty-five |
+| veintiséis | twenty-six |
+| veintisiete | twenty-seven |
+| veintiocho | twenty-eight |
+| veintinueve | twenty-nine |
+| treinta | thirty |
 
 Age:
 
 - Tengo doce años. = I am twelve years old.
 - ¿Cuántos años tienes? = How old are you?
+- Tiene trece años. = He or she is thirteen years old.
 
 Origin:
 
 - Soy de California. = I am from California.
 - ¿De dónde eres? = Where are you from?
+- Es de Guatemala. = He or she is from Guatemala.
+- Soy de aquí. = I am from here.
 
 ## Build The Model
 
@@ -55,7 +73,9 @@ For origin:
 ## Memory Anchors
 
 - **Tengo... años** gives age.
+- **Tiene... años** gives someone else's age.
 - **Soy de...** gives origin.
+- **Es de...** gives someone else's origin.
 - **¿Cuántos?** asks how many.
 - **¿De dónde?** asks from where.
 
@@ -72,6 +92,7 @@ For origin:
 
 - How do you ask someone's age?
 - How do you say "I am from California"?
+- How do you say "He is from Guatemala"?
 - Why does age use `tener` instead of `ser`?
 
 ## Apply It
@@ -80,6 +101,8 @@ Practice with your own information:
 
 - Tengo ____ años.
 - Soy de ____.
+- Mi amiga tiene ____ años.
+- Ella es de ____.
 
 Then ask someone else:
 

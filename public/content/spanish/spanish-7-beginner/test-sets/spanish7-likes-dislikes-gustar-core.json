@@ -1,0 +1,141 @@
+{
+  "id": "spanish7-likes-dislikes-gustar-core",
+  "testId": "spanish7-likes-dislikes-gustar-core",
+  "conceptId": "concept-spanish-likes-dislikes-gustar",
+  "title": "Likes and Dislikes with Gustar Core Test",
+  "description": "Core practice for me gusta, no me gusta, te gusta, le gusta, gusta, and gustan.",
+  "questions": [
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q01",
+      "type": "multiple_choice",
+      "questionText": "What does \"Me gusta la música\" mean?",
+      "options": ["I like music.", "You like music.", "He likes music.", "I do not like music."],
+      "correctAnswer": "I like music.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "application"],
+      "explanation": "\"Me gusta\" means I like."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"I do not like art\"?",
+      "options": ["Me gusta el arte.", "No me gusta el arte.", "¿Te gusta el arte?", "Le gusta el arte."],
+      "correctAnswer": "No me gusta el arte.",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"No me gusta\" means I do not like."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q03",
+      "type": "multiple_choice",
+      "questionText": "What does \"¿Te gusta la ciencia?\" mean?",
+      "options": ["Do you like science?", "I like science.", "Science likes you.", "He likes science."],
+      "correctAnswer": "Do you like science?",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "application"],
+      "explanation": "\"¿Te gusta...?\" asks if you like something."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"he or she likes\"?",
+      "options": ["me gusta", "no me gusta", "te gusta", "le gusta"],
+      "correctAnswer": "le gusta",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Le gusta\" means he or she likes."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q05",
+      "type": "multiple_choice",
+      "questionText": "What does \"A Esteban le gusta el lago\" mean?",
+      "options": ["Esteban likes the lake.", "Esteban has the lake.", "Esteban lives near the lake.", "Esteban makes the lake."],
+      "correctAnswer": "Esteban likes the lake.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "\"A Esteban le gusta...\" means Esteban likes."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Choose the correct sentence for liking one thing.",
+      "options": ["Me gustan el lago.", "Me gusta el lago.", "Me gusto el lago.", "Yo gusta el lago."],
+      "correctAnswer": "Me gusta el lago.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual", "application"],
+      "explanation": "Use \"gusta\" for one thing: \"Me gusta el lago.\""
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Choose the correct sentence for liking plural things.",
+      "options": ["Me gusta los peces.", "Me gustan los peces.", "Me gusto los peces.", "Yo gustan los peces."],
+      "correctAnswer": "Me gustan los peces.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual", "application"],
+      "explanation": "Use \"gustan\" for plural things like \"los peces.\""
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q08",
+      "type": "multiple_choice",
+      "questionText": "What does \"Me gustan las matemáticas\" mean?",
+      "options": ["I like math.", "Math likes me.", "I do not like math.", "Do you like math?"],
+      "correctAnswer": "I like math.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Me gustan\" is used because \"las matemáticas\" is plural."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q09",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"He does not like history\"?",
+      "options": ["Le gusta la historia.", "No le gusta la historia.", "No me gusta la historia.", "¿Te gusta la historia?"],
+      "correctAnswer": "No le gusta la historia.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"No le gusta\" means he or she does not like."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q10",
+      "type": "multiple_choice",
+      "questionText": "Read: \"Le gusta el agua porque es azul.\" What does he like?",
+      "options": ["the water", "the fish", "the book", "the class"],
+      "correctAnswer": "the water",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "\"El agua\" means the water."
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q11",
+      "type": "multiple_choice",
+      "questionText": "Which answer best explains when to use \"gustan\"?",
+      "options": ["Use it when the thing liked is plural.", "Use it only with names.", "Use it only for dislikes.", "Use it only for questions."],
+      "correctAnswer": "Use it when the thing liked is plural.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["conceptual", "reasoning"],
+      "explanation": "The thing liked controls \"gusta\" or \"gustan.\""
+    },
+    {
+      "id": "spanish7-likes-dislikes-gustar-core-q12",
+      "type": "multiple_choice",
+      "questionText": "Which mini-dialogue makes sense?",
+      "options": ["A: ¿Te gusta el arte? B: Sí, me gusta el arte.", "A: ¿Te gusta el arte? B: Soy de arte.", "A: ¿Te gusta el arte? B: Tengo trece años.", "A: ¿Te gusta el arte? B: Hasta mañana."],
+      "correctAnswer": "A: ¿Te gusta el arte? B: Sí, me gusta el arte.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "The question asks about liking art, and the answer says yes, I like art."
+    }
+  ]
+}

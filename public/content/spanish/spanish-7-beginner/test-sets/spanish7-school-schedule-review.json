@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-school-schedule-review",
+  "testId": "spanish7-school-schedule-review",
+  "conceptId": "concept-spanish-school-schedule",
+  "title": "School Subjects and Schedules Review",
+  "description": "Short review for class vocabulary and simple schedule sentences.",
+  "questions": [
+    {
+      "id": "spanish7-school-schedule-review-q01",
+      "type": "multiple_choice",
+      "questionText": "Which word means \"class\"?",
+      "options": ["la clase", "el horario", "la música", "el almuerzo"],
+      "correctAnswer": "la clase",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"La clase\" means class."
+    },
+    {
+      "id": "spanish7-school-schedule-review-q02",
+      "type": "multiple_choice",
+      "questionText": "What does \"la historia\" mean?",
+      "options": ["history", "science", "Spanish", "technology"],
+      "correctAnswer": "history",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"La historia\" means history."
+    },
+    {
+      "id": "spanish7-school-schedule-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish word means \"lunch\"?",
+      "options": ["el almuerzo", "el arte", "el inglés", "la ciencia"],
+      "correctAnswer": "el almuerzo",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"El almuerzo\" means lunch."
+    },
+    {
+      "id": "spanish7-school-schedule-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"at nine\"?",
+      "options": ["a las nueve", "primero", "después", "mi clase"],
+      "correctAnswer": "a las nueve",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"A las nueve\" means at nine."
+    },
+    {
+      "id": "spanish7-school-schedule-review-q05",
+      "type": "multiple_choice",
+      "questionText": "Which answer fits \"¿Qué clase tienes?\"",
+      "options": ["Tengo ciencia.", "Tengo doce años.", "Soy de aquí.", "Nos vemos."],
+      "correctAnswer": "Tengo ciencia.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Tengo ciencia\" answers what class you have."
+    },
+    {
+      "id": "spanish7-school-schedule-review-q06",
+      "type": "multiple_choice",
+      "questionText": "What does \"Mi clase favorita es arte\" mean?",
+      "options": ["My favorite class is art.", "I have art first.", "Art starts at eight.", "I do not like art."],
+      "correctAnswer": "My favorite class is art.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Mi clase favorita\" means my favorite class."
+    },
+    {
+      "id": "spanish7-school-schedule-review-q07",
+      "type": "multiple_choice",
+      "questionText": "Which pair is matched correctly?",
+      "options": ["después = afterward", "primero = lunch", "el horario = art", "la música = math"],
+      "correctAnswer": "después = afterward",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "\"Después\" means afterward."
+    },
+    {
+      "id": "spanish7-school-schedule-review-q08",
+      "type": "multiple_choice",
+      "questionText": "Which sentence best describes a schedule?",
+      "options": ["Primero tengo inglés. Después tengo matemáticas.", "Me llamo inglés. Mucho gusto.", "Soy de matemáticas.", "No entiendo la música."],
+      "correctAnswer": "Primero tengo inglés. Después tengo matemáticas.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "The sentence uses first and afterward to describe a class order."
+    }
+  ]
+}

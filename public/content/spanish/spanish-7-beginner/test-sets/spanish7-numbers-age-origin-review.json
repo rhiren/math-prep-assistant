@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-numbers-age-origin-review",
+  "testId": "spanish7-numbers-age-origin-review",
+  "conceptId": "concept-spanish-numbers-age-origin",
+  "title": "Numbers, Age, and Origin Review",
+  "description": "Short review for numbers, age questions, and origin questions.",
+  "questions": [
+    {
+      "id": "spanish7-numbers-age-origin-review-q01",
+      "type": "multiple_choice",
+      "questionText": "What number is \"quince\"?",
+      "options": ["5", "15", "25", "30"],
+      "correctAnswer": "15",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Quince\" means 15."
+    },
+    {
+      "id": "spanish7-numbers-age-origin-review-q02",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish number means 18?",
+      "options": ["dieciocho", "dieciséis", "veintiocho", "ocho"],
+      "correctAnswer": "dieciocho",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Dieciocho\" means 18."
+    },
+    {
+      "id": "spanish7-numbers-age-origin-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Which phrase asks how old someone is?",
+      "options": ["¿Cuántos años tienes?", "¿De dónde eres?", "¿Cómo estás?", "¿Qué clase tienes?"],
+      "correctAnswer": "¿Cuántos años tienes?",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"¿Cuántos años tienes?\" asks age."
+    },
+    {
+      "id": "spanish7-numbers-age-origin-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which answer gives origin?",
+      "options": ["Soy de California.", "Tengo doce años.", "Muy bien.", "Hasta mañana."],
+      "correctAnswer": "Soy de California.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application", "reasoning"],
+      "explanation": "\"Soy de California\" tells where someone is from."
+    },
+    {
+      "id": "spanish7-numbers-age-origin-review-q05",
+      "type": "multiple_choice",
+      "questionText": "What does \"Soy de aquí\" mean?",
+      "options": ["I am from here.", "I am twelve.", "I have a question.", "I like it here."],
+      "correctAnswer": "I am from here.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Aquí\" means here, so \"Soy de aquí\" means I am from here."
+    },
+    {
+      "id": "spanish7-numbers-age-origin-review-q06",
+      "type": "multiple_choice",
+      "questionText": "Which sentence uses the correct Spanish age pattern?",
+      "options": ["Tengo catorce años.", "Soy catorce años.", "Me llamo catorce años.", "Hay catorce años."],
+      "correctAnswer": "Tengo catorce años.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual", "application"],
+      "explanation": "Spanish uses \"tener\" for age."
+    },
+    {
+      "id": "spanish7-numbers-age-origin-review-q07",
+      "type": "multiple_choice",
+      "questionText": "Which pair is matched correctly?",
+      "options": ["doce = 12", "veinte = 30", "nueve = 19", "trece = 3"],
+      "correctAnswer": "doce = 12",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "\"Doce\" means 12."
+    },
+    {
+      "id": "spanish7-numbers-age-origin-review-q08",
+      "type": "multiple_choice",
+      "questionText": "A classmate asks \"¿De dónde eres?\" Which response fits?",
+      "options": ["Soy de San Ramón.", "Tengo trece años.", "Me gusta el arte.", "Hasta luego."],
+      "correctAnswer": "Soy de San Ramón.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "The question asks where you are from, so an answer with \"Soy de...\" fits."
+    }
+  ]
+}

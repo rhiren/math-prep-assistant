@@ -20,6 +20,8 @@ Useful preference phrases:
 | No me gusta... | I do not like... |
 | ¿Te gusta...? | Do you like...? |
 | Me gusta mucho... | I like... a lot. |
+| Le gusta... | He or she likes... |
+| No le gusta... | He or she does not like... |
 
 Use `gusta` for one thing or an activity:
 
@@ -30,6 +32,19 @@ Use `gustan` for more than one thing:
 
 - Me gustan las matemáticas.
 - Me gustan los deportes.
+- A Esteban le gustan los peces.
+
+Useful preference words:
+
+| Spanish | English |
+|---|---|
+| el agua | the water |
+| el lago | the lake |
+| los peces | the fish |
+| la música | music |
+| el arte | art |
+| las matemáticas | math |
+| la historia | history |
 
 ## Build The Model
 
@@ -41,11 +56,18 @@ Example:
 
 `Me -> gusta -> la música.`
 
+If a person's name is included, Spanish often starts with `A`:
+
+`A Esteban -> le gusta -> el lago`
+
+This means Esteban likes the lake.
+
 ## Memory Anchors
 
 - **Me gusta** means I like.
 - **No me gusta** means I do not like.
 - **¿Te gusta?** asks do you like.
+- **Le gusta** means he or she likes.
 - **Plural things often use gustan.**
 
 ## Common Traps
@@ -61,6 +83,7 @@ Example:
 
 - What does `Me gusta la música` mean?
 - When would you use `gustan`?
+- What does `A Esteban le gusta el lago` mean?
 - How do you ask a classmate if they like science?
 
 ## Apply It
@@ -70,6 +93,8 @@ Create three preference sentences:
 - Me gusta ____.
 - No me gusta ____.
 - ¿Te gusta ____?
+- A Esteban le gusta ____.
+- A Esteban le gustan ____.
 
 ## 3-2-1 Memory Check
 
