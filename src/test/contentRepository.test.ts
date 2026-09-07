@@ -948,14 +948,26 @@ describe("content repository", () => {
     expect(course?.units[0]?.concepts).toHaveLength(10);
     expect(course?.units[1]?.id).toBe("course3-unit-dilations-similarity-slope");
     expect(course?.units[1]?.concepts).toHaveLength(9);
-    expect(course?.units[2]?.id).toBe("course3-unit-real-numbers-exponents");
-    expect(course?.units[2]?.concepts).toHaveLength(12);
+    expect(course?.units[2]?.id).toBe("course3-unit-lines-slope-linear-equations");
+    expect(course?.units[2]?.title).toBe("Proportional and Linear Relationships");
+    expect(course?.units[2]?.concepts).toHaveLength(9);
+    expect(course?.units[2]?.concepts.map((concept) => concept.id)).toEqual([
+      "concept-proportional-relationships-as-lines",
+      "concept-equations-y-equals-mx",
+      "concept-understand-y-intercept",
+      "concept-equations-y-equals-mx-plus-b",
+      "concept-find-slope-tables-points",
+      "concept-compare-rates-of-change",
+      "concept-graph-linear-equations",
+      "concept-write-linear-equations-representations",
+      "concept-unit-3-mixed-review",
+    ]);
     expect(course?.units[3]?.id).toBe("course3-unit-linear-equations");
     expect(course?.units[3]?.concepts).toHaveLength(10);
-    expect(course?.units[4]?.id).toBe("course3-unit-lines-slope-linear-equations");
-    expect(course?.units[4]?.concepts).toHaveLength(9);
-    expect(course?.units[5]?.id).toBe("course3-unit-systems-linear-equations");
-    expect(course?.units[5]?.concepts).toHaveLength(5);
+    expect(course?.units[4]?.id).toBe("course3-unit-systems-linear-equations");
+    expect(course?.units[4]?.concepts).toHaveLength(5);
+    expect(course?.units[5]?.id).toBe("course3-unit-real-numbers-exponents");
+    expect(course?.units[5]?.concepts).toHaveLength(12);
 
     for (const pack of conceptPacks) {
       const concept = await repository.getConcept(pack.conceptId);

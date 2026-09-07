@@ -2,35 +2,53 @@
 
 ## Big Idea
 
-Unit 3 connects rates, graphs, tables, and equations. A line's slope describes how fast y changes when x changes. For proportional relationships, the line goes through the origin and can be written as `y = mx`.
+A proportional relationship has one constant multiplier between `x` and `y`.
+On a graph, that relationship is a straight line through `(0, 0)`.
+
+In Unit 2, slope measured steepness with rise over run. In Unit 3, that same
+idea becomes a rate in a table, graph, equation, or situation.
 
 ## What To Notice
 
-- Slope is `change in y / change in x`.
-- Positive slope rises from left to right; negative slope falls from left to right.
-- A proportional relationship has a graph through `(0, 0)`.
-- The same slope can appear in a graph, table, equation, or story.
-- Equivalent rise/run ratios describe the same steepness.
+- A proportional graph always passes through the origin.
+- The constant of proportionality is the same as the slope.
+- The equation has the form `y = mx`, with no added starting value.
+- Every point on the line should have the same ratio `y / x`, except `(0, 0)`.
+- If a line does not pass through `(0, 0)`, it can still be linear, but it is
+  not proportional.
 
 ## Worked Example
 
-If 3 tickets cost $18, the point (3, 18) gives m = 18/3 = 6, so y = 6x.
+A bike rental costs `$12` for `3` hours and `$20` for `5` hours.
 
-A proportional graph must pass through (0, 0).
+Compare the rates:
+
+- `12 / 3 = 4`
+- `20 / 5 = 4`
+
+The rate is constant, so the relationship is proportional. The equation is
+`y = 4x`, where `x` is hours and `y` is cost.
+
+On a graph, the line goes through `(0, 0)`, `(3, 12)`, and `(5, 20)`.
 
 ## Strategy
 
-| Representation | How to find the rate or slope |
+| Representation | Proportionality check |
 | --- | --- |
-| Graph | choose two points and use rise/run |
-| Table | divide change in y by change in x |
-| Equation `y = mx` | read m as the slope |
-| Context | divide output change by input change |
+| Graph | straight line through `(0, 0)` |
+| Table | same `y / x` ratio for every nonzero row |
+| Equation | form `y = mx` |
+| Context | no starting amount before the rate begins |
 
-## Common Mistake
+## Common Traps
 
-Do not switch rise and run. Slope is vertical change divided by horizontal change: `change in y / change in x`.
+- A straight line is not automatically proportional.
+- A starting fee, deposit, or initial amount usually means the relationship is
+  not proportional.
+- Do not use `x / y` if the context asks for `y` per `x`.
 
 ## Quick Self-Check
 
-Ask whether the answer makes sense in context. If x increases, should y increase, decrease, or stay the same?
+Ask: "If `x = 0`, should `y` also be `0`?" If yes, proportional may fit. If
+there is already some amount at `x = 0`, use a linear model with an intercept
+instead.

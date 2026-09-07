@@ -349,10 +349,10 @@ The current active Course 3 manifest contains 55 learner-ready concepts:
 
 - Rigid Transformations and Congruence: 10 concepts
 - Dilations, Similarity, and Slope: 9 concepts
-- Real Numbers and Exponents: 12 concepts
+- Proportional and Linear Relationships: 9 concepts
 - Linear Equations in One Variable: 10 concepts
-- Lines, Slope, and Linear Equations: 9 concepts
 - Systems of Linear Equations: 5 concepts
+- Real Numbers and Exponents: 12 concepts
 
 The current book-aligned learner-ready sequence begins with:
 
@@ -375,10 +375,19 @@ The current book-aligned learner-ready sequence begins with:
 - `Understand Slope as Rate of Change`
 - `Find Slope from Graphs`
 - `Unit 2 Mixed Review`
+- `Proportional Relationships as Lines`
+- `Equations in the Form y = mx`
+- `Understand the y-Intercept`
+- `Equations in the Form y = mx + b`
+- `Find Slope from Tables and Points`
+- `Compare Rates of Change`
+- `Graph Linear Equations`
+- `Write Linear Equations from Representations`
+- `Unit 3 Mixed Review`
 
 The next Course 3 build target is:
 
-- `Proportional Relationships as Lines`
+- `Linear Equations and Linear Systems`
 
 Course 3 multiple-choice answer choices must remain position-balanced. Do not
 author or generate test banks where the correct answer repeatedly appears in

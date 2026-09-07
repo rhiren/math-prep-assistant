@@ -1100,10 +1100,1337 @@
           ]
         },
         {
+          "id": "course3-unit-lines-slope-linear-equations",
+          "courseId": "course-3",
+          "title": "Proportional and Linear Relationships",
+          "description": "Write and compare proportional and linear relationships using tables, graphs, equations, slope, and y-intercepts.",
+          "order": 3,
+          "concepts": [
+            {
+              "id": "concept-proportional-relationships-as-lines",
+              "title": "Proportional Relationships as Lines",
+              "description": "Connect proportional relationships to lines through the origin and equations of the form y = mx.",
+              "tags": [
+                "linear-equations",
+                "proportional-relationships",
+                "graphs"
+              ],
+              "skillTags": [
+                "conceptual",
+                "graph",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-proportional-relationships-as-lines.md",
+              "tests": [
+                {
+                  "id": "course3-proportional-relationships-as-lines-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-proportional-relationships-as-lines-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-proportional-relationships-as-lines-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-proportional-relationships-as-lines-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-y-equals-mx",
+              "title": "Equations in the Form y = mx",
+              "description": "Write and interpret proportional linear equations in the form y = mx.",
+              "tags": [
+                "linear-equations",
+                "y-mx",
+                "proportional-relationships"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "graph"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-y-equals-mx.md",
+              "tests": [
+                {
+                  "id": "course3-equations-y-equals-mx-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-y-equals-mx-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-understand-y-intercept",
+              "title": "Understand the y-Intercept",
+              "description": "Interpret the y-intercept as the starting value and the point where a line crosses the y-axis.",
+              "tags": [
+                "linear-equations",
+                "y-intercept",
+                "graphs"
+              ],
+              "skillTags": [
+                "conceptual",
+                "graph",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-understand-y-intercept.md",
+              "tests": [
+                {
+                  "id": "course3-understand-y-intercept-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-understand-y-intercept-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-understand-y-intercept-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-understand-y-intercept-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-y-equals-mx-plus-b",
+              "title": "Equations in the Form y = mx + b",
+              "description": "Write and interpret linear equations using slope and y-intercept.",
+              "tags": [
+                "linear-equations",
+                "slope",
+                "y-intercept"
+              ],
+              "skillTags": [
+                "computation",
+                "conceptual",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-y-equals-mx-plus-b.md",
+              "tests": [
+                {
+                  "id": "course3-equations-y-equals-mx-plus-b-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-plus-b-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-y-equals-mx-plus-b-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-y-equals-mx-plus-b-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-find-slope-tables-points",
+              "title": "Find Slope from Tables and Points",
+              "description": "Calculate slope from tables and coordinate pairs using change in y over change in x.",
+              "tags": [
+                "slope",
+                "tables",
+                "points"
+              ],
+              "skillTags": [
+                "computation",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-find-slope-tables-points.md",
+              "tests": [
+                {
+                  "id": "course3-find-slope-tables-points-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-find-slope-tables-points-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-find-slope-tables-points-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-find-slope-tables-points-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-compare-rates-of-change",
+              "title": "Compare Rates of Change",
+              "description": "Compare rates of change across proportional relationships, tables, graphs, and contexts.",
+              "tags": [
+                "slope",
+                "rate-of-change",
+                "comparison"
+              ],
+              "skillTags": [
+                "reasoning",
+                "application",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 6,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-compare-rates-of-change.md",
+              "tests": [
+                {
+                  "id": "course3-compare-rates-of-change-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-compare-rates-of-change-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-compare-rates-of-change-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-compare-rates-of-change-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-graph-linear-equations",
+              "title": "Graph Linear Equations",
+              "description": "Graph lines by plotting the y-intercept and using slope as rise over run.",
+              "tags": [
+                "linear-equations",
+                "graphs",
+                "slope"
+              ],
+              "skillTags": [
+                "graph",
+                "visual",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 7,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-graph-linear-equations.md",
+              "tests": [
+                {
+                  "id": "course3-graph-linear-equations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-graph-linear-equations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-graph-linear-equations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-graph-linear-equations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-write-linear-equations-representations",
+              "title": "Write Linear Equations from Representations",
+              "description": "Write y = mx + b equations from tables, points, graphs, and contexts.",
+              "tags": [
+                "linear-equations",
+                "representations",
+                "slope"
+              ],
+              "skillTags": [
+                "linear-equations",
+                "representations",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 8,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-write-linear-equations-representations.md",
+              "tests": [
+                {
+                  "id": "course3-write-linear-equations-representations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-write-linear-equations-representations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-write-linear-equations-representations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-write-linear-equations-representations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-unit-3-mixed-review",
+              "title": "Unit 3 Mixed Review",
+              "description": "Review slope, y-intercept, linear equations, graphing, and multiple representations of lines.",
+              "tags": [
+                "linear-equations",
+                "slope",
+                "unit-review"
+              ],
+              "skillTags": [
+                "review",
+                "reasoning",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.5",
+                "8.EE.6"
+              ],
+              "order": 9,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-unit-3-mixed-review.md",
+              "tests": [
+                {
+                  "id": "course3-unit-3-mixed-review-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-unit-3-mixed-review-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-unit-3-mixed-review-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-unit-3-mixed-review-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ],
+          "standardsFrameworks": [
+            "8.EE.5",
+            "8.EE.6"
+          ],
+          "tags": [
+            "linear-relationships",
+            "proportional-relationships",
+            "slope",
+            "y-intercept",
+            "graphs",
+            "tables"
+          ]
+        },
+        {
+          "id": "course3-unit-linear-equations",
+          "title": "Linear Equations in One Variable",
+          "description": "Build from equivalent expressions into multi-step linear equations, special solution cases, and equation modeling.",
+          "order": 4,
+          "concepts": [
+            {
+              "id": "concept-review-equivalent-expressions",
+              "title": "Review Equivalent Expressions",
+              "description": "Review combining like terms, distribution, factoring, and equivalent-expression reasoning before solving linear equations.",
+              "tags": [
+                "expressions",
+                "equivalent-expressions",
+                "distributive-property"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-review-equivalent-expressions.md",
+              "tests": [
+                {
+                  "id": "course3-review-equivalent-expressions-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-review-equivalent-expressions-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-review-equivalent-expressions-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-review-equivalent-expressions-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-solve-multi-step-equations",
+              "title": "Solve Multi-Step Equations",
+              "description": "Solve one-variable equations that require simplifying, inverse operations, negative coefficients, fractions, decimals, and solution checks.",
+              "tags": [
+                "linear-equations",
+                "multi-step-equations",
+                "inverse-operations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-multi-step-equations.md",
+              "tests": [
+                {
+                  "id": "course3-solve-multi-step-equations-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-multi-step-equations-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-multi-step-equations-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-multi-step-equations-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-distributive-property",
+              "title": "Equations with the Distributive Property",
+              "description": "Solve one-variable equations that require distributing, handling negative factors, combining like terms, and checking in the original equation.",
+              "tags": [
+                "linear-equations",
+                "distributive-property",
+                "multi-step-equations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-distributive-property.md",
+              "tests": [
+                {
+                  "id": "course3-equations-distributive-property-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-distributive-property-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-distributive-property-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-distributive-property-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-variables-both-sides",
+              "title": "Equations with Variables on Both Sides",
+              "description": "Solve one-variable equations by moving variable terms, moving constants, distributing when needed, and checking solutions.",
+              "tags": [
+                "linear-equations",
+                "variables-on-both-sides",
+                "multi-step-equations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "application"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-variables-both-sides.md",
+              "tests": [
+                {
+                  "id": "course3-equations-variables-both-sides-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-variables-both-sides-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-variables-both-sides-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-variables-both-sides-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-rational-coefficients",
+              "title": "Equations with Rational Coefficients",
+              "description": "Solve one-variable equations with fraction and decimal coefficients by clearing denominators, combining terms, and checking solutions.",
+              "tags": [
+                "linear-equations",
+                "rational-coefficients",
+                "fractions",
+                "decimals"
+              ],
+              "skillTags": [
+                "conceptual",
+                "computation",
+                "reasoning",
+                "multi-step"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-rational-coefficients.md",
+              "tests": [
+                {
+                  "id": "course3-equations-rational-coefficients-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-rational-coefficients-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-rational-coefficients-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-rational-coefficients-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-equations-solution-types",
+              "title": "One Solution, No Solution, or Infinitely Many Solutions",
+              "description": "Classify linear equations by simplifying both sides and comparing variable terms and constants.",
+              "tags": [
+                "linear-equations",
+                "solution-types",
+                "equivalent-equations"
+              ],
+              "skillTags": [
+                "conceptual",
+                "reasoning",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 6,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-equations-solution-types.md",
+              "tests": [
+                {
+                  "id": "course3-equations-solution-types-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-equations-solution-types-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-equations-solution-types-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-equations-solution-types-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-build-equations-from-context",
+              "title": "Build Equations from Context",
+              "description": "Translate situations into one-variable equations by identifying constants, rates, variables, and equal quantities.",
+              "tags": [
+                "linear-equations",
+                "modeling",
+                "context"
+              ],
+              "skillTags": [
+                "application",
+                "reasoning",
+                "word-problem"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 7,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-build-equations-from-context.md",
+              "tests": [
+                {
+                  "id": "course3-build-equations-from-context-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-build-equations-from-context-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-build-equations-from-context-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-build-equations-from-context-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-linear-equation-word-problems",
+              "title": "Linear Equation Word Problems",
+              "description": "Solve one-variable linear equation word problems by defining a variable, building an equation, solving, and interpreting the answer.",
+              "tags": [
+                "linear-equations",
+                "word-problems",
+                "modeling"
+              ],
+              "skillTags": [
+                "application",
+                "word-problem",
+                "multi-step",
+                "reasoning"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 8,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-linear-equation-word-problems.md",
+              "tests": [
+                {
+                  "id": "course3-linear-equation-word-problems-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-linear-equation-word-problems-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-linear-equation-word-problems-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-linear-equation-word-problems-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-check-explain-equation-solutions",
+              "title": "Check and Explain Equation Solutions",
+              "description": "Check proposed solutions in original equations and explain whether solving steps preserve equality.",
+              "tags": [
+                "linear-equations",
+                "checking-solutions",
+                "error-analysis"
+              ],
+              "skillTags": [
+                "reasoning",
+                "conceptual",
+                "computation"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 9,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-check-explain-equation-solutions.md",
+              "tests": [
+                {
+                  "id": "course3-check-explain-equation-solutions-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-check-explain-equation-solutions-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-check-explain-equation-solutions-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-check-explain-equation-solutions-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-unit-2-mixed-review",
+              "title": "Unit 2 Mixed Review",
+              "description": "Review equivalent expressions, multi-step equations, distributive property equations, rational coefficients, solution types, modeling, and checking solutions.",
+              "tags": [
+                "linear-equations",
+                "mixed-review",
+                "unit-review"
+              ],
+              "skillTags": [
+                "computation",
+                "conceptual",
+                "reasoning",
+                "application",
+                "word-problem"
+              ],
+              "meta": {
+                "type": "mixed-review",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.7"
+              ],
+              "order": 10,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-unit-2-mixed-review.md",
+              "tests": [
+                {
+                  "id": "course3-unit-2-mixed-review-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-unit-2-mixed-review-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-unit-2-mixed-review-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-unit-2-mixed-review-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "course3-unit-systems-linear-equations",
+          "courseId": "course-3",
+          "title": "Systems of Linear Equations",
+          "description": "Use graphs, substitution, and elimination to reason about solutions to systems of linear equations.",
+          "order": 5,
+          "concepts": [
+            {
+              "id": "concept-understand-solutions-systems",
+              "title": "Understand Solutions to Systems",
+              "description": "Understand a system solution as an ordered pair that makes both equations true.",
+              "tags": [
+                "systems",
+                "linear-equations",
+                "solutions"
+              ],
+              "skillTags": [
+                "systems",
+                "graph",
+                "conceptual"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 1,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-understand-solutions-systems.md",
+              "tests": [
+                {
+                  "id": "course3-understand-solutions-systems-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-understand-solutions-systems-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-understand-solutions-systems-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-understand-solutions-systems-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-solve-systems-graphing",
+              "title": "Solve Systems by Graphing",
+              "description": "Solve systems by graphing both lines and identifying their intersection point.",
+              "tags": [
+                "systems",
+                "graphing",
+                "intersection"
+              ],
+              "skillTags": [
+                "systems",
+                "graphing",
+                "intersection"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 2,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-systems-graphing.md",
+              "tests": [
+                {
+                  "id": "course3-solve-systems-graphing-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-systems-graphing-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-systems-graphing-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-systems-graphing-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-solve-systems-substitution",
+              "title": "Solve Systems by Substitution",
+              "description": "Solve systems algebraically by replacing one variable with an equivalent expression.",
+              "tags": [
+                "systems",
+                "substitution",
+                "algebra"
+              ],
+              "skillTags": [
+                "systems",
+                "substitution",
+                "algebra"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 3,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-systems-substitution.md",
+              "tests": [
+                {
+                  "id": "course3-solve-systems-substitution-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-systems-substitution-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-systems-substitution-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-systems-substitution-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-solve-systems-elimination",
+              "title": "Solve Systems by Elimination",
+              "description": "Solve systems by adding or subtracting equivalent equations to eliminate one variable.",
+              "tags": [
+                "systems",
+                "elimination",
+                "algebra"
+              ],
+              "skillTags": [
+                "systems",
+                "elimination",
+                "algebra"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 4,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-solve-systems-elimination.md",
+              "tests": [
+                {
+                  "id": "course3-solve-systems-elimination-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-solve-systems-elimination-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-solve-systems-elimination-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-solve-systems-elimination-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            },
+            {
+              "id": "concept-systems-no-solution",
+              "title": "Systems with No Solution",
+              "description": "Recognize systems whose lines are parallel and therefore have no ordered-pair solution.",
+              "tags": [
+                "systems",
+                "no-solution",
+                "parallel-lines"
+              ],
+              "skillTags": [
+                "systems",
+                "no-solution",
+                "parallel-lines"
+              ],
+              "meta": {
+                "type": "core",
+                "assessable": true
+              },
+              "instructionalGrades": [
+                "8"
+              ],
+              "programPathways": [
+                "accelerated"
+              ],
+              "standardsFrameworks": [
+                "8.EE.8"
+              ],
+              "order": 5,
+              "testQuestionCount": 50,
+              "tutorial": "./content/tutorials/concept-systems-no-solution.md",
+              "tests": [
+                {
+                  "id": "course3-systems-no-solution-core",
+                  "type": "concept",
+                  "path": "./content/test-sets/course3-systems-no-solution-core.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": true
+                  }
+                },
+                {
+                  "id": "course3-systems-no-solution-review",
+                  "type": "review",
+                  "path": "./content/test-sets/course3-systems-no-solution-review.json",
+                  "difficultyProfile": {
+                    "scaffold": true,
+                    "standard": true,
+                    "challenge": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "course3-unit-real-numbers-exponents",
           "title": "Real Numbers and Exponents",
           "description": "Build a strong foundation with rational and irrational numbers before moving into radicals, exponents, and scientific notation.",
-          "order": 3,
+          "order": 6,
           "concepts": [
             {
               "id": "concept-rational-irrational-numbers",
@@ -1751,1321 +3078,6 @@
                   "id": "course3-unit-1-mixed-review-review",
                   "type": "review",
                   "path": "./content/test-sets/course3-unit-1-mixed-review-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "course3-unit-linear-equations",
-          "title": "Linear Equations in One Variable",
-          "description": "Build from equivalent expressions into multi-step linear equations, special solution cases, and equation modeling.",
-          "order": 4,
-          "concepts": [
-            {
-              "id": "concept-review-equivalent-expressions",
-              "title": "Review Equivalent Expressions",
-              "description": "Review combining like terms, distribution, factoring, and equivalent-expression reasoning before solving linear equations.",
-              "tags": [
-                "expressions",
-                "equivalent-expressions",
-                "distributive-property"
-              ],
-              "skillTags": [
-                "conceptual",
-                "computation",
-                "reasoning",
-                "application"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 1,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-review-equivalent-expressions.md",
-              "tests": [
-                {
-                  "id": "course3-review-equivalent-expressions-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-review-equivalent-expressions-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-review-equivalent-expressions-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-review-equivalent-expressions-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-solve-multi-step-equations",
-              "title": "Solve Multi-Step Equations",
-              "description": "Solve one-variable equations that require simplifying, inverse operations, negative coefficients, fractions, decimals, and solution checks.",
-              "tags": [
-                "linear-equations",
-                "multi-step-equations",
-                "inverse-operations"
-              ],
-              "skillTags": [
-                "conceptual",
-                "computation",
-                "reasoning",
-                "application"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 2,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-solve-multi-step-equations.md",
-              "tests": [
-                {
-                  "id": "course3-solve-multi-step-equations-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-solve-multi-step-equations-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-solve-multi-step-equations-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-solve-multi-step-equations-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-equations-distributive-property",
-              "title": "Equations with the Distributive Property",
-              "description": "Solve one-variable equations that require distributing, handling negative factors, combining like terms, and checking in the original equation.",
-              "tags": [
-                "linear-equations",
-                "distributive-property",
-                "multi-step-equations"
-              ],
-              "skillTags": [
-                "conceptual",
-                "computation",
-                "reasoning",
-                "application"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 3,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-equations-distributive-property.md",
-              "tests": [
-                {
-                  "id": "course3-equations-distributive-property-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-equations-distributive-property-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-equations-distributive-property-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-equations-distributive-property-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-equations-variables-both-sides",
-              "title": "Equations with Variables on Both Sides",
-              "description": "Solve one-variable equations by moving variable terms, moving constants, distributing when needed, and checking solutions.",
-              "tags": [
-                "linear-equations",
-                "variables-on-both-sides",
-                "multi-step-equations"
-              ],
-              "skillTags": [
-                "conceptual",
-                "computation",
-                "reasoning",
-                "application"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 4,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-equations-variables-both-sides.md",
-              "tests": [
-                {
-                  "id": "course3-equations-variables-both-sides-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-equations-variables-both-sides-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-equations-variables-both-sides-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-equations-variables-both-sides-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-equations-rational-coefficients",
-              "title": "Equations with Rational Coefficients",
-              "description": "Solve one-variable equations with fraction and decimal coefficients by clearing denominators, combining terms, and checking solutions.",
-              "tags": [
-                "linear-equations",
-                "rational-coefficients",
-                "fractions",
-                "decimals"
-              ],
-              "skillTags": [
-                "conceptual",
-                "computation",
-                "reasoning",
-                "multi-step"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 5,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-equations-rational-coefficients.md",
-              "tests": [
-                {
-                  "id": "course3-equations-rational-coefficients-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-equations-rational-coefficients-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-equations-rational-coefficients-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-equations-rational-coefficients-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-equations-solution-types",
-              "title": "One Solution, No Solution, or Infinitely Many Solutions",
-              "description": "Classify linear equations by simplifying both sides and comparing variable terms and constants.",
-              "tags": [
-                "linear-equations",
-                "solution-types",
-                "equivalent-equations"
-              ],
-              "skillTags": [
-                "conceptual",
-                "reasoning",
-                "computation"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 6,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-equations-solution-types.md",
-              "tests": [
-                {
-                  "id": "course3-equations-solution-types-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-equations-solution-types-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-equations-solution-types-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-equations-solution-types-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-build-equations-from-context",
-              "title": "Build Equations from Context",
-              "description": "Translate situations into one-variable equations by identifying constants, rates, variables, and equal quantities.",
-              "tags": [
-                "linear-equations",
-                "modeling",
-                "context"
-              ],
-              "skillTags": [
-                "application",
-                "reasoning",
-                "word-problem"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 7,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-build-equations-from-context.md",
-              "tests": [
-                {
-                  "id": "course3-build-equations-from-context-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-build-equations-from-context-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-build-equations-from-context-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-build-equations-from-context-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-linear-equation-word-problems",
-              "title": "Linear Equation Word Problems",
-              "description": "Solve one-variable linear equation word problems by defining a variable, building an equation, solving, and interpreting the answer.",
-              "tags": [
-                "linear-equations",
-                "word-problems",
-                "modeling"
-              ],
-              "skillTags": [
-                "application",
-                "word-problem",
-                "multi-step",
-                "reasoning"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 8,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-linear-equation-word-problems.md",
-              "tests": [
-                {
-                  "id": "course3-linear-equation-word-problems-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-linear-equation-word-problems-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-linear-equation-word-problems-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-linear-equation-word-problems-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-check-explain-equation-solutions",
-              "title": "Check and Explain Equation Solutions",
-              "description": "Check proposed solutions in original equations and explain whether solving steps preserve equality.",
-              "tags": [
-                "linear-equations",
-                "checking-solutions",
-                "error-analysis"
-              ],
-              "skillTags": [
-                "reasoning",
-                "conceptual",
-                "computation"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 9,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-check-explain-equation-solutions.md",
-              "tests": [
-                {
-                  "id": "course3-check-explain-equation-solutions-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-check-explain-equation-solutions-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-check-explain-equation-solutions-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-check-explain-equation-solutions-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-unit-2-mixed-review",
-              "title": "Unit 2 Mixed Review",
-              "description": "Review equivalent expressions, multi-step equations, distributive property equations, rational coefficients, solution types, modeling, and checking solutions.",
-              "tags": [
-                "linear-equations",
-                "mixed-review",
-                "unit-review"
-              ],
-              "skillTags": [
-                "computation",
-                "conceptual",
-                "reasoning",
-                "application",
-                "word-problem"
-              ],
-              "meta": {
-                "type": "mixed-review",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.7"
-              ],
-              "order": 10,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-unit-2-mixed-review.md",
-              "tests": [
-                {
-                  "id": "course3-unit-2-mixed-review-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-unit-2-mixed-review-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-unit-2-mixed-review-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-unit-2-mixed-review-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "course3-unit-lines-slope-linear-equations",
-          "courseId": "course-3",
-          "title": "Unit 3 — Lines, Slope, and Linear Equations",
-          "description": "Understand slope, rate of change, proportional linear equations, and multiple representations of lines.",
-          "order": 5,
-          "concepts": [
-            {
-              "id": "concept-proportional-relationships-as-lines",
-              "title": "Proportional Relationships as Lines",
-              "description": "Connect proportional relationships to lines through the origin and equations of the form y = mx.",
-              "tags": [
-                "linear-equations",
-                "proportional-relationships",
-                "graphs"
-              ],
-              "skillTags": [
-                "conceptual",
-                "graph",
-                "reasoning"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 1,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-proportional-relationships-as-lines.md",
-              "tests": [
-                {
-                  "id": "course3-proportional-relationships-as-lines-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-proportional-relationships-as-lines-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-proportional-relationships-as-lines-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-proportional-relationships-as-lines-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-find-slope-tables-points",
-              "title": "Find Slope from Tables and Points",
-              "description": "Calculate slope from tables and coordinate pairs using change in y over change in x.",
-              "tags": [
-                "slope",
-                "tables",
-                "points"
-              ],
-              "skillTags": [
-                "computation",
-                "reasoning"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 2,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-find-slope-tables-points.md",
-              "tests": [
-                {
-                  "id": "course3-find-slope-tables-points-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-find-slope-tables-points-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-find-slope-tables-points-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-find-slope-tables-points-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-compare-rates-of-change",
-              "title": "Compare Rates of Change",
-              "description": "Compare rates of change across proportional relationships, tables, graphs, and contexts.",
-              "tags": [
-                "slope",
-                "rate-of-change",
-                "comparison"
-              ],
-              "skillTags": [
-                "reasoning",
-                "application",
-                "computation"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 3,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-compare-rates-of-change.md",
-              "tests": [
-                {
-                  "id": "course3-compare-rates-of-change-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-compare-rates-of-change-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-compare-rates-of-change-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-compare-rates-of-change-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-equations-y-equals-mx",
-              "title": "Equations in the Form y = mx",
-              "description": "Write and interpret proportional linear equations in the form y = mx.",
-              "tags": [
-                "linear-equations",
-                "y-mx",
-                "proportional-relationships"
-              ],
-              "skillTags": [
-                "conceptual",
-                "computation",
-                "graph"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 4,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-equations-y-equals-mx.md",
-              "tests": [
-                {
-                  "id": "course3-equations-y-equals-mx-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-equations-y-equals-mx-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-equations-y-equals-mx-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-equations-y-equals-mx-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-understand-y-intercept",
-              "title": "Understand the y-Intercept",
-              "description": "Interpret the y-intercept as the starting value and the point where a line crosses the y-axis.",
-              "tags": [
-                "linear-equations",
-                "y-intercept",
-                "graphs"
-              ],
-              "skillTags": [
-                "conceptual",
-                "graph",
-                "reasoning"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 5,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-understand-y-intercept.md",
-              "tests": [
-                {
-                  "id": "course3-understand-y-intercept-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-understand-y-intercept-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-understand-y-intercept-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-understand-y-intercept-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-equations-y-equals-mx-plus-b",
-              "title": "Equations in the Form y = mx + b",
-              "description": "Write and interpret linear equations using slope and y-intercept.",
-              "tags": [
-                "linear-equations",
-                "slope",
-                "y-intercept"
-              ],
-              "skillTags": [
-                "computation",
-                "conceptual",
-                "application"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 6,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-equations-y-equals-mx-plus-b.md",
-              "tests": [
-                {
-                  "id": "course3-equations-y-equals-mx-plus-b-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-equations-y-equals-mx-plus-b-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-equations-y-equals-mx-plus-b-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-equations-y-equals-mx-plus-b-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-graph-linear-equations",
-              "title": "Graph Linear Equations",
-              "description": "Graph lines by plotting the y-intercept and using slope as rise over run.",
-              "tags": [
-                "linear-equations",
-                "graphs",
-                "slope"
-              ],
-              "skillTags": [
-                "graph",
-                "visual",
-                "reasoning"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 7,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-graph-linear-equations.md",
-              "tests": [
-                {
-                  "id": "course3-graph-linear-equations-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-graph-linear-equations-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-graph-linear-equations-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-graph-linear-equations-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-write-linear-equations-representations",
-              "title": "Write Linear Equations from Representations",
-              "description": "Write y = mx + b equations from tables, points, graphs, and contexts.",
-              "tags": [
-                "linear-equations",
-                "representations",
-                "slope"
-              ],
-              "skillTags": [
-                "linear-equations",
-                "representations",
-                "reasoning"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 8,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-write-linear-equations-representations.md",
-              "tests": [
-                {
-                  "id": "course3-write-linear-equations-representations-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-write-linear-equations-representations-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-write-linear-equations-representations-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-write-linear-equations-representations-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-unit-3-mixed-review",
-              "title": "Unit 3 Mixed Review",
-              "description": "Review slope, y-intercept, linear equations, graphing, and multiple representations of lines.",
-              "tags": [
-                "linear-equations",
-                "slope",
-                "unit-review"
-              ],
-              "skillTags": [
-                "review",
-                "reasoning",
-                "computation"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.5",
-                "8.EE.6"
-              ],
-              "order": 9,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-unit-3-mixed-review.md",
-              "tests": [
-                {
-                  "id": "course3-unit-3-mixed-review-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-unit-3-mixed-review-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-unit-3-mixed-review-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-unit-3-mixed-review-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "course3-unit-systems-linear-equations",
-          "courseId": "course-3",
-          "title": "Unit 4 — Systems of Linear Equations",
-          "description": "Solve systems of linear equations using graphs and algebraic methods, and interpret the number of solutions.",
-          "order": 6,
-          "concepts": [
-            {
-              "id": "concept-understand-solutions-systems",
-              "title": "Understand Solutions to Systems",
-              "description": "Understand a system solution as an ordered pair that makes both equations true.",
-              "tags": [
-                "systems",
-                "linear-equations",
-                "solutions"
-              ],
-              "skillTags": [
-                "systems",
-                "graph",
-                "conceptual"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.8"
-              ],
-              "order": 1,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-understand-solutions-systems.md",
-              "tests": [
-                {
-                  "id": "course3-understand-solutions-systems-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-understand-solutions-systems-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-understand-solutions-systems-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-understand-solutions-systems-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-solve-systems-graphing",
-              "title": "Solve Systems by Graphing",
-              "description": "Solve systems by graphing both lines and identifying their intersection point.",
-              "tags": [
-                "systems",
-                "graphing",
-                "intersection"
-              ],
-              "skillTags": [
-                "systems",
-                "graphing",
-                "intersection"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.8"
-              ],
-              "order": 2,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-solve-systems-graphing.md",
-              "tests": [
-                {
-                  "id": "course3-solve-systems-graphing-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-solve-systems-graphing-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-solve-systems-graphing-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-solve-systems-graphing-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-solve-systems-substitution",
-              "title": "Solve Systems by Substitution",
-              "description": "Solve systems algebraically by replacing one variable with an equivalent expression.",
-              "tags": [
-                "systems",
-                "substitution",
-                "algebra"
-              ],
-              "skillTags": [
-                "systems",
-                "substitution",
-                "algebra"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.8"
-              ],
-              "order": 3,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-solve-systems-substitution.md",
-              "tests": [
-                {
-                  "id": "course3-solve-systems-substitution-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-solve-systems-substitution-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-solve-systems-substitution-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-solve-systems-substitution-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-solve-systems-elimination",
-              "title": "Solve Systems by Elimination",
-              "description": "Solve systems by adding or subtracting equivalent equations to eliminate one variable.",
-              "tags": [
-                "systems",
-                "elimination",
-                "algebra"
-              ],
-              "skillTags": [
-                "systems",
-                "elimination",
-                "algebra"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.8"
-              ],
-              "order": 4,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-solve-systems-elimination.md",
-              "tests": [
-                {
-                  "id": "course3-solve-systems-elimination-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-solve-systems-elimination-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-solve-systems-elimination-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-solve-systems-elimination-review.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": false
-                  }
-                }
-              ]
-            },
-            {
-              "id": "concept-systems-no-solution",
-              "title": "Systems with No Solution",
-              "description": "Recognize systems whose lines are parallel and therefore have no ordered-pair solution.",
-              "tags": [
-                "systems",
-                "no-solution",
-                "parallel-lines"
-              ],
-              "skillTags": [
-                "systems",
-                "no-solution",
-                "parallel-lines"
-              ],
-              "meta": {
-                "type": "core",
-                "assessable": true
-              },
-              "instructionalGrades": [
-                "8"
-              ],
-              "programPathways": [
-                "accelerated"
-              ],
-              "standardsFrameworks": [
-                "8.EE.8"
-              ],
-              "order": 5,
-              "testQuestionCount": 50,
-              "tutorial": "./content/tutorials/concept-systems-no-solution.md",
-              "tests": [
-                {
-                  "id": "course3-systems-no-solution-core",
-                  "type": "concept",
-                  "path": "./content/test-sets/course3-systems-no-solution-core.json",
-                  "difficultyProfile": {
-                    "scaffold": true,
-                    "standard": true,
-                    "challenge": true
-                  }
-                },
-                {
-                  "id": "course3-systems-no-solution-review",
-                  "type": "review",
-                  "path": "./content/test-sets/course3-systems-no-solution-review.json",
                   "difficultyProfile": {
                     "scaffold": true,
                     "standard": true,

@@ -135,7 +135,7 @@ Standards: `8.EE.5-6`
 8. Write Linear Equations from Representations
 9. Unit 3 Mixed Review
 
-Current reusable packs:
+Current learner-ready packs:
 
 - Proportional Relationships as Lines
 - Equations in the Form `y = mx`
@@ -148,6 +148,8 @@ Current reusable packs:
 - Unit 3 Mixed Review
 
 ### Unit 3 Execution Plan
+
+Status: completed in the active manifest.
 
 Goal: make book Unit 3 learner-ready in the active Course 3 sequence while
 preserving existing progress by reusing the already-built concept IDs, test
@@ -384,14 +386,15 @@ Use this sequence:
 
 As of this update, the active Course 3 manifest presents the complete
 ten-concept book-aligned Unit 1, the complete nine-concept book Unit 2,
-and the previously built standards-ordered units that remain reusable assets:
+the complete nine-concept book Unit 3, and the remaining previously built
+units that remain reusable assets:
 
 - Rigid Transformations and Congruence: 10 learner-ready concepts
 - Dilations, Similarity, and Slope: 9 learner-ready concepts
-- Real Numbers and Exponents: 12 learner-ready concepts
+- Proportional and Linear Relationships: 9 learner-ready concepts
 - Linear Equations in One Variable: 10 learner-ready concepts
-- Lines, Slope, and Linear Equations: 9 learner-ready concepts
 - Systems of Linear Equations: 5 learner-ready concepts
+- Real Numbers and Exponents: 12 learner-ready concepts
 
 Total active Course 3 concepts: 55.
 
@@ -400,9 +403,9 @@ as discarded work.
 
 ## Next Build Target
 
-The next Course 3 build target is book Unit 3:
+The next Course 3 build target is book Unit 4:
 
-- Proportional Relationships as Lines
+- Linear Equations and Linear Systems
 
 ## Definition of Ready
 
