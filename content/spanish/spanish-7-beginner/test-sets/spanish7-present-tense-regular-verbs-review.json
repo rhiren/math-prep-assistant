@@ -1,0 +1,64 @@
+{
+  "id": "spanish7-present-tense-regular-verbs-review",
+  "testId": "spanish7-present-tense-regular-verbs-review",
+  "conceptId": "concept-spanish-present-tense-regular-verbs",
+  "title": "Present Tense Regular Verbs Review",
+  "description": "Short review for regular present-tense verb patterns.",
+  "questions": [
+    {
+      "id": "spanish7-present-tense-regular-verbs-review-q01",
+      "type": "multiple_choice",
+      "questionText": "Which verb is an -ar infinitive?",
+      "options": ["hablar", "comer", "vivir", "eres"],
+      "correctAnswer": "hablar",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Hablar\" ends in -ar."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-review-q02",
+      "type": "multiple_choice",
+      "questionText": "Which form means \"I eat\"?",
+      "options": ["yo como", "yo comes", "yo come", "yo comen"],
+      "correctAnswer": "yo como",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Yo como\" means I eat."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-review-q03",
+      "type": "multiple_choice",
+      "questionText": "Choose the correct form: tú + hablar",
+      "options": ["tú hablo", "tú hablas", "tú habla", "tú hablan"],
+      "correctAnswer": "tú hablas",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "The tú form of regular -ar verbs ends in -as."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-review-q04",
+      "type": "multiple_choice",
+      "questionText": "Which pair is matched correctly?",
+      "options": ["nosotros vivimos = we live", "yo viven = I live", "ella vivimos = she lives", "tú vive = you live"],
+      "correctAnswer": "nosotros vivimos = we live",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["reasoning"],
+      "explanation": "\"Nosotros vivimos\" means we live."
+    },
+    {
+      "id": "spanish7-present-tense-regular-verbs-review-q05",
+      "type": "multiple_choice",
+      "questionText": "Which habit helps with regular verbs?",
+      "options": ["Find the subject before choosing the ending.", "Ignore the subject.", "Use the yo form for every subject.", "Never drop the infinitive ending."],
+      "correctAnswer": "Find the subject before choosing the ending.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["conceptual", "reasoning"],
+      "explanation": "The subject controls the verb ending."
+    }
+  ]
+}

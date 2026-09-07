@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-subject-pronouns-ser-core",
+  "testId": "spanish7-subject-pronouns-ser-core",
+  "conceptId": "concept-spanish-subject-pronouns-ser",
+  "title": "Subject Pronouns and Ser Core Test",
+  "description": "Core practice for subject pronouns and forms of ser.",
+  "questions": [
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q01",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish pronoun means \"I\"?",
+      "options": ["yo", "tú", "ella", "usted"],
+      "correctAnswer": "yo",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Yo\" means I."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which Spanish pronoun means \"we\"?",
+      "options": ["ellos", "nosotros", "usted", "yo"],
+      "correctAnswer": "nosotros",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Nosotros\" means we."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q03",
+      "type": "multiple_choice",
+      "questionText": "Which form of ser goes with \"yo\"?",
+      "options": ["soy", "eres", "es", "son"],
+      "correctAnswer": "soy",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Yo soy\" means I am."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Which form of ser goes with \"tú\"?",
+      "options": ["soy", "eres", "somos", "son"],
+      "correctAnswer": "eres",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary"],
+      "explanation": "\"Tú eres\" means you are."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q05",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"She is a student\"?",
+      "options": ["Ella es estudiante.", "Ella soy estudiante.", "Ella eres estudiante.", "Ella son estudiante."],
+      "correctAnswer": "Ella es estudiante.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Ella\" uses \"es.\""
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q06",
+      "type": "multiple_choice",
+      "questionText": "Which sentence means \"We are students\"?",
+      "options": ["Nosotros somos estudiantes.", "Nosotros son estudiantes.", "Nosotros es estudiantes.", "Nosotros soy estudiantes."],
+      "correctAnswer": "Nosotros somos estudiantes.",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Nosotros somos\" means we are."
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Which subjects use \"son\"?",
+      "options": ["ellos / ellas / ustedes", "yo / tú", "él / ella / usted", "nosotros only"],
+      "correctAnswer": "ellos / ellas / ustedes",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "\"Ellos,\" \"ellas,\" and \"ustedes\" use \"son.\""
+    },
+    {
+      "id": "spanish7-subject-pronouns-ser-core-q08",
+      "type": "multiple_choice",
+      "questionText": "Which answer best explains why Spanish has different forms of ser?",
+      "options": ["The verb form matches who the sentence is about.", "Ser only works for one person.", "Pronouns are never used in Spanish.", "Every form of ser means a different action."],
+      "correctAnswer": "The verb form matches who the sentence is about.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["conceptual", "reasoning"],
+      "explanation": "The subject controls the verb form."
+    }
+  ]
+}

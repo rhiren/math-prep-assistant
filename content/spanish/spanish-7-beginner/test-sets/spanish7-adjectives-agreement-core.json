@@ -1,0 +1,97 @@
+{
+  "id": "spanish7-adjectives-agreement-core",
+  "testId": "spanish7-adjectives-agreement-core",
+  "conceptId": "concept-spanish-adjectives-agreement",
+  "title": "Adjectives and Agreement Core Test",
+  "description": "Core practice for adjective gender and number agreement.",
+  "questions": [
+    {
+      "id": "spanish7-adjectives-agreement-core-q01",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"tall boy\"?",
+      "options": ["chico alto", "chica alta", "chicos altos", "chicas altas"],
+      "correctAnswer": "chico alto",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "conceptual"],
+      "explanation": "\"Chico\" is masculine singular, so the adjective is \"alto.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-core-q02",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"tall girl\"?",
+      "options": ["chico alto", "chica alta", "chicos altos", "chicas altas"],
+      "correctAnswer": "chica alta",
+      "difficulty": "scaffold",
+      "answerType": "number",
+      "skillTags": ["vocabulary", "conceptual"],
+      "explanation": "\"Chica\" is feminine singular, so the adjective is \"alta.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-core-q03",
+      "type": "multiple_choice",
+      "questionText": "Choose the matching adjective: la profesora ____.",
+      "options": ["alto", "alta", "altos", "altas"],
+      "correctAnswer": "alta",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"La profesora\" is feminine singular, so use \"alta.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-core-q04",
+      "type": "multiple_choice",
+      "questionText": "Choose the matching adjective: los estudiantes ____.",
+      "options": ["inteligente", "inteligentes", "inteligenta", "inteligentas"],
+      "correctAnswer": "inteligentes",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Los estudiantes\" is plural, so the adjective becomes \"inteligentes.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-core-q05",
+      "type": "multiple_choice",
+      "questionText": "Which phrase means \"tall girls\"?",
+      "options": ["chica alta", "chicas altas", "chicos altos", "chico alto"],
+      "correctAnswer": "chicas altas",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["application"],
+      "explanation": "\"Chicas\" is feminine plural, so use \"altas.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-core-q06",
+      "type": "multiple_choice",
+      "questionText": "What does adjective agreement check?",
+      "options": ["noun gender and number", "only word length", "only the first letter", "only accent marks"],
+      "correctAnswer": "noun gender and number",
+      "difficulty": "standard",
+      "answerType": "number",
+      "skillTags": ["conceptual"],
+      "explanation": "Agreement means the adjective follows the noun's gender and number."
+    },
+    {
+      "id": "spanish7-adjectives-agreement-core-q07",
+      "type": "multiple_choice",
+      "questionText": "Which sentence is correct?",
+      "options": ["Las amigas son simpáticas.", "Las amigas son simpático.", "Las amigas son simpáticos.", "Las amigas son simpática."],
+      "correctAnswer": "Las amigas son simpáticas.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["reasoning", "application"],
+      "explanation": "\"Las amigas\" is feminine plural, so use \"simpáticas.\""
+    },
+    {
+      "id": "spanish7-adjectives-agreement-core-q08",
+      "type": "multiple_choice",
+      "questionText": "Which answer best explains why \"chico alto\" and \"chica alta\" are different?",
+      "options": ["The adjective changes to match masculine or feminine nouns.", "The noun is plural in both phrases.", "Spanish adjectives never change.", "The adjective must always be feminine."],
+      "correctAnswer": "The adjective changes to match masculine or feminine nouns.",
+      "difficulty": "challenge",
+      "answerType": "number",
+      "skillTags": ["conceptual", "reasoning"],
+      "explanation": "Many adjectives change endings to match the noun."
+    }
+  ]
+}
